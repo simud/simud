@@ -196,31 +196,31 @@ https://viamotionhsi.netplus.ch/live/eds/rsila1hd/browser-dash/rsila1hd.mpd
 #EXTINF:0, tvg-id="rsi la2" tvg-logo="https://i.postimg.cc/HLxdhywy/photo-2025-03-13-12-49-58.png" group-title="Sky Sport", RSI La2
 https://viamotionhsi.netplus.ch/live/eds/rsila2hd/browser-dash/rsila2hd.mpd
 
-#EXTINF:-1 tvg-id="skysport251.it" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Sky Sport 251" group-title="Sky Sport", Sky Sport 251
+#EXTINF:-1 tvg-id="Sky.Sport..251.it" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Sky Sport 251" group-title="Sky Sport", Sky Sport 251
 https://top1-cdnnew.koskoros.ru/top1-cdn/calcioXskysport251/mono.m3u8
 
-#EXTINF:-1 tvg-id="skysport252.it" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Sky Sport 252" group-title="Sky Sport", Sky Sport 252
+#EXTINF:-1 tvg-id="Sky.Sport..252.it" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Sky Sport 252" group-title="Sky Sport", Sky Sport 252
 https://top1-cdnnew.koskoros.ru/top1-cdn/calcioXskysport252/mono.m3u8
 
-#EXTINF:-1 tvg-id="skysport253.it" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Sky Sport 253" group-title="Sky Sport", Sky Sport 253
+#EXTINF:-1 tvg-id="Sky.Sport..253.it" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Sky Sport 253" group-title="Sky Sport", Sky Sport 253
 https://top1-cdnnew.koskoros.ru/top1-cdn/calcioXskysport253/mono.m3u8
 
-#EXTINF:-1 tvg-id="skysport254.it" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Sky Sport 254" group-title="Sky Sport", Sky Sport 254
+#EXTINF:-1 tvg-id="Sky.Sport..254.it" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Sky Sport 254" group-title="Sky Sport", Sky Sport 254
 https://top1-cdnnew.koskoros.ru/top1-cdn/calcioXskysport254/mono.m3u8
 
-#EXTINF:-1 tvg-id="skysport255.it" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Sky Sport 255" group-title="Sky Sport", Sky Sport 255
+#EXTINF:-1 tvg-id="Sky.Sport..255.it" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Sky Sport 255" group-title="Sky Sport", Sky Sport 255
 https://top1-cdnnew.koskoros.ru/top1-cdn/calcioXskysport255/mono.m3u8
 
-#EXTINF:-1 tvg-id="skysport256.it" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Sky Sport 256" group-title="Sky Sport", Sky Sport 256
+#EXTINF:-1 tvg-id="Sky.Sport..256.it" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Sky Sport 256" group-title="Sky Sport", Sky Sport 256
 https://top1-cdnnew.koskoros.ru/top1-cdn/calcioXskysport256/mono.m3u8
 
-#EXTINF:-1 tvg-id="skysport257.it" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Sky Sport 257" group-title="Sky Sport", Sky Sport 257
+#EXTINF:-1 tvg-id="Sky.Sport..257.it" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Sky Sport 257" group-title="Sky Sport", Sky Sport 257
 https://top1-cdnnew.koskoros.ru/top1-cdn/calcioXskysport257/mono.m3u8
 
-#EXTINF:-1 tvg-id="skysport258.it" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Sky Sport 258" group-title="Sky Sport", Sky Sport 258
+#EXTINF:-1 tvg-id="Sky.Sport..258.it" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Sky Sport 258" group-title="Sky Sport", Sky Sport 258
 https://top1-cdnnew.koskoros.ru/top1-cdn/calcioXsky258/mono.m3u8
 
-#EXTINF:-1 tvg-id="skysport259.it" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Sky Sport 259" group-title="Sky Sport", Sky Sport 259
+#EXTINF:-1 tvg-id="Sky.Sport..259.it" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Sky Sport 259" group-title="Sky Sport", Sky Sport 259
 https://top1-cdnnew.koskoros.ru/top1-cdn/calcioXsky259/mono.m3u8
 
 #EXTINF:-1 tvg-id="Evento 1" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Evento 1" group-title="Sky Sport", Evento 1
@@ -257,6 +257,12 @@ https://windnew.koskoros.ru/wind/premium870/mono.m3u8
 #EXTVLCOPT:http-origin=https://dokoplay.xyz
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://nfsnew.koskoros.ru/nfs/premium577/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky sport nba" group-title="Sky Sport FHD" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png",Sky Sport NBA FHD
+#EXTVLCOPT:http-referrer=https://dokoplay.xyz/
+#EXTVLCOPT:http-origin=https://dokoplay.xyz
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://windnew.koskoros.ru/wind/premium875/mono.m3u8
 
 #EXTINF:-1 tvg-id="Sky.Sport.Arena.it" group-title="Sky Sport FHD" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png",Sky Sport Arena FHD
 #EXTVLCOPT:http-referrer=https://dokoplay.xyz/
@@ -311,18 +317,6 @@ https://windnew.koskoros.ru/wind/premium873/mono.m3u8
 #EXTVLCOPT:http-origin=https://dokoplay.xyz
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://windnew.koskoros.ru/wind/premium874/mono.m3u8
-
-#EXTINF:-1 tvg-id="Sky.Sport..255.it" group-title="Sky Sport FHD" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png",Sky Calcio 5 (255) FHD
-#EXTVLCOPT:http-referrer=https://dokoplay.xyz/
-#EXTVLCOPT:http-origin=https://dokoplay.xyz
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://windnew.koskoros.ru/wind/premium875/mono.m3u8
-
-#EXTINF:-1 tvg-id="Sky.Sport..256.it" group-title="Sky Sport FHD" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png",Sky Calcio 6 (256) FHD
-#EXTVLCOPT:http-referrer=https://dokoplay.xyz/
-#EXTVLCOPT:http-origin=https://dokoplay.xyz
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://windnew.koskoros.ru/wind/premium876/mono.m3u8
 
 #EXTINF:-1 tvg-id="Sky.Sport..257.it" group-title="Sky Sport FHD" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png",Sky Calcio 7 (257) FHD
 #EXTVLCOPT:http-referrer=https://dokoplay.xyz/
