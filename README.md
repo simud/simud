@@ -3,7 +3,7 @@
 ![ ](https://i.postimg.cc/WzCn2WzH/stream-sm-1300x593.png)
 
 
-Benvenuto! 🚀 Questa lista ti permette di accedere a diversi canali TV tramite l'app **Televizo** (o altre app compatibili 📱). Alcuni canali sono **sempre attivi ✅**, mentre altri funzionano **solo durante gli eventi** (indicati come "Canale Evento").
+Benvenuto! 🚀 Questa lista ti permette di accedere a diversi canali TV tramite l'app **Televizo** (o altre app compatibili 📱). Alcuni canali sono **sempre attivi **, mentre altri funzionano **solo durante gli eventi** (indicati come "Canale Evento").
 
 **📡 Canali Disponibili**
 
