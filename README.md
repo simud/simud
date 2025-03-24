@@ -5,7 +5,7 @@
 
 Benvenuto! 🚀 Questa lista ti permette di accedere a diversi canali TV tramite l'app **Televizo** (o altre app compatibili 📱). Alcuni canali sono **sempre attivi **, mentre altri funzionano **solo durante gli eventi** (indicati come "Canale Evento").
 
-#**📡 Canali Disponibili**
+# **📡 Canali Disponibili**
 
 ## **📰 Rai**
 
