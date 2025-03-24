@@ -1,6 +1,6 @@
 # 📺 Lista Canali TV - Info & Funzionamento
 
-![ ](https://i.postimg.cc/yYRC42rc/featured-Dare-to-Stream-SR-v6.png)
+![ ](https://i.postimg.cc/WzCn2WzH/stream-sm-1300x593.png)
 
 
 Benvenuto! 🚀 Questa lista ti permette di accedere a diversi canali TV tramite l'app **Televizo** (o altre app compatibili 📱). Alcuni canali sono **sempre attivi ✅**, mentre altri funzionano **solo durante gli eventi** (indicati come "Canale Evento").
