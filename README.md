@@ -8,6 +8,8 @@ Benvenuto! 🚀 Questa lista ti permette di accedere a diversi canali TV tramite
 **📡 Canali Disponibili**
 
 **📰 Rai**
+
+
 📰 Rai 1 ✅
 
 📡 Rai 1 FHD ✅
@@ -48,7 +50,11 @@ Benvenuto! 🚀 Questa lista ti permette di accedere a diversi canali TV tramite
 
 🎬 20 Mediaset ✅
 
+
+
 **🎬 Sky Cinema**
+
+
 🍿 Sky Cinema Uno ✅  
 
 🎥 Sky Cinema Due ✅  
@@ -67,7 +73,11 @@ Benvenuto! 🚀 Questa lista ti permette di accedere a diversi canali TV tramite
 
 💘 Sky Cinema Romance ✅  
 
+
+
 **📽️ Sky Cinema FHD**
+
+
 🍿 Sky Cinema Uno FHD ✅  
 
 🎞️ Sky Cinema Collection FHD ✅ 
@@ -85,7 +95,10 @@ Benvenuto! 🚀 Questa lista ti permette di accedere a diversi canali TV tramite
 💘 Sky Cinema Romance FHD ✅  
 
 
+
 **⚽ Sky Sport**
+
+
 📰 Sky Sport 24 ✅  
 
 🏆 Sky Sport Uno ✅  
@@ -137,7 +150,10 @@ Benvenuto! 🚀 Questa lista ti permette di accedere a diversi canali TV tramite
 🎯 **Canale Evento 3** (solo eventi) ✅
 
 
+
 **🏅 Sky Sport FHD**
+
+
 📰 Sky Sport 24 FHD ✅  
 
 🏆 Sky Sport Uno FHD ✅  
@@ -170,7 +186,11 @@ Benvenuto! 🚀 Questa lista ti permette di accedere a diversi canali TV tramite
 
 📡 Sky Calcio 7 (257) FHD ✅  
 
+
+
 **⚽ DAZN Serie A**
+
+
 🏆 DAZN 1 ✅  
 
 🏆 DAZN 1 FHD ✅  
@@ -195,7 +215,11 @@ Benvenuto! 🚀 Questa lista ti permette di accedere a diversi canali TV tramite
 
 📡 Primavera TV FHD ✅  
 
+
+
 **⚽ DAZN Serie B**
+
+
 📡 ZONA DAZN Serie B ✅ (solo eventi)
 
 ⚽ Sassuolo ❌ (solo eventi)
@@ -238,7 +262,11 @@ Benvenuto! 🚀 Questa lista ti permette di accedere a diversi canali TV tramite
 
 ⚽ Catanzaro ✅ (solo eventi)
 
+
+
 **🌍 DAZN Stranieri**
+
+
 ⚽ La Liga (solo eventi) ✅
 
 ⚽ La Liga 2 (solo eventi) ✅
@@ -251,7 +279,11 @@ Benvenuto! 🚀 Questa lista ti permette di accedere a diversi canali TV tramite
 
 ⚽ Sky Sports Mix (en) (solo eventi) ✅
 
+
+
 **🎭 Intrattenimento**
+
+
 📺 Sky Uno ✅
 
 📺 Sky Uno FHD ✅
@@ -276,7 +308,11 @@ Benvenuto! 🚀 Questa lista ti permette di accedere a diversi canali TV tramite
 
 🎲 Sky Comedy Central ✅
 
+
+
 **🆓 Pluto TV Italia**
+
+
 Pluto TV Christmas ✅
 
 Carabinieri ✅
