@@ -111,10 +111,15 @@ Benvenuto! 🚀 Questa lista ti permette di accedere a diversi canali TV tramite
 
 ### ⚽ DAZN Serie B
 📡 ZONA DAZN Serie B ✅ (solo eventi)
+
 ⚽ Sassuolo ❌ (solo eventi)
+
 ⚽ Pisa ❌ (solo eventi)
+
 ⚽ Cittadella ✅ (solo eventi)
+
 ⚽ Cosenza ❌ (solo eventi)
+
 ⚽ Frosinone ✅ (solo eventi)
 ⚽ Cesena ✅ (solo eventi)
 ⚽ Juve Stabia ✅ (solo eventi)
