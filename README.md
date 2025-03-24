@@ -7,7 +7,7 @@ Benvenuto! 🚀 Questa lista ti permette di accedere a diversi canali TV tramite
 
 **📡 Canali Disponibili**
 
-#### **📰 Rai**
+## **📰 Rai**
 
 
 📰 Rai 1 ✅
