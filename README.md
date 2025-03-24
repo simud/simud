@@ -5,7 +5,7 @@
 
 Benvenuto! 🚀 Questa lista ti permette di accedere a diversi canali TV tramite l'app **Televizo** (o altre app compatibili 📱). Alcuni canali sono **sempre attivi **, mentre altri funzionano **solo durante gli eventi** (indicati come "Canale Evento").
 
-**📡 Canali Disponibili**
+#**📡 Canali Disponibili**
 
 ## **📰 Rai**
 
@@ -52,7 +52,7 @@ Benvenuto! 🚀 Questa lista ti permette di accedere a diversi canali TV tramite
 
 
 
-### **🎬 Sky Cinema**
+## **🎬 Sky Cinema**
 
 
 🍿 Sky Cinema Uno ✅  
@@ -75,7 +75,7 @@ Benvenuto! 🚀 Questa lista ti permette di accedere a diversi canali TV tramite
 
 
 
-### **📽️ Sky Cinema FHD**
+## **📽️ Sky Cinema FHD**
 
 
 🍿 Sky Cinema Uno FHD ✅  
@@ -96,7 +96,7 @@ Benvenuto! 🚀 Questa lista ti permette di accedere a diversi canali TV tramite
 
 
 
-### **⚽ Sky Sport**
+## **⚽ Sky Sport**
 
 
 📰 Sky Sport 24 ✅  
@@ -151,7 +151,7 @@ Benvenuto! 🚀 Questa lista ti permette di accedere a diversi canali TV tramite
 
 
 
-### **🏅 Sky Sport FHD**
+## **🏅 Sky Sport FHD**
 
 
 📰 Sky Sport 24 FHD ✅  
@@ -188,7 +188,7 @@ Benvenuto! 🚀 Questa lista ti permette di accedere a diversi canali TV tramite
 
 
 
-### **⚽ DAZN Serie A**
+## **⚽ DAZN Serie A**
 
 
 🏆 DAZN 1 ✅  
@@ -217,7 +217,7 @@ Benvenuto! 🚀 Questa lista ti permette di accedere a diversi canali TV tramite
 
 
 
-### **⚽ DAZN Serie B**
+## **⚽ DAZN Serie B**
 
 
 📡 ZONA DAZN Serie B ✅ (solo eventi)
@@ -264,7 +264,7 @@ Benvenuto! 🚀 Questa lista ti permette di accedere a diversi canali TV tramite
 
 
 
-### **🌍 DAZN Stranieri**
+# **🌍 DAZN Stranieri**
 
 
 ⚽ La Liga (solo eventi) ✅
@@ -281,7 +281,7 @@ Benvenuto! 🚀 Questa lista ti permette di accedere a diversi canali TV tramite
 
 
 
-### **🎭 Intrattenimento**
+## **🎭 Intrattenimento**
 
 
 📺 Sky Uno ✅
@@ -310,7 +310,7 @@ Benvenuto! 🚀 Questa lista ti permette di accedere a diversi canali TV tramite
 
 
 
-### **🆓 Pluto TV Italia**
+## **🆓 Pluto TV Italia**
 
 
 Pluto TV Christmas ✅
