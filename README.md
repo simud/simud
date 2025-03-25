@@ -624,13 +624,16 @@ VH1+ Classici ✅
 
 VH1+ Canzoni Italiane ✅
 
-🚀 Come Usare la Lista
+# 🚀 Come Usare la Lista
+
 1️⃣ Scarica l'app Televizo (o un'altra compatibile come IPTV Smarters, TiviMate, ecc.).
+
 2️⃣ Carica la lista all'interno dell'app.
+
 3️⃣ Goditi lo streaming! 🎉
 
-📌 Nota: Alcuni canali potrebbero essere disponibili solo in determinati orari o eventi.
+## 📌 Nota: Alcuni canali potrebbero essere disponibili solo in determinati orari o eventi.
 
-🔗 Buona visione! 🍿📺✨
+# 🔗 Buona visione! 🍿📺✨
 
 
