@@ -167,6 +167,12 @@ https://top1-cdnnew.koskoros.ru/top1-cdn/calcioXskycinemadrama/mono.m3u8
 #EXTINF:-1 tvg-id="sky cinema romance" tvg-logo="https://i.postimg.cc/Ss88rXcm/photo-2025-03-12-12-23-14.png" tvg-name="Sky Cinema Romance" group-title="Sky Cinema", Sky Cinema Romance 
 https://top1-cdnnew.koskoros.ru/top1-cdn/calcioXskycinemaromance/mono.m3u8
 
+#EXTINF:-1 tvg-id="DAZN 1" tvg-name="DAZN 12 test" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Cinema", DAZN 12 test
+#EXTVLCOPT:http-referrer=https://dokoplay.xyz/
+#EXTVLCOPT:http-origin=https://dokoplay.xyz
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://nfsnew.iosplayer.ru/nfs/premium877/mono.m3u8
+
 # Sky Cinema FHD
 #EXTINF:-1 tvg-id="Sky.Cinema.Uno.it" group-title="Sky Cinema FHD" tvg-logo="https://i.postimg.cc/Ss88rXcm/photo-2025-03-12-12-23-14.png",Sky Cinema Uno FHD
 #EXTVLCOPT:http-referrer=https://dokoplay.xyz/
@@ -404,6 +410,12 @@ https://nfsnew.koskoros.ru/nfs/premium877/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://top1-cdnnew.koskoros.ru/top1-cdn/calcioXdazn1/mono.m3u8
 
+#EXTINF:-1 tvg-id="DAZN 1" tvg-name="DAZN 1 HD" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="DAZN Serie A ", DAZN 1 HD
+#EXTVLCOPT:http-referrer=https://dokoplay.xyz/
+#EXTVLCOPT:http-origin=https://dokoplay.xyz
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://nfsnew.iosplayer.ru/nfs/premium877/mono.m3u8
+
 #EXTINF:-1 tvg-id="daznzona.it" tvg-logo="https://i.postimg.cc/L6bNsP4s/photo-2025-03-12-12-30-43.png" tvg-name="DAZN 1 FHD" group-title="DAZN Serie A ", DAZN 1 FHD
 #EXTVLCOPT:http-origin=https://chimeracuddleplay.cfd
 #EXTVLCOPT:http-referrer=https://chimeracuddleplay.cfd/
@@ -454,6 +466,12 @@ https://amg01444-tennischannelth-tennischannelspain-orangees-gpx6v.amagi.tv/play
 
 #EXTINF:-1 tvg-id="t2 tennis" tvg-name="T2 Tennis" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="DAZN Serie A ",T2 Tennis
 https://d3qg0hadt0dkov.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-3sfgyrfz9zduo-prod/amgtennisus/playlist.m3u8
+
+#EXTINF:-1 tvg-id="DAZN 1" tvg-name="DAZN 1 test" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="DAZN Serie A ", DAZN 1 test
+#EXTVLCOPT:http-referrer=https://dokoplay.xyz/
+#EXTVLCOPT:http-origin=https://dokoplay.xyz
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://nfsnew.iosplayer.ru/nfs/premium877/mono.m3u8
 
 # DAZN Serie B
 #EXTINF:-1 tvg-id="daznzona.it" tvg-logo="https://i.postimg.cc/L6bNsP4s/photo-2025-03-12-12-30-43.png" tvg-name="ZONA DAZN Serie B" group-title="DAZN Serie B", ZONA DAZN Serie B
