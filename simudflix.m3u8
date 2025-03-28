@@ -217,6 +217,12 @@ https://windnew.koskoros.ru/wind/premium867/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://windnew.koskoros.ru/wind/premium864/mono.m3u8
 
+#EXTINF:-1 tvg-id="Sky.Cinema.Romance.it" group-title="Sky Cinema FHD" tvg-logo="https://i.postimg.cc/Ss88rXcm/photo-2025-03-12-12-23-14.png",Sky Cinema Romance FHD 2
+#EXTVLCOPT:http-referrer=https://dokoplay.xyz/
+#EXTVLCOPT:http-origin=https://dokoplay.xyz
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://windnew.iosplayer.ru/wind/premium864/mono.m3u8
+
 # Sky Sport  
 #EXTINF:-1 tvg-id="skysport24.it" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Sky Sport 24" group-title="Sky Sport", Sky Sport 24
 https://top1-cdnnew.koskoros.ru/top1-cdn/calcioXskysport24/mono.m3u8
@@ -378,6 +384,12 @@ https://windnew.koskoros.ru/wind/premium873/mono.m3u8
 #EXTVLCOPT:http-origin=https://dokoplay.xyz
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://windnew.koskoros.ru/wind/premium874/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky.Sport..256.it" tvg-name="Sky Calcio 6 (256) FHD" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD", Sky Calcio 6 (256) FHD
+#EXTVLCOPT:http-referrer=https://dokoplay.xyz/
+#EXTVLCOPT:http-origin=https://dokoplay.xyz
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://windnew.iosplayer.ru/wind/premium876/mono.m3u8
 
 #EXTINF:-1 tvg-id="Sky.Sport..257.it" group-title="Sky Sport FHD" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png",Sky Calcio 7 (257) FHD
 #EXTVLCOPT:http-referrer=https://dokoplay.xyz/
