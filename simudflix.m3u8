@@ -168,13 +168,6 @@ https://top1-cdnnew.koskoros.ru/top1-cdn/calcioXskycinemadrama/mono.m3u8
 https://top1-cdnnew.koskoros.ru/top1-cdn/calcioXskycinemaromance/mono.m3u8
 
 # Sky Cinema FHD
-
-#EXTINF:-1 tvg-id="sky cinema uno +24" tvg-name="Sky Cinema Uno +24 FHD" tvg-logo="https://i.postimg.cc/Ss88rXcm/photo-2025-03-12-12-23-14.png" group-title="Sky Cinema FHD", Sky Cinema Uno +24 FHD
-#EXTVLCOPT:http-referrer=https://dokoplay.xyz/
-#EXTVLCOPT:http-origin=https://dokoplay.xyz
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://windnew.iosplayer.ru/wind/premium881/mono.m3u8
-
 #EXTINF:-1 tvg-id="Sky.Cinema.Uno.it" group-title="Sky Cinema FHD" tvg-logo="https://i.postimg.cc/Ss88rXcm/photo-2025-03-12-12-23-14.png",Sky Cinema Uno FHD
 #EXTVLCOPT:http-referrer=https://dokoplay.xyz/
 #EXTVLCOPT:http-origin=https://dokoplay.xyz
@@ -508,9 +501,15 @@ https://top1-cdnnew.koskoros.ru/top1-cdn/calcioXskysport/mono.m3u8
 #EXTINF:-1 tvg-id="sky uno" tvg-logo="https://i.postimg.cc/NFGs2Ptq/photo-2025-03-12-12-36-48.png" tvg-name="Sky Uno" group-title="Intrattenimento", Sky Uno  
 https://top1-cdnnew.koskoros.ru/top1-cdn/calcioXskyuno/mono.m3u8
 
-#EXTINF:-1 tvg-id="sky uno" group-title="Intrattenimento" tvg-logo="https://i.postimg.cc/NFGs2Ptq/photo-2025-03-12-12-36-48.png",Sky Uno FHD
+#EXTINF:-1 tvg-id="sky uno" tvg-name="Sky Uno HD" tvg-logo="https://i.postimg.cc/NFGs2Ptq/photo-2025-03-12-12-36-48.png" group-title="Intrattenimento", Sky Uno HD
 #EXTVLCOPT:http-referrer=https://dokoplay.xyz/
 #EXTVLCOPT:http-origin=https://dokoplay.xyz
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://windnew.iosplayer.ru/wind/premium881/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky uno" group-title="Intrattenimento" tvg-logo="https://i.postimg.cc/NFGs2Ptq/photo-2025-03-12-12-36-48.png",Sky Uno FHD
+#EXTVLCOPT:http-origin=https://chimeracuddleplay.cfd
+#EXTVLCOPT:http-referrer=https://chimeracuddleplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://windnew.koskoros.ru/wind/premium881/mono.m3u8
 
