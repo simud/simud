@@ -139,6 +139,9 @@ https://live02-seg.msf.cdn.mediaset.net/live/ch-kq/kq-clr.isml/index.m3u8
 #EXTINF:-1 tvg-chno="59" tvg-id="motor trend" tvg-name="Motor Trend" tvg-logo="https://i.postimg.cc/j5d5bSGp/photo-2025-03-13-12-56-42.png" group-title="Rai",Motor Trend
 https://amg16146-wbdi-amg16146c10-samsung-it-1843.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-motortrend-samsungit/playlist.m3u8
 
+#EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Rai", ADMIN
+https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
+
 # Sky Cinema  
 #EXTINF:-1 tvg-id="Sky Cinema Uno" tvg-logo="https://i.postimg.cc/Ss88rXcm/photo-2025-03-12-12-23-14.png" tvg-name="Sky Cinema Uno" group-title="Sky Cinema", Sky Cinema Uno  
 https://top1-cdnnew.koskoros.ru/top1-cdn/calcioXskycinemauno/mono.m3u8
@@ -167,11 +170,8 @@ https://top1-cdnnew.koskoros.ru/top1-cdn/calcioXskycinemadrama/mono.m3u8
 #EXTINF:-1 tvg-id="sky cinema romance" tvg-logo="https://i.postimg.cc/Ss88rXcm/photo-2025-03-12-12-23-14.png" tvg-name="Sky Cinema Romance" group-title="Sky Cinema", Sky Cinema Romance 
 https://top1-cdnnew.koskoros.ru/top1-cdn/calcioXskycinemaromance/mono.m3u8
 
-#EXTINF:-1 tvg-id="DAZN 1" tvg-name="DAZN 12 test" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Cinema", DAZN 12 test
-#EXTVLCOPT:http-referrer=https://dokoplay.xyz/
-#EXTVLCOPT:http-origin=https://dokoplay.xyz
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://nfsnew.iosplayer.ru/nfs/premium877/mono.m3u8
+#EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Sky Cinema", ADMIN
+https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 
 # Sky Cinema FHD
 #EXTINF:-1 tvg-id="Sky.Cinema.Uno.it" group-title="Sky Cinema FHD" tvg-logo="https://i.postimg.cc/Ss88rXcm/photo-2025-03-12-12-23-14.png",Sky Cinema Uno FHD
@@ -227,6 +227,9 @@ https://windnew.koskoros.ru/wind/premium864/mono.m3u8
 #EXTVLCOPT:http-origin=https://dokoplay.xyz
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://windnew.iosplayer.ru/wind/premium864/mono.m3u8
+
+#EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Sky Cinema FHD", ADMIN
+https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 
 # Sky Sport  
 #EXTINF:-1 tvg-id="skysport24.it" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Sky Sport 24" group-title="Sky Sport", Sky Sport 24
@@ -303,6 +306,9 @@ https://top1-cdnnew.koskoros.ru/top1-cdn/calcioXseriesi/mono.m3u8
 
 #EXTINF:-1 tvg-id="Evento 3" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Evento 3" group-title="Sky Sport", Evento 3
 https://top1-cdnnew.koskoros.ru/top1-cdn/calcioXserie1/mono.m3u8
+
+#EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Sky Sport", ADMIN
+https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 
 # Sky Sport FHD
 
@@ -402,6 +408,9 @@ https://windnew.iosplayer.ru/wind/premium876/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://nfsnew.koskoros.ru/nfs/premium877/mono.m3u8
 
+#EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Sky Sport FHD", ADMIN
+https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
+
 # DAZN Serie A 
 
 #EXTINF:-1 tvg-id="daznzona.it" tvg-logo="https://i.postimg.cc/L6bNsP4s/photo-2025-03-12-12-30-43.png" tvg-name="DAZN 1" group-title="DAZN Serie A ", DAZN 1  
@@ -467,11 +476,8 @@ https://amg01444-tennischannelth-tennischannelspain-orangees-gpx6v.amagi.tv/play
 #EXTINF:-1 tvg-id="t2 tennis" tvg-name="T2 Tennis" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="DAZN Serie A ",T2 Tennis
 https://d3qg0hadt0dkov.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-3sfgyrfz9zduo-prod/amgtennisus/playlist.m3u8
 
-#EXTINF:-1 tvg-id="DAZN 1" tvg-name="DAZN 1 test" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="DAZN Serie A ", DAZN 1 test
-#EXTVLCOPT:http-referrer=https://dokoplay.xyz/
-#EXTVLCOPT:http-origin=https://dokoplay.xyz
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://nfsnew.iosplayer.ru/nfs/premium877/mono.m3u8
+#EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="DAZN Serie A ", ADMIN
+https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 
 # DAZN Serie B
 #EXTINF:-1 tvg-id="daznzona.it" tvg-logo="https://i.postimg.cc/L6bNsP4s/photo-2025-03-12-12-30-43.png" tvg-name="ZONA DAZN Serie B" group-title="DAZN Serie B", ZONA DAZN Serie B
@@ -495,6 +501,9 @@ https://top1-cdnnew.koskoros.ru/top1-cdn/calcioXsamp/mono.m3u8
 #EXTINF:-1 tvg-id="Catanzaro" tvg-logo="https://i.postimg.cc/L6bNsP4s/photo-2025-03-12-12-30-43.png" tvg-name="Catanzaro" group-title="DAZN Serie B", Catanzaro
 https://top1-cdnnew.koskoros.ru/top1-cdn/calcioXcatan/mono.m3u8
 
+#EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="DAZN Serie B", ADMIN
+https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
+
 # DAZN Stranieri
 
 #EXTINF:-1 tvg-id="La Liga" tvg-logo="https://i.postimg.cc/L6bNsP4s/photo-2025-03-12-12-30-43.png" tvg-name="La Liga" group-title="DAZN Stranieri", La Liga
@@ -514,6 +523,9 @@ https://top1-cdnnew.koskoros.ru/top1-cdn/calcioXefl/mono.m3u8
 
 #EXTINF:-1 tvg-id="Sky Sports Mix (en)" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Sky Sports Mix (en)" group-title="DAZN Stranieri", Sky Sports Mix (en)
 https://top1-cdnnew.koskoros.ru/top1-cdn/calcioXskysport/mono.m3u8
+
+#EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="DAZN Stranieri", ADMIN
+https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 
 # Sky Uno  
 #EXTINF:-1 tvg-id="sky uno" tvg-logo="https://i.postimg.cc/NFGs2Ptq/photo-2025-03-12-12-36-48.png" tvg-name="Sky Uno" group-title="Intrattenimento", Sky Uno  
@@ -596,6 +608,9 @@ https://d118hpi73ik9nb.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 
 #EXTINF:-1 tvg-name="Peter Coniglio" tvg-id="ITBD31000016S" tvg-logo="https://i.postimg.cc/NFGs2Ptq/photo-2025-03-12-12-36-48.png" group-title="Intrattenimento" , Peter Coniglio
 https://odmedia-peterconiglio-1-it.samsung.wurl.tv/3000.m3u8
+
+#EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Intrattenimento", ADMIN
+https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 
 # Pluto TV Italia
 #EXTINF:-1 tvg-chno="80" tvg-name="Pluto TV Christmas" tvg-logo="https://images.pluto.tv/channels/612e05b885183d0007958101/colorLogoPNG.png" tvg-id="612e05b885183d0007958101" group-title="Pluto TV Italia",Pluto TV Christmas
