@@ -1,9 +1,7 @@
 #EXTM3U  
 
-#EXTINF:-1 group-title="VIP SPORTS 1" tvg-logo="https://i.ibb.co/j60Nb0p/DAZN-sports-modified.png",DAZN LA LIGA
-#EXTVLCOPT:http-referrer=https://dokoplay.xyz/
-#EXTVLCOPT:http-origin=https://dokoplay.xyz
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTINF:-1 tvg-id="SkyUno" tvg-logo="https://example.com/skyuno.png" group-title="Sky",Sky Uno
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://linear313-it-dash1-prd-akp2.cdn13.skycdp.com/016a/32477/FHD/skyuno/master_stereo.mpd
 
 #EXTINF:0, tvg-id="rai 1" tvg-logo="https://i.postimg.cc/LXD7KCm4/photo-2025-03-13-12-52-29.png" group-title="Rai", Rai 1
