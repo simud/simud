@@ -169,7 +169,7 @@ https://top1-cdnnew.koskoros.ru/top1-cdn/calcioXskycinemaromance/mono.m3u8
 
 # Sky Cinema FHD
 
-#EXTINF:-1 tvg-id="sky cinema uno +24" tvg-name="Sky Cinema Uno +24 FHD" tvg-logo="https://i.postimg.cc/Ss88rXcm/photo-2025-03-12-12-23-14.png" group-title="Sky", Sky Cinema Uno +24 FHD
+#EXTINF:-1 tvg-id="sky cinema uno +24" tvg-name="Sky Cinema Uno +24 FHD" tvg-logo="https://i.postimg.cc/Ss88rXcm/photo-2025-03-12-12-23-14.png" group-title="Sky Cinema FHD", Sky Cinema Uno +24 FHD
 #EXTVLCOPT:http-referrer=https://dokoplay.xyz/
 #EXTVLCOPT:http-origin=https://dokoplay.xyz
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
