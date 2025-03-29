@@ -1,6 +1,6 @@
 # 📺 Lista Canali TV - Info & Funzionamento
 
-https://github.com/simud/simud/blob/main/README.md#-come-usare-la-lista
+![ ](https://github.com/simud/simud/blob/main/README.md#-come-usare-la-lista)
 
 ![ ](https://i.postimg.cc/WzCn2WzH/stream-sm-1300x593.png)
 
