@@ -1,8 +1,5 @@
 # 📺 Lista Canali TV - Info & Funzionamento
 
-[![Logo]([[https://example.com/logo.png](https://i.postimg.cc/kXz5QVmN/Picsart-25-03-29-15-57-47-489.png](https://i.postimg.cc/WzCn2WzH/stream-sm-1300x593.png)))](https://github.com/simud/simud/blob/main/README.md#-come-usare-la-lista)
-
-
 ![ ](https://i.postimg.cc/WzCn2WzH/stream-sm-1300x593.png)
 
 
