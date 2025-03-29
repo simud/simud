@@ -1,7 +1,10 @@
 #EXTM3U  
 
-#EXTINF:0, tvg-id="rainews.it" tvg-logo="https://i.postimg.cc/LXD7KCm4/photo-2025-03-13-12-52-29.png" group-title="Rai", Rai News 25
-https://linear301-it-dash1-prd-akp1.cdn13.skycdp.com/016a/31023/FHD/skysportuno/master_stereo.mpd
+#EXTINF:0, tvg-id="rainews.it" tvg-logo="https://i.postimg.cc/LXD7KCm4/photo-2025-03-13-12-52-29.png" group-title="Rai", Rai News 29
+#EXTVLCOPT:http-referrer=https://dokoplay.xyz/
+#EXTVLCOPT:http-origin=https://dokoplay.xyz
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://linear301-it-dash1-prd-akp1.cdn13.skycdp.com/016a/31023/FHD/skysportuno/master_stereo.m3u8
 
 #EXTINF:0, tvg-id="rai 1" tvg-logo="https://i.postimg.cc/LXD7KCm4/photo-2025-03-13-12-52-29.png" group-title="Rai", Rai 1
 https://viamotionhsi.netplus.ch/live/eds/rai1/browser-dash/rai1.mpd
