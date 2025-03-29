@@ -265,9 +265,9 @@ Benvenuto! 🚀 Questa lista ti permette di accedere a diversi canali TV tramite
 
 📡 ZONA DAZN Serie B ✅ (solo eventi)
 
-⚽ Sassuolo ❌ (solo eventi)
+⚽ Sassuolo ✅ (solo eventi)
 
-⚽ Pisa ❌ (solo eventi)
+⚽ Pisa ✅ (solo eventi)
 
 ⚽ Cittadella ✅ (solo eventi)
 
@@ -287,7 +287,7 @@ Benvenuto! 🚀 Questa lista ti permette di accedere a diversi canali TV tramite
 
 ⚽ Palermo ❌ (solo eventi)
 
-⚽ Modena ❌ (solo eventi)
+⚽ Modena ✅ (solo eventi)
 
 ⚽ Sampdoria ✅ (solo eventi)
 
@@ -299,7 +299,7 @@ Benvenuto! 🚀 Questa lista ti permette di accedere a diversi canali TV tramite
 
 ⚽ Brescia ❌ (solo eventi)
 
-⚽ Mantona ❌ (solo eventi)
+⚽ Mantova ✅ (solo eventi)
 
 ⚽ Salernitana ❌ (solo eventi)
 
