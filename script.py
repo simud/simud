@@ -2,7 +2,7 @@ import requests
 from github import Github
 import os
 
-# URL della lista IPTV da filtrare (rimane nel repository pigzillaaaaa/iptv-scraper)
+# URL della lista IPTV da filtrare (di pigzillaaaaa)
 IPTV_URL = "https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/main/daddylive-events.m3u8"
 
 # Parole chiave per identificare eventi italiani
@@ -17,7 +17,7 @@ FILE_STRANIERO = "eventi_stranieri.m3u8"
 
 # Token GitHub e repository di destinazione (simud)
 GITHUB_TOKEN = os.getenv("GH_TOKEN")  # Usa GH_TOKEN come nel tuo workflow
-REPO_OWNER = "pigzillaaaaa"           # Sostituisci con il tuo username, se diverso
+REPO_OWNER = "<simud>"         # Sostituisci con il tuo username GitHub
 REPO_NAME = "simud"                   # Repository di destinazione
 
 def scarica_lista():
