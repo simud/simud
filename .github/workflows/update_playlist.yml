@@ -2,8 +2,8 @@ name: Aggiorna Playlist IPTV
 
 on:
   schedule:
-    - cron: "0 */3 * * *"  # Esegui ogni 3 ore
-  workflow_dispatch:  # Permette di eseguire il workflow manualmente
+    - cron: "0 */3 * * *"  # Esegue lo script ogni 3 ore
+  workflow_dispatch:  # Permette di eseguirlo manualmente
 
 jobs:
   update-playlist:
@@ -21,15 +21,17 @@ jobs:
       - name: 📦 Installa dipendenze
         run: pip install requests PyGithub
 
-      - name: ⚡ Esegui script
+      - name: ⚡ Esegui script di filtraggio
         run: python script.py
         env:
-          GITHUB_TOKEN: ${{ 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 }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
 
-      - name: 📤 Commit e Push
+      - name: 📤 Commit e Push delle modifiche
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add eventi_italiani.m3u8 eventi_stranieri.m3u8
-          git commit -m "Aggiornamento automatico lista IPTV"
-          git push
+          git commit -m "🔄 Aggiornamento automatico lista IPTV" || echo "Nessuna modifica da committare"
+          git push https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/pigzillaaaaa/iptv-scraper.git
