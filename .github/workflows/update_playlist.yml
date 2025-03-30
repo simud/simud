@@ -24,4 +24,4 @@ jobs:
       - name: ⚡ Esegui script di filtraggio
         run: python script.py
         env: 
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}  # Usa il secret che hai configurato per simud
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
