@@ -17,7 +17,7 @@ FILE_STRANIERO = "eventi_stranieri.m3u8"
 
 # Token GitHub e repository di destinazione (simud)
 GITHUB_TOKEN = os.getenv("GH_TOKEN")  # Usa GH_TOKEN come nel tuo workflow
-REPO_OWNER = "<simud>"         # Sostituisci con il tuo username GitHub
+REPO_OWNER = "<Simud>"         # Sostituisci con il tuo username GitHub
 REPO_NAME = "simud"                   # Repository di destinazione
 
 def scarica_lista():
