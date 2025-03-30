@@ -2,26 +2,19 @@ import requests
 from github import Github
 import os
 
-# URL della lista IPTV da filtrare (di pigzillaaaaa)
 IPTV_URL = "https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/main/daddylive-events.m3u8"
-
-# Parole chiave per identificare eventi italiani
 PAROLE_CHIAVE_ITALIANE = [
     "italy", "italia", "serie a", "serie b", "coppa italia", "juventus", "inter", "milan",
     "napoli", "roma", "lazio", "fiorentina", "atalanta", "torino", "bologna", "lecce"
 ]
-
-# Nome dei file da aggiornare nel repository simud
 FILE_ITALIANO = "eventi_italiani.m3u8"
 FILE_STRANIERO = "eventi_stranieri.m3u8"
 
-# Token GitHub e repository di destinazione (simud)
-GITHUB_TOKEN = os.getenv("GH_TOKEN")  # Usa GH_TOKEN come nel tuo workflow
-REPO_OWNER = "<Simud>"         # Sostituisci con il tuo username GitHub
-REPO_NAME = "simud"                   # Repository di destinazione
+GITHUB_TOKEN = os.getenv("GH_TOKEN")
+REPO_OWNER = "<Simud>"  # Sostituisci con il tuo username reale
+REPO_NAME = "simud"
 
 def scarica_lista():
-    """Scarica la lista IPTV e la divide in eventi italiani e stranieri"""
     try:
         response = requests.get(IPTV_URL)
         response.raise_for_status()
@@ -58,16 +51,19 @@ def scarica_lista():
     return contenuto_italiano, contenuto_straniero
 
 def aggiorna_repo(contenuto_italiano, contenuto_straniero):
-    """Aggiorna i file nel repository simud usando PyGithub"""
     if not GITHUB_TOKEN:
         print("Errore: Token GitHub non trovato!")
         return
 
+    print(f"Token GitHub: {'<presente>' if GITHUB_TOKEN else '<non presente>'}")
+    print(f"Tentativo di accesso al repository: {REPO_OWNER}/{REPO_NAME}")
+
     try:
         g = Github(GITHUB_TOKEN)
+        print("Autenticazione con GitHub riuscita")
         repo = g.get_repo(f"{REPO_OWNER}/{REPO_NAME}")
+        print(f"Repository trovato: {repo.full_name}")
 
-        # Aggiorna o crea il file italiano
         try:
             file_italiano = repo.get_contents(FILE_ITALIANO)
             repo.update_file(
@@ -85,7 +81,6 @@ def aggiorna_repo(contenuto_italiano, contenuto_straniero):
             )
             print(f"File {FILE_ITALIANO} creato con successo!")
 
-        # Aggiorna o crea il file straniero
         try:
             file_straniero = repo.get_contents(FILE_STRANIERO)
             repo.update_file(
