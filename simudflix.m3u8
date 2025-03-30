@@ -581,13 +581,13 @@ https://zekonew.koskoros.ru/zeko/premium448/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://dokko1new.koskoros.ru/dokko1/premium537/mono.m3u8
 
-#EXTINF:-1 tvg-id="DAZN.LALIGA.es" tvg-logo="https://i.postimg.cc/L6bNsP4s/photo-2025-03-12-12-30-43.png" tvg-name="La Liga" group-title="DAZN Stranieri",DAZN La Liga
+#EXTINF:-1 tvg-id="DAZN.LALIGA.es" tvg-logo="https://i.postimg.cc/L6bNsP4s/photo-2025-03-12-12-30-43.png" tvg-name="La Liga" group-title="DAZN Stranieri",DAZN La Liga (Audio Ita)
 #EXTVLCOPT:http-referrer=https://dokoplay.xyz/
 #EXTVLCOPT:http-origin=https://dokoplay.xyz
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://top1-cdnnew.koskoros.ru/top1-cdn/calcioXlaliga/mono.m3u8
 
-#EXTINF:-1 tvg-id="DAZN.LALIGA.2.es" tvg-logo="https://i.postimg.cc/L6bNsP4s/photo-2025-03-12-12-30-43.png" tvg-name="La Liga 2" group-title="DAZN Stranieri",DAZN La Liga 2
+#EXTINF:-1 tvg-id="DAZN.LALIGA.2.es" tvg-logo="https://i.postimg.cc/L6bNsP4s/photo-2025-03-12-12-30-43.png" tvg-name="La Liga 2" group-title="DAZN Stranieri",DAZN La Liga 2 (Audio Ita)
 #EXTVLCOPT:http-referrer=https://dokoplay.xyz/
 #EXTVLCOPT:http-origin=https://dokoplay.xyz
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
