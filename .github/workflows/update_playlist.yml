@@ -24,7 +24,7 @@ jobs:
       - name: ⚡ Esegui script
         run: python script.py
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ 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 }}
 
       - name: 📤 Commit e Push
         run: |
