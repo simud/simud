@@ -10,7 +10,7 @@ serie_c = ["Catanzaro", "Padova", "Vicenza", "Triestina", "Alessandria", "Pro Ve
 italian_teams = serie_a + serie_b + serie_c
 
 # URL di esempio da cui prendere i dati (sostituibile con un input dinamico)
-GITHUB_URL = os.getenv("GITHUB_URL", "https://raw.githubusercontent.com/randomuser/repo/main/events.txt")
+GITHUB_URL = os.getenv("GITHUB_URL", "https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/main/daddylive-events.m3u8")
 
 # Funzione per scaricare il contenuto dall'URL
 def download_events(url):
