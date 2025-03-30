@@ -522,6 +522,12 @@ https://top1-cdnnew.koskoros.ru/top1-cdn/calcioXspezia/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://top1-cdnnew.koskoros.ru/top1-cdn/calcioXjuve/mono.m3u8
 
+#EXTINF:-1 tvg-id="Bari" tvg-logo="https://i.postimg.cc/L6bNsP4s/photo-2025-03-12-12-30-43.png" tvg-name="Juve Stabia" group-title="DAZN Serie B", Bari
+#EXTVLCOPT:http-referrer=https://dokoplay.xyz/
+#EXTVLCOPT:http-origin=https://dokoplay.xyz
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://top1-cdnnew.koskoros.ru/top1-cdn/calcioXbari/mono.m3u8
+
 #EXTINF:-1 tvg-id="Modena" tvg-logo="https://i.postimg.cc/L6bNsP4s/photo-2025-03-12-12-30-43.png" tvg-name="Modena" group-title="DAZN Serie B", Modena
 #EXTVLCOPT:http-referrer=https://dokoplay.xyz/
 #EXTVLCOPT:http-origin=https://dokoplay.xyz
@@ -539,6 +545,12 @@ https://top1-cdnnew.koskoros.ru/top1-cdn/calcioXsamp/mono.m3u8
 #EXTVLCOPT:http-origin=https://dokoplay.xyz
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://top1-cdnnew.koskoros.ru/top1-cdn/calcioXmantova/mono.m3u8
+
+#EXTINF:-1 tvg-id="Salernitana" tvg-logo="https://i.postimg.cc/L6bNsP4s/photo-2025-03-12-12-30-43.png" tvg-name="Mantova" group-title="DAZN Serie B", Salernitana
+#EXTVLCOPT:http-referrer=https://dokoplay.xyz/
+#EXTVLCOPT:http-origin=https://dokoplay.xyz
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://top1-cdnnew.koskoros.ru/top1-cdn/calcioXsaler/mono.m3u8
 
 #EXTINF:-1 tvg-id="Catanzaro" tvg-logo="https://i.postimg.cc/L6bNsP4s/photo-2025-03-12-12-30-43.png" tvg-name="Catanzaro" group-title="DAZN Serie B", Catanzaro
 #EXTVLCOPT:http-referrer=https://dokoplay.xyz/
@@ -587,17 +599,17 @@ https://dokko1new.koskoros.ru/dokko1/premium537/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://top1-cdnnew.koskoros.ru/top1-cdn/calcioXlaliga/mono.m3u8
 
-#EXTINF:-1 tvg-id="DAZN.LALIGA.2.es" tvg-logo="https://i.postimg.cc/L6bNsP4s/photo-2025-03-12-12-30-43.png" tvg-name="La Liga 2" group-title="DAZN Stranieri",DAZN La Liga 2 (Audio Ita)
-#EXTVLCOPT:http-referrer=https://dokoplay.xyz/
-#EXTVLCOPT:http-origin=https://dokoplay.xyz
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://top1-cdnnew.koskoros.ru/top1-cdn/calcioXlaliga1/mono.m3u8
-
 #EXTINF:-1 tvg-id="DAZN.LALIGA.es" tvg-logo="https://i.postimg.cc/L6bNsP4s/photo-2025-03-12-12-30-43.png" group-title="DAZN Stranieri",DAZN LaLiga FHD
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://dokko1new.koskoros.ru/dokko1/premium538/mono.m3u8
+
+#EXTINF:-1 tvg-id="DAZN.LALIGA.2.es" tvg-logo="https://i.postimg.cc/L6bNsP4s/photo-2025-03-12-12-30-43.png" tvg-name="La Liga 2" group-title="DAZN Stranieri",DAZN La Liga 2 (Audio Ita)
+#EXTVLCOPT:http-referrer=https://dokoplay.xyz/
+#EXTVLCOPT:http-origin=https://dokoplay.xyz
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://top1-cdnnew.koskoros.ru/top1-cdn/calcioXlaliga1/mono.m3u8
 
 #EXTINF:-1 tvg-id="DAZN.LALIGA.2.es" tvg-logo="https://i.postimg.cc/L6bNsP4s/photo-2025-03-12-12-30-43.png" group-title="DAZN Stranieri",DAZN LaLiga 2 FHD
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
