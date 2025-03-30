@@ -283,7 +283,7 @@ Benvenuto! 🚀 Questa lista ti permette di accedere a diversi canali TV tramite
 
 ⚽ Cremonese ❌ (solo eventi)
 
-⚽ Bari ❌ (solo eventi)
+⚽ Bari ✅ (solo eventi)
 
 ⚽ Palermo ❌ (solo eventi)
 
@@ -301,7 +301,7 @@ Benvenuto! 🚀 Questa lista ti permette di accedere a diversi canali TV tramite
 
 ⚽ Mantova ✅ (solo eventi)
 
-⚽ Salernitana ❌ (solo eventi)
+⚽ Salernitana ✅ (solo eventi)
 
 ⚽ Catanzaro ✅ (solo eventi)
 
@@ -322,9 +322,9 @@ Benvenuto! 🚀 Questa lista ti permette di accedere a diversi canali TV tramite
 
 ⚽ DAZN La Liga (Audio Ita) (solo eventi) ✅
 
-⚽ DAZN La Liga 2 (Audio Ita) (solo eventi) ✅
+⚽ DAZN LaLiga FHD ✅
 
-⚽ DAZN LaLiga FHD ✅  
+⚽ DAZN La Liga 2 (Audio Ita) (solo eventi) ✅  
 
 ⚽ DAZN LaLiga 2 FHD ✅  
 
