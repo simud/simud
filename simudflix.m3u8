@@ -623,6 +623,12 @@ https://top1-cdnnew.koskoros.ru/top1-cdn/calcioXpsg/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://top1-cdnnew.koskoros.ru/top1-cdn/calcioXporto/mono.m3u8
 
+#EXTINF:-1 tvg-id="Liga Portugal" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Liga Portugal" group-title="DAZN Stranieri", Liga Portugal 2
+#EXTVLCOPT:http-referrer=https://dokoplay.xyz/
+#EXTVLCOPT:http-origin=https://dokoplay.xyz
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://top1-cdnnew.koskoros.ru/top1-cdn/calcioXportugal/mono.m3u8
+
 #EXTINF:-1 tvg-id="Sky Sports Football (en)" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Sky Sports Football (en)" group-title="DAZN Stranieri", Sky Sports Football (en)
 #EXTVLCOPT:http-referrer=https://dokoplay.xyz/
 #EXTVLCOPT:http-origin=https://dokoplay.xyz
