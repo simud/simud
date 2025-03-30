@@ -17,8 +17,9 @@ FILE_STRANIERO = "eventi_stranieri.m3u8"
 
 # Ottieni il token GitHub dalle variabili d'ambiente
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
-GITHUB_REPO = "pigzillaaaaa/iptv-scraper"  # Nome della tua repo
-
+REPO_OWNER = "pigzillaaaaa"
+REPO_NAME = "iptv-scraper"
+RAW_BASE_URL = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/main/"
 
 def scarica_lista():
     """Scarica la lista IPTV e la divide in eventi italiani e stranieri"""
@@ -44,32 +45,41 @@ def scarica_lista():
     return "\n".join(eventi_italiani), "\n".join(eventi_stranieri)
 
 
-def aggiorna_repo(contenuto_italiano, contenuto_straniero):
-    """Aggiorna i file nella repository GitHub"""
+def aggiorna_file_raw(contenuto_italiano, contenuto_straniero):
+    """Aggiorna i file RAW su GitHub"""
     if not GITHUB_TOKEN:
         print("Errore: Token GitHub non trovato!")
         return
 
     try:
-        g = Github(GITHUB_TOKEN)
-        repo = g.get_repo(GITHUB_REPO)
-
-        # Lista dei file da aggiornare
-        file_dict = {
-            FILE_ITALIANO: contenuto_italiano,
-            FILE_STRANIERO: contenuto_straniero
+        # Imposta l'header per l'autenticazione
+        headers = {
+            "Authorization": f"token {GITHUB_TOKEN}",
+            "Content-Type": "application/json"
         }
 
-        for file_name, contenuto in file_dict.items():
-            try:
-                file = repo.get_contents(file_name)
-                repo.update_file(file.path, f"Aggiornamento automatico {file_name}", contenuto, file.sha)
-            except Exception:
-                repo.create_file(file_name, f"Creazione file {file_name}", contenuto)
+        # URL per i file raw
+        file_italiano_url = f"{RAW_BASE_URL}{FILE_ITALIANO}"
+        file_straniero_url = f"{RAW_BASE_URL}{FILE_STRANIERO}"
 
-        print("✅ Liste IPTV aggiornate con successo su GitHub!")
+        # Effettua la richiesta di aggiornamento del file raw (con PUT)
+        response_italiano = requests.put(file_italiano_url, headers=headers, data=contenuto_italiano)
+        response_straniero = requests.put(file_straniero_url, headers=headers, data=contenuto_straniero)
+
+        if response_italiano.status_code == 200 and response_straniero.status_code == 200:
+            print("✅ File RAW aggiornati con successo!")
+        else:
+            print(f"Errore durante l'aggiornamento dei file RAW: {response_italiano.text}")
+            print(f"Errore durante l'aggiornamento dei file RAW: {response_straniero.text}")
+    
     except Exception as e:
-        print(f"Errore durante l'aggiornamento su GitHub: {e}")
+        print(f"Errore durante l'aggiornamento: {e}")
+
+
+if __name__ == "__main__":
+    eventi_ita, eventi_str = scarica_lista()
+    if eventi_ita is not None and eventi_str is not None:
+        aggiorna_file_raw(eventi_ita, eventi_str)
 
 
 if __name__ == "__main__":
