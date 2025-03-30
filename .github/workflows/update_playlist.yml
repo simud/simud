@@ -23,5 +23,5 @@ jobs:
 
       - name: ⚡ Esegui script di filtraggio
         run: python script.py
-        env:
+        env: 
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
