@@ -3,7 +3,7 @@ import base64
 from github import Github
 
 # Configura il repository e il token
-GITHUB_TOKEN = "TUO_GITHUB_TOKEN"
+GITHUB_TOKEN = "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"
 GITHUB_REPO = "pigzillaaaaa/iptv-scraper"
 FILE_PATH_ITALIA = "eventi_italiani.m3u8"
 FILE_PATH_STRANIERI = "eventi_stranieri.m3u8"
