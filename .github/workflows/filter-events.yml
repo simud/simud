@@ -30,7 +30,7 @@ jobs:
       # Esegue lo script Python
       - name: Run filter script
         env:
-          GITHUB_URL: "https://raw.githubusercontent.com/randomuser/repo/main/events.txt"  # Sostituisci con un URL reale
+          GITHUB_URL: "https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/main/daddylive-events.m3u8"  # Sostituisci con un URL reale
         run: |
           python filter_events.py
 
