@@ -21,6 +21,7 @@ def scarica_lista():
         response.raise_for_status()
         righe = response.text.splitlines()
         print(f"Righe totali scaricate: {len(righe)}")
+        print(f"Prime 5 righe del file:\n{' '.join(righe[:5])}")
     except requests.RequestException as e:
         print(f"Errore durante il download della lista IPTV: {e}")
         return None, None
@@ -31,9 +32,12 @@ def scarica_lista():
     for i in range(len(righe)):
         if "#EXTINF" in righe[i]:
             evento = righe[i] + "\n" + righe[i + 1] if i + 1 < len(righe) else righe[i]
+            print(f"Analizzando evento: {evento.strip()}")
             if any(keyword.lower() in evento.lower() for keyword in PAROLE_CHIAVE_ITALIANE):
+                print(f"-> Italiano: {evento.strip()}")
                 eventi_italiani.append(evento)
             else:
+                print(f"-> Straniero: {evento.strip()}")
                 eventi_stranieri.append(evento)
 
     intestazione = "#EXTM3U\n"
@@ -104,8 +108,3 @@ if __name__ == "__main__":
         aggiorna_repo(eventi_ita, eventi_str)
     else:
         print("Errore: impossibile procedere con l'aggiornamento a causa di un problema nel download.")
-
-if __name__ == "__main__":
-    eventi_ita, eventi_str = scarica_lista()
-    if eventi_ita is not None and eventi_str is not None:
-        aggiorna_repo(eventi_ita, eventi_str)
