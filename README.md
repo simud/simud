@@ -480,7 +480,7 @@ Benvenuto! 🚀 Questa lista ti permette di accedere a diversi canali TV tramite
 
 
 
-## **Germania**
+## **🏞️ Germania**
 
 
 🏟️ DAZN 1 Bar DE ✅  
@@ -539,7 +539,7 @@ Benvenuto! 🚀 Questa lista ti permette di accedere a diversi canali TV tramite
 
 
 
-## **Portogallo**
+## **🐐 Portogallo**
 
 
 ⚽ Sport TV1 Portugal ✅
