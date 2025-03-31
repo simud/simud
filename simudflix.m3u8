@@ -641,13 +641,78 @@ https://top1-cdnnew.koskoros.ru/top1-cdn/calcioXfrancia/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://top1-cdnnew.koskoros.ru/top1-cdn/calcioXpsg/mono.m3u8
 
-#EXTINF:-1 tvg-id="Liga Portugal" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Liga Portugal" group-title="DAZN Stranieri", Liga Portugal
+#EXTINF:-1 tvg-id="SPORT.TV1.HD.pt" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sport-tv-1-portugal.png" group-title="DAZN Stranieri",Sport TV1 Portogallo
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://windnew.koskoros.ru/wind/premium49/mono.m3u8
+
+#EXTINF:-1 tvg-id="SPORT.TV2.HD.pt" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sport-tv-2-portugal.png" group-title="DAZN Stranieri",Sport TV2 Portogallo
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://dokko1new.koskoros.ru/dokko1/premium74/mono.m3u8
+
+#EXTINF:-1 tvg-id="SPORT.TV3.HD.pt" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sport-tv-3-portugal.png" group-title="DAZN Stranieri",Sport TV3 Portogallo
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ddy6new.koskoros.ru/ddy6/premium454/mono.m3u8
+
+#EXTINF:-1 tvg-id="SPORT.TV4.HD.pt" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sport-tv-4-portugal.png" group-title="DAZN Stranieri",Sport TV4 Portogallo
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ddy6new.koskoros.ru/ddy6/premium289/mono.m3u8
+
+#EXTINF:-1 tvg-id="SPORT.TV5.HD.pt" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sport-tv-5-portugal.png" group-title="DAZN Stranieri",Sport TV5 Portogallo
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ddy6new.koskoros.ru/ddy6/premium290/mono.m3u8
+
+#EXTINF:-1 tvg-id="SPORT.TV6.HD.pt" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sport-tv-6-portugal.png" group-title="DAZN Stranieri",Sport TV6 Portogallo
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ddy6new.koskoros.ru/ddy6/premium291/mono.m3u8
+
+#EXTINF:-1 tvg-id="ElevenSports1(src01).pt" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/eleven-sports-1.png" group-title="DAZN Stranieri",Eleven Sports 1 Portogallo
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ddy6new.koskoros.ru/ddy6/premium455/mono.m3u8
+
+#EXTINF:-1 tvg-id="ElevenSports2(src01).pt" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/eleven-sports-2.png" group-title="DAZN Stranieri",Eleven Sports 2 Portogallo
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://windnew.koskoros.ru/wind/premium456/mono.m3u8
+
+#EXTINF:-1 tvg-id="ElevenSports3(src01).pt" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/eleven-sports-3.png" group-title="DAZN Stranieri",Eleven Sports 3 Portogallo
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://windnew.koskoros.ru/wind/premium457/mono.m3u8
+
+#EXTINF:-1 tvg-id="ElevenSports4(src01).pt" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/eleven-sports-4.png" group-title="DAZN Stranieri",Eleven Sports 4 Portogallo
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://windnew.koskoros.ru/wind/premium458/mono.m3u8
+
+#EXTINF:-1 tvg-id="ElevenSports5(src01).pt" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/eleven-sports-5.png" group-title="DAZN Stranieri",Eleven Sports 5 Portogallo
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://windnew.koskoros.ru/wind/premium459/mono.m3u8
+
+#EXTINF:-1 tvg-id="SPORT.TV1.HD.pt" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Liga Portugal" group-title="DAZN Stranieri", Liga Portugal
 #EXTVLCOPT:http-referrer=https://dokoplay.xyz/
 #EXTVLCOPT:http-origin=https://dokoplay.xyz
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://top1-cdnnew.koskoros.ru/top1-cdn/calcioXporto/mono.m3u8
 
-#EXTINF:-1 tvg-id="Liga Portugal" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Liga Portugal" group-title="DAZN Stranieri", Liga Portugal 2
+#EXTINF:-1 tvg-id="SPORT.TV2.HD.pt" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Liga Portugal" group-title="DAZN Stranieri", Liga Portugal 2
 #EXTVLCOPT:http-referrer=https://dokoplay.xyz/
 #EXTVLCOPT:http-origin=https://dokoplay.xyz
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
@@ -1114,6 +1179,149 @@ https://ddy6new.koskoros.ru/ddy6/premium734/mono.m3u8
 https://ddy6new.koskoros.ru/ddy6/premium728/mono.m3u8
 
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Germania", ADMIN
+https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
+
+# Portogallo
+
+#EXTINF:-1 tvg-id="SPORT.TV1.HD.pt" tvg-logo="https://i.postimg.cc/N01z8FLB/Picsart-25-03-31-19-42-11-372.png" group-title="Portogallo",Sport TV1 Portugal
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://windnew.koskoros.ru/wind/premium49/mono.m3u8
+
+#EXTINF:-1 tvg-id="SPORT.TV2.HD.pt" tvg-logo="https://i.postimg.cc/N01z8FLB/Picsart-25-03-31-19-42-11-372.png" group-title="Portogallo",Sport TV2 Portugal
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://dokko1new.koskoros.ru/dokko1/premium74/mono.m3u8
+
+#EXTINF:-1 tvg-id="SPORT.TV3.HD.pt" tvg-logo="https://i.postimg.cc/N01z8FLB/Picsart-25-03-31-19-42-11-372.png" group-title="Portogallo",Sport TV3 Portugal
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ddy6new.koskoros.ru/ddy6/premium454/mono.m3u8
+
+#EXTINF:-1 tvg-id="SPORT.TV4.HD.pt" tvg-logo="https://i.postimg.cc/N01z8FLB/Picsart-25-03-31-19-42-11-372.png" group-title="Portogallo",Sport TV4 Portugal
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ddy6new.koskoros.ru/ddy6/premium289/mono.m3u8
+
+#EXTINF:-1 tvg-id="SPORT.TV5.HD.pt" tvg-logo="https://i.postimg.cc/N01z8FLB/Picsart-25-03-31-19-42-11-372.png" group-title="Portogallo",Sport TV5 Portugal
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ddy6new.koskoros.ru/ddy6/premium290/mono.m3u8
+
+#EXTINF:-1 tvg-id="SPORT.TV6.HD.pt" tvg-logo="https://i.postimg.cc/N01z8FLB/Picsart-25-03-31-19-42-11-372.png" group-title="Portogallo",Sport TV6 Portugal
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ddy6new.koskoros.ru/ddy6/premium291/mono.m3u8
+
+#EXTINF:-1 tvg-id="ElevenSports1(src01).pt" tvg-logo="https://i.postimg.cc/N01z8FLB/Picsart-25-03-31-19-42-11-372.png" group-title="Portogallo",Eleven Sports 1 Portugal
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ddy6new.koskoros.ru/ddy6/premium455/mono.m3u8
+
+#EXTINF:-1 tvg-id="ElevenSports2(src01).pt" tvg-logo="https://i.postimg.cc/N01z8FLB/Picsart-25-03-31-19-42-11-372.png" group-title="Portogallo",Eleven Sports 2 Portugal
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://windnew.koskoros.ru/wind/premium456/mono.m3u8
+
+#EXTINF:-1 tvg-id="ElevenSports3(src01).pt" tvg-logo="https://i.postimg.cc/N01z8FLB/Picsart-25-03-31-19-42-11-372.png" group-title="Portogallo",Eleven Sports 3 Portugal
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://windnew.koskoros.ru/wind/premium457/mono.m3u8
+
+#EXTINF:-1 tvg-id="ElevenSports4(src01).pt" tvg-logo="https://i.postimg.cc/N01z8FLB/Picsart-25-03-31-19-42-11-372.png" group-title="Portogallo",Eleven Sports 4 Portugal
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://windnew.koskoros.ru/wind/premium458/mono.m3u8
+
+#EXTINF:-1 tvg-id="ElevenSports5(src01).pt" tvg-logo="https://i.postimg.cc/N01z8FLB/Picsart-25-03-31-19-42-11-372.png" group-title="Portogallo",Eleven Sports 5 Portugal
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://windnew.koskoros.ru/wind/premium459/mono.m3u8
+
+#EXTINF:-1 tvg-id="AXN.Movies.HD.pt" tvg-logo="https://i.postimg.cc/N01z8FLB/Picsart-25-03-31-19-42-11-372.png" group-title="Portogallo",AXN Movies Portugal
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ddy6new.koskoros.ru/ddy6/premium717/mono.m3u8
+
+#EXTINF:-1 tvg-id="BenficaTVMulticamaras(src01).pt" tvg-logo="https://i.postimg.cc/N01z8FLB/Picsart-25-03-31-19-42-11-372.png" group-title="Portogallo",Benfica TV PT
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://dokko1new.koskoros.ru/dokko1/premium380/mono.m3u8
+
+#EXTINF:-1 tvg-id="CMTV.HD.pt" tvg-logo="https://i.postimg.cc/N01z8FLB/Picsart-25-03-31-19-42-11-372.png" group-title="Portogallo",CMTV Portugal
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://windnew.koskoros.ru/wind/premium790/mono.m3u8
+
+#EXTINF:-1 tvg-id="Canal.11.HD.pt" tvg-logo="https://i.postimg.cc/N01z8FLB/Picsart-25-03-31-19-42-11-372.png" group-title="Portogallo",Canal 11 Portugal
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ddy6new.koskoros.ru/ddy6/premium540/mono.m3u8
+
+#EXTINF:-1 tvg-id="Porto.Canal.HD.pt" tvg-logo="https://i.postimg.cc/N01z8FLB/Picsart-25-03-31-19-42-11-372.png" group-title="Portogallo",Porto Canal Portugal
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ddy6new.koskoros.ru/ddy6/premium718/mono.m3u8
+
+#EXTINF:-1 tvg-id="RTP.1.HD.pt" tvg-logo="https://i.postimg.cc/N01z8FLB/Picsart-25-03-31-19-42-11-372.png" group-title="Portogallo",RTP 1 Portugal
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ddy6new.koskoros.ru/ddy6/premium719/mono.m3u8
+
+#EXTINF:-1 tvg-id="RTP.2.HD.pt" tvg-logo="https://i.postimg.cc/N01z8FLB/Picsart-25-03-31-19-42-11-372.png" group-title="Portogallo",RTP 2 Portugal
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ddy6new.koskoros.ru/ddy6/premium720/mono.m3u8
+
+#EXTINF:-1 tvg-id="RTP.3.HD.pt" tvg-logo="https://i.postimg.cc/N01z8FLB/Picsart-25-03-31-19-42-11-372.png" group-title="Portogallo",RTP 3 Portugal
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ddy6new.koskoros.ru/ddy6/premium721/mono.m3u8
+
+#EXTINF:-1 tvg-id="SIC.HD.pt" tvg-logo="https://i.postimg.cc/N01z8FLB/Picsart-25-03-31-19-42-11-372.png" group-title="Portogallo",SIC Portugal
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ddy6new.koskoros.ru/ddy6/premium722/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sporting.TV.HD.pt" tvg-logo="https://i.postimg.cc/N01z8FLB/Picsart-25-03-31-19-42-11-372.png" group-title="Portogallo",Sporting TV Portugal
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ddy6new.koskoros.ru/ddy6/premium716/mono.m3u8
+
+#EXTINF:-1 tvg-id="TVI.HD.pt" tvg-logo="https://i.postimg.cc/N01z8FLB/Picsart-25-03-31-19-42-11-372.png" group-title="Portogallo",TVI Portugal
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ddy6new.koskoros.ru/ddy6/premium723/mono.m3u8
+
+#EXTINF:-1 tvg-id="TVI.Reality.HD.pt" tvg-logo="https://i.postimg.cc/N01z8FLB/Picsart-25-03-31-19-42-11-372.png" group-title="Portogallo",TVI Reality Portugal
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ddy6new.koskoros.ru/ddy6/premium724/mono.m3u8
+
+#EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Portogallo", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 
 # Pluto TV Italia
