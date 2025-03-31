@@ -617,6 +617,18 @@ https://top1-cdnnew.koskoros.ru/top1-cdn/calcioXlaliga1/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://windnew.koskoros.ru/wind/premium43/mono.m3u8
 
+#EXTINF:-1 tvg-id="DAZN.1.de" tvg-logo="https://i.postimg.cc/L6bNsP4s/photo-2025-03-12-12-30-43.png" group-title="DAZN Stranieri",DAZN 1 Bar Tedesco
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ddy6new.koskoros.ru/ddy6/premium426/mono.m3u8
+
+#EXTINF:-1 tvg-id="DAZN.2.de" tvg-logo="https://i.postimg.cc/L6bNsP4s/photo-2025-03-12-12-30-43.png" group-title="DAZN Stranieri",DAZN 2 Bar Tedesco
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ddy6new.koskoros.ru/ddy6/premium427/mono.m3u8
+
 #EXTINF:-1 tvg-id="Ligue 1" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Ligue 1" group-title="DAZN Stranieri", Ligue 1
 #EXTVLCOPT:http-referrer=https://dokoplay.xyz/
 #EXTVLCOPT:http-origin=https://dokoplay.xyz
@@ -935,6 +947,173 @@ https://dokko1new.koskoros.ru/dokko1/premium532/mono.m3u8
 https://dokko1new.koskoros.ru/dokko1/premium529/mono.m3u8
 
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Spagna", ADMIN
+https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
+
+# Germania
+
+#EXTINF:-1 tvg-id="DAZN.1.de" tvg-logo="https://i.postimg.cc/Jzg7v739/Picsart-25-03-31-15-35-10-891.png" group-title="Germania",DAZN 1 Bar DE
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ddy6new.koskoros.ru/ddy6/premium426/mono.m3u8
+
+#EXTINF:-1 tvg-id="DAZN.2.de" tvg-logo="https://i.postimg.cc/Jzg7v739/Picsart-25-03-31-15-35-10-891.png" group-title="Germania",DAZN 2 Bar DE
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ddy6new.koskoros.ru/ddy6/premium427/mono.m3u8
+
+#EXTINF:-1 tvg-id="3sat.de" tvg-logo="https://i.postimg.cc/Jzg7v739/Picsart-25-03-31-15-35-10-891.png" group-title="Germania",3sat DE
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ddy6new.koskoros.ru/ddy6/premium726/mono.m3u8
+
+#EXTINF:-1 tvg-id="ARTE.de" tvg-logo="https://i.postimg.cc/Jzg7v739/Picsart-25-03-31-15-35-10-891.png" group-title="Germania",Arte DE
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ddy6new.koskoros.ru/ddy6/premium725/mono.m3u8
+
+#EXTINF:-1 tvg-id="BBC.One.de" tvg-logo="https://i.postimg.cc/Jzg7v739/Picsart-25-03-31-15-35-10-891.png" group-title="Germania",BBC 1 DE
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ddy6new.koskoros.ru/ddy6/premium727/mono.m3u8
+
+#EXTINF:-1 tvg-id="HR.de" tvg-logo="https://i.postimg.cc/Jzg7v739/Picsart-25-03-31-15-35-10-891.png" group-title="Germania",HR Fernsehen DE
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ddy6new.koskoros.ru/ddy6/premium740/mono.m3u8
+
+#EXTINF:-1 tvg-id="kabel.eins.de" tvg-logo="https://i.postimg.cc/Jzg7v739/Picsart-25-03-31-15-35-10-891.png" group-title="Germania",Kabel Eins (Kabel 1) DE
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ddy6new.koskoros.ru/ddy6/premium731/mono.m3u8
+
+#EXTINF:-1 tvg-id="MDR.de" tvg-logo="https://i.postimg.cc/Jzg7v739/Picsart-25-03-31-15-35-10-891.png" group-title="Germania",MDR DE
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ddy6new.koskoros.ru/ddy6/premium733/mono.m3u8
+
+#EXTINF:-1 tvg-id="NDR.de" tvg-logo="https://i.postimg.cc/Jzg7v739/Picsart-25-03-31-15-35-10-891.png" group-title="Germania",NDR DE
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ddy6new.koskoros.ru/ddy6/premium736/mono.m3u8
+
+#EXTINF:-1 tvg-id="ProSieben.de" tvg-logo="https://i.postimg.cc/Jzg7v739/Picsart-25-03-31-15-35-10-891.png" group-title="Germania",ProSieben (PRO7) DE
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ddy6new.koskoros.ru/ddy6/premium730/mono.m3u8
+
+#EXTINF:-1 tvg-id="RTL.de" tvg-logo="https://i.postimg.cc/Jzg7v739/Picsart-25-03-31-15-35-10-891.png" group-title="Germania",RTL DE
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ddy6new.koskoros.ru/ddy6/premium740/mono.m3u8
+
+#EXTINF:-1 tvg-id="SAT.1.de" tvg-logo="https://i.postimg.cc/Jzg7v739/Picsart-25-03-31-15-35-10-891.png" group-title="Germania",SAT.1 DE
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ddy6new.koskoros.ru/ddy6/premium729/mono.m3u8
+
+#EXTINF:-1 tvg-id="SRFernsehen(src01).de" tvg-logo="https://i.postimg.cc/Jzg7v739/Picsart-25-03-31-15-35-10-891.png" group-title="Germania",SR Fernsehen DE
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ddy6new.koskoros.ru/ddy6/premium739/mono.m3u8
+
+#EXTINF:-1 tvg-id="SUPER.RTL.de" tvg-logo="https://i.postimg.cc/Jzg7v739/Picsart-25-03-31-15-35-10-891.png" group-title="Germania",SUPER RTL DE
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ddy6new.koskoros.ru/ddy6/premium738/mono.m3u8
+
+#EXTINF:-1 tvg-id="SWR/SR.de" tvg-logo="https://i.postimg.cc/Jzg7v739/Picsart-25-03-31-15-35-10-891.png" group-title="Germania",SWR DE
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ddy6new.koskoros.ru/ddy6/premium735/mono.m3u8
+
+#EXTINF:-1 tvg-id="sixx.de" tvg-logo="https://i.postimg.cc/Jzg7v739/Picsart-25-03-31-15-35-10-891.png" group-title="Germania",Sixx DE
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ddy6new.koskoros.ru/ddy6/premium732/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky.Sport.Austria.1.HD.de" tvg-logo="https://i.postimg.cc/Jzg7v739/Picsart-25-03-31-15-35-10-891.png" group-title="Germania",Sky Sport Austria 1 HD
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ddy6new.koskoros.ru/ddy6/premium559/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky.Sport.Bundesliga.1.de" tvg-logo="https://i.postimg.cc/Jzg7v739/Picsart-25-03-31-15-35-10-891.png" group-title="Germania",Sky Sport Bundesliga 1 HD
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ddy6new.koskoros.ru/ddy6/premium558/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky.Sport.Mix.de" tvg-logo="https://i.postimg.cc/Jzg7v739/Picsart-25-03-31-15-35-10-891.png" group-title="Germania",Sky Sport Mix DE
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ddy6new.koskoros.ru/ddy6/premium557/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky.Sport.Top.Event.de" tvg-logo="https://i.postimg.cc/Jzg7v739/Picsart-25-03-31-15-35-10-891.png" group-title="Germania",Sky Sport Top Event DE
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://dokko1new.koskoros.ru/dokko1/premium556/mono.m3u8
+
+#EXTINF:-1 tvg-id="SKY.Sport.F1.de" tvg-logo="https://i.postimg.cc/Jzg7v739/Picsart-25-03-31-15-35-10-891.png" group-title="Germania",Sky Sports F1 DE
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://windnew.koskoros.ru/wind/premium274/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky.Sport.Tennis.de" tvg-logo="https://i.postimg.cc/Jzg7v739/Picsart-25-03-31-15-35-10-891.png" group-title="Germania",Sky Sports Tennis DE
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://windnew.koskoros.ru/wind/premium884/mono.m3u8
+
+#EXTINF:-1 tvg-id="SPORT1.de" tvg-logo="https://i.postimg.cc/Jzg7v739/Picsart-25-03-31-15-35-10-891.png" group-title="Germania",Sport1 Germany
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ddy6new.koskoros.ru/ddy6/premium641/mono.m3u8
+
+#EXTINF:-1 tvg-id="SPORT1+.de" tvg-logo="https://i.postimg.cc/Jzg7v739/Picsart-25-03-31-15-35-10-891.png" group-title="Germania",Sport1+ Germany
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://dokko1new.koskoros.ru/dokko1/premium640/mono.m3u8
+
+#EXTINF:-1 tvg-id="sportdigital.de" tvg-logo="https://i.postimg.cc/Jzg7v739/Picsart-25-03-31-15-35-10-891.png" group-title="Germania",SportDigital Fussball
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://dokko1new.koskoros.ru/dokko1/premium571/mono.m3u8
+
+#EXTINF:-1 tvg-id="WDR.de" tvg-logo="https://i.postimg.cc/Jzg7v739/Picsart-25-03-31-15-35-10-891.png" group-title="Germania",WDR DE
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ddy6new.koskoros.ru/ddy6/premium734/mono.m3u8
+
+#EXTINF:-1 tvg-id="ZDFinfo.de" tvg-logo="https://i.postimg.cc/Jzg7v739/Picsart-25-03-31-15-35-10-891.png" group-title="Germania",ZDF Info DE
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ddy6new.koskoros.ru/ddy6/premium728/mono.m3u8
+
+#EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Germania", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 
 # Pluto TV Italia
