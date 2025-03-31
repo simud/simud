@@ -226,7 +226,7 @@ https://windnew.koskoros.ru/wind/premium864/mono.m3u8
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 
 # Sky Sport  
-#EXTINF:-1 tvg-id="skysport24.it" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Sky Sport 24" group-title="Sky Sport", Sky Sport 24
+#EXTINF:-1 tvg-id="Sky.Sport24.it" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Sky Sport 24" group-title="Sky Sport", Sky Sport 24
 https://top1-cdnnew.koskoros.ru/top1-cdn/calcioXskysport24/mono.m3u8
 
 #EXTINF:-1 tvg-id="sky sport uno" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Sky Sport Uno" group-title="Sky Sport", Sky Sport Uno  
