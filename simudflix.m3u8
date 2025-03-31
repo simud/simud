@@ -292,19 +292,19 @@ https://top1-cdnnew.koskoros.ru/top1-cdn/calcioXsky258/mono.m3u8
 #EXTINF:-1 tvg-id="Sky.Sport..259.it" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Sky Sport 259" group-title="Sky Sport", Sky Calcio 9 (259) 
 https://top1-cdnnew.koskoros.ru/top1-cdn/calcioXsky259/mono.m3u8
 
+#EXTINF:-1 tvg-id="DAZN.2.de" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Evento 1" group-title="Sky Sport", Evento 1
 #EXTVLCOPT:http-referrer=https://dokoplay.xyz/
 #EXTVLCOPT:http-origin=https://dokoplay.xyz
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTINF:-1 tvg-id="Evento 1" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Evento 1" group-title="Sky Sport", Evento 1
 https://top1-cdnnew.koskoros.ru/top1-cdn/calcioXserie/mono.m3u8
 
-#EXTINF:-1 tvg-id="Evento 2" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Evento 2" group-title="Sky Sport", Evento 2
+#EXTINF:-1 tvg-id="DAZN.2.de" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Evento 2" group-title="Sky Sport", Evento 2
 #EXTVLCOPT:http-referrer=https://dokoplay.xyz/
 #EXTVLCOPT:http-origin=https://dokoplay.xyz
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://top1-cdnnew.koskoros.ru/top1-cdn/calcioXseriesi/mono.m3u8
 
-#EXTINF:-1 tvg-id="Evento 3" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Evento 3" group-title="Sky Sport", Evento 3
+#EXTINF:-1 tvg-id="DAZN.1.de" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Evento 3" group-title="Sky Sport", Evento 3
 #EXTVLCOPT:http-referrer=https://dokoplay.xyz/
 #EXTVLCOPT:http-origin=https://dokoplay.xyz
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
