@@ -33,7 +33,7 @@ jobs:
         env:
           GITHUB_WORKSPACE: ${{ github.workspace }}
         run: |
-          python skystreaming_scraper.py
+          python update_m3u.py
 
       # Opzionale: Commit e push del file M3U generato
       - name: Commit and push M3U file
