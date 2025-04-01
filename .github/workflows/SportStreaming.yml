@@ -35,8 +35,6 @@ jobs:
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
-          # Pull delle modifiche remote per evitare conflitti
-          git pull origin main --rebase
           git add sportstreaming_playlist.m3u8
           git commit -m "Aggiornato file M3U8 con nuovi flussi" || echo "Nessun cambiamento da committare"
           git push
