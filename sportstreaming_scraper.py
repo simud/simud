@@ -22,14 +22,14 @@ def find_event_pages():
         soup = BeautifulSoup(response.text, 'html.parser')
 
         event_links = set()
-        # Cerca link che potrebbero portare a pagine evento
+        # Cerca link che corrispondano a /live-[numero] o /live-perma-[numero]
         for a in soup.find_all('a', href=True):
             href = a['href']
-            # Personalizza questo pattern in base alla struttura del sito
-            if re.match(r'/(event|match|live)/[^/]+', href):  # Esempio: /event/arsenal-vs-fulham
+            # Pattern per live-[numero] o live-perma-[numero]
+            if re.match(r'/live-(perma-)?\d+', href):
                 full_url = base_url + href.lstrip('/')
                 event_links.add(full_url)
-            elif re.match(r'https://www\.sportstreaming\.net/(event|match|live)/[^/]+', href):
+            elif re.match(r'https://www\.sportstreaming\.net/live-(perma-)?\d+', href):
                 event_links.add(href)
 
         return list(event_links)
@@ -61,7 +61,7 @@ def get_video_stream(event_url):
                 return src, video
             for source in video.find_all('source'):
                 src = source.get('src')
-                if src and ("stream" in src.lower() or re.search(r'\.(m3u8|mp4|ts)', src, re.IGNORECASE)):
+                if src and ("stream" in src.lower() or re.search(r'\.(m3u8|mp4|ts|html|php)', src, re.IGNORECASE)):
                     return src, source
 
         return None, None
@@ -72,14 +72,12 @@ def get_video_stream(event_url):
 
 # Funzione per estrarre il nome del canale
 def extract_channel_name(event_url, element):
-    # Estrai il nome dall'URL (es. /event/arsenal-vs-fulham -> "Arsenal Vs Fulham")
-    event_name_match = re.search(r'/(event|match|live)/([^/]+)', event_url)
+    # Estrai il nome dall'URL (es. /live-5 -> "Live 5", /live-perma-2 -> "Live Perma 2")
+    event_name_match = re.search(r'/live-(perma-)?(\d+)', event_url)
     if event_name_match:
-        return event_name_match.group(2).replace('-', ' ').title()
-    
-    name_match = re.search(r'([^/]+?)(?:\.(m3u8|mp4|ts|html|php))?$', event_url)
-    if name_match:
-        return name_match.group(1).replace('-', ' ').title()
+        perma = event_name_match.group(1) or ""  # "perma-" se presente, altrimenti vuoto
+        number = event_name_match.group(2)
+        return f"Live {perma.capitalize()}{number}".strip()
     
     parent = element.find_parent() if element else None
     if parent and parent.text.strip():
@@ -101,14 +99,8 @@ def update_m3u_file(video_streams, m3u_file="sportstreaming_playlist.m3u8"):
             if not stream_url:
                 continue
             channel_name = extract_channel_name(event_url, element)
-            if "sport" in channel_name.lower():
-                group = "Sport"
-            elif "serie" in channel_name.lower():
-                group = "Serie TV"
-            elif "film" in channel_name.lower():
-                group = "Cinema"
-            else:
-                group = "Eventi"
+            # Tutto viene messo nel gruppo "Sport" dato che il sito è sportstreaming
+            group = "Sport"
             
             if group not in groups:
                 groups[group] = []
