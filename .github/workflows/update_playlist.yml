@@ -15,14 +15,14 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.x'  # Sostituisci con la versione di Python necessaria
+          python-version: '3.2'  # Sostituisci con la versione di Python necessaria
 
       - name: Install dependencies
         run: |
           pip install requests beautifulsoup4
       
       - name: Run script
-        run: python script.py  # Sostituisci con il nome corretto del tuo script
+        run: python update_m3u.py  # Sostituisci con il nome corretto del tuo script
 
       - name: Commit and push changes
         run: |
