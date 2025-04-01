@@ -82,13 +82,15 @@ def get_video_stream_and_description(event_url):
             # Cerca un <p>, <div> o <h*> subito dopo l'elemento del flusso
             next_element = element.find_next(['p', 'div', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6'])
             if next_element and next_element.get_text(strip=True):
-                # Prendi solo la prima riga della descrizione
+                # Prendi solo la prima riga della descrizione e sostituisci trattini con spazi
                 channel_name = next_element.get_text(strip=True).split('\n')[0].strip()
+                channel_name = re.sub(r'[-_]+', ' ', channel_name)  # Sostituisci trattini o underscore con spazio
             else:
                 # Fallback: cerca il primo <p> o <h*> nella pagina
                 description = soup.find(['p', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6'])
                 if description and description.get_text(strip=True):
                     channel_name = description.get_text(strip=True).split('\n')[0].strip()
+                    channel_name = re.sub(r'[-_]+', ' ', channel_name)  # Sostituisci trattini o underscore con spazio
 
         return stream_url, element, channel_name
 
