@@ -3,26 +3,27 @@ name: Aggiorna Playlist M3U
 on:
   schedule:
     - cron: '0 * * * *'  # Esegue ogni ora
-  workflow_dispatch:  # Permette di avviare manualmente l'azione
+  workflow_dispatch:  # Permette di avviarlo manualmente
 
 jobs:
   update_playlist:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.2'  # Sostituisci con la versione di Python necessaria
+          python-version: '3.12'  # Ultima versione stabile di Python
 
       - name: Install dependencies
         run: |
+          pip install --upgrade pip
           pip install requests beautifulsoup4
       
       - name: Run script
-        run: python update_m3u.py  # Sostituisci con il nome corretto del tuo script
+        run: python update_m3u.py # Sostituisci con il nome corretto del tuo script
 
       - name: Commit and push changes
         run: |
