@@ -27,7 +27,7 @@ jobs:
         env:
           GITHUB_WORKSPACE: ${{ github.workspace }}
         run: |
-          python skystreaming_scraper.py  # Assicurati che il nome del file sia corretto
+          python update_m3u.py  # Assicurati che il nome del file sia corretto
 
       - name: Commit and push updated M3U8 file
         env:
