@@ -1,11 +1,5 @@
 #EXTM3U  url-tvg="http://www.epgitalia.tv/gzip,http://epg-guide.com/it.gz,https://raw.github.com/matthuisman/i.mjh.nz/master/PlutoTV/us.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/PlutoTV/it.xml.gz,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-events-epg.xml,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-channels-epg.xml,https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/it.xml.gz"
 
-#EXTINF:-1 tvg-id="Eurosport.2.it" tvg-name="EUROSPORT 2" group-title="Italy VAVOO" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/netherlands/eurosport-2-hd-nl.png", UROSPORT 2 (6)
-#EXTVLCOPT:http-referrer=https://vavoo.to/
-#EXTVLCOPT:http-origin=https://vavoo.to
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 14_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/33.0 Mobile/15E148 Safari/605.1.15
-https://vavoo.to/play/2283887097/index.m3u8
-
 #EXTINF:0, tvg-id="rai 1" tvg-logo="https://i.postimg.cc/LXD7KCm4/photo-2025-03-13-12-52-29.png" group-title="Rai", Rai 1
 https://viamotionhsi.netplus.ch/live/eds/rai1/browser-dash/rai1.mpd
 
