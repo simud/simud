@@ -29,6 +29,11 @@ jobs:
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-          git add skystreaming_playlist.m3u
-          git commit -m "Aggiornamento automatico della playlist M3U"
+          
+          git add "${{ env.m_filename }}" "${{ env.t_filename }}" "${{ env.k_filename }}"
+          git status
+          git diff --staged --name-only  
+          
+          git commit -m "Update M3U8 files" || echo "No changes to commit"
+          git log -1 --stat  # Show last commit details
           git push --force
