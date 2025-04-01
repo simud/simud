@@ -84,7 +84,7 @@ def extract_channel_name(event_url, element):
 # Funzione per creare il file M3U
 def create_m3u_file(video_streams):
     REPO_PATH = os.getenv('GITHUB_WORKSPACE', '.')
-    FILE_PATH = os.path.join(REPO_PATH, "skystreaming_playlist.m3u")
+    file_path = os.path.join(REPO_PATH, "skystreaming_playlist.m3u")
 
     with open(file_path, "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
