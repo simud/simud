@@ -11,44 +11,26 @@ headers = {
     "Referer": "https://skystreaming.onl/"
 }
 
-# Funzione per trovare i link alle pagine evento e le relative immagini di anteprima
+# Immagine fissa da usare per tutti i canali
+DEFAULT_IMAGE_URL = "https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png"
+
+# Funzione per trovare i link alle pagine evento
 def find_event_pages():
     try:
         response = requests.get(base_url, headers=headers)
         response.raise_for_status()
         soup = BeautifulSoup(response.text, 'html.parser')
 
-        event_data = []
+        event_links = set()
         for a in soup.find_all('a', href=True):
             href = a['href']
-            full_url = None
             if re.match(r'/view/[^/]+/[^/]+', href):
                 full_url = base_url + href.lstrip('/')
+                event_links.add(full_url)
             elif re.match(r'https://skystreaming\.onl/view/[^/]+/[^/]+', href):
-                full_url = href
+                event_links.add(href)
 
-            if full_url:
-                # Cerca l'immagine di anteprima associata al link
-                image_url = None
-                # Controlla se c'è un <img> dentro il tag <a>
-                img = a.find('img')
-                if img and img.get('src'):
-                    image_url = img['src']
-                else:
-                    # Cerca un <img> nel genitore o vicino al link
-                    parent = a.find_parent()
-                    if parent:
-                        img = parent.find('img')
-                        if img and img.get('src'):
-                            image_url = img['src']
-
-                # Converti in URL assoluto se necessario
-                if image_url and not image_url.startswith('http'):
-                    image_url = base_url + image_url.lstrip('/')
-
-                event_data.append((full_url, image_url))
-
-        return event_data
+        return list(event_links)
 
     except requests.RequestException as e:
         print(f"Errore durante la ricerca delle pagine evento: {e}")
@@ -77,7 +59,7 @@ def get_video_stream(event_url):
                 return src, video
             for source in video.find_all('source'):
                 src = source.get('src')
-                if src and ("stream" in src.lower() or re.search(r'\.(m3u8|mp4|ts|html|php)', src, re.IGNORECASE)):
+                if src and ("stream" in src.lower() or re.search(r'\.(m3u8|mp4|ts)', src, re.IGNORECASE)):
                     return src, source
 
         return None, None
@@ -102,7 +84,7 @@ def extract_channel_name(event_url, element):
     
     return "Unknown Channel"
 
-# Funzione per aggiornare il file M3U8 esistente con immagini
+# Funzione per aggiornare il file M3U8 con l'immagine fissa
 def update_m3u_file(video_streams, m3u_file="skystreaming_playlist.m3u8"):
     REPO_PATH = os.getenv('GITHUB_WORKSPACE', '.')
     file_path = os.path.join(REPO_PATH, m3u_file)
@@ -112,7 +94,7 @@ def update_m3u_file(video_streams, m3u_file="skystreaming_playlist.m3u8"):
         f.write("#EXTM3U\n")
         
         groups = {}
-        for event_url, stream_url, element, image_url in video_streams:
+        for event_url, stream_url, element in video_streams:
             if not stream_url:
                 continue
             channel_name = extract_channel_name(event_url, element)
@@ -127,16 +109,13 @@ def update_m3u_file(video_streams, m3u_file="skystreaming_playlist.m3u8"):
             
             if group not in groups:
                 groups[group] = []
-            groups[group].append((channel_name, stream_url, image_url))
+            groups[group].append((channel_name, stream_url))
 
         # Ordinamento alfabetico dei canali all'interno di ciascun gruppo
         for group, channels in groups.items():
             channels.sort(key=lambda x: x[0].lower())
-            for channel_name, link, image_url in channels:
-                if image_url:
-                    f.write(f"#EXTINF:-1 group-title=\"{group}\" tvg-logo=\"{image_url}\", {channel_name}\n")
-                else:
-                    f.write(f"#EXTINF:-1 group-title=\"{group}\", {channel_name}\n")
+            for channel_name, link in channels:
+                f.write(f"#EXTINF:-1 group-title=\"{group}\" tvg-logo=\"{DEFAULT_IMAGE_URL}\", {channel_name}\n")
                 f.write(f"#EXTVLCOPT:http-user-agent={headers['User-Agent']}\n")
                 f.write(f"#EXTVLCOPT:http-referrer={headers['Referer']}\n")
                 f.write(f"{link}\n")
@@ -150,11 +129,11 @@ if __name__ == "__main__":
         print("Nessuna pagina evento trovata.")
     else:
         video_streams = []
-        for event_url, image_url in event_pages:
+        for event_url in event_pages:
             print(f"Analizzo: {event_url}")
             stream_url, element = get_video_stream(event_url)
             if stream_url:
-                video_streams.append((event_url, stream_url, element, image_url))
+                video_streams.append((event_url, stream_url, element))
             else:
                 print(f"Nessun flusso trovato per {event_url}")
 
