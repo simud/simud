@@ -37,7 +37,6 @@ jobs:
           git config --global user.email "action@github.com"
           git add skystreaming_playlist.m3u
           git commit -m "Aggiornato file M3U con nuovi flussi" || echo "Nessun cambiamento da committare"
-          # Configura l'autenticazione con il token personalizzato
           git remote set-url origin https://x-access-token:${{ secrets.ACTIONS_TOKEN }}@github.com/simud/simud.git
           git push
         continue-on-error: true
