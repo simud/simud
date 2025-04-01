@@ -14,7 +14,7 @@ headers = {
 # Immagine fissa da usare per tutti i canali
 DEFAULT_IMAGE_URL = "https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png"
 
-# Funzione per trovare i link alle pagine evento e i relativi nomi
+# Funzione per trovare i link alle pagine evento e i relativi nomi (solo prima riga)
 def find_event_pages():
     try:
         response = requests.get(base_url, headers=headers)
@@ -32,9 +32,12 @@ def find_event_pages():
                 full_url = href
 
             if full_url:
-                # Estrai il nome dell'evento dal testo del link
+                # Estrai il testo del link e prendi solo la prima riga
                 channel_name = a.get_text(strip=True)
-                if not channel_name:  # Se il testo è vuoto, usa un fallback
+                if channel_name:
+                    # Dividi il testo in righe e prendi solo la prima
+                    channel_name = channel_name.split('\n')[0].strip()
+                else:
                     channel_name = "Unknown Channel"
                 event_data.append((full_url, channel_name))
 
