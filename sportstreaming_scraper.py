@@ -14,25 +14,31 @@ headers = {
 # Immagine fissa da usare per tutti i canali
 DEFAULT_IMAGE_URL = "https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png"
 
-# Funzione per trovare i link alle pagine evento
+# Funzione per trovare i link alle pagine evento e i relativi nomi
 def find_event_pages():
     try:
         response = requests.get(base_url, headers=headers)
         response.raise_for_status()
         soup = BeautifulSoup(response.text, 'html.parser')
 
-        event_links = set()
+        event_data = []
         # Cerca link che corrispondano a /live-[numero] o /live-perma-[numero]
         for a in soup.find_all('a', href=True):
             href = a['href']
-            # Pattern per live-[numero] o live-perma-[numero]
+            full_url = None
             if re.match(r'/live-(perma-)?\d+', href):
                 full_url = base_url + href.lstrip('/')
-                event_links.add(full_url)
             elif re.match(r'https://www\.sportstreaming\.net/live-(perma-)?\d+', href):
-                event_links.add(href)
+                full_url = href
 
-        return list(event_links)
+            if full_url:
+                # Estrai il nome dell'evento dal testo del link
+                channel_name = a.get_text(strip=True)
+                if not channel_name:  # Se il testo è vuoto, usa un fallback
+                    channel_name = "Unknown Channel"
+                event_data.append((full_url, channel_name))
+
+        return event_data
 
     except requests.RequestException as e:
         print(f"Errore durante la ricerca delle pagine evento: {e}")
@@ -70,22 +76,7 @@ def get_video_stream(event_url):
         print(f"Errore durante l'accesso a {event_url}: {e}")
         return None, None
 
-# Funzione per estrarre il nome del canale
-def extract_channel_name(event_url, element):
-    # Estrai il nome dall'URL (es. /live-5 -> "Live 5", /live-perma-2 -> "Live Perma 2")
-    event_name_match = re.search(r'/live-(perma-)?(\d+)', event_url)
-    if event_name_match:
-        perma = event_name_match.group(1) or ""  # "perma-" se presente, altrimenti vuoto
-        number = event_name_match.group(2)
-        return f"Live {perma.capitalize()}{number}".strip()
-    
-    parent = element.find_parent() if element else None
-    if parent and parent.text.strip():
-        return parent.text.strip()[:50].replace('\n', ' ').title()
-    
-    return "Unknown Channel"
-
-# Funzione per aggiornare il file M3U8 con l'immagine fissa
+# Funzione per aggiornare il file M3U8 con i nomi estratti dalla homepage
 def update_m3u_file(video_streams, m3u_file="sportstreaming_playlist.m3u8"):
     REPO_PATH = os.getenv('GITHUB_WORKSPACE', '.')
     file_path = os.path.join(REPO_PATH, m3u_file)
@@ -95,10 +86,9 @@ def update_m3u_file(video_streams, m3u_file="sportstreaming_playlist.m3u8"):
         f.write("#EXTM3U\n")
         
         groups = {}
-        for event_url, stream_url, element in video_streams:
+        for event_url, stream_url, element, channel_name in video_streams:
             if not stream_url:
                 continue
-            channel_name = extract_channel_name(event_url, element)
             # Tutto viene messo nel gruppo "Sport" dato che il sito è sportstreaming
             group = "Sport"
             
@@ -124,11 +114,11 @@ if __name__ == "__main__":
         print("Nessuna pagina evento trovata.")
     else:
         video_streams = []
-        for event_url in event_pages:
+        for event_url, channel_name in event_pages:
             print(f"Analizzo: {event_url}")
             stream_url, element = get_video_stream(event_url)
             if stream_url:
-                video_streams.append((event_url, stream_url, element))
+                video_streams.append((event_url, stream_url, element, channel_name))
             else:
                 print(f"Nessun flusso trovato per {event_url}")
 
