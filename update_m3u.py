@@ -33,37 +33,71 @@ def find_event_pages():
         print(f"Errore durante la ricerca delle pagine evento: {e}")
         return []
 
-# Funzione per estrarre il flusso video da una pagina evento
+# Funzione per estrarre il flusso video e l'immagine dalla pagina evento
 def get_video_stream(event_url):
     try:
         response = requests.get(event_url, headers=headers)
         response.raise_for_status()
         soup = BeautifulSoup(response.text, 'html.parser')
 
+        # Cerca il flusso video
+        stream_url = None
+        element = None
         for iframe in soup.find_all('iframe'):
             src = iframe.get('src')
             if src and ("stream" in src.lower() or re.search(r'\.(m3u8|mp4|ts|html|php)', src, re.IGNORECASE)):
-                return src, iframe
+                stream_url = src
+                element = iframe
+                break
 
-        for embed in soup.find_all('embed'):
-            src = embed.get('src')
-            if src and ("stream" in src.lower() or re.search(r'\.(m3u8|mp4|ts|html|php)', src, re.IGNORECASE)):
-                return src, embed
+        if not stream_url:
+            for embed in soup.find_all('embed'):
+                src = embed.get('src')
+                if src and ("stream" in src.lower() or re.search(r'\.(m3u8|mp4|ts|html|php)', src, re.IGNORECASE)):
+                    stream_url = src
+                    element = embed
+                    break
 
-        for video in soup.find_all('video'):
-            src = video.get('src')
-            if src and ("stream" in src.lower() or re.search(r'\.(m3u8|mp4|ts)', src, re.IGNORECASE)):
-                return src, video
-            for source in video.find_all('source'):
-                src = source.get('src')
+        if not stream_url:
+            for video in soup.find_all('video'):
+                src = video.get('src')
                 if src and ("stream" in src.lower() or re.search(r'\.(m3u8|mp4|ts)', src, re.IGNORECASE)):
-                    return src, source
+                    stream_url = src
+                    element = video
+                    break
+                for source in video.find_all('source'):
+                    src = source.get('src')
+                    if src and ("stream" in src.lower() or re.search(r'\.(m3u8|mp4|ts)', src, re.IGNORECASE)):
+                        stream_url = src
+                        element = source
+                        break
 
-        return None, None
+        # Cerca l'immagine associata
+        image_url = None
+        if element:
+            # Cerca un'immagine vicina all'elemento del flusso (es. in un div genitore)
+            parent = element.find_parent()
+            if parent:
+                img = parent.find('img')
+                if img and img.get('src'):
+                    image_url = img['src']
+                    # Converti in URL assoluto se necessario
+                    if not image_url.startswith('http'):
+                        image_url = base_url + image_url.lstrip('/')
+
+        if not image_url:
+            # Cerca qualsiasi immagine nella pagina come fallback
+            img = soup.find('img')
+            if img and img.get('src'):
+                image_url = img['src']
+                if not image_url.startswith('http'):
+                    image_url = base_url + image_url.lstrip('/')
+
+        return stream_url, element, image_url
 
     except requests.RequestException as e:
         print(f"Errore durante l'accesso a {event_url}: {e}")
-        return None, None
+        return None, None, None
 
 # Funzione per estrarre il nome del canale
 def extract_channel_name(event_url, element):
@@ -81,7 +115,7 @@ def extract_channel_name(event_url, element):
     
     return "Unknown Channel"
 
-# Funzione per aggiornare il file M3U8 esistente
+# Funzione per aggiornare il file M3U8 esistente con immagini
 def update_m3u_file(video_streams, m3u_file="skystreaming_playlist.m3u8"):
     REPO_PATH = os.getenv('GITHUB_WORKSPACE', '.')
     file_path = os.path.join(REPO_PATH, m3u_file)
@@ -91,7 +125,7 @@ def update_m3u_file(video_streams, m3u_file="skystreaming_playlist.m3u8"):
         f.write("#EXTM3U\n")
         
         groups = {}
-        for event_url, stream_url, element in video_streams:
+        for event_url, stream_url, element, image_url in video_streams:
             if not stream_url:
                 continue
             channel_name = extract_channel_name(event_url, element)
@@ -106,13 +140,17 @@ def update_m3u_file(video_streams, m3u_file="skystreaming_playlist.m3u8"):
             
             if group not in groups:
                 groups[group] = []
-            groups[group].append((channel_name, stream_url))
+            groups[group].append((channel_name, stream_url, image_url))
 
         # Ordinamento alfabetico dei canali all'interno di ciascun gruppo
         for group, channels in groups.items():
             channels.sort(key=lambda x: x[0].lower())
-            for channel_name, link in channels:
-                f.write(f"#EXTINF:-1 group-title=\"{group}\", {channel_name}\n")
+            for channel_name, link, image_url in channels:
+                # Aggiungi tvg-logo se l'immagine è presente
+                if image_url:
+                    f.write(f"#EXTINF:-1 group-title=\"{group}\" tvg-logo=\"{image_url}\", {channel_name}\n")
+                else:
+                    f.write(f"#EXTINF:-1 group-title=\"{group}\", {channel_name}\n")
                 f.write(f"#EXTVLCOPT:http-user-agent={headers['User-Agent']}\n")
                 f.write(f"#EXTVLCOPT:http-referrer={headers['Referer']}\n")
                 f.write(f"{link}\n")
@@ -128,9 +166,9 @@ if __name__ == "__main__":
         video_streams = []
         for event_url in event_pages:
             print(f"Analizzo: {event_url}")
-            stream_url, element = get_video_stream(event_url)
+            stream_url, element, image_url = get_video_stream(event_url)
             if stream_url:
-                video_streams.append((event_url, stream_url, element))
+                video_streams.append((event_url, stream_url, element, image_url))
             else:
                 print(f"Nessun flusso trovato per {event_url}")
 
