@@ -22,7 +22,7 @@ jobs:
       - name: Get video streams
         run: |
           # Qui dovresti eseguire il tuo script per generare la playlist M3U
-          python3 update_playlist.py
+          python3 update_m3u.py
 
       - name: Commit updated playlist
         run: |
