@@ -25,8 +25,8 @@ def find_event_pages():
         event_links = set()
         for a in soup.find_all('a', href=True):
             href = a['href']
-            # Pattern generico per link a eventi - da personalizzare
-            if re.match(r'/live/[^/]+', href):  # Esempio: /live/arsenal-vs-fulham
+            # Pattern per link a eventi come /live/arsenal-vs-fulham
+            if re.match(r'/live/[^/]+', href):
                 full_url = base_url + href.lstrip('/')
                 event_links.add(full_url)
             elif re.match(r'https://calcio\.tires/live/[^/]+', href):
@@ -46,26 +46,30 @@ def get_all_video_streams(event_url):
         soup = BeautifulSoup(response.text, 'html.parser')
 
         streams = []
-        # Cerca tutti gli iframe
+        # Cerca iframe con link a 4kwebplay.xyz
         for iframe in soup.find_all('iframe'):
             src = iframe.get('src')
-            if src and ("stream" in src.lower() or re.search(r'\.(m3u8|mp4|ts|html|php)', src, re.IGNORECASE)):
+            if src and "4kwebplay.xyz" in src:
                 streams.append((src, iframe))
 
-        # Cerca tutti gli embed
+        # Cerca flussi diretti come .m3u8 (es. hls.kangal.icu)
+        for iframe in soup.find_all('iframe'):
+            src = iframe.get('src')
+            if src and re.search(r'\.(m3u8|mp4|ts)', src, re.IGNORECASE):
+                streams.append((src, iframe))
+
         for embed in soup.find_all('embed'):
             src = embed.get('src')
-            if src and ("stream" in src.lower() or re.search(r'\.(m3u8|mp4|ts|html|php)', src, re.IGNORECASE)):
+            if src and re.search(r'\.(m3u8|mp4|ts)', src, re.IGNORECASE):
                 streams.append((src, embed))
 
-        # Cerca tutti i video
         for video in soup.find_all('video'):
             src = video.get('src')
-            if src and ("stream" in src.lower() or re.search(r'\.(m3u8|mp4|ts)', src, re.IGNORECASE)):
+            if src and re.search(r'\.(m3u8|mp4|ts)', src, re.IGNORECASE):
                 streams.append((src, video))
             for source in video.find_all('source'):
                 src = source.get('src')
-                if src and ("stream" in src.lower() or re.search(r'\.(m3u8|mp4|ts)', src, re.IGNORECASE)):
+                if src and re.search(r'\.(m3u8|mp4|ts)', src, re.IGNORECASE):
                     streams.append((src, source))
 
         return streams if streams else [(None, None)]
