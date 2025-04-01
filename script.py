@@ -1,6 +1,7 @@
 import requests
 import re
 import os
+import subprocess
 from bs4 import BeautifulSoup
 
 # URL di partenza (homepage o pagina con elenco eventi)
@@ -10,6 +11,10 @@ headers = {
     "Origin": "https://skystreaming.onl",
     "Referer": "https://skystreaming.onl/"
 }
+
+# Percorso della repository locale
+repo_path = os.path.expanduser("~/simud")  # Assicurati che il percorso sia corretto
+file_path = os.path.join(repo_path, "skystreaming_playlist.m3u")
 
 # Funzione per trovare i link alle pagine evento
 def find_event_pages():
@@ -42,22 +47,8 @@ def get_video_stream(event_url):
 
         for iframe in soup.find_all('iframe'):
             src = iframe.get('src')
-            if src and ("stream" in src.lower() or re.search(r'\.(m3u8|mp4|ts|html|php)', src, re.IGNORECASE)):
+            if src and re.search(r'\.(m3u8|mp4|ts|html|php)', src, re.IGNORECASE):
                 return src, iframe
-
-        for embed in soup.find_all('embed'):
-            src = embed.get('src')
-            if src and ("stream" in src.lower() or re.search(r'\.(m3u8|mp4|ts|html|php)', src, re.IGNORECASE)):
-                return src, embed
-
-        for video in soup.find_all('video'):
-            src = video.get('src')
-            if src and ("stream" in src.lower() or re.search(r'\.(m3u8|mp4|ts)', src, re.IGNORECASE)):
-                return src, video
-            for source in video.find_all('source'):
-                src = source.get('src')
-                if src and ("stream" in src.lower() or re.search(r'\.(m3u8|mp4|ts)', src, re.IGNORECASE)):
-                    return src, source
 
         return None, None
 
@@ -66,70 +57,57 @@ def get_video_stream(event_url):
         return None, None
 
 # Funzione per estrarre il nome del canale
-def extract_channel_name(event_url, element):
+def extract_channel_name(event_url):
     event_name_match = re.search(r'/view/([^/]+)/[^/]+', event_url)
     if event_name_match:
         return event_name_match.group(1).replace('-', ' ').title()
-    
-    name_match = re.search(r'([^/]+?)(?:\.(m3u8|mp4|ts|html|php))?$', event_url)
-    if name_match:
-        return name_match.group(1).replace('-', ' ').title()
-    
-    parent = element.find_parent() if element else None
-    if parent and parent.text.strip():
-        return parent.text.strip()[:50].replace('\n', ' ').title()
-    
     return "Unknown Channel"
 
 # Funzione per creare il file M3U
 def create_m3u_file(video_streams):
-    desktop_path = os.path.join(os.path.expanduser("~"), "Desktop")
-    file_path = os.path.join(desktop_path, "skystreaming_playlist.m3u")
-
     with open(file_path, "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
         
         groups = {}
-        for event_url, stream_url, element in video_streams:
+        for event_url, stream_url in video_streams:
             if not stream_url:
                 continue
-            channel_name = extract_channel_name(event_url, element)
-            if "sport" in channel_name.lower():
-                group = "Sport"
-            elif "serie" in channel_name.lower():
-                group = "Serie TV"
-            elif "film" in channel_name.lower():
-                group = "Cinema"
-            else:
-                group = "Altro"
+            channel_name = extract_channel_name(event_url)
+            group = "Sport" if "sport" in channel_name.lower() else "Eventi"
             
             if group not in groups:
                 groups[group] = []
             groups[group].append((channel_name, stream_url))
-
+        
         for group, channels in groups.items():
+            channels.sort(key=lambda x: x[0].lower())
             for channel_name, link in channels:
                 f.write(f"#EXTINF:-1 group-title=\"{group}\", {channel_name}\n")
-                f.write(f"#EXTVLCOPT:http-user-agent={headers['User-Agent']}\n")
-                f.write(f"#EXTVLCOPT:http-referrer={headers['Referer']}\n")
                 f.write(f"{link}\n")
+    
+    print(f"File M3U aggiornato: {file_path}")
 
-    print(f"File M3U creato con successo sul desktop: {file_path}")
+# Funzione per eseguire commit e push su GitHub
+def commit_and_push():
+    try:
+        os.chdir(repo_path)
+        subprocess.run(["git", "add", "skystreaming_playlist.m3u"], check=True)
+        subprocess.run(["git", "commit", "-m", "Aggiornata playlist M3U"], check=True)
+        subprocess.run(["git", "push"], check=True)
+        print("Modifiche pushate con successo alla repository.")
+    except subprocess.CalledProcessError as e:
+        print(f"Errore durante il commit/push: {e}")
 
 # Esegui lo script
 if __name__ == "__main__":
     event_pages = find_event_pages()
-    if not event_pages:
-        print("Nessuna pagina evento trovata.")
+    video_streams = [(url, get_video_stream(url)[0]) for url in event_pages if get_video_stream(url)[0]]
+    
+    if video_streams:
+        create_m3u_file(video_streams)
+        commit_and_push()
     else:
-        video_streams = []
-        for event_url in event_pages:
-            print(f"Analizzo: {event_url}")
-            stream_url, element = get_video_stream(event_url)
-            if stream_url:
-                video_streams.append((event_url, stream_url, element))
-            else:
-                print(f"Nessun flusso trovato per {event_url}")
+        print("Nessun flusso video trovato.")
 
         if video_streams:
             create_m3u_file(video_streams)
