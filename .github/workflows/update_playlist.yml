@@ -37,6 +37,11 @@ jobs:
           git config --global user.email "action@github.com"
           git add skystreaming_playlist.m3u8
           git commit -m "Aggiornato file M3U8 con nuovi flussi" || echo "Nessun cambiamento da committare"
+          # Debug: Verifica l'URL remoto corrente
+          git remote -v
+          # Imposta l'URL remoto con il token
           git remote set-url origin https://x-access-token:${{ secrets.ACTIONS_TOKEN }}@github.com/simud/simud.git
+          # Debug: Verifica l'URL remoto aggiornato
+          git remote -v
           git push
         continue-on-error: true
