@@ -1,11 +1,7 @@
 import requests
 import re
-from bs4 import BeautifulSoup
 import os
-
-# Configurazione GitHub
-REPO_PATH = os.getenv('GITHUB_WORKSPACE', '.')
-FILE_PATH = os.path.join(REPO_PATH, "skystreaming_playlist.m3u")
+from bs4 import BeautifulSoup
 
 # URL di partenza (homepage o pagina con elenco eventi)
 base_url = "https://skystreaming.onl/"
@@ -15,11 +11,82 @@ headers = {
     "Referer": "https://skystreaming.onl/"
 }
 
-# [Tutte le altre funzioni rimangono identiche...]
-# (find_event_pages, get_video_stream, extract_channel_name)
+# Funzione per trovare i link alle pagine evento
+def find_event_pages():
+    try:
+        response = requests.get(base_url, headers=headers)
+        response.raise_for_status()
+        soup = BeautifulSoup(response.text, 'html.parser')
 
+        event_links = set()
+        for a in soup.find_all('a', href=True):
+            href = a['href']
+            if re.match(r'/view/[^/]+/[^/]+', href):
+                full_url = base_url + href.lstrip('/')
+                event_links.add(full_url)
+            elif re.match(r'https://skystreaming\.onl/view/[^/]+/[^/]+', href):
+                event_links.add(href)
+
+        return list(event_links)
+
+    except requests.RequestException as e:
+        print(f"Errore durante la ricerca delle pagine evento: {e}")
+        return []
+
+# Funzione per estrarre il flusso video da una pagina evento
+def get_video_stream(event_url):
+    try:
+        response = requests.get(event_url, headers=headers)
+        response.raise_for_status()
+        soup = BeautifulSoup(response.text, 'html.parser')
+
+        for iframe in soup.find_all('iframe'):
+            src = iframe.get('src')
+            if src and ("stream" in src.lower() or re.search(r'\.(m3u8|mp4|ts|html|php)', src, re.IGNORECASE)):
+                return src, iframe
+
+        for embed in soup.find_all('embed'):
+            src = embed.get('src')
+            if src and ("stream" in src.lower() or re.search(r'\.(m3u8|mp4|ts|html|php)', src, re.IGNORECASE)):
+                return src, embed
+
+        for video in soup.find_all('video'):
+            src = video.get('src')
+            if src and ("stream" in src.lower() or re.search(r'\.(m3u8|mp4|ts)', src, re.IGNORECASE)):
+                return src, video
+            for source in video.find_all('source'):
+                src = source.get('src')
+                if src and ("stream" in src.lower() or re.search(r'\.(m3u8|mp4|ts)', src, re.IGNORECASE)):
+                    return src, source
+
+        return None, None
+
+    except requests.RequestException as e:
+        print(f"Errore durante l'accesso a {event_url}: {e}")
+        return None, None
+
+# Funzione per estrarre il nome del canale
+def extract_channel_name(event_url, element):
+    event_name_match = re.search(r'/view/([^/]+)/[^/]+', event_url)
+    if event_name_match:
+        return event_name_match.group(1).replace('-', ' ').title()
+    
+    name_match = re.search(r'([^/]+?)(?:\.(m3u8|mp4|ts|html|php))?$', event_url)
+    if name_match:
+        return name_match.group(1).replace('-', ' ').title()
+    
+    parent = element.find_parent() if element else None
+    if parent and parent.text.strip():
+        return parent.text.strip()[:50].replace('\n', ' ').title()
+    
+    return "Unknown Channel"
+
+# Funzione per creare il file M3U
 def create_m3u_file(video_streams):
-    with open(FILE_PATH, "w", encoding="utf-8") as f:
+    REPO_PATH = os.getenv('GITHUB_WORKSPACE', '.')
+    FILE_PATH = os.path.join(REPO_PATH, "skystreaming_playlist.m3u")
+
+    with open(file_path, "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
         
         groups = {}
@@ -34,14 +101,15 @@ def create_m3u_file(video_streams):
             elif "film" in channel_name.lower():
                 group = "Cinema"
             else:
-                group = "Eventi"
+                group = "Eventi"  # Cambiato "Altro" in "Eventi"
             
             if group not in groups:
                 groups[group] = []
             groups[group].append((channel_name, stream_url))
 
+        # Ordinamento alfabetico dei canali all'interno di ciascun gruppo
         for group, channels in groups.items():
-            channels.sort(key=lambda x: x[0].lower())
+            channels.sort(key=lambda x: x[0].lower())  # Ordinamento alfabetico per nome del canale
             
             for channel_name, link in channels:
                 f.write(f"#EXTINF:-1 group-title=\"{group}\", {channel_name}\n")
@@ -49,8 +117,9 @@ def create_m3u_file(video_streams):
                 f.write(f"#EXTVLCOPT:http-referrer={headers['Referer']}\n")
                 f.write(f"{link}\n")
 
-    print(f"File M3U creato con successo: {FILE_PATH}")
+    print(f"File M3U creato con successo sul desktop: {file_path}")
 
+# Esegui lo script
 if __name__ == "__main__":
     event_pages = find_event_pages()
     if not event_pages:
@@ -64,6 +133,12 @@ if __name__ == "__main__":
                 video_streams.append((event_url, stream_url, element))
             else:
                 print(f"Nessun flusso trovato per {event_url}")
+
+        if video_streams:
+            create_m3u_file(video_streams)
+        else:
+            print("Nessun flusso video trovato in tutte le pagine evento.")
+
 
         if video_streams:
             create_m3u_file(video_streams)
