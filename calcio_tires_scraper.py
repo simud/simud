@@ -12,7 +12,7 @@ headers = {
     "Referer": "https://calcio.tires/"
 }
 
-# Immagine fissa da usare per tutti i canali (come nello script precedente)
+# Immagine fissa da usare per tutti i canali
 DEFAULT_IMAGE_URL = "https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png"
 
 # Funzione per trovare i link alle pagine evento
@@ -26,10 +26,10 @@ def find_event_pages():
         for a in soup.find_all('a', href=True):
             href = a['href']
             # Pattern generico per link a eventi - da personalizzare
-            if re.match(r'/[^/]+/[^/]+', href):  # Esempio: /event/partita
+            if re.match(r'/live/[^/]+', href):  # Esempio: /live/arsenal-vs-fulham
                 full_url = base_url + href.lstrip('/')
                 event_links.add(full_url)
-            elif re.match(r'https://calcio\.tires/[^/]+/[^/]+', href):
+            elif re.match(r'https://calcio\.tires/live/[^/]+', href):
                 event_links.add(href)
 
         return list(event_links)
@@ -38,67 +38,63 @@ def find_event_pages():
         print(f"Errore durante la ricerca delle pagine evento: {e}")
         return []
 
-# Funzione per estrarre il flusso video dalla pagina evento
-def get_video_stream(event_url):
+# Funzione per estrarre tutti i flussi video dalla pagina evento
+def get_all_video_streams(event_url):
     try:
         response = requests.get(event_url, headers=headers)
         response.raise_for_status()
         soup = BeautifulSoup(response.text, 'html.parser')
 
-        stream_url = None
-        element = None
+        streams = []
+        # Cerca tutti gli iframe
         for iframe in soup.find_all('iframe'):
             src = iframe.get('src')
             if src and ("stream" in src.lower() or re.search(r'\.(m3u8|mp4|ts|html|php)', src, re.IGNORECASE)):
-                stream_url = src
-                element = iframe
-                break
+                streams.append((src, iframe))
 
-        if not stream_url:
-            for embed in soup.find_all('embed'):
-                src = embed.get('src')
-                if src and ("stream" in src.lower() or re.search(r'\.(m3u8|mp4|ts|html|php)', src, re.IGNORECASE)):
-                    stream_url = src
-                    element = embed
-                    break
+        # Cerca tutti gli embed
+        for embed in soup.find_all('embed'):
+            src = embed.get('src')
+            if src and ("stream" in src.lower() or re.search(r'\.(m3u8|mp4|ts|html|php)', src, re.IGNORECASE)):
+                streams.append((src, embed))
 
-        if not stream_url:
-            for video in soup.find_all('video'):
-                src = video.get('src')
+        # Cerca tutti i video
+        for video in soup.find_all('video'):
+            src = video.get('src')
+            if src and ("stream" in src.lower() or re.search(r'\.(m3u8|mp4|ts)', src, re.IGNORECASE)):
+                streams.append((src, video))
+            for source in video.find_all('source'):
+                src = source.get('src')
                 if src and ("stream" in src.lower() or re.search(r'\.(m3u8|mp4|ts)', src, re.IGNORECASE)):
-                    stream_url = src
-                    element = video
-                    break
-                for source in video.find_all('source'):
-                    src = source.get('src')
-                    if src and ("stream" in src.lower() or re.search(r'\.(m3u8|mp4|ts)', src, re.IGNORECASE)):
-                        stream_url = src
-                        element = source
-                        break
+                    streams.append((src, source))
 
-        return stream_url, element
+        return streams if streams else [(None, None)]
 
     except requests.RequestException as e:
         print(f"Errore durante l'accesso a {event_url}: {e}")
-        return None, None
+        return [(None, None)]
 
 # Funzione per estrarre il nome del canale
-def extract_channel_name(event_url, element):
-    event_name_match = re.search(r'/([^/]+)/[^/]+$', event_url)
+def extract_channel_name(event_url, element, stream_index):
+    # Estrai il nome dall'URL (es. /live/arsenal-vs-fulham -> "Arsenal Vs Fulham")
+    event_name_match = re.search(r'/live/([^/]+)', event_url)
     if event_name_match:
-        return event_name_match.group(1).replace('-', ' ').title()
+        base_name = event_name_match.group(1).replace('-', ' ').title()
+        return f"{base_name} Player {stream_index + 1}"
     
     name_match = re.search(r'([^/]+?)(?:\.(m3u8|mp4|ts|html|php))?$', event_url)
     if name_match:
-        return name_match.group(1).replace('-', ' ').title()
+        base_name = name_match.group(1).replace('-', ' ').title()
+        return f"{base_name} Player {stream_index + 1}"
     
     parent = element.find_parent() if element else None
     if parent and parent.text.strip():
-        return parent.text.strip()[:50].replace('\n', ' ').title()
+        base_name = parent.text.strip()[:50].replace('\n', ' ').title()
+        return f"{base_name} Player {stream_index + 1}"
     
-    return "Unknown Channel"
+    return f"Unknown Channel Player {stream_index + 1}"
 
-# Funzione per aggiornare il file M3U8 esistente con immagine fissa
+# Funzione per aggiornare il file M3U8 con più flussi per evento
 def update_m3u_file(video_streams, m3u_file="calcio_tires_playlist.m3u8"):
     REPO_PATH = os.getenv('GITHUB_WORKSPACE', '.')
     file_path = os.path.join(REPO_PATH, m3u_file)
@@ -108,22 +104,16 @@ def update_m3u_file(video_streams, m3u_file="calcio_tires_playlist.m3u8"):
         f.write("#EXTM3U\n")
         
         groups = {}
-        for event_url, stream_url, element in video_streams:
-            if not stream_url:
-                continue
-            channel_name = extract_channel_name(event_url, element)
-            if "sport" in channel_name.lower():
-                group = "Sport"
-            elif "serie" in channel_name.lower():
-                group = "Serie TV"
-            elif "film" in channel_name.lower():
-                group = "Cinema"
-            else:
-                group = "Eventi"
-            
-            if group not in groups:
-                groups[group] = []
-            groups[group].append((channel_name, stream_url))
+        for event_url, stream_list in video_streams:
+            for index, (stream_url, element) in enumerate(stream_list):
+                if not stream_url:
+                    continue
+                channel_name = extract_channel_name(event_url, element, index)
+                group = "Sport"  # Gruppo fisso dato che è un sito di calcio
+                
+                if group not in groups:
+                    groups[group] = []
+                groups[group].append((channel_name, stream_url))
 
         # Ordinamento alfabetico dei canali all'interno di ciascun gruppo
         for group, channels in groups.items():
@@ -145,9 +135,9 @@ if __name__ == "__main__":
         video_streams = []
         for event_url in event_pages:
             print(f"Analizzo: {event_url}")
-            stream_url, element = get_video_stream(event_url)
-            if stream_url:
-                video_streams.append((event_url, stream_url, element))
+            streams = get_all_video_streams(event_url)
+            if any(stream_url for stream_url, _ in streams):
+                video_streams.append((event_url, streams))
             else:
                 print(f"Nessun flusso trovato per {event_url}")
 
