@@ -1,9 +1,9 @@
 name: SkyStreaming Scraper
 
 on:
-  workflow_dispatch:
+  workflow_dispatch:  # Permette l'esecuzione manuale
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 */3 * * *'  # Esegue ogni 3 ore: 0:00, 3:00, 6:00, 9:00, 12:00, 15:00, 18:00, 21:00 UTC
 
 jobs:
   scrape:
