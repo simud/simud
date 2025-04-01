@@ -173,6 +173,38 @@ https://top1-cdnnew.koskoros.ru/top1-cdn/calcioXskycinemaromance/mono.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Sky Cinema", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 
+# Sky Cinema Backup
+
+#EXTINF:-1 tvg-id="Sky Cinema Uno" tvg-logo="https://i.postimg.cc/Ss88rXcm/photo-2025-03-12-12-23-14.png" tvg-name="Sky Cinema Uno" group-title="Sky Cinema Backup", Sky Cinema Uno  
+https://top1-cdnnew.iosplayer.ru/top1-cdn/calcioXskycinemauno/mono.m3u8
+
+#EXTINF:-1 tvg-id="skyc2" tvg-logo="https://i.postimg.cc/Ss88rXcm/photo-2025-03-12-12-23-14.png" tvg-name="Sky Cinema Due" group-title="Sky Cinema Backup", Sky Cinema Due  
+https://top1-cdnnew.iosplayer.ru/top1-cdn/calcioXskycinemadue/mono.m3u8
+
+#EXTINF:-1 tvg-id="skyccollection" tvg-logo="https://i.postimg.cc/Ss88rXcm/photo-2025-03-12-12-23-14.png" tvg-name="Sky Cinema Collection" group-title="Sky Cinema Backup", Sky Cinema Collection  
+https://top1-cdnnew.iosplayer.ru/top1-cdn/calcioXskycinemacollection/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Cinema Action" tvg-logo="https://i.postimg.cc/Ss88rXcm/photo-2025-03-12-12-23-14.png" tvg-name="Sky Cinema Action" group-title="Sky Cinema Backup", Sky Cinema Action  
+https://top1-cdnnew.iosplayer.ru/top1-cdn/calcioXac/mono.m3u8
+
+#EXTINF:-1 tvg-id="skyccom" tvg-logo="https://i.postimg.cc/Ss88rXcm/photo-2025-03-12-12-23-14.png" tvg-name="Sky Cinema Comedy" group-title="Sky Cinema Backup", Sky Cinema Comedy  
+https://top1-cdnnew.iosplayer.ru/top1-cdn/calcioXskycinemacomedy/mono.m3u8
+
+#EXTINF:-1 tvg-id="skycfa" tvg-logo="https://i.postimg.cc/Ss88rXcm/photo-2025-03-12-12-23-14.png" tvg-name="Sky Cinema Family" group-title="Sky Cinema Backup", Sky Cinema Family  
+https://top1-cdnnew.iosplayer.ru/top1-cdn/calcioXskycinemafamily/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Cinema Suspence" tvg-logo="https://i.postimg.cc/Ss88rXcm/photo-2025-03-12-12-23-14.png" tvg-name="Sky Cinema Suspence" group-title="Sky Cinema Backup", Sky Cinema Suspence  
+https://top1-cdnnew.iosplayer.ru/top1-cdn/calcioXskycinemasuspence/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky cinema drama" tvg-logo="https://i.postimg.cc/Ss88rXcm/photo-2025-03-12-12-23-14.png" tvg-name="Sky Cinema Drama" group-title="Sky Cinema Backup", Sky Cinema Drama  
+https://top1-cdnnew.iosplayer.ru/top1-cdn/calcioXskycinemadrama/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky cinema romance" tvg-logo="https://i.postimg.cc/Ss88rXcm/photo-2025-03-12-12-23-14.png" tvg-name="Sky Cinema Romance" group-title="Sky Cinema Backup", Sky Cinema Romance  
+https://top1-cdnnew.iosplayer.ru/top1-cdn/calcioXskycinemaromance/mono.m3u8
+
+#EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Sky Cinema Backup", ADMIN
+https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
+
 # Sky Cinema FHD
 #EXTINF:-1 tvg-id="Sky.Cinema.Uno.it" group-title="Sky Cinema FHD" tvg-logo="https://i.postimg.cc/Ss88rXcm/photo-2025-03-12-12-23-14.png",Sky Cinema Uno FHD
 #EXTVLCOPT:http-referrer=https://dokoplay.xyz/
@@ -311,6 +343,95 @@ https://top1-cdnnew.koskoros.ru/top1-cdn/calcioXseriesi/mono.m3u8
 https://top1-cdnnew.koskoros.ru/top1-cdn/calcioXserie1/mono.m3u8
 
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Sky Sport", ADMIN
+https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
+
+# Sky Sport Backup
+
+#EXTINF:-1 tvg-id="Sky.Sport24.it" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Sky Sport 24" group-title="Sky Sport Backup", Sky Sport 24
+https://top1-cdnnew.iosplayer.ru/top1-cdn/calcioXskysport24/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky sport uno" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Sky Sport Uno" group-title="Sky Sport Backup", Sky Sport Uno  
+https://top1-cdnnew.iosplayer.ru/top1-cdn/calcioXskysportuno/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky.Sport.Calcio.it" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Sky Sport Calcio" group-title="Sky Sport Backup", Sky Sport Calcio  
+https://top1-cdnnew.iosplayer.ru/top1-cdn/calcioXskysportcalcio/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky sport f1" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Sky Sport F1" group-title="Sky Sport Backup", Sky Sport F1  
+https://top1-cdnnew.iosplayer.ru/top1-cdn/calcioXformula/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky sport nba" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Sky Sport NBA" group-title="Sky Sport Backup", Sky Sport NBA
+https://top1-cdnnew.iosplayer.ru/top1-cdn/calcioXskysportnba/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky sport arena" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Sky Sport Arena" group-title="Sky Sport Backup", Sky Sport Arena
+https://top1-cdnnew.iosplayer.ru/top1-cdn/calcioXskysportarena/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky.Sport.Tennis.it" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Sky Sport Tennis" group-title="Sky Sport Backup", Sky Sport Tennis  
+https://top1-cdnnew.iosplayer.ru/top1-cdn/calcioXskysporttennis/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky sport motogp" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Sky Sport MotoGP" group-title="Sky Sport Backup", Sky Sport MotoGP  
+https://top1-cdnnew.iosplayer.ru/top1-cdn/calcioXskysportmotogp/mono.m3u8
+
+#EXTINF:-1 tvg-id="skysportmax.it" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Sky Sport Max" group-title="Sky Sport Backup", Sky Sport Max 
+https://top1-cdnnew.iosplayer.ru/top1-cdn/calcioXskysportmax/mono.m3u8
+
+#EXTINF:-1 tvg-id="skysportaction.it" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Sky Sport Golf" group-title="Sky Sport Backup", Sky Sport Golf
+https://top1-cdnnew.iosplayer.ru/top1-cdn/calcioXskysportgolf/mono.m3u8
+
+#EXTINF:-1 channel-id="pluto-63a0e33a45264d000850ed7e" tvg-id="63a0e33a45264d000850ed7e" tvg-logo="https://i.postimg.cc/NfjtMXnP/photo-2025-03-13-12-52-28.png" group-title="Sky Sport Backup", Golazo (SerieA)
+http://stitcher.pluto.tv/v1/stitch/embed/hls/channel/63a0e33a45264d000850ed7e/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
+
+#EXTINF:0, tvg-id="rsi la1" tvg-logo="https://i.postimg.cc/HLxdhywy/photo-2025-03-13-12-49-58.png" group-title="Sky Sport Backup", RSI La1
+https://viamotionhsi.netplus.ch/live/eds/rsila1hd/browser-dash/rsila1hd.mpd
+
+#EXTINF:0, tvg-id="rsi la2" tvg-logo="https://i.postimg.cc/HLxdhywy/photo-2025-03-13-12-49-58.png" group-title="Sky Sport Backup", RSI La2
+https://viamotionhsi.netplus.ch/live/eds/rsila2hd/browser-dash/rsila2hd.mpd
+
+#EXTINF:-1 tvg-id="Sky.Sport..251.it" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Sky Sport 251" group-title="Sky Sport Backup", Sky Calcio 1 (251) 
+https://top1-cdnnew.iosplayer.ru/top1-cdn/calcioXskysport251/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky.Sport..252.it" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Sky Sport 252" group-title="Sky Sport Backup", Sky Calcio 2 (252) 
+https://top1-cdnnew.iosplayer.ru/top1-cdn/calcioXskysport252/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky.Sport..253.it" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Sky Sport 253" group-title="Sky Sport Backup", Sky Calcio 3 (253) 
+https://top1-cdnnew.iosplayer.ru/top1-cdn/calcioXskysport253/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky.Sport..254.it" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Sky Sport 254" group-title="Sky Sport Backup", Sky Calcio 4 (254) 
+https://top1-cdnnew.iosplayer.ru/top1-cdn/calcioXskysport254/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky.Sport..255.it" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Sky Sport 255" group-title="Sky Sport Backup", Sky Calcio 5 (255) 
+https://top1-cdnnew.iosplayer.ru/top1-cdn/calcioXskysport255/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky.Sport..256.it" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Sky Sport 256" group-title="Sky Sport Backup", Sky Calcio 6 (256) 
+https://top1-cdnnew.iosplayer.ru/top1-cdn/calcioXskysport256/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky.Sport..257.it" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Sky Sport 257" group-title="Sky Sport Backup", Sky Calcio 7 (257) 
+https://top1-cdnnew.iosplayer.ru/top1-cdn/calcioXskysport257/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky.Sport..258.it" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Sky Sport 258" group-title="Sky Sport Backup", Sky Calcio 8 (258) 
+https://top1-cdnnew.iosplayer.ru/top1-cdn/calcioXsky258/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky.Sport..259.it" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Sky Sport 259" group-title="Sky Sport Backup", Sky Calcio 9 (259) 
+https://top1-cdnnew.iosplayer.ru/top1-cdn/calcioXsky259/mono.m3u8
+
+#EXTINF:-1 tvg-id="DAZN.2.de" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Evento 1" group-title="Sky Sport Backup", Evento 1
+#EXTVLCOPT:http-referrer=https://dokoplay.xyz/
+#EXTVLCOPT:http-origin=https://dokoplay.xyz
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://top1-cdnnew.iosplayer.ru/top1-cdn/calcioXserie/mono.m3u8
+
+#EXTINF:-1 tvg-id="DAZN.2.de" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Evento 2" group-title="Sky Sport Backup", Evento 2
+#EXTVLCOPT:http-referrer=https://dokoplay.xyz/
+#EXTVLCOPT:http-origin=https://dokoplay.xyz
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://top1-cdnnew.iosplayer.ru/top1-cdn/calcioXseriesi/mono.m3u8
+
+#EXTINF:-1 tvg-id="DAZN.1.de" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Evento 3" group-title="Sky Sport Backup", Evento 3
+#EXTVLCOPT:http-referrer=https://dokoplay.xyz/
+#EXTVLCOPT:http-origin=https://dokoplay.xyz
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://top1-cdnnew.iosplayer.ru/top1-cdn/calcioXserie1/mono.m3u8
+
+#EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Sky Sport Backup", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 
 # Sky Sport FHD
@@ -574,6 +695,89 @@ https://top1-cdnnew.koskoros.ru/top1-cdn/calcioXsaler/mono.m3u8
 https://top1-cdnnew.koskoros.ru/top1-cdn/calcioXcatan/mono.m3u8
 
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="DAZN Serie B", ADMIN
+https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
+
+# DAZN Serie B Backup
+
+#EXTINF:-1 tvg-id="daznzona.it" tvg-logo="https://i.postimg.cc/L6bNsP4s/photo-2025-03-12-12-30-43.png" tvg-name="ZONA DAZN Serie B" group-title="DAZN Serie B Backup", ZONA DAZN Serie B
+#EXTVLCOPT:http-referrer=https://dokoplay.xyz/
+#EXTVLCOPT:http-origin=https://dokoplay.xyz
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://top1-cdnnew.iosplayer.ru/top1-cdn/calcioXzonab/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sassuolo" tvg-logo="https://i.postimg.cc/L6bNsP4s/photo-2025-03-12-12-30-43.png" tvg-name="Sassuolo" group-title="DAZN Serie B Backup", Sassuolo
+#EXTVLCOPT:http-referrer=https://dokoplay.xyz/
+#EXTVLCOPT:http-origin=https://dokoplay.xyz
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://top1-cdnnew.iosplayer.ru/top1-cdn/calcioXsass/mono.m3u8
+
+#EXTINF:-1 tvg-id="Pisa" tvg-logo="https://i.postimg.cc/L6bNsP4s/photo-2025-03-12-12-30-43.png" tvg-name="Pisa" group-title="DAZN Serie B Backup", Pisa
+#EXTVLCOPT:http-referrer=https://dokoplay.xyz/
+#EXTVLCOPT:http-origin=https://dokoplay.xyz
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://top1-cdnnew.iosplayer.ru/top1-cdn/calcioXpisa/mono.m3u8
+
+#EXTINF:-1 tvg-id="Cittadella" tvg-logo="https://i.postimg.cc/L6bNsP4s/photo-2025-03-12-12-30-43.png" tvg-name="Cittadella" group-title="DAZN Serie B Backup", Cittadella
+#EXTVLCOPT:http-referrer=https://dokoplay.xyz/
+#EXTVLCOPT:http-origin=https://dokoplay.xyz
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://top1-cdnnew.iosplayer.ru/top1-cdn/calcioXcitta/mono.m3u8
+
+#EXTINF:-1 tvg-id="Frosinone" tvg-logo="https://i.postimg.cc/L6bNsP4s/photo-2025-03-12-12-30-43.png" tvg-name="Frosinone" group-title="DAZN Serie B Backup", Frosinone
+#EXTVLCOPT:http-referrer=https://dokoplay.xyz/
+#EXTVLCOPT:http-origin=https://dokoplay.xyz
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://top1-cdnnew.iosplayer.ru/top1-cdn/calcioXfrosi/mono.m3u8
+
+#EXTINF:-1 tvg-id="Cesena" tvg-logo="https://i.postimg.cc/L6bNsP4s/photo-2025-03-12-12-30-43.png" tvg-name="Cesena" group-title="DAZN Serie B Backup", Cesena
+#EXTVLCOPT:http-referrer=https://dokoplay.xyz/
+#EXTVLCOPT:http-origin=https://dokoplay.xyz
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://top1-cdnnew.iosplayer.ru/top1-cdn/calcioXspezia/mono.m3u8
+
+#EXTINF:-1 tvg-id="Juve Stabia" tvg-logo="https://i.postimg.cc/L6bNsP4s/photo-2025-03-12-12-30-43.png" tvg-name="Juve Stabia" group-title="DAZN Serie B Backup", Juve Stabia 
+#EXTVLCOPT:http-referrer=https://dokoplay.xyz/
+#EXTVLCOPT:http-origin=https://dokoplay.xyz
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://top1-cdnnew.iosplayer.ru/top1-cdn/calcioXjuve/mono.m3u8
+
+#EXTINF:-1 tvg-id="Bari" tvg-logo="https://i.postimg.cc/L6bNsP4s/photo-2025-03-12-12-30-43.png" tvg-name="Juve Stabia" group-title="DAZN Serie B Backup", Bari
+#EXTVLCOPT:http-referrer=https://dokoplay.xyz/
+#EXTVLCOPT:http-origin=https://dokoplay.xyz
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://top1-cdnnew.iosplayer.ru/top1-cdn/calcioXbari/mono.m3u8
+
+#EXTINF:-1 tvg-id="Modena" tvg-logo="https://i.postimg.cc/L6bNsP4s/photo-2025-03-12-12-30-43.png" tvg-name="Modena" group-title="DAZN Serie B Backup", Modena
+#EXTVLCOPT:http-referrer=https://dokoplay.xyz/
+#EXTVLCOPT:http-origin=https://dokoplay.xyz
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://top1-cdnnew.iosplayer.ru/top1-cdn/calcioXmodena/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sampdoria" tvg-logo="https://i.postimg.cc/L6bNsP4s/photo-2025-03-12-12-30-43.png" tvg-name="Sampdoria" group-title="DAZN Serie B Backup", Sampdoria
+#EXTVLCOPT:http-referrer=https://dokoplay.xyz/
+#EXTVLCOPT:http-origin=https://dokoplay.xyz
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://top1-cdnnew.iosplayer.ru/top1-cdn/calcioXsamp/mono.m3u8
+
+#EXTINF:-1 tvg-id="Mantova" tvg-logo="https://i.postimg.cc/L6bNsP4s/photo-2025-03-12-12-30-43.png" tvg-name="Mantova" group-title="DAZN Serie B Backup", Mantova
+#EXTVLCOPT:http-referrer=https://dokoplay.xyz/
+#EXTVLCOPT:http-origin=https://dokoplay.xyz
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://top1-cdnnew.iosplayer.ru/top1-cdn/calcioXmantova/mono.m3u8
+
+#EXTINF:-1 tvg-id="Salernitana" tvg-logo="https://i.postimg.cc/L6bNsP4s/photo-2025-03-12-12-30-43.png" tvg-name="Mantova" group-title="DAZN Serie B Backup", Salernitana
+#EXTVLCOPT:http-referrer=https://dokoplay.xyz/
+#EXTVLCOPT:http-origin=https://dokoplay.xyz
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://top1-cdnnew.iosplayer.ru/top1-cdn/calcioXsaler/mono.m3u8
+
+#EXTINF:-1 tvg-id="Catanzaro" tvg-logo="https://i.postimg.cc/L6bNsP4s/photo-2025-03-12-12-30-43.png" tvg-name="Catanzaro" group-title="DAZN Serie B Backup", Catanzaro
+#EXTVLCOPT:http-referrer=https://dokoplay.xyz/
+#EXTVLCOPT:http-origin=https://dokoplay.xyz
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://top1-cdnnew.iosplayer.ru/top1-cdn/calcioXcatan/mono.m3u8
+
+#EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="DAZN Serie B Backup", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 
 # DAZN Stranieri
