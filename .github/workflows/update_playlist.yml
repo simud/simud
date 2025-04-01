@@ -27,7 +27,7 @@ jobs:
         pip install requests beautifulsoup4
 
     - name: Run scraper
-      run: python sky_streaming.py
+      run: python update_m3u.py
 
     - name: Commit and Push using GitHub Script
       uses: actions/github-script@v6
