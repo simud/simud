@@ -1,5 +1,6 @@
-# **ATTUALMENTE I CANALI SONO IN MANUTENZIONE E POTREBBERO NON FUNZIONARE TUTTI**
-## Vedere la sezione backup che potrebbe funzionare
+# **🚨ATTUALMENTE I CANALI SONO IN MANUTENZIONE E POTREBBERO NON FUNZIONARE TUTTI🚨**
+
+## 🚨Vedere la sezione backup che potrebbe funzionare🚨
 
 
 # 📺 Lista Canali TV - Info & Funzionamento
