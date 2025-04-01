@@ -1,7 +1,10 @@
-name: Aggiorna Playlist M3U
+name: Update Playlist
 
 on:
-  workflow_dispatch:  # Permette di avviare manualmente l'azione
+  push:
+    branches:
+      - main
+  workflow_dispatch: # Permette di eseguire il workflow manualmente
 
 jobs:
   update-playlist:
@@ -9,24 +12,20 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v2
 
-      - name: Setup Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.10'
-
-      - name: Install dependencies
-        run: pip install requests beautifulsoup4
-
-      - name: Run script
-        run: python update_m3u.py
-
-      - name: Commit and push changes
+      - name: Set up Git
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git remote set-url origin https://github-actions:${{ secrets.ACTIONS_TOKEN }}@github.com/simud/simud.git
-          git add skystreaming_playlist.m3u
-          git commit -m "Aggiornata playlist M3U" || echo "Nessuna modifica da commitare"
-          git push
+
+      - name: Get video streams
+        run: |
+          # Qui dovresti eseguire il tuo script per generare la playlist M3U
+          python3 update_playlist.py
+
+      - name: Commit updated playlist
+        run: |
+          git add path/to/your/playlist.m3u
+          git commit -m "Aggiornamento playlist"
+          git push https://github-actions:${{ secrets.ACTIONS_TOKEN }}@github.com/simud/simud.git
