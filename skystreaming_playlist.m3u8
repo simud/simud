@@ -1,65 +1,161 @@
 #EXTM3U
-#EXTINF:-1 group-title="Sport" tvg-logo="https://skystreaming.onl/content/auto_site_logo.png", Sky Sport 251
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://skystreaming.onl/
-https://skystreaming.onl/embed/drHbM
-#EXTINF:-1 group-title="Sport" tvg-logo="https://skystreaming.onl/content/auto_site_logo.png", Sky Sport 252
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://skystreaming.onl/
-https://skystreaming.onl/embed/m5kfg
-#EXTINF:-1 group-title="Sport" tvg-logo="https://skystreaming.onl/content/auto_site_logo.png", Sky Sport 253
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://skystreaming.onl/
-https://skystreaming.onl/embed/YprHf
-#EXTINF:-1 group-title="Sport" tvg-logo="https://skystreaming.onl/content/auto_site_logo.png", Sky Sport 254
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://skystreaming.onl/
-https://skystreaming.onl/embed/wroRV
-#EXTINF:-1 group-title="Sport" tvg-logo="https://skystreaming.onl/content/auto_site_logo.png", Sky Sport Calcio
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://skystreaming.onl/
-https://skystreaming.onl/embed/STOZT
-#EXTINF:-1 group-title="Sport" tvg-logo="https://skystreaming.onl/content/auto_site_logo.png", Sky Sport Nba
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://skystreaming.onl/
-https://skystreaming.onl/embed/saR8j
-#EXTINF:-1 group-title="Sport" tvg-logo="https://skystreaming.onl/content/auto_site_logo.png", Sky Sport Tennis
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://skystreaming.onl/
-https://skystreaming.onl/embed/MKCKP
-#EXTINF:-1 group-title="Sport" tvg-logo="https://skystreaming.onl/content/auto_site_logo.png", Sky Sport Uno
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://skystreaming.onl/
-https://skystreaming.onl/embed/tb1np
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://skystreaming.onl/content/auto_site_logo.png", Arsenal Vs Fulham
+#EXTINF:-1 group-title="Eventi", Arsenal Vs Fulham
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.onl/
 https://skystreaming.onl/embed/vnmOh
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://skystreaming.onl/content/auto_site_logo.png", Bielefeld Vs Leverkusen
+#EXTINF:-1 group-title="Eventi", Arsenal Vs Fulham
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://skystreaming.onl/
+https://skystreaming.onl/embed/vnmOh
+#EXTINF:-1 group-title="Eventi", Arsenal Vs Fulham
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://skystreaming.onl/
+https://skystreaming.onl/embed/vnmOh
+#EXTINF:-1 group-title="Eventi", Arsenal Vs Fulham
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://skystreaming.onl/
+https://skystreaming.onl/embed/vnmOh
+#EXTINF:-1 group-title="Eventi", Bielefeld Vs Leverkusen
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.onl/
 https://skystreaming.onl/embed/ZUmJk
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://skystreaming.onl/content/auto_site_logo.png", Boavista Vs Gil Vicente
+#EXTINF:-1 group-title="Eventi", Bielefeld Vs Leverkusen
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://skystreaming.onl/
+https://skystreaming.onl/embed/ZUmJk
+#EXTINF:-1 group-title="Eventi", Bielefeld Vs Leverkusen
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://skystreaming.onl/
+https://skystreaming.onl/embed/ZUmJk
+#EXTINF:-1 group-title="Eventi", Bielefeld Vs Leverkusen
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://skystreaming.onl/
+https://skystreaming.onl/embed/ZUmJk
+#EXTINF:-1 group-title="Eventi", Boavista Vs Gil Vicente
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.onl/
 https://skystreaming.onl/embed/KuqQ3
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://skystreaming.onl/content/auto_site_logo.png", Dunkerque Vs Psg
+#EXTINF:-1 group-title="Eventi", Boavista Vs Gil Vicente
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://skystreaming.onl/
+https://skystreaming.onl/embed/KuqQ3
+#EXTINF:-1 group-title="Eventi", Dunkerque Vs Psg
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.onl/
 https://skystreaming.onl/embed/adC55
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://skystreaming.onl/content/auto_site_logo.png", Empoli Vs Bologna
+#EXTINF:-1 group-title="Eventi", Dunkerque Vs Psg
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://skystreaming.onl/
+https://skystreaming.onl/embed/adC55
+#EXTINF:-1 group-title="Eventi", Empoli Vs Bologna
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.onl/
 https://skystreaming.onl/embed/9joDF
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://skystreaming.onl/content/auto_site_logo.png", Nottingham Vs Manchester Utd
+#EXTINF:-1 group-title="Eventi", Empoli Vs Bologna
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://skystreaming.onl/
+https://skystreaming.onl/embed/9joDF
+#EXTINF:-1 group-title="Eventi", Nottingham Vs Manchester Utd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.onl/
 https://skystreaming.onl/embed/fjE0B
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://skystreaming.onl/content/auto_site_logo.png", Real Madrid Vs Real Sociedad
+#EXTINF:-1 group-title="Eventi", Nottingham Vs Manchester Utd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://skystreaming.onl/
+https://skystreaming.onl/embed/fjE0B
+#EXTINF:-1 group-title="Eventi", Real Madrid Vs Real Sociedad
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.onl/
 https://skystreaming.onl/embed/aYOtx
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://skystreaming.onl/content/auto_site_logo.png", Wolves Vs West Ham
+#EXTINF:-1 group-title="Eventi", Real Madrid Vs Real Sociedad
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://skystreaming.onl/
+https://skystreaming.onl/embed/aYOtx
+#EXTINF:-1 group-title="Eventi", Wolves Vs West Ham
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.onl/
 https://skystreaming.onl/embed/NsbLQ
+#EXTINF:-1 group-title="Eventi", Wolves Vs West Ham
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://skystreaming.onl/
+https://skystreaming.onl/embed/NsbLQ
+#EXTINF:-1 group-title="Eventi", Wolves Vs West Ham
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://skystreaming.onl/
+https://skystreaming.onl/embed/NsbLQ
+#EXTINF:-1 group-title="Eventi", Wolves Vs West Ham
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://skystreaming.onl/
+https://skystreaming.onl/embed/NsbLQ
+#EXTINF:-1 group-title="Sport", Sky Sport 251
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://skystreaming.onl/
+https://skystreaming.onl/embed/drHbM
+#EXTINF:-1 group-title="Sport", Sky Sport 251
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://skystreaming.onl/
+https://skystreaming.onl/embed/drHbM
+#EXTINF:-1 group-title="Sport", Sky Sport 251
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://skystreaming.onl/
+https://skystreaming.onl/embed/drHbM
+#EXTINF:-1 group-title="Sport", Sky Sport 251
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://skystreaming.onl/
+https://skystreaming.onl/embed/drHbM
+#EXTINF:-1 group-title="Sport", Sky Sport 252
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://skystreaming.onl/
+https://skystreaming.onl/embed/m5kfg
+#EXTINF:-1 group-title="Sport", Sky Sport 252
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://skystreaming.onl/
+https://skystreaming.onl/embed/m5kfg
+#EXTINF:-1 group-title="Sport", Sky Sport 253
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://skystreaming.onl/
+https://skystreaming.onl/embed/YprHf
+#EXTINF:-1 group-title="Sport", Sky Sport 253
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://skystreaming.onl/
+https://skystreaming.onl/embed/YprHf
+#EXTINF:-1 group-title="Sport", Sky Sport 254
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://skystreaming.onl/
+https://skystreaming.onl/embed/wroRV
+#EXTINF:-1 group-title="Sport", Sky Sport 254
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://skystreaming.onl/
+https://skystreaming.onl/embed/wroRV
+#EXTINF:-1 group-title="Sport", Sky Sport Calcio
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://skystreaming.onl/
+https://skystreaming.onl/embed/STOZT
+#EXTINF:-1 group-title="Sport", Sky Sport Calcio
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://skystreaming.onl/
+https://skystreaming.onl/embed/STOZT
+#EXTINF:-1 group-title="Sport", Sky Sport Nba
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://skystreaming.onl/
+https://skystreaming.onl/embed/saR8j
+#EXTINF:-1 group-title="Sport", Sky Sport Nba
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://skystreaming.onl/
+https://skystreaming.onl/embed/saR8j
+#EXTINF:-1 group-title="Sport", Sky Sport Tennis
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://skystreaming.onl/
+https://skystreaming.onl/embed/MKCKP
+#EXTINF:-1 group-title="Sport", Sky Sport Tennis
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://skystreaming.onl/
+https://skystreaming.onl/embed/MKCKP
+#EXTINF:-1 group-title="Sport", Sky Sport Uno
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://skystreaming.onl/
+https://skystreaming.onl/embed/tb1np
+#EXTINF:-1 group-title="Sport", Sky Sport Uno
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://skystreaming.onl/
+https://skystreaming.onl/embed/tb1np
