@@ -26,6 +26,7 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
+          git remote set-url origin https://github-actions:${{ secrets.ACTIONS_TOKEN }}@github.com/simud/simud.git
           git add skystreaming_playlist.m3u
           git commit -m "Aggiornata playlist M3U" || echo "Nessuna modifica da commitare"
           git push
