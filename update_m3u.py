@@ -3,21 +3,21 @@ import re
 import os
 from bs4 import BeautifulSoup
 
-# URL di partenza (homepage o pagina con elenco eventi)
-base_url = "https://skystreaming.onl/"
+# Single URL variable to control base_url, Origin, and Referer
+SITE_URL = "https://skystreaming.onl/"
 headers = {
     "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1",
-    "Origin": "https://skystreaming.onl",
-    "Referer": "https://skystreaming.onl/"
+    "Origin": SITE_URL.rstrip('/'),
+    "Referer": SITE_URL.rstrip('/')
 }
 
-# Immagine fissa da usare per tutti i canali
+# Immagine fissa da usare per tutti i canali e gruppi
 DEFAULT_IMAGE_URL = "https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png"
 
 # Funzione per trovare i link alle pagine evento
 def find_event_pages():
     try:
-        response = requests.get(base_url, headers=headers)
+        response = requests.get(SITE_URL, headers=headers)
         response.raise_for_status()
         soup = BeautifulSoup(response.text, 'html.parser')
 
@@ -25,7 +25,7 @@ def find_event_pages():
         for a in soup.find_all('a', href=True):
             href = a['href']
             if re.match(r'/view/[^/]+/[^/]+', href):
-                full_url = base_url + href.lstrip('/')
+                full_url = SITE_URL + href.lstrip('/')
                 event_links.add(full_url)
             elif re.match(r'https://skystreaming\.onl/view/[^/]+/[^/]+', href):
                 event_links.add(href)
@@ -84,7 +84,7 @@ def extract_channel_name(event_url, element):
     
     return "Unknown Channel"
 
-# Funzione per aggiornare il file M3U8 con l'immagine fissa
+# Funzione per aggiornare il file M3U8 con l'immagine fissa per gruppi e canali
 def update_m3u_file(video_streams, m3u_file="skystreaming_playlist.m3u8"):
     REPO_PATH = os.getenv('GITHUB_WORKSPACE', '.')
     file_path = os.path.join(REPO_PATH, m3u_file)
@@ -114,6 +114,8 @@ def update_m3u_file(video_streams, m3u_file="skystreaming_playlist.m3u8"):
         # Ordinamento alfabetico dei canali all'interno di ciascun gruppo
         for group, channels in groups.items():
             channels.sort(key=lambda x: x[0].lower())
+            # Aggiungi il logo al gruppo usando tvg-logo
+            f.write(f"#EXTGRP:{group} tvg-logo=\"{DEFAULT_IMAGE_URL}\"\n")
             for channel_name, link in channels:
                 f.write(f"#EXTINF:-1 group-title=\"{group}\" tvg-logo=\"{DEFAULT_IMAGE_URL}\", {channel_name}\n")
                 f.write(f"#EXTVLCOPT:http-user-agent={headers['User-Agent']}\n")
