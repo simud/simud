@@ -29,11 +29,7 @@ def fetch_page_content():
     try:
         response = requests.get(SITE_URL, headers=headers)
         response.raise_for_status()
-        print("Contenuto della pagina ricevuto con successo. Prime 10 righe:")
-        lines = response.text.splitlines()
-        for i, line in enumerate(lines[:10], 1):
-            print(f"Riga {i}: {line}")
-        return lines
+        return response.text.splitlines()
     except requests.RequestException as e:
         print(f"Errore durante l'accesso a {SITE_URL}: {e}")
         return []
@@ -45,23 +41,18 @@ def extract_events_and_streams(lines):
 
     event_pattern = re.compile(r'(\d{2}:\d{2})\s+(.+?)\s+\|\s+(https://sportzonline\.ps/channels/[^\s]+\.php)')
 
-    print("\nAnalisi delle righe per trovare eventi:")
-    for i, line in enumerate(lines, 1):
+    for line in lines:
         line = line.strip()
         if line in DAY_TRANSLATION:
             current_day = DAY_TRANSLATION[line]
             if current_day not in events_by_day:
                 events_by_day[current_day] = []
-            print(f"Trovato giorno: {current_day}")
         elif current_day:
             match = event_pattern.search(line)
             if match:
                 time, event_title, stream_url = match.groups()
                 full_title = f"{time} {event_title}"
                 events_by_day[current_day].append((full_title, stream_url))
-                print(f"Trovato evento (riga {i}): {full_title} | {stream_url}")
-            else:
-                print(f"Nessun evento trovato (riga {i}): {line}")
 
     return events_by_day
 
@@ -70,40 +61,23 @@ def update_m3u_file(events_by_day, m3u_file="sportsonline_playlist.m3u8"):
     REPO_PATH = os.getenv('GITHUB_WORKSPACE', '.')
     file_path = os.path.join(REPO_PATH, m3u_file)
 
-    # Controlla se il file esiste prima
-    if os.path.exists(file_path):
-        print(f"File {file_path} esiste già. Contenuto prima della modifica:")
-        with open(file_path, "r", encoding="utf-8") as f:
-            print(f.read())
-    else:
-        print(f"File {file_path} non esiste ancora, verrà creato.")
+    with open(file_path, "w", encoding="utf-8") as f:
+        f.write("#EXTM3U\n")
+        
+        for day, events in events_by_day.items():
+            if not events:
+                continue
+            # Non riordiniamo gli eventi, li lasciamo nell'ordine originale
+            f.write(f"#EXTGRP:{day} tvg-logo=\"{DEFAULT_IMAGE_URL}\"\n")
+            for event_title, stream_url in events:
+                # Estrai il dominio base dall'URL come Referer
+                referrer = re.match(r'https://sportzonline\.ps', stream_url).group(0)
+                f.write(f"#EXTINF:-1 group-title=\"{day}\" tvg-logo=\"{DEFAULT_IMAGE_URL}\", {event_title}\n")
+                f.write(f"#EXTVLCOPT:http-user-agent={headers['User-Agent']}\n")
+                f.write(f"#EXTVLCOPT:http-referrer={referrer}\n")
+                f.write(f"{stream_url}\n")
 
-    try:
-        with open(file_path, "w", encoding="utf-8") as f:
-            f.write("#EXTM3U\n")
-            
-            for day, events in events_by_day.items():
-                if not events:
-                    print(f"Nessun evento per il giorno: {day}")
-                    continue
-                events.sort(key=lambda x: x[0].split()[0])
-                f.write(f"#EXTGRP:{day} tvg-logo=\"{DEFAULT_IMAGE_URL}\"\n")
-                for event_title, stream_url in events:
-                    f.write(f"#EXTINF:-1 group-title=\"{day}\" tvg-logo=\"{DEFAULT_IMAGE_URL}\", {event_title}\n")
-                    f.write(f"#EXTVLCOPT:http-user-agent={headers['User-Agent']}\n")
-                    f.write(f"#EXTVLCOPT:http-referrer={headers['Referer']}\n")
-                    f.write(f"{stream_url}\n")
-        print(f"File M3U8 aggiornato con successo: {file_path}")
-    except Exception as e:
-        print(f"Errore durante la scrittura del file M3U8: {e}")
-
-    # Verifica il contenuto dopo la scrittura
-    if os.path.exists(file_path):
-        with open(file_path, "r", encoding="utf-8") as f:
-            print("\nContenuto del file M3U8 dopo la modifica:")
-            print(f.read())
-    else:
-        print(f"Errore: il file {file_path} non è stato creato.")
+    print(f"File M3U8 aggiornato con successo: {file_path}")
 
 # Esegui lo script
 if __name__ == "__main__":
