@@ -47,7 +47,8 @@ def extract_events_and_streams(lines):
         # Controlla se la riga è un giorno
         if line in DAY_TRANSLATION:
             current_day = DAY_TRANSLATION[line]
-            events_by_day[current_day] = []
+            if current_day not in events_by_day:
+                events_by_day[current_day] = []
         # Cerca eventi con URL .php sotto il giorno corrente
         elif current_day:
             match = event_pattern.search(line)
