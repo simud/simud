@@ -2,18 +2,18 @@ import requests
 import re
 import os
 
-# Single URL variable to control base_url, Origin, and Referer
+# URL della pagina principale
 SITE_URL = "https://sportsonline.gl/prog.txt"
 headers = {
     "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1",
-    "Origin": "https://sportzonline.gl",
+    "Origin": "https://sportsonline.gl",
     "Referer": "https://sportsonline.gl/"
 }
 
-# Fixed image to use for all channels and groups
+# Immagine fissa per tutti i canali e gruppi
 DEFAULT_IMAGE_URL = "https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png"
 
-# Dictionary to translate days to Italian
+# Dizionario per tradurre i giorni in italiano
 DAY_TRANSLATION = {
     "MONDAY": "Lunedì",
     "TUESDAY": "Martedì",
@@ -24,7 +24,7 @@ DAY_TRANSLATION = {
     "SUNDAY": "Domenica"
 }
 
-# Function to fetch the page content
+# Funzione per ottenere il contenuto della pagina
 def fetch_page_content():
     try:
         response = requests.get(SITE_URL, headers=headers)
@@ -34,20 +34,21 @@ def fetch_page_content():
         print(f"Errore durante l'accesso a {SITE_URL}: {e}")
         return []
 
-# Function to extract events and streams, organized by day
+# Funzione per estrarre eventi e URL .php, organizzati per giorno
 def extract_events_and_streams(lines):
     events_by_day = {}
     current_day = None
 
-    event_pattern = re.compile(r'(\d{2}:\d{2})\s+(.+?)\s+\|\s+(https://sportzonline\.ps/[^ ]+\.php)')
+    # Pattern per trovare righe con eventi e URL .php
+    event_pattern = re.compile(r'(\d{2}:\d{2})\s+(.+?)\s+\|\s+(https://sportzonline\.ps/channels/[^\s]+\.php)')
 
     for line in lines:
         line = line.strip()
-        # Check if the line is a day
+        # Controlla se la riga è un giorno
         if line in DAY_TRANSLATION:
             current_day = DAY_TRANSLATION[line]
             events_by_day[current_day] = []
-        # Check if the line matches an event pattern
+        # Cerca eventi con URL .php sotto il giorno corrente
         elif current_day:
             match = event_pattern.search(line)
             if match:
@@ -57,7 +58,7 @@ def extract_events_and_streams(lines):
 
     return events_by_day
 
-# Function to update the M3U8 file with events grouped by day
+# Funzione per aggiornare il file M3U8
 def update_m3u_file(events_by_day, m3u_file="sportsonline_playlist.m3u8"):
     REPO_PATH = os.getenv('GITHUB_WORKSPACE', '.')
     file_path = os.path.join(REPO_PATH, m3u_file)
@@ -68,9 +69,9 @@ def update_m3u_file(events_by_day, m3u_file="sportsonline_playlist.m3u8"):
         for day, events in events_by_day.items():
             if not events:
                 continue
-            # Sort events by time and title
+            # Ordina gli eventi per orario e titolo
             events.sort(key=lambda x: (x[0].split()[0], x[0].lower()))
-            # Add the day as a group with the fixed logo
+            # Aggiungi il giorno come gruppo con il logo fisso
             f.write(f"#EXTGRP:{day} tvg-logo=\"{DEFAULT_IMAGE_URL}\"\n")
             for event_title, stream_url in events:
                 f.write(f"#EXTINF:-1 group-title=\"{day}\" tvg-logo=\"{DEFAULT_IMAGE_URL}\", {event_title}\n")
@@ -80,7 +81,7 @@ def update_m3u_file(events_by_day, m3u_file="sportsonline_playlist.m3u8"):
 
     print(f"File M3U8 aggiornato con successo: {file_path}")
 
-# Execute the script
+# Esegui lo script
 if __name__ == "__main__":
     lines = fetch_page_content()
     if not lines:
@@ -90,4 +91,4 @@ if __name__ == "__main__":
         if events_by_day:
             update_m3u_file(events_by_day)
         else:
-            print("Nessun evento o flusso trovato nella pagina.")
+            print("Nessun evento o flusso .php trovato nella pagina.")
