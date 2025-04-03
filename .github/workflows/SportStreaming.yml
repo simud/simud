@@ -1,44 +1,41 @@
-name: Update SportsOnline M3U8 Playlist
+name: SportStreaming Scraper
 
 on:
-  schedule:
-    - cron: '0 0 * * *'
   workflow_dispatch:
+  schedule:
+    - cron: '0 */3 * * *'  # Ogni 3 ore
 
 jobs:
-  update-playlist:
+  scrape:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
+      - name: Checkout repository with custom token
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.ACTIONS_TOKEN }}
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v4
         with:
-          python-version: '3.11'
+          python-version: '3.9'
 
-      - name: Install Dependencies
+      - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests
+          pip install requests beautifulsoup4
 
-      - name: Run Playlist Update Script
+      - name: Run SportStreaming scraper
         env:
           GITHUB_WORKSPACE: ${{ github.workspace }}
         run: |
-          python sportsonline_script.py
+          python sportstreaming_scraper.py
 
-      - name: Commit Updated Playlist
+      - name: Commit and push updated M3U8 file
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
-          git add sportsonline_playlist.m3u8
-          if git status | grep -q "Changes to be committed"; then
-            git commit -m "Update M3U8 playlist for SportsOnline"
-            git push
-          else
-            echo "Nessuna modifica da committare."
-          fi
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          git add sportstreaming_playlist.m3u8
+          git commit -m "Aggiornato file M3U8 con nuovi flussi" || echo "Nessun cambiamento da committare"
+          git push
+        continue-on-error: true
