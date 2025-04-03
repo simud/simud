@@ -3,7 +3,7 @@ import re
 import os
 
 # URL della pagina principale
-SITE_URL = "https://sportsonline.gl/prog.txt"  # Verifica se è corretto, altrimenti prova "sl"
+SITE_URL = "https://sportsonline.gl/prog.txt"
 headers = {
     "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1",
     "Origin": "https://sportsonline.gl",
@@ -49,13 +49,11 @@ def extract_events_and_streams(lines):
     print("\nAnalisi delle righe per trovare eventi:")
     for i, line in enumerate(lines, 1):
         line = line.strip()
-        # Controlla se la riga è un giorno
         if line in DAY_TRANSLATION:
             current_day = DAY_TRANSLATION[line]
             if current_day not in events_by_day:
                 events_by_day[current_day] = []
             print(f"Trovato giorno: {current_day}")
-        # Cerca eventi con URL .php sotto il giorno corrente
         elif current_day:
             match = event_pattern.search(line)
             if match:
@@ -80,9 +78,7 @@ def update_m3u_file(events_by_day, m3u_file="sportsonline_playlist.m3u8"):
             if not events:
                 print(f"Nessun evento per il giorno: {day}")
                 continue
-            # Ordina gli eventi per orario
             events.sort(key=lambda x: x[0].split()[0])
-            # Aggiungi il giorno come gruppo con il logo fisso
             f.write(f"#EXTGRP:{day} tvg-logo=\"{DEFAULT_IMAGE_URL}\"\n")
             for event_title, stream_url in events:
                 f.write(f"#EXTINF:-1 group-title=\"{day}\" tvg-logo=\"{DEFAULT_IMAGE_URL}\", {event_title}\n")
@@ -91,8 +87,10 @@ def update_m3u_file(events_by_day, m3u_file="sportsonline_playlist.m3u8"):
                 f.write(f"{stream_url}\n")
 
     print(f"File M3U8 aggiornato con successo: {file_path}")
-    if not events_by_day:
-        print("Nessun evento trovato in totale.")
+    # Stampa il contenuto del file per debug
+    with open(file_path, "r", encoding="utf-8") as f:
+        print("\nContenuto del file M3U8:")
+        print(f.read())
 
 # Esegui lo script
 if __name__ == "__main__":
