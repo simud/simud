@@ -2,7 +2,7 @@ name: Update SportsOnline M3U8 Playlist
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 */3 * * *'
   workflow_dispatch:
 
 jobs:
@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.ACTIONS_TOKEN }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -29,16 +31,11 @@ jobs:
         run: |
           python sportsonline_script.py
 
-      - name: Commit Updated Playlist
+      - name: Commit and push updated M3U8 file
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
           git add sportsonline_playlist.m3u8
-          if git status | grep -q "Changes to be committed"; then
-            git commit -m "Update M3U8 playlist for SportsOnline"
-            git push
-          else
-            echo "Nessuna modifica da committare."
-          fi
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          git commit -m "Aggiornato file M3U8 con nuovi flussi" || echo "Nessun cambiamento da committare"
+          git push
+        continue-on-error: true
