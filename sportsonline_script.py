@@ -3,7 +3,7 @@ import re
 import os
 
 # URL della pagina principale
-SITE_URL = "https://sportsonline.gl/prog.txt"  # Corretto da "sl" a "gl"
+SITE_URL = "https://sportsonline.gl/prog.txt"  # Verifica se è corretto, altrimenti prova "sl"
 headers = {
     "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1",
     "Origin": "https://sportsonline.gl",
@@ -29,7 +29,11 @@ def fetch_page_content():
     try:
         response = requests.get(SITE_URL, headers=headers)
         response.raise_for_status()
-        return response.text.splitlines()
+        print("Contenuto della pagina ricevuto con successo. Prime 10 righe:")
+        lines = response.text.splitlines()
+        for i, line in enumerate(lines[:10], 1):
+            print(f"Riga {i}: {line}")
+        return lines
     except requests.RequestException as e:
         print(f"Errore durante l'accesso a {SITE_URL}: {e}")
         return []
@@ -42,13 +46,15 @@ def extract_events_and_streams(lines):
     # Pattern per trovare righe con eventi e URL .php
     event_pattern = re.compile(r'(\d{2}:\d{2})\s+(.+?)\s+\|\s+(https://sportzonline\.ps/channels/[^\s]+\.php)')
 
-    for line in lines:
+    print("\nAnalisi delle righe per trovare eventi:")
+    for i, line in enumerate(lines, 1):
         line = line.strip()
         # Controlla se la riga è un giorno
         if line in DAY_TRANSLATION:
             current_day = DAY_TRANSLATION[line]
             if current_day not in events_by_day:
                 events_by_day[current_day] = []
+            print(f"Trovato giorno: {current_day}")
         # Cerca eventi con URL .php sotto il giorno corrente
         elif current_day:
             match = event_pattern.search(line)
@@ -56,6 +62,9 @@ def extract_events_and_streams(lines):
                 time, event_title, stream_url = match.groups()
                 full_title = f"{time} {event_title}"
                 events_by_day[current_day].append((full_title, stream_url))
+                print(f"Trovato evento (riga {i}): {full_title} | {stream_url}")
+            else:
+                print(f"Nessun evento trovato (riga {i}): {line}")
 
     return events_by_day
 
@@ -69,6 +78,7 @@ def update_m3u_file(events_by_day, m3u_file="sportsonline_playlist.m3u8"):
         
         for day, events in events_by_day.items():
             if not events:
+                print(f"Nessun evento per il giorno: {day}")
                 continue
             # Ordina gli eventi per orario
             events.sort(key=lambda x: x[0].split()[0])
@@ -81,6 +91,8 @@ def update_m3u_file(events_by_day, m3u_file="sportsonline_playlist.m3u8"):
                 f.write(f"{stream_url}\n")
 
     print(f"File M3U8 aggiornato con successo: {file_path}")
+    if not events_by_day:
+        print("Nessun evento trovato in totale.")
 
 # Esegui lo script
 if __name__ == "__main__":
@@ -93,7 +105,3 @@ if __name__ == "__main__":
             update_m3u_file(events_by_day)
         else:
             print("Nessun evento o flusso .php trovato nella pagina.")
-            # Stampa le righe per debug
-            print("Contenuto della pagina:")
-            for line in lines:
-                print(line)
