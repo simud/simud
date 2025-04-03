@@ -3,7 +3,7 @@ import re
 import os
 
 # URL della pagina principale
-SITE_URL = "https://sportsonline.gl/prog.txt"
+SITE_URL = "https://sportsonline.gl/prog.txt"  # Corretto da "sl" a "gl"
 headers = {
     "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1",
     "Origin": "https://sportsonline.gl",
@@ -70,8 +70,8 @@ def update_m3u_file(events_by_day, m3u_file="sportsonline_playlist.m3u8"):
         for day, events in events_by_day.items():
             if not events:
                 continue
-            # Ordina gli eventi per orario e titolo
-            events.sort(key=lambda x: (x[0].split()[0], x[0].lower()))
+            # Ordina gli eventi per orario
+            events.sort(key=lambda x: x[0].split()[0])
             # Aggiungi il giorno come gruppo con il logo fisso
             f.write(f"#EXTGRP:{day} tvg-logo=\"{DEFAULT_IMAGE_URL}\"\n")
             for event_title, stream_url in events:
@@ -93,3 +93,7 @@ if __name__ == "__main__":
             update_m3u_file(events_by_day)
         else:
             print("Nessun evento o flusso .php trovato nella pagina.")
+            # Stampa le righe per debug
+            print("Contenuto della pagina:")
+            for line in lines:
+                print(line)
