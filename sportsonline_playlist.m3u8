@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTGRP:Giovedì tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png"
+#EXTGRP:Giovedì
 #EXTINF:-1 group-title="Giovedì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 12:00 ATP World Tour 250: Marrakech (sporttv3)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://sportzonline.ps/channels/pt/sporttv3.php
@@ -126,7 +126,7 @@ https://sportzonline.ps/channels/hd/hd7.php
 #EXTINF:-1 group-title="Giovedì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 06:45 F1: Japanese GP Practice 2 (br4)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://sportzonline.ps/channels/bra/br4.php
-#EXTGRP:Venerdì tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png"
+#EXTGRP:Venerdì
 #EXTINF:-1 group-title="Venerdì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 12:00 ATP World Tour 250: Marrakech (sporttv3)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://sportzonline.ps/channels/pt/sporttv3.php
