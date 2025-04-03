@@ -51,7 +51,9 @@ def extract_events_and_streams(lines):
             match = event_pattern.search(line)
             if match:
                 time, event_title, stream_url = match.groups()
-                full_title = f"{time} {event_title}"
+                # Estrai il nome del canale dall'URL (es. "sporttv3" da "sporttv3.php")
+                channel_name = re.search(r'channels/[^/]+/([^/]+)\.php', stream_url).group(1)
+                full_title = f"{time} {event_title} ({channel_name})"
                 events_by_day[current_day].append((full_title, stream_url))
 
     return events_by_day
@@ -72,7 +74,6 @@ def update_m3u_file(events_by_day, m3u_file="sportsonline_playlist.m3u8"):
             for event_title, stream_url in events:
                 f.write(f"#EXTINF:-1 group-title=\"{day}\" tvg-logo=\"{DEFAULT_IMAGE_URL}\", {event_title}\n")
                 f.write(f"#EXTVLCOPT:http-user-agent={headers['User-Agent']}\n")
-                # Rimossa la riga del Referer
                 f.write(f"{stream_url}\n")
 
     print(f"File M3U8 aggiornato con successo: {file_path}")
