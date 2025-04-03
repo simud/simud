@@ -70,11 +70,9 @@ def update_m3u_file(events_by_day, m3u_file="sportsonline_playlist.m3u8"):
             # Non riordiniamo gli eventi, li lasciamo nell'ordine originale
             f.write(f"#EXTGRP:{day} tvg-logo=\"{DEFAULT_IMAGE_URL}\"\n")
             for event_title, stream_url in events:
-                # Estrai il dominio base dall'URL come Referer
-                referrer = re.match(r'https://sportzonline\.ps', stream_url).group(0)
                 f.write(f"#EXTINF:-1 group-title=\"{day}\" tvg-logo=\"{DEFAULT_IMAGE_URL}\", {event_title}\n")
                 f.write(f"#EXTVLCOPT:http-user-agent={headers['User-Agent']}\n")
-                f.write(f"#EXTVLCOPT:http-referrer={referrer}\n")
+                # Rimossa la riga del Referer
                 f.write(f"{stream_url}\n")
 
     print(f"File M3U8 aggiornato con successo: {file_path}")
