@@ -1,4 +1,4 @@
-name: SkyStreaming Scraper
+name: Daddy
 
 on:
   workflow_dispatch:  # Permette l'esecuzione manuale
