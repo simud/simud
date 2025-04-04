@@ -1,25 +1,20 @@
 import requests
 
 def concatenate_m3u8():
-    # Lista per gli URL
-    urls = []
-    max_urls = 10
+    # Lista degli URL (modifica qui per aggiungere fino a 10 URL)
+    urls = [
+        "https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/daddylive-channels.m3u8",
+        "https://raw.githubusercontent.com/simud/simud/refs/heads/main/sportstreaming_playlist.m3u8"
+        # Aggiungi altri URL qui, fino a un massimo di 10
+        # Esempio:
+        # "https://example.com/playlist3.m3u8",
+        # "https://example.com/playlist4.m3u8",
+    ]
     
-    # Precarica i due URL richiesti
-    urls.append("https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/daddylive-channels.m3u8")
-    urls.append("https://raw.githubusercontent.com/simud/simud/refs/heads/main/sportstreaming_playlist.m3u8")
-    
-    # Chiedi ulteriori URL all'utente
-    print("I seguenti URL sono già inclusi:")
-    for i, url in enumerate(urls, 1):
-        print(f"{i}. {url}")
-    print(f"\nPuoi aggiungere altri URL (max {max_urls - len(urls)} aggiuntivi). Premi Invio senza testo per terminare.")
-    
-    while len(urls) < max_urls:
-        url = input(f"URL {len(urls) + 1}: ").strip()
-        if not url:  # Se l'input è vuoto, termina
-            break
-        urls.append(url)
+    # Verifica il limite di 10 URL
+    if len(urls) > 10:
+        print(f"Errore: Sono stati definiti {len(urls)} URL, ma il massimo è 10.")
+        return
     
     # Crea il contenuto combinato
     combined_content = ["#EXTM3U"]
