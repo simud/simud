@@ -1,0 +1,39 @@
+name: Generate Twitch Streams M3U8
+
+on:
+  workflow_dispatch: # Permette di avviare manualmente il workflow
+  # Puoi aggiungere altri trigger, tipo "schedule" per eseguirlo periodicamente
+  # schedule:
+  #   - cron: '0 * * * *' # Ogni ora
+
+jobs:
+  generate_m3u8:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install streamlink
+
+      - name: Run script to generate M3U8
+        env:
+          ACTIONS_TOKEN: ${{ secrets.ACTIONS_TOKEN }}
+        run: python twitch_m3u8.py
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          git add twitch_streams.m3u8
+          git commit -m "Update twitch_streams.m3u8" || echo "No changes to commit"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.ACTIONS_TOKEN }}
