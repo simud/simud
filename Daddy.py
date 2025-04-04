@@ -29,7 +29,7 @@ def concatenate_and_push_m3u8():
     repo_owner = "simud"
     repo_name = "simud"
     file_path = "combined_playlist.m3u8"
-    token = os.getenv("secrets.ACTIONS_TOKEN")
+    token = os.getenv(secrets.ACTIONS_TOKEN)
     if not token:
         print("Errore: Imposta la variabile d'ambiente ACTIONS_TOKEN con il tuo GitHub token.")
         return
