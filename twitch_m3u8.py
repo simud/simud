@@ -4,8 +4,20 @@ from pathlib import Path
 
 # Lista dei profili Twitch da controllare
 twitch_profiles = [
+    "https://www.twitch.tv/kingsleague_it",
+    "https://www.twitch.tv/tumblurr",
     "https://www.twitch.tv/therealmarzaa",
-    "https://www.twitch.tv/manuuxo"
+    "https://www.twitch.tv/freneh",
+    "https://www.twitch.tv/manuuxo",
+    "https://www.twitch.tv/zw_jackson",
+    "https://www.twitch.tv/luca_campolunghi",
+    "https://www.twitch.tv/grenbaud",
+    "https://www.twitch.tv/zedef",
+    "https://www.twitch.tv/controcalcio__",
+    "https://www.twitch.tv/sergio_cp7",
+    "https://www.twitch.tv/mirkociscotv",
+    "https://www.twitch.tv/pirlasv__",
+    "https://www.twitch.tv/starttvitalia"
 ]
 
 # Percorso del file M3U8 (root del repository, non desktop)
