@@ -16,15 +16,20 @@ twitch_profiles = [
     "https://www.twitch.tv/controcalcio__",
     "https://www.twitch.tv/sergio_cp7",
     "https://www.twitch.tv/mirkociscotv",
-    "https://www.twitch.tv/pirlasv__",
-    "https://www.twitch.tv/starttvitalia"
+    "https://www.twitch.tv/pirlasv__"
 ]
 
-# Percorso del file M3U8 (root del repository, non desktop)
+# Percorso del file M3U8 (root del repository)
 m3u8_file = Path("twitch_streams.m3u8")
 
 # User-Agent specifico
 user_agent = "Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1"
+
+# Immagine per ogni canale
+channel_logo = "https://postimg.cc/Dm2N5T9D/09142135"
+
+# Gruppo per ogni canale
+group_title = "Kings League"
 
 # Inizio del contenuto del file M3U8
 m3u8_content = "#EXTM3U\n"
@@ -47,9 +52,9 @@ def get_stream_url(twitch_url):
 for profile in twitch_profiles:
     stream_url = get_stream_url(profile)
     if stream_url:
-        # Aggiungi il flusso al file M3U8 con il formato richiesto
+        # Aggiungi il flusso al file M3U8 con immagine e gruppo
         channel_name = profile.split('/')[-1]
-        m3u8_content += f"#EXTINF:-1, {channel_name}\n"
+        m3u8_content += f'#EXTINF:-1 tvg-logo="{channel_logo}" group-title="{group_title}", {channel_name}\n'
         m3u8_content += f"#EXTVLCOPT:http-referrer={profile}\n"
         m3u8_content += f"#EXTVLCOPT:http-origin={profile}\n"
         m3u8_content += f"#EXTVLCOPT:http-user-agent={user_agent}\n"
