@@ -1,39 +1,41 @@
-name: Generate Twitch Streams M3U8
+name: Twitch
 
 on:
-  workflow_dispatch: # Permette di avviare manualmente il workflow
-  # Puoi aggiungere altri trigger, tipo "schedule" per eseguirlo periodicamente
-  # schedule:
-  #   - cron: '0 * * * *' # Ogni ora
+  workflow_dispatch:  # Permette l'esecuzione manuale
+  schedule:
+    - cron: '0 */3 * * *'  # Esegue ogni 3 ore: 0:00, 3:00, 6:00, 9:00, 12:00, 15:00, 18:00, 21:00 UTC
 
 jobs:
-  generate_m3u8:
+  scrape:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - name: Checkout repository with custom token
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.ACTIONS_TOKEN }}
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v4
         with:
-          python-version: '3.x'
+          python-version: '3.9'
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install streamlink
 
-      - name: Run script to generate M3U8
+      - name: Run SkyStreaming scraper
         env:
-          ACTIONS_TOKEN: ${{ secrets.ACTIONS_TOKEN }}
-        run: python twitch_m3u8.py
+          GITHUB_WORKSPACE: ${{ github.workspace }}
+        run: |
+          python twitch_m3u8.py
 
-      - name: Commit and push changes
+      - name: Commit and push updated M3U8 file
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
           git add twitch_streams.m3u8
-          git commit -m "Update twitch_streams.m3u8" || echo "No changes to commit"
+          git commit -m "Aggiornato file M3U8 con nuovi flussi" || echo "Nessun cambiamento da committare"
           git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.ACTIONS_TOKEN }}
+        continue-on-error: true
