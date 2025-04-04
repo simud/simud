@@ -1,11 +1,25 @@
 import requests
 
 def concatenate_m3u8():
-    # URL delle liste
-    urls = [
-        "https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/daddylive-channels.m3u8",
-        "https://raw.githubusercontent.com/simud/simud/refs/heads/main/sportstreaming_playlist.m3u8"
-    ]
+    # Lista per gli URL
+    urls = []
+    max_urls = 10
+    
+    # Precarica i due URL richiesti
+    urls.append("https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/daddylive-channels.m3u8")
+    urls.append("https://raw.githubusercontent.com/simud/simud/refs/heads/main/sportstreaming_playlist.m3u8")
+    
+    # Chiedi ulteriori URL all'utente
+    print("I seguenti URL sono già inclusi:")
+    for i, url in enumerate(urls, 1):
+        print(f"{i}. {url}")
+    print(f"\nPuoi aggiungere altri URL (max {max_urls - len(urls)} aggiuntivi). Premi Invio senza testo per terminare.")
+    
+    while len(urls) < max_urls:
+        url = input(f"URL {len(urls) + 1}: ").strip()
+        if not url:  # Se l'input è vuoto, termina
+            break
+        urls.append(url)
     
     # Crea il contenuto combinato
     combined_content = ["#EXTM3U"]
