@@ -5,6 +5,7 @@ from pathlib import Path
 # Lista dei profili Twitch da controllare
 twitch_profiles = [
     "https://www.twitch.tv/kingsleague_it",
+    "https://www.twitch.tv/kingsleague",
     "https://www.twitch.tv/tumblurr",
     "https://www.twitch.tv/therealmarzaa",
     "https://www.twitch.tv/freneh",
