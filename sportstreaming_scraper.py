@@ -118,14 +118,34 @@ def update_m3u_file(video_streams, m3u_file="sportstreaming_playlist.m3u8"):
                 groups[group] = []
             groups[group].append((channel_name, stream_url))
 
-        # Ordinamento alfabetico dei canali all'interno di ciascun gruppo
+        # Separazione tra eventi con data/orario e senza
+        dated_channels = []
+        other_channels = []
+        date_pattern = r'\d{2}/\d{2}/\d{4}\s+\d{2}:\d{2}'  # Pattern per data e orario (es. 05/04/2025 15:30)
+
         for group, channels in groups.items():
-            channels.sort(key=lambda x: x[0].lower())
             for channel_name, link in channels:
-                f.write(f"#EXTINF:-1 group-title=\"{group}\" tvg-logo=\"{DEFAULT_IMAGE_URL}\", {channel_name}\n")
-                f.write(f"#EXTVLCOPT:http-user-agent={headers['User-Agent']}\n")
-                f.write(f"#EXTVLCOPT:http-referrer={headers['Referer']}\n")
-                f.write(f"{link}\n")
+                if re.search(date_pattern, channel_name):
+                    dated_channels.append((channel_name, link))
+                else:
+                    other_channels.append((channel_name, link))
+
+        # Ordina gli eventi con data per ordine cronologico
+        dated_channels.sort(key=lambda x: re.search(date_pattern, x[0]).group(0) if re.search(date_pattern, x[0]) else "zz/zz/zzzz zz:zz")
+
+        # Scrivi prima gli eventi con data/orario
+        for channel_name, link in dated_channels:
+            f.write(f"#EXTINF:-1 group-title=\"Eventi\" tvg-logo=\"{DEFAULT_IMAGE_URL}\", {channel_name}\n")
+            f.write(f"#EXTVLCOPT:http-user-agent={headers['User-Agent']}\n")
+            f.write(f"#EXTVLCOPT:http-referrer={headers['Referer']}\n")
+            f.write(f"{link}\n")
+
+        # Poi gli altri eventi senza ordinamento
+        for channel_name, link in other_channels:
+            f.write(f"#EXTINF:-1 group-title=\"Eventi\" tvg-logo=\"{DEFAULT_IMAGE_URL}\", {channel_name}\n")
+            f.write(f"#EXTVLCOPT:http-user-agent={headers['User-Agent']}\n")
+            f.write(f"#EXTVLCOPT:http-referrer={headers['Referer']}\n")
+            f.write(f"{link}\n")
 
     print(f"File M3U8 aggiornato con successo: {file_path}")
 
