@@ -118,52 +118,14 @@ def update_m3u_file(video_streams, m3u_file="sportstreaming_playlist.m3u8"):
                 groups[group] = []
             groups[group].append((channel_name, stream_url))
 
-        # Separazione tra eventi con data/orario e senza
-        dated_channels = []
-        other_channels = []
-        # Pattern per data e orario come "Domenica 06 Aprile ore 15:00"
-        date_pattern = r'(Lunedì|Martedì|Mercoledì|Giovedì|Venerdì|Sabato|Domenica)\s+\d{2}\s+(Gennaio|Febbraio|Marzo|Aprile|Maggio|Giugno|Luglio|Agosto|Settembre|Ottobre|Novembre|Dicembre)\s+ore\s+\d{2}:\d{2}'
-
-        # Mappa dei mesi per convertirli in numeri
-        month_map = {
-            "Gennaio": "01", "Febbraio": "02", "Marzo": "03", "Aprile": "04",
-            "Maggio": "05", "Giugno": "06", "Luglio": "07", "Agosto": "08",
-            "Settembre": "09", "Ottobre": "10", "Novembre": "11", "Dicembre": "12"
-        }
-
+        # Ordinamento alfabetico dei canali all'interno di ciascun gruppo
         for group, channels in groups.items():
+            channels.sort(key=lambda x: x[0].lower())
             for channel_name, link in channels:
-                if re.search(date_pattern, channel_name):
-                    dated_channels.append((channel_name, link))
-                else:
-                    other_channels.append((channel_name, link))
-
-        # Ordina gli eventi con data per ordine cronologico
-        def get_datetime_key(channel):
-            match = re.search(date_pattern, channel[0])
-            if match:
-                day_name, day, month, time = match.groups()[0], match.group(2), match.group(3), match.group(4).replace("ore ", "")
-                year = "2025"  # Assumiamo l'anno corrente (puoi modificarlo se necessario)
-                month_num = month_map[month]
-                # Formato per ordinamento: "YYYYMMDDHHMM"
-                return f"{year}{month_num}{day.zfill(2)}{time.replace(':', '')}"
-            return "999999999999"  # Valore alto per mettere in fondo se non c'è data
-
-        dated_channels.sort(key=get_datetime_key)
-
-        # Scrivi prima gli eventi con data/orario
-        for channel_name, link in dated_channels:
-            f.write(f"#EXTINF:-1 group-title=\"Eventi\" tvg-logo=\"{DEFAULT_IMAGE_URL}\", {channel_name}\n")
-            f.write(f"#EXTVLCOPT:http-user-agent={headers['User-Agent']}\n")
-            f.write(f"#EXTVLCOPT:http-referrer={headers['Referer']}\n")
-            f.write(f"{link}\n")
-
-        # Poi gli altri eventi senza ordinamento
-        for channel_name, link in other_channels:
-            f.write(f"#EXTINF:-1 group-title=\"Eventi\" tvg-logo=\"{DEFAULT_IMAGE_URL}\", {channel_name}\n")
-            f.write(f"#EXTVLCOPT:http-user-agent={headers['User-Agent']}\n")
-            f.write(f"#EXTVLCOPT:http-referrer={headers['Referer']}\n")
-            f.write(f"{link}\n")
+                f.write(f"#EXTINF:-1 group-title=\"{group}\" tvg-logo=\"{DEFAULT_IMAGE_URL}\", {channel_name}\n")
+                f.write(f"#EXTVLCOPT:http-user-agent={headers['User-Agent']}\n")
+                f.write(f"#EXTVLCOPT:http-referrer={headers['Referer']}\n")
+                f.write(f"{link}\n")
 
     print(f"File M3U8 aggiornato con successo: {file_path}")
 
