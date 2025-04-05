@@ -112,7 +112,7 @@ def update_m3u_file(video_streams, m3u_file="sportstreaming_playlist.m3u8"):
             if not stream_url:
                 continue
             # Tutto viene messo nel gruppo "Sport" dato che il sito è sportstreaming
-            group = "Sport"
+            group = "Eventi"
             
             if group not in groups:
                 groups[group] = []
