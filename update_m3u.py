@@ -27,7 +27,7 @@ def find_event_pages():
             if re.match(r'/view/[^/]+/[^/]+', href):
                 full_url = SITE_URL + href.lstrip('/')
                 event_links.add(full_url)
-            elif re.match(r'https://skystreaming\.onl/view/[^/]+/[^/]+', href):
+            elif re.match(r'https://skystreaming\.directory/view/[^/]+/[^/]+', href):
                 event_links.add(href)
 
         return list(event_links)
