@@ -75,20 +75,19 @@ def modify_m3u8(source_content, headers):
     return '\n'.join(modified_lines)
 
 def main():
-    # Per test, usiamo direttamente il tuo esempio
-    test_content = """#EXTM3U
-#EXTINF:-1 tvg-id="Italy - Serie C - Sassari Torres vs SPAL" tvg-name="12:30 Italy - Serie C : Sassari Torres vs SPAL - 06/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer",Sky Sport 251 IT
-https://nfsnew.newkso.ru/nfs/premium1/mono.m3u8"""
-    
+    source_url = "https://raw.githubusercontent.com/ciccioxm3/omg/refs/heads/main/itaevents.m3u8"
     headers_url = "https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/daddylive-channels.m3u8"
+    
+    print("Scaricamento delle liste...")
+    source_content = get_m3u8_content(source_url)
     headers_content = get_m3u8_content(headers_url)
     
-    if headers_content is None:
-        print("Errore: impossibile scaricare gli headers")
+    if source_content is None or headers_content is None:
+        print("Errore: impossibile procedere a causa di problemi di download")
         return
     
     headers = extract_headers(headers_content)
-    modified_content = modify_m3u8(test_content, headers)
+    modified_content = modify_m3u8(source_content, headers)
     
     with open('itaevents2.m3u8', 'w', encoding='utf-8') as f:
         f.write(modified_content)
