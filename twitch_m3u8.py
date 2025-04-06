@@ -63,6 +63,10 @@ for profile in twitch_profiles:
     else:
         print(f"Nessun flusso attivo per {profile}")
 
+# Aggiungi il canale ADMIN alla fine
+m3u8_content += '#EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Kings League", ADMIN\n'
+m3u8_content += 'https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4\n'
+
 # Scrivi il file M3U8 nella root del repository
 with open(m3u8_file, "w") as f:
     f.write(m3u8_content)
