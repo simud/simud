@@ -40,23 +40,29 @@ def modify_m3u8(source_content, headers):
     lines = source_content.split('\n')
     modified_lines = []
     current_tvg_name = ""
+    channel_name = ""
     
     for line in lines:
         # Estrai il tvg-name se presente
         tvg_match = re.search(r'tvg-name="([^"]+)"', line)
         if tvg_match:
             current_tvg_name = tvg_match.group(1)
+            # Estrai il nome del canale dalla fine della riga EXTINF
+            channel_match = re.search(r',\s*(.+)$', line)
+            if channel_match:
+                channel_name = channel_match.group(1).strip()
         
         # Ignora le righe #EXTVLCOPT esistenti
         if line.startswith('#EXTVLCOPT:http-'):
             continue
             
-        # Modifica il nome del canale aggiungendo il tvg-name davanti
-        if not line.startswith('#') and line.strip() and current_tvg_name:
-            channel_name = line.strip()
-            modified_line = f"{current_tvg_name} ({channel_name})"
+        if line.startswith('#EXTINF:') and current_tvg_name and channel_name:
+            # Modifica la riga EXTINF mantenendo tutti gli attributi
+            modified_line = line.replace(f',{channel_name}', f', {current_tvg_name} ({channel_name})')
             modified_lines.append(modified_line)
             print(f"Modificato: {current_tvg_name} ({channel_name})")
+        elif line.startswith('http'):  # Mantieni gli URL invariati
+            modified_lines.append(line)
         else:
             modified_lines.append(line)
         
