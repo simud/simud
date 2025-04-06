@@ -16,7 +16,6 @@ def extract_headers(m3u8_content):
     
     headers = {'Referer': None, 'Origin': None, 'User-Agent': None}
     
-    # Cerca i valori nel formato #EXTVLCOPT
     referer_match = re.search(r'#EXTVLCOPT:http-referrer=(.+)', m3u8_content)
     origin_match = re.search(r'#EXTVLCOPT:http-origin=(.+)', m3u8_content)
     ua_match = re.search(r'#EXTVLCOPT:http-user-agent=(.+)', m3u8_content)
@@ -28,6 +27,10 @@ def extract_headers(m3u8_content):
     if ua_match:
         headers['User-Agent'] = ua_match.group(1).strip()
     
+    print("Header estratte:")
+    for key, value in headers.items():
+        print(f"{key}: {value or 'Non presente'}")
+    
     return headers
 
 def modify_m3u8(source_content, headers):
@@ -36,27 +39,27 @@ def modify_m3u8(source_content, headers):
     
     lines = source_content.split('\n')
     modified_lines = []
-    skip_next_vlcopt = False
     
-    for i, line in enumerate(lines):
-        # Salta le righe #EXTVLCOPT esistenti
+    for line in lines:
+        # Ignora le righe #EXTVLCOPT esistenti
         if line.startswith('#EXTVLCOPT:http-'):
-            skip_next_vlcopt = True
             continue
         
+        # Modifica solo le righe #EXTINF:
         if line.startswith('#EXTINF:'):
-            # Rimuovi eventuali header esistenti nel formato precedente
+            # Rimuovi eventuali header esistenti
             line = re.sub(r' -referer="[^"]+"', '', line)
             line = re.sub(r' -origin="[^"]+"', '', line)
             line = re.sub(r' -user-agent="[^"]+"', '', line)
             
-            # Aggiungi le nuove header nel formato richiesto
+            # Aggiungi tutte le header estratte, anche se None
             if headers['Referer']:
                 line += f' -referer="{headers["Referer"]}"'
             if headers['Origin']:
                 line += f' -origin="{headers["Origin"]}"'
             if headers['User-Agent']:
                 line += f' -user-agent="{headers["User-Agent"]}"'
+            print(f"Modificata riga EXTINF: {line}")
         
         modified_lines.append(line)
     
@@ -81,9 +84,6 @@ def main():
         f.write(modified_content)
     
     print("File itaevents2.m3u8 aggiornato con successo")
-    print("Header applicate:")
-    for key, value in headers.items():
-        print(f"{key}: {value or 'Non presente'}")
 
 if __name__ == "__main__":
     main()
