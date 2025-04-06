@@ -40,23 +40,27 @@ def modify_m3u8(source_content, headers):
     lines = source_content.split('\n')
     modified_lines = []
     
-    for line in lines:
+    i = 0
+    while i < len(lines):
+        line = lines[i].strip()
+        
         if line.startswith('#EXTINF:'):
-            # Estrai il tvg-name e il nome del canale
+            # Estrai tvg-name e nome canale
             tvg_match = re.search(r'tvg-name="([^"]+)"', line)
             channel_match = re.search(r',\s*([^,]+)$', line)
             
             if tvg_match and channel_match:
                 tvg_name = tvg_match.group(1)
                 channel_name = channel_match.group(1).strip()
-                # Sostituisci il nome del canale con tvg-name (channel_name)
-                modified_line = line.replace(f',{channel_name}', f',{tvg_name} ({channel_name})')
+                # Crea la nuova riga con il formato corretto
+                new_channel = f"{tvg_name} ({channel_name})"
+                modified_line = line.replace(f',{channel_name}', f',{new_channel}')
                 modified_lines.append(modified_line)
                 print(f"Modificato: {tvg_name} ({channel_name})")
             else:
                 modified_lines.append(line)
                 
-            # Aggiungi le header dopo EXTINF
+            # Aggiungi le header
             if headers['Origin']:
                 modified_lines.append(f'#EXTVLCOPT:http-origin={headers["Origin"]}')
             if headers['Referer']:
@@ -66,11 +70,14 @@ def modify_m3u8(source_content, headers):
             print(f"Aggiunte header dopo EXTINF: {line}")
             
         elif line.startswith('#EXTVLCOPT:http-'):
-            # Ignora le righe EXTVLCOPT esistenti
-            continue
+            # Salta le righe EXTVLCOPT esistenti
+            pass
         else:
-            # Mantieni tutte le altre righe (incluso #EXTM3U e URL)
-            modified_lines.append(line)
+            # Mantieni tutte le altre righe invariate
+            if line:  # Aggiungi solo righe non vuote
+                modified_lines.append(line)
+        
+        i += 1
     
     return '\n'.join(modified_lines)
 
@@ -93,6 +100,8 @@ def main():
         f.write(modified_content)
     
     print("File itaevents2.m3u8 aggiornato con successo")
+    print("\nContenuto modificato:")
+    print(modified_content)
 
 if __name__ == "__main__":
     main()
