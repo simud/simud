@@ -1,4 +1,21 @@
 #EXTM3U
+#EXTGRP:Serie TV tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png"
+#EXTINF:-1 group-title="Serie TV" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Diretta Gol Vs Serie C
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://skystreaming.directory
+https://skystreaming.directory/embed/1n7a2
+#EXTINF:-1 group-title="Serie TV" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Zona Vs Serie A
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://skystreaming.directory
+https://skystreaming.directory/embed/iCYRq
+#EXTINF:-1 group-title="Serie TV" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Zona Vs Serie A Player 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://skystreaming.directory
+https://skystreaming.directory/embed/4yLWH
+#EXTINF:-1 group-title="Serie TV" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Zona Vs Serie B
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://skystreaming.directory
+https://skystreaming.directory/embed/CKmrB
 #EXTGRP:Eventi tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png"
 #EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Boca Juniors Vs Barracas Central
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
@@ -121,20 +138,3 @@ https://skystreaming.directory/embed/MKCKP
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.directory
 https://skystreaming.directory/embed/tb1np
-#EXTGRP:Serie TV tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png"
-#EXTINF:-1 group-title="Serie TV" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Diretta Gol Vs Serie C
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://skystreaming.directory
-https://skystreaming.directory/embed/1n7a2
-#EXTINF:-1 group-title="Serie TV" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Zona Vs Serie A
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://skystreaming.directory
-https://skystreaming.directory/embed/iCYRq
-#EXTINF:-1 group-title="Serie TV" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Zona Vs Serie A Player 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://skystreaming.directory
-https://skystreaming.directory/embed/4yLWH
-#EXTINF:-1 group-title="Serie TV" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Zona Vs Serie B
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://skystreaming.directory
-https://skystreaming.directory/embed/CKmrB
