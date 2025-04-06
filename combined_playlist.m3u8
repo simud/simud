@@ -57,6 +57,13 @@ https://stream-ss.b-cdn.net//hls/Canale13.m3u8
 https://stream-ss.b-cdn.net/hls/Canale12.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Eventi", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/hjvtqD6B/photo-2025-03-20-16-36-52.png" group-title="Kings League", kingsleague
+#EXTVLCOPT:http-referrer=https://www.twitch.tv/kingsleague
+#EXTVLCOPT:http-origin=https://www.twitch.tv/kingsleague
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://use23-0.playlist.ttvnw.net/v1/playlist/CuoEL9FxTyvr7O9jOo-SjxlhOfH9hhzs6gSd-eksCmH7yXRgGCYVW4SKpsw5WUqidRGX-cCDuj-spov199EZjkrCO8ZP7CO2j7NYLXOOyfCVI_ttGq4IoHvZZLuj3v8z73Bc0Y1kdCpUAb40uSTlRM8KPSwJo1UwRTgdZhqBKmI7-u4fxJBOzMEyC3kGqnrxZHtBzT-vwW0irDtd8-MvKVdBqvwVaymVvTKuUu3xx6x4K-2Pa9HIen4TFvplyXbbMnO6P-yb_1hDlqYUw6CIzEPzQUuAgtrTcVMHU6B-iyy7UKl_S_Plv6Ui44B5QhyZFh7rD-TEvUJiVIyfZpfvdvYnetYS4ocu9Mva_W540S5rE3_aF-p1B56OVnrfIrmho1IC8ikXCA4SLh-drkMaLoaSg4VojoxL2c0bnDFUvShyhHybdkm-KxVhOKqfzvaIYoa1UsVLl2N1IXZaHU-Ktm4yI9LOJyy6SdU_5ryDUJpNnRtP_rOSSu1YKNqTG_hWrC6tjmdae98rIAUuCN4BWyE3PE772AG83yFNoxgC8MC_B_7IizD_kK9HsWCt7EwOnZByVUbFRE4jPeV0zw8aeIIXbhwUPfJ8DUmDDMvggWkC6huRt8X0LxVQEKKpo3OdaSmCTMCal1VyO7VAyTwH_fHl7rWPWC6V7N005wwFkXlbcaEG8D28XuyS3wbm8J7BhUwt07S6idXmI2UVAXPRRr_Fliii_3_pVRYvKHY_N-1yMnNjnvYQMPDla7XPD6l6tx50qdHSoJXUG2ZO9rJOcJPNKBPTH-II7mTcb-dEmhiBz_maUt68KcdZllW5Ggw_iiT0Eu6bLquYQqggASoJdXMtZWFzdC0yMPsL.m3u8
+#EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Kings League", ADMIN
+https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 #EXTM3U url-tvg="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-channels-epg.xml"
 #EXTINF:-1 tvg-id="M+.Vamos.es" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/vamos.png" group-title="SPAIN",#Vamos Spain
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
@@ -3583,13 +3590,6 @@ https://windnew.newkso.ru/wind/premium46/mono.m3u8
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://ddy6new.newkso.ru/ddy6/premium98/mono.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/hjvtqD6B/photo-2025-03-20-16-36-52.png" group-title="Kings League", kingsleague
-#EXTVLCOPT:http-referrer=https://www.twitch.tv/kingsleague
-#EXTVLCOPT:http-origin=https://www.twitch.tv/kingsleague
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://use13-0.playlist.ttvnw.net/v1/playlist/CuwE3LdrXxZxgbTjx_lywHw8PmnfEdNKhhvlTcNO_SMsuw13ptHOnPNsGq05zAa6t9f3RjR9HSvniylQd48rcOZpBQenPIMsVmyrC1i_yolv2OmR3JI4TruGPbi862txqMaexYSCzUBgqe4x7zx4ypjQwCXW4anpYrxPCqC5dIVtpbC_Zrid_NcXUVA6if8-uMudQsEw-86WJBJwgB69qKbnzdUnMPKEOLkQn3a6qEiuDeID-wq2DFXZDi6IPWn8Qj3KxI1nynzqJoEwl90i4Rlga53u3N0haIyQ6BCM89nx3ThrbGeqFMaYLDxO9yBjWNfFJtvlQ-0Klcq-fA-fx7YCz2wmJN5E9Z7XL9zCNIsI2oc7n70vJEBtMrUintCRkzGhL-LQjgr262HwTA_vs3rkMaTTRHVw_eY8S01Kp8seP5Ea8PuCqkfKCkuPOvkxUdE7wgUX7CA4EVvE74kOsMUV9oWuaYOOKFnHCL7330wqoqyKaf0xWv5bOTVBsYZZ7ze3-kPUlD6Y7hKmXzqH7xXtZkxIXlEl7opshybc3ltHE8CaeCg_LZ6w-BxLCrq4SSXohal8Ly-BeP3gDQivKLn6Y0UXn5EKvk2411rFDy4Mini2RXKMXwTf1YYVxzqFbAHMmWfzslPWpj8CW93GVyGtUEKAPK04jhaAOg2BjDSgEfxj3Znfl8mXAQ0StrLgEq0vNPRY1jR_kV-gvbl6QKNSY-MfQRDlbxdd8QBIKsxbyFy6BMBPjnNJDBgPrrTv86wcBO1nL4Cp2mLEQ2nlNiBKLRe_otx1YZ5t1yCXQq3SKQov2VTWr3ClD7K3iLoaDAkRm54iLLenQqChfSABKgl1cy13ZXN0LTIw_As.m3u8
-#EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Kings League", ADMIN
-https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/it.xml"
 #EXTINF:-1 tvg-chno="80" tvg-name="Pluto TV Christmas" tvg-logo="https://images.pluto.tv/channels/612e05b885183d0007958101/colorLogoPNG.png" tvg-id="612e05b885183d0007958101" group-title="Pluto TV Italia",Pluto TV Christmas
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/612e05b885183d0007958101/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
