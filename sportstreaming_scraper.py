@@ -14,6 +14,10 @@ headers = {
 # Immagine fissa da usare per tutti i canali
 DEFAULT_IMAGE_URL = "https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png"
 
+# Canale ADMIN da aggiungere alla fine
+ADMIN_CHANNEL = '''#EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Eventi", ADMIN
+https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4'''
+
 # Funzione per trovare i link alle pagine evento
 def find_event_pages():
     try:
@@ -22,7 +26,6 @@ def find_event_pages():
         soup = BeautifulSoup(response.text, 'html.parser')
 
         event_links = set()
-        # Cerca link che corrispondano a /live-[numero] o /live-perma-[numero]
         for a in soup.find_all('a', href=True):
             href = a['href']
             if re.match(r'/live-(perma-)?\d+', href):
@@ -44,7 +47,6 @@ def get_video_stream_and_description(event_url):
         response.raise_for_status()
         soup = BeautifulSoup(response.text, 'html.parser')
 
-        # Cerca il flusso video
         stream_url = None
         element = None
         for iframe in soup.find_all('iframe'):
@@ -76,21 +78,17 @@ def get_video_stream_and_description(event_url):
                         element = source
                         break
 
-        # Cerca la descrizione nella pagina evento
         channel_name = "Unknown Channel"
         if element:
-            # Cerca un <p>, <div> o <h*> subito dopo l'elemento del flusso
             next_element = element.find_next(['p', 'div', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6'])
             if next_element and next_element.get_text(strip=True):
-                # Prendi solo la prima riga della descrizione e sostituisci trattini con spazi
                 channel_name = next_element.get_text(strip=True).split('\n')[0].strip()
-                channel_name = re.sub(r'[-_]+', ' ', channel_name)  # Sostituisci trattini o underscore con spazio
+                channel_name = re.sub(r'[-_]+', ' ', channel_name)
             else:
-                # Fallback: cerca il primo <p> o <h*> nella pagina
                 description = soup.find(['p', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6'])
                 if description and description.get_text(strip=True):
                     channel_name = description.get_text(strip=True).split('\n')[0].strip()
-                    channel_name = re.sub(r'[-_]+', ' ', channel_name)  # Sostituisci trattini o underscore con spazio
+                    channel_name = re.sub(r'[-_]+', ' ', channel_name)
 
         return stream_url, element, channel_name
 
@@ -103,7 +101,6 @@ def update_m3u_file(video_streams, m3u_file="sportstreaming_playlist.m3u8"):
     REPO_PATH = os.getenv('GITHUB_WORKSPACE', '.')
     file_path = os.path.join(REPO_PATH, m3u_file)
 
-    # Scrivi il file aggiornato
     with open(file_path, "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
         
@@ -111,14 +108,12 @@ def update_m3u_file(video_streams, m3u_file="sportstreaming_playlist.m3u8"):
         for event_url, stream_url, element, channel_name in video_streams:
             if not stream_url:
                 continue
-            # Tutto viene messo nel gruppo "Sport" dato che il sito è sportstreaming
             group = "Eventi"
             
             if group not in groups:
                 groups[group] = []
             groups[group].append((channel_name, stream_url))
 
-        # Ordinamento alfabetico dei canali all'interno di ciascun gruppo
         for group, channels in groups.items():
             channels.sort(key=lambda x: x[0].lower())
             for channel_name, link in channels:
@@ -126,6 +121,10 @@ def update_m3u_file(video_streams, m3u_file="sportstreaming_playlist.m3u8"):
                 f.write(f"#EXTVLCOPT:http-user-agent={headers['User-Agent']}\n")
                 f.write(f"#EXTVLCOPT:http-referrer={headers['Referer']}\n")
                 f.write(f"{link}\n")
+        
+        # Aggiungi il canale ADMIN alla fine
+        f.write("\n")  # Riga vuota per separazione
+        f.write(ADMIN_CHANNEL)
 
     print(f"File M3U8 aggiornato con successo: {file_path}")
 
