@@ -25,10 +25,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests pygithub
 
-      - name: Run M3U8 updater
+       - name: Run M3U8 updater
         env:
           GITHUB_WORKSPACE: ${{ github.workspace }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           python modify_m3u8.py
 
@@ -37,6 +36,6 @@ jobs:
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
           git add itaevents2.m3u8
-          git commit -m "Aggiornato itaevents2.m3u8 con nuove header" || echo "Nessun cambiamento da committare"
+          git commit -m "Aggiornato file M3U8 con nuovi flussi" || echo "Nessun cambiamento da committare"
           git push
         continue-on-error: true
