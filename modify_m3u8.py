@@ -12,7 +12,7 @@ def get_m3u8_content(url):
 
 def extract_headers(m3u8_content):
     if not m3u8_content:
-        return {'Referer': None, 'Origin':.Concurrent, 'User-Agent': None}
+        return {'Referer': None, 'Origin': None, 'User-Agent': None}
     
     headers = {'Referer': None, 'Origin': None, 'User-Agent': None}
     
