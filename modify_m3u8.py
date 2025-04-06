@@ -40,23 +40,24 @@ def modify_m3u8(source_content, headers):
     lines = source_content.split('\n')
     modified_lines = []
     
-    i = 0
-    while i < len(lines):
-        line = lines[i].strip()
-        
+    for line in lines:
         if line.startswith('#EXTINF:'):
-            # Estrai tvg-name e nome canale
+            # Estrai tvg-name
             tvg_match = re.search(r'tvg-name="([^"]+)"', line)
-            channel_match = re.search(r',\s*([^,]+)$', line)
-            
-            if tvg_match and channel_match:
+            if tvg_match:
                 tvg_name = tvg_match.group(1)
-                channel_name = channel_match.group(1).strip()
-                # Crea la nuova riga con il formato corretto
-                new_channel = f"{tvg_name} ({channel_name})"
-                modified_line = line.replace(f',{channel_name}', f',{new_channel}')
-                modified_lines.append(modified_line)
-                print(f"Modificato: {tvg_name} ({channel_name})")
+                # Estrai il nome del canale (tutto dopo l'ultima virgola)
+                channel_match = re.search(r',([^,]+)$', line)
+                if channel_match:
+                    channel_name = channel_match.group(1).strip()
+                    # Costruisci la nuova stringa con tvg-name (channel_name)
+                    new_name = f"{tvg_name} ({channel_name})"
+                    # Sostituisci solo il nome del canale mantenendo il resto
+                    modified_line = re.sub(r',[^,]+$', f',{new_name}', line)
+                    modified_lines.append(modified_line)
+                    print(f"Modificato: {line} -> {modified_line}")
+                else:
+                    modified_lines.append(line)
             else:
                 modified_lines.append(line)
                 
@@ -67,34 +68,27 @@ def modify_m3u8(source_content, headers):
                 modified_lines.append(f'#EXTVLCOPT:http-referrer={headers["Referer"]}')
             if headers['User-Agent']:
                 modified_lines.append(f'#EXTVLCOPT:http-user-agent={headers["User-Agent"]}')
-            print(f"Aggiunte header dopo EXTINF: {line}")
-            
-        elif line.startswith('#EXTVLCOPT:http-'):
-            # Salta le righe EXTVLCOPT esistenti
-            pass
-        else:
-            # Mantieni tutte le altre righe invariate
-            if line:  # Aggiungi solo righe non vuote
-                modified_lines.append(line)
-        
-        i += 1
+                
+        elif not line.startswith('#EXTVLCOPT:http-'):  # Ignora header esistenti
+            modified_lines.append(line)
     
     return '\n'.join(modified_lines)
 
 def main():
-    source_url = "https://raw.githubusercontent.com/ciccioxm3/omg/refs/heads/main/itaevents.m3u8"
-    headers_url = "https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/daddylive-channels.m3u8"
+    # Per test, usiamo direttamente il tuo esempio
+    test_content = """#EXTM3U
+#EXTINF:-1 tvg-id="Italy - Serie C - Sassari Torres vs SPAL" tvg-name="12:30 Italy - Serie C : Sassari Torres vs SPAL - 06/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer",Sky Sport 251 IT
+https://nfsnew.newkso.ru/nfs/premium1/mono.m3u8"""
     
-    print("Scaricamento delle liste...")
-    source_content = get_m3u8_content(source_url)
+    headers_url = "https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/daddylive-channels.m3u8"
     headers_content = get_m3u8_content(headers_url)
     
-    if source_content is None or headers_content is None:
-        print("Errore: impossibile procedere a causa di problemi di download")
+    if headers_content is None:
+        print("Errore: impossibile scaricare gli headers")
         return
     
     headers = extract_headers(headers_content)
-    modified_content = modify_m3u8(source_content, headers)
+    modified_content = modify_m3u8(test_content, headers)
     
     with open('itaevents2.m3u8', 'w', encoding='utf-8') as f:
         f.write(modified_content)
