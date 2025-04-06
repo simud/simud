@@ -1,0 +1,65 @@
+name: Update itaEvents
+
+on:
+  schedule:
+    - cron: '*/15 * * * *' # ogni 3 ore
+  workflow_dispatch:
+permissions:
+  contents: write  # To push changes to repository
+  actions: write   # To manage workflows
+  pull-requests: write  # If your workflow creates 
+jobs:
+  update-files:
+    runs-on: ubuntu-latest
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+      cancel-in-progress: false
+    
+    steps:
+      - name: Checkout repository (no history)
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install requests pytz
+          python -m pip install --upgrade pip
+          pip install beautifulsoup4 playwright bs4 lxml
+          playwright install chromium
+          pip install chardet
+          
+      - name: Run script
+        env:
+          M3U4U_EPG: ${{ secrets.ACTIONS_TOKEN }}
+        run: |
+          python extract_schedule.py
+          python itaevents.py
+          
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "actions-user"
+          git config --global user.email "actions@github.com"
+          
+          # Ignore Python bytecode files to avoid binary conflicts
+          echo "__pycache__/" >> .gitignore
+          echo "*.pyc" >> .gitignore
+          
+          # Stage all changes
+          git add .
+          
+          # Check if there are changes to commit
+          if [[ -n $(git status --porcelain) ]]; then
+            # Commit changes
+            git commit -m "Update Itaevents $(date +%H:%M)"
+            
+            # Force push to avoid merge conflicts
+            git push --force origin HEAD:main
+          else
+            echo "No changes to commit"
+          fi
