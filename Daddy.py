@@ -20,8 +20,10 @@ def concatenate_m3u8():
         print(f"Errore: Sono stati definiti {len(urls)} URL, ma il massimo è 10.")
         return
     
-    # Crea il contenuto combinato
-    combined_content = ["#EXTM3U"]
+    # Crea il contenuto combinato con la riga EXTM3U iniziale
+    combined_content = [
+        '#EXTM3U url-tvg="http://www.epgitalia.tv/gzip,http://epg-guide.com/it.gz,https://raw.github.com/matthuisman/i.mjh.nz/master/PlutoTV/us.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/PlutoTV/it.xml.gz,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-events-epg.xml,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-channels-epg.xml,https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/it.xml.gz"'
+    ]
     
     # Processa ogni URL
     for url in urls:
@@ -33,7 +35,7 @@ def concatenate_m3u8():
             print(f"Scaricate {len(lines)} righe da {url}")
             for line in lines:
                 line = line.strip()
-                if line and line != "#EXTM3U":
+                if line and line != "#EXTM3U":  # Evita di duplicare #EXTM3U
                     combined_content.append(line)
         except requests.RequestException as e:
             print(f"Errore nel scaricare {url}: {str(e)}")
