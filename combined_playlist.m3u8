@@ -1,24 +1,8 @@
 #EXTM3U url-tvg="http://www.epgitalia.tv/gzip,http://epg-guide.com/it.gz,https://raw.github.com/matthuisman/i.mjh.nz/master/PlutoTV/us.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/PlutoTV/it.xml.gz,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-events-epg.xml,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-channels-epg.xml,https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/it.xml.gz"
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Atalanta   LazioSerie A   31' GiornataDomenica 06 Aprile ore 18:00
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
-https://stream-ss.b-cdn.net//hls/Canale18.m3u8
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Catanzaro   BariSerie B   32' GiornataDomenica 06 Aprile ore 15:00
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
-https://stream-ss.b-cdn.net//hls/Canale15.m3u8
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Empoli   CagliariSerie A   31' GiornataDomenica 06 Aprile ore 15:00
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
-https://stream-ss.b-cdn.net//hls/Canale14.m3u8
 #EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Formula 1Diretta sempre attiva
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
 https://stream-ss.b-cdn.net/hls/Canale2Perma.m3u8
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Lecce   VeneziaSerie A   31' GiornataDomenica 06 Aprile ore 12:30
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
-https://stream-ss.b-cdn.net/hls/Canale11.m3u8
 #EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Moto GPDiretta sempre attiva
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
@@ -27,18 +11,10 @@ https://stream-ss.b-cdn.net/hls/Canale3Perma.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
 https://stream-ss.b-cdn.net/hls/Canale4Perma.m3u8
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Palermo   SassuoloSerie B   32' GiornataDomenica 06 Aprile ore 15:00
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
-https://stream-ss.b-cdn.net//hls/Canale16.m3u8
 #EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Roma   JuventusSerie A   31' GiornataDomenica 06 Aprile ore 20:45
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
 https://stream-ss.b-cdn.net//hls/Canale19.m3u8
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Spezia   SampdoriaSerie B   32' GiornataDomenica 06 Aprile ore 17:15
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
-https://stream-ss.b-cdn.net//hls/Canale17.m3u8
 #EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Sport 24Diretta sempre attiva
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
@@ -47,26 +23,18 @@ https://stream-ss.b-cdn.net/hls/Canale1Perma.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
 https://stream-ss.b-cdn.net/hls/Canale5Perma.m3u8
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Torino   Hellas VeronaSerie A   31' GiornataDomenica 06 Aprile ore 15:00
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
-https://stream-ss.b-cdn.net//hls/Canale13.m3u8
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", ZONA SERIE ASerie A   31' GiornataDomenica 06 Aprile ore 15:00
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
-https://stream-ss.b-cdn.net/hls/Canale12.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Eventi", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/hjvtqD6B/photo-2025-03-20-16-36-52.png" group-title="Kings League", therealmarzaa
 #EXTVLCOPT:http-referrer=https://www.twitch.tv/therealmarzaa
 #EXTVLCOPT:http-origin=https://www.twitch.tv/therealmarzaa
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://use21-0.playlist.ttvnw.net/v1/playlist/CugEfEok-kkoQTBx8Ei6T3QxrD98Xz6J1nit4a_ybPta7r_ycGtJX7IBGYRso4dF81KgxWOkVtltEYGVPzddgWBxLtikOlrYJf47o6R4s1miQcCETU7fv5D_H507jML4q-HUmLso4_2aTWF3xhyVHYcluQnILugYoHLxrh8ohnzKHZlDNaHGtVlZIZpqHtD1YYRbdwyjPveh-ykTnl4a9YA8SpuniHIqLThndTQEKWNixy8tPktTZeTgVapNd26jArOEqDkE91gpRhriBwA4wrcvsitk26wU5Th0yTlXpnON5F0F2gIN91MrvrUmJ7m68RVsjv3iyx4xS3CE_38vsn1QyDLIIbowipMbD4xyqmSJHRKZMOBSbiTL-_88flhzJ0h8FvQdXGboChPRuoDHDDDvShvOHE6qphS8NKyrY8BamZ3-VCNKMWle4v6vuVFQ8w4DmylFPeZQR254WKMCcreM3PRGNghrr_q2N4B0gVeLoeea9bgkQUYDHYz7Yzkp5NpShwuVUo5Na2xERCtsuEL1p1txUCNnnwcU6Zf9HF8a-f3fGeB0AfXzgpjjK3OdIY6hr970YbArtqVNiQ3B4bFDyQ5jnQSbLzEEo8Qr6BQ33Xk-XTrxRWJmR-F5rZsqi3bsn3MU_ab1bfgui0w4HvbVPwfiLL21XeeKEgujvsrXsjFKs5Z9i-mp_Cug59omy4SBkmcjmoL3NZUuX8VBCFwFXSKd6785PPs8jAryPzefvXbUAPGUY6xTMai2PbhcY86OXJdWP2DNK7Ea0a62LdlJgJF026f-Lpm_08LokeDTwLPYY-R3jTG7vxoMbbv32nUAWXIWmZw_IAEqCXVzLWVhc3QtMjD7Cw.m3u8
+https://use13-0.playlist.ttvnw.net/v1/playlist/CugE0b-RBjC42FS3qpg2dvKmnXj7rBsncgHn3n05ASrLxkd_3qIR1zMio923LijREfmV0VzSJUkvIdnOohwZkLcyEF4sfnFZZ8NCDnSSLDwUN7UTW6TL2qOXZtPaaqsTVgF8cNuMpHChAbTMOuSEL8K76VoK4qxdiXDWIehbq6HBguf-8_wOVALOMGc_ZOt1hV_Gd_7uBIwbkia3lDYhMoeoIEPOp60PyPr7UDvhNNM3oGZFOEuR9s9fjvC94KMFCMoqDfcdC5E-fn6lWt8PaCLTY96rbDDqdUClL9mEiR46Qo6HDSWAzYkPKRwjoMQ0ApuWuZmHJmAQqvrJuPMnKbEZiYHgYh5SDxTdFNGwqHu_clzMKtHdyK3QG5nmGsM_Qsv681vxD_IbBoF4K_j1ty1AgwUs99XqeH_alnx9T3byrzRm56vu_DA72qr3AJCaiKpu04E0cR3uLTaL-l9mfJ1VT3-m2cBDAgAMz_heSYMPUS3PPnRnZZ0bUj_2b2J10ARqT4W7JcE5ppD1F5u-etZA75DLuXavMi0PPxnlTvDKXV2mBFSFsq8hX_LthhyVtrh8Rs6ZA2DRoXK-F5Oz5gz-3WJdRHKMX08TsTDSEnRfHb_TsrnzI1S4S4EgnscxFBo45mfn6RAXczv5EV9YY4UXBs_h0whCFFjOXymEZCBjGwRrZCMEE6i-HUczj0txqE_zVzbI26RHKfKDHgjLejkbiBXUuQRza4dOzfuB3FEtKxj5XFc4Wqk2ZFAEBwB9weNiMcVk19DPLcVGNbxkhLeY2p79-5w42d7J97xdxK6QViwCZiLtPsamDhoMQGxX4aq1OTKl-J9sIAEqCXVzLWVhc3QtMjD7Cw.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/hjvtqD6B/photo-2025-03-20-16-36-52.png" group-title="Kings League", grenbaud
 #EXTVLCOPT:http-referrer=https://www.twitch.tv/grenbaud
 #EXTVLCOPT:http-origin=https://www.twitch.tv/grenbaud
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://usw23-0.playlist.ttvnw.net/v1/playlist/CtwEuS9BT67Awq_q7I7P863hNevb5JQKGtW9qRntk4y4IkuhIBcxyB9H05iDQT1DJ0bq1rNfTUPO8xcwmYsA5lZGPfBFTVNwsDTyTVwls0ruj5HUpP5SuenuwgbVCkNCz0TxtHqXwrXJxrFDJ6n4pfxStVuD-D0VDic2rNFa_TpbkC4SKuSk-WNZQlEU40KgbgFZwEKGmkWQ8MnI4HXu70zWjI9Yp8ktzQCbzVfb2HB1e6n9W-XiKpQo9ZIuwijx-0uoksCJM3Vt6pioL5stXYxR1TH_A3TiOiONo_D-PASGBiJCw3qUd7-VhlJEHGmxZDnBjVwjoHSNyJw7ULfDpW_Gfz8cZA-9zuQxu3eplt_ST4u5w0fapwv4p4OxRI2y5PSrks0e9EPlER2TyO2fWq5Sj1PvvNt2oRgRzHuv2X92F43tG_zEwAZyyAUDJO7wt48m_Vwum1wSuSWCm35YAXrXV8k90ZSTtwVVvQ0_ksdz2yAK9EKQDyVWojB0N0SOCoefbt32lk1pp7zSSz7ClTUBQGL3u-ohDEP_2kTMhOYgob_Z6mD6VRyDtmg-4e58G4BrAOxr_F5A7PQp1V4MhzlXLU6J4ztKD6qWfIaOOgm5_vdgxe6exTpeWi9DWxhuZXGHfExScaDRAa0ABxuu4D54FCfULHex-TMGszbtjywew1Jn4Pvq92FTdG3rPbaPpgOpe6de15IHHKwnt2b_e6XHwuoaKDLI_voh6NDrPDyFZ1l2zzDxnLTHx7yQltIad_WWrYZgnOjIacVRO14LLUrfySp-kp4s4dIHjmxmJBoMIfkb3hFYb6k8VaXSIAEqCXVzLWVhc3QtMjD7Cw.m3u8
+https://use21-0.playlist.ttvnw.net/v1/playlist/CtcE6BjBhzDUUZmGwfgiRrPdwRdnmzd9IWKxJLnRoquhBsA9Ym5o7wuMnM7PjCHQ2W_ObyZLAu8m7OB6KxWFnAcr_drBSN5MVNTFjMkAoArKVQeqyWrj6xBoH5kTaYTnBRM3YO51UPMYG5OdPhwrLBrwrFwBScjYci0OtPqRq84GJx3Vb6_VLk0TKn0m0cBtHLLuJg65TU0RHz5OMT4AHh1OeZjmgnaRaw7smEEaSN3YYb5Bl-PV912POFeCT2R54ear-kVKssuYbfbaviss7cnZRMIwY5nKsjwYEhetQsRv5IHjrZHESafr-c7V7Ie0aS2iuMBGgrHVihsREhSqpizWyqD4FKhCLk0dpIcthR8q_takfSHtGJt-a45a_Z3mJlFPbbhlt1nl8qntAqbvMKtDKPd044B_VThPwao3dVN6DMm7mDd35MPoeIzgbpq4BrDEx8rI2ZQZ3rbZXLTPzgZGjmcnGFhgoVOmONtTfMaJiZwdDS3qS2zXEnNlj6FVDeKM5u1SRJBNh_GSNIrBxL4zmQzcIp2RyQW2fTystA8STKEuSkzjKLqGdR0GWL_kgT3yFqGlfMBm-hk0Qt_oKRVaiEXOKbgaMCZWb64VFAKlh-xK_vpda1Nyr51v5RAF6KCUg22CJVTAOfMw7sWrF2Uow5FHQJ2C54A2VL-flMmpHFqFeT1pkMAfXXXF6zvc8C9l-qTQa5YAhsDpZ76g0tjElEcYyIKH3GdnjtFhcBs1aH5kzkDGo5t1qlJX4lF6XDzj5MWA8_z9Jk1IJcKByIq4vcpP0QkqreMaDGXvM30WbjXN3J3MtiABKgl1cy1lYXN0LTIw-ws.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Kings League", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 #EXTM3U  url-tvg="http://www.epgitalia.tv/gzip,http://epg-guide.com/it.gz,https://raw.github.com/matthuisman/i.mjh.nz/master/PlutoTV/us.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/PlutoTV/it.xml.gz,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-events-epg.xml,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-channels-epg.xml,https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/it.xml.gz"
@@ -2153,6 +2121,11 @@ https://top2new.newkso.ru/top2/premium401/mono.m3u8
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://top2new.newkso.ru/top2/premium402/mono.m3u8
+#EXTINF:-1 tvg-id="Digi.Sport.4.ro" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/digi-sport-4.png" group-title="ROMANIA",Digi Sport 4 Romania
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://top2new.newkso.ru/top2/premium403/mono.m3u8
 #EXTINF:-1 tvg-id="Discovery.Channel.(US).-.Eastern.Feed.us" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/discovery-channel.png" group-title="UNITED STATES",Discovery Channel
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
@@ -4223,6 +4196,11 @@ https://zekonew.newkso.ru/zeko/premium422/mono.m3u8
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://zekonew.newkso.ru/zeko/premium412/mono.m3u8
+#EXTINF:-1 tvg-id="test" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/supersport-laliga.png" group-title="SOUTH AFRICA",SuperSport LaLiga
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ddy6new.newkso.ru/ddy6/premium415/mono.m3u8
 #EXTINF:-1 tvg-id="test" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/supersport-maximo-1.png" group-title="SOUTH AFRICA",SuperSport MaXimo 1
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
@@ -4633,6 +4611,11 @@ https://dokko1new.newkso.ru/dokko1/premium659/mono.m3u8
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://windnew.newkso.ru/wind/premium391/mono.m3u8
+#EXTINF:-1 tvg-id="Veronica.nl" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/veronica-nl.png" group-title="NETHERLANDS",Veronica NL Netherlandss
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://zekonew.newkso.ru/zeko/premium378/mono.m3u8
 #EXTINF:-1 tvg-id="Viaplay1(src01).uk" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/viaplay-sports-1-uk.png" group-title="UNITED KINGDOM",Viaplay Sports 1 UK
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
