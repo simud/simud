@@ -12,7 +12,7 @@ def get_m3u8_content(url):
 
 def extract_headers(m3u8_content):
     if not m3u8_content:
-        return {'Referer': None, 'Origin': None, 'User-Agent': None}
+        return {'Referer': None, 'Origin':.Concurrent, 'User-Agent': None}
     
     headers = {'Referer': None, 'Origin': None, 'User-Agent': None}
     
@@ -45,23 +45,18 @@ def modify_m3u8(source_content, headers):
         if line.startswith('#EXTVLCOPT:http-'):
             continue
         
-        # Modifica solo le righe #EXTINF:
-        if line.startswith('#EXTINF:'):
-            # Rimuovi eventuali header esistenti
-            line = re.sub(r' -referer="[^"]+"', '', line)
-            line = re.sub(r' -origin="[^"]+"', '', line)
-            line = re.sub(r' -user-agent="[^"]+"', '', line)
-            
-            # Aggiungi tutte le header estratte, anche se None
-            if headers['Referer']:
-                line += f' -referer="{headers["Referer"]}"'
-            if headers['Origin']:
-                line += f' -origin="{headers["Origin"]}"'
-            if headers['User-Agent']:
-                line += f' -user-agent="{headers["User-Agent"]}"'
-            print(f"Modificata riga EXTINF: {line}")
-        
+        # Aggiungi la riga corrente
         modified_lines.append(line)
+        
+        # Dopo ogni #EXTINF:, aggiungi le header in ordine
+        if line.startswith('#EXTINF:'):
+            if headers['Origin']:
+                modified_lines.append(f'#EXTVLCOPT:http-origin={headers["Origin"]}')
+            if headers['Referer']:
+                modified_lines.append(f'#EXTVLCOPT:http-referrer={headers["Referer"]}')
+            if headers['User-Agent']:
+                modified_lines.append(f'#EXTVLCOPT:http-user-agent={headers["User-Agent"]}')
+            print(f"Aggiunte header dopo EXTINF: {line}")
     
     return '\n'.join(modified_lines)
 
