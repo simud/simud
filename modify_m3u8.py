@@ -15,16 +15,19 @@ def extract_headers(m3u8_content):
         return {'Referer': None, 'Origin': None, 'User-Agent': None}
     
     headers = {'Referer': None, 'Origin': None, 'User-Agent': None}
-    referer_match = re.search(r'#EXTINF:.*?-referer="([^"]+)"', m3u8_content)
-    origin_match = re.search(r'#EXTINF:.*?-origin="([^"]+)"', m3u8_content)
-    ua_match = re.search(r'#EXTINF:.*?-user-agent="([^"]+)"', m3u8_content)
+    
+    # Cerca i valori nel formato #EXTVLCOPT
+    referer_match = re.search(r'#EXTVLCOPT:http-referrer=(.+)', m3u8_content)
+    origin_match = re.search(r'#EXTVLCOPT:http-origin=(.+)', m3u8_content)
+    ua_match = re.search(r'#EXTVLCOPT:http-user-agent=(.+)', m3u8_content)
     
     if referer_match:
-        headers['Referer'] = referer_match.group(1)
+        headers['Referer'] = referer_match.group(1).strip()
     if origin_match:
-        headers['Origin'] = origin_match.group(1)
+        headers['Origin'] = origin_match.group(1).strip()
     if ua_match:
-        headers['User-Agent'] = ua_match.group(1)
+        headers['User-Agent'] = ua_match.group(1).strip()
+    
     return headers
 
 def modify_m3u8(source_content, headers):
@@ -33,19 +36,30 @@ def modify_m3u8(source_content, headers):
     
     lines = source_content.split('\n')
     modified_lines = []
+    skip_next_vlcopt = False
     
-    for line in lines:
+    for i, line in enumerate(lines):
+        # Salta le righe #EXTVLCOPT esistenti
+        if line.startswith('#EXTVLCOPT:http-'):
+            skip_next_vlcopt = True
+            continue
+        
         if line.startswith('#EXTINF:'):
+            # Rimuovi eventuali header esistenti nel formato precedente
             line = re.sub(r' -referer="[^"]+"', '', line)
             line = re.sub(r' -origin="[^"]+"', '', line)
             line = re.sub(r' -user-agent="[^"]+"', '', line)
+            
+            # Aggiungi le nuove header nel formato richiesto
             if headers['Referer']:
                 line += f' -referer="{headers["Referer"]}"'
             if headers['Origin']:
                 line += f' -origin="{headers["Origin"]}"'
             if headers['User-Agent']:
                 line += f' -user-agent="{headers["User-Agent"]}"'
+        
         modified_lines.append(line)
+    
     return '\n'.join(modified_lines)
 
 def main():
