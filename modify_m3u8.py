@@ -39,35 +39,24 @@ def modify_m3u8(source_content, headers):
     
     lines = source_content.split('\n')
     modified_lines = []
-    current_tvg_name = ""
-    channel_name = ""
     
     for line in lines:
-        # Estrai il tvg-name se presente
-        tvg_match = re.search(r'tvg-name="([^"]+)"', line)
-        if tvg_match:
-            current_tvg_name = tvg_match.group(1)
-            # Estrai il nome del canale dalla fine della riga EXTINF
-            channel_match = re.search(r',\s*(.+)$', line)
-            if channel_match:
-                channel_name = channel_match.group(1).strip()
-        
-        # Ignora le righe #EXTVLCOPT esistenti
-        if line.startswith('#EXTVLCOPT:http-'):
-            continue
-            
-        if line.startswith('#EXTINF:') and current_tvg_name and channel_name:
-            # Modifica la riga EXTINF mantenendo tutti gli attributi
-            modified_line = line.replace(f',{channel_name}', f', {current_tvg_name} ({channel_name})')
-            modified_lines.append(modified_line)
-            print(f"Modificato: {current_tvg_name} ({channel_name})")
-        elif line.startswith('http'):  # Mantieni gli URL invariati
-            modified_lines.append(line)
-        else:
-            modified_lines.append(line)
-        
-        # Dopo ogni #EXTINF:, aggiungi le header
         if line.startswith('#EXTINF:'):
+            # Estrai il tvg-name e il nome del canale
+            tvg_match = re.search(r'tvg-name="([^"]+)"', line)
+            channel_match = re.search(r',\s*([^,]+)$', line)
+            
+            if tvg_match and channel_match:
+                tvg_name = tvg_match.group(1)
+                channel_name = channel_match.group(1).strip()
+                # Sostituisci il nome del canale con tvg-name (channel_name)
+                modified_line = line.replace(f',{channel_name}', f',{tvg_name} ({channel_name})')
+                modified_lines.append(modified_line)
+                print(f"Modificato: {tvg_name} ({channel_name})")
+            else:
+                modified_lines.append(line)
+                
+            # Aggiungi le header dopo EXTINF
             if headers['Origin']:
                 modified_lines.append(f'#EXTVLCOPT:http-origin={headers["Origin"]}')
             if headers['Referer']:
@@ -75,6 +64,13 @@ def modify_m3u8(source_content, headers):
             if headers['User-Agent']:
                 modified_lines.append(f'#EXTVLCOPT:http-user-agent={headers["User-Agent"]}')
             print(f"Aggiunte header dopo EXTINF: {line}")
+            
+        elif line.startswith('#EXTVLCOPT:http-'):
+            # Ignora le righe EXTVLCOPT esistenti
+            continue
+        else:
+            # Mantieni tutte le altre righe (incluso #EXTM3U e URL)
+            modified_lines.append(line)
     
     return '\n'.join(modified_lines)
 
