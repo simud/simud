@@ -33,6 +33,33 @@ def extract_headers(m3u8_content):
     
     return headers
 
+# Dizionario per tradurre i nomi dei gruppi sportivi in italiano
+sport_translations = {
+    "soccer": "calcio",
+    "tennis": "tennis",  # Rimane invariato in italiano
+    "basketball": "pallacanestro",
+    "football": "football americano",
+    "baseball": "baseball",  # Spesso invariato in italiano
+    "hockey": "hockey",
+    "volleyball": "pallavolo",
+    "rugby": "rugby",
+    "golf": "golf",
+    "boxing": "pugilato",
+}
+
+def translate_group_name(tvg_name):
+    # Traduce il nome del gruppo se presente nel dizionario
+    tvg_name_lower = tvg_name.lower()
+    for en_sport, it_sport in sport_translations.items():
+        if en_sport in tvg_name_lower:
+            # Mantieni la capitalizzazione originale se possibile
+            if tvg_name.isupper():
+                return it_sport.upper()
+            elif tvg_name[0].isupper():
+                return it_sport.capitalize()
+            return it_sport
+    return tvg_name  # Se non c'è corrispondenza, restituisci il nome originale
+
 def modify_m3u8(source_content, headers):
     if not source_content:
         return ""
@@ -46,14 +73,18 @@ def modify_m3u8(source_content, headers):
             tvg_match = re.search(r'tvg-name="([^"]+)"', line)
             if tvg_match:
                 tvg_name = tvg_match.group(1)
+                # Traduci il tvg-name in italiano
+                translated_tvg_name = translate_group_name(tvg_name)
                 # Estrai il nome del canale (tutto dopo l'ultima virgola)
                 channel_match = re.search(r',([^,]+)$', line)
                 if channel_match:
                     channel_name = channel_match.group(1).strip()
-                    # Costruisci la nuova stringa con tvg-name (channel_name)
-                    new_name = f"{tvg_name} ({channel_name})"
+                    # Costruisci la nuova stringa con tvg-name tradotto (channel_name)
+                    new_name = f"{translated_tvg_name} ({channel_name})"
                     # Sostituisci solo il nome del canale mantenendo il resto
                     modified_line = re.sub(r',[^,]+$', f',{new_name}', line)
+                    # Aggiorna anche il tvg-name nell'attributo
+                    modified_line = re.sub(r'tvg-name="[^"]+"', f'tvg-name="{translated_tvg_name}"', modified_line)
                     modified_lines.append(modified_line)
                     print(f"Modificato: {line} -> {modified_line}")
                 else:
