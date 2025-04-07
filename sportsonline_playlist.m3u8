@@ -1,23 +1,5 @@
 #EXTM3U
 #EXTGRP:Lunedì
-#EXTINF:-1 group-title="Lunedì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 15:30 Farul ConstanÈa x Unirea Slobozia (hd10)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://sportzonline.ps/channels/hd/hd10.php
-#EXTINF:-1 group-title="Lunedì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 18:00 Puszcza NiepoÅomice x RakÃ³w CzÄstochowa (hd3)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://sportzonline.ps/channels/hd/hd3.php
-#EXTINF:-1 group-title="Lunedì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 18:00 KasÄ±mpaÅa x BeÅiktaÅ (hd11)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://sportzonline.ps/channels/hd/hd11.php
-#EXTINF:-1 group-title="Lunedì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 18:00 Ultimate Pool (hd5)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://sportzonline.ps/channels/hd/hd5.php
-#EXTINF:-1 group-title="Lunedì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 18:30 CFR Cluj x CSU Craiova (hd10)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://sportzonline.ps/channels/hd/hd10.php
-#EXTINF:-1 group-title="Lunedì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 18:45 Farense x Casa Pia (sporttv2)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://sportzonline.ps/channels/pt/sporttv2.php
 #EXTINF:-1 group-title="Lunedì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 19:30 Elche x Racing Ferrol (hd8)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://sportzonline.ps/channels/hd/hd8.php
