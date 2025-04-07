@@ -75,7 +75,7 @@ def modify_m3u8(source_content, headers):
     return '\n'.join(modified_lines)
 
 def main():
-    source_url = "https://raw.githubusercontent.com/ciccioxm3/omg/refs/heads/main/itaevents.m3u8"
+    source_url = "https://raw.githubusercontent.com/ciccioxm3/omg/refs/heads/main/fullita.m3u8"
     headers_url = "https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/daddylive-channels.m3u8"
     
     print("Scaricamento delle liste...")
@@ -89,10 +89,10 @@ def main():
     headers = extract_headers(headers_content)
     modified_content = modify_m3u8(source_content, headers)
     
-    with open('itaevents2.m3u8', 'w', encoding='utf-8') as f:
+    with open('itaevents3.m3u8', 'w', encoding='utf-8') as f:
         f.write(modified_content)
     
-    print("File itaevents2.m3u8 aggiornato con successo")
+    print("File itaevents3.m3u8 aggiornato con successo")
     print("\nContenuto modificato:")
     print(modified_content)
 
