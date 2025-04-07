@@ -33,29 +33,27 @@ def extract_headers(m3u8_content):
     
     return headers
 
-# Dizionario per tradurre i nomi dei gruppi sportivi in italiano
+# Dizionario per tradurre i nomi dei gruppi sportivi in italiano con prima lettera maiuscola
 sport_translations = {
-    "soccer": "calcio",
-    "tennis": "tennis",  # Rimane invariato in italiano
-    "basketball": "pallacanestro",
-    "football": "football americano",
-    "baseball": "baseball",  # Spesso invariato in italiano
-    "hockey": "hockey",
-    "volleyball": "pallavolo",
-    "rugby": "rugby",
-    "golf": "golf",
-    "boxing": "pugilato",
+    "soccer": "Calcio",
+    "tennis": "Tennis",  # Rimane invariato in italiano
+    "basketball": "Pallacanestro",
+    "football": "Football Americano",
+    "baseball": "Baseball",  # Spesso invariato in italiano
+    "hockey": "Hockey",
+    "volleyball": "Pallavolo",
+    "rugby": "Rugby",
+    "golf": "Golf",
+    "boxing": "Pugilato",
 }
 
-def translate_group_name(tvg_name):
-    # Traduce il nome del gruppo se presente nel dizionario
-    tvg_name_lower = tvg_name.lower()
+def translate_group_title(group_title):
+    # Traduce il group-title se presente nel dizionario
+    group_title_lower = group_title.lower()
     for en_sport, it_sport in sport_translations.items():
-        if en_sport == tvg_name_lower:
-            # Restituisci la traduzione con la prima lettera maiuscola
-            return it_sport.capitalize()
-    # Se non c'è corrispondenza, restituisci il nome originale
-    return tvg_name
+        if en_sport == group_title_lower:
+            return it_sport  # Restituisce la traduzione con la prima lettera maiuscola
+    return group_title  # Se non c'è corrispondenza, restituisci il nome originale
 
 def modify_m3u8(source_content, headers):
     if not source_content:
@@ -66,28 +64,44 @@ def modify_m3u8(source_content, headers):
     
     for line in lines:
         if line.startswith('#EXTINF:'):
-            # Estrai tvg-name
-            tvg_match = re.search(r'tvg-name="([^"]+)"', line)
-            if tvg_match:
-                tvg_name = tvg_match.group(1)
-                # Traduci il tvg-name in italiano
-                translated_tvg_name = translate_group_name(tvg_name)
-                # Estrai il nome del canale (tutto dopo l'ultima virgola)
-                channel_match = re.search(r',([^,]+)$', line)
-                if channel_match:
-                    channel_name = channel_match.group(1).strip()
-                    # Costruisci la nuova stringa con tvg-name tradotto (channel_name)
-                    new_name = f"{translated_tvg_name} ({channel_name})"
-                    # Sostituisci solo il nome del canale mantenendo il resto
-                    modified_line = re.sub(r',[^,]+$', f',{new_name}', line)
-                    # Aggiorna anche il tvg-name nell'attributo
-                    modified_line = re.sub(r'tvg-name="[^"]+"', f'tvg-name="{translated_tvg_name}"', modified_line)
-                    modified_lines.append(modified_line)
-                    print(f"Modificato: {line} -> {modified_line}")
+            # Estrai group-title
+            group_match = re.search(r'group-title="([^"]+)"', line)
+            if group_match:
+                group_title = group_match.group(1)
+                # Traduci il group-title in italiano
+                translated_group_title = translate_group_title(group_title)
+                # Sostituisci il group-title originale con quello tradotto
+                modified_line = re.sub(r'group-title="[^"]+"', f'group-title="{translated_group_title}"', line)
+                # Estrai tvg-name
+                tvg_match = re.search(r'tvg-name="([^"]+)"', modified_line)
+                if tvg_match:
+                    tvg_name = tvg_match.group(1)
+                    # Estrai il nome del canale (tutto dopo l'ultima virgola)
+                    channel_match = re.search(r',([^,]+)$', modified_line)
+                    if channel_match:
+                        channel_name = channel_match.group(1).strip()
+                        # Costruisci la nuova stringa con tvg-name (channel_name)
+                        new_name = f"{tvg_name} ({channel_name})"
+                        # Sostituisci solo il nome del canale mantenendo il resto
+                        modified_line = re.sub(r',[^,]+$', f',{new_name}', modified_line)
+                modified_lines.append(modified_line)
+                print(f"Modificato: {line} -> {modified_line}")
+            else:
+                # Se non c'è group-title, procedi con la modifica del tvg-name e nome canale
+                tvg_match = re.search(r'tvg-name="([^"]+)"', line)
+                if tvg_match:
+                    tvg_name = tvg_match.group(1)
+                    channel_match = re.search(r',([^,]+)$', line)
+                    if channel_match:
+                        channel_name = channel_match.group(1).strip()
+                        new_name = f"{tvg_name} ({channel_name})"
+                        modified_line = re.sub(r',[^,]+$', f',{new_name}', line)
+                        modified_lines.append(modified_line)
+                        print(f"Modificato: {line} -> {modified_line}")
+                    else:
+                        modified_lines.append(line)
                 else:
                     modified_lines.append(line)
-            else:
-                modified_lines.append(line)
                 
             # Aggiungi le header
             if headers['Origin']:
