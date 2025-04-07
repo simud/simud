@@ -1,40 +1,40 @@
 #EXTM3U url-tvg="http://www.epgitalia.tv/gzip,http://epg-guide.com/it.gz,https://raw.github.com/matthuisman/i.mjh.nz/master/PlutoTV/us.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/PlutoTV/it.xml.gz,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-events-epg.xml,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-channels-epg.xml,https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/it.xml.gz"
-#EXTINF:-1 tvg-id="Italy - Serie C - Calcio Padova vs Lecco" tvg-name="19:30 Italy - Serie C : Calcio Padova vs Lecco - 07/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer",19:30 Italy - Serie C : Calcio Padova vs Lecco - 07/04/25 (Sky Sport 251 IT)
+#EXTINF:-1 tvg-id="Italy - Serie C - Calcio Padova vs Lecco" tvg-name="19:30 Italy - Serie C : Calcio Padova vs Lecco - 07/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio",19:30 Italy - Serie C : Calcio Padova vs Lecco - 07/04/25 (Sky Sport 251 IT)
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://nfsnew.newkso.ru/nfs/premium6/mono.m3u8
-#EXTINF:-1 tvg-id="Italy - Serie C - Calcio Padova vs Lecco" tvg-name="19:30 Italy - Serie C : Calcio Padova vs Lecco - 07/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer",19:30 Italy - Serie C : Calcio Padova vs Lecco - 07/04/25 (RAI Sport 1 IT)
+#EXTINF:-1 tvg-id="Italy - Serie C - Calcio Padova vs Lecco" tvg-name="19:30 Italy - Serie C : Calcio Padova vs Lecco - 07/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio",19:30 Italy - Serie C : Calcio Padova vs Lecco - 07/04/25 (RAI Sport 1 IT)
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://ddy6new.newkso.ru/ddy6/premium882/mono.m3u8
-#EXTINF:-1 tvg-id="Italy - Serie C - AlbinoLeffe vs Pro Vercelli" tvg-name="19:30 Italy - Serie C : AlbinoLeffe vs Pro Vercelli - 07/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer",19:30 Italy - Serie C : AlbinoLeffe vs Pro Vercelli - 07/04/25 (Sky Sport 252 IT)
+#EXTINF:-1 tvg-id="Italy - Serie C - AlbinoLeffe vs Pro Vercelli" tvg-name="19:30 Italy - Serie C : AlbinoLeffe vs Pro Vercelli - 07/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio",19:30 Italy - Serie C : AlbinoLeffe vs Pro Vercelli - 07/04/25 (Sky Sport 252 IT)
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://nfsnew.newkso.ru/nfs/premium7/mono.m3u8
-#EXTINF:-1 tvg-id="Italy - Serie C - AlbinoLeffe vs Pro Vercelli" tvg-name="19:30 Italy - Serie C : AlbinoLeffe vs Pro Vercelli - 07/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer",19:30 Italy - Serie C : AlbinoLeffe vs Pro Vercelli - 07/04/25 (Sky Sport Arena IT)
+#EXTINF:-1 tvg-id="Italy - Serie C - AlbinoLeffe vs Pro Vercelli" tvg-name="19:30 Italy - Serie C : AlbinoLeffe vs Pro Vercelli - 07/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio",19:30 Italy - Serie C : AlbinoLeffe vs Pro Vercelli - 07/04/25 (Sky Sport Arena IT)
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://ddy6new.newkso.ru/ddy6/premium462/mono.m3u8
-#EXTINF:-1 tvg-id="Italy - Serie C - Giugliano vs Casertana" tvg-name="19:30 Italy - Serie C : Giugliano vs Casertana - 07/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer",19:30 Italy - Serie C : Giugliano vs Casertana - 07/04/25 (Sky Sport 253 IT)
+#EXTINF:-1 tvg-id="Italy - Serie C - Giugliano vs Casertana" tvg-name="19:30 Italy - Serie C : Giugliano vs Casertana - 07/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio",19:30 Italy - Serie C : Giugliano vs Casertana - 07/04/25 (Sky Sport 253 IT)
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://nfsnew.newkso.ru/nfs/premium8/mono.m3u8
-#EXTINF:-1 tvg-id="Italy - Serie C - Giugliano vs Casertana" tvg-name="19:30 Italy - Serie C : Giugliano vs Casertana - 07/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer",19:30 Italy - Serie C : Giugliano vs Casertana - 07/04/25 (Sky Sport Max IT)
+#EXTINF:-1 tvg-id="Italy - Serie C - Giugliano vs Casertana" tvg-name="19:30 Italy - Serie C : Giugliano vs Casertana - 07/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio",19:30 Italy - Serie C : Giugliano vs Casertana - 07/04/25 (Sky Sport Max IT)
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://dokko1new.newkso.ru/dokko1/premium460/mono.m3u8
-#EXTINF:-1 tvg-id="Italy - Serie A - Bologna vs Napoli" tvg-name="19:45 Italy - Serie A : Bologna vs Napoli - 07/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer",19:45 Italy - Serie A : Bologna vs Napoli - 07/04/25 (DAZN Zona IT)
+#EXTINF:-1 tvg-id="Italy - Serie A - Bologna vs Napoli" tvg-name="19:45 Italy - Serie A : Bologna vs Napoli - 07/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio",19:45 Italy - Serie A : Bologna vs Napoli - 07/04/25 (DAZN Zona IT)
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://nfsnew.newkso.ru/nfs/premium877/mono.m3u8
-#EXTINF:-1 tvg-id="England - Premier League - Leicester City vs Newcastle United" tvg-name="20:00 England - Premier League : Leicester City vs Newcastle United - 07/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Soccer",20:00 England - Premier League : Leicester City vs Newcastle United - 07/04/25 (Sky Sport Calcio IT)
+#EXTINF:-1 tvg-id="England - Premier League - Leicester City vs Newcastle United" tvg-name="20:00 England - Premier League : Leicester City vs Newcastle United - 07/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio",20:00 England - Premier League : Leicester City vs Newcastle United - 07/04/25 (Sky Sport Calcio IT)
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
