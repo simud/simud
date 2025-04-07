@@ -51,14 +51,11 @@ def translate_group_name(tvg_name):
     # Traduce il nome del gruppo se presente nel dizionario
     tvg_name_lower = tvg_name.lower()
     for en_sport, it_sport in sport_translations.items():
-        if en_sport in tvg_name_lower:
-            # Mantieni la capitalizzazione originale se possibile
-            if tvg_name.isupper():
-                return it_sport.upper()
-            elif tvg_name[0].isupper():
-                return it_sport.capitalize()
-            return it_sport
-    return tvg_name  # Se non c'è corrispondenza, restituisci il nome originale
+        if en_sport == tvg_name_lower:
+            # Restituisci la traduzione con la prima lettera maiuscola
+            return it_sport.capitalize()
+    # Se non c'è corrispondenza, restituisci il nome originale
+    return tvg_name
 
 def modify_m3u8(source_content, headers):
     if not source_content:
