@@ -1,59 +1,5 @@
 #EXTM3U
 #EXTGRP:Lunedì
-#EXTINF:-1 group-title="Lunedì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 19:30 Elche x Racing Ferrol (hd8)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://sportzonline.ps/channels/hd/hd8.php
-#EXTINF:-1 group-title="Lunedì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 19:30 Elche x Racing Ferrol (eleven3)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://sportzonline.ps/channels/pt/eleven3.php
-#EXTINF:-1 group-title="Lunedì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 19:45 Bologna x Napoli (hd7)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://sportzonline.ps/channels/hd/hd7.php
-#EXTINF:-1 group-title="Lunedì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 19:45 Bologna x Napoli (sporttv4)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://sportzonline.ps/channels/pt/sporttv4.php
-#EXTINF:-1 group-title="Lunedì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 19:45 Bologna x Napoli (br6)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://sportzonline.ps/channels/bra/br6.php
-#EXTINF:-1 group-title="Lunedì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 19:45 Dunkerque x Guingamp (hd4)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://sportzonline.ps/channels/hd/hd4.php
-#EXTINF:-1 group-title="Lunedì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 20:00 Leicester City x Newcastle United (hd1)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://sportzonline.ps/channels/hd/hd1.php
-#EXTINF:-1 group-title="Lunedì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 20:00 Leicester City x Newcastle United (eleven1)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://sportzonline.ps/channels/pt/eleven1.php
-#EXTINF:-1 group-title="Lunedì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 20:00 Leicester City x Newcastle United (br2)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://sportzonline.ps/channels/bra/br2.php
-#EXTINF:-1 group-title="Lunedì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 20:00 LeganÃ©s x Osasuna (hd2)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://sportzonline.ps/channels/hd/hd2.php
-#EXTINF:-1 group-title="Lunedì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 20:00 LeganÃ©s x Osasuna (hd6)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://sportzonline.ps/channels/hd/hd6.php
-#EXTINF:-1 group-title="Lunedì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 20:00 LeganÃ©s x Osasuna (eleven2)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://sportzonline.ps/channels/pt/eleven2.php
-#EXTINF:-1 group-title="Lunedì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 20:15 Rio Ave x Boavista (sporttv3)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://sportzonline.ps/channels/pt/sporttv3.php
-#EXTINF:-1 group-title="Lunedì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 20:45 Sporting CP x Sporting Braga (hd11)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://sportzonline.ps/channels/hd/hd11.php
-#EXTINF:-1 group-title="Lunedì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 20:45 Sporting CP x Sporting Braga (sporttv1)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://sportzonline.ps/channels/pt/sporttv1.php
-#EXTINF:-1 group-title="Lunedì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 20:45 Sporting CP x Sporting Braga (br3)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://sportzonline.ps/channels/bra/br3.php
-#EXTINF:-1 group-title="Lunedì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 23:00 AtlÃ©tico Goianiense x Athletic Club (br6)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://sportzonline.ps/channels/bra/br6.php
-#EXTINF:-1 group-title="Lunedì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 23:30 SÃ£o Paulo U20 x Corinthians U20 (br1)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://sportzonline.ps/channels/bra/br1.php
 #EXTINF:-1 group-title="Lunedì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 00:00 NBA: Sacramento Kings @ Detroit Pistons (hd2)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://sportzonline.ps/channels/hd/hd2.php
@@ -211,3 +157,160 @@ https://sportzonline.ps/channels/hd/hd2.php
 #EXTINF:-1 group-title="Martedì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 04:30 Cruz Azul x AmÃ©rica (hd1)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://sportzonline.ps/channels/hd/hd1.php
+#EXTGRP:Mercoledì
+#EXTINF:-1 group-title="Mercoledì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 10:00 ATP World Tour 1000: Monte-Carlo (sporttv3)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://sportzonline.ps/channels/pt/sporttv3.php
+#EXTINF:-1 group-title="Mercoledì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 14:00 Simba x Al Masry (hd10)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://sportzonline.ps/channels/hd/hd10.php
+#EXTINF:-1 group-title="Mercoledì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 17:00 Zamalek x Stellenbosch (hd10)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://sportzonline.ps/channels/hd/hd10.php
+#EXTINF:-1 group-title="Mercoledì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 17:00 Zamalek x Stellenbosch (sporttv1)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://sportzonline.ps/channels/pt/sporttv1.php
+#EXTINF:-1 group-title="Mercoledì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 17:00 Orlando Pirates x MC Alger (sporttv2)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://sportzonline.ps/channels/pt/sporttv2.php
+#EXTINF:-1 group-title="Mercoledì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 20:00 Barcelona x Borussia Dortmund (hd2)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://sportzonline.ps/channels/hd/hd2.php
+#EXTINF:-1 group-title="Mercoledì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 20:00 Barcelona x Borussia Dortmund (hd3)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://sportzonline.ps/channels/hd/hd3.php
+#EXTINF:-1 group-title="Mercoledì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 20:00 Barcelona x Borussia Dortmund (hd5)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://sportzonline.ps/channels/hd/hd5.php
+#EXTINF:-1 group-title="Mercoledì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 20:00 Barcelona x Borussia Dortmund (hd6)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://sportzonline.ps/channels/hd/hd6.php
+#EXTINF:-1 group-title="Mercoledì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 20:00 Barcelona x Borussia Dortmund (hd8)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://sportzonline.ps/channels/hd/hd8.php
+#EXTINF:-1 group-title="Mercoledì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 20:00 Barcelona x Borussia Dortmund (eleven1)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://sportzonline.ps/channels/pt/eleven1.php
+#EXTINF:-1 group-title="Mercoledì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 20:00 Barcelona x Borussia Dortmund (br5)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://sportzonline.ps/channels/bra/br5.php
+#EXTINF:-1 group-title="Mercoledì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 20:00 PSG x Aston Villa (hd1)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://sportzonline.ps/channels/hd/hd1.php
+#EXTINF:-1 group-title="Mercoledì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 20:00 PSG x Aston Villa (hd4)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://sportzonline.ps/channels/hd/hd4.php
+#EXTINF:-1 group-title="Mercoledì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 20:00 PSG x Aston Villa (hd7)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://sportzonline.ps/channels/hd/hd7.php
+#EXTINF:-1 group-title="Mercoledì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 20:00 PSG x Aston Villa (hd9)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://sportzonline.ps/channels/hd/hd9.php
+#EXTINF:-1 group-title="Mercoledì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 20:00 PSG x Aston Villa (hd11)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://sportzonline.ps/channels/hd/hd11.php
+#EXTINF:-1 group-title="Mercoledì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 20:00 PSG x Aston Villa (sporttv5)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://sportzonline.ps/channels/pt/sporttv5.php
+#EXTINF:-1 group-title="Mercoledì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 20:00 PSG x Aston Villa (br3)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://sportzonline.ps/channels/bra/br3.php
+#EXTINF:-1 group-title="Mercoledì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 20:00 RSB Berkane x ASEC Mimosas (hd10)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://sportzonline.ps/channels/hd/hd10.php
+#EXTINF:-1 group-title="Mercoledì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 20:00 Coventry City x Portsmouth (sporttv2)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://sportzonline.ps/channels/pt/sporttv2.php
+#EXTINF:-1 group-title="Mercoledì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 20:00 Coventry City x Portsmouth (br6)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://sportzonline.ps/channels/bra/br6.php
+#EXTINF:-1 group-title="Mercoledì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 20:30 Basketball: Porto x Sporting (eleven2)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://sportzonline.ps/channels/pt/eleven2.php
+#EXTINF:-1 group-title="Mercoledì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 20:45 Tirsense x Benfica (sporttv1)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://sportzonline.ps/channels/pt/sporttv1.php
+#EXTINF:-1 group-title="Mercoledì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 23:00 Olimpia x VÃ©lez Sarsfield (hd5)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://sportzonline.ps/channels/hd/hd5.php
+#EXTINF:-1 group-title="Mercoledì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 23:00 Olimpia x VÃ©lez Sarsfield (hd11)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://sportzonline.ps/channels/hd/hd11.php
+#EXTINF:-1 group-title="Mercoledì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 23:00 Olimpia x VÃ©lez Sarsfield (hd9)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://sportzonline.ps/channels/hd/hd9.php
+#EXTINF:-1 group-title="Mercoledì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 23:00 HuracÃ¡n x Racing (sporttv3)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://sportzonline.ps/channels/pt/sporttv3.php
+#EXTINF:-1 group-title="Mercoledì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 23:00 HuracÃ¡n x Racing (hd10)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://sportzonline.ps/channels/hd/hd10.php
+#EXTINF:-1 group-title="Mercoledì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 23:00 Nacional x Bahia (br2)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://sportzonline.ps/channels/bra/br2.php
+#EXTINF:-1 group-title="Mercoledì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 23:00 Palestino x UniÃ³n Santa Fe (br6)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://sportzonline.ps/channels/bra/br6.php
+#EXTINF:-1 group-title="Mercoledì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 00:00 NBA: Boston Celtics @ Orlando Magic (sporttv4)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://sportzonline.ps/channels/pt/sporttv4.php
+#EXTINF:-1 group-title="Mercoledì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 00:30 NBA: Los Angeles Lakers @ Dallas Mavericks (hd2)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://sportzonline.ps/channels/hd/hd2.php
+#EXTINF:-1 group-title="Mercoledì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 01:00 Inter Miami x Los Angeles FC (hd1)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://sportzonline.ps/channels/hd/hd1.php
+#EXTINF:-1 group-title="Mercoledì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 01:00 Inter Miami x Los Angeles FC (hd8)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://sportzonline.ps/channels/hd/hd8.php
+#EXTINF:-1 group-title="Mercoledì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 01:30 Palmeiras x Cerro PorteÃ±o (hd9)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://sportzonline.ps/channels/hd/hd9.php
+#EXTINF:-1 group-title="Mercoledì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 01:30 Palmeiras x Cerro PorteÃ±o (sporttv1)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://sportzonline.ps/channels/pt/sporttv1.php
+#EXTINF:-1 group-title="Mercoledì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 01:30 Palmeiras x Cerro PorteÃ±o (br4)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://sportzonline.ps/channels/bra/br4.php
+#EXTINF:-1 group-title="Mercoledì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 01:30 Flamengo x Central CÃ³rdoba SdE (hd5)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://sportzonline.ps/channels/hd/hd5.php
+#EXTINF:-1 group-title="Mercoledì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 01:30 Flamengo x Central CÃ³rdoba SdE (hd11)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://sportzonline.ps/channels/hd/hd11.php
+#EXTINF:-1 group-title="Mercoledì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 01:30 Flamengo x Central CÃ³rdoba SdE (sporttv2)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://sportzonline.ps/channels/pt/sporttv2.php
+#EXTINF:-1 group-title="Mercoledì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 01:30 Flamengo x Central CÃ³rdoba SdE (br1)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://sportzonline.ps/channels/bra/br1.php
+#EXTINF:-1 group-title="Mercoledì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 01:30 Cruzeiro x Mushuc Runa (sporttv3)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://sportzonline.ps/channels/pt/sporttv3.php
+#EXTINF:-1 group-title="Mercoledì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 01:30 Cruzeiro x Mushuc Runa (br2)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://sportzonline.ps/channels/bra/br2.php
+#EXTINF:-1 group-title="Mercoledì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 01:30 LanÃºs x Melgar (hd10)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://sportzonline.ps/channels/hd/hd10.php
+#EXTINF:-1 group-title="Mercoledì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 01:30 LanÃºs x Melgar (br6)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://sportzonline.ps/channels/bra/br6.php
+#EXTINF:-1 group-title="Mercoledì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 03:00 LDU Quito x Deportivo TÃ¡chira (hd5)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://sportzonline.ps/channels/hd/hd5.php
+#EXTINF:-1 group-title="Mercoledì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 03:00 LDU Quito x Deportivo TÃ¡chira (hd11)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://sportzonline.ps/channels/hd/hd11.php
+#EXTINF:-1 group-title="Mercoledì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 03:00 NBA: Denver Nuggets @ Sacramento Kings (hd2)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://sportzonline.ps/channels/hd/hd2.php
+#EXTINF:-1 group-title="Mercoledì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 03:30 Pumas UNAM x Vancouver Whitecaps (hd1)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://sportzonline.ps/channels/hd/hd1.php
+#EXTINF:-1 group-title="Mercoledì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 03:30 Pumas UNAM x Vancouver Whitecaps (hd8)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://sportzonline.ps/channels/hd/hd8.php
+#EXTINF:-1 group-title="Mercoledì" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", 03:30 NBA: Houston Rockets @ LA Clippers (sporttv1)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://sportzonline.ps/channels/pt/sporttv1.php
