@@ -37,3 +37,4 @@ jobs:
           git add daddy.m3u8
           git commit -m "Aggiornamento automatico daddy.m3u8" || echo "Nessun cambiamento da committare"
           git push
+        continue-on-error: true
