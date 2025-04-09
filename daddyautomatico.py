@@ -1,11 +1,5 @@
 import requests
 import os
-from github import Github
-
-# Usa il token dall'ambiente (GitHub Actions)
-GITHUB_TOKEN = os.environ.get("ACTIONS_TOKEN")  # Prende il token da secrets.ACTIONS_TOKEN
-REPO_NAME = "simud/simud"  # Repository specificato
-FILE_PATH = "daddy.m3u8"   # Percorso nel repository
 
 # URL della playlist originale
 url = "https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/main/daddylive-channels.m3u8"
@@ -13,6 +7,9 @@ url = "https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/main/daddyliv
 # URL delle immagini
 image1 = "https://i.postimg.cc/Ss88rXcm/photo-2025-03-12-12-23-14.png"
 image2 = "https://i.postimg.cc/NFGs2Ptq/photo-2025-03-12-12-36-48.png"
+
+# Percorso del file nel repository
+FILE_PATH = "daddy.m3u8"
 
 # Ottieni il contenuto del file m3u8
 headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
@@ -56,19 +53,10 @@ while i < len(lines):
 # Contenuto del file
 content = '\n'.join(output_lines)
 
-# Carica su GitHub
+# Salva il file localmente
 if found_italy:
-    if not GITHUB_TOKEN:
-        print("Errore: ACTIONS_TOKEN non trovato nell'ambiente")
-        exit(1)
-    g = Github(GITHUB_TOKEN)
-    repo = g.get_repo(REPO_NAME)
-    try:
-        file = repo.get_contents(FILE_PATH)
-        repo.update_file(FILE_PATH, "Aggiornamento daddy.m3u8", content, file.sha)
-        print(f"File {FILE_PATH} aggiornato con successo su GitHub")
-    except:
-        repo.create_file(FILE_PATH, "Creazione daddy.m3u8", content)
-        print(f"File {FILE_PATH} creato con successo su GitHub")
+    with open(FILE_PATH, 'w', encoding='utf-8') as f:
+        f.write(content)
+    print(f"File {FILE_PATH} creato/aggiornato localmente con successo")
 else:
     print("Nessun canale del gruppo ITALY trovato nella playlist.")
