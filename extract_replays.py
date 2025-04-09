@@ -1,13 +1,16 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
 import re
 import os
-import time  # Aggiunto l'import di time
+import time
 from urllib.parse import urljoin
 
-# URL di esempio
-match_url = "https://www.fullreplays.com/italy/serie-a/bologna-vs-napoli-7-apr-2025/"  # Sostituisci con un URL valido
+# URL di esempio - Sostituisci con un URL valido
+match_url = "https://www.fullreplays.com/italy/serie-a/inter-vs-milan-1-mar-2025/"  # Usa un URL reale
 
 # Configura Selenium
 options = Options()
@@ -19,7 +22,7 @@ driver = webdriver.Chrome(options=options)
 def extract_streams_and_image(url):
     try:
         driver.get(url)
-        time.sleep(5)  # Attendi il caricamento completo (incluso eventuale CAPTCHA)
+        time.sleep(5)  # Attendi il caricamento iniziale
         soup = BeautifulSoup(driver.page_source, "html.parser")
         
         # Estrai il titolo della partita
@@ -29,20 +32,54 @@ def extract_streams_and_image(url):
         image_tag = soup.find("img", {"class": "entry-thumb"}) or soup.find("img")
         image_url = urljoin(url, image_tag["src"]) if image_tag and "src" in image_tag.attrs else None
         
-        # Cerca i flussi video
+        # Cerca pulsanti con testo specifico
+        buttons = driver.find_elements(By.XPATH, "//*[contains(text(), 'Okru') or contains(text(), 'smoothpre') or contains(text(), 'cybervynx') or contains(text(), 'Download') or contains(text(), 'Full Match')]")
         streams = []
-        for script in soup.find_all("script"):
-            script_content = script.string
-            if script_content:
-                video_urls = re.findall(r'(https?://[^\s\'"]+\.(mp4|m3u8|mpd))', script_content)
-                streams.extend([url[0] for url in video_urls])
         
-        if not streams:
-            for link in soup.find_all("a", href=True):
-                href = link["href"]
-                if href.endswith((".mp4", ".m3u8", ".mpd")):
-                    streams.append(urljoin(url, href))
+        for button in buttons:
+            try:
+                print(f"Tentativo di clic su: {button.text}")
+                button.click()
+                time.sleep(3)  # Attendi il caricamento del player
+                
+                # Aggiorna il sorgente della pagina dopo il clic
+                soup = BeautifulSoup(driver.page_source, "html.parser")
+                
+                # Cerca flussi nei tag <script>
+                for script in soup.find_all("script"):
+                    script_content = script.string
+                    if script_content:
+                        video_urls = re.findall(r'(https?://[^\s\'"]+\.(mp4|m3u8|mpd))', script_content)
+                        streams.extend([url[0] for url in video_urls])
+                
+                # Cerca flussi nei link
+                for link in soup.find_all("a", href=True):
+                    href = link["href"]
+                    if href.endswith((".mp4", ".m3u8", ".mpd")):
+                        streams.append(urljoin(url, href))
+                
+                # Cerca iframe e relativi flussi
+                iframes = soup.find_all("iframe")
+                for iframe in iframes:
+                    iframe_src = iframe.get("src")
+                    if iframe_src and any(ext in iframe_src for ext in [".mp4", ".m3u8", ".mpd"]):
+                        streams.append(urljoin(url, iframe_src))
+                    elif iframe_src:
+                        # Visita l'iframe per cercare flussi
+                        driver.get(urljoin(url, iframe_src))
+                        time.sleep(2)
+                        iframe_soup = BeautifulSoup(driver.page_source, "html.parser")
+                        for script in iframe_soup.find_all("script"):
+                            if script.string:
+                                video_urls = re.findall(r'(https?://[^\s\'"]+\.(mp4|m3u8|mpd))', script.string)
+                                streams.extend([url[0] for url in video_urls])
+                        driver.back()  # Torna alla pagina principale
+                
+            except Exception as e:
+                print(f"Errore durante il clic su {button.text}: {e}")
         
+        # Rimuovi duplicati
+        streams = list(set(streams))
         return event_name, streams, image_url
     
     except Exception as e:
