@@ -1,11 +1,11 @@
 import requests
 import os
-from github import Github  # Richiede 'pygithub' (`pip install pygithub`)
+from github import Github
 
-# Configurazione GitHub
-GITHUB_TOKEN = "YOUR_PERSONAL_ACCESS_TOKEN"  # Sostituisci con il tuo token
-REPO_NAME = "username/repository"  # Sostituisci con username/nome-repo
-FILE_PATH = "daddy.m3u8"  # Percorso nel repository
+# Usa il token dall'ambiente (GitHub Actions)
+GITHUB_TOKEN = os.environ.get("ACTIONS_TOKEN")  # Prende il token da secrets.ACTIONS_TOKEN
+REPO_NAME = "simud/simud"  # Repository specificato
+FILE_PATH = "daddy.m3u8"   # Percorso nel repository
 
 # URL della playlist originale
 url = "https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/main/daddylive-channels.m3u8"
@@ -58,15 +58,16 @@ content = '\n'.join(output_lines)
 
 # Carica su GitHub
 if found_italy:
+    if not GITHUB_TOKEN:
+        print("Errore: ACTIONS_TOKEN non trovato nell'ambiente")
+        exit(1)
     g = Github(GITHUB_TOKEN)
     repo = g.get_repo(REPO_NAME)
     try:
-        # Prova ad aggiornare il file esistente
         file = repo.get_contents(FILE_PATH)
         repo.update_file(FILE_PATH, "Aggiornamento daddy.m3u8", content, file.sha)
         print(f"File {FILE_PATH} aggiornato con successo su GitHub")
     except:
-        # Se il file non esiste, crealo
         repo.create_file(FILE_PATH, "Creazione daddy.m3u8", content)
         print(f"File {FILE_PATH} creato con successo su GitHub")
 else:
