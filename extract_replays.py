@@ -14,7 +14,7 @@ match_url = "https://www.fullreplays.com/italy/serie-a/inter-vs-milan-1-mar-2025
 
 # Configura Selenium
 options = Options()
-options.add_argument("--headless")  # Esegui senza interfaccia grafica
+options.add_argument("--headless")
 options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36")
 driver = webdriver.Chrome(options=options)
 
@@ -22,8 +22,11 @@ driver = webdriver.Chrome(options=options)
 def extract_streams_and_image(url):
     try:
         driver.get(url)
+        print(f"Pagina caricata: {url}")
         time.sleep(5)  # Attendi il caricamento iniziale
+        
         soup = BeautifulSoup(driver.page_source, "html.parser")
+        print(f"Contenuto iniziale (prime 500 righe): {driver.page_source[:500]}")  # Debug
         
         # Estrai il titolo della partita
         event_name = soup.find("h1").get_text(strip=True) if soup.find("h1") else "Unnamed Event"
@@ -33,16 +36,22 @@ def extract_streams_and_image(url):
         image_url = urljoin(url, image_tag["src"]) if image_tag and "src" in image_tag.attrs else None
         
         # Cerca pulsanti con testo specifico
+        wait = WebDriverWait(driver, 10)
         buttons = driver.find_elements(By.XPATH, "//*[contains(text(), 'Okru') or contains(text(), 'smoothpre') or contains(text(), 'cybervynx') or contains(text(), 'Download') or contains(text(), 'Full Match')]")
         streams = []
         
         for button in buttons:
             try:
-                print(f"Tentativo di clic su: {button.text}")
+                button_text = button.text.strip()
+                print(f"Trovato pulsante: '{button_text}'")
+                # Scorri fino al pulsante e attendi che sia cliccabile
+                driver.execute_script("arguments[0].scrollIntoView(true);", button)
+                wait.until(EC.element_to_be_clickable(button))
                 button.click()
+                print(f"Cliccato pulsante: '{button_text}'")
                 time.sleep(3)  # Attendi il caricamento del player
                 
-                # Aggiorna il sorgente della pagina dopo il clic
+                # Aggiorna il sorgente della pagina
                 soup = BeautifulSoup(driver.page_source, "html.parser")
                 
                 # Cerca flussi nei tag <script>
@@ -58,14 +67,13 @@ def extract_streams_and_image(url):
                     if href.endswith((".mp4", ".m3u8", ".mpd")):
                         streams.append(urljoin(url, href))
                 
-                # Cerca iframe e relativi flussi
+                # Cerca iframe
                 iframes = soup.find_all("iframe")
                 for iframe in iframes:
                     iframe_src = iframe.get("src")
                     if iframe_src and any(ext in iframe_src for ext in [".mp4", ".m3u8", ".mpd"]):
                         streams.append(urljoin(url, iframe_src))
                     elif iframe_src:
-                        # Visita l'iframe per cercare flussi
                         driver.get(urljoin(url, iframe_src))
                         time.sleep(2)
                         iframe_soup = BeautifulSoup(driver.page_source, "html.parser")
@@ -73,17 +81,17 @@ def extract_streams_and_image(url):
                             if script.string:
                                 video_urls = re.findall(r'(https?://[^\s\'"]+\.(mp4|m3u8|mpd))', script.string)
                                 streams.extend([url[0] for url in video_urls])
-                        driver.back()  # Torna alla pagina principale
+                        driver.back()
                 
             except Exception as e:
-                print(f"Errore durante il clic su {button.text}: {e}")
+                print(f"Errore durante il clic su '{button_text}': {e}")
         
         # Rimuovi duplicati
         streams = list(set(streams))
         return event_name, streams, image_url
     
     except Exception as e:
-        print(f"Errore: {e}")
+        print(f"Errore generale: {e}")
         return None, None, None
     finally:
         driver.quit()
