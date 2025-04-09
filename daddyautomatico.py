@@ -11,7 +11,7 @@ image2 = "https://i.postimg.cc/NFGs2Ptq/photo-2025-03-12-12-36-48.png"
 # Percorso del file nel repository
 FILE_PATH = "daddy.m3u8"
 
-# Ottieni il contenuto del file m3u8
+# Ottieni il contenuto# Ottieni il contenuto del file m3u8
 headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
 response = requests.get(url, headers=headers)
 lines = response.text.splitlines()
