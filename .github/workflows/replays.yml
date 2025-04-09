@@ -27,7 +27,7 @@ jobs:
           # Installa Chrome e ChromeDriver
           sudo apt-get update
           sudo apt-get install -y google-chrome-stable
-          wget https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/129.0.6668.58/linux64/chromedriver-linux64.zip
+          wget https://storage.googleapis.com/chrome-for-testing-public/134.0.6998.165/linux64/chromedriver-linux64.zip
           unzip chromedriver-linux64.zip
           sudo mv chromedriver-linux64/chromedriver /usr/local/bin/
           sudo chmod +x /usr/local/bin/chromedriver
