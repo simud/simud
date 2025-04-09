@@ -3,6 +3,7 @@ from selenium.webdriver.chrome.options import Options
 from bs4 import BeautifulSoup
 import re
 import os
+import time  # Aggiunto l'import di time
 from urllib.parse import urljoin
 
 # URL di esempio
