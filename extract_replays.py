@@ -9,8 +9,8 @@ import os
 import time
 from urllib.parse import urljoin
 
-# URL di esempio - Sostituisci con un URL valido
-match_url = "https://www.fullreplays.com/italy/serie-a/inter-vs-milan-1-mar-2025/"  # Usa un URL reale
+# URL reale - Sostituisci con uno valido
+match_url = "https://www.fullreplays.com/italy/serie-a/inter-vs-milan-1-mar-2025/"  # Aggiorna questo
 
 # Configura Selenium
 options = Options()
@@ -23,10 +23,10 @@ def extract_streams_and_image(url):
     try:
         driver.get(url)
         print(f"Pagina caricata: {url}")
-        time.sleep(5)  # Attendi il caricamento iniziale
+        time.sleep(5)  # Attendi il caricamento
         
         soup = BeautifulSoup(driver.page_source, "html.parser")
-        print(f"Contenuto iniziale (prime 500 righe): {driver.page_source[:500]}")  # Debug
+        print(f"Contenuto iniziale (prime 500 righe): {driver.page_source[:500]}")
         
         # Estrai il titolo della partita
         event_name = soup.find("h1").get_text(strip=True) if soup.find("h1") else "Unnamed Event"
@@ -35,20 +35,23 @@ def extract_streams_and_image(url):
         image_tag = soup.find("img", {"class": "entry-thumb"}) or soup.find("img")
         image_url = urljoin(url, image_tag["src"]) if image_tag and "src" in image_tag.attrs else None
         
-        # Cerca pulsanti con testo specifico
+        # Cerca pulsanti con un XPath più specifico
         wait = WebDriverWait(driver, 10)
-        buttons = driver.find_elements(By.XPATH, "//*[contains(text(), 'Okru') or contains(text(), 'smoothpre') or contains(text(), 'cybervynx') or contains(text(), 'Download') or contains(text(), 'Full Match')]")
+        buttons = driver.find_elements(By.XPATH, "//button | //a | //div[contains(@class, 'button') or contains(@class, 'play') or contains(text(), 'Okru') or contains(text(), 'smoothpre') or contains(text(), 'cybervynx') or contains(text(), 'Download') or contains(text(), 'Full Match')]")
         streams = []
         
         for button in buttons:
             try:
                 button_text = button.text.strip()
-                print(f"Trovato pulsante: '{button_text}'")
-                # Scorri fino al pulsante e attendi che sia cliccabile
+                button_tag = button.tag_name
+                button_class = button.get_attribute("class")
+                print(f"Trovato elemento: tag={button_tag}, testo='{button_text}', classe='{button_class}'")
+                
+                # Scorri fino all'elemento e attendi che sia cliccabile
                 driver.execute_script("arguments[0].scrollIntoView(true);", button)
                 wait.until(EC.element_to_be_clickable(button))
                 button.click()
-                print(f"Cliccato pulsante: '{button_text}'")
+                print(f"Cliccato: '{button_text}'")
                 time.sleep(3)  # Attendi il caricamento del player
                 
                 # Aggiorna il sorgente della pagina
@@ -86,7 +89,6 @@ def extract_streams_and_image(url):
             except Exception as e:
                 print(f"Errore durante il clic su '{button_text}': {e}")
         
-        # Rimuovi duplicati
         streams = list(set(streams))
         return event_name, streams, image_url
     
