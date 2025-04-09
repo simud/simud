@@ -33,10 +33,34 @@ https://ddy6new.newkso.ru/ddy6/premium882/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
 https://stream-ss.b-cdn.net/hls/Canale5.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Bari   PalermoSerie B   33° GiornataVenerdì 11 Aprile ore 20:30
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://stream-ss.b-cdn.net//hls/Canale13.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Bodo/Glimt   LazioEuropa League   Andata quarti di FinaleGiovedì 10 Aprile ore 18:45
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://stream-ss.b-cdn.net/hls/Canale7.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Celje   FiorentinaConference League   Andata quarti di FinaleGiovedì 10 Aprile ore 21:00
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://stream-ss.b-cdn.net/hls/Canale9.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Diretta Gol Europa e Conference LeagueEuropa e Conference League   Andata quarti di FinaleGiovedì 10 Aprile ore 18:45
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://stream-ss.b-cdn.net/hls/Canale6.m3u8
 #EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Formula 1Diretta sempre attiva
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
 https://stream-ss.b-cdn.net/hls/Canale2Perma.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Legia Varsavia   ChelseaConference League   Andata quarti di FinaleGiovedì 10 Aprile ore 18:45
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://stream-ss.b-cdn.net/hls/Canale8.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Lione   Manchester UnitedEuropa League   Andata quarti di FinaleGiovedì 10 Aprile ore 21:00
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://stream-ss.b-cdn.net/hls/Canale10.m3u8
 #EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Moto GPDiretta sempre attiva
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
@@ -49,6 +73,10 @@ https://stream-ss.b-cdn.net/hls/Canale4Perma.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
 https://stream-ss.b-cdn.net/hls/Canale4.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Rangers   AthleticEuropa League   Andata quarti di FinaleGiovedì 10 Aprile ore 21:00
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://stream-ss.b-cdn.net/hls/Canale12.m3u8
 #EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Sport 24Diretta sempre attiva
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
@@ -57,18 +85,26 @@ https://stream-ss.b-cdn.net/hls/Canale1Perma.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
 https://stream-ss.b-cdn.net/hls/Canale5Perma.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Tottenham   EintrachtEuropa League   Andata quarti di FinaleGiovedì 10 Aprile ore 21:00
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://stream-ss.b-cdn.net/hls/Canale11.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Udinese   MilanSerie A   32° GiornataVenerdì 11 Aprile ore 20:45
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://stream-ss.b-cdn.net//hls/Canale14.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Eventi", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/hjvtqD6B/photo-2025-03-20-16-36-52.png" group-title="Kings League", therealmarzaa
 #EXTVLCOPT:http-referrer=https://www.twitch.tv/therealmarzaa
 #EXTVLCOPT:http-origin=https://www.twitch.tv/therealmarzaa
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://usw21-0.playlist.ttvnw.net/v1/playlist/CusE9UZKH1ZdVtdLomvoxXNYxbA_1M3YxIXqLK8RzPJ7TfxdMdU5lWpy8kOm3-L0O5FukLDFzD2gL42qNgMm9Db0FZY_BojEiFYrfwUg5BrzLB8UJh6pBJHohEm5SaELGHPqrMz9y_SG8n8ULUJMJSyCngslt4SP9IoKgUpgf0ts1CTyeXgY3D7U0VF-TtzsEu77Iwxp4RkOiP9bSiUAstjI15mY2T2vcETTBiBqWpysdSusHGxQd1_EEQmX4BYJGyUWocmDgO4Oo1mSWMUSPT-b-2zhaYptHVjnUUkfo4Zq0zB1Ccx0kyTV8kd4GswEqUv3wcghuPDDDKtqtpuRlOfhZT8hHcyL12Nn6_GYSrzmsBBXis3VuErqus6IQZkftA0qtVZm_Cb8t3UN-ZSAIUsrOiqJhIhY47aC-GqSD99B8-3MAPB5wg-3Hn927kHVUk4YL6eWXRe1c0Gg7Po5EHVd6TI6NSSij3S2whpEC8s09r3EnDmJD738dR7C1m6ZrEnufdAFTmZKAQlQs8UqUi3CbuR-q-9kGvGSAXLMotC9wa1l3djtixRZEqmq3OCh63VRronQJZuRW2ekkReBmKHq0f0jUdXixyM-aVRFhm-rVTzCwemvhCzDR15rQm8xuY3blHLN2YtQvclpKkc-hY6WF78a2EY-OHqLGqpMpaRz0v2bOK7pydr8tXhaSFhi50Ah2p0ekfylrznOhLVEIiCCbmMaUGMKuQkLp6OqTt7iUAKs8DOSev2yYVFLGTfjtPhgxgWpTGTj743rI5zfe44iEkTL_6hMyT0iSyMxBAY6IMb6-lO1TWsGF-hsFxoMRdyujPM5vvnDuakIIAEqCXVzLWVhc3QtMjD-Cw.m3u8
+https://usw21-0.playlist.ttvnw.net/v1/playlist/CukERnLZNiD8O2NAoMZB8ajwXjfnhHzbnFXbS0kZJdURG98LLc54obr-qsscl9LDCVyNzVeJXjFAXzhJw819yICzmKBX0C3h9A0Ukn6mSRJUkDutA64Ar265BjsSaA2AqHW6K3tXBbLPnvHuZ4_0lH9eYAGCbuJiijP1psraC-1sI2YC4ZVjZJHwEuyyT9rQGL_q5x6lDFu8v8k1ujT-wgmnKq8-mvRa3iksmR_H6ImloGEn5GVcvC-vdYmWuBby_aL4EKuQT4rF2k0MLBOQ5Y0BnblBTDBdc4Lu7b4Rocb7Wirki9PeJVwR1fkKGOHtfGxyZQwa-xMkP74aSn5gbdGwEeqGaf7AM_EJ5WdarXZK5jUk0a0O8Wa5LjdZCxx4_UcTbC8uOkoSFxWkQK0Yw-45Z5zmTDp4ph-FrkhEjp6hrPqG8adhPqnxAdeFF5Y8ge7FuBGGdGsX4-jvprr1hlEfqsxWHkH6aFFMCyykV8rcew0_H4iCMUGJDsE0TZbvoFqYcHehaZv6l4D7CZXDi7ZcoXB-8xFYYmj6f9x8X63lhreZpOoSdLfsPxi82Zyyi08Inu3LAxR_Mc32Q1zEhEg8SY4y--aBA6mnvz9aZG1f-2zHkeR_eBJ3rVGHE74a7ravOnW38TaGkTGDkdTATMkV8veOQUxu1anEvfpScKHEjEYoeB-0zJrg8XoLGgjN3dNxj-QzlbgKQ7AkARzVnHqu4QxuciuANJ_USDfQ1fBp49ywc5lYrRAD5154WOOGMbobtYd8Veplnk3Sij9N9j3O22zFtiEAw0ZoppwXVv009-6mumFGETsF9e0aDPVOiUCVnPX8Zy1oliABKgl1cy13ZXN0LTIwgAw.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/hjvtqD6B/photo-2025-03-20-16-36-52.png" group-title="Kings League", grenbaud
 #EXTVLCOPT:http-referrer=https://www.twitch.tv/grenbaud
 #EXTVLCOPT:http-origin=https://www.twitch.tv/grenbaud
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://use12-0.playlist.ttvnw.net/v1/playlist/Ct0Erl0byC5V-ajLqvaT2nWLuxTxfSe3ZbJTrgiRyVi_Ys3jjk4jhVRMRu3QULogusr20etZyFbrp5FLY73T1lS5GZQsunMYu0WE0yZ-l2XQ_wDbUHAF17_7iI8rniuLx-7-WOMi0Ou7imTC-21b-Yrr8P0iUU6Nxf7dqY_694xCXC2Qd_0E6MILXYXdkQIB9UtW5bSbKDQuycuexxq_G-mwqcf8Xke1KQJ13zYFMLZ7GXJABZRuEiPqg9w4ydnT9v9bKJk9E4LjKMMYD5SChG5-jLBIVKJTCg51O90nNr0cQXogFwi8Cs4eAJqAqZDIeJMao50q58XPqNjFMwgW4aNlVCqP-oBECMbYiBZL670Xz6F7uEN8rJCgz6Y2j-mdrjj3HaO-bclMN8hELgJvdi_rLHcUMKNga0zsdIHJeefgkrQyaKYc2YkTMO5BFJ0iVtAwmc72BT8t166wm02Vc_gY2WDseVNjSIbmSRRk4fGJbQp_PhKs5e8vnVh4doUzQBiqks50ZG9OegjDfgrFFFO7uWr8HCgts74MqaRdj-Xv0hFBERN37SMA10WPerRrSL9C71i7xgD3vB8FV2esDTfAqG8BydkPjCAMYTEQuEK6ynSqEQwoxQYHqmBA3uHskdJ4K80Ew2NMBlRB-OlG6pT3FXJxGUUq3KmtQQ-Qv35Go3SdsJ2pxliofT7YlGe_yZkf5uG8IwpqrbtPbHoQF73Orp72pVQv6_EZYJQAhQCa6LTGlUrwKNvQPLcUcAW3xRk_U8KE7kT3FePmuzIWoy7arheBRqAkjXl1pB9FEDsaDIjxsKPm-aUzrXbgHyABKgl1cy1lYXN0LTIw_gs.m3u8
+https://use11-0.playlist.ttvnw.net/v1/playlist/CtwEsRJk3Gfz5Tj_xrlpRuYcWeepoNBc9eKLj4gF2WurdNmZTsaLex_MDFkJLoRy0BxrUyUujFpNwEwIWmJ74jPgV1krsSljAYBF7zWegmOBWw6Kqu1ZEhQG0gMyGNk4Bta1DK_HQWx8PgcFRsyyeXU3qaZVhhlDZdBelaxCbc9spUxHpopDPaiTC0AHcn79BEEoZMleJ3MXTNfnjAuH3L15bGgZuCBkhq0yQ13P5EnZIqxR75Zsbf_cOM2E0--FGgf7BmceuLbEnQx6Jf4qox7C2D_NsjKie6ItC3UkQCGgcWQSbEhae6HHHIMS3-GXILGyRj-5nMIu9fmUDlbofL3vjVDpuE1oPe2wDCHOXwfH3c9qFNcYNhsUu5CPEHMRgp7lPla82a_JnmClC2ws6Cl8jldpl3oD38T-YSW3V63NMujiB0H-ukeYXj-N2AvvofA1mp3v3dJo2GKUgkXVFrxPG8JGdOZT0ZQZipfyebBvDxXBMiBSk4vtDUTRhFwMDkDf0_Uddsb7xP4Nj7ywRjBlma6SXRsHSXFMyXhyDiQji5_Xisoz9AoAuhFtIDkdqsj7kHPw9q2tfrdkHmcljlkRcyBO4FOCqO6SkKkDcGQgyNrHcfs3Dv5RBPza6_j3CQnrFhBfZ6Y02Re_Kj7S36D9VxpdHI8dZhrKYk7iSr_y9XbTm7Wj9VGmsujhCnDTS1f2xg7ZqAJHi8JAtuy4NXd9SghwmYV16DvFbyOX5t2Eyf1phlGPlEOT_RaYjBQkI2BtLTGgeOC5qfdDQwD8TrNibvTSMHuXo1Q2fVmtOxoM_h89bYqGqtjQYFdvIAEqCXVzLXdlc3QtMjCADA.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Kings League", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 #EXTM3U  url-tvg="http://www.epgitalia.tv/gzip,http://epg-guide.com/it.gz,https://raw.github.com/matthuisman/i.mjh.nz/master/PlutoTV/us.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/PlutoTV/it.xml.gz,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-events-epg.xml,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-channels-epg.xml,https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/it.xml.gz"
