@@ -1,4 +1,59 @@
 #EXTM3U url-tvg="http://www.epgitalia.tv/gzip,http://epg-guide.com/it.gz,https://raw.github.com/matthuisman/i.mjh.nz/master/PlutoTV/us.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/PlutoTV/it.xml.gz,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-events-epg.xml,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-channels-epg.xml,https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/it.xml.gz"
+#EXTINF:-1 tvg-id="UEFA Europa League - Bodø / Glimt vs Lazio" tvg-name="17:45 UEFA Europa League : Bodø / Glimt vs Lazio - 10/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio",17:45 UEFA Europa League : Bodø / Glimt vs Lazio - 10/04/25 (Sky Sport 252 IT)
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://nfsnew.newkso.ru/nfs/premium5/mono.m3u8
+#EXTINF:-1 tvg-id="UEFA Europa League - Bodø / Glimt vs Lazio" tvg-name="17:45 UEFA Europa League : Bodø / Glimt vs Lazio - 10/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio",17:45 UEFA Europa League : Bodø / Glimt vs Lazio - 10/04/25 (Sky Sport Uno IT)
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ddy6new.newkso.ru/ddy6/premium461/mono.m3u8
+#EXTINF:-1 tvg-id="UEFA Conference League - Legia Warszawa vs Chelsea" tvg-name="17:45 UEFA Conference League : Legia Warszawa vs Chelsea - 10/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio",17:45 UEFA Conference League : Legia Warszawa vs Chelsea - 10/04/25 (Sky Sport 253 IT)
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://nfsnew.newkso.ru/nfs/premium12/mono.m3u8
+#EXTINF:-1 tvg-id="UEFA Conference League - Legia Warszawa vs Chelsea" tvg-name="17:45 UEFA Conference League : Legia Warszawa vs Chelsea - 10/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio",17:45 UEFA Conference League : Legia Warszawa vs Chelsea - 10/04/25 (Sky Sport Calcio IT)
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://windnew.newkso.ru/wind/premium870/mono.m3u8
+#EXTINF:-1 tvg-id="UEFA Europa League - Tottenham Hotspur vs Eintracht Frankfurt" tvg-name="20:00 UEFA Europa League : Tottenham Hotspur vs Eintracht Frankfurt - 10/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio",20:00 UEFA Europa League : Tottenham Hotspur vs Eintracht Frankfurt - 10/04/25 (Sky Sport 254 IT)
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://nfsnew.newkso.ru/nfs/premium20/mono.m3u8
+#EXTINF:-1 tvg-id="UEFA Europa League - Rangers vs Athletic Club" tvg-name="20:00 UEFA Europa League : Rangers vs Athletic Club - 10/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio",20:00 UEFA Europa League : Rangers vs Athletic Club - 10/04/25 (Sky Sport 255 IT)
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://nfsnew.newkso.ru/nfs/premium23/mono.m3u8
+#EXTINF:-1 tvg-id="UEFA Europa League - Olympique Lyonnais vs Manchester United" tvg-name="20:00 UEFA Europa League : Olympique Lyonnais vs Manchester United - 10/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio",20:00 UEFA Europa League : Olympique Lyonnais vs Manchester United - 10/04/25 (Sky Sport 253 IT)
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://nfsnew.newkso.ru/nfs/premium12/mono.m3u8
+#EXTINF:-1 tvg-id="UEFA Europa League - Olympique Lyonnais vs Manchester United" tvg-name="20:00 UEFA Europa League : Olympique Lyonnais vs Manchester United - 10/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio",20:00 UEFA Europa League : Olympique Lyonnais vs Manchester United - 10/04/25 (Sky Sport Calcio IT)
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://windnew.newkso.ru/wind/premium870/mono.m3u8
+#EXTINF:-1 tvg-id="UEFA Conference League - Celje vs Fiorentina" tvg-name="20:00 UEFA Conference League : Celje vs Fiorentina - 10/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio",20:00 UEFA Conference League : Celje vs Fiorentina - 10/04/25 (Sky Sport 252 IT)
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://nfsnew.newkso.ru/nfs/premium5/mono.m3u8
+#EXTINF:-1 tvg-id="UEFA Conference League - Celje vs Fiorentina" tvg-name="20:00 UEFA Conference League : Celje vs Fiorentina - 10/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio",20:00 UEFA Conference League : Celje vs Fiorentina - 10/04/25 (Sky Sport Uno IT)
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ddy6new.newkso.ru/ddy6/premium461/mono.m3u8
+#EXTINF:-1 tvg-id="Euroleague - Olimpia Milano vs. Baskonia Vitoria-Gasteiz" tvg-name="19:30 Euroleague : Olimpia Milano vs. Baskonia Vitoria-Gasteiz - 10/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Pallacanestro",19:30 Euroleague : Olimpia Milano vs. Baskonia Vitoria-Gasteiz - 10/04/25 (Sky Sport 257 IT)
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://windnew.newkso.ru/wind/premium161/mono.m3u8
 #EXTINF:-1 tvg-id="Italy - Serie C - Pescara vs Arezzo" tvg-name="17:00 Italy - Serie C : Pescara vs Arezzo - 09/04/25" tvg-logo="https://raw.githubusercontent.com/cribbiox/eventi/refs/heads/main/ddsport.png" group-title="Calcio",17:00 Italy - Serie C : Pescara vs Arezzo - 09/04/25 (Sky Sport 252 IT)
 #EXTVLCOPT:http-origin=https://webxzplay.cfd
 #EXTVLCOPT:http-referrer=https://webxzplay.cfd/
@@ -99,7 +154,7 @@ https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-c
 #EXTVLCOPT:http-referrer=https://www.twitch.tv/grenbaud
 #EXTVLCOPT:http-origin=https://www.twitch.tv/grenbaud
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://use21-0.playlist.ttvnw.net/v1/playlist/Ct4E8e3v53NFD9dq3KAFNm63Nu4liitNW2l95GYPAq4pQzyTY9ilk1u6ve4IyrHO7GYKM6XTK5nhva_T4ybxPRjnTktzDCSH5kuaRyz6S_dKofDjq5sU5Ni3qKF_3dvas2Dd8CZcOeaKPCbJTwkETq_oJdeBVlmFPOs-Nfh935SaknNBRbKPU6TtMrxDp8bQKHbNCwQ57jent_tQFQ49Mx_pFmf96kxno_yXHgz38N7oeCR9ES_lCGG5XI8i-dcJgmSH-wOu9aEhJyoT76ry1x-NXzo7s4swDe4Ig6hJhLIWreAW_nZBE-GtQwURemlue_ZCbI8TdpHu83gHqR_ejX6hR3hWTE6dTjhzPpvGrdfUa4J4Cn04F1iSqH6XhC4k4TOsd3RKsGnPDzNl-DCob0mZqncDv8AgL0P3se5gBx4xS5qElHBQ4UZXp-atqyB6eXD8kWIJQNU6Qyj2SxSFrPD7V1It4sbTuCeHtlAQbrhcjAN8RM2A6oIhA6X89ywoVZP7nfMesv8GpC1Eur-N3lo6EgVBOnrGb40cQ1IBOMdS5BH3VFQRXh6j-YOwFX_jWPZOPtbLIZ87S_tL9-kKJucO7OIYWZLErIkhloSIsLu0Z8ROusIE3ZvUJjy6Lur-c_01aBb3pU1GTHC-8fPxk-UqMMQLV4rTvxjywbFv8hybjJ1NBlJfqX8BXswgJnGNgY_99baETus2X6UReXj6j8aL-ffHlE-YOmFtI6x1YfBA-IXel2jL5dauczcCs_-JTbdyMtKKhUXWPPMESf03gcsN3OWFNogMWr0FQMgpblaLGgwoNG0PcEtkt9NxTEQgASoJdXMtZWFzdC0yMP8L.m3u8
+https://use23-0.playlist.ttvnw.net/v1/playlist/CtwEYuawqsPpDVcZ78U059v52hw_8cyzAtgTHdD0bcFqjmPjq5vp-3V9zNFy0S-jkTxwxJjPHDoGaqVKpXcgb0nmeD2-PhB5M4F0m6Kp7IAhDQFF-iqI-yFVNUf-6LoOi65Fn8humQ10H901UYlzSPuwElmt3qQ7xV_1jymuVdelSbdB4NR04T35cmxHdzwUXxFCOBfYUJmyDu3j8NbwEJxQA-jwjmfg3B8bSmhugd7busq5gnMTnaOksBAdzDDyC8Y81pNrchuKthPzKgXRI7OIZLygTYdhrXJYAKfVaFHqflMgDoW08o1aGe2zjDLm3kCZLeUFDYxiY6xMjq6LpDzJ352qtpIv-H2qeVbNPAuELm19KKaPGfICR3Ivm7zeO36NFvp4PN35VUdXusjgSZDAC0KZXMw0M0rTYjJLVXmo7GpgHU7QYi1Me5tHsJ7EWDWgje5yqgaCPQ70GHi0-gE500ocv28YsPm2pu-00w5O3Dz6GBAOdly_pz65fv0qKPDpBKYfKJXY1JTOqxkdQG7Y_dIkpqZTBMlsw8AVKF92F41DiL09857vSWjWawDjM-FUtXAz0eHQECb8TrQpHVOun0LISPIYY4hC-h3Nn98rR0bJCtEuflBcKwfd-4VDq1rg2jxLLW1HELUsMQiQu4ldK1xamvAzsnWih3iAumtSK8sXpUVY8QM6esVi6wgpC9ggQWYV_VAhZWjK3TdO7fR1pfh-Zd2JnO4k6eEYLnfcOzRprWdL5OKzvISoEC1c5DR6b3FsXb_NFTcTMAV586wtISHBZFEhT2f7Cwg08BoMXMVKhBWY8Bv0-LwVIAEqCXVzLWVhc3QtMjD_Cw.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Kings League", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 #EXTM3U  url-tvg="http://www.epgitalia.tv/gzip,http://epg-guide.com/it.gz,https://raw.github.com/matthuisman/i.mjh.nz/master/PlutoTV/us.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/PlutoTV/it.xml.gz,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-events-epg.xml,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-channels-epg.xml,https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/it.xml.gz"
