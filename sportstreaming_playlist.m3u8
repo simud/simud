@@ -2,19 +2,19 @@
 #EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Bari   PalermoSerie B   33° GiornataVenerdì 11 Aprile ore 20:30
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
-https://stream-ss.b-cdn.net//hls/Canale13.m3u8
+https://stream-ss001.b-cdn.net//hls/Canale13.m3u8
 #EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Bodo/Glimt   LazioEuropa League   Andata quarti di FinaleGiovedì 10 Aprile ore 18:45
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
-https://stream-ss.b-cdn.net/hls/Canale7.m3u8
+https://stream-ss001.b-cdn.net/hls/Canale7.m3u8
 #EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Celje   FiorentinaConference League   Andata quarti di FinaleGiovedì 10 Aprile ore 21:00
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
-https://stream-ss.b-cdn.net/hls/Canale9.m3u8
+https://stream-ss001.b-cdn.net/hls/Canale9.m3u8
 #EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Diretta Gol Europa e Conference LeagueEuropa e Conference League   Andata quarti di FinaleGiovedì 10 Aprile ore 18:45
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
-https://stream-ss.b-cdn.net/hls/Canale6.m3u8
+https://stream-ss001.b-cdn.net/hls/Canale6.m3u8
 #EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Formula 1Diretta sempre attiva
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
@@ -22,11 +22,11 @@ https://stream-ss.b-cdn.net/hls/Canale2Perma.m3u8
 #EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Legia Varsavia   ChelseaConference League   Andata quarti di FinaleGiovedì 10 Aprile ore 18:45
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
-https://stream-ss.b-cdn.net/hls/Canale8.m3u8
+https://stream-ss001.b-cdn.net/hls/Canale8.m3u8
 #EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Lione   Manchester UnitedEuropa League   Andata quarti di FinaleGiovedì 10 Aprile ore 21:00
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
-https://stream-ss.b-cdn.net/hls/Canale10.m3u8
+https://stream-ss001.b-cdn.net/hls/Canale10.m3u8
 #EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Moto GPDiretta sempre attiva
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
@@ -38,7 +38,7 @@ https://stream-ss.b-cdn.net/hls/Canale4Perma.m3u8
 #EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Rangers   AthleticEuropa League   Andata quarti di FinaleGiovedì 10 Aprile ore 21:00
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
-https://stream-ss.b-cdn.net/hls/Canale12.m3u8
+https://stream-ss001.b-cdn.net/hls/Canale12.m3u8
 #EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Sport 24Diretta sempre attiva
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
@@ -50,11 +50,11 @@ https://stream-ss.b-cdn.net/hls/Canale5Perma.m3u8
 #EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Tottenham   EintrachtEuropa League   Andata quarti di FinaleGiovedì 10 Aprile ore 21:00
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
-https://stream-ss.b-cdn.net/hls/Canale11.m3u8
+https://stream-ss001.b-cdn.net/hls/Canale11.m3u8
 #EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Udinese   MilanSerie A   32° GiornataVenerdì 11 Aprile ore 20:45
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
-https://stream-ss.b-cdn.net//hls/Canale14.m3u8
+https://stream-ss001.b-cdn.net//hls/Canale14.m3u8
 
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Eventi", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
