@@ -8,6 +8,15 @@ url = "https://raw.githubusercontent.com/ciccioxm3/omg/refs/heads/main/channels_
 # Nome del file di output
 output_file = "vavoo.m3u8"
 
+# Lista dei canali Primafila
+primafila_channels = [
+    "Sky Primafila 1", "Sky Primafila 2", "Sky Primafila 3", "Sky Primafila 4",
+    "Sky Primafila 5", "Sky Primafila 6", "Sky Primafila 7", "Sky Primafila 8",
+    "Sky Primafila 9", "Sky Primafila 10", "Sky Primafila 11", "Sky Primafila 12",
+    "Sky Primafila 13", "Sky Primafila 14", "Sky Primafila 15", "Sky Primafila 16",
+    "Sky Primafila 17", "Sky Primafila 18"
+]
+
 try:
     # Scarica il contenuto del file M3U8
     response = requests.get(url)
@@ -22,7 +31,7 @@ try:
         '#EXTVLCOPT:http-user-agent=okhttp/4.11.0\n#EXTVLCOPT:http-origin=https://vavoo.to/\n#EXTVLCOPT:http-referrer=https://vavoo.to/'
     )
     
-    # Processa il file riga per riga per rimuovere "(V)" dai nomi dei canali
+    # Processa il file riga per riga
     lines = content.splitlines()
     modified_lines = []
     
@@ -30,6 +39,26 @@ try:
         if line.startswith('#EXTINF:'):
             # Rimuovi "(V)" dal nome del canale dopo la virgola
             modified_line = re.sub(r',\s*([^,]+)\s*\(V\)\s*$', r',\1', line)
+            
+            # Controlla se il canale è nella lista Primafila
+            channel_name = re.search(r',\s*([^,]+)\s*$', modified_line)
+            if channel_name:
+                channel_name = channel_name.group(1).strip()
+                if channel_name in primafila_channels:
+                    # Sostituisci o aggiungi group-title="Primafila"
+                    if 'group-title="' in modified_line:
+                        modified_line = re.sub(
+                            r'group-title="[^"]*"',
+                            'group-title="Primafila"',
+                            modified_line
+                        )
+                    else:
+                        # Aggiungi group-title se non esiste
+                        modified_line = modified_line.replace(
+                            channel_name,
+                            f'group-title="Primafila",{channel_name}'
+                        )
+            
             modified_lines.append(modified_line)
         else:
             modified_lines.append(line)
