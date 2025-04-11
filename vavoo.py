@@ -8,13 +8,13 @@ url = "https://raw.githubusercontent.com/ciccioxm3/omg/refs/heads/main/channels_
 # Nome del file di output
 output_file = "vavoo.m3u8"
 
-# Lista dei canali Primafila (senza "(V)")
+# Lista dei canali Primafila (formato pulito per il confronto)
 primafila_channels = [
-    "Sky Primafila 1", "Sky Primafila 2", "Sky Primafila 3", "Sky Primafila 4",
-    "Sky Primafila 5", "Sky Primafila 6", "Sky Primafila 7", "Sky Primafila 8",
-    "Sky Primafila 9", "Sky Primafila 10", "Sky Primafila 11", "Sky Primafila 12",
-    "Sky Primafila 13", "Sky Primafila 14", "Sky Primafila 15", "Sky Primafila 16",
-    "Sky Primafila 17", "Sky Primafila 18"
+    "SKY PRIMAFILA 1", "SKY PRIMAFILA 2", "SKY PRIMAFILA 3", "SKY PRIMAFILA 4",
+    "SKY PRIMAFILA 5", "SKY PRIMAFILA 6", "SKY PRIMAFILA 7", "SKY PRIMAFILA 8",
+    "SKY PRIMAFILA 9", "SKY PRIMAFILA 10", "SKY PRIMAFILA 11", "SKY PRIMAFILA 12",
+    "SKY PRIMAFILA 13", "SKY PRIMAFILA 14", "SKY PRIMAFILA 15", "SKY PRIMAFILA 16",
+    "SKY PRIMAFILA 17", "SKY PRIMAFILA 18"
 ]
 
 try:
@@ -44,13 +44,13 @@ try:
                 modified_line = line
                 
                 # Gestisci i canali Primafila con "(V)" davanti
-                primafila_match = re.match(r'\(V\)\s*(Sky Primafila \d{1,2})', channel_name)
+                primafila_match = re.match(r'\(V\)\s*(SKY PRIMAFILA \d{1,2})', channel_name)
                 if primafila_match:
-                    clean_channel_name = primafila_match.group(1)  # Es. "Sky Primafila 1"
+                    clean_channel_name = primafila_match.group(1)  # Es. "SKY PRIMAFILA 1"
                     if clean_channel_name in primafila_channels:
                         # Rimuovi "(V)" e assegna group-title="Primafila"
                         modified_line = re.sub(
-                            r',\s*\(V\)\s*Sky Primafila \d{1,2}\s*$',
+                            r',\s*\(V\)\s*SKY PRIMAFILA \d{1,2}\s*$',
                             f',group-title="Primafila",{clean_channel_name}',
                             line
                         )
