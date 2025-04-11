@@ -1,0 +1,6 @@
+#EXTM3U url-tvg="http://epg-guide.com/it.gz"
+#EXTINF:-1 tvg-id="20 Mediaset" tvg-name="20 Mediaset" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/20-it.png" group-title="MEDIASET",20 Mediaset
+#EXTVLCOPT:http-user-agent=okhttp/4.11.0
+#EXTVLCOPT:http-origin=https://vavoo.to/
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://vavoo.to/play/875922788/index.m3u8
