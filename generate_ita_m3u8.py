@@ -5,7 +5,7 @@ import os
 # URL del file m3u8
 url = "https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/daddylive-events.m3u8"
 
-# URL dell'immagine
+# URL dell'immagine per i canali
 logo_url = "https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png"
 
 # Percorso del file di output
@@ -24,7 +24,7 @@ group_translations = {
     "TENNIS": "Tennis",
     "MOTORSPORT": "Motorsport",
     "RACING": "Corse",
-    "BOXING": "Pugilato",
+    "BOXING": "Pugilujeme",
     "MMA": "Arti Marziali Miste",
     "CRICKET": "Cricket",
     "RUGBY": "Rugby",
@@ -39,6 +39,12 @@ group_translations = {
     "GENERAL": "Generale",
 }
 
+# Canale ADMIN da aggiungere alla fine di ogni gruppo
+admin_channel = [
+    '#EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="{}" ,ADMIN',
+    'https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4'
+]
+
 def download_m3u8(url):
     try:
         response = requests.get(url)
@@ -52,7 +58,8 @@ def translate_group_title(group_title):
     return group_translations.get(group_title.upper(), group_title)
 
 def filter_italian_channels(lines):
-    filtered_lines = ["#EXTM3U"]
+    # Dizionario per raggruppare i canali per group-title
+    groups = {}
     current_channel = []
     channel_name = None
     
@@ -65,24 +72,43 @@ def filter_italian_channels(lines):
                 current_channel.append(line)
         elif line.startswith("http") and current_channel and channel_name:
             if italy_pattern.search(channel_name):
+                # Modifica EXTINF per aggiungere/aggiornare il logo e tradurre il group-title
                 extinf_line = current_channel[0]
                 if 'tvg-logo="' not in extinf_line:
                     extinf_line = extinf_line.replace('tvg-name="', f'tvg-logo="{logo_url}" tvg-name="') if 'tvg-name="' in extinf_line else extinf_line[:-len(channel_name)] + f'tvg-logo="{logo_url}",{channel_name}'
                 else:
                     extinf_line = re.sub(r'tvg-logo="[^"]*"', f'tvg-logo="{logo_url}"', extinf_line)
                 
+                # Traduci il group-title
+                group_title = None
                 if 'group-title="' in extinf_line:
                     current_group = re.search(r'group-title="([^"]*)"', extinf_line)
                     if current_group:
                         group_name = current_group.group(1)
-                        translated_group = translate_group_title(group_name)
-                        extinf_line = re.sub(r'group-title="[^"]*"', f'group-title="{translated_group}"', extinf_line)
+                        group_title = translate_group_title(group_name)
+                        extinf_line = re.sub(r'group-title="[^"]*"', f'group-title="{group_title}"', extinf_line)
                 
-                filtered_lines.append(extinf_line)
-                filtered_lines.extend(current_channel[1:])
-                filtered_lines.append(line)
+                # Aggiungi il canale al gruppo corrispondente
+                if group_title:
+                    if group_title not in groups:
+                        groups[group_title] = []
+                    groups[group_title].extend([extinf_line] + current_channel[1:] + [line])
+                else:
+                    # Se non c'è group-title, usa un gruppo generico
+                    if "Generale" not in groups:
+                        groups["Generale"] = []
+                    groups["Generale"].extend([extinf_line] + current_channel[1:] + [line])
+            
             current_channel = []
             channel_name = None
+    
+    # Costruisci l'output finale aggiungendo il canale ADMIN alla fine di ogni gruppo
+    filtered_lines = ["#EXTM3U"]
+    for group_title in sorted(groups.keys()):
+        filtered_lines.extend(groups[group_title])
+        # Aggiungi il canale ADMIN con il group-title corrente
+        filtered_lines.append(admin_channel[0].format(group_title))
+        filtered_lines.append(admin_channel[1])
     
     return filtered_lines
 
