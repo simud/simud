@@ -11,8 +11,9 @@ logo_url = "https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png"
 # Percorso del file di output
 output_file = "itaevents3.m3u8"
 
-# Pattern per cercare parole legate all'Italia, esclusi "italy", "Italy", "ITALY"
-italy_pattern = re.compile(r'\b(?:IT|Italia|italia|It)\b', re.IGNORECASE)
+# Pattern per cercare parole legate all'Italia
+calcio_pattern = re.compile(r'\b(?:IT|Italia|italia|It)\b', re.IGNORECASE)  # Esclude "italy", "Italy", "ITALY"
+motorsport_pattern = re.compile(r'\b(?:IT|Italia|italia|It|italy|Italy|ITALY)\b', re.IGNORECASE)  # Include tutto
 
 # Dizionario di traduzioni per i group-title
 group_translations = {
@@ -57,25 +58,26 @@ def filter_italian_channels(lines):
             if current_channel:
                 current_channel.append(line)
         elif line.startswith("http") and current_channel and channel_name:
-            if italy_pattern.search(channel_name):
-                # Modifica EXTINF per aggiungere/aggiornare il logo e tradurre il group-title
-                extinf_line = current_channel[0]
-                if 'tvg-logo="' not in extinf_line:
-                    extinf_line = extinf_line.replace('tvg-name="', f'tvg-logo="{logo_url}" tvg-name="') if 'tvg-name="' in extinf_line else extinf_line[:-len(channel_name)] + f'tvg-logo="{logo_url}",{channel_name}'
-                else:
-                    extinf_line = re.sub(r'tvg-logo="[^"]*"', f'tvg-logo="{logo_url}"', extinf_line)
-                
-                # Traduci il group-title
-                group_title = None
-                if 'group-title="' in extinf_line:
-                    current_group = re.search(r'group-title="([^"]*)"', extinf_line)
-                    if current_group:
-                        group_name = current_group.group(1)
-                        group_title = translate_group_title(group_name)
-                        extinf_line = re.sub(r'group-title="[^"]*"', f'group-title="{group_title}"', extinf_line)
-                
-                # Aggiungi il canale al gruppo corrispondente solo se è un gruppo consentito
-                if group_title in allowed_groups:
+            # Modifica EXTINF per aggiungere/aggiornare il logo e tradurre il group-title
+            extinf_line = current_channel[0]
+            if 'tvg-logo="' not in extinf_line:
+                extinf_line = extinf_line.replace('tvg-name="', f'tvg-logo="{logo_url}" tvg-name="') if 'tvg-name="' in extinf_line else extinf_line[:-len(channel_name)] + f'tvg-logo="{logo_url}",{channel_name}'
+            else:
+                extinf_line = re.sub(r'tvg-logo="[^"]*"', f'tvg-logo="{logo_url}"', extinf_line)
+            
+            # Traduci il group-title
+            group_title = None
+            if 'group-title="' in extinf_line:
+                current_group = re.search(r'group-title="([^"]*)"', extinf_line)
+                if current_group:
+                    group_name = current_group.group(1)
+                    group_title = translate_group_title(group_name)
+                    extinf_line = re.sub(r'group-title="[^"]*"', f'group-title="{group_title}"', extinf_line)
+            
+            # Applica il filtro corretto in base al gruppo
+            if group_title in allowed_groups:
+                pattern = calcio_pattern if group_title == "Calcio" else motorsport_pattern
+                if pattern.search(channel_name):
                     if group_title not in groups:
                         groups[group_title] = []
                     groups[group_title].extend([extinf_line] + current_channel[1:] + [line])
