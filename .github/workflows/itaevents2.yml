@@ -27,7 +27,7 @@ jobs:
 
       - name: Run M3U8 updater
         run: |
-          python modify_m3u82.py
+          python generate_ita_m3u8.py
 
       - name: Commit and push updated M3U8 file
         run: |
