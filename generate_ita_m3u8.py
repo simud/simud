@@ -11,8 +11,8 @@ logo_url = "https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png"
 # Percorso del file di output
 output_file = "itaevents3.m3u8"
 
-# Pattern per cercare parole legate all'Italia
-italy_pattern = re.compile(r'\b(?:IT|ITALY|ITALIA|italia|italy|It|Italy|Italia)\b', re.IGNORECASE)
+# Pattern per cercare parole legate all'Italia, esclusi "italy", "Italy", "ITALY"
+italy_pattern = re.compile(r'\b(?:IT|Italia|italia|It)\b', re.IGNORECASE)
 
 # Dizionario di traduzioni per i group-title
 group_translations = {
