@@ -1,4 +1,3 @@
-
 import requests
 import re
 import os
@@ -6,8 +5,9 @@ import os
 # URL del file m3u8
 url = "https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/daddylive-events.m3u8"
 
-# URL dell'immagine per i canali
-logo_url = "https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png"
+# URL dei loghi
+calcio_logo_url = "https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png"
+motogp_f1_logo_url = "https://i.postimg.cc/zfFSy4vM/Picsart-25-04-12-19-57-12-622.png"
 
 # Percorso del file di output
 output_file = "itaevents3.m3u8"
@@ -61,10 +61,6 @@ def filter_italian_channels(lines):
         elif line.startswith("http") and current_channel and channel_name:
             # Modifica EXTINF per aggiungere/aggiornare il logo e tradurre il group-title
             extinf_line = current_channel[0]
-            if 'tvg-logo="' not in extinf_line:
-                extinf_line = extinf_line.replace('tvg-name="', f'tvg-logo="{logo_url}" tvg-name="') if 'tvg-name="' in extinf_line else extinf_line[:-len(channel_name)] + f'tvg-logo="{logo_url}",{channel_name}'
-            else:
-                extinf_line = re.sub(r'tvg-logo="[^"]*"', f'tvg-logo="{logo_url}"', extinf_line)
             
             # Traduci il group-title
             group_title = None
@@ -75,10 +71,17 @@ def filter_italian_channels(lines):
                     group_title = translate_group_title(group_name)
                     extinf_line = re.sub(r'group-title="[^"]*"', f'group-title="{group_title}"', extinf_line)
             
-            # Applica il filtro corretto in base al gruppo
+            # Applica il filtro corretto e il logo in base al gruppo
             if group_title in allowed_groups:
                 pattern = calcio_pattern if group_title == "Calcio" else motogp_f1_pattern
                 if pattern.search(channel_name):
+                    # Scegli il logo corretto
+                    logo = calcio_logo_url if group_title == "Calcio" else motogp_f1_logo_url
+                    if 'tvg-logo="' not in extinf_line:
+                        extinf_line = extinf_line.replace('tvg-name="', f'tvg-logo="{logo}" tvg-name="') if 'tvg-name="' in extinf_line else extinf_line[:-len(channel_name)] + f'tvg-logo="{logo}",{channel_name}'
+                    else:
+                        extinf_line = re.sub(r'tvg-logo="[^"]*"', f'tvg-logo="{logo}"', extinf_line)
+                    
                     if group_title not in groups:
                         groups[group_title] = []
                     groups[group_title].extend([extinf_line] + current_channel[1:] + [line])
