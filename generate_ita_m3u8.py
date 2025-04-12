@@ -1,3 +1,4 @@
+
 import requests
 import re
 import os
@@ -13,18 +14,18 @@ output_file = "itaevents3.m3u8"
 
 # Pattern per cercare parole legate all'Italia
 calcio_pattern = re.compile(r'\b(?:IT|Italia|italia|It)\b', re.IGNORECASE)  # Esclude "italy", "Italy", "ITALY"
-motorsport_pattern = re.compile(r'\b(?:IT|Italia|italia|It|italy|Italy|ITALY)\b', re.IGNORECASE)  # Include tutto
+motogp_f1_pattern = re.compile(r'\b(?:IT|Italia|italia|It|italy|Italy|ITALY)\b', re.IGNORECASE)  # Include tutto
 
 # Dizionario di traduzioni per i group-title
 group_translations = {
     "SOCCER": "Calcio",
     "FOOTBALL": "Calcio",
-    "MOTORSPORT": "Motorsport",
-    "RACING": "Motorsport",
+    "MOTORSPORT": "MotoGP e Formula 1",
+    "RACING": "MotoGP e Formula 1",
 }
 
 # Gruppi consentiti
-allowed_groups = {"Calcio", "Motorsport"}
+allowed_groups = {"Calcio", "MotoGP e Formula 1"}
 
 # Canale ADMIN da aggiungere alla fine di ogni gruppo
 admin_channel = [
@@ -76,7 +77,7 @@ def filter_italian_channels(lines):
             
             # Applica il filtro corretto in base al gruppo
             if group_title in allowed_groups:
-                pattern = calcio_pattern if group_title == "Calcio" else motorsport_pattern
+                pattern = calcio_pattern if group_title == "Calcio" else motogp_f1_pattern
                 if pattern.search(channel_name):
                     if group_title not in groups:
                         groups[group_title] = []
