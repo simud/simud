@@ -183,34 +183,14 @@ https://nfsnew.newkso.ru/nfs/premium577/mono.m3u8
 https://nfsnew.newkso.ru/nfs/premium575/mono.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="MotoGP e Formula 1",ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Atalanta   BolognaSerie A   32° GiornataDomenica 13 Aprile ore 12:30
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
-https://stream-ss001.b-cdn.net/hls/Canale11.m3u8
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Cesena   FrosinoneSerie B   33° GiornataDomenica 13 Aprile ore 15:00
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
-https://stream-ss001.b-cdn.net/hls/Canale15.m3u8
 #EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Como   TorinoSerie A   32° GiornataDomenica 13 Aprile ore 18:00
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
 https://stream-ss001.b-cdn.net/hls/Canale18.m3u8
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Cremonese   Juve StabiaSerie B   33° GiornataDomenica 13 Aprile ore 15:00
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
-https://stream-ss001.b-cdn.net/hls/Canale16.m3u8
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Fiorentina   ParmaSerie A   32 ° GiornataDomenica 13 Aprile ore 15:00
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
-https://stream-ss001.b-cdn.net/hls/Canale13.m3u8
 #EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Formula 1Diretta sempre attiva
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
 https://stream-ss.b-cdn.net/hls/Canale2Perma.m3u8
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Hellas Verona   GenoaSerie A   32° GiornataDomenica 13 Aprile ore 15:00
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
-https://stream-ss001.b-cdn.net/hls/Canale14.m3u8
 #EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Lazio   RomaSerie A   32° GiornataDomenica 13 Aprile ore 20:45
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
@@ -235,22 +215,18 @@ https://stream-ss.b-cdn.net/hls/Canale1Perma.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
 https://stream-ss.b-cdn.net/hls/Canale5Perma.m3u8
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", ZONA SERIE ASerie A   32° GiornataDomenica 13 Aprile ore 15:00
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
-https://stream-ss001.b-cdn.net/hls/Canale12.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Eventi", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/hjvtqD6B/photo-2025-03-20-16-36-52.png" group-title="Kings League", kingsleague
 #EXTVLCOPT:http-referrer=https://www.twitch.tv/kingsleague
 #EXTVLCOPT:http-origin=https://www.twitch.tv/kingsleague
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://use22-0.playlist.ttvnw.net/v1/playlist/CuoETzs1LhWXxzJXTTyGK2pfylSP9WqGZ2PLyoXEFiQS5TxT8nJQwgtQsgDTSA0h2U7WHTtpD3xpaxVGnu9nPVvh0WZjPQl34NX2iVXoz7VS1XeaCXpsN5OS6HnvGP4g8Q4DntxASi454ELNPBcIrox2sYADwedEpMzS0BtXWzXHO0Z0ptLmgsOBkBxYJ2qSHTRentrU6YjDf_jxAqRKNm0lgKml-QDwDntm7yWK8Ap7vgFeazt4UUPhVT-yYAznEK535VWDQ_UEmcRt-0__5Y4X827xZn6FnBZE-00MKWfzwe5XjHbrIzB33jZsQ6jKYG5kmH4A6OaNMdYmsCIlQrgEes9KS9c8yR4eS7GMKlb2Nbbm5X4bdjZ7miR9jBoq_nZ3TvT0j7B72XmqcCY2BqxallmjGLC8-33_KfhvUIBSTpuBOg1yRCCBRNgdRf6VoK9usH1GDKPsayEcrInPfUE4KQevjDTACwu3sh3FZxSRUCNLeyGhATmy0kxVSWdGnGJJ9sFMXaGqWQw4Uc840tnpgnBDooAmkoHdIEDA31mjc5ViqKqlgXYBezpgQ8L8C0wEPLAVKiFfV7pPWRQVwqQcv2FYeBSfQbwh0vKQmIlGQno5s-mHNJUmip70zfCQeJ2tagOgtr6LpUkCmDUdIEwVhV94bqQOs9cHF98VmPnnW8WsxFvlrHUUA_e_7gsj-7il6weyzecjqlnCCT9nblFP5NLb_ry-7rnbzM_tCllWOCZpMCjcUy6YsoSYZ8qs7obmvtzU0PnvEDBbNAtQRYJo8O98us7HvZ6F06qNKScCf1HaGYX9A8tSnDtnGgzFS5X_KH69t8_krbEgASoJdXMtZWFzdC0yMIIM.m3u8
+https://use12-0.playlist.ttvnw.net/v1/playlist/CusEShNVFf3HIhE6etjyEkjGjD3fgnKeRWE9pw0UwFvWx1OiZFk1Ij-wdxld9ZeTJIj3xLIccPkUjykJ1-RcAwqj3-NrifTceQMEv_VIsUvjznf2EfLnBQVJt4GzSlKgLUFo0ZRB_5dZtFuSLir7IBWbHaAOkY51FF8DFhUAxz8mFBNHuDefASpUauQ6Gey02mFTW0WDMjLIM93oh7W1wCdbtcglZVe17qEtF_oxtA2rSP1FaMn1xAGXa4UBlulv5PQg0zBdVQLZ9QhkgyNPeuLNxt10sjJk1ZDyzxEaNFWRpM2S2xDNUWkpG9fMd-PsbFxjPlRlLlqwnPK3QYGHTxnKxsmVAYcAebzIR3_y4LwoPcSg9GoETvfy4HrC4RY-OyVJhqH92WZzFr5A5cU66bwldKtTMYwZyT3_H0H6XPT0ikI3n2txM-4LalCBKp75kcGq9nTKEllJhqHHgrer2jMb4_M8SeNrj5az2k1Zf67kwux4e2ZR_pWY9Ky8Gz7IfO46S5FYO5oblizhefx2xtWrb1OExn-cMVpCk8n2pa2n_Sbk0ZX9aMflGw0Blc6kJDzl-JebBXp7QVDmyjLNt1JBIFOKPUqU5J37J8CzOhYm8HVK99SThtEfDktFuVsYKJX_60kJ98cQ2fSQDVy8uGmDeOKJrHRU7FhUKkQencLzTWXEEBJLtfYZrisVk2iasXdvhAZYF8hoJDM4oCAahVu4Vst9YkpmfLklQsUxuEjY1vLXNC5TvpWg8S7m9UTYFguL2lMI0irDvESVbm_ziV--XDG10iT1NM7ID-fnhD4R86J-GVqNznZ2Btje6RoMCjZDIxDUWcncHY6MIAEqCXVzLWVhc3QtMjCCDA.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/hjvtqD6B/photo-2025-03-20-16-36-52.png" group-title="Kings League", freneh
 #EXTVLCOPT:http-referrer=https://www.twitch.tv/freneh
 #EXTVLCOPT:http-origin=https://www.twitch.tv/freneh
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://use12-0.playlist.ttvnw.net/v1/playlist/CtQEJh-z5vRBQpOW2SOcNe8W7mbr_R3YGsHQj76Cq6WZXvKdFq91pqIL8cM-nMI3S8JF_XBBnNwPxciyNCycGDsifE2ochXqswyUE6hqkAbNGv1uQWfUykI6udrjTsemHYtvAVGoTbUeAKRuIxa_isJ6CVbF0MYSa_1Ffshm3V6gu8cAsXM8gjrSQ4hAmVXzZMaLrNecLxWKRL4_kR9GzWD88wViRGOf-st7LMShqcFqV-7NLWN3U_W9CbdmvBePyoY73xv2vjP4QKh0oyBDaeInlR-ADtJ9QljJI9H3S88VuQvUbT87xiPtIfrUToPnrcJoNfnE8eMcv-Hoz0gELRFOjWT9JTtQoh2TMIaXr0zYsjrKvW8txabN_NEmFM7S3IYeFSnahYJCDQde3TLQ4V9hLubwOydo288CH_P4W9MVg2ffUgoAldh_ZNeDpnLVGA_kgdir5uwLLaClU-V89HLh6TcNIT3eXzE1oy1rrKLM-gBarpxWHOMWHfFFuf_jUZTBi763oImmytXKnUZqgfN7UoVqwh5GDj9S2K6Fw6id847uDNfsykrPuSmgrR6fzL-bQ0wWXaPyO4Yo7KGZgnblNW2eNi8B2nQqVPgH-z4GhmE9PnUKMGSOORkKcburiQ4PXKJGx424KnWteIZKEeYwfxK9hJJsipF4NX0NCbTeD5EY4W89NS-hS5EVGPDs4BomWxRVrA84IU5tL83SC60Sgs9neccsw0_1gRGxj4gSmdD287Jq11XX0diE5YiIXdtMVljNqAXTqJQO9Gl8ksrkNIX4CPQaDG9vHTwMQSLccGyrCiABKgl1cy1lYXN0LTIwggw.m3u8
+https://use23-0.playlist.ttvnw.net/v1/playlist/CtQEKLxwN5gWj30cVMJgk7JNRyHXCG7bdYEqScfSUagWtGWoe_oBi86FxbPJSwPTh3wW0JuO-rQMhiRZLw73mHin7nRlfeFVypXv70Zkqit-rXKpKbpJo71_LYzbeBoI5m78gIzTikhCQH3HphbmZp4YlKkj6kR8f9t088YXRWiJHCuYXnv-zmS7-lXjD0mKBJ3fxoM15tlHXt2OJeEK6HuUgAAEHVgX5dsHvlsVJwKEVjeFeG3rXwEwZkB8Re90lhX8FnRiP9ziJllbUyJl04QUOnOipetFtWKOxJE5XbTpfOTH5NdecIxWK_EzczaUTJZnokvnYWpHarWQQyXuslQ4HQO4LvgWmhlQyfgQA2E37uW0PVDodl9A730LPfkNiZwgOq3bZJ1677fhEBlJJv4ctjwVjR4zJzJy2WmGsXWTV5DZbPRrYOo4DpsKHivsJtQX9OqS0omg4qYZoFvVbThtjZW6aSyd2fgZAcrVV960YZVCqLJXyDL2pP-2U7ovmywo8R9cgkmpTkM-_FgrdzCQDlV_GaGiw5jh75adTemtlUCm1tIBZrp6yJxNegmZUz06iCdzpVt23ORzD1lVXVPrh0zfKd8MfdVzUz-Yj0qD-9v6laEnDIpLkml32A6bzOHyndshyaCZ6bOXUw0ODRbQ20cmZF7_AKYXkWr3YDzktxNToHneALrkGAXfcPyah2-E-guq23Cp8PYpRdranel4jIhAMnYuZjjwYx2nh7MIKCEkYNnBTNe7-zgS9W3gm8Jn3-DSB3O2RhLqo3hm8K-37QbDof0aDCviV1AwIrhtaIU9IiABKgl1cy1lYXN0LTIwggw.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Kings League", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 #EXTM3U  url-tvg="http://www.epgitalia.tv/gzip,http://epg-guide.com/it.gz,https://raw.github.com/matthuisman/i.mjh.nz/master/PlutoTV/us.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/PlutoTV/it.xml.gz,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-events-epg.xml,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-channels-epg.xml,https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/it.xml.gz"
