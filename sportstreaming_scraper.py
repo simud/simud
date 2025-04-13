@@ -11,7 +11,7 @@ headers = {
     "Referer": "https://www.sportstreaming.net/"
 }
 
-# Immagine fissa da usare per tutti i canali
+# Immagine fissa da usare per tutti i canali se non viene trovata una personalizzata
 DEFAULT_IMAGE_URL = "https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png"
 
 # Canale ADMIN da aggiungere alla fine
@@ -40,7 +40,7 @@ def find_event_pages():
         print(f"Errore durante la ricerca delle pagine evento: {e}")
         return []
 
-# Funzione per estrarre il flusso video e la descrizione dalla pagina evento
+# Funzione per estrarre il flusso video, descrizione e immagine dalla pagina evento
 def get_video_stream_and_description(event_url):
     try:
         response = requests.get(event_url, headers=headers)
@@ -90,13 +90,24 @@ def get_video_stream_and_description(event_url):
                     channel_name = description.get_text(strip=True).split('\n')[0].strip()
                     channel_name = re.sub(r'[-_]+', ' ', channel_name)
 
-        return stream_url, element, channel_name
+        # Cerca immagine evento
+        image_url = DEFAULT_IMAGE_URL
+        possible_images = soup.find_all('img')
+        for img in possible_images:
+            img_src = img.get('src')
+            if img_src and re.search(r'\.(jpg|jpeg|png|webp)$', img_src, re.IGNORECASE):
+                if not img_src.startswith("http"):
+                    img_src = base_url + img_src.lstrip("/")
+                image_url = img_src
+                break
+
+        return stream_url, element, channel_name, image_url
 
     except requests.RequestException as e:
         print(f"Errore durante l'accesso a {event_url}: {e}")
-        return None, None, "Unknown Channel"
+        return None, None, "Unknown Channel", DEFAULT_IMAGE_URL
 
-# Funzione per aggiornare il file M3U8 con i nomi estratti dalla descrizione
+# Funzione per aggiornare il file M3U8 con i nomi e immagini degli eventi
 def update_m3u_file(video_streams, m3u_file="sportstreaming_playlist.m3u8"):
     REPO_PATH = os.getenv('GITHUB_WORKSPACE', '.')
     file_path = os.path.join(REPO_PATH, m3u_file)
@@ -105,25 +116,23 @@ def update_m3u_file(video_streams, m3u_file="sportstreaming_playlist.m3u8"):
         f.write("#EXTM3U\n")
         
         groups = {}
-        for event_url, stream_url, element, channel_name in video_streams:
+        for event_url, stream_url, element, channel_name, image_url in video_streams:
             if not stream_url:
                 continue
             group = "Eventi"
-            
             if group not in groups:
                 groups[group] = []
-            groups[group].append((channel_name, stream_url))
+            groups[group].append((channel_name, stream_url, image_url))
 
         for group, channels in groups.items():
             channels.sort(key=lambda x: x[0].lower())
-            for channel_name, link in channels:
-                f.write(f"#EXTINF:-1 group-title=\"{group}\" tvg-logo=\"{DEFAULT_IMAGE_URL}\", {channel_name}\n")
+            for channel_name, link, image_url in channels:
+                f.write(f"#EXTINF:-1 group-title=\"{group}\" tvg-logo=\"{image_url}\", {channel_name}\n")
                 f.write(f"#EXTVLCOPT:http-user-agent={headers['User-Agent']}\n")
                 f.write(f"#EXTVLCOPT:http-referrer={headers['Referer']}\n")
                 f.write(f"{link}\n")
         
-        # Aggiungi il canale ADMIN alla fine
-        f.write("\n")  # Riga vuota per separazione
+        f.write("\n")
         f.write(ADMIN_CHANNEL)
 
     print(f"File M3U8 aggiornato con successo: {file_path}")
@@ -137,9 +146,9 @@ if __name__ == "__main__":
         video_streams = []
         for event_url in event_pages:
             print(f"Analizzo: {event_url}")
-            stream_url, element, channel_name = get_video_stream_and_description(event_url)
+            stream_url, element, channel_name, image_url = get_video_stream_and_description(event_url)
             if stream_url:
-                video_streams.append((event_url, stream_url, element, channel_name))
+                video_streams.append((event_url, stream_url, element, channel_name, image_url))
             else:
                 print(f"Nessun flusso trovato per {event_url}")
 
