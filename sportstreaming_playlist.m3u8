@@ -1,57 +1,57 @@
 #EXTM3U
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://www.sportstreaming.net/assets/img/live/standard/live2.png", Atalanta Bolognaserie A 32° Giornatadomenica 13 Aprile Ore 12:30
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://www.sportstreaming.net/assets/img/icon/live.png", Atalanta   BolognaSerie A   32° GiornataDomenica 13 Aprile ore 12:30
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
 https://stream-ss001.b-cdn.net/hls/Canale11.m3u8
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://www.sportstreaming.net/assets/img/live/standard/live1.png", Cesena Frosinoneserie B 33° Giornatadomenica 13 Aprile Ore 15:00
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://www.sportstreaming.net/assets/img/icon/live.png", Cesena   FrosinoneSerie B   33° GiornataDomenica 13 Aprile ore 15:00
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
 https://stream-ss001.b-cdn.net/hls/Canale15.m3u8
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://www.sportstreaming.net/assets/img/live/standard/live1.png", Como Torinoserie A 32° Giornatadomenica 13 Aprile Ore 18:00
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://www.sportstreaming.net/assets/img/icon/live.png", Como   TorinoSerie A   32° GiornataDomenica 13 Aprile ore 18:00
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
 https://stream-ss001.b-cdn.net/hls/Canale18.m3u8
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://www.sportstreaming.net/assets/img/live/standard/live1.png", Cremonese Juve Stabiaserie B 33° Giornatadomenica 13 Aprile Ore 15:00
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://www.sportstreaming.net/assets/img/icon/live.png", Cremonese   Juve StabiaSerie B   33° GiornataDomenica 13 Aprile ore 15:00
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
 https://stream-ss001.b-cdn.net/hls/Canale16.m3u8
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://www.sportstreaming.net/assets/img/live/standard/live1.png", Fiorentina Parmaserie A 32 ° Giornatadomenica 13 Aprile Ore 15:00
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://www.sportstreaming.net/assets/img/icon/live.png", Fiorentina   ParmaSerie A   32 ° GiornataDomenica 13 Aprile ore 15:00
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
 https://stream-ss001.b-cdn.net/hls/Canale13.m3u8
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://www.sportstreaming.net/assets/img/live/standard/live1.png", Formula 1Diretta Sempre Attiva
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://www.sportstreaming.net/assets/img/icon/live.png", Formula 1Diretta sempre attiva
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
 https://stream-ss.b-cdn.net/hls/Canale2Perma.m3u8
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://www.sportstreaming.net/assets/img/live/standard/live1.png", Hellas Verona Genoaserie A 32° Giornatadomenica 13 Aprile Ore 15:00
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://www.sportstreaming.net/assets/img/icon/live.png", Hellas Verona   GenoaSerie A   32° GiornataDomenica 13 Aprile ore 15:00
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
 https://stream-ss001.b-cdn.net/hls/Canale14.m3u8
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://www.sportstreaming.net/assets/img/live/standard/live1.png", Lazio Romaserie A 32° Giornatadomenica 13 Aprile Ore 20:45
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://www.sportstreaming.net/assets/img/icon/live.png", Lazio   RomaSerie A   32° GiornataDomenica 13 Aprile ore 20:45
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
 https://stream-ss001.b-cdn.net/hls/Canale19.m3u8
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://www.sportstreaming.net/assets/img/live/standard/live1.png", Mantova Speziaserie B 33 ° Giornatadomenica 13 Aprile Ore 17:15
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://www.sportstreaming.net/assets/img/icon/live.png", Mantova   SpeziaSerie B   33 ° GiornataDomenica 13 Aprile ore 17:15
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
 https://stream-ss001.b-cdn.net/hls/Canale17.m3u8
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://www.sportstreaming.net/assets/img/live/standard/live1.png", Moto Gpdiretta Sempre Attiva
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://www.sportstreaming.net/assets/img/icon/live.png", Moto GPDiretta sempre attiva
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
 https://stream-ss.b-cdn.net/hls/Canale3Perma.m3u8
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://www.sportstreaming.net/assets/img/live/standard/live1.png", Nbadiretta Sempre Attiva
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://www.sportstreaming.net/assets/img/icon/live.png", NBADiretta sempre attiva
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
 https://stream-ss.b-cdn.net/hls/Canale4Perma.m3u8
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://www.sportstreaming.net/assets/img/live/standard/live1.png", Sport 24Diretta Sempre Attiva
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://www.sportstreaming.net/assets/img/icon/live.png", Sport 24Diretta sempre attiva
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
 https://stream-ss.b-cdn.net/hls/Canale1Perma.m3u8
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://www.sportstreaming.net/assets/img/live/standard/live1.png", Tennisdiretta Sempre Attiva
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://www.sportstreaming.net/assets/img/icon/live.png", TennisDiretta sempre attiva
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
 https://stream-ss.b-cdn.net/hls/Canale5Perma.m3u8
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://www.sportstreaming.net/assets/img/live/standard/live1.png", Zona Serie Aserie A 32° Giornatadomenica 13 Aprile Ore 15:00
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://www.sportstreaming.net/assets/img/icon/live.png", ZONA SERIE ASerie A   32° GiornataDomenica 13 Aprile ore 15:00
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
 https://stream-ss001.b-cdn.net/hls/Canale12.m3u8
