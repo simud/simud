@@ -21,40 +21,21 @@ def find_event_pages():
         response = requests.get(base_url, headers=headers)
         response.raise_for_status()
         soup = BeautifulSoup(response.text, 'html.parser')
+
         event_links = set()
         for a in soup.find_all('a', href=True):
             href = a['href']
             if re.match(r'/live-(perma-)?\d+', href):
-                event_links.add(base_url + href.lstrip('/'))
+                full_url = base_url + href.lstrip('/')
+                event_links.add(full_url)
             elif re.match(r'https://www\.sportstreaming\.net/live-(perma-)?\d+', href):
                 event_links.add(href)
+
         return list(event_links)
+
     except requests.RequestException as e:
         print(f"Errore durante la ricerca delle pagine evento: {e}")
         return []
-
-def extract_event_datetime(text):
-    # Cerca date nel formato italiano: 13 Aprile 2025 - 20:45
-    match = re.search(r'(\d{1,2})\s([A-Za-z]+)\s(\d{4})\s*[-–—]?\s*(\d{1,2}):(\d{2})', text)
-    if match:
-        day, month_text, year, hour, minute = match.groups()
-        months = {
-            "gennaio": 1, "febbraio": 2, "marzo": 3, "aprile": 4, "maggio": 5,
-            "giugno": 6, "luglio": 7, "agosto": 8, "settembre": 9,
-            "ottobre": 10, "novembre": 11, "dicembre": 12
-        }
-        month = months.get(month_text.lower())
-        if month:
-            try:
-                return datetime(int(year), month, int(day), int(hour), int(minute))
-            except ValueError:
-                return None
-    return None
-
-def clean_channel_name(name):
-    name = re.sub(r'[-_]+', ' ', name)
-    name = re.sub(r'\s+', ' ', name).strip()
-    return name.title()
 
 def get_video_stream_and_description(event_url):
     try:
@@ -64,58 +45,55 @@ def get_video_stream_and_description(event_url):
 
         stream_url = None
         element = None
-        for iframe in soup.find_all('iframe'):
-            src = iframe.get('src')
-            if src and ("stream" in src.lower() or re.search(r'\.(m3u8|mp4|ts|html|php)', src, re.IGNORECASE)):
-                stream_url = src
-                element = iframe
-                break
-
-        if not stream_url:
-            for embed in soup.find_all('embed'):
-                src = embed.get('src')
+        for tag in ['iframe', 'embed', 'video']:
+            for el in soup.find_all(tag):
+                src = el.get('src') or (el.find('source').get('src') if el.name == 'video' and el.find('source') else None)
                 if src and ("stream" in src.lower() or re.search(r'\.(m3u8|mp4|ts|html|php)', src, re.IGNORECASE)):
                     stream_url = src
-                    element = embed
+                    element = el
                     break
-
-        if not stream_url:
-            for video in soup.find_all('video'):
-                src = video.get('src')
-                if src and ("stream" in src.lower() or re.search(r'\.(m3u8|mp4|ts)', src, re.IGNORECASE)):
-                    stream_url = src
-                    element = video
-                    break
-                for source in video.find_all('source'):
-                    src = source.get('src')
-                    if src and ("stream" in src.lower() or re.search(r'\.(m3u8|mp4|ts)', src, re.IGNORECASE)):
-                        stream_url = src
-                        element = source
-                        break
-
-        channel_name = "Unknown Channel"
-        event_datetime = None
-        if element:
-            next_el = element.find_next(['p', 'div', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6'])
-            if next_el:
-                text = next_el.get_text(strip=True)
-                event_datetime = extract_event_datetime(text)
-                channel_name = clean_channel_name(text)
-        if channel_name == "Unknown Channel":
-            h = soup.find(['h1', 'h2', 'h3'])
-            if h:
-                channel_name = clean_channel_name(h.get_text(strip=True))
-                if not event_datetime:
-                    event_datetime = extract_event_datetime(channel_name)
-
-        image_url = DEFAULT_IMAGE_URL
-        for img in soup.find_all('img'):
-            img_src = img.get('src')
-            if img_src and re.search(r'\.(jpg|jpeg|png|webp)$', img_src, re.IGNORECASE):
-                if not img_src.startswith("http"):
-                    img_src = base_url + img_src.lstrip("/")
-                image_url = img_src
+            if stream_url:
                 break
+
+        # Titolo
+        channel_name = "Unknown Channel"
+        if element:
+            next_element = element.find_next(['p', 'div', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6'])
+            if next_element and next_element.get_text(strip=True):
+                channel_name = next_element.get_text(strip=True).split('\n')[0].strip()
+        if not channel_name or channel_name == "Unknown Channel":
+            description = soup.find(['p', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6'])
+            if description and description.get_text(strip=True):
+                channel_name = description.get_text(strip=True).split('\n')[0].strip()
+
+        # Pulisci nome
+        channel_name = re.sub(r'[-_]+', ' ', channel_name)
+        channel_name = re.sub(r'\s+', ' ', channel_name).strip().title()
+
+        # Data/ora dell’evento dal titolo (es. 13/04 - 20:45)
+        event_datetime = None
+        match = re.search(r'(\d{1,2}/\d{1,2})[^\d]*(\d{1,2}:\d{2})', channel_name)
+        if match:
+            try:
+                day_month = match.group(1)
+                time = match.group(2)
+                full_str = f"{day_month} {time}"
+                event_datetime = datetime.strptime(full_str, "%d/%m %H:%M")
+                now = datetime.now()
+                event_datetime = event_datetime.replace(year=now.year)
+            except Exception:
+                pass
+
+        # Copertina (immagine vicino al player)
+        image_url = DEFAULT_IMAGE_URL
+        if element:
+            for img in element.find_all_next('img', limit=3):
+                img_src = img.get('src')
+                if img_src and re.search(r'\.(jpg|jpeg|png|webp)$', img_src, re.IGNORECASE):
+                    if not img_src.startswith("http"):
+                        img_src = base_url + img_src.lstrip("/")
+                    image_url = img_src
+                    break
 
         return stream_url, element, channel_name, image_url, event_datetime
 
@@ -130,10 +108,10 @@ def update_m3u_file(video_streams, m3u_file="sportstreaming_playlist.m3u8"):
     with open(file_path, "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
 
-        # Ordina prima per data, poi per nome
-        video_streams.sort(key=lambda x: (x[4] or datetime.max, x[2].lower()))
+        # Ordina per data e nome
+        video_streams.sort(key=lambda x: (x[4] if x[4] else datetime.max, x[2].lower()))
 
-        for event_url, stream_url, element, channel_name, image_url, event_datetime in video_streams:
+        for event_url, stream_url, channel_name, image_url, event_datetime in video_streams:
             if not stream_url:
                 continue
             f.write(f"#EXTINF:-1 group-title=\"Eventi\" tvg-logo=\"{image_url}\", {channel_name}\n")
@@ -156,7 +134,7 @@ if __name__ == "__main__":
             print(f"Analizzo: {event_url}")
             stream_url, element, channel_name, image_url, event_datetime = get_video_stream_and_description(event_url)
             if stream_url:
-                video_streams.append((event_url, stream_url, element, channel_name, image_url, event_datetime))
+                video_streams.append((event_url, stream_url, channel_name, image_url, event_datetime))
             else:
                 print(f"Nessun flusso trovato per {event_url}")
 
