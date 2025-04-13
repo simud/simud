@@ -2,20 +2,23 @@ import requests
 import re
 import os
 from bs4 import BeautifulSoup
-from datetime import datetime
 
+# URL di partenza (homepage o pagina con elenco eventi)
 base_url = "https://www.sportstreaming.net/"
 headers = {
     "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1",
-    "Origin": base_url,
-    "Referer": base_url
+    "Origin": "https://www.sportstreaming.net",
+    "Referer": "https://www.sportstreaming.net/"
 }
 
+# Immagine fissa da usare per tutti i canali
 DEFAULT_IMAGE_URL = "https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png"
 
+# Canale ADMIN da aggiungere alla fine
 ADMIN_CHANNEL = '''#EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Eventi", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4'''
 
+# Funzione per trovare i link alle pagine evento
 def find_event_pages():
     try:
         response = requests.get(base_url, headers=headers)
@@ -37,18 +40,7 @@ def find_event_pages():
         print(f"Errore durante la ricerca delle pagine evento: {e}")
         return []
 
-def extract_event_datetime(soup):
-    text = soup.get_text()
-    match = re.search(r'(\d{1,2}/\d{1,2}/\d{4})\s+(\d{1,2}:\d{2})', text)
-    if match:
-        date_str = match.group(1)
-        time_str = match.group(2)
-        try:
-            return datetime.strptime(f"{date_str} {time_str}", "%d/%m/%Y %H:%M")
-        except ValueError:
-            return None
-    return None
-
+# Funzione per estrarre il flusso video e la descrizione dalla pagina evento
 def get_video_stream_and_description(event_url):
     try:
         response = requests.get(event_url, headers=headers)
@@ -91,51 +83,52 @@ def get_video_stream_and_description(event_url):
             next_element = element.find_next(['p', 'div', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6'])
             if next_element and next_element.get_text(strip=True):
                 channel_name = next_element.get_text(strip=True).split('\n')[0].strip()
+                channel_name = re.sub(r'[-_]+', ' ', channel_name)
             else:
                 description = soup.find(['p', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6'])
                 if description and description.get_text(strip=True):
                     channel_name = description.get_text(strip=True).split('\n')[0].strip()
-        channel_name = re.sub(r'[-_]+', ' ', channel_name)
+                    channel_name = re.sub(r'[-_]+', ' ', channel_name)
 
-        event_datetime = extract_event_datetime(soup)
-
-        image_url = DEFAULT_IMAGE_URL
-        if element:
-            for img in element.find_all_next('img', limit=5):
-                img_src = img.get('src')
-                if img_src and re.search(r'\.(jpg|jpeg|png|webp)$', img_src, re.IGNORECASE):
-                    if not img_src.startswith("http"):
-                        img_src = base_url + img_src.lstrip("/")
-                    if not re.search(r'/live\d+\.png$', img_src):
-                        image_url = img_src
-                        break
-
-        return stream_url, channel_name, image_url, event_datetime
+        return stream_url, element, channel_name
 
     except requests.RequestException as e:
         print(f"Errore durante l'accesso a {event_url}: {e}")
-        return None, "Unknown Channel", DEFAULT_IMAGE_URL, None
+        return None, None, "Unknown Channel"
 
+# Funzione per aggiornare il file M3U8 con i nomi estratti dalla descrizione
 def update_m3u_file(video_streams, m3u_file="sportstreaming_playlist.m3u8"):
     REPO_PATH = os.getenv('GITHUB_WORKSPACE', '.')
     file_path = os.path.join(REPO_PATH, m3u_file)
 
     with open(file_path, "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
+        
+        groups = {}
+        for event_url, stream_url, element, channel_name in video_streams:
+            if not stream_url:
+                continue
+            group = "Eventi"
+            
+            if group not in groups:
+                groups[group] = []
+            groups[group].append((channel_name, stream_url))
 
-        video_streams.sort(key=lambda x: (x[3] or datetime.max, x[1].lower()))
-
-        for stream_url, channel_name, image_url, event_datetime in video_streams:
-            f.write(f"#EXTINF:-1 group-title=\"Eventi\" tvg-logo=\"{image_url}\", {channel_name}\n")
-            f.write(f"#EXTVLCOPT:http-user-agent={headers['User-Agent']}\n")
-            f.write(f"#EXTVLCOPT:http-referrer={headers['Referer']}\n")
-            f.write(f"{stream_url}\n")
-
-        f.write("\n")
+        for group, channels in groups.items():
+            channels.sort(key=lambda x: x[0].lower())
+            for channel_name, link in channels:
+                f.write(f"#EXTINF:-1 group-title=\"{group}\" tvg-logo=\"{DEFAULT_IMAGE_URL}\", {channel_name}\n")
+                f.write(f"#EXTVLCOPT:http-user-agent={headers['User-Agent']}\n")
+                f.write(f"#EXTVLCOPT:http-referrer={headers['Referer']}\n")
+                f.write(f"{link}\n")
+        
+        # Aggiungi il canale ADMIN alla fine
+        f.write("\n")  # Riga vuota per separazione
         f.write(ADMIN_CHANNEL)
 
     print(f"File M3U8 aggiornato con successo: {file_path}")
 
+# Esegui lo script
 if __name__ == "__main__":
     event_pages = find_event_pages()
     if not event_pages:
@@ -144,9 +137,9 @@ if __name__ == "__main__":
         video_streams = []
         for event_url in event_pages:
             print(f"Analizzo: {event_url}")
-            stream_url, channel_name, image_url, event_datetime = get_video_stream_and_description(event_url)
+            stream_url, element, channel_name = get_video_stream_and_description(event_url)
             if stream_url:
-                video_streams.append((stream_url, channel_name, image_url, event_datetime))
+                video_streams.append((event_url, stream_url, element, channel_name))
             else:
                 print(f"Nessun flusso trovato per {event_url}")
 
