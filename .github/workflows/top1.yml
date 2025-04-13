@@ -1,4 +1,4 @@
-name: SkyStreaming Scraper
+name: top1 Scraper
 
 on:
   workflow_dispatch:  # Permette l'esecuzione manuale
