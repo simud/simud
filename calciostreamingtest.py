@@ -36,8 +36,9 @@ def find_event_pages():
                     full_url = href
                 else:
                     continue
-                event_links.add(full_url)  # Set elimina duplicati
-                print(f"Trovato link: {full_url}")
+                if full_url not in event_links:
+                    event_links.add(full_url)
+                    print(f"Trovato link: {full_url}")
 
         return list(event_links)
 
@@ -53,7 +54,7 @@ def extract_stream_from_iframe(iframe_url):
         soup = BeautifulSoup(response.text, 'html.parser')
 
         stream_url = None
-        # Cerca in <video>, <source>, o script
+        # Cerca in <video>, <source>
         for video in soup.find_all('video'):
             src = video.get('src')
             if src and re.search(r'\.(m3u8|mp4|ts)', src, re.IGNORECASE):
@@ -67,6 +68,16 @@ def extract_stream_from_iframe(iframe_url):
                     print(f"Trovato flusso source in iframe: {src}")
                     break
 
+        # Cerca in <iframe> annidati
+        if not stream_url:
+            for iframe in soup.find_all('iframe'):
+                src = iframe.get('src')
+                if src and re.search(r'\.(m3u8|mp4|ts)|stream|player', src, re.IGNORECASE):
+                    stream_url = src
+                    print(f"Trovato flusso iframe annidato: {src}")
+                    break
+
+        # Cerca in script
         if not stream_url:
             for script in soup.find_all('script'):
                 script_content = script.string
@@ -76,6 +87,15 @@ def extract_stream_from_iframe(iframe_url):
                         stream_url = match.group(1)
                         print(f"Trovato flusso in script iframe: {stream_url}")
                         break
+
+        # Cerca attributi data-
+        if not stream_url:
+            for element in soup.find_all(True, {'data-src': True, 'data-url': True}):
+                src = element.get('data-src') or element.get('data-url')
+                if src and re.search(r'\.(m3u8|mp4|ts)', src, re.IGNORECASE):
+                    stream_url = src
+                    print(f"Trovato flusso in attributo data: {src}")
+                    break
 
         return stream_url
 
@@ -142,6 +162,16 @@ def get_video_stream_and_description(event_url):
                         print(f"Trovato flusso in script: {stream_url}")
                         break
 
+        # Cerca attributi data-
+        if not stream_url:
+            for element in soup.find_all(True, {'data-src': True, 'data-url': True}):
+                src = element.get('data-src') or element.get('data-url')
+                if src and re.search(r'\.(m3u8|mp4|ts)', src, re.IGNORECASE):
+                    stream_url = src
+                    element = element
+                    print(f"Trovato flusso in attributo data: {src}")
+                    break
+
         # Estrai il nome del canale
         channel_name = "Unknown Match"
         if element:
@@ -202,6 +232,10 @@ def update_m3u_file(video_streams, m3u_file="guardacalcio_playlist.m3u8"):
         f.write(ADMIN_CHANNEL)
 
     print(f"File M3U8 aggiornato con successo: {file_path}")
+    # Stampa il contenuto del file M3U8
+    with open(file_path, "r", encoding="utf-8") as f:
+        print("Contenuto del file M3U8:")
+        print(f.read())
 
 # Esegui lo script
 if __name__ == "__main__":
