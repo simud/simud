@@ -14,7 +14,7 @@ headers = {
 # Immagine fissa da usare per tutti i canali
 DEFAULT_IMAGE_URL = "https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png"
 
-# Canale ADMIN da aggiungere alla fine
+# Canale ADMIN
 ADMIN_CHANNEL = '''#EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Eventi", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4'''
 
@@ -26,18 +26,18 @@ def find_event_pages():
         soup = BeautifulSoup(response.text, 'html.parser')
 
         event_links = set()
-        # Cerca link che potrebbero portare a pagine di streaming
         for a in soup.find_all('a', href=True):
             href = a['href']
-            # Filtra link che sembrano relativi a streaming o partite
-            if re.search(r'streaming|partita|watch|live', href, re.IGNORECASE):
+            # Filtra link rilevanti per streaming o partite
+            if re.search(r'(streaming|partita|watch|live|diretta)', href, re.IGNORECASE):
                 if href.startswith('/'):
                     full_url = "https://guardacalcio.art" + href
-                elif href.startswith('http'):
+                elif href.startswith('https://guardacalcio.art'):
                     full_url = href
                 else:
                     continue
                 event_links.add(full_url)
+                print(f"Trovato link: {full_url}")
 
         return list(event_links)
 
@@ -45,7 +45,7 @@ def find_event_pages():
         print(f"Errore durante la ricerca delle pagine evento: {e}")
         return []
 
-# Funzione per estrarre il flusso video e la descrizione dalla pagina della partita
+# Funzione per estrarre il flusso video e la descrizione
 def get_video_stream_and_description(event_url):
     try:
         response = requests.get(event_url, headers=headers)
@@ -54,52 +54,71 @@ def get_video_stream_and_description(event_url):
 
         stream_url = None
         element = None
-        # Cerca iframe che potrebbero contenere il flusso video
+        # Cerca iframe
         for iframe in soup.find_all('iframe'):
             src = iframe.get('src')
             if src and re.search(r'\.(m3u8|mp4|ts|html|php)|stream|player', src, re.IGNORECASE):
                 stream_url = src
                 element = iframe
+                print(f"Trovato iframe con src: {src}")
                 break
 
-        # Cerca embed se non trovato in iframe
+        # Cerca embed
         if not stream_url:
             for embed in soup.find_all('embed'):
                 src = embed.get('src')
                 if src and re.search(r'\.(m3u8|mp4|ts|html|php)|stream|player', src, re.IGNORECASE):
                     stream_url = src
                     element = embed
+                    print(f"Trovato embed con src: {src}")
                     break
 
-        # Cerca video tag
+        # Cerca video
         if not stream_url:
             for video in soup.find_all('video'):
                 src = video.get('src')
                 if src and re.search(r'\.(m3u8|mp4|ts)|stream|player', src, re.IGNORECASE):
                     stream_url = src
                     element = video
+                    print(f"Trovato video con src: {src}")
                     break
                 for source in video.find_all('source'):
                     src = source.get('src')
                     if src and re.search(r'\.(m3u8|mp4|ts)|stream|player', src, re.IGNORECASE):
                         stream_url = src
                         element = source
+                        print(f"Trovato source con src: {src}")
                         break
 
-        # Estrai il nome del canale (es. "Inter - Milan")
+        # Cerca in script o data attributes (per flussi dinamici)
+        if not stream_url:
+            for script in soup.find_all('script'):
+                script_content = script.string
+                if script_content and re.search(r'https?://[^\s]*\.(m3u8|mp4|ts)', script_content, re.IGNORECASE):
+                    match = re.search(r'(https?://[^\s]*\.(m3u8|mp4|ts))', script_content, re.IGNORECASE)
+                    if match:
+                        stream_url = match.group(1)
+                        element = script
+                        print(f"Trovato flusso in script: {stream_url}")
+                        break
+
+        # Estrai il nome del canale
         channel_name = "Unknown Match"
         if element:
-            # Cerca il testo vicino all'elemento (es. titolo partita)
             next_element = element.find_previous(['h1', 'h2', 'h3', 'div', 'p'])
             if next_element and next_element.get_text(strip=True):
                 channel_name = next_element.get_text(strip=True).split('\n')[0].strip()
                 channel_name = re.sub(r'[-_]+', ' ', channel_name)
             else:
-                # Fallback: cerca il titolo della pagina
                 title = soup.find('title')
                 if title and title.get_text(strip=True):
                     channel_name = title.get_text(strip=True).split('|')[0].strip()
                     channel_name = re.sub(r'[-_]+', ' ', channel_name)
+        else:
+            title = soup.find('title')
+            if title and title.get_text(strip=True):
+                channel_name = title.get_text(strip=True).split('|')[0].strip()
+                channel_name = re.sub(r'[-_]+', ' ', channel_name)
 
         return stream_url, element, channel_name
 
@@ -133,7 +152,6 @@ def update_m3u_file(video_streams, m3u_file="guardacalcio_playlist.m3u8"):
                 f.write(f"#EXTVLCOPT:http-referrer={headers['Referer']}\n")
                 f.write(f"{link}\n")
         
-        # Aggiungi il canale ADMIN alla fine
         f.write("\n")
         f.write(ADMIN_CHANNEL)
 
