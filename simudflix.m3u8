@@ -259,13 +259,13 @@ https://dokko1new.newkso.ru/dokko1/premium460/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://ddy6new.newkso.ru/ddy6/premium574/mono.m3u8
 
-#EXTINF:-1 channel-id="pluto-63a0e33a45264d000850ed7e" tvg-id="63a0e33a45264d000850ed7e" tvg-logo="https://i.postimg.cc/NfjtMXnP/photo-2025-03-13-12-52-28.png" group-title="Sky Sport", Golazo (SerieA)
+#EXTINF:-1 channel-id="pluto-63a0e33a45264d000850ed7e" tvg-id="63a0e33a45264d000850ed7e" tvg-logo="https://i.postimg.cc/NfjtMXnP/photo-2025-03-13-12-52-28.png" group-title="Sky Sport FHD", Golazo (SerieA)
 http://stitcher.pluto.tv/v1/stitch/embed/hls/channel/63a0e33a45264d000850ed7e/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
 
-#EXTINF:0, tvg-id="rsi la1" tvg-logo="https://i.postimg.cc/HLxdhywy/photo-2025-03-13-12-49-58.png" group-title="Sky Sport", RSI La1
+#EXTINF:0, tvg-id="rsi la1" tvg-logo="https://i.postimg.cc/HLxdhywy/photo-2025-03-13-12-49-58.png" group-title="Sky Sport FHD", RSI La1
 https://viamotionhsi.netplus.ch/live/eds/rsila1hd/browser-dash/rsila1hd.mpd
 
-#EXTINF:0, tvg-id="rsi la2" tvg-logo="https://i.postimg.cc/HLxdhywy/photo-2025-03-13-12-49-58.png" group-title="Sky Sport", RSI La2
+#EXTINF:0, tvg-id="rsi la2" tvg-logo="https://i.postimg.cc/HLxdhywy/photo-2025-03-13-12-49-58.png" group-title="Sky Sport FHD", RSI La2
 https://viamotionhsi.netplus.ch/live/eds/rsila2hd/browser-dash/rsila2hd.mpd
 
 #EXTINF:-1 tvg-id="Sky.Sport..251.it" group-title="Sky Sport FHD" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png",Sky Calcio 1 (251) FHD
