@@ -1,0 +1,448 @@
+#EXTM3U
+
+#EXTINF:-1 tvg-id="Bari" tvg-name="Bari" group-title="Italy HD",Bari
+https://calcionew.newkso.ru/calcio/Bari/mono.m3u8
+
+#EXTINF:-1 tvg-id="Brescia" tvg-name="Brescia" group-title="Italy HD",Brescia
+https://calcionew.newkso.ru/calcio/brescia/mono.m3u8
+
+#EXTINF:-1 tvg-id="Bundesliga" tvg-name="Bundesliga" group-title="Italy HD",Bundesliga
+https://calcionew.newkso.ru/calcio/bundes/mono.m3u8
+
+#EXTINF:-1 tvg-id="Catanzaro" tvg-name="Catanzaro" group-title="Italy HD",Catanzaro
+https://calcionew.newkso.ru/calcio/catan/mono.m3u8
+
+#EXTINF:-1 tvg-id="Cesena" tvg-name="Cesena" group-title="Italy HD",Cesena
+https://calcionew.newkso.ru/calcio/cesena/mono.m3u8
+
+#EXTINF:-1 tvg-id="Comedy Central" tvg-name="Comedy Central" group-title="Italy HD",Comedy Central
+https://calcionew.newkso.ru/calcio/calcioX1comedycentral/mono.m3u8
+
+#EXTINF:-1 tvg-id="Comedy Central" tvg-name="Comedy Central" group-title="Italy HD",Comedy Central
+https://calcionew.newkso.ru/calcio/calcioX2comedycentral/mono.m3u8
+
+#EXTINF:-1 tvg-id="Comedy Central" tvg-name="Comedy Central" group-title="Italy HD",Comedy Central
+https://calcionew.newkso.ru/calcio/calcioXcomedycentral/mono.m3u8
+
+#EXTINF:-1 tvg-id="DAZN 1" tvg-name="DAZN 1" group-title="Italy HD",DAZN 1
+https://calcionew.newkso.ru/calcio/Dazn1/mono.m3u8
+
+#EXTINF:-1 tvg-id="Eurosport 1" tvg-name="Eurosport 1" group-title="Italy HD",Eurosport 1
+https://calcionew.newkso.ru/calcio/calcioX1eurosport1/mono.m3u8
+
+#EXTINF:-1 tvg-id="Eurosport 1" tvg-name="Eurosport 1" group-title="Italy HD",Eurosport 1
+https://calcionew.newkso.ru/calcio/calcioX2eurosport1/mono.m3u8
+
+#EXTINF:-1 tvg-id="Eurosport 1" tvg-name="Eurosport 1" group-title="Italy HD",Eurosport 1
+https://calcionew.newkso.ru/calcio/calcioXeurosport1/mono.m3u8
+
+#EXTINF:-1 tvg-id="Eurosport 2" tvg-name="Eurosport 2" group-title="Italy HD",Eurosport 2
+https://calcionew.newkso.ru/calcio/calcioX1eurosport2/mono.m3u8
+
+#EXTINF:-1 tvg-id="Eurosport 2" tvg-name="Eurosport 2" group-title="Italy HD",Eurosport 2
+https://calcionew.newkso.ru/calcio/calcioX2eurosport2/mono.m3u8
+
+#EXTINF:-1 tvg-id="Eurosport 2" tvg-name="Eurosport 2" group-title="Italy HD",Eurosport 2
+https://calcionew.newkso.ru/calcio/calcioXeurosport2/mono.m3u8
+
+#EXTINF:-1 tvg-id="Formula 1" tvg-name="Formula 1" group-title="Italy HD",Formula 1
+https://calcionew.newkso.ru/calcio/calcioX1formula1/mono.m3u8
+
+#EXTINF:-1 tvg-id="Formula 1" tvg-name="Formula 1" group-title="Italy HD",Formula 1
+https://calcionew.newkso.ru/calcio/calcioX2formula/mono.m3u8
+
+#EXTINF:-1 tvg-id="Formula 1" tvg-name="Formula 1" group-title="Italy HD",Formula 1
+https://calcionew.newkso.ru/calcio/calcioX2formula1/mono.m3u8
+
+#EXTINF:-1 tvg-id="Formula 1" tvg-name="Formula 1" group-title="Italy HD",Formula 1
+https://calcionew.newkso.ru/calcio/calcioXformula1/mono.m3u8
+
+#EXTINF:-1 tvg-id="History" tvg-name="History" group-title="Italy HD",History
+https://calcionew.newkso.ru/calcio/calcioX1history/mono.m3u8
+
+#EXTINF:-1 tvg-id="History" tvg-name="History" group-title="Italy HD",History
+https://calcionew.newkso.ru/calcio/calcioX2history/mono.m3u8
+
+#EXTINF:-1 tvg-id="History" tvg-name="History" group-title="Italy HD",History
+https://calcionew.newkso.ru/calcio/calcioXhistory/mono.m3u8
+
+#EXTINF:-1 tvg-id="Inter" tvg-name="Inter" group-title="Italy HD",Inter
+https://calcionew.newkso.ru/calcio/Inter/mono.m3u8
+
+#EXTINF:-1 tvg-id="Juventus" tvg-name="Juventus" group-title="Italy HD",Juventus
+https://calcionew.newkso.ru/calcio/juve/mono.m3u8
+
+#EXTINF:-1 tvg-id="LaLiga" tvg-name="LaLiga" group-title="Italy HD",LaLiga
+https://calcionew.newkso.ru/calcio/calcioX2laliga/mono.m3u8
+
+#EXTINF:-1 tvg-id="Ligue 1" tvg-name="Ligue 1" group-title="Italy HD",Ligue 1
+https://calcionew.newkso.ru/calcio/ligue1/mono.m3u8
+
+#EXTINF:-1 tvg-id="Milan" tvg-name="Milan" group-title="Italy HD",Milan
+https://calcionew.newkso.ru/calcio/Milan/mono.m3u8
+
+#EXTINF:-1 tvg-id="Pisa" tvg-name="Pisa" group-title="Italy HD",Pisa
+https://calcionew.newkso.ru/calcio/pisa/mono.m3u8
+
+#EXTINF:-1 tvg-id="Porto" tvg-name="Porto" group-title="Italy HD",Porto
+https://calcionew.newkso.ru/calcio/calcioX2porto/mono.m3u8
+
+#EXTINF:-1 tvg-id="Portugal" tvg-name="Portugal" group-title="Italy HD",Portugal
+https://calcionew.newkso.ru/calcio/calcioX2portugal/mono.m3u8
+
+#EXTINF:-1 tvg-id="Rai Sport" tvg-name="Rai Sport" group-title="Italy HD",Rai Sport
+https://calcionew.newkso.ru/calcio/RaiSport/mono.m3u8
+
+#EXTINF:-1 tvg-id="Salernitana" tvg-name="Salernitana" group-title="Italy HD",Salernitana
+https://calcionew.newkso.ru/calcio/saler/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sampdoria" tvg-name="Sampdoria" group-title="Italy HD",Sampdoria
+https://calcionew.newkso.ru/calcio/samp/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sassuolo" tvg-name="Sassuolo" group-title="Italy HD",Sassuolo
+https://calcionew.newkso.ru/calcio/sass/mono.m3u8
+
+#EXTINF:-1 tvg-id="Serie A" tvg-name="Serie A" group-title="Italy HD",Serie A
+https://calcionew.newkso.ru/calcio/calcioX2serie/mono.m3u8
+
+#EXTINF:-1 tvg-id="Serie A 1" tvg-name="Serie A 1" group-title="Italy HD",Serie A 1
+https://calcionew.newkso.ru/calcio/calcioX2serie1/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky 258" tvg-name="Sky 258" group-title="Italy HD",Sky 258
+https://calcionew.newkso.ru/calcio/calcioX1sky258/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky 258" tvg-name="Sky 258" group-title="Italy HD",Sky 258
+https://calcionew.newkso.ru/calcio/calcioX2sky258/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky 258" tvg-name="Sky 258" group-title="Italy HD",Sky 258
+https://calcionew.newkso.ru/calcio/calcioXsky258/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky 259" tvg-name="Sky 259" group-title="Italy HD",Sky 259
+https://calcionew.newkso.ru/calcio/calcioX1sky259/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky 259" tvg-name="Sky 259" group-title="Italy HD",Sky 259
+https://calcionew.newkso.ru/calcio/calcioX2sky259/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky 259" tvg-name="Sky 259" group-title="Italy HD",Sky 259
+https://calcionew.newkso.ru/calcio/calcioXsky259/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Arte" tvg-name="Sky Arte" group-title="Italy HD",Sky Arte
+https://calcionew.newkso.ru/calcio/calcioX2skyarte/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Arte" tvg-name="Sky Arte" group-title="Italy HD",Sky Arte
+https://calcionew.newkso.ru/calcio/calcioXskyarte/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Atlantic" tvg-name="Sky Atlantic" group-title="Italy HD",Sky Atlantic
+https://calcionew.newkso.ru/calcio/calcioX1skyatlantic/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Atlantic" tvg-name="Sky Atlantic" group-title="Italy HD",Sky Atlantic
+https://calcionew.newkso.ru/calcio/calcioX2skyatlantic/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Atlantic" tvg-name="Sky Atlantic" group-title="Italy HD",Sky Atlantic
+https://calcionew.newkso.ru/calcio/calcioXskyatlantic/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Cinema Action" tvg-name="Sky Cinema Action" group-title="Italy HD",Sky Cinema Action
+https://calcionew.newkso.ru/calcio/calcioX1ac/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Cinema Action" tvg-name="Sky Cinema Action" group-title="Italy HD",Sky Cinema Action
+https://calcionew.newkso.ru/calcio/calcioX2ac/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Cinema Action" tvg-name="Sky Cinema Action" group-title="Italy HD",Sky Cinema Action
+https://calcionew.newkso.ru/calcio/calcioXac/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Cinema Collection" tvg-name="Sky Cinema Collection" group-title="Italy HD",Sky Cinema Collection
+https://calcionew.newkso.ru/calcio/calcioX1skycinemacollection/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Cinema Collection" tvg-name="Sky Cinema Collection" group-title="Italy HD",Sky Cinema Collection
+https://calcionew.newkso.ru/calcio/calcioX2skycinemacollection/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Cinema Collection" tvg-name="Sky Cinema Collection" group-title="Italy HD",Sky Cinema Collection
+https://calcionew.newkso.ru/calcio/calcioXskycinemacollection/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Cinema Comedy" tvg-name="Sky Cinema Comedy" group-title="Italy HD",Sky Cinema Comedy
+https://calcionew.newkso.ru/calcio/calcioX1skycinemacomedy/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Cinema Comedy" tvg-name="Sky Cinema Comedy" group-title="Italy HD",Sky Cinema Comedy
+https://calcionew.newkso.ru/calcio/calcioX2skycinemacomedy/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Cinema Comedy" tvg-name="Sky Cinema Comedy" group-title="Italy HD",Sky Cinema Comedy
+https://calcionew.newkso.ru/calcio/calcioXskycinemacomedy/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Cinema Drama" tvg-name="Sky Cinema Drama" group-title="Italy HD",Sky Cinema Drama
+https://calcionew.newkso.ru/calcio/calcioX1skycinemadrama/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Cinema Drama" tvg-name="Sky Cinema Drama" group-title="Italy HD",Sky Cinema Drama
+https://calcionew.newkso.ru/calcio/calcioX2skycinemadrama/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Cinema Drama" tvg-name="Sky Cinema Drama" group-title="Italy HD",Sky Cinema Drama
+https://calcionew.newkso.ru/calcio/calcioXskycinemadrama/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Cinema Due" tvg-name="Sky Cinema Due" group-title="Italy HD",Sky Cinema Due
+https://calcionew.newkso.ru/calcio/calcioX1skycinemadue/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Cinema Due" tvg-name="Sky Cinema Due" group-title="Italy HD",Sky Cinema Due
+https://calcionew.newkso.ru/calcio/calcioX2skycinemadue/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Cinema Due" tvg-name="Sky Cinema Due" group-title="Italy HD",Sky Cinema Due
+https://calcionew.newkso.ru/calcio/calcioXskycinemadue/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Cinema Family" tvg-name="Sky Cinema Family" group-title="Italy HD",Sky Cinema Family
+https://calcionew.newkso.ru/calcio/calcioX1skycinemafamily/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Cinema Family" tvg-name="Sky Cinema Family" group-title="Italy HD",Sky Cinema Family
+https://calcionew.newkso.ru/calcio/calcioX2skycinemafamily/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Cinema Family" tvg-name="Sky Cinema Family" group-title="Italy HD",Sky Cinema Family
+https://calcionew.newkso.ru/calcio/calcioXskycinemafamily/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Cinema Romance" tvg-name="Sky Cinema Romance" group-title="Italy HD",Sky Cinema Romance
+https://calcionew.newkso.ru/calcio/calcioX1skycinemaromance/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Cinema Romance" tvg-name="Sky Cinema Romance" group-title="Italy HD",Sky Cinema Romance
+https://calcionew.newkso.ru/calcio/calcioX2skycinemaromance/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Cinema Romance" tvg-name="Sky Cinema Romance" group-title="Italy HD",Sky Cinema Romance
+https://calcionew.newkso.ru/calcio/calcioXskycinemaromance/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Cinema Suspense" tvg-name="Sky Cinema Suspense" group-title="Italy HD",Sky Cinema Suspense
+https://calcionew.newkso.ru/calcio/calcioX1skycinemasuspence/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Cinema Suspense" tvg-name="Sky Cinema Suspense" group-title="Italy HD",Sky Cinema Suspense
+https://calcionew.newkso.ru/calcio/calcioX2skycinemasuspence/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Cinema Suspense" tvg-name="Sky Cinema Suspense" group-title="Italy HD",Sky Cinema Suspense
+https://calcionew.newkso.ru/calcio/calcioXskycinemasuspence/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Cinema Uno" tvg-name="Sky Cinema Uno" group-title="Italy HD",Sky Cinema Uno
+https://calcionew.newkso.ru/calcio/calcioX1skycinemauno/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Cinema Uno" tvg-name="Sky Cinema Uno" group-title="Italy HD",Sky Cinema Uno
+https://calcionew.newkso.ru/calcio/calcioX2skycinemauno/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Cinema Uno" tvg-name="Sky Cinema Uno" group-title="Italy HD",Sky Cinema Uno
+https://calcionew.newkso.ru/calcio/calcioXskycinemauno/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Crime" tvg-name="Sky Crime" group-title="Italy HD",Sky Crime
+https://calcionew.newkso.ru/calcio/calcioX1skycrime/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Crime" tvg-name="Sky Crime" group-title="Italy HD",Sky Crime
+https://calcionew.newkso.ru/calcio/calcioX2skycrime/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Crime" tvg-name="Sky Crime" group-title="Italy HD",Sky Crime
+https://calcionew.newkso.ru/calcio/calcioXskycrime/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Documentaries" tvg-name="Sky Documentaries" group-title="Italy HD",Sky Documentaries
+https://calcionew.newkso.ru/calcio/calcioX1skydocumentaries/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Documentaries" tvg-name="Sky Documentaries" group-title="Italy HD",Sky Documentaries
+https://calcionew.newkso.ru/calcio/calcioX2skydocumentaries/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Documentaries" tvg-name="Sky Documentaries" group-title="Italy HD",Sky Documentaries
+https://calcionew.newkso.ru/calcio/calcioXskydocumentaries/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Investigation" tvg-name="Sky Investigation" group-title="Italy HD",Sky Investigation
+https://calcionew.newkso.ru/calcio/calcioX1skyinvestigation/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Investigation" tvg-name="Sky Investigation" group-title="Italy HD",Sky Investigation
+https://calcionew.newkso.ru/calcio/calcioX2skyinvestigation/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Investigation" tvg-name="Sky Investigation" group-title="Italy HD",Sky Investigation
+https://calcionew.newkso.ru/calcio/calcioXskyinvestigation/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Nature" tvg-name="Sky Nature" group-title="Italy HD",Sky Nature
+https://calcionew.newkso.ru/calcio/calcioX1skynature/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Nature" tvg-name="Sky Nature" group-title="Italy HD",Sky Nature
+https://calcionew.newkso.ru/calcio/calcioX2skynature/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Nature" tvg-name="Sky Nature" group-title="Italy HD",Sky Nature
+https://calcionew.newkso.ru/calcio/calcioXskynature/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Serie" tvg-name="Sky Serie" group-title="Italy HD",Sky Serie
+https://calcionew.newkso.ru/calcio/calcioX1seriesi/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Serie" tvg-name="Sky Serie" group-title="Italy HD",Sky Serie
+https://calcionew.newkso.ru/calcio/calcioX1skyserie/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Serie" tvg-name="Sky Serie" group-title="Italy HD",Sky Serie
+https://calcionew.newkso.ru/calcio/calcioX2seriesi/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Serie" tvg-name="Sky Serie" group-title="Italy HD",Sky Serie
+https://calcionew.newkso.ru/calcio/calcioX2skyserie/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Serie" tvg-name="Sky Serie" group-title="Italy HD",Sky Serie
+https://calcionew.newkso.ru/calcio/calcioXseriesi/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Serie" tvg-name="Sky Serie" group-title="Italy HD",Sky Serie
+https://calcionew.newkso.ru/calcio/calcioXskyserie/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Sport 24" tvg-name="Sky Sport 24" group-title="Italy HD",Sky Sport 24
+https://calcionew.newkso.ru/calcio/calcioX1skysport24/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Sport 24" tvg-name="Sky Sport 24" group-title="Italy HD",Sky Sport 24
+https://calcionew.newkso.ru/calcio/calcioX2skysport24/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Sport 24" tvg-name="Sky Sport 24" group-title="Italy HD",Sky Sport 24
+https://calcionew.newkso.ru/calcio/calcioXskysport24/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Sport 251" tvg-name="Sky Sport 251" group-title="Italy HD",Sky Sport 251
+https://calcionew.newkso.ru/calcio/calcioX1skysport251/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Sport 251" tvg-name="Sky Sport 251" group-title="Italy HD",Sky Sport 251
+https://calcionew.newkso.ru/calcio/calcioX2skysport251/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Sport 251" tvg-name="Sky Sport 251" group-title="Italy HD",Sky Sport 251
+https://calcionew.newkso.ru/calcio/calcioXskysport251/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Sport 252" tvg-name="Sky Sport 252" group-title="Italy HD",Sky Sport 252
+https://calcionew.newkso.ru/calcio/calcioX1skysport252/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Sport 252" tvg-name="Sky Sport 252" group-title="Italy HD",Sky Sport 252
+https://calcionew.newkso.ru/calcio/calcioX2skysport252/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Sport 252" tvg-name="Sky Sport 252" group-title="Italy HD",Sky Sport 252
+https://calcionew.newkso.ru/calcio/calcioXskysport252/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Sport 253" tvg-name="Sky Sport 253" group-title="Italy HD",Sky Sport 253
+https://calcionew.newkso.ru/calcio/calcioX1skysport253/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Sport 253" tvg-name="Sky Sport 253" group-title="Italy HD",Sky Sport 253
+https://calcionew.newkso.ru/calcio/calcioX2skysport253/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Sport 253" tvg-name="Sky Sport 253" group-title="Italy HD",Sky Sport 253
+https://calcionew.newkso.ru/calcio/calcioXskysport253/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Sport 254" tvg-name="Sky Sport 254" group-title="Italy HD",Sky Sport 254
+https://calcionew.newkso.ru/calcio/calcioX1skysport254/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Sport 254" tvg-name="Sky Sport 254" group-title="Italy HD",Sky Sport 254
+https://calcionew.newkso.ru/calcio/calcioX2skysport254/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Sport 254" tvg-name="Sky Sport 254" group-title="Italy HD",Sky Sport 254
+https://calcionew.newkso.ru/calcio/calcioXskysport254/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Sport 255" tvg-name="Sky Sport 255" group-title="Italy HD",Sky Sport 255
+https://calcionew.newkso.ru/calcio/calcioX1skysport255/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Sport 255" tvg-name="Sky Sport 255" group-title="Italy HD",Sky Sport 255
+https://calcionew.newkso.ru/calcio/calcioX2skysport255/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Sport 255" tvg-name="Sky Sport 255" group-title="Italy HD",Sky Sport 255
+https://calcionew.newkso.ru/calcio/calcioXskysport255/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Sport 256" tvg-name="Sky Sport 256" group-title="Italy HD",Sky Sport 256
+https://calcionew.newkso.ru/calcio/calcioX2skysport256/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Sport 256" tvg-name="Sky Sport 256" group-title="Italy HD",Sky Sport 256
+https://calcionew.newkso.ru/calcio/calcioXskysport256/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Sport 257" tvg-name="Sky Sport 257" group-title="Italy HD",Sky Sport 257
+https://calcionew.newkso.ru/calcio/calcioX1skysport257/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Sport 257" tvg-name="Sky Sport 257" group-title="Italy HD",Sky Sport 257
+https://calcionew.newkso.ru/calcio/calcioX2skysport257/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Sport 257" tvg-name="Sky Sport 257" group-title="Italy HD",Sky Sport 257
+https://calcionew.newkso.ru/calcio/calcioXskysport257/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Sport Arena" tvg-name="Sky Sport Arena" group-title="Italy HD",Sky Sport Arena
+https://calcionew.newkso.ru/calcio/calcioX1skysportarena/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Sport Arena" tvg-name="Sky Sport Arena" group-title="Italy HD",Sky Sport Arena
+https://calcionew.newkso.ru/calcio/calcioX2skysportarena/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Sport Arena" tvg-name="Sky Sport Arena" group-title="Italy HD",Sky Sport Arena
+https://calcionew.newkso.ru/calcio/calcioXskysportarena/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Sport Calcio" tvg-name="Sky Sport Calcio" group-title="Italy HD",Sky Sport Calcio
+https://calcionew.newkso.ru/calcio/calcioX1skysportcalcio/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Sport Calcio" tvg-name="Sky Sport Calcio" group-title="Italy HD",Sky Sport Calcio
+https://calcionew.newkso.ru/calcio/calcioX2skysportcalcio/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Sport Calcio" tvg-name="Sky Sport Calcio" group-title="Italy HD",Sky Sport Calcio
+https://calcionew.newkso.ru/calcio/calcioXskysportcalcio/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Sport F1" tvg-name="Sky Sport F1" group-title="Italy HD",Sky Sport F1
+https://calcionew.newkso.ru/calcio/calcioXskysportf1/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Sport Golf" tvg-name="Sky Sport Golf" group-title="Italy HD",Sky Sport Golf
+https://calcionew.newkso.ru/calcio/calcioX1skysportgolf/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Sport Golf" tvg-name="Sky Sport Golf" group-title="Italy HD",Sky Sport Golf
+https://calcionew.newkso.ru/calcio/calcioX2skysportgolf/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Sport Golf" tvg-name="Sky Sport Golf" group-title="Italy HD",Sky Sport Golf
+https://calcionew.newkso.ru/calcio/calcioXskysportgolf/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Sport Max" tvg-name="Sky Sport Max" group-title="Italy HD",Sky Sport Max
+https://calcionew.newkso.ru/calcio/calcioX1skysportmax/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Sport Max" tvg-name="Sky Sport Max" group-title="Italy HD",Sky Sport Max
+https://calcionew.newkso.ru/calcio/calcioX2skysportmax/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Sport Max" tvg-name="Sky Sport Max" group-title="Italy HD",Sky Sport Max
+https://calcionew.newkso.ru/calcio/calcioXskysportmax/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Sport MotoGP" tvg-name="Sky Sport MotoGP" group-title="Italy HD",Sky Sport MotoGP
+https://calcionew.newkso.ru/calcio/calcioX1skysportmotogp/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Sport MotoGP" tvg-name="Sky Sport MotoGP" group-title="Italy HD",Sky Sport MotoGP
+https://calcionew.newkso.ru/calcio/calcioX2skysportmotogp/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Sport MotoGP" tvg-name="Sky Sport MotoGP" group-title="Italy HD",Sky Sport MotoGP
+https://calcionew.newkso.ru/calcio/calcioXskysportmotogp/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Sport NBA" tvg-name="Sky Sport NBA" group-title="Italy HD",Sky Sport NBA
+https://calcionew.newkso.ru/calcio/calcioX1skysportnba/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Sport NBA" tvg-name="Sky Sport NBA" group-title="Italy HD",Sky Sport NBA
+https://calcionew.newkso.ru/calcio/calcioX2skysportnba/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Sport NBA" tvg-name="Sky Sport NBA" group-title="Italy HD",Sky Sport NBA
+https://calcionew.newkso.ru/calcio/calcioXskysportnba/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Sport Tennis" tvg-name="Sky Sport Tennis" group-title="Italy HD",Sky Sport Tennis
+https://calcionew.newkso.ru/calcio/calcioX1skysporttennis/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Sport Tennis" tvg-name="Sky Sport Tennis" group-title="Italy HD",Sky Sport Tennis
+https://calcionew.newkso.ru/calcio/calcioX2skysporttennis/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Sport Tennis" tvg-name="Sky Sport Tennis" group-title="Italy HD",Sky Sport Tennis
+https://calcionew.newkso.ru/calcio/calcioXskysporttennis/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Sport Uno" tvg-name="Sky Sport Uno" group-title="Italy HD",Sky Sport Uno
+https://calcionew.newkso.ru/calcio/calcioX1skysportuno/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Sport Uno" tvg-name="Sky Sport Uno" group-title="Italy HD",Sky Sport Uno
+https://calcionew.newkso.ru/calcio/calcioX2skysportuno/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Sport Uno" tvg-name="Sky Sport Uno" group-title="Italy HD",Sky Sport Uno
+https://calcionew.newkso.ru/calcio/calcioXskysportuno/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Uno" tvg-name="Sky Uno" group-title="Italy HD",Sky Uno
+https://calcionew.newkso.ru/calcio/calcioX1skyuno/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Uno" tvg-name="Sky Uno" group-title="Italy HD",Sky Uno
+https://calcionew.newkso.ru/calcio/calcioX2skyuno/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sky Uno" tvg-name="Sky Uno" group-title="Italy HD",Sky Uno
+https://calcionew.newkso.ru/calcio/calcioXskyuno/mono.m3u8
+
+#EXTINF:-1 tvg-id="Solo Calcio" tvg-name="Solo Calcio" group-title="Italy HD",Solo Calcio
+https://calcionew.newkso.ru/calcio/calcioX2solocalcio/mono.m3u8
+
+#EXTINF:-1 tvg-id="Spezia" tvg-name="Spezia" group-title="Italy HD",Spezia
+https://calcionew.newkso.ru/calcio/spezia/mono.m3u8
+
+#EXTINF:-1 tvg-id="Sportitalia" tvg-name="Sportitalia" group-title="Italy HD",Sportitalia
+https://calcionew.newkso.ru/calcio/calcioX2sportitalia/mono.m3u8
+
+#EXTINF:-1 tvg-id="Zona B" tvg-name="Zona B" group-title="Italy HD",Zona B
+https://calcionew.newkso.ru/calcio/calcioX2zonab/mono.m3u8
+
+#EXTINF:-1 tvg-id="Zona DAZN" tvg-name="Zona DAZN" group-title="Italy HD",Zona DAZN
+https://calcionew.newkso.ru/calcio/calcioX2zona/mono.m3u8
+
+#EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Sky Cinema",ADMIN
+https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
