@@ -21,7 +21,7 @@ https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-c
 # Funzione per trovare i link alle partite
 def find_event_pages():
     try:
-        response = requests.get(base_url, headers=headers)
+        response = requests.get(base_url, headers=headers, timeout=10)
         response.raise_for_status()
         soup = BeautifulSoup(response.text, 'html.parser')
 
@@ -36,7 +36,7 @@ def find_event_pages():
                     full_url = href
                 else:
                     continue
-                event_links.add(full_url)
+                event_links.add(full_url)  # Set elimina duplicati
                 print(f"Trovato link: {full_url}")
 
         return list(event_links)
@@ -45,10 +45,48 @@ def find_event_pages():
         print(f"Errore durante la ricerca delle pagine evento: {e}")
         return []
 
+# Funzione per estrarre il flusso effettivo da una pagina iframe
+def extract_stream_from_iframe(iframe_url):
+    try:
+        response = requests.get(iframe_url, headers=headers, timeout=10)
+        response.raise_for_status()
+        soup = BeautifulSoup(response.text, 'html.parser')
+
+        stream_url = None
+        # Cerca in <video>, <source>, o script
+        for video in soup.find_all('video'):
+            src = video.get('src')
+            if src and re.search(r'\.(m3u8|mp4|ts)', src, re.IGNORECASE):
+                stream_url = src
+                print(f"Trovato flusso video in iframe: {src}")
+                break
+            for source in video.find_all('source'):
+                src = source.get('src')
+                if src and re.search(r'\.(m3u8|mp4|ts)', src, re.IGNORECASE):
+                    stream_url = src
+                    print(f"Trovato flusso source in iframe: {src}")
+                    break
+
+        if not stream_url:
+            for script in soup.find_all('script'):
+                script_content = script.string
+                if script_content and re.search(r'https?://[^\s]*\.(m3u8|mp4|ts)', script_content, re.IGNORECASE):
+                    match = re.search(r'(https?://[^\s]*\.(m3u8|mp4|ts))', script_content, re.IGNORECASE)
+                    if match:
+                        stream_url = match.group(1)
+                        print(f"Trovato flusso in script iframe: {stream_url}")
+                        break
+
+        return stream_url
+
+    except requests.RequestException as e:
+        print(f"Errore durante l'accesso all'iframe {iframe_url}: {e}")
+        return None
+
 # Funzione per estrarre il flusso video e la descrizione
 def get_video_stream_and_description(event_url):
     try:
-        response = requests.get(event_url, headers=headers)
+        response = requests.get(event_url, headers=headers, timeout=10)
         response.raise_for_status()
         soup = BeautifulSoup(response.text, 'html.parser')
 
@@ -57,11 +95,13 @@ def get_video_stream_and_description(event_url):
         # Cerca iframe
         for iframe in soup.find_all('iframe'):
             src = iframe.get('src')
-            if src and re.search(r'\.(m3u8|mp4|ts|html|php)|stream|player', src, re.IGNORECASE):
-                stream_url = src
-                element = iframe
+            if src:
                 print(f"Trovato iframe con src: {src}")
-                break
+                # Prova a estrarre flusso dall'iframe
+                stream_url = extract_stream_from_iframe(src)
+                if stream_url:
+                    element = iframe
+                    break
 
         # Cerca embed
         if not stream_url:
@@ -90,7 +130,7 @@ def get_video_stream_and_description(event_url):
                         print(f"Trovato source con src: {src}")
                         break
 
-        # Cerca in script o data attributes (per flussi dinamici)
+        # Cerca in script
         if not stream_url:
             for script in soup.find_all('script'):
                 script_content = script.string
@@ -120,6 +160,11 @@ def get_video_stream_and_description(event_url):
                 channel_name = title.get_text(strip=True).split('|')[0].strip()
                 channel_name = re.sub(r'[-_]+', ' ', channel_name)
 
+        if not stream_url:
+            print(f"Nessun flusso trovato per {event_url}")
+        else:
+            print(f"Flusso valido trovato per {event_url}: {stream_url}")
+
         return stream_url, element, channel_name
 
     except requests.RequestException as e:
@@ -143,6 +188,7 @@ def update_m3u_file(video_streams, m3u_file="guardacalcio_playlist.m3u8"):
             if group not in groups:
                 groups[group] = []
             groups[group].append((channel_name, stream_url))
+            print(f"Aggiunto al file M3U8: {channel_name} -> {stream_url}")
 
         for group, channels in groups.items():
             channels.sort(key=lambda x: x[0].lower())
@@ -165,14 +211,17 @@ if __name__ == "__main__":
     else:
         video_streams = []
         for event_url in event_pages:
+            # Ignora pagine note per 404
+            if any(x in event_url for x in ['tennis-streaming', 'wwe-streaming', 'rugby-streaming', 'pugilato-boxe-streaming', 'ufc-streaming', 'hockey-streaming', 'freccette-streaming']):
+                print(f"Ignoro pagina con probabile 404: {event_url}")
+                continue
             print(f"Analizzo: {event_url}")
             stream_url, element, channel_name = get_video_stream_and_description(event_url)
             if stream_url:
                 video_streams.append((event_url, stream_url, element, channel_name))
-            else:
-                print(f"Nessun flusso trovato per {event_url}")
 
         if video_streams:
             update_m3u_file(video_streams)
         else:
             print("Nessun flusso video trovato in tutte le pagine evento.")
+            update_m3u_file([])  # Genera comunque il file con il canale ADMIN
