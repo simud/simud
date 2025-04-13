@@ -1,7 +1,14 @@
 import os
+import sys
 
-# Percorso del file di output sul desktop
-desktop_path = os.path.join(os.path.expanduser("~"), "Desktop", "top1.m3u8")
+# Determina il percorso di output
+if 'GITHUB_ACTIONS' in os.environ:
+    # In GitHub Actions, salva nella directory di lavoro corrente
+    output_path = os.path.join(os.getcwd(), "top1.m3u8")
+else:
+    # Localmente, salva sul Desktop
+    output_path = os.path.join(os.path.expanduser("~"), "Desktop", "top1.m3u8")
+
 base_url = "https://calcionew.newkso.ru/calcio/"
 logo_url = "https://i.postimg.cc/NFGs2Ptq/photo-2025-03-12-12-36-48.png"
 
@@ -109,17 +116,18 @@ channels.sort(key=lambda x: x[0].lower())
 # Crea il contenuto della playlist M3U8
 m3u8_content = "#EXTM3U\n\n"
 for channel_name, channel_url in channels:
-    m3u8_content += f'#EXTINF:-1 tvg-id="{channel_name}" tvg-name="{channel_name}" tvg-logo="https://i.postimg.cc/NFGs2Ptq/photo-2025-03-12-12-36-48.png" group-title="Italy HD",{channel_name}\n'
+    m3u8_content += f'#EXTINF:-1 tvg-id="{channel_name}" tvg-name="{channel_name}" tvg-logo="{logo_url}" group-title="Italy HD",{channel_name}\n'
     m3u8_content += f"{channel_url}\n\n"
 
 # Aggiungi il canale finale
-m3u8_content += f'#EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/NFGs2Ptq/photo-2025-03-12-12-36-48.png" group-title="Italy HD",ADMIN\n'
+m3u8_content += f'#EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="{logo_url}" group-title="Italy HD",ADMIN\n'
 m3u8_content += "https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4\n"
 
-# Salva il file sul desktop
+# Salva il file
 try:
-    with open(desktop_path, "w", encoding="utf-8") as f:
+    with open(output_path, "w", encoding="utf-8") as f:
         f.write(m3u8_content)
-    print(f"Playlist salvata con successo in: {desktop_path}")
+    print(f"Playlist salvata con successo in: {output_path}")
 except Exception as e:
     print(f"Errore durante il salvataggio del file: {e}")
+    sys.exit(1)
