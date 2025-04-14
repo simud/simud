@@ -1,132 +1,90 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="match_football1" tvg-language="Russian" tvg-country="RU" group-title="Sports",MATCH Russia
-#EXT-X-KEY:METHOD=CLEARKEY,URI="keyId=5269ab07e6a6db7585324ae20542f191,key=dba0dccffba1b26f658ec85a616102e8"
-https://strm.yandex.ru/kal/match_football1_hd/manifest.mpd
+#EXTINF:-1 tvg-id="Canale5.it" tvg-name="Canale 5" tvg-country="IT" tvg-language="Italian",Canale 5
+#EXT-X-KEY:METHOD=CLEARKEY,URI="data:application/json;base64,eyJrZXlzIjpbeyJraWQiOiIwMGY5ZjNjMDc4MzUzNmI4Y2U0YTMwYTAxYTUyZTA4MiIsImsiOiJlOTI2ZjdkNDVhZjRmN2QxNTRjOTkwZWFlNmEyZDkzNyJ9XX0="
+https://live03p-seg.msf.cdn.mediaset.net/live/ch-c5/c5-dash-widevine.isml/manifest.mpd
 
-#EXTINF:-1 tvg-id="sky252it" tvg-language="Italian" tvg-country="IT" group-title="Sports",Sky Sport 252 Italia
-#EXT-X-KEY:METHOD=CLEARKEY,URI="keyId=0036c4797608fc64296d437bc6f8b790,key=1689af84b23f514005f9bb854da7667f"
-https://linear304-it-dash1-prd-akg0.cdn13.skycdp.com/32951/FHD/skysport252/master.mpd
+#EXTINF:-1 tvg-id="Italia1.it" tvg-name="Italia 1" tvg-country="IT" tvg-language="Italian",Italia 1
+#EXT-X-KEY:METHOD=CLEARKEY,URI="data:application/json;base64,eyJrZXlzIjpbeyJraWQiOiIwMGY5ZjNjMDc4MzUzNmI4ZWU5MTcwNGUyM2I3ODAxNiIsImsiOiJiZmQwNGQ2ZjU0NGM5Y2M0ZDM1Y2IxM2FiNjc3ODU4NyJ9XX0="
+https://live03p-seg.msf.cdn.mediaset.net/live/ch-i1/i1-dash-widevine.isml/manifest.mpd
 
-#EXTINF:-1 tvg-id="sky253it" tvg-language="Italian" tvg-country="IT" group-title="Sports",Sky Sport 253 Italia
-#EXT-X-KEY:METHOD=CLEARKEY,URI="keyId=00365b169a077daac5081277c3fd0c28,key=f68ab32a552e13509a8ee1c4d96204bc"
+#EXTINF:-1 tvg-id="InfinityPlus.it" tvg-name="Infinity Plus" tvg-country="IT" tvg-language="Italian",Infinity Plus
+#EXT-X-KEY:METHOD=CLEARKEY,URI="data:application/json;base64,eyJrZXlzIjpbeyJraWQiOiIwMGY5ZjNjMDc4MzUzNmI4MzRiMGYwYzJiZmVlODBhYyIsImsiOiI3NmIzYWZiZjE2M2Y5YzNmZWI2MjA0YjhmY2YwZmY1MyJ9XX0="
+https://live03p-seg.msf.cdn.mediaset.net/live/ch-u2/u2-dash-widevine.isml/manifest.mpd
+
+#EXTINF:-1 tvg-id="InfinityPlus1.it" tvg-name="Infinity Plus 1" tvg-country="IT" tvg-language="Italian",Infinity Plus 1
+#EXT-X-KEY:METHOD=CLEARKEY,URI="data:application/json;base64,eyJrZXlzIjpbeyJraWQiOiIwMGY5ZjNjMDc4MzUzNmI4MzJhOGYwMzI2ZmJkYzAyZSIsImsiOiJhZGUwNTMzYmE2NjdiYjdlOTg0N2Q4ZjIxNWYwMzA3NiJ9XX0="
+https://live03p-seg.msf.cdn.mediaset.net/live/ch-u1/u1-dash-widevine.isml/manifest.mpd
+
+#EXTINF:-1 tvg-id="SkySport24.it" tvg-name="Sky Sport 24" tvg-country="IT" tvg-language="Italian",Sky Sport 24
+#EXT-X-KEY:METHOD=CLEARKEY,URI="data:application/json;base64,eyJrZXlzIjpbeyJraWQiOiIwMDM2MThjY2Q3YmUyMmI2MzY3MjA3ZWQ4ZDY0ZDUwNSIsImsiOiIzNmU5N2YyOWVjNWVhNjEyNjA3N2NjMDQwY2MyY2VlYiJ9XX0="
+https://linear301-it-dash1-prd.selector.skycdn.it/016a/31035/FHD/skysport24/master_stereo.mpd
+
+#EXTINF:-1 tvg-id="SkySport251.it" tvg-name="Sky Sport 251" tvg-country="IT" tvg-language="Italian",Sky Sport 251
+#EXT-X-KEY:METHOD=CLEARKEY,URI="data:application/json;base64,eyJrZXlzIjpbeyJraWQiOiIwMDM2NDIyY2Y0MjkzYWU3Y2YxZTdmNzA2MmNjMjllOCIsImsiOiIzN2EyMjNmY2MxN2MwODcwNDNiYzgzNzQzMmZkMjVkOCJ9XX0="
+https://linear311-it-dash1-prd-akg0.cdn13.skycdp.com/31917/FHD/skysport251/master.mpd
+
+#EXTINF:-1 tvg-id="SkySport252.it" tvg-name="Sky Sport 252" tvg-country="IT" tvg-language="Italian",Sky Sport 252
+#EXT-X-KEY:METHOD=CLEARKEY,URI="data:application/json;base64,eyJrZXlzIjpbeyJraWQiOiIwMDM2NDNiYzlkNjEyNjhjOTg3NTA0ZmE5M2IzOTdmNiIsImsiOiJiOGQ1NzY3YzczZmY4YmJhNjhkOTU1MDM1YjU2ZjRjMSJ9XX0="
+https://linear311-it-dash1-prd-akg0.cdn13.skycdp.com/32951/FHD/skysport252/master.mpd
+
+#EXTINF:-1 tvg-id="SkySport253.it" tvg-name="Sky Sport 253" tvg-country="IT" tvg-language="Italian",Sky Sport 253
+#EXT-X-KEY:METHOD=CLEARKEY,URI="data:application/json;base64,eyJrZXlzIjpbeyJraWQiOiIwMDM2MDc3OTk2ZDAyNzYxYTlkNGMyOWRkZmFjNzQ2NiIsImsiOiJlODNkMDc4Nzc5YWU1YjUzZTJlYjk5OTUxM2Q1NTY4MiJ9XX0="
 https://linear304-it-dash1-prd-akg0.cdn13.skycdp.com/32233/FHD/skysport253/master.mpd
 
-#EXTINF:-1 tvg-id="sky254it" tvg-language="Italian" tvg-country="IT" group-title="Sports",Sky Sport 254 Italia
-#EXT-X-KEY:METHOD=CLEARKEY,URI="keyId=00369c14c20b78aadb1ec0e3c0e74979,key=e768767e2c7238d8069887bb36aed7fa"
-https://linear304-it-dash1-prd-akg0.cdn13.skycdp.com/31234/FHD/skysport254/master.mpd
+#EXTINF:-1 tvg-id="SkySport254.it" tvg-name="Sky Sport 254" tvg-country="IT" tvg-language="Italian",Sky Sport 254
+#EXT-X-KEY:METHOD=CLEARKEY,URI="data:application/json;base64,eyJrZXlzIjpbeyJraWQiOiIwMDM2OWMxNGMyMGI3OGFhZGIxZWMwZTNjMGU3NDk3OSIsImsiOiJlNzY4NzY3ZTJjNzIzOGQ4MDY5ODg3YmIzNmFlZDdmYSJ9XX0="
+https://linear311-it-dash1-prd-akg0.cdn13.skycdp.com/31234/FHD/skysport254/master.mpd
 
-#EXTINF:-1 tvg-id="sky255it" tvg-language="Italian" tvg-country="IT" group-title="Sports",Sky Sport 255 Italia
-#EXT-X-KEY:METHOD=CLEARKEY,URI="keyId=0036b781a22ebb0c20c16ac27d5d1448,key=f309b94acfda720bf1ed5741489f8967"
+#EXTINF:-1 tvg-id="SkySport255.it" tvg-name="Sky Sport 255" tvg-country="IT" tvg-language="Italian",Sky Sport 255
+#EXT-X-KEY:METHOD=CLEARKEY,URI="data:application/json;base64,eyJrZXlzIjpbeyJraWQiOiIwMDM2Yjc4MWEyMmViYjBjMjBjMTZhYzI3ZDVkMTQ0OCIsImsiOiJmMzA5Yjk0YWNmZGE3MjBiZjFlZDU3NDE0ODlmODk2NyJ9XX0="
 https://linear304-it-dash1-prd-akg0.cdn13.skycdp.com/32910/FHD/skysport255/master.mpd
 
-#EXTINF:-1 tvg-id="sky256it" tvg-language="Italian" tvg-country="IT" group-title="Sports",Sky Sport 256 Italia
-#EXT-X-KEY:METHOD=CLEARKEY,URI="keyId=00366f263859fc1cc82d2c4da6a66ef6,key=754ae922d113c54349002cd9a88694a4"
-https://linear304-it-dash1-prd-akg0.cdn13.skycdp.com/31912/FHD/skysport256/master.mpd
+#EXTINF:-1 tvg-id="SkySport256.it" tvg-name="Sky Sport 256" tvg-country="IT" tvg-language="Italian",Sky Sport 256
+#EXT-X-KEY:METHOD=CLEARKEY,URI="data:application/json;base64,eyJrZXlzIjpbeyJraWQiOiIwMDM2NmYyNjM4NTlmYzFjYzgyZDJjNGRhNmE2NmVmNiIsImsiOiI3NTRhZTkyMmQxMTNjNTQzNDkwMDJjZDlhODg2OTRhNCJ9XX0="
+https://linear312-it-dash1-prd-akg0.cdn13.skycdp.com/31912/FHD/skysport256/master.mpd
 
-#EXTINF:-1 tvg-id="sky257it" tvg-language="Italian" tvg-country="IT" group-title="Sports",Sky Sport 257 Italia
-#EXT-X-KEY:METHOD=CLEARKEY,URI="keyId=0036faeace9872d3ceeb8b1b63f0baa3,key=dbd41ee944243307d39b7b27f16615a8"
-https://linear311-it-dash1-prd.selector.skycdn.it/016a/31775/FHD/skysport257/master.mpd
+#EXTINF:-1 tvg-id="SkySport257.it" tvg-name="Sky Sport 257" tvg-country="IT" tvg-language="Italian",Sky Sport 257
+#EXT-X-KEY:METHOD=CLEARKEY,URI="data:application/json;base64,eyJrZXlzIjpbeyJraWQiOiIwMDM2ZmFhY2U5ODcyZDNjZWViOGIxYjYzZjBiYWEzIiwiaSI6ImRiZDQxZWU5NDQyNDMzMDdkMzliN2IyN2YxNjYxNWE4In1dfQ=="
+https://linear304-it-dash1-prd-akg0.cdn13.skycdp.com/31775/FHD/skysport257/master.mpd
 
-#EXTINF:-1 tvg-id="sky258it" tvg-language="Italian" tvg-country="IT" group-title="Sports",Sky Sport 258 Italia
-#EXT-X-KEY:METHOD=CLEARKEY,URI="keyId=0036fd8ccfddba47c8b40aeff63a797c,key=dfd5c9d0f4ac6f3a1bd89803399e7026"
-https://linear312-it-dash1-prd-ll.cdn13.skycdp.com/32772/skysport258/master.mpd
+#EXTINF:-1 tvg-id="SkySport258.it" tvg-name="Sky Sport 258" tvg-country="IT" tvg-language="Italian",Sky Sport 258
+#EXT-X-KEY:METHOD=CLEARKEY,URI="data:application/json;base64,eyJrZXlzIjpbeyJraWQiOiIwMDM2ZmQ4Y2NmZGRiYTQ3YzhiNDBhZWZmNjNhNzk3YyIsImsiOiJkZmQ1YzlkMGY0YWM2ZjNhMWJkODk4MDMzOTllNzAyNiJ9XX0="
+https://linear311-it-dash1-prd-akg0.cdn13.skycdp.com/32772/skysport258/master.mpd
 
-#EXTINF:-1 tvg-id="itv4" tvg-language="English" tvg-country="UK" group-title="Sports",ITV4 UK
-#EXT-X-KEY:METHOD=CLEARKEY,URI="keyId=2b169fb2c3214e429b66eb2e19fcafdf,key=90a98753d8f41ad08906243230975ff1"
-https://da-3efc67452a028801000600020000000000000005.id.cdn.upcbroadband.com/wp/wp1-obc0910-live-ch-prod.prod.cdn.dmdsdp.com/dash/SV00306/manifest.mpd
+#EXTINF:-1 tvg-id="SkySport259.it" tvg-name="Sky Sport 259" tvg-country="IT" tvg-language="Italian",Sky Sport 259
+#EXT-X-KEY:METHOD=CLEARKEY,URI="data:application/json;base64,eyJrZXlzIjpbeyJraWQiOiIwMDM2NjQ0Zjc2OTlmNDNlNDAxZjg4ZDkyMGRjMzg1YyIsImsiOiJlNWIwY2ViZGMzZWRkNzk5NmQyODMwNDE1MzVmY2U5YyJ9XX0="
+https://linear311-it-dash1-prd-akg0.cdn13.skycdp.com/31613/skysport259/master.mpd
 
-#EXTINF:-1 tvg-id="bbcone" tvg-language="English" tvg-country="UK" group-title="Sports",BBC One UK
-#EXT-X-KEY:METHOD=CLEARKEY,URI="keyId=6401e1fead9d4f43910aaad360f46dd0,key=598f5e4f10d4e040d25579478cadc4ee"
-https://da-3efc67472a028801000600020000000000000007.id.cdn.upcbroadband.com/wp/wp1-obc1112-live-ch-prod.prod.cdn.dmdsdp.com/dash/SV09091/manifest.mpd
+#EXTINF:-1 tvg-id="SkySportCalcio.it" tvg-name="Sky Sport Calcio" tvg-country="IT" tvg-language="Italian",Sky Sport Calcio
+#EXT-X-KEY:METHOD=CLEARKEY,URI="data:application/json;base64,eyJrZXlzIjpbeyJraWQiOiIwMDM2OWEyYzY5MTc2ZDVhMmRlZmY3NzcyNDdiNjYzNyIsImsiOiJlMTIyZDRiYWQzNGMxZTQzMGVlMzQ5ZjVhYWMwMDYwYiJ9XX0="
+https://linear301-it-dash1-prd-akg0.cdn13.skycdp.com/31209/FHD/skysportseriea/master.mpd
 
-#EXTINF:-1 tvg-id="ch4en" tvg-language="English" tvg-country="UK" group-title="Sports",Channel 4 UK
-#EXT-X-KEY:METHOD=CLEARKEY,URI="keyId=d56ff9db826b4a41af9dbd0234c31116,key=ac6eaee980dff46e15670004663132a9"
-https://wp2-obc1112-live-ch-prod.prod.cdn.dmdsdp.com/dash/SV09211/manifest.mpd
+#EXTINF:-1 tvg-id="SkySportMax.it" tvg-name="Sky Sport Max" tvg-country="IT" tvg-language="Italian",Sky Sport Max
+#EXT-X-KEY:METHOD=CLEARKEY,URI="data:application/json;base64,eyJrZXlzIjpbeyJraWQiOiIwMDM2YWU5MjQ4ZDkzOWU0ZTFjZDIxOThkMjU5M2E0MiIsImsiOiJlZmM2Njk5ZTE3NTY0MDM5MTZiMDI4MGVhNjNmNGMyOCJ9XX0="
+https://linear305-it-dash1-prd-ll.cdn13.skycdp.com/016a/31248/FHD/skysportmax/master.mpd
 
-#EXTINF:-1 tvg-id="sony_ten2" tvg-language="English/Hindi" tvg-country="IN" group-title="Sports",Sony Ten 2 India
-#EXT-X-KEY:METHOD=CLEARKEY,URI="keyId=6e9595fb8dd05c0aa354185bc2600854,key=edeb8dce0bcf769bdede664604a45d5b"
-#EXT-X-KEY:METHOD=CLEARKEY,URI="keyId=1cc361e170845936aea7b95c6efb478e,key=edf617efde22fbd133c239ed4b47c9d3"
-https://tataplay.xyssatuu.workers.dev/bpk-tv/irdeto_com_Channel_726/output/manifest.mpd?begin=20240612T010000&end=20240630T160000
+#EXTINF:-1 tvg-id="SkySportMotoGP.it" tvg-name="Sky Sport MotoGP" tvg-country="IT" tvg-language="Italian",Sky Sport MotoGP
+#EXT-X-KEY:METHOD=CLEARKEY,URI="data:application/json;base64,eyJrZXlzIjpbeyJraWQiOiIwMDM2ZWEyZTkwOGQ0Y2MyMGVmMDg1OTVkYTlmZjk5MSIsImsiOiIwOGUxYWU5ZmEwZWU0ZDllYzJiMTk0YzQ5MDg2MTNhZSJ9XX0="
+https://linear306-it-dash1-prd.selector.skycdn.it/016a/31483/FHD/skysportmotogp/master.mpd
 
-#EXTINF:-1 tvg-id="latves1" tvg-language="Spanish" tvg-country="ES" group-title="Sports",La 1 4K Spagna
-#EXT-X-KEY:METHOD=CLEARKEY,URI="keyId=a3abc44525eef3b0a7af9138a9dbe34a,key=7740f8ae4223ce5ba293028f7f78f1c1"
-https://cache3.zapitv.com/live/eds_c2/la1_4k/dash_live_enc/la1_4k.mpd
+#EXTINF:-1 tvg-id="SkySportNBA.it" tvg-name="Sky Sport NBA" tvg-country="IT" tvg-language="Italian",Sky Sport NBA
+#EXT-X-KEY:METHOD=CLEARKEY,URI="data:application/json;base64,eyJrZXlzIjpbeyJraWQiOiIwMDM2YzRlNDUzYWUyYTA0NGY0Yzg2MWVkNzNiNTYwYSIsImsiOiJlYTU2MjZjMGFhMDkyYzM4MmNhNTgxNTFiNWY0YjIwOCJ9XX0="
+https://linear301-it-dash1-prd.selector.skycdn.it/016a/31764/FHD/skysportnba/master_stereo.mpd
 
-#EXTINF:-1 tvg-id="hrt2" tvg-language="Croatian" tvg-country="HR" group-title="Sports",HRT2 Croazia
-#EXT-X-KEY:METHOD=CLEARKEY,URI="keyId=994c79af863838109e7f3503bcd2aff9,key=d2c19650ad2a2ac77a95453b941a6f0e"
-https://cdn1oiv.akamaized.net/hrtliveorigin/hrt2.smil/1/manifest.mpd?DVR
+#EXTINF:-1 tvg-id="SkySportUno.it" tvg-name="Sky Sport Uno" tvg-country="IT" tvg-language="Italian",Sky Sport Uno
+#EXT-X-KEY:METHOD=CLEARKEY,URI="data:application/json;base64,eyJrZXlzIjpbeyJraWQiOiIwMDM2ZGM3MGU0ZDY1OWZlNWFlNTdiNTI3OTNhMWZmMyIsImsiOiI1NTUxN2Y4MDZiNmJlOTE3YzJiZjBlOWNmOWFjYzQ0ZiJ9XX0="
+https://linear301-it-dash1-prd.selector.skycdn.it/016a/31023/FHD/skysportuno/master.mpd
 
-#EXTINF:-1 tvg-id="euro1" tvg-language="English" tvg-country="Unknown" group-title="Sports",Euro 1 (SS3)
-#EXT-X-KEY:METHOD=CLEARKEY,URI="keyId=411b6c68d0424bbabc41eaf244961f18,key=54598acbe928605abf8f92a98cbb6986"
-https://cdn-vcors3.livestreamingbolatv1.workers.dev/out/v1/6f5596513af749c19d0bcdac013dda3c/index.mpd
+#EXTINF:-1 tvg-id="SkySportF1.it" tvg-name="Sky Sport F1" tvg-country="IT" tvg-language="Italian",Sky Sport F1
+#EXT-X-KEY:METHOD=CLEARKEY,URI="data:application/json;base64,eyJrZXlzIjpbeyJraWQiOiIwMDM2NjY0OWViMmViODJlZTE3MmUxYmQzMTBlNDEzNiIsImsiOiIyN2U4NWMxN2Q5NzcyMjI4OGZmYTU5NzAzODlkOGJhZiJ9XX0="
+https://linear304-it-dash1-prd-akg0.cdn13.skycdp.com/31478/FHD/skysportf1/master.mpd
 
-#EXTINF:-1 tvg-id="euro2" tvg-language="English" tvg-country="Unknown" group-title="Sports",Euro 2 (SS4)
-#EXT-X-KEY:METHOD=CLEARKEY,URI="keyId=d90bc1335dc245d2b42f7150f85bf18c,key=9e39e71711cdf93e5d8c209cdecda848"
-https://cdn-vcors1.livestreamingbolatv1.workers.dev/out/v1/3654ca35e72440b6aaa897fd36231191/index.mpd
+#EXTINF:-1 tvg-id="Eurosport1.it" tvg-name="Eurosport 1" tvg-country="IT" tvg-language="Italian",Eurosport 1
+#EXT-X-KEY:METHOD=CLEARKEY,URI="data:application/json;base64,eyJrZXlzIjpbeyJraWQiOiIwMDM2YmIzZmE3ZTZmMmMzMzRkN2NiYTVjMjhiNmNhZiIsImsiOiIyMTdmYTM1NzM5Y2Q2OGU5MGIyY2QyMzMyMmMwMTMxMiJ9XX0="
+https://linear301-it-dash1-prd-akg0.cdn13.skycdp.com/313073/FHD/eurosport/master.mpd
 
-#EXTINF:-1 tvg-id="euro3" tvg-language="English" tvg-country="MY" group-title="Sports",Euro 3 (SPO TV Stadia)
-#EXT-X-KEY:METHOD=CLEARKEY,URI="keyId=e7c650ac72dcd0311411832a8271bb10,key=ea8fa43cc7102e481cd441c58b2ecb08"
-https://cors-proxy.elfsight.com/https://linearjitp02-playback.astro.com.my/dash-wv/dashiso/5148/default.mpd
+#EXTINF:-1 tvg-id="Eurosport2.it" tvg-name="Eurosport 2" tvg-country="IT" tvg-language="Italian",Eurosport 2
+#EXT-X-KEY:METHOD=CLEARKEY,URI="data:application/json;base64,eyJrZXlzIjpbeyJraWQiOiIwMDM2NzBhNzAzNDM0MmE0YTA3YzkxMTczODE4YzYxYyIsImsiOiI3YjkwMDU1YzFhMWVhMzRkOTA5MGU5ZWJmNmM0ZGI4YSJ9XX0="
+https://linear301-it-dash1-prd-akg0.cdn13.skycdp.com/31150/FHD/eurosport2/master.mpd
 
-#EXTINF:-1 tvg-id="euro4" tvg-language="Italian" tvg-country="IT" group-title="Sports",Euro 4 (Sky Sport 251)
-#EXT-X-KEY:METHOD=CLEARKEY,URI="keyId=00368000eaecbeeafd84c05b3b8243af,key=8f84185910e18ae0ca8a45004625a000"
-https://linear304-it-dash1-prd-akg0.cdn13.skycdp.com/31917/FHD/skysport251/master.mpd
-
-#EXTINF:-1 tvg-id="euro5" tvg-language="German" tvg-country="DE" group-title="Sports",Euro 5 (ZDF)
-#EXT-X-KEY:METHOD=CLEARKEY,URI="keyId=7757d3fa8cdab673a2dd9f3ed7b41360,key=96e498b70eeecfc0164ed4e0a78e36f3"
-https://p7s1-live-001-prod.akamaized.net/45371d5a/t_009/zdf-de-hd/cenc-default.mpd
-
-#EXTINF:-1 tvg-id="tv2no" tvg-language="Norwegian" tvg-country="NO" group-title="Sports",TV2 Norvegia
-#EXT-X-KEY:METHOD=CLEARKEY,URI="keyId=bfb0134de69d76d25b5b4b202df11431,key=025915bd3062c4bde44a13916c5bfefe"
-https://aws-appeartv-cdn.rikstv.no/rikstv/1/11/dash/TV2_HD/manifest.mpd?version=1&adap=no_dolby&RikstvAssetId=rikstv_5711
-
-#EXTINF:-1 tvg-id="euro7x" tvg-language="English" tvg-country="UK" group-title="Sports",ITV1 UK
-#EXT-X-KEY:METHOD Conversions made by Grok, created by xAI.CLEARKEY,URI="keyId=5d9937d586414096948337ac314d79c1,key=22ca2e250b729982c97209e0ff3f7e9b"
-https://wp2-obc1112-live-ch-prod.prod.cdn.dmdsdp.com/dash/SV09212/manifest.mpd
-
-#EXTINF:-1 tvg-id="euro7" tvg-language="English" tvg-country="UK" group-title="Sports",BBC One UK
-#EXT-X-KEY:METHOD=CLEARKEY,URI="keyId=6401e1fead9d4f43910aaad360f46dd0,key=598f5e4f10d4e040d25579478cadc4ee"
-https://da-3efc67472a028801000600020000000000000007.id.cdn.upcbroadband.com/wp/wp1-obc1112-live-ch-prod.prod.cdn.dmdsdp.com/dash/SV09091/manifest.mpd
-
-#EXTINF:-1 tvg-id="euro8" tvg-language="Thai" tvg-country="TH" group-title="Sports",PPTV HD Thailandia
-#EXT-X-KEY:METHOD=CLEARKEY,URI="keyId=0aeffa7753674e77b99443fac7757b8a,key=b8c8a462008a40aa91823e0b02e8dd31"
-https://ubn-streamer1.cdn.3bbtv.com:8443/3bb/live/36/36.mpd
-
-#EXTINF:-1 tvg-id="euro9" tvg-language="Italian" tvg-country="IT" group-title="Sports",Rai Italia
-#EXT-X-KEY:METHOD=CLEARKEY,URI="keyId=d79467df269743b3aca99a9171c54878,key=a7d3bc19bd09db6b581833e4a6176c8f"
-https://wp1-obc1112-live-ch-prod.prod.cdn.dmdsdp.com/dash/SV09101/manifest.mpd
-
-#EXTINF:-1 tvg-id="euro10" tvg-language="Italian" tvg-country="IT" group-title="Sports",Sky Sport Uno Italia
-#EXT-X-KEY:METHOD=CLEARKEY,URI="keyId=00362452ed102000ccea64c311921dc2,key=02f27bd6caab7633d3083b94d3958b1c"
-https://linear301-it-dash1-prd.selector.skycdn.it/016a/31023/FHD/skysportuno/master_stereo.mpd
-
-#EXTINF:-1 tvg-id="euro11" tvg-language="Italian" tvg-country="IT" group-title="Sports",Sky Sport Serie A Italia
-#EXT-X-KEY:METHOD=CLEARKEY,URI="keyId=0036e5d0e88dfb087f1791da6150ced9,key=0bc653d830837dceb13bd17169f0f8e2"
-https://linear301-it-dash1-prd-akp1.cdn13.skycdp.com/016a/31209/FHD/skysportseriea/master_stereo.mpd
-
-#EXTINF:-1 tvg-id="euro12x" tvg-language="Lithuanian" tvg-country="LT" group-title="Sports",TV3 Lituania
-#EXT-X-KEY:METHOD=CLEARKEY,URI="keyId=748d32a5e8e64c7780df70a86a3fb1dc,key=e3deb83f5738e9ce4cdeb6cab7f473f5"
-https://cdnlb.tvplayhome.lt/live/eds/TV3_LT_HD_HVC/GO3_LIVE_DASH_AVC/TV3_LT_HD_HVC.mpd
-
-#EXTINF:-1 tvg-id="euro13" tvg-language="English" tvg-country="CA" group-title="Sports",CTV Canada
-#EXT-X-KEY:METHOD=CLEARKEY,URI="keyId=10f7768b8eb5be6d48c1baaf1fb891a1,key=9b029683d78a43cb9e8738f17220c37e"
-#EXT-X-KEY:METHOD=CLEARKEY,URI="keyId=31599f01aa4da9cdd75711f495279e27,key=a68ca2b689516982cb543a9a60f53263"
-https://pe-fa-lp01a.9c9media.com/live/CFTO/p/dash/20000001/9117ec94ec99c195/manifest.mpd
-
-#EXTINF:-1 tvg-id="euro14" tvg-language="Italian" tvg-country="IT" group-title="Sports",Sky Sport Serie A Italia (Duplicato)
-#EXT-X-KEY:METHOD=CLEARKEY,URI="keyId=0036e5d0e88dfb087f1791da6150ced9,key=0bc653d830837dceb13bd17169f0f8e2"
-https://linear301-it-dash1-prd-akp1.cdn13.skycdp.com/016a/31209/FHD/skysportseriea/master_stereo.mpd
-
-#EXTINF:-1 tvg-id="ten2" tvg-language="English/Hindi" tvg-country="LK" group-title="Sports",Ten 2
-#EXT-X-KEY:METHOD=CLEARKEY,URI="keyId=a4b0d01bb39006fec2e92033a7262e5b,key=02424c17b4eb9cd19d6f204db874bf55"
-https://stadia.xyssatuu.workers.dev/bpcdn.dialog.lk/bpk-tv/Ch123/output/index.mpd
-
-#EXTINF:-1 tvg-id="euro6" tvg-language="Dutch" tvg-country="NL" group-title="Sports",NPO 1 Paesi Bassi
-#EXT-X-KEY:METHOD=CLEARKEY,URI="keyId=7545f9301bf94e7a9132dccf32920e51,key=94fc134c1b1cb1ea9075781417eca48b"
-https://nlziet-live.akamaized.net/L6/76fd047c/c427bd9d.isml/.mpd
-
-#EXTINF:-1 tvg-id="espnar" tvg-language="Spanish" tvg-country="AR" group-title="Sports",ESPN Argentina
-#EXT-X-KEY:METHOD=CLEARKEY,URI="keyId=01824898bd6a59308c546c3d2ee0bdae,key=39de9ff7cd4478b08404f9733cfa9eae"
-#EXT-X-KEY:METHOD=CLEARKEY,URI="keyId=889182f3be9b57d7b7702065bc00a492,key=3039ad69cd8236616857e2b0784e9cbd"
-#EXT-X-KEY:METHOD=CLEARKEY,URI="keyId=418583d14c185e5db9049d1440f000b2,key=4fc5c3d1f38e066bee53b4d64c1468d3"
-https://tvup-ccs-live.akamaized.net/espn/espn.mpd
+# Nota: Questi sono flussi DASH (.mpd) con ClearKey DRM. Richiedono un player compatibile con DASH e DRM (es. Shaka Player o VLC con configurazione avanzata).
