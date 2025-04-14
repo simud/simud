@@ -1,29 +1,29 @@
 #EXTM3U url-tvg="http://www.epgitalia.tv/gzip,http://epg-guide.com/it.gz,https://raw.github.com/matthuisman/i.mjh.nz/master/PlutoTV/us.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/PlutoTV/it.xml.gz,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-events-epg.xml,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-channels-epg.xml,https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/it.xml.gz"
-#EXTINF:-1 tvg-id="373873ed69c269726d6ef7ec332c06a0" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie C : Crotone vs Foggia (SKY SPORT 251 IT)
-#EXTVLCOPT:http-origin=https://kisskissplay.cfd
-#EXTVLCOPT:http-referrer=https://kisskissplay.cfd/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://nfsnew.newkso.ru/nfs/premium6/mono.m3u8
 #EXTINF:-1 tvg-id="5b870c3faad478904333c1893b6903d2" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie C : Athletic Carpi vs Legnago Salus (SKY SPORT 252 IT)
 #EXTVLCOPT:http-origin=https://kisskissplay.cfd
 #EXTVLCOPT:http-referrer=https://kisskissplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://nfsnew.newkso.ru/nfs/premium5/mono.m3u8
+#EXTINF:-1 tvg-id="373873ed69c269726d6ef7ec332c06a0" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie C : Crotone vs Foggia (SKY SPORT 251 IT)
+#EXTVLCOPT:http-origin=https://kisskissplay.cfd
+#EXTVLCOPT:http-referrer=https://kisskissplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://nfsnew.newkso.ru/nfs/premium6/mono.m3u8
 #EXTINF:-1 tvg-id="373873ed69c269726d6ef7ec332c06a0" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie C : Crotone vs Foggia (RAI SPORT 1 IT)
 #EXTVLCOPT:http-origin=https://kisskissplay.cfd
 #EXTVLCOPT:http-referrer=https://kisskissplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://ddy6new.newkso.ru/ddy6/premium882/mono.m3u8
-#EXTINF:-1 tvg-id="373873ed69c269726d6ef7ec332c06a0" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie C : Crotone vs Foggia (SKY SPORT UNO IT)
-#EXTVLCOPT:http-origin=https://kisskissplay.cfd
-#EXTVLCOPT:http-referrer=https://kisskissplay.cfd/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddy6new.newkso.ru/ddy6/premium461/mono.m3u8
 #EXTINF:-1 tvg-id="5b870c3faad478904333c1893b6903d2" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie C : Athletic Carpi vs Legnago Salus (SKY SPORT ARENA IT)
 #EXTVLCOPT:http-origin=https://kisskissplay.cfd
 #EXTVLCOPT:http-referrer=https://kisskissplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://ddy6new.newkso.ru/ddy6/premium462/mono.m3u8
+#EXTINF:-1 tvg-id="373873ed69c269726d6ef7ec332c06a0" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie C : Crotone vs Foggia (SKY SPORT UNO IT)
+#EXTVLCOPT:http-origin=https://kisskissplay.cfd
+#EXTVLCOPT:http-referrer=https://kisskissplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ddy6new.newkso.ru/ddy6/premium461/mono.m3u8
 #EXTINF:-1 tvg-id="b7acf021c076602c568523bcfee136a5" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie A : Napoli vs Empoli (DAZN ZONA IT)
 #EXTVLCOPT:http-origin=https://kisskissplay.cfd
 #EXTVLCOPT:http-referrer=https://kisskissplay.cfd/
@@ -34,6 +34,21 @@ https://nfsnew.newkso.ru/nfs/premium877/mono.m3u8
 #EXTVLCOPT:http-referrer=https://kisskissplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://windnew.newkso.ru/wind/premium870/mono.m3u8
+#EXTINF:-1 tvg-id="616f12f3aa78b9ed51ed0b3b7faa6a3e" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",UEFA Champions League : Borussia Dortmund vs Barcelona (SKY SPORT MAX IT)
+#EXTVLCOPT:http-origin=https://kisskissplay.cfd
+#EXTVLCOPT:http-referrer=https://kisskissplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://dokko1new.newkso.ru/dokko1/premium460/mono.m3u8
+#EXTINF:-1 tvg-id="99be55dd661905749e9ec3c0490689fb" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",UEFA Champions League : Aston Villa vs PSG (SKY SPORT 253 IT)
+#EXTVLCOPT:http-origin=https://kisskissplay.cfd
+#EXTVLCOPT:http-referrer=https://kisskissplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://nfsnew.newkso.ru/nfs/premium24/mono.m3u8
+#EXTINF:-1 tvg-id="616f12f3aa78b9ed51ed0b3b7faa6a3e" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",UEFA Champions League : Borussia Dortmund vs Barcelona (SKY SPORT 252 IT)
+#EXTVLCOPT:http-origin=https://kisskissplay.cfd
+#EXTVLCOPT:http-referrer=https://kisskissplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://nfsnew.newkso.ru/nfs/premium25/mono.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Calcio",ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 #EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Aston Villa   PSGChampions League   Ritorno quarti di FinaleMartedì 15 Aprile ore 21:00
@@ -114,7 +129,7 @@ https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-c
 #EXTVLCOPT:http-referrer=https://www.twitch.tv/manuuxo
 #EXTVLCOPT:http-origin=https://www.twitch.tv/manuuxo
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://use21-0.playlist.ttvnw.net/v1/playlist/CtkEGXuYdARaeuUj1jxPZWiUTDEgpbMpg8zMQ2JrWXSEZnawX7SDRor2hS_6-K0iSkU9R1AV_qIG0gZ8rI7_dKxNYYIwET22obHHGu5IF2cZ13qjtJ5YlhRv2WMOJhDvuSNVmmRJ8fU-kRVaB4gIT5fcC8kfo6IJowm9YJvxMpTkaxToD830M9GZhzGG1O_g5G_AcxzuaxXXKZFAfE8NnMGy6RJh11XMHl7Jnv07LnGt7Rfoica5bd4RUjdARxJ3l3_0FKGgjsVN6COO11BvFEB7GhnPv01hvu-MA6nMQ-vr9sOvFG2NorxzT9-OY7t6yl3FAkMvVw92_Ks8Nv420Jpnqwc9ECYF0Muxh1VT1EELXnClzXhjg0k1ZxK6EZsYnOzCrgEVgNTYY8HRXEjT3UalZsZzvjR_xeKvWxqAWPn-sMzxYAJC-EnbQ3toLLT0kp0NsD1Fk8TbEnEABAF6_X2kBjeg83Ypn7tSxB6neE6mwvnQnIDdDRGvbX-RahYIDsUIfzT5PDqswJrw-fOnQC2na3QCDB2mK6b-eodzwIIoBL4Vvk3mtO8pH8m_QHILisexXkXezSzf18hqr3ybCzGGjBQhZoxV06_ul6Ho-ZDKmDGBIjKqbPW-RB9QvmSrgi7opSW7uzl3ohM14XPGFk3gRGFkzth2Ngg6WzJFao3n6nEu1-ffxdSPbuF-1SEdRTvbawgj8S64q5jvQqhU1T7xwWoqTywDXFMak-oK9S0Vi1yMAJkpN-gOG2PLnbLBtoLBtwtLZptBkqlCx-evBMicd_OcyKLL8_JKThoM7Twp7CQuI4b4e-SvIAEqCXVzLWVhc3QtMjCEDA.m3u8
+https://use21-0.playlist.ttvnw.net/v1/playlist/CtoEDUpXXZ1yUDLXCxSSkGT-0q1uAl9fcMtymbHLFJR0VdMYUfWCjuX1mCAjMe5-hUxNvxK306e-kHqndmZW8TNJ4ppJevG5mOnCWikf-AsrTVuUQt3JTkbI_ToO8tovn1fiN1324SYFOQ18ZdW8kU0ARQEjyuRqczUlRSXk71LLqoay1dK6SWA7kiu3-6-lldm1BaW5hOUGRmc4Bq0Xjt2lNvrum8M1rB4_E2o1Ihiii1Bay2WK8CO0d8FWv0pKdjpbQHCvZGuWC5RSUzBF2K6UTWkjrIfvvBE11z3y7-tdP869WEe0JloV-gTdq_WBhSytnIjWmYTXmecaSINrBAPDa9lozR8FuzzWo8FbhF9ulD2PpF1hSNK2IsNVDwcf_cFPdZz9LzJ2G35yxiCHHp9_fBKGwO7Sxi-3GxEGdsfxZlEDE-jVsz7871CMvsGlAhdNK-P6oCtqEOZFRUXfBxe2jvj4B18YoU2vz6Du7Ag57xEKYJFKY5wTU14x475eIf0hIJdfh6GEds_HbQCP-weObYRtlRn2fYXvlmgVoPrNyoe1fUOHtw98Z59XU5GMOjZtYpUVPhjR3dmXjyDsU4bd7oXfJTDU9Ksl4XlSuNmmnxj0PRMa-xBy3xQ55A3ZrHNLoseANJ500I_XhxNlrnvoSu_ZKSL_NoixA_3UBlzja71xA5-z7-Gfwgp4suxAf8m5jrqbD2_Wd7Ocn_rrEZA3X1371JsKNYcgd95J0rsqFGxMuRxdy96wxJ-5nYwHibtAfL_bE533zi7i6aczdzDgfszA53CPmzzx-t8aDOOlrmv6Api5pL8mziABKgl1cy13ZXN0LTIwhQw.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Kings League", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 #EXTM3U  url-tvg="http://www.epgitalia.tv/gzip,http://epg-guide.com/it.gz,https://raw.github.com/matthuisman/i.mjh.nz/master/PlutoTV/us.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/PlutoTV/it.xml.gz,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-events-epg.xml,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-channels-epg.xml,https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/it.xml.gz"
