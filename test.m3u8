@@ -1,0 +1,18 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="iTV1" tvg-language="English" tvg-country="UK" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/1/1f/ITV1_logo_%282022%29.svg/225px-ITV1_logo_%282022%29.svg.png" group-title="UEFA Euro 2024",iTV1
+#EXT-X-KEY:METHOD=CLEARKEY,URI="keyId=5d9937d586414096948337ac314d79c1,key=22ca2e250b729982c97209e0ff3f7e9b"
+https://wp2-obc1112-live-ch-prod.prod.cdn.dmdsdp.com/dash/SV09212/manifest.mpd
+
+#EXTINF:-1 tvg-id="SPOTV" tvg-language="English" tvg-country="KR" tvg-logo="https://i.namu.wiki/i/0XJ6kATkQEmmTJavHekzanbNDzvg_feSbq-UEme7nbb-87hWY29WifqEByopOrOhwkBo87YwYDuYoRc6huEeLA.svg" group-title="UEFA Euro 2024",SPO TV
+#EXT-X-KEY:METHOD=CLEARKEY,URI="keyId=c0e1804aa1d9fd9c41c41bf0f61a5f10,key=758823e4eabb6e4c8c036d073db46b8c"
+https://linearjitp-playback.astro.com.my/dash-wv/linear/5058/default.mpd
+
+#EXTINF:-1 tvg-id="SkySport251" tvg-language="Italian" tvg-country="IT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Sky_Sport_F1_-_Logo_2020.svg/320px-Sky_Sport_F1_-_Logo_2020.svg.png" group-title="UEFA Euro 2024",Sky Sport 251
+#EXT-X-KEY:METHOD=CLEARKEY,URI="keyId=00368000eaecbeeafd84c05b3b8243af,key=8f84185910e18ae0ca8a45004625a000"
+https://linear311-it-dash1-prd-akp2.cdn13.skycdp.com/016a/31917/FHD/skysport251/master.mpd
+
+#EXTINF:-1 tvg-id="BeinSports1" tvg-language="French" tvg-country="FR" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/BeIN-Sports-Logo.svg/1200px-BeIN-Sports-Logo.svg.png" group-title="UEFA Euro 2024",Bein Sports 1
+https://live.notebulk.xyz/BeZ8GWqbb7Tll-ObxbkdAw/1718207986/fr_beinsports1/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-id="iTV1Server2" tvg-language="English" tvg-country="UK" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/BeIN-Sports-Logo.svg/1200px-BeIN-Sports-Logo.svg.png" group-title="UEFA Euro 2024",iTV1 - Server 2
+https://livetvde.net/itv1/index.m3u8?token=7793c45dec5b807f733e4d95a917ce8540f72c1c-794486d81277d912f6f69001ac640aac-1718271846-1718261046
