@@ -24,6 +24,16 @@ https://windnew.newkso.ru/wind/premium870/mono.m3u8
 #EXTVLCOPT:http-referrer=https://kisskissplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://nfsnew.newkso.ru/nfs/premium16/mono.m3u8
+#EXTINF:-1 tvg-id="f83f476aec8b7dc0904a2a9bcb8e4d3a" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie C : Pescara vs Gubbio (SKY SPORT 254 IT)
+#EXTVLCOPT:http-origin=https://kisskissplay.cfd
+#EXTVLCOPT:http-referrer=https://kisskissplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://nfsnew.newkso.ru/nfs/premium18/mono.m3u8
+#EXTINF:-1 tvg-id="d1a2eef4b8c1cdc6db6f972e5fe3fc5a" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie C : Triestina vs Calcio Padova (SKY SPORT 251 IT)
+#EXTVLCOPT:http-origin=https://kisskissplay.cfd
+#EXTVLCOPT:http-referrer=https://kisskissplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://nfsnew.newkso.ru/nfs/premium3/mono.m3u8
 #EXTINF:-1 tvg-id="28e40fa4f0b3637cab4d7c49efb8ed15" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie C : Virtus Entella vs Arezzo (SKY SPORT 252 IT)
 #EXTVLCOPT:http-origin=https://kisskissplay.cfd
 #EXTVLCOPT:http-referrer=https://kisskissplay.cfd/
@@ -34,56 +44,46 @@ https://nfsnew.newkso.ru/nfs/premium17/mono.m3u8
 #EXTVLCOPT:http-referrer=https://kisskissplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://nfsnew.newkso.ru/nfs/premium19/mono.m3u8
-#EXTINF:-1 tvg-id="f83f476aec8b7dc0904a2a9bcb8e4d3a" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie C : Pescara vs Gubbio (SKY SPORT 254 IT)
-#EXTVLCOPT:http-origin=https://kisskissplay.cfd
-#EXTVLCOPT:http-referrer=https://kisskissplay.cfd/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://nfsnew.newkso.ru/nfs/premium18/mono.m3u8
-#EXTINF:-1 tvg-id="a7d18d83bdeba6ddb637a0a95c125841" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie A : Fiorentina vs Parma (ZONA DAZN IT)
-#EXTVLCOPT:http-origin=https://kisskissplay.cfd
-#EXTVLCOPT:http-referrer=https://kisskissplay.cfd/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://nfsnew.newkso.ru/nfs/premium877/mono.m3u8
-#EXTINF:-1 tvg-id="61a76951b33434c2bc61c998816c3bed" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie B : Cremonese vs Juve Stabia (DAZN ITALIA)
-#EXTVLCOPT:http-origin=https://kisskissplay.cfd
-#EXTVLCOPT:http-referrer=https://kisskissplay.cfd/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://dokko1new.newkso.ru/dokko1/premium86/mono.m3u8
 #EXTINF:-1 tvg-id="c4cac2ca2c31680e8ff252360ad3c929" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie C : Ascoli vs Sassari Torres (SKY SPORT 255 IT)
 #EXTVLCOPT:http-origin=https://kisskissplay.cfd
 #EXTVLCOPT:http-referrer=https://kisskissplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://ddy6new.newkso.ru/ddy6/premium152/mono.m3u8
-#EXTINF:-1 tvg-id="d1a2eef4b8c1cdc6db6f972e5fe3fc5a" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie C : Triestina vs Calcio Padova (SKY SPORT 251 IT)
-#EXTVLCOPT:http-origin=https://kisskissplay.cfd
-#EXTVLCOPT:http-referrer=https://kisskissplay.cfd/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://nfsnew.newkso.ru/nfs/premium3/mono.m3u8
 #EXTINF:-1 tvg-id="01cad65fb87fc9fc5adfe4d1a2d79708" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie A : Hellas Verona vs Genoa (ZONA DAZN 2 IT)
 #EXTVLCOPT:http-origin=https://kisskissplay.cfd
 #EXTVLCOPT:http-referrer=https://kisskissplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://ddy6new.newkso.ru/ddy6/premium69/mono.m3u8
-#EXTINF:-1 tvg-id="a5c3a5b667d8ae43c35115e7a9c6d2a1" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie B : Cesena vs Frosinone (DAZN ITALIA)
+#EXTINF:-1 tvg-id="61a76951b33434c2bc61c998816c3bed" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie B : Cremonese vs Juve Stabia (DAZN ITALIA)
 #EXTVLCOPT:http-origin=https://kisskissplay.cfd
 #EXTVLCOPT:http-referrer=https://kisskissplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://nfsnew.newkso.ru/nfs/premium77/mono.m3u8
+https://dokko1new.newkso.ru/dokko1/premium86/mono.m3u8
 #EXTINF:-1 tvg-id="9ebd5dd315292757a9580ccd9f5b4adb" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie A (women) : Napoli vs Sassuolo (DAZN ITALIA)
 #EXTVLCOPT:http-origin=https://kisskissplay.cfd
 #EXTVLCOPT:http-referrer=https://kisskissplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://ddy6new.newkso.ru/ddy6/premium105/mono.m3u8
-#EXTINF:-1 tvg-id="fd2ec12e6ba1e1844a8e873e10f05ce6" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",England - Premier League : Wolverhampton Wanderers vs Tottenham Hotspur (SKY SPORT 258 IT)
+#EXTINF:-1 tvg-id="a7d18d83bdeba6ddb637a0a95c125841" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie A : Fiorentina vs Parma (ZONA DAZN IT)
 #EXTVLCOPT:http-origin=https://kisskissplay.cfd
 #EXTVLCOPT:http-referrer=https://kisskissplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://nfsnew.newkso.ru/nfs/premium29/mono.m3u8
+https://nfsnew.newkso.ru/nfs/premium877/mono.m3u8
+#EXTINF:-1 tvg-id="a5c3a5b667d8ae43c35115e7a9c6d2a1" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie B : Cesena vs Frosinone (DAZN ITALIA)
+#EXTVLCOPT:http-origin=https://kisskissplay.cfd
+#EXTVLCOPT:http-referrer=https://kisskissplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://nfsnew.newkso.ru/nfs/premium77/mono.m3u8
 #EXTINF:-1 tvg-id="ead0c3fe0de828ccca4ab238d83a5886" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",England - Premier League : Chelsea vs Ipswich Town (SKY SPORT 257 IT)
 #EXTVLCOPT:http-origin=https://kisskissplay.cfd
 #EXTVLCOPT:http-referrer=https://kisskissplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://nfsnew.newkso.ru/nfs/premium25/mono.m3u8
+#EXTINF:-1 tvg-id="fd2ec12e6ba1e1844a8e873e10f05ce6" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",England - Premier League : Wolverhampton Wanderers vs Tottenham Hotspur (SKY SPORT 258 IT)
+#EXTVLCOPT:http-origin=https://kisskissplay.cfd
+#EXTVLCOPT:http-referrer=https://kisskissplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://nfsnew.newkso.ru/nfs/premium29/mono.m3u8
 #EXTINF:-1 tvg-id="8cd79b25dd1f809de14fc188d539b1e8" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",England - Premier League : Liverpool vs West Ham United (SKY SPORT MAX IT)
 #EXTVLCOPT:http-origin=https://kisskissplay.cfd
 #EXTVLCOPT:http-referrer=https://kisskissplay.cfd/
@@ -94,16 +94,6 @@ https://dokko1new.newkso.ru/dokko1/premium460/mono.m3u8
 #EXTVLCOPT:http-referrer=https://kisskissplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://ddy6new.newkso.ru/ddy6/premium151/mono.m3u8
-#EXTINF:-1 tvg-id="f1f639ea29a38cbe226a7cbd3ca5af10" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie C : Potenza Calcio vs Casertana (SKY SPORT 254 IT)
-#EXTVLCOPT:http-origin=https://kisskissplay.cfd
-#EXTVLCOPT:http-referrer=https://kisskissplay.cfd/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://nfsnew.newkso.ru/nfs/premium18/mono.m3u8
-#EXTINF:-1 tvg-id="2733ba6a8347bb7e97fcfd9d233c5db7" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie C : Trapani 1905 vs Team Altamura (SKY SPORT 252 IT)
-#EXTVLCOPT:http-origin=https://kisskissplay.cfd
-#EXTVLCOPT:http-referrer=https://kisskissplay.cfd/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://nfsnew.newkso.ru/nfs/premium17/mono.m3u8
 #EXTINF:-1 tvg-id="80a3f0d40fc4e0654930e3fc5ad6c445" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie C : Pergolettese vs Giana Erminio (SKY SPORT 255 IT)
 #EXTVLCOPT:http-origin=https://kisskissplay.cfd
 #EXTVLCOPT:http-referrer=https://kisskissplay.cfd/
@@ -114,6 +104,16 @@ https://ddy6new.newkso.ru/ddy6/premium152/mono.m3u8
 #EXTVLCOPT:http-referrer=https://kisskissplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://nfsnew.newkso.ru/nfs/premium16/mono.m3u8
+#EXTINF:-1 tvg-id="f1f639ea29a38cbe226a7cbd3ca5af10" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie C : Potenza Calcio vs Casertana (SKY SPORT 254 IT)
+#EXTVLCOPT:http-origin=https://kisskissplay.cfd
+#EXTVLCOPT:http-referrer=https://kisskissplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://nfsnew.newkso.ru/nfs/premium18/mono.m3u8
+#EXTINF:-1 tvg-id="2733ba6a8347bb7e97fcfd9d233c5db7" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie C : Trapani 1905 vs Team Altamura (SKY SPORT 252 IT)
+#EXTVLCOPT:http-origin=https://kisskissplay.cfd
+#EXTVLCOPT:http-referrer=https://kisskissplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://nfsnew.newkso.ru/nfs/premium17/mono.m3u8
 #EXTINF:-1 tvg-id="26279d8baa191001b585e5682ba0d4ae" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Bundesliga : Eintracht Frankfurt vs Heidenheim (SKY SPORT 257 IT)
 #EXTVLCOPT:http-origin=https://kisskissplay.cfd
 #EXTVLCOPT:http-referrer=https://kisskissplay.cfd/
@@ -164,16 +164,16 @@ https://nfsnew.newkso.ru/nfs/premium5/mono.m3u8
 #EXTVLCOPT:http-referrer=https://kisskissplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://nfsnew.newkso.ru/nfs/premium6/mono.m3u8
-#EXTINF:-1 tvg-id="373873ed69c269726d6ef7ec332c06a0" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie C : Crotone vs Foggia (RAI SPORT 1 IT)
-#EXTVLCOPT:http-origin=https://kisskissplay.cfd
-#EXTVLCOPT:http-referrer=https://kisskissplay.cfd/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddy6new.newkso.ru/ddy6/premium882/mono.m3u8
 #EXTINF:-1 tvg-id="5b870c3faad478904333c1893b6903d2" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie C : Athletic Carpi vs Legnago Salus (SKY SPORT ARENA IT)
 #EXTVLCOPT:http-origin=https://kisskissplay.cfd
 #EXTVLCOPT:http-referrer=https://kisskissplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://ddy6new.newkso.ru/ddy6/premium462/mono.m3u8
+#EXTINF:-1 tvg-id="373873ed69c269726d6ef7ec332c06a0" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie C : Crotone vs Foggia (RAI SPORT 1 IT)
+#EXTVLCOPT:http-origin=https://kisskissplay.cfd
+#EXTVLCOPT:http-referrer=https://kisskissplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ddy6new.newkso.ru/ddy6/premium882/mono.m3u8
 #EXTINF:-1 tvg-id="373873ed69c269726d6ef7ec332c06a0" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie C : Crotone vs Foggia (SKY SPORT UNO IT)
 #EXTVLCOPT:http-origin=https://kisskissplay.cfd
 #EXTVLCOPT:http-referrer=https://kisskissplay.cfd/
@@ -259,16 +259,11 @@ https://stream-ss.b-cdn.net/hls/Canale1Perma.m3u8
 https://stream-ss.b-cdn.net/hls/Canale5Perma.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Eventi", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/hjvtqD6B/photo-2025-03-20-16-36-52.png" group-title="Kings League", therealmarzaa
-#EXTVLCOPT:http-referrer=https://www.twitch.tv/therealmarzaa
-#EXTVLCOPT:http-origin=https://www.twitch.tv/therealmarzaa
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://usw21-0.playlist.ttvnw.net/v1/playlist/CvUEPhDdS7RwLmKStmdgvyvcPiBkAq6VZ_OeZ0Af6ayZ_lufPUNuWWjDamsbo8fMnX50Qwx-5GbxM7vibfeMxfOAzruT34DgS05xQqx-ZdzwhDlMSq71pvxj8P1oL_mAznQw4_jiJeInHX0aLj-l1OAOZasvl0i4UvgALBfFG3LsBN8LyGeOpHng_Zj4BmE-edENeZpfbNCzfbQkSaulx4PDiFovDk1CG8U0WkSgSQ76f7mrlfzOQh0WrQTXdBulFbT3kv2jn9zm0RbuRWDg9RDnlpc4q_FrQ5YFbwpoZZYMDbYVjqHz_Ha8_lmSZ-97N01y6EPgmzYR_lzvffm_8YYlDYifNKF7YsesmArhczRHJ9L3VHrGFBDufWQUYg2SlHmrgmwtR20YkYvjw1E4HmownXpgNnTt_U9XUL7FRgO9-u5RU5EGR-olEw_xZAdNm8Qrem1I_CnnjpRNuQPdHLnH6dBy9xZhTI-GBtWG9iC2AmRzCaIqrP21ifj0MHQlZ1JZZkvEwVuYOnToFHUad-RB-9HQI4F_JQGFMIQHnBp25f0I74gVI9imZgW7ReQ5VE4G9i6_1EVna_bdi1H4h04xJFubOKfh-5OldwPz7FbRvMUY6bGSOUL0-3z3pYMc85UI1-YhsaJpXm3q4pq1At45NSPqRdbFRP8lcYaG10zq9wTmwqJnJM9fOYDXukvXFubgndQctFVnJdRWZYxGlwgUGVYVdBvOLHzT8Bb6JEONqGA0V9--GB1nd3pxe1XH8Mwf95YOp_XTwWiVzvHZkNQ5QckdyEXNIE4iLT9-HYo_rVCbZqlmRrUeIJTOzgr_SuCnR6iMWecaDE559r36IdvrTzhrxSABKgl1cy1lYXN0LTIwgww.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/hjvtqD6B/photo-2025-03-20-16-36-52.png" group-title="Kings League", manuuxo
 #EXTVLCOPT:http-referrer=https://www.twitch.tv/manuuxo
 #EXTVLCOPT:http-origin=https://www.twitch.tv/manuuxo
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://use13-0.playlist.ttvnw.net/v1/playlist/Ct0E-h9tmRdcD8yY_bdF1EJjCDNkZyEAHRUf1PAgCcGG4xgbHr4OzpW2HK-xU-rHtAWZBAqEdCwZ-KEtNHSdRWBGxFF7qJEor-gPIPwPAr677UX5V5YsG9Vc6HtcK1IVxTpRT0lqT5JiQ3uKbS7lnoDgU4KjVaUlS6jjKB-uowfE8T3apMAGQtbp0mLYqJdKnGi0Xn-FJS9_a44WrIBzgbdC8rnnkknpGnX2MrrhrZjGS6UaHPZEPaM0QEP19SNZbklRMwfyRGaOz0TGB8yp7lMTmFTU59LuSGQu1JMTIFEzRqvlqNqEi5fVXrWdPkGhjr8u0LJHyF2AxTYe4mUmc42Pja5z022csIMlGcMMCnx8w0six6vg1uu0QowIITB5AxZ2SX8-1-jHGi3U9OGeEX7NQvisufAY6GDQrADYoDj_CLMvYU5K3TcLyr7zdVc0DReVDI6VVPZLAHGAyhmqL0KDbJRmUzq4t_Fhao0gRYqCGxV89ahrvHkXDxsbcngih8je8h2r7WPCcYC8qhi5hNJmffbMO3_1czPh0S6uG3pGXElu1x0bsXgngSAqWBxQpmSJS0oz86RCNIdveeZsWH5hBquOqI7pdZ5QizB3HdHYFhMGo7v96ALJG7y75t5C4X2ZN7oPE7YjSU2PMGI8Ku3aCbvf0-Qsy_B9xLP8PGY1IHINRcgLVLSniMSAR-VXpOt21Y0rO3LwshzC68IkwLAGRhpdgf9DVGRMRqxWSiMPRYCwioSbZVWQwajAoW6dPma_HVIaKVbc86QpVEWNQTaOAMpudFChMdPASb-sdDgaDB-WelJed05ZPof_XiABKgl1cy1lYXN0LTIwgww.m3u8
+https://usw22-0.playlist.ttvnw.net/v1/playlist/CtgE23gR9DC7b3kb-1ORsPFkJPG5Sa52ZYZFxVpi8pHwD7AdyhfEp_86EAkj0yFBG5u1-mmykzfyKEEm1Cia050OoMZLpy5qOqDJsGYtcDLynTLN46R91_adk8zRfUXa9urhLXlwqKsNKH3-sSur_mkv438eQCjUNhZFMxC9jDNFWLAFS7VjKgXtbw78b5CS7zmJX-rxfyGppw-4hnsLEWI1Ac9lNgbihUq8IXQ9QyWWtZEOr2y--oYtFQemnkuDEwoLENEciy6ytH7LpBCOuVYlhVOJ74A8d1JkunD8PlOjVYTvIE2agaZDLHp_sPdUfBEeNFjG8wzpInQqk3RJjlRdxK42PD8GUmZaXggcooeGg9G0IBjK7hM0iHQFQJIAgC-T10mS3ZWIKEwFlxj4iAvr0QyKLRkqVYdthfDe-9-xPgHm3Fn0pwoBvYuP0DwhsRClCDaMR3Nq7NxkPY93YViatY-olqU326wYOUjTi3AJ_W1mrX-co1kpEZ7xIu_mOJRBxBGvvIE61cOCk1-diIVfL174FVEI6HrAVastzO4EsGacNLM-Wxey6nOFMBrYd77LJCSVSN95wR0ff_hJ3QG83v5RzMV6xZsMeMPJw_m0EFST-Si8iJLFI3MWVocmIqAqMt7AkpaWw1ulmGzJdx-QJccSz3S6lu82v8MNVVMnVcOK7BGZYvgR-6etezaWxG1sysJS8a_k1JWjuKv0rDzMJfC5fYA9Mkt7DdBRIGKmHpgmRldgTLQSTe6xYNbmDBs14iHHRZLg8cvl4Uz7_jUO6F445YXQZIAaGgy6vkEh7A7yeOertbggASoJdXMtZWFzdC0yMIMM.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Kings League", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 #EXTM3U  url-tvg="http://www.epgitalia.tv/gzip,http://epg-guide.com/it.gz,https://raw.github.com/matthuisman/i.mjh.nz/master/PlutoTV/us.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/PlutoTV/it.xml.gz,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-events-epg.xml,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-channels-epg.xml,https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/it.xml.gz"
