@@ -1,7 +1,6 @@
 import requests
 import re
 import os
-from pathlib import Path
 from github import Github
 from github import GithubException
 
@@ -53,9 +52,8 @@ logos = {
     "Sky Primafila FHD": "https://i.postimg.cc/VL0pBWFX/Picsart-25-04-16-23-24-42-819.png"
 }
 
-# Percorso del desktop
-desktop = Path.home() / "Desktop"
-output_file = desktop / "vavoofunzionante.m3u8"
+# Percorso del file di output nella directory di lavoro corrente
+output_file = "./vavoofunzionante.m3u8"
 
 # Configurazione per GitHub
 GITHUB_TOKEN = os.getenv("GH_TOKEN")  # Token di accesso personale GitHub
@@ -169,7 +167,7 @@ for extinf, url in valid_sky_primafila_channels:
     if url:
         new_playlist.append(url)
 
-# Scrivi la nuova playlist nel file sul desktop
+# Scrivi la nuova playlist nella directory di lavoro corrente
 with open(output_file, "w", encoding="utf-8") as f:
     f.write("\n".join(new_playlist))
 
@@ -206,4 +204,4 @@ else:
 
 # Stampa i gruppi trovati per debug
 print("Gruppi trovati nella playlist:", sorted(gruppi_trovati))
-print(f"Playlist creata con successo sul desktop: {output_file}")
+print(f"Playlist creata con successo: {output_file}")
