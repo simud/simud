@@ -16,26 +16,14 @@ https://nfsnew.newkso.ru/nfs/premium12/mono.m3u8
 https://windnew.newkso.ru/wind/premium76/mono.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Calcio",ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Aston Villa   PSGChampions League   Ritorno quarti di FinaleMartedì 15 Aprile ore 21:00
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
-https://stream-ss001.b-cdn.net/hls/Canale4.m3u8
 #EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Athletic Bilbao   RangersEuropa League   Ritorno quarti di FinaleGiovedì 17 Aprile ore 21:00
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
 https://stream-ss001.b-cdn.net/hls/Canale12.m3u8
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Borussia Dortmund   BarcellonaChampions League   Ritorno quarti di FinaleMartedì 15 Aprile ore 21:00
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
-https://stream-ss001.b-cdn.net/hls/Canale3.m3u8
 #EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Chelsea   Legia VarsaviaConference League   Ritorno quarti di FinaleGiovedì 17 Aprile ore 21:00
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
 https://stream-ss001.b-cdn.net//hls/Canale13.m3u8
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Diretta Gol Champions LeagueChampions League   Ritorno quarti di FinaleMartedì 15 Aprile ore 21:00
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
-https://stream-ss001.b-cdn.net/hls/Canale2.m3u8
 #EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Diretta Gol Europa e Conference LeagueEuropa e Conference League   Ritorno quarti di FinaleGiovedì 17 Aprile ore 18:45
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
@@ -90,7 +78,7 @@ https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-c
 #EXTVLCOPT:http-referrer=https://www.twitch.tv/freneh
 #EXTVLCOPT:http-origin=https://www.twitch.tv/freneh
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://usw22-0.playlist.ttvnw.net/v1/playlist/CtEEMf0SegVVM43p5uoHjPi2UagI6gB3qal8YRyHOTcv-l68WG_Y4gL1Lf5hqzg1xZ7rkrVMLzBz46plPUwZhkyzIERZkHDe8XKVSbaSQ568iFEt9wFU00ucC6rmvx5_8VqdXrpLjoEsfI-34cN7UjlK8na7S-c0mXHjlF60TH4YdopJIXlxAY3FoY2-jyCHGN2C7m63Zx2MZBzFHILYpA40upKXfctk724rmSiBIpdA120FAEkZO8a1hHkzfItOKde5oUemJdt5FRIKjXPTdiPmtYKbrhfw1p36j_qNRL4YBZw5dj54x_3MtZS1yZVZsyb3szisNyF8w8CYxxvQYgnwSdX997IsdvQMt6F14YP_e2VOka08UzbNoruZXLEU6H6i9QJnd7zz1P6AucsvmubolFmOdYg4a4LdISfpvkC8je0u4xXnGJdIOhRiQ9xjzk36x3I06r0mKUFgWaH2rEo6vqIby3R7qJgrV5v_PO06cy2VjdvpaXV-Fz9Uz3SlYOowrgfOT29RF2DI82yQ0Tmo6OQqqhOyVmXgjysi97GINOUALCwEa75eRltikoWmfKg7SuqbwKDJC_RPGD84L2dRf_pCiRxR4jXIOxP6XXTqsLl88VUMRDeDhDoik2cCJ2GTDB-VTmN9gLcYhbv6a-vSMq314QDh6FipOGBY3lLQjMlnl00F00o_94wQM_d15RhTA1n5kjK-wd2amdbuhlDCP26KCzOI7_3pQfHbnNiSrjHg74OxoidRBxpDrlARNCS_dg7drnPBU4HJFClGdlPRPcQaDOmC4i8oBKYYR43h-yABKgl1cy13ZXN0LTIwhgw.m3u8
+https://use23-0.playlist.ttvnw.net/v1/playlist/CskEBtWvsOHnM_h1dXgZTQbgeYfeIfI86Iv-5Kg1M4ca_bLEwhD-t5s8dT3B_BAC1Z49G4MiV1dzDfuJc5V9D79GfDHqGNMkwAvSu2tgnAwmO9yAN3PJgCiYVi7LE06YTtIK6FF525kdlsevTpfIrX-vM33muuVGXBc3-AP623YhyanHZVa9UhDMQ1_PX1si4axXd99BM6CFSVJ6S0vbvb2YIHH5VoDRhAZw06dCra6YPbnxZgDtkOGO-DtuJa8V-honlqcZqf_Jh55cbuO__U8I4mC5kj0kIT9vWQWPVazJEo34nAX77PuxkkvkemhJKrC3dT3eLZDvmTQoQ0tPRsASpvhgog8gkqeFJSaAHKGVOs8Sd24c3UqXHhLCBrR1OPxgawpNoadU7C6dF-d-di_DVrao1hlI5S9FIXdcud4LOlpN7hi3YijqL8mbJo14QTbhHy6J8lenipXgWYA8Zqght23CCgdlYv59TQStcdmWhfkOtBuddCcY6b1NA6sWX30heLcL1iVW1Uga3hJ43lGWSkUt6bIviYHaWI9bbfGXYf5yDPM_GQQ790ToDrMVDL2IKyQn3xQX-2VhkQKZMQQwajy7HiuRVH4qnZePrxAzEVEI4XBONeUdX-nAHwbaFar5Yk7z5vbYbZA_NuUqJ2yRDR25TfyAY92mlMCKSfujVj3KmBNzZU4MZlC61gd3jdKnOBzscdaTzRw10q7Y2Tuk8xAmfegW-jeTSQEJguTzSWFLixiCBQ1Nu_yDjIISo-q5M2Y8i2wgdlxJGgywuTMiycbn70lSCh4gASoJdXMtZWFzdC0yMIUM.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Kings League", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 #EXTM3U  url-tvg="http://www.epgitalia.tv/gzip,http://epg-guide.com/it.gz,https://raw.github.com/matthuisman/i.mjh.nz/master/PlutoTV/us.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/PlutoTV/it.xml.gz,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-events-epg.xml,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-channels-epg.xml,https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/it.xml.gz"
