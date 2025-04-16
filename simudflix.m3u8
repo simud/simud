@@ -577,40 +577,24 @@ https://windnew.newkso.ru/wind/premium881/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://windnew.newkso.ru//wind/premium880/mono.m3u8
 
-#EXTINF:-1 tvg-chno="40" tvg-id="boing" tvg-name="Boing" tvg-logo="https://i.postimg.cc/NFGs2Ptq/photo-2025-03-12-12-36-48.png" group-title="Intrattenimento",Boing
-https://live02-seg.msf.cdn.mediaset.net/live/ch-kb/kb-clr.isml/index.m3u8
+#EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Intrattenimento", ADMIN
+https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 
-#EXTINF:-1 tvg-chno="41" tvg-id="k2" tvg-name="K2" tvg-logo="https://i.postimg.cc/NFGs2Ptq/photo-2025-03-12-12-36-48.png" group-title="Intrattenimento",K2
-https://amg16146-wbdi-amg16146c6-samsung-it-1839.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-k2-samsungit/playlist.m3u8
+# Bambini 
 
-#EXTINF:-1 tvg-chno="43" tvg-id="rai yoyo" tvg-name="Rai Yoyo" tvg-logo="https://i.postimg.cc/NFGs2Ptq/photo-2025-03-12-12-36-48.png" group-title="Intrattenimento",Rai Yoyo
-https://raiyoyo1-dash-live.akamaized.net/dash/live/663949/raiyoyo1/manifest.mpd
-
-#EXTINF:-1 tvg-chno="44" tvg-id="frisbee" tvg-name="Frisbee" tvg-logo="https://i.postimg.cc/NFGs2Ptq/photo-2025-03-12-12-36-48.png" group-title="Intrattenimento",Frisbee
-https://amg16146-wbdi-amg16146c7-samsung-it-1840.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-frisbee-samsungit/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="45" tvg-id="iunior channel" tvg-name="Iunior channel" tvg-logo="https://i.postimg.cc/NFGs2Ptq/photo-2025-03-12-12-36-48.png" group-title="Intrattenimento",Iunior channel
-https://5f22d76e220e1.streamlock.net/iuniortv/iuniortv/playlist.m3u8
-
-#EXTINF:-1 tvg-chno="46" tvg-id="cartoonito" tvg-name="Cartoonito" tvg-logo="https://i.postimg.cc/NFGs2Ptq/photo-2025-03-12-12-36-48.png" group-title="Intrattenimento",Cartoonito
-https://live02-seg.msf.cdn.mediaset.net/live/ch-la/la-clr.isml/index.m3u8
-
-#EXTINF:-1 tvg-chno="47" tvg-id="super!" tvg-name="Super!" tvg-logo="https://i.postimg.cc/NFGs2Ptq/photo-2025-03-12-12-36-48.png" group-title="Intrattenimento",Super!
-https://495c5a85d9074f29acffeaea9e0215eb.msvdn.net/super/super_main/super_main_hbbtv/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/NFGs2Ptq/photo-2025-03-12-12-36-48.png" tvg-name="Car City Adventures" group-title="Intrattenimento" , Car City Adventures
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/NFGs2Ptq/photo-2025-03-12-12-36-48.png" tvg-name="Car City Adventures" group-title="Bambini" , Car City Adventures
 https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads._fw_content_language=it&ads.rakuten_market=it&ads.xumo_channelId=88883094
 
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/NFGs2Ptq/photo-2025-03-12-12-36-48.png" tvg-name="Mr Bean Animated" group-title="Intrattenimento", Mr Bean Animated
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/NFGs2Ptq/photo-2025-03-12-12-36-48.png" tvg-name="Mr Bean Animated" group-title="Bambini", Mr Bean Animated
 https://amg00627-amg00627c29-rakuten-it-3989.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanitcc-rakutenit/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/NFGs2Ptq/photo-2025-03-12-12-36-48.png" tvg-name="Sonic The Hedgehog" group-title="Intrattenimento", Sonic The Hedgehog
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/NFGs2Ptq/photo-2025-03-12-12-36-48.png" tvg-name="Sonic The Hedgehog" group-title="Bambini", Sonic The Hedgehog
 https://d118hpi73ik9nb.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ncon6uzsiruj8/master.m3u8
 
-#EXTINF:-1 tvg-name="Peter Coniglio" tvg-id="ITBD31000016S" tvg-logo="https://i.postimg.cc/NFGs2Ptq/photo-2025-03-12-12-36-48.png" group-title="Intrattenimento" , Peter Coniglio
+#EXTINF:-1 tvg-name="Peter Coniglio" tvg-id="ITBD31000016S" tvg-logo="https://i.postimg.cc/NFGs2Ptq/photo-2025-03-12-12-36-48.png" group-title="Bambini" , Peter Coniglio
 https://odmedia-peterconiglio-1-it.samsung.wurl.tv/3000.m3u8
 
-#EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Intrattenimento", ADMIN
+#EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Bambini", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 
 # Pluto TV Italia
