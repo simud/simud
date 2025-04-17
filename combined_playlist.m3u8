@@ -1,19 +1,4 @@
 #EXTM3U url-tvg="http://www.epgitalia.tv/gzip,http://epg-guide.com/it.gz,https://raw.github.com/matthuisman/i.mjh.nz/master/PlutoTV/us.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/PlutoTV/it.xml.gz,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-events-epg.xml,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-channels-epg.xml,https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/it.xml.gz"
-#EXTINF:-1 tvg-id="fb74789094234cb18db50df0876d885c" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",England - Premier League : Newcastle United vs Crystal Palace (SKY SPORT CALCIO IT)
-#EXTVLCOPT:http-origin=https://xtreaweb.top
-#EXTVLCOPT:http-referrer=https://xtreaweb.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://windnew.newkso.ru/wind/premium870/mono.m3u8
-#EXTINF:-1 tvg-id="b521490f9a6f4b43e92042821bc4a1d6" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",UEFA Champions League : Real Madrid vs Arsenal (TV8 IT)
-#EXTVLCOPT:http-origin=https://xtreaweb.top
-#EXTVLCOPT:http-referrer=https://xtreaweb.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://nfsnew.newkso.ru/nfs/premium12/mono.m3u8
-#EXTINF:-1 tvg-id="23e324e8823cf6db95f7b82eb60d1bc3" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",UEFA Champions League : Internazionale vs Bayern München (AMAZON PRIME VIDEO IT)
-#EXTVLCOPT:http-origin=https://xtreaweb.top
-#EXTVLCOPT:http-referrer=https://xtreaweb.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://windnew.newkso.ru/wind/premium76/mono.m3u8
 #EXTINF:-1 tvg-id="1f6c155c3d0160858e2be64c05614043" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",UEFA Conference League : Fiorentina vs Celje (SKY SPORT 253 IT)
 #EXTVLCOPT:http-origin=https://xtreaweb.top
 #EXTVLCOPT:http-referrer=https://xtreaweb.top/
@@ -39,16 +24,16 @@ https://ddy6new.newkso.ru/ddy6/premium461/mono.m3u8
 #EXTVLCOPT:http-referrer=https://xtreaweb.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://nfsnew.newkso.ru/nfs/premium22/mono.m3u8
-#EXTINF:-1 tvg-id="d0d2fba27323e5736cc75468f86c0c19" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",UEFA Europa League : Manchester United vs Olympique Lyonnais (TV8 IT)
-#EXTVLCOPT:http-origin=https://xtreaweb.top
-#EXTVLCOPT:http-referrer=https://xtreaweb.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://nfsnew.newkso.ru/nfs/premium26/mono.m3u8
 #EXTINF:-1 tvg-id="772608c9ac8b30a31c298386b443fb22" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",UEFA Europa League : Athletic Club vs Rangers (SKY SPORT 256 IT)
 #EXTVLCOPT:http-origin=https://xtreaweb.top
 #EXTVLCOPT:http-referrer=https://xtreaweb.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://ddy6new.newkso.ru/ddy6/premium105/mono.m3u8
+#EXTINF:-1 tvg-id="d0d2fba27323e5736cc75468f86c0c19" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",UEFA Europa League : Manchester United vs Olympique Lyonnais (TV8 IT)
+#EXTVLCOPT:http-origin=https://xtreaweb.top
+#EXTVLCOPT:http-referrer=https://xtreaweb.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://nfsnew.newkso.ru/nfs/premium26/mono.m3u8
 #EXTINF:-1 tvg-id="c88228dd14230581d3c58d859a68f06d" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",UEFA Conference League : Chelsea vs Legia Warszawa (SKY SPORT 257 IT)
 #EXTVLCOPT:http-origin=https://xtreaweb.top
 #EXTVLCOPT:http-referrer=https://xtreaweb.top/
@@ -120,7 +105,7 @@ https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-c
 #EXTVLCOPT:http-referrer=https://www.twitch.tv/freneh
 #EXTVLCOPT:http-origin=https://www.twitch.tv/freneh
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://use21-0.playlist.ttvnw.net/v1/playlist/CtwE5Czeti8cKy30SUawd6UYI93qrT_5PvtVjbcwDPwHimlIA7_zBsX0lnAqPxc-Spp-ubrZvNvAtu8pOA4YEG4TcQ5VyUEZR5lI61Qb1yWY-BZ60VE82Fsw4LlWv2KrTkEusFSGK9v02eioLIq3UhraxjBmh8wKsK9FON9SFlE8L4RtPUz3NTzG7ERfQiIBWcepW14lJBd1oHQbGuEJFmPKsb2krn6rK2ngnaXYhktBdG-tIDaOqFZlAP6Y8SQ_yxBn4bXRucfkCItKsdY9roTRATeE2hOPKv1KnLKQ6-lrXGPr6MKfZU9mc2W6xt4t4uZ2WZ-AZ2SB1IawzEbKt6KaOpyztyWqye1AEVwoHSevEA57hU1r1yrl52aAxPMSLbRa2d9YdRNWuZzOWfHshaTLLb1jpN6i_TskwA7yCtcfW7vPmP_Zqc82D1MYfejbYHp5Li7iCdoX00juY6Pfs2hUycqSK6QS9iNHgNDY9gLJHFa4b0I17A6k7OI0TcrMhrH9p4ptcegVKw8VvYrs0kt8cSL2YU0PntgxEvH1EolA9e86WFdKC1Zl7znX7tH19c-P8p4NuEL5U1hlELSXRh-GyA-YbUcb2qJhfVq9w-sBJxW79jvmSHP8OUG_SrNpR6AE8H-y3PYtqMYIPskr95-7vGN8YP0_0xLDgJk9r3FDbMje8a48MYszEi5prAFJJz_tfNdAh46QNLIOYK2J9thv0GBENuUExpFtOHb3wPTHvXfrRloofKjkn4RmEInfrgQ17WNCt4i6E6mIGaOeE-fPqb2LD3Lxuh8G4tQL-RoMpnTTwcD7gfnFSFeAIAEqCXVzLXdlc3QtMjCHDA.m3u8
+https://use22-0.playlist.ttvnw.net/v1/playlist/Ct0E5dtSAUShdWUK-QxDhqVHsBlor30WgmWyihu75PKtG7i0t0m51rlk0ohhrLOQzuu7mnHPH3PIcnG4TvpM4NELQX2zRm2DQLI7zLcAJV-qqn3o44E7R0EkDqIZFCvNH5P0rK4QCs5SYO9jkkSnexiOg63Dztsp6gkwsphqFoCDO7rDS_Dl_mU1bqFV9vaM7SIMEsApwcN1FhPH-UX76htRWBDU4BqeZq0xKZJbq0og2GootdTQSHYpUITTXhPO-FZUtgZ0Z-1nlcI2A8zj0xDN_ZXeEcqNtr-J2FE2Ksdf8rh15SY59_VXZi7_REdh4LIxtk38y8y4t2WAr0XY488A1gF_acEB0mxZHZgX4aeKXujG0aC2AsjcHzIAV6w2mD3HQMhUCrhHh1eRiuQZIoY8HKeW7UpfDRqarSBOXUtdIKlk9YkpiruWkO72-_oWTcJeH5zJGMTtIKivkouAKGFZSRg3N--xoank8gpkW3dPt2I6b7TfFv_tSCUfwW1ajBX4U_otuJsRl1q9gRFBOpra5hX3jqL52nQbTrC0PJivIKcSNV_UoJp6NArKdLZIxWl_KTV6htMj05EqpmManFTIlMBYNPaksOHigPuofTzNGSy65CTI_hZUGHO8nRuuFbw9QqPLZZOo4JUBiPsLJxZ-FqcYs2tBol8B2LmuK3rGxKYgpaluA7BkILI5kBZkgm3JfjjtjozDc52Rhy5_RnznMeEp893gJkd9DoyG4howvw1JddgR_4NSPkWldei7gk25omCxTqtmSRpeJvGdM9EYSMLSXF9WaWm_eqpgAcIaDDwSLHuFajY_uK-r4iABKgl1cy1lYXN0LTIwhgw.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Kings League", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 #EXTM3U  url-tvg="http://www.epgitalia.tv/gzip,http://epg-guide.com/it.gz,https://raw.github.com/matthuisman/i.mjh.nz/master/PlutoTV/us.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/PlutoTV/it.xml.gz,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-events-epg.xml,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-channels-epg.xml,https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/it.xml.gz"
