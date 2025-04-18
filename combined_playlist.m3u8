@@ -88,10 +88,62 @@ https://nfsnew.newkso.ru/nfs/premium577/mono.m3u8
 https://nfsnew.newkso.ru/nfs/premium577/mono.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="MotoGP e Formula 1",ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Bologna   InterSerie A   33° GiornataDomenica 20 Aprile ore 18:00
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://stream-ss001.b-cdn.net/hls/Canale5.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Brescia   ReggianaSerie B   34° GiornataLunedì 21 Aprile ore 15:00
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://stream-ss001.b-cdn.net//hls/Canale13.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Cagliari   FiorentinaSerie A   33° GiornataLunedì 21 Aprile ore 15:00
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://stream-ss001.b-cdn.net/hls/Canale8.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Cittadella   SalernitanaSerie B   34° GiornataLunedì 21 Aprile ore 15:00
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://stream-ss001.b-cdn.net//hls/Canale14.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Diretta Goal Serie BSerie B   34° GiornataLunedì 21 Aprile ore 15:00
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://stream-ss001.b-cdn.net/hls/Canale12.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Empoli   VeneziaSerie A   33° GiornataDomenica 20 Aprile ore 15:00
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://stream-ss001.b-cdn.net/hls/Canale4.m3u8
 #EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Formula 1Diretta sempre attiva
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
 https://stream-ss.b-cdn.net/hls/Canale2Perma.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Genoa   LazioSerie A   33°GiornataLunedì 21 Aprile ore 18:00
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://stream-ss001.b-cdn.net/hls/Canale9.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Juve Stabia   SampdoriaSerie B   34° GiornataLunedì 21 Aprile ore 15:00
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://stream-ss001.b-cdn.net//hls/Canale15.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Lecce   ComoSerie A   33° GiornataSabato 19 Aprile ore 15:00
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://stream-ss001.b-cdn.net/hls/Canale1.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Mantova   CatanzaroSerie B   34° GiornataLunedì 21 Aprile ore 15:00
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://stream-ss001.b-cdn.net//hls/Canale16.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Milan   AtalantaSerie A   33° GiornataDomenica 20 Aprile ore 20:45
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://stream-ss001.b-cdn.net/hls/Canale6.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Modena   CesenaSerie B   34° GiornataLunedì 21 Aprile ore 17:30
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://stream-ss001.b-cdn.net//hls/Canale20.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Monza   NapoliSerie A   33° GiornataSabato 19 Aprile ore 18:00
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://stream-ss001.b-cdn.net/hls/Canale2.m3u8
 #EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Moto GPDiretta sempre attiva
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
@@ -100,31 +152,63 @@ https://stream-ss.b-cdn.net/hls/Canale3Perma.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
 https://stream-ss.b-cdn.net/hls/Canale4Perma.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Palermo   CarrareseSerie B   34° GiornataLunedì 21 Aprile ore 15:00
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://stream-ss001.b-cdn.net//hls/Canale17.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Parma   JuventusSerie A   33° GiornataLunedì 21 Aprile ore 20:45
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://stream-ss001.b-cdn.net/hls/Canale10.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Pisa   CremoneseSerie B   34° GiornataLunedì 21 Aprile ore 20:30
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://stream-ss001.b-cdn.net//hls/Canale21.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Roma   Hellas VeronaSerie A   33° GiornataSabato 19 Aprile ore 20:45
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://stream-ss001.b-cdn.net/hls/Canale3.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Sassuolo   FrosinoneSerie B   34° GiornataLunedì 21 Aprile ore 15:00
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://stream-ss001.b-cdn.net//hls/Canale18.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Spezia   CosenzaSerie B   34° GiornataLunedì 21 Aprile ore 15:00
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://stream-ss001.b-cdn.net//hls/Canale19.m3u8
 #EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Sport 24Diretta sempre attiva
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
 https://stream-ss.b-cdn.net/hls/Canale1Perma.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Sudtirol   BariSerie B   34° GiornataLunedì 21 Aprile ore 12:30
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://stream-ss001.b-cdn.net/hls/Canale11.m3u8
 #EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", TennisDiretta sempre attiva
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
 https://stream-ss.b-cdn.net/hls/Canale5Perma.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Torino   UdineseSerie A   33° GiornataLunedì 21 Aprile ore 12:30
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://stream-ss001.b-cdn.net/hls/Canale7.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Eventi", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/hjvtqD6B/photo-2025-03-20-16-36-52.png" group-title="Kings League", tumblurr
 #EXTVLCOPT:http-referrer=https://www.twitch.tv/tumblurr
 #EXTVLCOPT:http-origin=https://www.twitch.tv/tumblurr
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://use23-0.playlist.ttvnw.net/v1/playlist/CuMEspEH5dDx5tvVfq2JcmFRtEFHbviLo7v--LE-TWmqdqtCwddF65P6wH2wYIX8Dj20MYrZhTNacCSZR0g4WnCEGzpXkGtfTzkvUEsmfD8ggM89ytzAT2i0KfuOSre5ZWGQmwOxfSV9bBOs6cpi7IqNrP4WednN2nSGzfjHKTEiNyhcGjFjzvZVxgUOJ8uqohNmsG8N5CArVcmi2lOb4IRi2P-r3A4vTiDu7s9_QeghfaLWTpuDTTFGuKAMUtmDoRicNWoDSF-a_RBfIrc7tYgVlcPzUqUk52UJfzc_gGzECLBGW7_gijv7poJsQGBq7c5Bzk18O6KAXoEkxEiJL1v_H8eWb5Vs2bamF8i2nMql9jBc4FO3rDBdjUxbFZ9m8Yr0DAF_JJHPHTozyvfiLRmozegDI-gh9UTYdty4vZd4PPiJFOfgRfgxXuZQHA7BPvKRBXYCjeWnpaz7r4FT7uio8XfUzu9OuLKcpcWoZN0qY2fAUHMMylFCwaMF5ZiFjguEjSjClo_UpcnCF1kDhde2AbOeCfxIAROumffNbgzS4gM-YnT1asFTekUX-ht8Lzoqc7YBr9ueXxuCnS5PaseUZ0KPZNYwUTmc9UABEo1TKMpeGVewWWW_8Ce7cz-mlLwQG6cWBpUC0IAqP2zsqllP2Xm2lE88u04-oyvU5k-tNV0hQKuNjLUzolYOP3ONri6lhdK2yJbC8-5BFi-cIhoJtaaSipU_ihdsB2-egIxsIHySh6fn8kRsF48jSk4PD58GhZiD2fcpnA1Op1wFpntzhiyxYKGw6aE2596yVOQkjE3cp2waDK814X426bAC42ZtnSABKgl1cy13ZXN0LTIwiQw.m3u8
+https://usw23-0.playlist.ttvnw.net/v1/playlist/CuUEsz5mZFqhM-npCmoh2d_a1GFSE1ZeKw3mMi7nN_NIlsVsa7-KUN5KS1GGmSXErvDBzc5n8m1uzx-NtGegGhAfjnJmX4WR5v27QWENLhVfMABxt4KbSeEeNKkHdN-yskwoMwUQgmMry4t8qrAhn4rwHti5YAlOt0Y5V0raTtyUk7JWMv6cgv_wQFWwEf8eO9k_BXMzGJbDxKua1ygGCeDIVX6MzRAtA_iNFHXamv8vFQGH3UVEdmKhDSsaaLSCU667zTOOSm50rXu6yYiji_PIdYnDaNMyUw3k3Dfp_ZYlgk5mHvHNd-Colde_2mhgLyJ_4_1Mq4hM5pU38cL21TJ3rr2Kj6oAjKkZ7BQCmJ46GvsfgL80tKxTOBra5TDrHTNPlfI2wXfP0GQef_hnsAxbUGnZmQUPKAdOoWF-DRJIW-GEmuAMq73beyBHElsf1NY7kq-5mq87XPJMsP26IuXi-R41oMrrBkbgfprQLPugCqgMMmnaps98sbS6Uioa8BoOhVdQktF_HsqmjIBpgNUnt9kcpKU7qZa7MiVKlexqSZbapY28o_HVIvOggJZAkVtKirF4yGZ-h4l4AqfNXV7JHHXLu-iPxP1tNoV0gqCscUIA6wsK1Jv0Pcmhsls0Nc9r4z8AJ_h81cDTHsYryRYcxLTQpa3sEO53cwArjZIp5QSTFbN1R_z8igM0UMLw4fc4tenGRZIQNS_c1T2Z3No6d6S3aW5AB8nvUV0O6XAfXByZRAIpGweVAON4nPcs-g9Wue_6h1a5SthetUc5lU4r5ZTIrcQL-3FZ6oFwakT04fhqpiXWZRoM6hSKAKpulfrwE6tsIAEqCXVzLWVhc3QtMjCHDA.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/hjvtqD6B/photo-2025-03-20-16-36-52.png" group-title="Kings League", freneh
 #EXTVLCOPT:http-referrer=https://www.twitch.tv/freneh
 #EXTVLCOPT:http-origin=https://www.twitch.tv/freneh
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://usw23-0.playlist.ttvnw.net/v1/playlist/CtsEFZspSAYhCeRxCt0AmpRyRvtzuaKT1_F2Uu_Y6xddBNQGU0MF6nJ7g-p3yiWphlvLKpk5r96hmJeqVM9D9Fhwn44VqUuB_77SjKFfQ-dPycPLPf0udXcHBcvV4hBeJpG1g0TOS5kKqwaX7ikPYUzDIaAQxNiqz6glTKaMDZFSkTEbf88YfFmz83dCbP8lYVf2k62QsemB7HgCoNZ9ZlFp4BM4jiEnMHnX0Y1zscV-Kg6XCzSsfRXLM10xQWLqqTSo5x5JgsN0UayTnCPHpjnbDxVxi_vY7KNoeYzZGdLWnuyfdiGPIa2JhrKOAPoyNwJo5EfH-UAxz_OlTpF8j1Md5PTMCuQz47mV4__RTADu0GwgrxWcoWVqXysNR5nv2tf7qzT-MvO7tbrPIlLpf4jmiP37HVKmeast01yR7DiBwaAGV89l3a7EQc2O3diEK1ZygdGzC4n5F5pZLFBYoAA1geMeKEsNU52SvDBlv2eyYj6kWQShetxVEARGmKI0JVhpEivs6UR1rpnb3Zp73CGo8dHTHJN8UHTH23Utdxf5461zwG2WFJ7Gy5lBUnRuQk8cJOQHqlx8YkzBYQKN3ihRrLpyYQMPdlbINuUGGIelq3wlohkdnWn3YexdMVZchFayyG3MH_vtWtME24DS0zarjxPB52BHIueV4b14JTQzJ2JZvf4Nt64uUfcD68_GeUcgTtHENW82V1Gi4m1T9TJowMPvU_YZAq8YOR-PFXO60edNomkI0B8f4J2gi2d6Bevx-eVgjPC02wwijyvLO0LlOccefTyBqXqjUXYFGgyfzjYS0qtE0TUq5OIgASoJdXMtd2VzdC0yMIkM.m3u8
+https://use12-0.playlist.ttvnw.net/v1/playlist/Ct4Ep4WFVO9RetF7URHXPttNbyAAvgVj31Yb3yMaN6utudXL6LJRzvXvNxuNFwPDr-v3hz0zbzLE0_riDaHID5E5fq7mQRd0OgN10locst5bzh0_6J3gfbmtAW0ltFDrNnXakKDl0UngBaEAUesu82qjanPguVQ3SlcCE9QBQePu3ZOmDMqIzuaQz54RenQ1C4j-fblscXm1WDL6X7QllinGaWDHpp2ktQcM87tvv6VDJW5lSJrpYw0eV1lUCoYwX73KM-uNLm8Okksunm566Kp5a5ow83WNuM7_XXP7LLHWgp7TgrKwu3NRSRf_v2bwTELYkS4D-T9oDv5I_eqXfr921ck11An3k-0Lkj_MEDTkH1Kmks0zD0awwPiSTVL0RLq3Oz9dmBBfccRh9khOT8ubyruAezbT7ZS_La-wk39pHgV0pS_ccRvOJaDFamTs_2fDF-7uSQ51qGTOpK8u5e4lihyZqCMZrcp1-rQUMOQJ2SXw-FK7jJLypGmFRIQg8yhYlbvNOEjub-nWDvNdYGkT8ewUllxkd1cPmGz-BCPgaHbopp49__zDqRQe5C0YQrDefx_BfU_Ecehu14t1vEtUcGSDaYtCYBo6BWChUs6cWm2rZofyQ26nx68axzYPlWsaxXF2NO6jE7MHb9Rzr1A-dQXvAd4JJPIQDqFmBovfWiONCmHSqzASFOvSx26Q5xGrOQ3dTReT6AoSkM3nHA79zur2UDbhaG0CTleSo_Zf-a_xmwDkizLcFYioQRmXA_nkw858KZnKm_errAuKh-rGMPlcuY-fc0mhL4MIs-PFGgxN_TyJr31iDGXRsWggASoJdXMtZWFzdC0yMIcM.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/hjvtqD6B/photo-2025-03-20-16-36-52.png" group-title="Kings League", grenbaud
 #EXTVLCOPT:http-referrer=https://www.twitch.tv/grenbaud
 #EXTVLCOPT:http-origin=https://www.twitch.tv/grenbaud
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://use12-0.playlist.ttvnw.net/v1/playlist/Ct4ECIk4SIqkmX1bR6LSQnPKRGJsGJG7dPzQpMVq6iLXBEensXA_nRS-ZUrQPXzegXTeyFhkFkgovyjnAevRkxNYkx-RuWa1XO2P_fYQDPvZxqw8ka0q8qwuAaCSJGeGYcXVzq2PMPYHKWieRUvyHHkCNWZ8RAvLRG3-Kd_ITRpbUNQB09E7ejg-_fdfZm-sRy1eV6l2bhpAxvHVFDdL0vJt2PL0PaLUMjz1AIEPapuJRw-LHhmxVYpBEGOa4644cdfdeZZfQh-d4iuDzDibLgMZ7BYWXfqf81OC9AigzKVOFG4bXkXR_ER6D7wqwyHz-3H3t9Qvyv7x-qqya3us_b2TXrlhwVe4gOrfKj4lib5kgiGj2ZVrtBeuVzsEl6Ejl5TJ3LQjFKfT8yH2xyegSAw0O50wt11gbgMsCfWzgXErfZzJznZIvqkJ4-nGq2Kggk9uAKSmlG4znIL3WDyturAIkVczafsJNgQ30u_4FdX64YmEexabBIyIOuc_4C53Q9LTl1yDeGDX22ifPFS2Ux7ZgjD6flIPWEXPyiwGH6o_qSucaZyh31ELsWvgbRyUp9T2fIdt1xKPYIUXUtr2HyLUMb__9PSH21hzoPWN5C4MKxsku_AcImYQNj8Xn0OgDcmj_OAfGkt8EffEXAqZpdIFcManSbYQYieSE3Z0JyWP6Cc_upL7CEdqs9QCYC8KWTwI01RKSIVaOwJ3QKqhA5e0PG6cORekYCqBuasnArdayioc63VZkcdP5Ant3pjLGjfx5ayVxy4AYMYzrMwseG93IxGGrRQPbxN_I1SgdSxwGgwhgS2ygRWR1U6pHY8gASoJdXMtd2VzdC0yMIkM.m3u8
+https://use13-0.playlist.ttvnw.net/v1/playlist/Ct8EpBjbmmnqryjExZLyaaq9o1XKfIphgDx-d3i4AsxdTqzxr2irMyLsgg4LCgpbU2n5g34w8ZInf7TtBdND2UDGn6RZ3eqWrbx8WjG8dqHFMCcPe3PoTj_UsfxvPVu4vUkiBb0w48cau2gILgI7tc5OWliNJa65hZeVRjc9lW7f3CW8LNAOjHVwItIzkfxsTtbWMDp_pMQIB2mI36bBdAI3DwuA59oXoo8klp0uBOt2_h1-FuJiydaqOJKWeR0ip2Jgcm78tiug-vo8jx3kTrac-hd4-tMvWpLFQcl5FAKxwDSsQD97GiZA8ZsG9-O9KEauzolqXS49puemcEYZB-xHQXEbxW5qLxZPi70G7fGir5jvy_8BT3YlvW-D1O-EfpOAd0UgXrrU57GnXSs2WEs8ASllVrPao8YEa6t5qkJCiQW4R9D0ajs4CQ-qpjJl5qMXQmgAmrvnSGo2CkqNaUyGBYudlJufpqwA0BeyMgWMj5rWc-mDmxTxJBltLBiRaVsx3_KCWeBiqA9VI5LUKg2yyZrfq-Bc8XW0jWnmm_oU5LYUJKOr4TaP0tvLfb4wNaKa60q18B_8gIORUI30C254zGeKsjWQ8eN9ANYfkmDq3oNuk78ZYBOuUg8znN7jUfHYbZ5JixOiDsCf__g-_uV8kRYgkWrc6NTvVY9lvefkq6HcqbTPwOy1BxTyo3SjurYiZNDBIC6uQ0WZapJulBYFzg4MQ5bl9w0QhnXRZeC6F6kE1fUmJn5HpzwYnhTTZF81yKDmbCZr5hfqAqv_pjnhAcDuOoHyrUF0z4VUflap7RoMBrp9PiyLqoNWjDOCIAEqCXVzLWVhc3QtMjCHDA.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Kings League", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 #EXTM3U  url-tvg="http://www.epgitalia.tv/gzip,http://epg-guide.com/it.gz,https://raw.github.com/matthuisman/i.mjh.nz/master/PlutoTV/us.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/PlutoTV/it.xml.gz,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-events-epg.xml,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-channels-epg.xml,https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/it.xml.gz"
