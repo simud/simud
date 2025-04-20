@@ -35,10 +35,6 @@ https://stream-ss001.b-cdn.net/hls/Canale9.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
 https://stream-ss001.b-cdn.net//hls/Canale15.m3u8
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Lecce   ComoSerie A   33° GiornataSabato 19 Aprile ore 15:00
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
-https://stream-ss001.b-cdn.net/hls/Canale1.m3u8
 #EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Mantova   CatanzaroSerie B   34° GiornataLunedì 21 Aprile ore 15:00
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
@@ -51,10 +47,6 @@ https://stream-ss001.b-cdn.net/hls/Canale6.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
 https://stream-ss001.b-cdn.net//hls/Canale20.m3u8
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Monza   NapoliSerie A   33° GiornataSabato 19 Aprile ore 18:00
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
-https://stream-ss001.b-cdn.net/hls/Canale2.m3u8
 #EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Moto GPDiretta sempre attiva
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
@@ -75,10 +67,6 @@ https://stream-ss001.b-cdn.net/hls/Canale10.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
 https://stream-ss001.b-cdn.net//hls/Canale21.m3u8
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Roma   Hellas VeronaSerie A   33° GiornataSabato 19 Aprile ore 20:45
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
-https://stream-ss001.b-cdn.net/hls/Canale3.m3u8
 #EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Sassuolo   FrosinoneSerie B   34° GiornataLunedì 21 Aprile ore 15:00
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
