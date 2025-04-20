@@ -39,16 +39,16 @@ https://ddy6new.newkso.ru/ddy6/premium462/mono.m3u8
 #EXTVLCOPT:http-referrer=https://funzoneplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://nfsnew.newkso.ru/nfs/premium26/mono.m3u8
-#EXTINF:-1 tvg-id="3ebdc7de7d3695ec53fddfb3ea401b64" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie A : Bologna vs Internazionale (SKY SPORT CALCIO IT)
-#EXTVLCOPT:http-origin=https://funzoneplay.cfd
-#EXTVLCOPT:http-referrer=https://funzoneplay.cfd/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://windnew.newkso.ru/wind/premium870/mono.m3u8
 #EXTINF:-1 tvg-id="6111a5feb583d4fbffc1fcb8c99d642b" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",UEFA Women's Champions League : Barcelona vs Chelsea FC (DAZN ZONA IT)
 #EXTVLCOPT:http-origin=https://funzoneplay.cfd
 #EXTVLCOPT:http-referrer=https://funzoneplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://nfsnew.newkso.ru/nfs/premium877/mono.m3u8
+#EXTINF:-1 tvg-id="3ebdc7de7d3695ec53fddfb3ea401b64" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie A : Bologna vs Internazionale (SKY SPORT CALCIO IT)
+#EXTVLCOPT:http-origin=https://funzoneplay.cfd
+#EXTVLCOPT:http-referrer=https://funzoneplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://windnew.newkso.ru/wind/premium870/mono.m3u8
 #EXTINF:-1 tvg-id="a97d9f86960576a7639dc2ab405a7b0d" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Bundesliga : St. Pauli vs Bayer Leverkusen (SKY SPORT ARENA IT)
 #EXTVLCOPT:http-origin=https://funzoneplay.cfd
 #EXTVLCOPT:http-referrer=https://funzoneplay.cfd/
@@ -78,10 +78,6 @@ https://nfsnew.newkso.ru/nfs/premium577/mono.m3u8
 https://nfsnew.newkso.ru/nfs/premium577/mono.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="MotoGP e Formula 1",ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Bologna   InterSerie A   33° GiornataDomenica 20 Aprile ore 18:00
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
-https://stream-ss002.b-cdn.net/hls/Canale5.m3u8
 #EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Brescia   ReggianaSerie B   34° GiornataLunedì 21 Aprile ore 15:00
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
@@ -172,7 +168,7 @@ https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-c
 #EXTVLCOPT:http-referrer=https://www.twitch.tv/kingsleague
 #EXTVLCOPT:http-origin=https://www.twitch.tv/kingsleague
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://usw21-0.playlist.ttvnw.net/v1/playlist/CusE3DyX7sBYIoJe1sjICQLqza-80QK2J9q_Y3R81Enf2vqzVzHHYSVobxj-UKcdS_hghv5ViSJ1FZDtTohPVUayKhR2JSRO5e2f-jlJtV7VCKH-HIR6nlPRG67kX7s2RRpGH3IlBRrC_Nm52WtYVN8j7d7QqmADUryvsCI6n9iloemB9KgdufPJKzL444v898Xr7nXK-gSJzmWRMsJ-OJxKq-gdk6XKTifZOnqv7ySVgGJU8znU9hnwdBXfX6Tau7O-VlFv2e9aFS5p_qS_p3apeokCotuu7xRJJz3dM4PCHCvb24qMRSz90Qfn3hLj7X5YqhJ7esfXy8rlpKLgqu_ViJq1YGT_2I_0Lh5oLfsR9ctPx8_EsRgLSdfURF474NMt4XsGe49-U5KoqiKiklmjsm8Eb9Z104NFn3jZPgdUOFKgIxhvHJJcPzMPuDJHNUIYZY5yMGMpKpPg-0in7Kkiso5WdDe-8y2r7s9kbD96l-mKZVUvmz3q24EvVr7iCqGlHqIk7Hui1ZzbiqnuEoZgW6YJJnlPIUG4Ejremmwt3fMsvWFAstjv2welxNcnJB6KASCwl-ns53QuN529lgdNDZOy2d_cz09HaNTXQLuW6DkSfdgExG_Ffy-1LxrLy3eCDmYQKP_fkxwv996ri_Zo5vieo2jiumzGSXECkjaaXt9jno8IRhiDs29Wnnet_fVeG_VLBaDN_HRHveoYoo0kpUrxE1SEtOGTwFE1qjPkl2-A7-t8cx4Aonvh00KjPvSYDR8M_w8RUk0V_dz3kN0hdByEnJaBmYJZO2jgGNgjTzVExfAeIASby2DaahoMt4oHuwV5AD3Xt4NrIAEqCXVzLWVhc3QtMjCJDA.m3u8
+https://use13-0.playlist.ttvnw.net/v1/playlist/CusEAuew6zAIvSW0a3Gthu0NqYL2o7iNPodrqYCgFHFAcd433UBN5aMOpeRT7pmHmZUhnYOzg98JzDfXaGKYbqjUW-_oAskDPePnpo92tRUOBNoDmT24aacWUWcu0bD32ALhcMNkOYRcxaLBkj8KUT8sLTWH6ykO4Fbmn8p2pghz5GdnTv_sedJ41jPdForV_tN9Bxuzp0RwlH8D1SPT9WrlwfHT0SBmIHi58ohA2JP9U1Vwb4Bn54WJzhgAG0nyPIfLhvzDUcgo_lV9b9H8Q0NQV2wP176-RLZxjAzPQgEqRBFH_AuqNDDTV9QuDrhRhUkCnnNme1OxHMz3wVNDVr4anB_GZQKDN51FNSPsqDpwcCgjx-c1K5IPvhIvMAIwVxzsMVye9R4aX0LfcGwxqw94KFcydF_k1vL7QEXrBw2hz88f4VZkEnlPKWfg76dGyzDxgR23Ers6HaIaLWPyZNzaODpfJXHUkABICecuHUM6ujy_R38L5DG06dkml5XA3SEz3gWnsL6HZZra-1VxP6rCWvwXI-ai9hW7VXIvVz4RbRDK_DeoydqaQ1ZLpEIjbJfHKdcCtgiWDt6XQZF_8f_EQFHgOHXoCnx3shad60EWByNSoChLXE6Fe_acRF26gRbC-Jx-uC6SN4ZFS5b6f_I6llXq0ArA5mjBofaIaQq2N_f7R7TbtDckGF7goGc7jx8AwlkP6umti_z_HUaQHf-kbW6qdHwbc7hCX0_5FgajMe44KCGLhgr3qeV8wB86dp7e6l6hQzpq94aeijAjwEMZA7EazADqhHSC0oZhRrPNeCna4mMA6SRQnbMXXRoMNndnlvCemNSJqwqVIAEqCXVzLWVhc3QtMjCJDA.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Kings League", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 #EXTM3U  url-tvg="http://www.epgitalia.tv/gzip,http://epg-guide.com/it.gz,https://raw.github.com/matthuisman/i.mjh.nz/master/PlutoTV/us.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/PlutoTV/it.xml.gz,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-events-epg.xml,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-channels-epg.xml,https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/it.xml.gz"
