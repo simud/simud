@@ -1,7 +1,7 @@
 #EXTM3U url-tvg="http://www.epgitalia.tv/gzip,http://epg-guide.com/it.gz,https://raw.github.com/matthuisman/i.mjh.nz/master/PlutoTV/us.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/PlutoTV/it.xml.gz,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-events-epg.xml,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-channels-epg.xml,https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/it.xml.gz"
 #EXTINF:-1 tvg-id="05a1c184c0c65e5f9a424796c1ba7453" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",England - Premier League : Manchester City vs Aston Villa (SKY SPORT CALCIO IT)
-#EXTVLCOPT:http-origin=https://funzoneplay.cfd
-#EXTVLCOPT:http-referrer=https://funzoneplay.cfd/
+#EXTVLCOPT:http-origin=https://chimeracuddleplay.cfd
+#EXTVLCOPT:http-referrer=https://chimeracuddleplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://windnew.newkso.ru/wind/premium870/mono.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Calcio",ADMIN
@@ -96,6 +96,11 @@ https://stream-ss.b-cdn.net/hls/Canale5Perma.m3u8
 https://stream-ss002.b-cdn.net/hls/Canale7.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Eventi", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/hjvtqD6B/photo-2025-03-20-16-36-52.png" group-title="Kings League", controcalcio__
+#EXTVLCOPT:http-referrer=https://www.twitch.tv/controcalcio__
+#EXTVLCOPT:http-origin=https://www.twitch.tv/controcalcio__
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://use13-0.playlist.ttvnw.net/v1/playlist/Cu8EHPTEqCOlI66y09L0V85PEr-fKa2G-YFUAdqQrjxJ4-pdo3TEsXJBawT5TKbZwGXxLf81d0uTgOHL51IHWvM37cw-p76NzEg_lM7Yt0HDY6jpq-dHQk4eN6D_XtGrmzPls8U2EXhTXaKbZ249P1ikwKsecnOwWlOGq68SZ0ysWxkHK9pu2OiXVFj-aHv7GAH2AwShGUc7c304MavxbPYGyXF0-3We-nRYritK6CMQbGofiML0fUHM5Xcz1mMgHW95z2Zxh_ZXFXogYXmhNqK653S-g3VB0781Mq5GJfIJ0EbN6vlBXL_TJhcstar0PPjm7CX9te0MvyvR9v1xGONLasZlfRyfnkanpqQbS3tKVrRhzF9lLOZqWi4Zm0-N7pUS_5HwmE46EIb3opXcy3fejm-MSJeU8BjvBCfD2nGHu5mSXAERZhF3lczkecCoY5O_hMd2kV4E-4RFCMx_F2tLsfJOTloYei-ve1uVk287MXnBMqf-yRz3j_McG93Xj0c32yOvHFozkpZUeDa0Fo3ELBq05erCID4zUF0aDykXtva3pGIsMK3ym0HHbtZmwwtyVsUD8JExVY31DZkpxv1cIcJ6Q0lbztvZQ85S5KOd9HBnv48Z2JySs7hXeqNreceVljvD3x-XiR6O5TNo87QoVAgoWOl1urrHvXr1MMfnMIu4U4_zazdj5vwDdlUh4rB2x1xAzVf7aZyE8Ym6v5umX1FbPmV211blc7TqL2Sxb_lAXFEFtOmBVgdrsM9WFr6ewnhwnUSkB2V9FeCNh5wqOeKPHaKRmNjUHbLjbQdCqyvuud_M1xBmShQzv_sYyAEaDMNm21pj7iA_gpOZNyABKgl1cy1lYXN0LTIwiww.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Kings League", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 #EXTM3U  url-tvg="http://www.epgitalia.tv/gzip,http://epg-guide.com/it.gz,https://raw.github.com/matthuisman/i.mjh.nz/master/PlutoTV/us.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/PlutoTV/it.xml.gz,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-events-epg.xml,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-channels-epg.xml,https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/it.xml.gz"
