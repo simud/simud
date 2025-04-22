@@ -4,11 +4,6 @@
 #EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://windnew.newkso.ru/wind/premium870/mono.m3u8
-#EXTINF:-1 tvg-id="e2a41a39452e211cf1e34809accae363" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy Serie A : Parma vs Juventus (DAZN IT)
-#EXTVLCOPT:http-origin=https://xextreamplay.xyz
-#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://windnew.newkso.ru/wind/premium162/mono.m3u8
 #EXTINF:-1 tvg-id="3f36632523d8fd1866a7032ee8b080f3" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy Serie A : Cagliari vs Fiorentina (DAZN IT)
 #EXTVLCOPT:http-origin=https://xextreamplay.xyz
 #EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
@@ -24,6 +19,11 @@ https://windnew.newkso.ru/wind/premium161/mono.m3u8
 #EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://dokko1new.newkso.ru/dokko1/premium159/mono.m3u8
+#EXTINF:-1 tvg-id="e2a41a39452e211cf1e34809accae363" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy Serie A : Parma vs Juventus (DAZN IT)
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://windnew.newkso.ru/wind/premium162/mono.m3u8
 #EXTINF:-1 tvg-id="ba3efa74cc0112b00dc62ddbd3e83704" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy Serie A : Torino vs Udinese (SKY SPORT 251 ITALIA)
 #EXTVLCOPT:http-origin=https://xextreamplay.xyz
 #EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
@@ -235,12 +235,12 @@ https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-c
 #EXTVLCOPT:http-referrer=https://www.twitch.tv/tumblurr
 #EXTVLCOPT:http-origin=https://www.twitch.tv/tumblurr
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://usw23-0.playlist.ttvnw.net/v1/playlist/CuUEJ7r_KdZc8jgDE60xJodrL8twcHLcsz-ABQhvbaEhmw95ipR1em5KfFhACVhFsGRiS_i9A1NPz0j-yyYNuwXv1z6grKhGOWCQK0STqhU9Pr4vtfOieN969nsJJKhxYqI3cvPWR0h_JiDvj_5B1ezmmbLUsLynhFm1OPNaMCVZwo7eu4KKyyUwsLYypiI0TzQAAC1I-dorhhZFm884yTp8U_3XWGZB1lUWuNB7BXNgZNcvJJPpJYsfxDBepQQhyVufl8nF1TDNyYaLt8aFUtrrOCU8aczs6T8NB6UWlAg4ttcBIcsV42k9ZL6l8rqJgy_VE9LGo4wNuh5Otzp8t_WCeiCYvGjXMx1GHzkg4OZOTbHp_UJbF_66Uzx3DfM_Tcj5OovIdh2Cpd6bzphM8UF8PUaNiuIXgCb63UDgQz5TqvPUAvEkOBl1FP7hgizy3F3GjiRKsRXxu7hGteVSbqPhiWEBJ3OBOhtuNoTRS1XisyZXyk0qBcolgLI6YiCDgzlCMtEzLFrk9nbueVHYRRTa4EQ59p6nKD0DYKtRk6qfnUjmtZffYYbvWuMP9NV6j1H8VMMKZ1azDUVA5Ro1n5g2m2exZY7aiYN-u1ep2rNgbSMMgFQHRWfH21jPHthatcV-XMqA9sz7paOVImdv2JQpWe06h1eiS8-rDp5IIzHBwcPB5rGY6ujpnE1rVSXKtgrqcE8gZ0f3EwYz2DtPtOoIPOehdvEltfpQareOYa31N65n8ftMlS1FaE17q2E7nIZ0TjPL8-hAV0K7iyMO19y5j2PvGcPqbyIaInmAhyGM3bAeSqEzsBoMTSxnVS0LKriZeVpjIAEqCXVzLWVhc3QtMjCMDA.m3u8
+https://use23-0.playlist.ttvnw.net/v1/playlist/CugEONJzAdPS_zb1B6XL6Mhzh5yLBuetrBCRpt2Lx6GDqUY6C6VlbscX4rBUr9zOWbfg9J4M-Pba7-D-IqaXhYBN_SFuBoTIdG45--G8NhcGSopOCO4T-B_LJ5uRijbMj2gqw2i2_IsXeAKI3t-3snkMt4pnbMBN0T9vXsvuvI5BNGei1pWkuuQnWvbbY127Kwx0sQByryNN27z6gOWcXyn6lTy87xIvkL-u-fJJ49O8eVUvhH-EbW9qjI3TJ54NYBen22RXFkkMK7Pm0KeiQ-AOsfglPYJRGUxScH0mMeGn3NNjvAoiVA2F9NtcpP_q4A9OcQQNd8Vv_3Vj67xCcJ7iQOwxJYISn9Sz1WyjQQ8JhZdlhkThZOOxFeUKvrb9WYhWI3d_1pzGcOPEXtHuQRQY64xVByvQJTPdrBKHIevJbEWR_UjIi3jXCdgTI5ZOiJWOcx-6K-hb3VQ91N-iZ9bTPkAO4zV0ZyOIOmIECidb9JvAF_yhpOqZYHSv2cElj9paSFiIlvl-hGpzbf8fdB8p8N_AISBFPrkyqQmdYWkIOALOvUEvtHaKjYxuDQncec8B9XZuD67d-XEse27Sx-uvbgkn0ZGv7TEzcJ_ggLDjvvwnTtj8yGhEGgq0PtX-yvHiiPzlxOcgf576WJimS5-zDlDtWd5dAFPKyuGKlSRifxlaxx_pKDeFHmbIJQW6CiTNonqIV9z-xwvA10cLdHvngKjTql_QnV8tyX3WxTKep4gN5_uNBrY8_UkKxcLeBdi6f6enqJwDql9fP0k89nOW-yzJFYR7BgUvGkALYeKhDO11ngBhjV1RMhoMOYbQxCSTkCuTlRq7IAEqCXVzLWVhc3QtMjCMDA.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/hjvtqD6B/photo-2025-03-20-16-36-52.png" group-title="Kings League", therealmarzaa
 #EXTVLCOPT:http-referrer=https://www.twitch.tv/therealmarzaa
 #EXTVLCOPT:http-origin=https://www.twitch.tv/therealmarzaa
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://use13-0.playlist.ttvnw.net/v1/playlist/CuoE6ZlTBDR-cRh83s9PHu8s-TMsmrHPHGNZ3GSuZ_FU_e01yCa8hNOx3wCZrn2AMnL7PfSwDcZtvG_jXbRg6YvLpYRHVBfQKjH5kJEGAjUvLB30A8_w3rDJRLjlsKGBYi9hynIy5pBrtBuEmtDqUu980KRnj94uUe9QWM3AHigZgkQwF8J61hXqXkhcH8W9F6BHz1Xts2gv2T5TCFWsrKVspCnhue-4Sa1gtZomu9SV9kjm0DH7Ti-mb7QgmmMMtm6gVE_LLOfaCrdawQxVIQztaHIDonXyUm6z3Cr5EU1Kkp9qZCUUybqTENuIq6fdcRuhCAlfqCA_8P1Q8JOtpkC9LFa43KEwmmtOlPcVe08E031Nm_on5Y4XLEL09lRh3I-E7dGt8nhajRKRVZAar7HLQc63_xIxxyXgFnsaqNaPPBe4MOavRYcTV0Dr82Jz3bEt9dG9MQK_ma-5kMJkCdaSyJLGjzTwBp9-MphQq3Gk3tPrGxLEm9a_eZsVW5UMUwqpTWskTPJ2TToeROnbSTHHALs_NZsKvsVbIX-XcycuoO3JOmCtklmKGPa2H4qSA6PLym61D1GQflCjf32G6pLiLOD7PvwWJ5n0ShXRMPm4tmhMPMbtmgi_uC1u8QIu4tFP0Gi4ZEuTTeLQfraBVmeq12MbGKkJWCQOOtlpxJOFul6RQyv2xRjGsjPef8KkLKp7jgV-hZcFade1ksBcl5GAPEE4nEP6sxXEn8HM5x7acZ_X75KtjYpI7w6FYNoNl6K03F2zkjL02yZmfdVBL0CSA6XMqFXRoODKS5XrjoUzEFRUWLEC0ChRzNASGgzTnYKRwinKqPvQj1wgASoJdXMtZWFzdC0yMIwM.m3u8
+https://use12-0.playlist.ttvnw.net/v1/playlist/Cu4E_wwyWx-sqqIYkQuwhxLD2gcAV0I0pu_je08B44RBoIon130GWmnQUJ8pmiqKkvbOg6NF2YRF1u2qOTs1oS0apZD9uyWXDgNa2L1JzIT8rhBmv5hSYGayPKGTihaokh9CsZJPxMAUgbleJPvhHW2ca6bUruD7vZYrNQBr0S7J4F5nV5S3xRp6iFYvgIiQ_Ag3THdvlSrcyYhCMkcMphjsgJJXH56DTn3jo0lF1fSNVNUZCwsKGNkpBDbwP7M7bd5N5LdLwx1BcO8je5qeD396gSJk0tDqiipqmaVR9Ph9yHIw3fP4ZktWzXjK8DOaq3OTMgMRAlY5tQBfBqKMd8Zw9XrbzJywVv0Vt51-EpXOug4gJA6geNVc7XIzRZoLntcccjmv1qXG85Wo4FLlUlgUfd1IhrS2bYPErmXtwSgNJBkC80eaFkAXmq7IndvtR_LH9uEvslZaGnkbsDh-WA5AtHDPSIim8MLiyYTSSbMVByaWzWqRxSWf9RId4ZVTB2MQB-hti9jRQsnfDoRccNG9_7Zaz6KRi48nc57IRyAE6iLGH6G1_3-lSZFmltDDNdb55dVJJY78CDtqy7y9bN4zXhtXI8QljpDJNTo1HmuUA4ejoKIydTbag3J_0d_X29xUzjhCNnJg_Ma-F2xfsNthq-M_z0n91Uj73SkGYapO0r3-7z8Ab6xJ5SuEcba13Y1goatQReH0ZjJh77W88FWXCsyEUBCR4L0jNY8heYho6odgf7OuIyVo68o0j3E3sY1iQNO0bfJQpFxPPLo-_XQnbJ-Hx4eo2hUBWHhSJ9p1H0ZxXKS5vuKhv8kBfvwRJBoMmVIuPjCwQExQYfJNIAEqCXVzLWVhc3QtMjCMDA.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Kings League", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 #EXTM3U  url-tvg="http://www.epgitalia.tv/gzip,http://epg-guide.com/it.gz,https://raw.github.com/matthuisman/i.mjh.nz/master/PlutoTV/us.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/PlutoTV/it.xml.gz,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-events-epg.xml,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-channels-epg.xml,https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/it.xml.gz"
