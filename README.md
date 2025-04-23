@@ -3,10 +3,7 @@
 ![GitHub Repo stars](https://img.shields.io/github/stars/simud/simud?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/simud/simud?style=social)
 ![GitHub last commit](https://img.shields.io/github/last-commit/simud/tuo-repo)
-![Platform](https://img.shields.io/badge/platform-IPTV-blueviolet)
-![Status](https://img.shields.io/badge/status-updating-brightgreen)
-
-> ⚠️ *Uso a scopo educativo. Non ospitiamo né trasmettiamo alcun contenuto.*  
+![Status](https://img.shields.io/badge/status-updating-brightgreen)  
 
 ---
 
