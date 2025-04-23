@@ -30,7 +30,7 @@ Una lista continuamente aggiornata di gruppi di canali divisi per categorie come
 Puoi importare facilmente i link M3U nei lettori IPTV.  
 Ecco alcune **app consigliate** con i link per il download:
 
-- 📱 **Televizo** (Android TV / Fire TV) → [Play Store](https://play.google.com/store/apps/details?id=com.ott.televizo)  
+- 📱 **Televizo** (Android TV / Fire TV) → [Play Store](https://play.google.com/store/apps/details?id=com.ottplay.ottplay&hl=it)  
 - 📲 **Wiseplay** (Android smartphone) → [Play Store](https://play.google.com/store/apps/details?id=com.wiseplay)  
 - 🍎 **LIFTPLAY** (iPhone / iPad) → [App Store](https://apps.apple.com/it/app/liftplay/id6446636264)
 
