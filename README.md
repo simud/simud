@@ -36,11 +36,3 @@ Puoi usare la lista con qualsiasi app IPTV compatibile con link M3U.
 
 
 ![ ](https://i.postimg.cc/WzCn2WzH/stream-sm-1300x593.png)
-
-### 🚀 Guida rapida:
-
-```plaintext
-1. Copia il link della lista m3u dal repo
-2. Apri la tua app IPTV preferita
-3. Incolla il link nella sezione “playlist” o “m3u”
-4. Avvia e goditi lo streaming! 🍿
