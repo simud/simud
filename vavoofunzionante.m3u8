@@ -1,28 +1,96 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="eurosport1" tvg-name="EUROSPORT 1" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="DAZN Serie A ",EUROSPORT 1
+#EXTINF:-1 tvg-id="acisporttv" tvg-name="ACI SPORT TV" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",ACI SPORT TV
+https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F1351631603%2Findex.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="DAZN2" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",DAZN2
+https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F1376440573%2Findex.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="DAZN2" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",DAZN2
+https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F2911178456%2Findex.m3u8
+#EXTINF:-1 tvg-id="eurosport1" tvg-name="EUROSPORT 1" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",EUROSPORT 1
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F3481346857%2Findex.m3u8
-#EXTINF:-1 tvg-id="eurosport1" tvg-name="EUROSPORT 1" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="DAZN Serie A ",EUROSPORT 1
+#EXTINF:-1 tvg-id="eurosport1" tvg-name="EUROSPORT 1" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",EUROSPORT 1
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F3448075317%2Findex.m3u8
-#EXTINF:-1 tvg-id="eurosport2hd" tvg-name="EUROSPORT 2" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="DAZN Serie A ",EUROSPORT 2
+#EXTINF:-1 tvg-id="eurosport2hd" tvg-name="EUROSPORT 2" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",EUROSPORT 2
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F2317684453%2Findex.m3u8
-#EXTINF:-1 tvg-id="eurosport2hd" tvg-name="EUROSPORT 2" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="DAZN Serie A ",EUROSPORT 2
+#EXTINF:-1 tvg-id="eurosport2hd" tvg-name="EUROSPORT 2" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",EUROSPORT 2
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F2283887097%2Findex.m3u8
-#EXTINF:-1 tvg-id="intertv" tvg-name="INTER TV" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="DAZN Serie A ",INTER TV
+#EXTINF:-1 tvg-id="intertv" tvg-name="INTER TV" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",INTER TV
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F2973773076%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="LAZIO TV" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="DAZN Serie A ",LAZIO TV
+#EXTINF:-1 tvg-id="" tvg-name="LAZIO TV" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",LAZIO TV
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F2774026655%2Findex.m3u8
-#EXTINF:-1 tvg-id="milantvhd" tvg-name="MILAN TV" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="DAZN Serie A ",MILAN TV
+#EXTINF:-1 tvg-id="milantvhd" tvg-name="MILAN TV" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",MILAN TV
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F3657217948%2Findex.m3u8
-#EXTINF:-1 tvg-id="skysportcalciohd" tvg-name="SKY SPORT CALCIO" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="DAZN Serie A ",SKY SPORT CALCIO
+#EXTINF:-1 tvg-id="" tvg-name="RTV SAN MARINO SPORT" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",RTV SAN MARINO SPORT
+https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F1113853263%2Findex.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="RTV SPORT" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",RTV SPORT
+https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F134178901%2Findex.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="SKY SPORT" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",SKY SPORT
+https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F924661659%2Findex.m3u8
+#EXTINF:-1 tvg-id="skysport24" tvg-name="SKY SPORT 24" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",SKY SPORT 24
+https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F2775802255%2Findex.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="SKY SPORT 24 [LIVE DURING EVENTS ONLY]" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",SKY SPORT 24 [LIVE DURING EVENTS ONLY]
+https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F3445562519%2Findex.m3u8
+#EXTINF:-1 tvg-id="skysportarenahd" tvg-name="SKY SPORT ARENA" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",SKY SPORT ARENA
+https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F3007400791%2Findex.m3u8
+#EXTINF:-1 tvg-id="skysportarenahd" tvg-name="SKY SPORT ARENA" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",SKY SPORT ARENA
+https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F2555960713%2Findex.m3u8
+#EXTINF:-1 tvg-id="skysportcalciohd" tvg-name="SKY SPORT CALCIO" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",SKY SPORT CALCIO
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F449990998%2Findex.m3u8
-#EXTINF:-1 tvg-id="skysportcalciohd" tvg-name="SKY SPORT CALCIO" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="DAZN Serie A ",SKY SPORT CALCIO
+#EXTINF:-1 tvg-id="skysportcalciohd" tvg-name="SKY SPORT CALCIO" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",SKY SPORT CALCIO
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F1665920101%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="SKY SPORT FOOTBALL" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="DAZN Serie A ",SKY SPORT FOOTBALL
+#EXTINF:-1 tvg-id="skysportf1" tvg-name="SKY SPORT F1" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",SKY SPORT F1
+https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F4246774056%2Findex.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="SKY SPORT FOOTBALL" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",SKY SPORT FOOTBALL
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F3093535330%2Findex.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="SKY SPORT FOOTBALL [LIVE DURING EVENTS ONLY]" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",SKY SPORT FOOTBALL [LIVE DURING EVENTS ONLY]
+https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F1989309231%2Findex.m3u8
+#EXTINF:-1 tvg-id="skysportgolfhd" tvg-name="SKY SPORT GOLF" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",SKY SPORT GOLF
+https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F729945219%2Findex.m3u8
+#EXTINF:-1 tvg-id="skysportgolfhd" tvg-name="SKY SPORT GOLF" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",SKY SPORT GOLF
+https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F3897711086%2Findex.m3u8
+#EXTINF:-1 tvg-id="skysportmaxhd" tvg-name="SKY SPORT MAX" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",SKY SPORT MAX
+https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F2066326916%2Findex.m3u8
+#EXTINF:-1 tvg-id="skysportmotogphd" tvg-name="SKY SPORT MOTO GP" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",SKY SPORT MOTO GP
+https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F3036316886%2Findex.m3u8
+#EXTINF:-1 tvg-id="skysportmotogphd" tvg-name="SKY SPORT MOTOGP" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",SKY SPORT MOTOGP
+https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F2090703806%2Findex.m3u8
+#EXTINF:-1 tvg-id="skysportnbafullhd" tvg-name="SKY SPORT NBA" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",SKY SPORT NBA
+https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F326825326%2Findex.m3u8
+#EXTINF:-1 tvg-id="skysportnbafullhd" tvg-name="SKY SPORT NBA" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",SKY SPORT NBA
+https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F2711959620%2Findex.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="SKY SPORT SERIE A" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",SKY SPORT SERIE A
+https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F2077387085%2Findex.m3u8
+#EXTINF:-1 tvg-id="skysporttennisfullhd" tvg-name="SKY SPORT TENNIS" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",SKY SPORT TENNIS
+https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F2100771782%2Findex.m3u8
+#EXTINF:-1 tvg-id="skysporttennisfullhd" tvg-name="SKY SPORT TENNIS" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",SKY SPORT TENNIS
+https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F78546677%2Findex.m3u8
 #EXTINF:-1 tvg-id="skysportunohd" tvg-name="Sky Uno FHD" tvg-logo="https://i.postimg.cc/NFGs2Ptq/photo-2025-03-12-12-36-48.png" group-title="Intrattenimento",Sky Uno FHD
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F3192996672%2Findex.m3u8
 #EXTINF:-1 tvg-id="skysportunohd" tvg-name="Sky Uno FHD" tvg-logo="https://i.postimg.cc/NFGs2Ptq/photo-2025-03-12-12-36-48.png" group-title="Intrattenimento",Sky Uno FHD
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F210669162%2Findex.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="SKY SPORTS F1" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",SKY SPORTS F1
+https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F2289038972%2Findex.m3u8
+#EXTINF:-1 tvg-id="skysupertennishd" tvg-name="SKY SUPER TENNIS" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",SKY SUPER TENNIS
+https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F558282118%2Findex.m3u8
+#EXTINF:-1 tvg-id="sportitalia" tvg-name="SPORT ITALIA" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",SPORT ITALIA
+https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F2881739927%2Findex.m3u8
+#EXTINF:-1 tvg-id="sportitalia" tvg-name="SPORT ITALIA" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",SPORT ITALIA
+https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F3165086929%2Findex.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="SPORT ITALIA SOLO CALCIO [LIVE DURING EVENTS ONLY]" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",SPORT ITALIA SOLO CALCIO [LIVE DURING EVENTS ONLY]
+https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F830949486%2Findex.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="SPORTITALIA PLUS" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",SPORTITALIA PLUS
+https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F3342849313%2Findex.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="SPORTITALIA SOLOCALCIO" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",SPORTITALIA SOLOCALCIO
+https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F2198410339%2Findex.m3u8
+#EXTINF:-1 tvg-id="supertennisfullhd" tvg-name="SUPER TENNIS" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",SUPER TENNIS
+https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F3009377513%2Findex.m3u8
+#EXTINF:-1 tvg-id="supertennisfullhd" tvg-name="SUPER TENNIS" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",SUPER TENNIS
+https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F3213195143%2Findex.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TENNIS CHANNEL" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",TENNIS CHANNEL
+https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F2716316208%2Findex.m3u8
+#EXTINF:-1 tvg-id="topcalcio24" tvg-name="TOP CALCIO 24" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",TOP CALCIO 24
+https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F3835549326%2Findex.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TRSPORT" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",TRSPORT
+https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F361314062%2Findex.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="DISNEY+ FILM" tvg-logo="https://i.postimg.cc/Ss88rXcm/photo-2025-03-12-12-23-14.png" group-title="Sky Cinema FHD Backup",DISNEY+ FILM
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F1264775727%2Findex.m3u8
 #EXTINF:-1 tvg-id="skyatlanticfullhd" tvg-name="SKY ATLANTIC" tvg-logo="https://i.postimg.cc/Ss88rXcm/photo-2025-03-12-12-23-14.png" group-title="Sky Cinema FHD Backup",SKY ATLANTIC
