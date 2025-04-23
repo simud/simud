@@ -10,18 +10,8 @@ url = "https://raw.githubusercontent.com/realbestia/itatv/e93adee56379c15ee37c4c
 # Gruppi desiderati
 gruppi_desiderati = ["Bambini", "Sport", "Film & Serie TV", "Documentari"]
 
-# Canali da escludere (tvg-name)
+# Canali da escludere (solo per Film & Serie TV)
 canali_esclusi = [
-    # Canali Sport esclusi
-    "ACI SPORT TV", "DAZN2", "RTV SAN MARINO SPORT", "RTV SPORT", "SKY SPORT",
-    "SKY SPORT 24", "SKY SPORT 24 [LIVE DURING EVENTS ONLY]", "SKY SPORT ARENA",
-    "SKY SPORT F1", "SKY SPORT FOOTBALL [LIVE DURING EVENTS ONLY]", "SKY SPORT GOLF",
-    "SKY SPORT MAX", "SKY SPORT MOTO GP", "SKY SPORT MOTOGP", "SKY SPORT NBA",
-    "SKY SPORT SERIE A", "SKY SPORT TENNIS", "SKY SPORTS F1", "SKY SUPER TENNIS",
-    "SPORT ITALIA", "SPORT ITALIA SOLO CALCIO [LIVE DURING EVENTS ONLY]",
-    "SPORTITALIA PLUS", "SPORTITALIA SOLOCALCIO", "SUPER TENNIS", "TENNIS CHANNEL",
-    "TOP CALCIO 24", "TRSPORT",
-    # Canali Film & Serie TV esclusi
     "CRIME + INV", "CRIME+ INVESTIGATION", "FOX", "PREMIUM CRIME",
     "RAKUTEN ACTION MOVIES", "RAKUTEN COMEDY MOVIES", "RAKUTEN DRAMA",
     "RAKUTEN FAMILY", "RAKUTEN TOP FREE", "RAKUTEN TV SHOWS", "TOP CRIME"
@@ -46,7 +36,7 @@ sky_serie_names = ["SKY SERIE"]
 
 # Loghi per i gruppi
 logos = {
-    "DAZN Serie A ": "https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png",
+    "Sky Sport FHD Backup": "https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png",
     "Intrattenimento": "https://i.postimg.cc/NFGs2Ptq/photo-2025-03-12-12-36-48.png",
     "Sky Cinema FHD Backup": "https://i.postimg.cc/Ss88rXcm/photo-2025-03-12-12-23-14.png",
     "Sky Primafila FHD": "https://i.postimg.cc/VL0pBWFX/Picsart-25-04-16-23-24-42-819.png"
@@ -91,8 +81,8 @@ for i, line in enumerate(lines):
             tvg_name_match = re.search(r'tvg-name="([^"]+)"', line)
             if tvg_name_match:
                 tvg_name = tvg_name_match.group(1)
-                # Escludi i canali indesiderati
-                if tvg_name not in canali_esclusi:
+                # Escludi i canali indesiderati solo per Film & Serie TV
+                if current_group != "Film & Serie TV" or tvg_name not in canali_esclusi:
                     # Rimuovi "(2)" da tvg-name e dal nome visualizzato
                     new_tvg_name = re.sub(r'\s*\(2\)', '', tvg_name)
                     modified_line = re.sub(r'tvg-name="[^"]+"', f'tvg-name="{new_tvg_name}"', line)
@@ -110,7 +100,7 @@ for i, line in enumerate(lines):
                         new_group_title = "Sky Cinema FHD Backup"
                         modified_line = re.sub(r'group-title="Film & Serie TV"', f'group-title="{new_group_title}"', modified_line)
                     elif current_group == "Sport":
-                        new_group_title = "DAZN Serie A "
+                        new_group_title = "Sky Sport FHD Backup"
                         modified_line = re.sub(r'group-title="Sport"', f'group-title="{new_group_title}"', modified_line)
                     
                     # Assegna il logo in base al nuovo group-title
