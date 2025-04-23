@@ -32,7 +32,7 @@ Ecco alcune **app consigliate** con i link per il download:
 
 - 📱 **Televizo** (Android TV / Fire TV) → [Play Store](https://play.google.com/store/apps/details?id=com.ottplay.ottplay&hl=it)  
 - 📲 **Wiseplay** (Android smartphone) → [Play Store](https://play.google.com/store/apps/details?id=com.wiseplay)  
-- 🍎 **LIFTPLAY** (iPhone / iPad) → [App Store](https://apps.apple.com/it/app/liftplay/id6446636264)
+- 🍎 **LIFTPLAY** (iPhone / iPad) → [App Store](https://apps.apple.com/it/app/liftplay-stream-video-player/id1557001663)
 
 
 ![ ](https://i.postimg.cc/WzCn2WzH/stream-sm-1300x593.png)
