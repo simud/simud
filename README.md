@@ -34,6 +34,10 @@ Ecco alcune **app consigliate** con i link per il download:
 - 📲 **Wiseplay** (Android smartphone) → [Play Store](https://play.google.com/store/apps/details?id=com.wiseplay)  
 - 🍎 **LIFTPLAY** (iPhone / iPad) → [App Store](https://apps.apple.com/it/app/liftplay/id6446636264)
 
+
+![ ](https://i.postimg.cc/WzCn2WzH/stream-sm-1300x593.png)
+
+
 ### Istruzioni generiche:
 
 ```bash
@@ -41,5 +45,3 @@ Ecco alcune **app consigliate** con i link per il download:
 2. Apri l'app che preferisci tra quelle consigliate
 3. Incolla il link nella sezione dedicata alle playlist
 4. Goditi i contenuti! 🎉
-
-![ ](https://i.postimg.cc/WzCn2WzH/stream-sm-1300x593.png)
