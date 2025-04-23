@@ -2,7 +2,7 @@
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/simud/simud?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/simud/simud?style=social)
-![GitHub last commit](https://img.shields.io/github/last-commit/simud/tuo-repo)
+![GitHub last commit](https://img.shields.io/github/last-commit/simud/simud)
 ![Status](https://img.shields.io/badge/status-updating-brightgreen)  
 
 ---
