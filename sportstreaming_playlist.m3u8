@@ -1,16 +1,60 @@
 #EXTM3U
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", .Mercoledì 23 Aprile ore 21:00
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Atalanta   LecceSerie A   34° GiornataDomenica 27 Aprile ore 20:45
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
-http://streaming-ssnew.b-cdn.net/play/0Ww8OISxoR-fhdxT49z6F0IV9_eJ8tj6wtzEKksHXs66JyuVetLaE3MxAkfshu2E/ts
+https://stream-ss002.b-cdn.net//hls/Canale16.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Catanzaro   PalermoSerie B   35° GiornataDomenica 27 Aprile ore 15:00
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://stream-ss002.b-cdn.net/hls/Canale6.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Como   GenoaSerie A  34° GiornataDomenica 27 Aprile ore 12:30
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://streaming-ssnew.b-cdn.net/play/0Ww8OISxoR-fhdxT49z6F0IV9_eJ8tj6wtzEKksHXs66JyuVetLaE3MxAkfshu2E/ts
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Diretta Goal Serie ASerie A   34° GiornataDomenica 27 Aprile ore 12:30
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://stream-ss002.b-cdn.net/hls/Canale3.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Diretta Goal Serie ASerie A   34° GiornataLunedì 28 Aprile ore 20:45
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://stream-ss002.b-cdn.net/hls/Canale12.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Diretta Goal Serie BSerie B   35° GiornataDomenica 27 Aprile ore 15:00
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://stream-ss002.b-cdn.net/hls/Canale8.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Fiorentina   EmpoliSerie A   34° GiornataDomenica 27 Aprile ore 15:00
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://stream-ss002.b-cdn.net/hls/Canale4.m3u8
 #EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Formula 1Diretta sempre attiva
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
 https://stream-ss002.b-cdn.net/hls/Canale2Perma.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Hellas Verona   CagliariSerie A   34° GiornataLunedì 28 Aprile ore 20:45
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://stream-ss002.b-cdn.net//hls/Canale14.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Inter   RomaSerie A   34° GiornataDomenica 27 Aprile ore 15:00
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://stream-ss002.b-cdn.net/hls/Canale5.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Juventus   MonzaSerie A   34° GiornataDomenica 27 Aprile ore 18:00
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://stream-ss002.b-cdn.net/hls/Canale9.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Lazio   ParmaSerie A   34° GiornataLunedì 28 Aprile ore 20:45
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://stream-ss002.b-cdn.net//hls/Canale13.m3u8
 #EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Moto GPDiretta sempre attiva
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
 https://stream-ss002.b-cdn.net/hls/Canale3Perma.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Napoli   TorinoSerie A   34° GiornataDomenica 27 Aprile ore 20:45
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://stream-ss002.b-cdn.net/hls/Canale10.m3u8
 #EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", NBADiretta sempre attiva
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
@@ -19,10 +63,18 @@ https://stream-ss002.b-cdn.net/hls/Canale4Perma.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
 https://stream-ss002.b-cdn.net/hls/Canale1Perma.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Sudtirol   Juve StabiaSerie B   35° GiornataDomenica 27 Aprile ore 15:00
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://stream-ss002.b-cdn.net/hls/Canale7.m3u8
 #EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", TennisDiretta sempre attiva
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
 https://stream-ss002.b-cdn.net/hls/Canale5Perma.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Udinese   BolognaSerie A   34° GiornataLunedì 28 Aprile ore 18:30
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://stream-ss002.b-cdn.net/hls/Canale11.m3u8
 #EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Venezia   MilanSerie A   34° GiornataDomenica 27 Aprile ore 12:30
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
