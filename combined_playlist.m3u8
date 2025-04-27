@@ -1,94 +1,94 @@
 #EXTM3U url-tvg="http://www.epgitalia.tv/gzip,http://epg-guide.com/it.gz,https://raw.github.com/matthuisman/i.mjh.nz/master/PlutoTV/us.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/PlutoTV/it.xml.gz,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-events-epg.xml,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-channels-epg.xml,https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/it.xml.gz"
-#EXTINF:-1 tvg-id="c7c8549605f321576397bed4242b2a4b" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy Serie A (women) : Como vs Lazio (DAZN IT)
-#EXTVLCOPT:http-origin=https://xextreamplay.xyz
-#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddy6new.newkso.ru/ddy6/premium106/mono.m3u8
-#EXTINF:-1 tvg-id="470f2a1220a47d1c902b9890a16f749e" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie A : Como vs Genoa (DAZN IT)
-#EXTVLCOPT:http-origin=https://xextreamplay.xyz
-#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddy6new.newkso.ru/ddy6/premium55/mono.m3u8
-#EXTINF:-1 tvg-id="a8f884c71c9e4c4652baa3e14b6c77b4" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie A : Venezia vs Milan (DAZN IT)
-#EXTVLCOPT:http-origin=https://xextreamplay.xyz
-#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://windnew.newkso.ru/wind/premium59/mono.m3u8
 #EXTINF:-1 tvg-id="8c9887001c34e3c61d7bb523f3b0616a" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy Serie A (women) : Napoli vs Sampdoria (DAZN IT)
 #EXTVLCOPT:http-origin=https://xextreamplay.xyz
 #EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://ddy6new.newkso.ru/ddy6/premium108/mono.m3u8
-#EXTINF:-1 tvg-id="725d8e6420d786a0220fc89cbc97fdc9" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie A : Fiorentina vs Empoli (DAZN IT)
+#EXTINF:-1 tvg-id="470f2a1220a47d1c902b9890a16f749e" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie A : Como vs Genoa (DAZN IT)
 #EXTVLCOPT:http-origin=https://xextreamplay.xyz
 #EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddy6new.newkso.ru/ddy6/premium69/mono.m3u8
-#EXTINF:-1 tvg-id="bc766d7bed337a08397f3d09bf105eef" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie B : Südtirol vs Juve Stabia (DAZN ITALIA)
+https://ddy6new.newkso.ru/ddy6/premium55/mono.m3u8
+#EXTINF:-1 tvg-id="c7c8549605f321576397bed4242b2a4b" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy Serie A (women) : Como vs Lazio (DAZN IT)
 #EXTVLCOPT:http-origin=https://xextreamplay.xyz
 #EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://dokko1new.newkso.ru/dokko1/premium86/mono.m3u8
+https://ddy6new.newkso.ru/ddy6/premium106/mono.m3u8
+#EXTINF:-1 tvg-id="a8f884c71c9e4c4652baa3e14b6c77b4" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie A : Venezia vs Milan (DAZN IT)
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://windnew.newkso.ru/wind/premium59/mono.m3u8
 #EXTINF:-1 tvg-id="56c2cb10efc05f72b3b76a47b01eb4f5" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie A : Internazionale vs Roma (DAZN IT)
 #EXTVLCOPT:http-origin=https://xextreamplay.xyz
 #EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://windnew.newkso.ru/wind/premium76/mono.m3u8
+#EXTINF:-1 tvg-id="725d8e6420d786a0220fc89cbc97fdc9" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie A : Fiorentina vs Empoli (DAZN IT)
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ddy6new.newkso.ru/ddy6/premium69/mono.m3u8
 #EXTINF:-1 tvg-id="b3e724823b6c98d8ae0fb8c5a693d65b" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie B : Catanzaro vs Palermo (DAZN ITALIA)
 #EXTVLCOPT:http-origin=https://xextreamplay.xyz
 #EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://nfsnew.newkso.ru/nfs/premium77/mono.m3u8
-#EXTINF:-1 tvg-id="ad42b36c681a879d47c2528929ec6b88" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie C : Pescara vs Campobasso (SKY SPORT ARENA IT)
+#EXTINF:-1 tvg-id="bc766d7bed337a08397f3d09bf105eef" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie B : Südtirol vs Juve Stabia (DAZN ITALIA)
 #EXTVLCOPT:http-origin=https://xextreamplay.xyz
 #EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddy6new.newkso.ru/ddy6/premium462/mono.m3u8
-#EXTINF:-1 tvg-id="429473d3f7c559f14500ce37863098eb" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie C : Lucchese vs Sassari Torres (SKY SPORT 254 IT)
-#EXTVLCOPT:http-origin=https://xextreamplay.xyz
-#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://dokko1new.newkso.ru/dokko1/premium159/mono.m3u8
-#EXTINF:-1 tvg-id="beca486e7801c4f36565844c1fd3a428" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie C : Athletic Carpi vs Sestri Levante (SKY SPORT 259 IT)
-#EXTVLCOPT:http-origin=https://xextreamplay.xyz
-#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddy6new.newkso.ru/ddy6/premium160/mono.m3u8
-#EXTINF:-1 tvg-id="c2185c8c4a96f8f35a25798cfaddb301" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie C : Perugia vs Pontedera (SKY SPORT 253 IT)
-#EXTVLCOPT:http-origin=https://xextreamplay.xyz
-#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://nfsnew.newkso.ru/nfs/premium7/mono.m3u8
-#EXTINF:-1 tvg-id="d11c5c0d050b8f0b7127c33d816ca9c9" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie C : Rimini vs Pineto (SKY SPORT 257 IT)
-#EXTVLCOPT:http-origin=https://xextreamplay.xyz
-#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://windnew.newkso.ru/wind/premium161/mono.m3u8
-#EXTINF:-1 tvg-id="8852cd919bf79493e008410a7ac868c2" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie C : Ascoli vs Legnago Salus (SKY SPORT 258 IT)
-#EXTVLCOPT:http-origin=https://xextreamplay.xyz
-#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://windnew.newkso.ru/wind/premium162/mono.m3u8
-#EXTINF:-1 tvg-id="bc6356fdf199afc9be80f1d1fd61ca5e" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie C : SPAL vs Gubbio (SKY SPORT 256 IT)
-#EXTVLCOPT:http-origin=https://xextreamplay.xyz
-#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://nfsnew.newkso.ru/nfs/premium8/mono.m3u8
-#EXTINF:-1 tvg-id="3482c0c4227fd08f8c9bd90b61599a7e" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie C : Pianese vs Arezzo (SKY SPORT 255 IT)
-#EXTVLCOPT:http-origin=https://xextreamplay.xyz
-#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://nfsnew.newkso.ru/nfs/premium9/mono.m3u8
-#EXTINF:-1 tvg-id="c4465f380441a7c62302899b4d69ac1a" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie C : Virtus Entella vs Ternana (SKY SPORT 252 IT)
-#EXTVLCOPT:http-origin=https://xextreamplay.xyz
-#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://nfsnew.newkso.ru/nfs/premium6/mono.m3u8
+https://dokko1new.newkso.ru/dokko1/premium86/mono.m3u8
 #EXTINF:-1 tvg-id="f3dc606d8ff73aa61a4fcde92e6f9d37" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie C : Milan II vs Vis Pesaro (SKY SPORT MAX IT)
 #EXTVLCOPT:http-origin=https://xextreamplay.xyz
 #EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://dokko1new.newkso.ru/dokko1/premium460/mono.m3u8
+#EXTINF:-1 tvg-id="c4465f380441a7c62302899b4d69ac1a" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie C : Virtus Entella vs Ternana (SKY SPORT 252 IT)
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://nfsnew.newkso.ru/nfs/premium6/mono.m3u8
+#EXTINF:-1 tvg-id="bc6356fdf199afc9be80f1d1fd61ca5e" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie C : SPAL vs Gubbio (SKY SPORT 256 IT)
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://nfsnew.newkso.ru/nfs/premium8/mono.m3u8
+#EXTINF:-1 tvg-id="ad42b36c681a879d47c2528929ec6b88" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie C : Pescara vs Campobasso (SKY SPORT ARENA IT)
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ddy6new.newkso.ru/ddy6/premium462/mono.m3u8
+#EXTINF:-1 tvg-id="3482c0c4227fd08f8c9bd90b61599a7e" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie C : Pianese vs Arezzo (SKY SPORT 255 IT)
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://nfsnew.newkso.ru/nfs/premium9/mono.m3u8
+#EXTINF:-1 tvg-id="8852cd919bf79493e008410a7ac868c2" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie C : Ascoli vs Legnago Salus (SKY SPORT 258 IT)
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://windnew.newkso.ru/wind/premium162/mono.m3u8
+#EXTINF:-1 tvg-id="d11c5c0d050b8f0b7127c33d816ca9c9" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie C : Rimini vs Pineto (SKY SPORT 257 IT)
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://windnew.newkso.ru/wind/premium161/mono.m3u8
+#EXTINF:-1 tvg-id="c2185c8c4a96f8f35a25798cfaddb301" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie C : Perugia vs Pontedera (SKY SPORT 253 IT)
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://nfsnew.newkso.ru/nfs/premium7/mono.m3u8
+#EXTINF:-1 tvg-id="beca486e7801c4f36565844c1fd3a428" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie C : Athletic Carpi vs Sestri Levante (SKY SPORT 259 IT)
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ddy6new.newkso.ru/ddy6/premium160/mono.m3u8
+#EXTINF:-1 tvg-id="429473d3f7c559f14500ce37863098eb" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie C : Lucchese vs Sassari Torres (SKY SPORT 254 IT)
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://dokko1new.newkso.ru/dokko1/premium159/mono.m3u8
 #EXTINF:-1 tvg-id="c4465f380441a7c62302899b4d69ac1a" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie C : Virtus Entella vs Ternana (RAI SPORT 1 IT)
 #EXTVLCOPT:http-origin=https://xextreamplay.xyz
 #EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
@@ -124,31 +124,31 @@ https://windnew.newkso.ru/wind/premium161/mono.m3u8
 #EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://nfsnew.newkso.ru/nfs/premium9/mono.m3u8
-#EXTINF:-1 tvg-id="c5952c66994fea350ab0c56bdc1c756b" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie C : Audace Cerignola vs Latina (SKY SPORT 253 IT)
-#EXTVLCOPT:http-origin=https://xextreamplay.xyz
-#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://nfsnew.newkso.ru/nfs/premium7/mono.m3u8
-#EXTINF:-1 tvg-id="f11126d0297cd09b48a41d1a38fb2220" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie C : Avellino vs Team Altamura (SKY SPORT 252 IT)
-#EXTVLCOPT:http-origin=https://xextreamplay.xyz
-#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://nfsnew.newkso.ru/nfs/premium6/mono.m3u8
-#EXTINF:-1 tvg-id="7bafeea4ff0ec7ee7ab57c31891e5460" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie C : Picerno vs Foggia (SKY SPORT 258 IT)
-#EXTVLCOPT:http-origin=https://xextreamplay.xyz
-#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://windnew.newkso.ru/wind/premium162/mono.m3u8
-#EXTINF:-1 tvg-id="4f75515f0838b2562928471713cc2f7c" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie C : Messina vs Juventus II (SKY SPORT 254 IT)
-#EXTVLCOPT:http-origin=https://xextreamplay.xyz
-#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://dokko1new.newkso.ru/dokko1/premium159/mono.m3u8
 #EXTINF:-1 tvg-id="7a1c96146863e0a2256def193ddb1228" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie C : Cavese vs Sorrento (SKY SPORT 259 IT)
 #EXTVLCOPT:http-origin=https://xextreamplay.xyz
 #EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://ddy6new.newkso.ru/ddy6/premium160/mono.m3u8
+#EXTINF:-1 tvg-id="7bafeea4ff0ec7ee7ab57c31891e5460" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie C : Picerno vs Foggia (SKY SPORT 258 IT)
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://windnew.newkso.ru/wind/premium162/mono.m3u8
+#EXTINF:-1 tvg-id="c5952c66994fea350ab0c56bdc1c756b" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie C : Audace Cerignola vs Latina (SKY SPORT 253 IT)
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://nfsnew.newkso.ru/nfs/premium7/mono.m3u8
+#EXTINF:-1 tvg-id="4f75515f0838b2562928471713cc2f7c" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie C : Messina vs Juventus II (SKY SPORT 254 IT)
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://dokko1new.newkso.ru/dokko1/premium159/mono.m3u8
+#EXTINF:-1 tvg-id="f11126d0297cd09b48a41d1a38fb2220" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie C : Avellino vs Team Altamura (SKY SPORT 252 IT)
+#EXTVLCOPT:http-origin=https://xextreamplay.xyz
+#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://nfsnew.newkso.ru/nfs/premium6/mono.m3u8
 #EXTINF:-1 tvg-id="f11126d0297cd09b48a41d1a38fb2220" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie C : Avellino vs Team Altamura (SKY SPORT MAX IT)
 #EXTVLCOPT:http-origin=https://xextreamplay.xyz
 #EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
@@ -242,7 +242,7 @@ https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-c
 #EXTVLCOPT:http-referrer=https://www.twitch.tv/kingsleague
 #EXTVLCOPT:http-origin=https://www.twitch.tv/kingsleague
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://use13-0.playlist.ttvnw.net/v1/playlist/Cu4E_2cCPWgkMcrwQdSyNUMrn6hy4sbrnhBxqa-Df83l7nuAtXvNl6LcAqFF2PrKcrKD4S4SrTbl_qmxDdezzE-KSf5hg9_TCnFZ2IyU7IxC7ZdYJ35rvGh3PhK-qvuYqzOQVg1TdzmhQBkE7PSP7yQRuGnEfLWe6QFLhN5ssZpupVtO1Ui2pSxgnuGNVH9hFP0EUkCu9sb-phpPlyvNbweISfup1M4gbmj5npbkPSM0XdRtl7KMR0bLkI_bj2abFWtQxZRpHyjssNQmR_5NAlukYUMQ6XOOvZQidsURV5IpZCaAjQhm83S3G8gr3B5DjJjKhXskduB-cnak3I4NT9wUGZ7VLQtU2E6DE-xGY8Yoyo5AOKG-MHCU24Z0d6PjNSd1TPwv5l7UrsQGrejL9d9XWHU4bUvx1RxdxTEdMWd4DKK-lWDYjcU_zgAcbtQjlyr7f_lv1EeE9i7y_JudlNQngUNykPhVouFHCmmFE1Y4SmDI8dAjSZ_i8BKB3e2XcJYEpo5X-jmtnF-9znSuC1MGAlGJaB8v7JXKfCu0U75FwAMtSZTqokQtuymjAAGfeXO8I6xopprJpWu8C8p-jYY95KFwBpr8RiH4JNKNps8WXqnzyTSg5-xLOxMDIkjsz9iYNC5nMeixQiOdE6idjHwV6Tf1VozA0ATwFQ0eZhUt9h2Ap5BcX3Y4GQMCZXJVbcrOwV-JZIj0ayTqVZioBQa4xmhEwDeHwZsvMjVZH7bxyw4uwYQaDGI_iwuWthn_Eh7qjMiTjCML4JH7dTeWFbF2tZQEJEGod-kHsmyc7r556koIjYNEJZKXZKrTuFSmmRoMd7BAiFM5uN3eAybOIAEqCXVzLXdlc3QtMjCRDA.m3u8
+https://use21-0.playlist.ttvnw.net/v1/playlist/CusESNx-0Wujje89AuxtlRznYvj0D12ntehGHCOc9UXqyLadWemwETj6gwu3_lXHibskeMr50T_OUn2Y8bKB82wqnmFgJwvH2ixG_PHN2OB4caILy2RLfHZhTZL2mhVXODpihXJ-cBwi3NTbFxp2ey8yucCvVROBFW0kyE9rrKsOBOCY1KELfWAWx45yYM2ZwE1Pny1Qeyj8DPZTw0FCk0bNZCRUP9QPsZSwry9FynICJSMPhjAF2h_JBMaubnrh4NykixxUoAflwQRH8h7KeRsrng4kM9yPl_TErWd6pA2zGypD1wY6mULZg2d-BDvpedKRpzlOYkCmo3C9YqdbY0bMtG5iAAUZpnDFy2RkeHK7iASHL3e69j6ifYYrb1FmIQS4_p6xwCz10Hitk0jyusT7OaWT0rIl1E1oTjNZTBSCxopjoyhqRv1Fs0P-U7lVkcNAvmYcgkg87Et8ZgQdS1ANjuqY0w6pWc3feKEDMZely-VZapVDDCR0oZFVQaAorkjKq02kxxOmo-yL8VWRFMwRb08SSRHMmA-wc_fHQ9PpyBYvljv13vkeXYmmdVqk6-yLtZtSCE5ZMNn-a6fAN0oInRRqhjFvn3i2Pzr3iK2y0oY92gr3IyC-O-roYe-2_lDvKWScfcXPFXo3B3nqERSpCSOUmanP6_Q5cVL2cDdCeD955H9_IreQ2IOl61Dbp-ebuuFyd3AiOIvMnGa1SuLda37AvEko26byB9N16ef61IhLhko4YxSjkcCR4sHV51HPBCGbV0IHgRUhD8wkzzfYMvW3V8Haxjb1jlIgv9xLBvrCr_CXci9uo2CrtxoMfuBVZr3a0_pxUG4gIAEqCXVzLWVhc3QtMjCQDA.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Kings League", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 #EXTM3U  url-tvg="http://www.epgitalia.tv/gzip,http://epg-guide.com/it.gz,https://raw.github.com/matthuisman/i.mjh.nz/master/PlutoTV/us.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/PlutoTV/it.xml.gz,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-events-epg.xml,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-channels-epg.xml,https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/it.xml.gz"
