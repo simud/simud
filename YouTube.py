@@ -9,19 +9,18 @@ API_KEY = os.getenv("YOUTUBE_API_KEY", "AIzaSyAzgoV9ZuB0JoTmyQ7kkwXxYSpnVGjYENI"
 # NOTA: 'simud chiave' è un segnaposto. Per test locali, sostituirlo con una nuova chiave API valida generata da Google Cloud Console.
 # Per GitHub Actions, la chiave viene caricata automaticamente dal segreto YOUTUBE_API_KEY.
 CHANNEL_ID = "UCV5c7W3qFazn4fiJ0N7m9qw"  # ID del canale ufficiale Sky Sport Italia (@SkySport)
-QUERY = "highlight"  # Query generica per catturare più risultati
 OUTPUT_FILE = "highlights.m3u8"
-MAX_RESULTS = 20
+MAX_RESULTS = 50  # Ottieni gli ultimi 50 video
 
-def fetch_videos(channel_id, query, max_results):
-    """Ottieni i video dal canale filtrati per una query."""
+def fetch_videos(channel_id, max_results):
+    """Ottieni gli ultimi video dal canale."""
     base_url = "https://www.googleapis.com/youtube/v3/search"
     params = {
         "part": "snippet",
         "channelId": channel_id,
-        "q": query,
+        "q": "",  # Query vuota per ottenere tutti i video
         "type": "video",  # Restringe i risultati ai video
-        "order": "date",
+        "order": "date",  # Ordina per data (più recenti)
         "maxResults": max_results,
         "key": API_KEY,
     }
@@ -45,7 +44,7 @@ def fetch_videos(channel_id, query, max_results):
                 filtered_videos.append(video)
         
         if not filtered_videos:
-            print(f"Nessun video con 'highlights' (o varianti) nel titolo trovato per la query '{query}' nel canale {channel_id}")
+            print(f"Nessun video con 'highlights' (o varianti) nel titolo trovato nel canale {channel_id}")
         else:
             print(f"Trovati {len(filtered_videos)} video con 'highlights' nel titolo")
         
@@ -92,8 +91,8 @@ def create_m3u8(videos, output_file):
 
 def main():
     try:
-        print(f"Ottieni i video dal canale {CHANNEL_ID}...")
-        videos = fetch_videos(CHANNEL_ID, QUERY, MAX_RESULTS)
+        print(f"Ottieni gli ultimi {MAX_RESULTS} video dal canale {CHANNEL_ID}...")
+        videos = fetch_videos(CHANNEL_ID, MAX_RESULTS)
         if videos:
             print("Generazione della playlist M3U8 con flussi HLS...")
             create_m3u8(videos, OUTPUT_FILE)
