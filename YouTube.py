@@ -1,7 +1,7 @@
 import requests
 
-# Sostituisci con la tua chiave API
-API_KEY = "LA_TUA_API_KEY"
+# Chiave API YouTube
+API_KEY = "AIzaSyBm7DGqt4_D4sIiBex02s2-GBYFvOR4WSU"
 USERNAME = "skysport"  # Nome del canale YouTube
 QUERY = "gol e highlights"  # Testo da cercare nei titoli
 OUTPUT_FILE = "highlights.m3u8"
@@ -57,4 +57,12 @@ def main():
     print(f"ID del canale: {channel_id}")
     
     print("Scarica i video...")
-    data = fetch_videos(channel_id, QUERY
+    data = fetch_videos(channel_id, QUERY, MAX_RESULTS)
+    videos = data.get("items", [])
+    if videos:
+        create_m3u8(videos, OUTPUT_FILE)
+    else:
+        print("Nessun video trovato.")
+
+if __name__ == "__main__":
+    main()
