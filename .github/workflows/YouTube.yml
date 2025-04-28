@@ -25,6 +25,22 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests yt-dlp
 
+
+      - name: Run script to generate playlist
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: |
+          sed -i "s/API_KEY = \".*\"/API_KEY = \"$YOUTUBE_API_KEY\"/" YouTube.py
+          python YouTube.py
+        continue-on-error: true
+
+      - name: Upload playlist artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: highlights-m3u8
+          path: highlights.m3u8
+          if-no-files-found: warn
+
       - name: Run SkyStreaming scraper
         env:
           GITHUB_WORKSPACE: ${{ github.workspace }}
