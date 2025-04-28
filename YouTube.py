@@ -3,7 +3,7 @@ import requests
 # Chiave API YouTube
 API_KEY = "AIzaSyBm7DGqt4_D4sIiBex02s2-GBYFvOR4WSU"
 USERNAME = "skysport"  # Nome del canale YouTube
-QUERY = "gol e highlights"  # Testo da cercare nei titoli
+QUERY = "highlights"  # Query aggiornata per essere meno specifica
 OUTPUT_FILE = "highlights.m3u8"
 MAX_RESULTS = 20
 
@@ -37,7 +37,9 @@ def fetch_videos(channel_id, query, max_results):
     }
     response = requests.get(base_url, params=params)
     response.raise_for_status()
-    return response.json()
+    data = response.json()
+    print("Risposta API:", data)  # Debug per analizzare i risultati
+    return data
 
 def create_m3u8(videos, output_file):
     """Crea un file .m3u8 con i video forniti."""
