@@ -1,26 +1,46 @@
 import os
-from pytube import Channel
+import requests
 
-def create_m3u8(youtube_channel_url, output_file="highlights.m3u8"):
-    try:
-        # Ottieni i video dal canale
-        channel = Channel(youtube_channel_url)
-        print(f"Scaricando video dal canale: {channel.channel_name}")
-        
-        # Filtra gli ultimi 20 video che contengono "gol e highlights" nel titolo
-        videos = [video for video in channel.videos if "gol e highlights" in video.title.lower()][:20]
+# Sostituisci con la tua chiave API
+API_KEY = "AIzaSyBm7DGqt4_D4sIiBex02s2-GBYFvOR4WSU"
+CHANNEL_ID = "UCB8ANPeDVnJFiBQpXibJFCQ"  # ID del canale Sky Sport
+OUTPUT_FILE = "highlights.m3u8"
 
-        # Crea il file M3U8
-        with open(output_file, "w", encoding="utf-8") as m3u8_file:
-            m3u8_file.write("#EXTM3U\n")
-            for video in videos:
-                m3u8_file.write(f"#EXTINF:-1,logo={video.thumbnail_url},{video.title}\n")
-                m3u8_file.write(f"{video.watch_url}\n")
+def fetch_videos(channel_id, query, max_results=20):
+    base_url = "https://www.googleapis.com/youtube/v3/search"
+    params = {
+        "part": "snippet",
+        "channelId": channel_id,
+        "q": query,
+        "type": "video",
+        "order": "date",
+        "maxResults": max_results,
+        "key": API_KEY,
+    }
+    response = requests.get(base_url, params=params)
+    response.raise_for_status()
+    return response.json()
 
-        print(f"Playlist salvata in {output_file}")
-    except Exception as e:
-        print(f"Errore: {e}")
+def create_m3u8(videos, output_file):
+    with open(output_file, "w", encoding="utf-8") as f:
+        f.write("#EXTM3U\n")
+        for video in videos:
+            title = video["snippet"]["title"]
+            url = f"https://www.youtube.com/watch?v={video['id']['videoId']}"
+            thumbnail = video["snippet"]["thumbnails"]["high"]["url"]
+            f.write(f"#EXTINF:-1,logo={thumbnail},{title}\n")
+            f.write(f"{url}\n")
 
-# URL del canale YouTube
-youtube_channel_url = "https://youtube.com/@skysport"
-create_m3u8(youtube_channel_url)
+def main():
+    print("Fetching videos...")
+    query = "gol e highlights"
+    data = fetch_videos(CHANNEL_ID, query)
+    videos = data.get("items", [])
+    if videos:
+        create_m3u8(videos, OUTPUT_FILE)
+        print(f"Playlist saved to {OUTPUT_FILE}")
+    else:
+        print("No videos found.")
+
+if __name__ == "__main__":
+    main()
