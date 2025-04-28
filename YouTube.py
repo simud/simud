@@ -5,7 +5,7 @@ import os
 import re
 
 # Configurazioni
-API_KEY = os.getenv("YOUTUBE_API_KEY", "simud chiave")
+API_KEY = os.getenv("YOUTUBE_API_KEY", "AIzaSyAzgoV9ZuB0JoTmyQ7kkwXxYSpnVGjYENI")
 # NOTA: 'simud chiave' è un segnaposto. Per test locali, sostituirlo con una nuova chiave API valida generata da Google Cloud Console.
 # Per GitHub Actions, la chiave viene caricata automaticamente dal segreto YOUTUBE_API_KEY.
 USERNAME = "@SkySport"  # Canale ufficiale Sky Sport Italia
