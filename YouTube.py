@@ -1,105 +1,57 @@
-import requests
-import json
-import yt_dlp
 import os
-import re
+from telegram import Bot, TelegramError
 
-# Configurazioni
-API_KEY = os.getenv("YOUTUBE_API_KEY", "AIzaSyAzgoV9ZuB0JoTmyQ7kkwXxYSpnVGjYENI")
-# NOTA: 'simud chiave' è un segnaposto. Per test locali, sostituirlo con una nuova chiave API valida generata da Google Cloud Console.
-# Per GitHub Actions, la chiave viene caricata automaticamente dal segreto YOUTUBE_API_KEY.
-CHANNEL_ID = "UCV5c7W3qFazn4fiJ0N7m9qw"  # ID del canale ufficiale Sky Sport Italia (@SkySport)
-OUTPUT_FILE = "highlights.m3u8"
-MAX_RESULTS = 50  # Ottieni gli ultimi 50 video
+# Configura il bot Telegram
+bot_token = '7739304539:AAGgb6vS9647L5cROt_5CLX7_MkM37dD8DM'
+channel_username = '@nome_canale'  # Modifica con il nome del canale
 
-def fetch_videos(channel_id, max_results):
-    """Ottieni gli ultimi video dal canale."""
-    base_url = "https://www.googleapis.com/youtube/v3/search"
-    params = {
-        "part": "snippet",
-        "channelId": channel_id,
-        "q": "",  # Query vuota per ottenere tutti i video
-        "type": "video",  # Restringe i risultati ai video
-        "order": "date",  # Ordina per data (più recenti)
-        "maxResults": max_results,
-        "key": API_KEY,
-    }
+def get_channel_id(bot, channel_username):
+    """Ottiene l'ID del canale Telegram."""
     try:
-        response = requests.get(base_url, params=params)
-        response.raise_for_status()
-        data = response.json()
-        print("Risposta API completa:", json.dumps(data, indent=2))  # Debug dettagliato
-        
-        # Filtra i video con "highlights" (o varianti) nel titolo
-        filtered_videos = []
-        for video in data.get("items", []):
-            # Verifica che l'elemento sia un video
-            if video.get("id", {}).get("kind") != "youtube#video":
-                print(f"Elemento scartato (non è un video): {video.get('snippet', {}).get('title', 'N/A')}")
-                continue
-            title = video["snippet"]["title"]
-            print(f"Titolo video: {title}")  # Debug: mostra ogni titolo
-            # Cerca varianti di "highlights" (case-insensitive, con o senza trattini)
-            if re.search(r'\bhigh-?lights?\b', title, re.IGNORECASE):
-                filtered_videos.append(video)
-        
-        if not filtered_videos:
-            print(f"Nessun video con 'highlights' (o varianti) nel titolo trovato nel canale {channel_id}")
-        else:
-            print(f"Trovati {len(filtered_videos)} video con 'highlights' nel titolo")
-        
-        return filtered_videos
-    except requests.exceptions.RequestException as e:
-        print(f"Errore nella richiesta API per i video: {e}")
-        raise
+        chat = bot.get_chat(channel_username)
+        return chat.id
+    except TelegramError as e:
+        print(f"Errore durante il recupero dell'ID del canale: {e}")
+        return None
 
-def get_hls_url(video_url):
-    """Estrae l'URL del flusso HLS usando yt-dlp."""
-    ydl_opts = {
-        "format": "best",
-        "quiet": True,
-        "no_warnings": True,
-        "force_generic_extractor": False,
-    }
+def fetch_last_videos(bot, channel_id, limit=20):
+    """Scarica gli ultimi video da un canale Telegram."""
     try:
-        with yt_dlp.YoutubeDL(ydl_opts) as ydl:
-            info = ydl.extract_info(video_url, download=False)
-            for format in info.get("formats", []):
-                if format.get("ext") == "m3u8":
-                    return format.get("url")
-            return info.get("url", video_url)
-    except Exception as e:
-        print(f"Errore durante l'estrazione del flusso per {video_url}: {e}")
-        return video_url
+        messages = bot.get_chat_history(chat_id=channel_id, limit=limit)
+        video_urls = []
+        for message in messages:
+            if message.video:
+                file_id = message.video.file_id
+                file_info = bot.get_file(file_id)
+                video_urls.append(f"https://api.telegram.org/file/bot{bot_token}/{file_info.file_path}")
+        return video_urls
+    except TelegramError as e:
+        print(f"Errore durante il recupero dei video: {e}")
+        return []
 
-def create_m3u8(videos, output_file):
-    """Crea un file .m3u8 con i flussi HLS dei video."""
-    with open(output_file, "w", encoding="utf-8") as f:
+def generate_m3u8(video_urls, output_file='telegram.m3u8'):
+    """Genera un file M3U8 con i link ai video."""
+    with open(output_file, 'w') as f:
         f.write("#EXTM3U\n")
-        for video in videos:
-            title = video["snippet"]["title"].replace(",", " ")
-            video_id = video["id"].get("videoId")
-            if not video_id:
-                print(f"Errore: Nessun videoId trovato per il video '{title}'")
-                continue
-            video_url = f"https://www.youtube.com/watch?v={video_id}"
-            thumbnail = video["snippet"]["thumbnails"].get("high", {}).get("url", "")
-            hls_url = get_hls_url(video_url)
-            f.write(f"#EXTINF:-1 tvg-logo=\"{thumbnail}\",{title}\n")
-            f.write(f"{hls_url}\n")
-    print(f"Playlist salvata in {output_file}")
-
-def main():
-    try:
-        print(f"Ottieni gli ultimi {MAX_RESULTS} video dal canale {CHANNEL_ID}...")
-        videos = fetch_videos(CHANNEL_ID, MAX_RESULTS)
-        if videos:
-            print("Generazione della playlist M3U8 con flussi HLS...")
-            create_m3u8(videos, OUTPUT_FILE)
-        else:
-            print("Nessun video trovato con 'highlights' (o varianti) nel titolo.")
-    except Exception as e:
-        print(f"Errore durante l'esecuzione: {e}")
+        for url in video_urls:
+            f.write("#EXTINF:-1,\n")
+            f.write(f"{url}\n")
 
 if __name__ == "__main__":
-    main()
+    bot = Bot(token=bot_token)
+    
+    # Passo 1: Ottieni l'ID del canale
+    channel_id = get_channel_id(bot, channel_username)
+    if channel_id is None:
+        print("Errore: impossibile ottenere l'ID del canale.")
+    else:
+        print(f"ID del canale: {channel_id}")
+        
+        # Passo 2: Scarica gli ultimi video
+        video_urls = fetch_last_videos(bot, channel_id)
+        if video_urls:
+            # Passo 3: Genera il file M3U8
+            generate_m3u8(video_urls)
+            print("File telegram.m3u8 generato con successo!")
+        else:
+            print("Nessun video trovato.")
