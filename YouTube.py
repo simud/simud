@@ -1,11 +1,15 @@
 import requests
 import json
 import yt_dlp
+import os
+import re
 
 # Configurazioni
-API_KEY = "AIzaSyBm7DGqt4_D4sIiBex02s2-GBYFvOR4WSU"
-USERNAME = "skysport"  # Nome del canale YouTube
-QUERY = "highlights"  # Query di ricerca
+API_KEY = os.getenv("YOUTUBE_API_KEY", "simud chiave")
+# NOTA: 'simud chiave' è un segnaposto. Per test locali, sostituirlo con una nuova chiave API valida generata da Google Cloud Console.
+# Per GitHub Actions, la chiave viene caricata automaticamente dal segreto YOUTUBE_API_KEY.
+USERNAME = "@SkySport"  # Canale ufficiale Sky Sport Italia
+QUERY = "highlight"  # Query generica per catturare più risultati
 OUTPUT_FILE = "highlights.m3u8"
 MAX_RESULTS = 20
 
@@ -69,9 +73,22 @@ def fetch_videos(channel_id, query, max_results):
         response.raise_for_status()
         data = response.json()
         print("Risposta API completa:", json.dumps(data, indent=2))  # Debug dettagliato
-        if not data.get("items"):
-            print(f"Nessun video trovato per la query '{query}' nel canale {channel_id}")
-        return data.get("items", [])
+        
+        # Filtra i video con "highlights" (o varianti) nel titolo
+        filtered_videos = []
+        for video in data.get("items", []):
+            title = video["snippet"]["title"]
+            print(f"Titolo video: {title}")  # Debug: mostra ogni titolo
+            # Cerca varianti di "highlights" (case-insensitive, con o senza trattini)
+            if re.search(r'\bhigh-?lights?\b', title, re.IGNORECASE):
+                filtered_videos.append(video)
+        
+        if not filtered_videos:
+            print(f"Nessun video con 'highlights' (o varianti) nel titolo trovato per la query '{query}' nel canale {channel_id}")
+        else:
+            print(f"Trovati {len(filtered_videos)} video con 'highlights' nel titolo")
+        
+        return filtered_videos
     except requests.exceptions.RequestException as e:
         print(f"Errore nella richiesta API per i video: {e}")
         raise
@@ -79,7 +96,7 @@ def fetch_videos(channel_id, query, max_results):
 def get_hls_url(video_url):
     """Estrae l'URL del flusso HLS usando yt-dlp."""
     ydl_opts = {
-        "format": "best",  # Seleziona il miglior formato disponibile
+        "format": "best",
         "quiet": True,
         "no_warnings": True,
         "force_generic_extractor": False,
@@ -87,26 +104,23 @@ def get_hls_url(video_url):
     try:
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
             info = ydl.extract_info(video_url, download=False)
-            # Cerca un formato HLS se disponibile
             for format in info.get("formats", []):
                 if format.get("ext") == "m3u8":
                     return format.get("url")
-            # Fallback: restituisci l'URL del miglior formato
             return info.get("url", video_url)
     except Exception as e:
         print(f"Errore durante l'estrazione del flusso per {video_url}: {e}")
-        return video_url  # Fallback all'URL originale se fallisce
+        return video_url
 
 def create_m3u8(videos, output_file):
     """Crea un file .m3u8 con i flussi HLS dei video."""
     with open(output_file, "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
         for video in videos:
-            title = video["snippet"]["title"].replace(",", " ")  # Pulizia del titolo
+            title = video["snippet"]["title"].replace(",", " ")
             video_id = video["id"]["videoId"]
             video_url = f"https://www.youtube.com/watch?v={video_id}"
             thumbnail = video["snippet"]["thumbnails"].get("high", {}).get("url", "")
-            # Ottieni il flusso HLS
             hls_url = get_hls_url(video_url)
             f.write(f"#EXTINF:-1 tvg-logo=\"{thumbnail}\",{title}\n")
             f.write(f"{hls_url}\n")
@@ -124,7 +138,7 @@ def main():
             print("Generazione della playlist M3U8 con flussi HLS...")
             create_m3u8(videos, OUTPUT_FILE)
         else:
-            print("Nessun video trovato per la query specificata.")
+            print("Nessun video trovato con 'highlights' (o varianti) nel titolo.")
     except Exception as e:
         print(f"Errore durante l'esecuzione: {e}")
 
