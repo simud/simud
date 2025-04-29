@@ -1,34 +1,4 @@
 #EXTM3U url-tvg="http://www.epgitalia.tv/gzip,http://epg-guide.com/it.gz,https://raw.github.com/matthuisman/i.mjh.nz/master/PlutoTV/us.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/PlutoTV/it.xml.gz,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-events-epg.xml,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-channels-epg.xml,https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/it.xml.gz"
-#EXTINF:-1 tvg-id="c9c4f0f32d59f3541569caa4f2c7597f" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie A : Udinese vs Bologna (DAZN ZONA IT)
-#EXTVLCOPT:http-origin=https://xextreamplay.xyz
-#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://nfsnew.newkso.ru/nfs/premium877/mono.m3u8
-#EXTINF:-1 tvg-id="2083086971807ef8147b7b518a4a8643" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie A : Lazio vs Parma (SKY SPORT 251 IT)
-#EXTVLCOPT:http-origin=https://xextreamplay.xyz
-#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://nfsnew.newkso.ru/nfs/premium9/mono.m3u8
-#EXTINF:-1 tvg-id="737466d03569e79cb7e388a7cb22b656" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie A : Hellas Verona vs Cagliari (SKY SPORT 253 IT)
-#EXTVLCOPT:http-origin=https://xextreamplay.xyz
-#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://nfsnew.newkso.ru/nfs/premium11/mono.m3u8
-#EXTINF:-1 tvg-id="2083086971807ef8147b7b518a4a8643" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie A : Lazio vs Parma (SKY SPORT 252 IT)
-#EXTVLCOPT:http-origin=https://xextreamplay.xyz
-#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://nfsnew.newkso.ru/nfs/premium10/mono.m3u8
-#EXTINF:-1 tvg-id="2083086971807ef8147b7b518a4a8643" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie A : Lazio vs Parma (SKY SPORT UNO IT)
-#EXTVLCOPT:http-origin=https://xextreamplay.xyz
-#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ddy6new.newkso.ru/ddy6/premium461/mono.m3u8
-#EXTINF:-1 tvg-id="2083086971807ef8147b7b518a4a8643" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie A : Lazio vs Parma (SKY SPORT CALCIO IT)
-#EXTVLCOPT:http-origin=https://xextreamplay.xyz
-#EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://windnew.newkso.ru/wind/premium870/mono.m3u8
 #EXTINF:-1 tvg-id="ba555da6f8bf6a5c6be3f22a60f141c3" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",UEFA Champions League : Arsenal vs PSG (TV8 IT)
 #EXTVLCOPT:http-origin=https://xextreamplay.xyz
 #EXTVLCOPT:http-referrer=https://xextreamplay.xyz/
@@ -46,22 +16,10 @@ https://nfsnew.newkso.ru/nfs/premium4/mono.m3u8
 https://ddy6new.newkso.ru/ddy6/premium461/mono.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Calcio",ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Diretta Goal Serie ASerie A   34° GiornataLunedì 28 Aprile ore 20:45
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
-https://xuione.sportstreaming.net/SportStreaming/SportStreaming/25.m3u8
 #EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Formula 1Diretta sempre attiva
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
 https://xuione.sportstreaming.net/SportStreaming/SportStreaming/4.m3u8
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Hellas Verona   CagliariSerie A   34° GiornataLunedì 28 Aprile ore 20:45
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
-https://xuione.sportstreaming.net/SportStreaming/SportStreaming/96.m3u8
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Lazio   ParmaSerie A   34° GiornataLunedì 28 Aprile ore 20:45
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
-https://xuione.sportstreaming.net/SportStreaming/SportStreaming/35.m3u8
 #EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png", Moto GPDiretta sempre attiva
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
