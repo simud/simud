@@ -12,7 +12,7 @@ logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger(__name__)
 
 # Costanti
-MAIN_URL = "https://streamingcommunity.spa"  # Sostituisci con l'URL corretto
+MAIN_URL = "https://streamingcommunity.spa"  # URL base del sito
 NAME = "Streaming Community"
 QUALITIES_UNKNOWN = 0  # Valore per qualità sconosciuta
 M3U8_OUTPUT_FILE = "streaming.m3u8"  # Nome del file M3U8 generato
@@ -48,7 +48,7 @@ class StreamingCommunityExtractor:
             soup = BeautifulSoup(response.text, 'html.parser')
             iframe = soup.select_one("iframe")
             if not iframe:
-                logger.error(f"{TAG} - Nessun iframe trovato nella pagina")
+                logger.error(f"{TAG} - Nessun iframe trovato nella pagina: {url}")
                 return None
             iframe_src = iframe["src"]
             playlist_url = self._get_playlist_link(iframe_src)
@@ -97,7 +97,7 @@ class StreamingCommunityExtractor:
         # Intestazione di base per il file M3U8
         m3u8_content = [
             "#EXTM3U",
-            "#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5000000",  # Riga corretta
+            "#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5000000",
             playlist_url
         ]
 
@@ -205,7 +205,7 @@ class StreamingCommunityExtractor:
             .replace("params", "\"params\"") \
             .replace("url", "\"url\"") \
             .replace("\"\"url\"\"", "\"url\"") \
-            .replace("\"canPlayFHD\"", ",\"canPlayFHD\"") \
+            .replace("canPlayFHD\"", ",\"canPlayFHD\"") \
             .replace(",\t        }", "}") \
             .replace(",\t            }", "}") \
             .replace("'", "\"") \
@@ -222,9 +222,13 @@ if __name__ == "__main__":
         print(f"Link estratto: {link}")
 
     # Usa la variabile d'ambiente STREAMING_URL o un URL di fallback
-    test_url = os.getenv("STREAMING_URL", "https://streamingcommunity.spa/example")
-    m3u8_content = extractor.get_url(test_url, referer=MAIN_URL, callback=callback)
-    if m3u8_content:
-        print(f"Contenuto M3U8:\n{m3u8_content}")
+    test_url = os.getenv("STREAMING_URL")
+    if not test_url:
+        logger.error("Nessun STREAMING_URL fornito. Configura il segreto in GitHub Actions.")
+        print("Errore: Configura la variabile d'ambiente STREAMING_URL con un URL valido.")
     else:
-        print("Errore: Impossibile generare il file M3U8")
+        m3u8_content = extractor.get_url(test_url, referer=MAIN_URL, callback=callback)
+        if m3u8_content:
+            print(f"Contenuto M3U8:\n{m3u8_content}")
+        else:
+            print(f"Errore: Impossibile generare il file M3U8 per l'URL: {test_url}")
