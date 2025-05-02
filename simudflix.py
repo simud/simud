@@ -1,397 +1,149 @@
-# it/dogior/hadEnough/simudflix.py
-
-import json
-import logging
-import cloudscraper
-from bs4 import BeautifulSoup
-from urllib.parse import urlparse
-import os
 import requests
+import logging
+from bs4 import BeautifulSoup
+import json
+import time
+from urllib.parse import urljoin
 
 # Configurazione del logging
-logging.basicConfig(level=logging.DEBUG)
+logging.basicConfig(level=logging.DEBUG, format='%(levelname)s:%(name)s:%(message)s')
 logger = logging.getLogger(__name__)
 
-# Costanti
-MAIN_URL = "https://streamingcommunity.spa"  # URL base del sito
-NAME = "Streaming Community"
-QUALITIES_UNKNOWN = 0  # Valore per qualità sconosciuta
-M3U8_OUTPUT_FILE = "streaming.m3u8"  # Nome del file M3U8 generato
-
-# Elenco delle categorie
-CATEGORIES = {
-    "Top 10 di oggi": f"{MAIN_URL}/browse/top10",
-    "I Titoli Del Momento": f"{MAIN_URL}/browse/trending",
-    "Aggiunti di Recente": f"{MAIN_URL}/browse/latest",
-    "Animazione": f"{MAIN_URL}/browse/genre?g=Animazione",
-    "Avventura": f"{MAIN_URL}/browse/genre?g=Avventura",
-    "Azione": f"{MAIN_URL}/browse/genre?g=Azione",
-    "Commedia": f"{MAIN_URL}/browse/genre?g=Commedia",
-    "Crime": f"{MAIN_URL}/browse/genre?g=Crime",
-    "Documentario": f"{MAIN_URL}/browse/genre?g=Documentario",
-    "Dramma": f"{MAIN_URL}/browse/genre?g=Dramma",
-    "Famiglia": f"{MAIN_URL}/browse/genre?g=Famiglia",
-    "Fantascienza": f"{MAIN_URL}/browse/genre?g=Fantascienza",
-    "Fantasy": f"{MAIN_URL}/browse/genre?g=Fantasy",
-    "Horror": f"{MAIN_URL}/browse/genre?g=Horror",
-    "Reality": f"{MAIN_URL}/browse/genre?g=Reality",
-    "Romance": f"{MAIN_URL}/browse/genre?g=Romance",
-    "Thriller": f"{MAIN_URL}/browse/genre?g=Thriller"
+# Intestazioni per emulare un browser reale
+HEADERS = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+    'Accept-Language': 'it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7',
+    'Referer': 'https://streamingcommunity.spa/',
+    'Connection': 'keep-alive',
 }
 
-class StreamingCommunityExtractor:
-    def __init__(self):
-        self.main_url = MAIN_URL
-        self.name = NAME
-        self.requires_referer = False
-        # Configura cloudscraper con opzioni avanzate
-        self.scraper = cloudscraper.create_scraper(
-            browser={
-                'browser': 'chrome',
-                'platform': 'windows',
-                'mobile': False
-            },
-            delay=10,
-            interpreter='js2py'
-        )
-        self.headers = {
-            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
-            "Accept-Language": "it-IT,it;q=0.8,en-US;q=0.5,en;q=0.3",
-            "Referer": self.main_url,
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
-            "Sec-Fetch-Dest": "document",
-            "Sec-Fetch-Mode": "navigate",
-            "Sec-Fetch-Site": "same-origin"
-        }
+# URL di base
+BASE_URL = "https://streamingcommunity.spa"
 
-    def get_all_categories(self, referer=None, output_file=M3U8_OUTPUT_FILE):
-        """
-        Estrae i flussi M3U8 da tutte le categorie e genera un file M3U8 combinato.
-
-        :param referer: Referer della richiesta (opzionale)
-        :param output_file: Nome del file M3U8 da generare
-        :return: Contenuto del file M3U8 combinato o None in caso di errore
-        """
-        TAG = "GetAllCategories"
-        logger.debug(f"{TAG} - Processing all categories")
-
-        m3u8_contents = []
-        for category_name, category_url in CATEGORIES.items():
-            logger.info(f"{TAG} - Processing category: {category_name} ({category_url})")
-            category_content = self.get_urls_from_category(category_url, referer=referer)
-            if category_content:
-                m3u8_contents.append(f"#EXTINF:-1,Category: {category_name}\n{category_content}")
-
-        if not m3u8_contents:
-            logger.error(f"{TAG} - Nessun flusso M3U8 estratto da nessuna categoria")
-            return None
-
-        # Combina i contenuti M3U8
-        combined_m3u8 = "#EXTM3U\n" + "\n".join(m3u8_contents)
-        
-        # Salva il file M3U8
-        with open(output_file, 'w', encoding='utf-8') as f:
-            f.write(combined_m3u8)
-        logger.info(f"{TAG} - File M3U8 combinato salvato come: {output_file}")
-
-        return combined_m3u8
-
-    def get_urls_from_category(self, category_url, referer=None, output_file=M3U8_OUTPUT_FILE):
-        """
-        Estrae i flussi M3U8 da una categoria e genera un file M3U8 combinato.
-
-        :param category_url: URL della categoria (es. https://streamingcommunity.spa/browse/genre?g=Azione)
-        :param referer: Referer della richiesta (opzionale)
-        :param output_file: Nome del file M3U8 da generare
-        :return: Contenuto del file M3U8 combinato o None in caso di errore
-        """
-        TAG = "GetUrlsFromCategory"
-        logger.debug(f"{TAG} - CATEGORY URL: {category_url}")
-
-        try:
-            # Effettua la richiesta alla pagina della categoria
-            response = self.scraper.get(category_url, headers=self.headers, timeout=15)
-            response.raise_for_status()
-            soup = BeautifulSoup(response.text, 'html.parser')
-
-            # Debug: stampa l'HTML della pagina
-            logger.debug(f"{TAG} - HTML della pagina: {soup.prettify()[:2000]}...")  # Limita a 2000 caratteri
-
-            # Debug: cerca tutti i link <a> per vedere quali href sono presenti
-            all_links = soup.select("a")
-            logger.debug(f"{TAG} - Tutti i link trovati: {[a.get('href') for a in all_links if a.get('href')]}")
-
-            # Trova i link ai titoli
-            title_links = soup.select("a[href*='/titles/']")
-            if not title_links:
-                logger.error(f"{TAG} - Nessun titolo trovato nella categoria: {category_url}")
-                # Tentativo di cercare un'API
-                api_content = self.try_api(category_url)
-                if api_content:
-                    m3u8_contents = api_content
-                else:
-                    return None
-            else:
-                m3u8_contents = []
-                for link in title_links:
-                    title_url = f"{self.main_url}{link['href']}" if link['href'].startswith('/') else link['href']
-                    logger.debug(f"{TAG} - Processing title URL: {title_url}")
-                    m3u8_content = self.get_url(title_url, referer=referer)
-                    if m3u8_content:
-                        title_name = link.get_text(strip=True) or "Titolo Sconosciuto"
-                        m3u8_contents.append(f"#EXTINF:-1,{title_name}\n{m3u8_content}")
-
-                if not m3u8_contents:
-                    logger.error(f"{TAG} - Nessun flusso M3U8 estratto dalla categoria: {category_url}")
-                    return None
-
-            # Combina i contenuti M3U8 per la categoria
-            combined_m3u8 = "\n".join(m3u8_contents)
-            return combined_m3u8
-        except requests.RequestException as e:
-            logger.error(f"{TAG} - Errore durante la richiesta HTTP: {e}")
-            return None
-        except Exception as e:
-            logger.error(f"{TAG} - Errore imprevisto: {e}")
-            return None
-
-    def try_api(self, category_url):
-        """
-        Tenta di estrarre i titoli da un'API ipotetica.
-
-        :param category_url: URL della categoria
-        :return: Lista di contenuti M3U8 o None
-        """
-        TAG = "TryApi"
-        logger.debug(f"{TAG} - Tentativo di accesso all'API per: {category_url}")
-
-        # Ipotizziamo un endpoint API basato sull'URL della categoria
-        api_endpoints = [
-            category_url.replace("/browse/", "/api/"),
-            f"{self.main_url}/api/titles?category={category_url.split('/')[-1]}",
-            f"{self.main_url}/api/browse{category_url.split('/browse')[1]}"
-        ]
-
-        m3u8_contents = []
-        for api_url in api_endpoints:
-            try:
-                response = self.scraper.get(api_url, headers=self.headers, timeout=15)
-                response.raise_for_status()
-                data = response.json()
-                logger.debug(f"{TAG} - Dati API: {data}")
-
-                # Supponiamo che l'API restituisca una lista di titoli
-                titles = data.get('titles', []) or data.get('results', [])
-                for title in titles:
-                    title_url = title.get('url') or f"{self.main_url}/titles/{title.get('id')}-{title.get('slug')}"
-                    title_name = title.get('name') or title.get('title') or "Titolo Sconosciuto"
-                    logger.debug(f"{TAG} - Processing API title URL: {title_url}")
-                    m3u8_content = self.get_url(title_url)
-                    if m3u8_content:
-                        m3u8_contents.append(f"#EXTINF:-1,{title_name}\n{m3u8_content}")
-
-                if m3u8_contents:
-                    return m3u8_contents
-            except (requests.RequestException, ValueError) as e:
-                logger.debug(f"{TAG} - Errore API per {api_url}: {e}")
-                continue
-
-        logger.error(f"{TAG} - Nessuna API valida trovata per: {category_url}")
+# Funzione per ottenere i dati dalla pagina HTML
+def get_page_html(url):
+    try:
+        logger.debug(f"GetUrl - Richiesta URL: {url}")
+        response = requests.get(url, headers=HEADERS, timeout=10)
+        response.raise_for_status()
+        logger.debug("GetUrl - HTML della pagina ottenuto")
+        return response.text
+    except requests.RequestException as e:
+        logger.error(f"GetUrl - Errore durante la richiesta: {e}")
         return None
 
-    def get_url(self, url, referer=None, subtitle_callback=None, callback=None, output_file=M3U8_OUTPUT_FILE):
-        """
-        Estrae i link di streaming da un URL dato e genera un file M3U8.
+# Funzione per ottenere i link dei titoli dalla categoria tramite HTML
+def get_urls_from_category(category_url):
+    html = get_page_html(category_url)
+    if not html:
+        logger.error(f"GetUrlsFromCategory - Impossibile ottenere HTML per: {category_url}")
+        return []
 
-        :param url: URL della pagina
-        :param referer: Referer della richiesta (opzionale)
-        :param subtitle_callback: Funzione di callback per i sottotitoli
-        :param callback: Funzione di callback per i link estratti
-        :param output_file: Nome del file M3U8 da generare
-        :return: Contenuto del file M3U8 come stringa o None in caso di errore
-        """
-        TAG = "GetUrl"
-        logger.debug(f"{TAG} - REFERER: {referer} URL: {url}")
+    soup = BeautifulSoup(html, 'html.parser')
+    links = []
+    
+    # Cerca elementi che contengono i titoli (modifica il selettore in base alla struttura del sito)
+    title_elements = soup.select('a[href*="/titles/"]')  # Selettore generico, da adattare
+    for element in title_elements:
+        href = element.get('href')
+        if href:
+            full_url = urljoin(BASE_URL, href)
+            links.append(full_url)
+    
+    logger.debug(f"GetUrlsFromCategory - Link trovati: {links}")
+    if not links:
+        logger.error(f"GetUrlsFromCategory - Nessun titolo trovato nella categoria: {category_url}")
+    return links
 
-        if not url:
-            logger.error(f"{TAG} - Nessun URL fornito")
-            return None
+# Funzione per ottenere i dati tramite API
+def try_api(category_url):
+    api_urls = [
+        f"{BASE_URL}/api/browse/{category_url.split('/')[-1]}",
+        f"{BASE_URL}/api/titles?category={category_url.split('/')[-1]}",
+        f"{BASE_URL}/api/{category_url.split('/')[-1]}",
+    ]
 
+    for api_url in api_urls:
         try:
-            # Effettua la richiesta alla pagina
-            response = self.scraper.get(url, headers=self.headers, timeout=15)
+            logger.debug(f"TryApi - Tentativo di accesso all'API: {api_url}")
+            response = requests.get(api_url, headers=HEADERS, timeout=10)
             response.raise_for_status()
-            soup = BeautifulSoup(response.text, 'html.parser')
-            iframe = soup.select_one("iframe")
-            if not iframe:
-                logger.error(f"{TAG} - Nessun iframe trovato nella pagina: {url}")
-                return None
-            iframe_src = iframe["src"]
-            playlist_url = self._get_playlist_link(iframe_src)
-            if not playlist_url:
-                logger.error(f"{TAG} - Impossibile ottenere l'URL della playlist")
-                return None
-            logger.warning(f"{TAG} - FINAL URL: {playlist_url}")
-
-            # Crea il contenuto del file M3U8
-            m3u8_content = self._generate_m3u8_content(playlist_url, referer)
-            
-            # Crea il link estratto per il callback
-            extractor_link = {
-                "source": "Vixcloud",
-                "name": "Streaming Community",
-                "url": playlist_url,
-                "type": "M3U8",
-                "referer": referer,
-                "quality": QUALITIES_UNKNOWN
-            }
-
-            if callback:
-                callback(extractor_link)
-
-            return m3u8_content
+            data = response.json()
+            logger.debug(f"TryApi - Dati API ottenuti: {data}")
+            return data.get('titles', [])
         except requests.RequestException as e:
-            logger.error(f"{TAG} - Errore durante la richiesta HTTP: {e}")
-            return None
-        except Exception as e:
-            logger.error(f"{TAG} - Errore imprevisto: {e}")
-            return None
+            logger.error(f"TryApi - Errore API per {api_url}: {e}")
+    
+    logger.error(f"TryApi - Nessuna API valida trovata per: {category_url}")
+    return []
 
-    def _generate_m3u8_content(self, playlist_url, referer):
-        """
-        Genera il contenuto del file M3U8.
+# Funzione per estrarre l'iframe o il link video dalla pagina del titolo
+def get_video_url(title_url):
+    html = get_page_html(title_url)
+    if not html:
+        logger.error(f"GetVideoUrl - Impossibile ottenere HTML per: {title_url}")
+        return None
 
-        :param playlist_url: URL della playlist M3U8
-        :param referer: Referer della richiesta
-        :return: Contenuto del file M3U8 come stringa
-        """
-        m3u8_content = [
-            "#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5000000",
-            playlist_url
-        ]
+    soup = BeautifulSoup(html, 'html.parser')
+    
+    # Cerca iframe
+    iframe = soup.find('iframe')
+    if iframe and iframe.get('src'):
+        logger.debug(f"GetVideoUrl - Iframe trovato: {iframe['src']}")
+        return iframe['src']
+    
+    # Cerca elementi <video> come alternativa
+    video = soup.find('video')
+    if video and video.get('src'):
+        logger.debug(f"GetVideoUrl - Video trovato: {video['src']}")
+        return video['src']
+    
+    # Cerca link a risorse video (es. mp4, m3u8) nelle richieste di rete
+    for script in soup.find_all('script'):
+        script_text = script.string
+        if script_text and ('mp4' in script_text or 'm3u8' in script_text):
+            # Estrai URL video (logica semplificata, da affinare)
+            logger.debug(f"GetVideoUrl - Possibile link video trovato nello script: {script_text[:100]}")
+            # Qui dovresti parsare il contenuto dello script per estrarre l'URL effettivo
+            return None  # Sostituisci con logica di parsing reale
 
-        if referer:
-            m3u8_content.insert(0, f"#EXT-X-REFERER:{referer}")
+    logger.error(f"GetVideoUrl - Nessun iframe o video trovato nella pagina: {title_url}")
+    return None
 
-        return "\n".join(m3u8_content)
+# Funzione principale per processare tutte le categorie
+def get_all_categories():
+    categories = [
+        {"name": "Top 10 di oggi", "url": f"{BASE_URL}/browse/top10"},
+        {"name": "I Titoli Del Momento", "url": f"{BASE_URL}/browse/trending"},
+    ]
 
-    def _get_playlist_link(self, url):
-        """
-        Ottiene il link della playlist dal link dell'iframe.
-
-        :param url: URL dell'iframe
-        :return: URL della playlist o None in caso di errore
-        """
-        TAG = "getPlaylistLink"
-        logger.debug(f"{TAG} - Item url: {url}")
-
-        try:
-            script = self._get_script(url)
-            if not script:
-                logger.error(f"{TAG} - Impossibile ottenere lo script")
-                return None
-            master_playlist = script.get("masterPlaylist")
-            if not master_playlist:
-                logger.error(f"{TAG} - masterPlaylist non trovato nello script")
-                return None
-            params = f"token={master_playlist['params']['token']}&expires={master_playlist['params']['expires']}"
-
-            master_playlist_url = master_playlist["url"]
-            if "?b" in master_playlist_url:
-                master_playlist_url = master_playlist_url.replace("?b:1", "?b=1") + "&" + params
+    for category in categories:
+        logger.info(f"GetAllCategories - Processing category: {category['name']} ({category['url']})")
+        
+        # Prova prima con l'API
+        titles = try_api(category['url'])
+        if not titles:
+            logger.info("GetAllCategories - API non disponibile, tentativo con scraping HTML")
+            title_urls = get_urls_from_category(category['url'])
+        else:
+            title_urls = [f"{BASE_URL}/titles/{title['id']}-{title['slug']}" for title in titles]
+        
+        # Processa ogni titolo
+        for title_url in title_urls:
+            logger.debug(f"TryApi - Processing title URL: {title_url}")
+            video_url = get_video_url(title_url)
+            if video_url:
+                logger.info(f"Titolo: {title_url} - Video URL: {video_url}")
             else:
-                master_playlist_url = f"{master_playlist_url}?{params}"
+                logger.error(f"Nessun video trovato per: {title_url}")
+            
+            # Rispetta i limiti di rate limiting
+            time.sleep(1)
 
-            logger.debug(f"{TAG} - masterPlaylistUrl: {master_playlist_url}")
-
-            if script.get("canPlayFHD"):
-                master_playlist_url += "&h=1"
-
-            logger.debug(f"{TAG} - Master Playlist URL: {master_playlist_url}")
-            return master_playlist_url
-        except Exception as e:
-            logger.error(f"{TAG} - Errore durante l'estrazione della playlist: {e}")
-            return None
-
-    def _get_script(self, url):
-        """
-        Estrae e analizza lo script JavaScript contenente i dati della playlist.
-
-        :param url: URL dell'iframe
-        :return: Dizionario con i dati dello script o None in caso di errore
-        """
-        TAG = "getScript"
-        logger.debug(f"{TAG} - url: {url}")
-
-        try:
-            headers = {
-                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
-                "Host": urlparse(url).netloc,
-                "Referer": self.main_url,
-                "Sec-Fetch-Dest": "iframe",
-                "Sec-Fetch-Mode": "navigate",
-                "Sec-Fetch-Site": "cross-site",
-                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
-            }
-
-            response = self.scraper.get(url, headers=headers, timeout=15)
-            response.raise_for_status()
-            soup = BeautifulSoup(response.text, 'html.parser')
-            logger.debug(f"{TAG} - IFRAME: {soup}")
-
-            scripts = soup.select("script")
-            script = next((s for s in scripts if "masterPlaylist" in s.string), None)
-            if not script:
-                logger.error(f"{TAG} - Nessuno script contenente 'masterPlaylist' trovato")
-                return None
-            script_data = script.string.replace("\n", "\t")
-            script_json = self._get_sanitised_script(script_data)
-            logger.debug(f"{TAG} - Script Json: {script_json}")
-
-            script_obj = json.loads(script_json)
-            logger.debug(f"{TAG} - Script Obj: {script_obj}")
-
-            return script_obj
-        except requests.RequestException as e:
-            logger.error(f"{TAG} - Errore durante la richiesta HTTP: {e}")
-            return None
-        except Exception as e:
-            logger.error(f"{TAG} - Errore imprevisto: {e}")
-            return None
-
-    def _get_sanitised_script(self, script):
-        """
-        Pulisce lo script JavaScript per convertirlo in JSON valido.
-
-        :param script: Stringa dello script
-        :return: Stringa JSON valida
-        """
-        return "{" + script.replace("window.video", "\"video\"") \
-            .replace("window.streams", "\"streams\"") \
-            .replace("window.masterPlaylist", "\"masterPlaylist\"") \
-            .replace("window.canPlayFHD", "\"canPlayFHD\"") \
-            .replace("params", "\"params\"") \
-            .replace("url", "\"url\"") \
-            .replace("\"\"url\"\"", "\"url\"") \
-            .replace("\"canPlayFHD\"", ",\"canPlayFHD\"") \
-            .replace(",\t        }", "}") \
-            .replace(",\t            }", "}") \
-            .replace("'", "\"") \
-            .replace(";", ",") \
-            .replace("=", ":") \
-            .replace("\\", "") \
-            .strip() + "}"
-
-# Esempio di utilizzo
+# Esecuzione principale
 if __name__ == "__main__":
-    extractor = StreamingCommunityExtractor()
-
-    def callback(link):
-        print(f"Link estratto: {link}")
-
-    # Processa tutte le categorie automaticamente
-    m3u8_content = extractor.get_all_categories(referer=MAIN_URL)
-    if m3u8_content:
-        print(f"Contenuto M3U8 combinato:\n{m3u8_content}")
-    else:
-        print("Errore: Impossibile generare il file M3U8 per le categorie")
+    try:
+        get_all_categories()
+    except Exception as e:
+        logger.error(f"Errore principale: {e}")
