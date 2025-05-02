@@ -2,7 +2,7 @@
 
 import json
 import logging
-import requests
+import cloudscraper
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
 import os
@@ -43,6 +43,7 @@ class StreamingCommunityExtractor:
         self.main_url = MAIN_URL
         self.name = NAME
         self.requires_referer = False
+        self.scraper = cloudscraper.create_scraper()
 
     def get_all_categories(self, referer=None, output_file=M3U8_OUTPUT_FILE):
         """
@@ -90,12 +91,24 @@ class StreamingCommunityExtractor:
 
         try:
             # Effettua la richiesta alla pagina della categoria
-            response = requests.get(category_url, timeout=10)
+            response = self.scraper.get(category_url, timeout=10)
             response.raise_for_status()
             soup = BeautifulSoup(response.text, 'html.parser')
 
-            # Trova i link ai titoli (adatta il selettore in base all'HTML del sito)
-            title_links = soup.select("a[href*='/watch/']")  # Processa tutti i titoli
+            # Debug: stampa l'HTML della pagina
+            logger.debug(f"{TAG} - HTML della pagina: {soup.prettify()[:1000]}...")  # Limita a 1000 caratteri
+
+            # Debug: cerca tutti i link <a> per vedere quali href sono presenti
+            all_links = soup.select("a")
+            logger.debug(f"{TAG} - Tutti i link trovati: {[a.get('href') for a in all_links if a.get('href')]}")
+
+            # Trova i link ai titoli (prova più selettori)
+            title_links = soup.select("a[href*='/watch/']") or \
+                          soup.select("a[href*='/v/']") or \
+                          soup.select("a[href*='/titles/']") or \
+                          soup.select("a.title-link") or \
+                          soup.select("a[href*='/movie/']") or \
+                          soup.select("a[href*='/series/']")
             if not title_links:
                 logger.error(f"{TAG} - Nessun titolo trovato nella categoria: {category_url}")
                 return None
@@ -143,8 +156,8 @@ class StreamingCommunityExtractor:
 
         try:
             # Effettua la richiesta alla pagina
-            response = requests.get(url, timeout=10)
-            response.raise_for_status()  # Solleva un'eccezione per codici di stato HTTP non validi
+            response = self.scraper.get(url, timeout=10)
+            response.raise_for_status()
             soup = BeautifulSoup(response.text, 'html.parser')
             iframe = soup.select_one("iframe")
             if not iframe:
@@ -260,7 +273,7 @@ class StreamingCommunityExtractor:
                 "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0",
             }
 
-            response = requests.get(url, headers=headers, timeout=10)
+            response = self.scraper.get(url, headers=headers, timeout=10)
             response.raise_for_status()
             soup = BeautifulSoup(response.text, 'html.parser')
             logger.debug(f"{TAG} - IFRAME: {soup}")
