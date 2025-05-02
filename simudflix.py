@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup
 import json
 import time
 import re
+import subprocess
 from urllib.parse import urljoin
 from datetime import datetime
 
@@ -57,7 +58,7 @@ def try_api(category_url):
     logger.error(f"TryApi - Nessuna API valida trovata per: {category_url}")
     return []
 
-# Funzione per estrarre il token di autenticazione (se necessario)
+# Funzione per estrarre il token di autenticazione
 def get_auth_token(title_url):
     html = get_page_html(title_url)
     if not html:
@@ -66,14 +67,29 @@ def get_auth_token(title_url):
     soup = BeautifulSoup(html, 'html.parser')
     for script in soup.find_all('script'):
         script_text = script.string
-        if script_text and 'token' in script_text.lower():
+        if script_text:
             # Cerca token con regex
-            token_match = re.search(r'token[\'"]?\s*[:=]\s*[\'"]([^\'"]+)[\'"]', script_text)
+            token_match = re.search(r'(?:token|wmsAuthSign|hdnts)[\'"]?\s*[:=]\s*[\'"]([^\'"]+)[\'"]', script_text)
             if token_match:
                 logger.debug(f"GetAuthToken - Token trovato: {token_match.group(1)}")
                 return token_match.group(1)
     
     logger.debug("GetAuthToken - Nessun token trovato")
+    return None
+
+# Funzione per estrarre il flusso video con yt-dlp (opzionale)
+def get_video_url_yt_dlp(title_url):
+    try:
+        result = subprocess.run(
+            ['yt-dlp', '--get-url', '--user-agent', HEADERS['User-Agent'], '--referer', BASE_URL, title_url],
+            capture_output=True, text=True, check=True
+        )
+        video_url = result.stdout.strip()
+        if video_url and ('.m3u8' in video_url or '.mp4' in video_url):
+            logger.debug(f"GetVideoUrl - Link video trovato con yt-dlp: {video_url}")
+            return video_url
+    except (subprocess.CalledProcessError, FileNotFoundError) as e:
+        logger.error(f"GetVideoUrl - Errore con yt-dlp: {e}")
     return None
 
 # Funzione per estrarre il link video dalla pagina del titolo
@@ -103,14 +119,14 @@ def get_video_url(title_url, title_id):
     for script in soup.find_all('script'):
         script_text = script.string
         if script_text:
-            # Cerca URL di flussi video con regex
+            # Cerca URL di flussi video
             video_urls = re.findall(r'(https?://[^\s\'"]+\.(m3u8|mp4)(?:\?[^\'"]*)?)', script_text)
             if video_urls:
                 video_url = video_urls[0][0]
                 logger.debug(f"GetVideoUrl - Link video trovato nello script: {video_url}")
                 return video_url
             
-            # Cerca configurazioni del player (es. playerConfig, hls_src)
+            # Cerca configurazioni del player
             config_match = re.search(r'playerConfig\s*=\s*({.*?});', script_text, re.DOTALL)
             if config_match:
                 try:
@@ -122,28 +138,30 @@ def get_video_url(title_url, title_id):
                 except json.JSONDecodeError:
                     logger.debug("GetVideoUrl - Errore nel parsing di playerConfig")
             
-            # Cerca hls_src direttamente
+            # Cerca hls_src
             hls_match = re.search(r'hls_src\s*=\s*[\'"](https?://[^\s\'"]+\.m3u8[^\'"]*)[\'"]', script_text)
             if hls_match:
                 logger.debug(f"GetVideoUrl - Link hls_src trovato: {hls_match.group(1)}")
                 return hls_match.group(1)
     
+    # Tenta di ottenere il token di autenticazione
+    token = get_auth_token(title_url)
+    auth_headers = HEADERS.copy()
+    if token:
+        auth_headers['Authorization'] = f"Bearer {token}"
+    
     # Tenta endpoint API alternativi
     api_endpoints = [
         f"{BASE_URL}/api/stream/{title_id}",
         f"{BASE_URL}/api/playlist/{title_id}",
-        f"{BASE_URL}/titles/{title_id}/playlist.m3u8",
+        f"{BASE_URL}/titles/{title_id}/hls/playlist.m3u8",
+        f"{BASE_URL}/api/video/{title_id}",
     ]
-    
-    # Ottieni token di autenticazione (se necessario)
-    token = get_auth_token(title_url)
-    if token:
-        HEADERS['Authorization'] = f"Bearer {token}"
     
     for api_url in api_endpoints:
         try:
             logger.debug(f"GetVideoUrl - Tentativo di accesso all'API video: {api_url}")
-            response = requests.get(api_url, headers=HEADERS, timeout=10)
+            response = requests.get(api_url, headers=auth_headers, timeout=10)
             response.raise_for_status()
             if api_url.endswith('.m3u8'):
                 logger.debug(f"GetVideoUrl - Link video diretto trovato: {api_url}")
@@ -156,7 +174,12 @@ def get_video_url(title_url, title_id):
         except (requests.RequestException, ValueError) as e:
             logger.debug(f"GetVideoUrl - Nessun flusso video trovato tramite API: {api_url} ({e})")
 
-    logger.error(f"GetVideoUrl - Nessun iframe, video, link o API trovato per: {title_url}")
+    # Tenta con yt-dlp come ultima risorsa (richiede yt-dlp installato)
+    video_url = get_video_url_yt_dlp(title_url)
+    if video_url:
+        return video_url
+
+    logger.error(f"GetVideoUrl - Nessun iframe, video, link, API o yt-dlp trovato per: {title_url}")
     return None
 
 # Funzione per generare il file M3U8
