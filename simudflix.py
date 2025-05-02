@@ -97,7 +97,7 @@ class StreamingCommunityExtractor:
         # Intestazione di base per il file M3U8
         m3u8_content = [
             "#EXTM3U",
-            f"#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5000000
+            "#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5000000",  # Riga corretta
             playlist_url
         ]
 
