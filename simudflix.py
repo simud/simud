@@ -44,13 +44,44 @@ class StreamingCommunityExtractor:
         self.name = NAME
         self.requires_referer = False
 
-    def get_urls_from_category(self, category_url, referer=None, limit=5, output_file=M3U8_OUTPUT_FILE):
+    def get_all_categories(self, referer=None, output_file=M3U8_OUTPUT_FILE):
+        """
+        Estrae i flussi M3U8 da tutte le categorie e genera un file M3U8 combinato.
+
+        :param referer: Referer della richiesta (opzionale)
+        :param output_file: Nome del file M3U8 da generare
+        :return: Contenuto del file M3U8 combinato o None in caso di errore
+        """
+        TAG = "GetAllCategories"
+        logger.debug(f"{TAG} - Processing all categories")
+
+        m3u8_contents = []
+        for category_name, category_url in CATEGORIES.items():
+            logger.info(f"{TAG} - Processing category: {category_name} ({category_url})")
+            category_content = self.get_urls_from_category(category_url, referer=referer)
+            if category_content:
+                m3u8_contents.append(f"#EXTINF:-1,Category: {category_name}\n{category_content}")
+
+        if not m3u8_contents:
+            logger.error(f"{TAG} - Nessun flusso M3U8 estratto da nessuna categoria")
+            return None
+
+        # Combina i contenuti M3U8
+        combined_m3u8 = "#EXTM3U\n" + "\n".join(m3u8_contents)
+        
+        # Salva il file M3U8
+        with open(output_file, 'w', encoding='utf-8') as f:
+            f.write(combined_m3u8)
+        logger.info(f"{TAG} - File M3U8 combinato salvato come: {output_file}")
+
+        return combined_m3u8
+
+    def get_urls_from_category(self, category_url, referer=None, output_file=M3U8_OUTPUT_FILE):
         """
         Estrae i flussi M3U8 da una categoria e genera un file M3U8 combinato.
 
         :param category_url: URL della categoria (es. https://streamingcommunity.spa/browse/genre?g=Azione)
         :param referer: Referer della richiesta (opzionale)
-        :param limit: Numero massimo di titoli da processare
         :param output_file: Nome del file M3U8 da generare
         :return: Contenuto del file M3U8 combinato o None in caso di errore
         """
@@ -64,7 +95,7 @@ class StreamingCommunityExtractor:
             soup = BeautifulSoup(response.text, 'html.parser')
 
             # Trova i link ai titoli (adatta il selettore in base all'HTML del sito)
-            title_links = soup.select("a[href*='/watch/']")[:limit]  # Presume link come /watch/ID
+            title_links = soup.select("a[href*='/watch/']")  # Processa tutti i titoli
             if not title_links:
                 logger.error(f"{TAG} - Nessun titolo trovato nella categoria: {category_url}")
                 return None
@@ -79,17 +110,11 @@ class StreamingCommunityExtractor:
                     m3u8_contents.append(f"#EXTINF:-1,{title_name}\n{m3u8_content}")
 
             if not m3u8_contents:
-                logger.error(f"{TAG} - Nessun flusso M3U8 estratto dalla categoria")
+                logger.error(f"{TAG} - Nessun flusso M3U8 estratto dalla categoria: {category_url}")
                 return None
 
-            # Combina i contenuti M3U8
-            combined_m3u8 = "#EXTM3U\n" + "\n".join(m3u8_contents)
-            
-            # Salva il file M3U8
-            with open(output_file, 'w', encoding='utf-8') as f:
-                f.write(combined_m3u8)
-            logger.info(f"{TAG} - File M3U8 combinato salvato come: {output_file}")
-
+            # Combina i contenuti M3U8 per la categoria
+            combined_m3u8 = "\n".join(m3u8_contents)
             return combined_m3u8
         except requests.RequestException as e:
             logger.error(f"{TAG} - Errore durante la richiesta HTTP: {e}")
@@ -135,11 +160,6 @@ class StreamingCommunityExtractor:
             # Crea il contenuto del file M3U8
             m3u8_content = self._generate_m3u8_content(playlist_url, referer)
             
-            # Salva il file M3U8 (opzionale, usato solo se non combinato)
-            with open(output_file, 'w', encoding='utf-8') as f:
-                f.write(m3u8_content)
-            logger.info(f"{TAG} - File M3U8 salvato come: {output_file}")
-
             # Crea il link estratto per il callback
             extractor_link = {
                 "source": "Vixcloud",
@@ -171,14 +191,13 @@ class StreamingCommunityExtractor:
         """
         # Intestazione di base per il file M3U8
         m3u8_content = [
-            "#EXTM3U",
             "#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5000000",
             playlist_url
         ]
 
         # Aggiungi il referer come commento, se presente
         if referer:
-            m3u8_content.insert(1, f"#EXT-X-REFERER:{referer}")
+            m3u8_content.insert(0, f"#EXT-X-REFERER:{referer}")
 
         return "\n".join(m3u8_content)
 
@@ -236,7 +255,7 @@ class StreamingCommunityExtractor:
                 "Host": urlparse(url).netloc,
                 "Referer": self.main_url,
                 "Sec-Fetch-Dest": "iframe",
-                "Sec-Fetch Mode": "navigate",
+                "Sec-Fetch-Mode": "navigate",
                 "Sec-Fetch-Site": "cross-site",
                 "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0",
             }
@@ -296,15 +315,9 @@ if __name__ == "__main__":
     def callback(link):
         print(f"Link estratto: {link}")
 
-    # Usa la variabile d'ambiente CATEGORY_URL
-    category_url = os.getenv("CATEGORY_URL")
-    if not category_url:
-        logger.error("Nessun CATEGORY_URL fornito. Configura il segreto in GitHub Actions.")
-        print("Errore: Configura la variabile d'ambiente CATEGORY_URL con un URL di categoria valido.")
-        print("Categorie disponibili:", ", ".join(CATEGORIES.keys()))
+    # Processa tutte le categorie automaticamente
+    m3u8_content = extractor.get_all_categories(referer=MAIN_URL)
+    if m3u8_content:
+        print(f"Contenuto M3U8 combinato:\n{m3u8_content}")
     else:
-        m3u8_content = extractor.get_urls_from_category(category_url, referer=MAIN_URL, limit=5)
-        if m3u8_content:
-            print(f"Contenuto M3U8 combinato:\n{m3u8_content}")
-        else:
-            print(f"Errore: Impossibile generare il file M3U8 per la categoria: {category_url}")
+        print("Errore: Impossibile generare il file M3U8 per le categorie")
