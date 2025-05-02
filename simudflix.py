@@ -3,6 +3,7 @@ import logging
 from bs4 import BeautifulSoup
 import json
 import time
+import re
 from urllib.parse import urljoin
 
 # Configurazione del logging
@@ -30,31 +31,8 @@ def get_page_html(url):
         logger.debug("GetUrl - HTML della pagina ottenuto")
         return response.text
     except requests.RequestException as e:
-        logger.error(f"GetUrl - Errore durante la richiesta: {e}")
+        logger.error(f"GetUrl - Errore durante la richiesta {url}: {e}")
         return None
-
-# Funzione per ottenere i link dei titoli dalla categoria tramite HTML
-def get_urls_from_category(category_url):
-    html = get_page_html(category_url)
-    if not html:
-        logger.error(f"GetUrlsFromCategory - Impossibile ottenere HTML per: {category_url}")
-        return []
-
-    soup = BeautifulSoup(html, 'html.parser')
-    links = []
-    
-    # Cerca elementi che contengono i titoli (modifica il selettore in base alla struttura del sito)
-    title_elements = soup.select('a[href*="/titles/"]')  # Selettore generico, da adattare
-    for element in title_elements:
-        href = element.get('href')
-        if href:
-            full_url = urljoin(BASE_URL, href)
-            links.append(full_url)
-    
-    logger.debug(f"GetUrlsFromCategory - Link trovati: {links}")
-    if not links:
-        logger.error(f"GetUrlsFromCategory - Nessun titolo trovato nella categoria: {category_url}")
-    return links
 
 # Funzione per ottenere i dati tramite API
 def try_api(category_url):
@@ -70,7 +48,7 @@ def try_api(category_url):
             response = requests.get(api_url, headers=HEADERS, timeout=10)
             response.raise_for_status()
             data = response.json()
-            logger.debug(f"TryApi - Dati API ottenuti: {data}")
+            logger.debug(f"TryApi - Dati API ottenuti: {json.dumps(data, indent=2)}")
             return data.get('titles', [])
         except requests.RequestException as e:
             logger.error(f"TryApi - Errore API per {api_url}: {e}")
@@ -78,7 +56,7 @@ def try_api(category_url):
     logger.error(f"TryApi - Nessuna API valida trovata per: {category_url}")
     return []
 
-# Funzione per estrarre l'iframe o il link video dalla pagina del titolo
+# Funzione per estrarre il link video dalla pagina del titolo
 def get_video_url(title_url):
     html = get_page_html(title_url)
     if not html:
@@ -93,23 +71,45 @@ def get_video_url(title_url):
         logger.debug(f"GetVideoUrl - Iframe trovato: {iframe['src']}")
         return iframe['src']
     
-    # Cerca elementi <video> come alternativa
+    # Cerca elementi <video>
     video = soup.find('video')
-    if video and video.get('src'):
-        logger.debug(f"GetVideoUrl - Video trovato: {video['src']}")
-        return video['src']
+    if video:
+        src = video.get('src') or (video.find('source') and video.find('source').get('src'))
+        if src:
+            logger.debug(f"GetVideoUrl - Video trovato: {src}")
+            return src
     
-    # Cerca link a risorse video (es. mp4, m3u8) nelle richieste di rete
+    # Cerca link .m3u8 o .mp4 negli script
     for script in soup.find_all('script'):
         script_text = script.string
-        if script_text and ('mp4' in script_text or 'm3u8' in script_text):
-            # Estrai URL video (logica semplificata, da affinare)
-            logger.debug(f"GetVideoUrl - Possibile link video trovato nello script: {script_text[:100]}")
-            # Qui dovresti parsare il contenuto dello script per estrarre l'URL effettivo
-            return None  # Sostituisci con logica di parsing reale
-
-    logger.error(f"GetVideoUrl - Nessun iframe o video trovato nella pagina: {title_url}")
+        if script_text:
+            # Cerca URL di flussi video con regex
+            video_urls = re.findall(r'(https?://[^\s\'"]+\.(m3u8|mp4))', script_text)
+            if video_urls:
+                video_url = video_urls[0][0]
+                logger.debug(f"GetVideoUrl - Link video trovato nello script: {video_url}")
+                return video_url
+    
+    logger.error(f"GetVideoUrl - Nessun iframe, video o link trovato nella pagina: {title_url}")
     return None
+
+# Funzione per generare il file M3U8
+def generate_m3u8(titles, output_file="streaming.m3u8"):
+    m3u8_content = "#EXTM3U\n"
+    for title in titles:
+        title_url = f"{BASE_URL}/titles/{title['id']}-{title['slug']}"
+        video_url = get_video_url(title_url)
+        if video_url:
+            m3u8_content += f"#EXTINF:-1,{title['name']}\n{video_url}\n"
+        else:
+            # Aggiungi un placeholder per garantire che il file cambi
+            m3u8_content += f"#EXTINF:-1,{title['name']}\n# Nessun flusso video disponibile\n"
+        time.sleep(1)  # Ritardo per evitare blocchi
+    
+    # Scrivi il file M3U8
+    with open(output_file, 'w', encoding='utf-8') as f:
+        f.write(m3u8_content)
+    logger.info(f"generate_m3u8 - File {output_file} generato con successo")
 
 # Funzione principale per processare tutte le categorie
 def get_all_categories():
@@ -121,25 +121,18 @@ def get_all_categories():
     for category in categories:
         logger.info(f"GetAllCategories - Processing category: {category['name']} ({category['url']})")
         
-        # Prova prima con l'API
+        # Ottieni i titoli dall'API
         titles = try_api(category['url'])
         if not titles:
-            logger.info("GetAllCategories - API non disponibile, tentativo con scraping HTML")
-            title_urls = get_urls_from_category(category['url'])
-        else:
-            title_urls = [f"{BASE_URL}/titles/{title['id']}-{title['slug']}" for title in titles]
+            logger.error(f"GetAllCategories - Nessun titolo trovato per: {category['name']}")
+            continue
         
-        # Processa ogni titolo
-        for title_url in title_urls:
-            logger.debug(f"TryApi - Processing title URL: {title_url}")
-            video_url = get_video_url(title_url)
-            if video_url:
-                logger.info(f"Titolo: {title_url} - Video URL: {video_url}")
-            else:
-                logger.error(f"Nessun video trovato per: {title_url}")
-            
-            # Rispetta i limiti di rate limiting
-            time.sleep(1)
+        # Genera il file M3U8
+        generate_m3u8(titles)
+        
+        # Log dei titoli trovati
+        for title in titles:
+            logger.info(f"Titolo: {title['name']} - URL: {BASE_URL}/titles/{title['id']}-{title['slug']}")
 
 # Esecuzione principale
 if __name__ == "__main__":
@@ -147,3 +140,4 @@ if __name__ == "__main__":
         get_all_categories()
     except Exception as e:
         logger.error(f"Errore principale: {e}")
+        raise
