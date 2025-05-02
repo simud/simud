@@ -57,8 +57,27 @@ def try_api(category_url):
     logger.error(f"TryApi - Nessuna API valida trovata per: {category_url}")
     return []
 
+# Funzione per estrarre il token di autenticazione (se necessario)
+def get_auth_token(title_url):
+    html = get_page_html(title_url)
+    if not html:
+        return None
+    
+    soup = BeautifulSoup(html, 'html.parser')
+    for script in soup.find_all('script'):
+        script_text = script.string
+        if script_text and 'token' in script_text.lower():
+            # Cerca token con regex
+            token_match = re.search(r'token[\'"]?\s*[:=]\s*[\'"]([^\'"]+)[\'"]', script_text)
+            if token_match:
+                logger.debug(f"GetAuthToken - Token trovato: {token_match.group(1)}")
+                return token_match.group(1)
+    
+    logger.debug("GetAuthToken - Nessun token trovato")
+    return None
+
 # Funzione per estrarre il link video dalla pagina del titolo
-def get_video_url(title_url):
+def get_video_url(title_url, title_id):
     html = get_page_html(title_url)
     if not html:
         logger.error(f"GetVideoUrl - Impossibile ottenere HTML per: {title_url}")
@@ -85,27 +104,59 @@ def get_video_url(title_url):
         script_text = script.string
         if script_text:
             # Cerca URL di flussi video con regex
-            video_urls = re.findall(r'(https?://[^\s\'"]+\.(m3u8|mp4))', script_text)
+            video_urls = re.findall(r'(https?://[^\s\'"]+\.(m3u8|mp4)(?:\?[^\'"]*)?)', script_text)
             if video_urls:
                 video_url = video_urls[0][0]
                 logger.debug(f"GetVideoUrl - Link video trovato nello script: {video_url}")
                 return video_url
+            
+            # Cerca configurazioni del player (es. playerConfig, hls_src)
+            config_match = re.search(r'playerConfig\s*=\s*({.*?});', script_text, re.DOTALL)
+            if config_match:
+                try:
+                    config = json.loads(config_match.group(1))
+                    video_url = config.get('url') or config.get('stream_url') or config.get('hls_src')
+                    if video_url:
+                        logger.debug(f"GetVideoUrl - Link video trovato in playerConfig: {video_url}")
+                        return video_url
+                except json.JSONDecodeError:
+                    logger.debug("GetVideoUrl - Errore nel parsing di playerConfig")
+            
+            # Cerca hls_src direttamente
+            hls_match = re.search(r'hls_src\s*=\s*[\'"](https?://[^\s\'"]+\.m3u8[^\'"]*)[\'"]', script_text)
+            if hls_match:
+                logger.debug(f"GetVideoUrl - Link hls_src trovato: {hls_match.group(1)}")
+                return hls_match.group(1)
     
-    # Tenta di trovare un endpoint API per il flusso video
-    video_api_url = f"{title_url}/stream"  # Hypothetical endpoint, adjust based on inspection
-    try:
-        logger.debug(f"GetVideoUrl - Tentativo di accesso all'API video: {video_api_url}")
-        response = requests.get(video_api_url, headers=HEADERS, timeout=10)
-        response.raise_for_status()
-        data = response.json()
-        video_url = data.get('url') or data.get('stream_url')
-        if video_url:
-            logger.debug(f"GetVideoUrl - Link video trovato tramite API: {video_url}")
-            return video_url
-    except (requests.RequestException, ValueError):
-        logger.debug(f"GetVideoUrl - Nessun flusso video trovato tramite API: {video_api_url}")
+    # Tenta endpoint API alternativi
+    api_endpoints = [
+        f"{BASE_URL}/api/stream/{title_id}",
+        f"{BASE_URL}/api/playlist/{title_id}",
+        f"{BASE_URL}/titles/{title_id}/playlist.m3u8",
+    ]
+    
+    # Ottieni token di autenticazione (se necessario)
+    token = get_auth_token(title_url)
+    if token:
+        HEADERS['Authorization'] = f"Bearer {token}"
+    
+    for api_url in api_endpoints:
+        try:
+            logger.debug(f"GetVideoUrl - Tentativo di accesso all'API video: {api_url}")
+            response = requests.get(api_url, headers=HEADERS, timeout=10)
+            response.raise_for_status()
+            if api_url.endswith('.m3u8'):
+                logger.debug(f"GetVideoUrl - Link video diretto trovato: {api_url}")
+                return api_url
+            data = response.json()
+            video_url = data.get('url') or data.get('stream_url') or data.get('hls_url')
+            if video_url:
+                logger.debug(f"GetVideoUrl - Link video trovato tramite API: {video_url}")
+                return video_url
+        except (requests.RequestException, ValueError) as e:
+            logger.debug(f"GetVideoUrl - Nessun flusso video trovato tramite API: {api_url} ({e})")
 
-    logger.error(f"GetVideoUrl - Nessun iframe, video o link trovato nella pagina: {title_url}")
+    logger.error(f"GetVideoUrl - Nessun iframe, video, link o API trovato per: {title_url}")
     return None
 
 # Funzione per generare il file M3U8
@@ -113,7 +164,7 @@ def generate_m3u8(titles, output_file="streaming.m3u8"):
     m3u8_content = f"#EXTM3U\n# Generated on {datetime.utcnow().isoformat()}\n"
     for title in titles:
         title_url = f"{BASE_URL}/titles/{title['id']}-{title['slug']}"
-        video_url = get_video_url(title_url)
+        video_url = get_video_url(title_url, title['id'])
         if video_url:
             m3u8_content += f"#EXTINF:-1,{title['name']}\n{video_url}\n"
         else:
