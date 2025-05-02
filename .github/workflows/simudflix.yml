@@ -24,26 +24,14 @@ jobs:
         python -m pip install --upgrade pip
         pip install selenium
 
-    - name: Install Chrome
+    - name: Install a specific version of Chrome
       run: |
         sudo apt-get update
-        sudo apt-get install -y google-chrome-stable
+        sudo apt-get install -y google-chrome-stable=114.0.5735.198-1
 
-    - name: Install ChromeDriver
+    - name: Install matching ChromeDriver
       run: |
-        # Ottieni la versione di Chrome installata
-        CHROME_VERSION=$(google-chrome --version | awk '{print $3}' | cut -d'.' -f1)
-        echo "Chrome version: $CHROME_VERSION"
-
-        # Recupera l'ultima versione compatibile di ChromeDriver
-        CHROMEDRIVER_VERSION=$(curl -s "https://chromedriver.storage.googleapis.com/LATEST_RELEASE_${CHROME_VERSION}")
-        if [ -z "$CHROMEDRIVER_VERSION" ]; then
-          echo "Error: Unable to retrieve ChromeDriver version for Chrome $CHROME_VERSION"
-          exit 1
-        fi
-        echo "ChromeDriver version: $CHROMEDRIVER_VERSION"
-
-        # Scarica e installa ChromeDriver
+        CHROMEDRIVER_VERSION=114.0.5735.90  # Corrisponde alla versione di Chrome
         wget "https://chromedriver.storage.googleapis.com/${CHROMEDRIVER_VERSION}/chromedriver_linux64.zip"
         unzip chromedriver_linux64.zip
         sudo mv chromedriver /usr/local/bin/
