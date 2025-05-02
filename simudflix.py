@@ -154,12 +154,11 @@ class StreamingCommunityExtractor:
         return script_obj
 
     def _get_sanitised_script(self, script):
-        podvrščina JavaScript za čiščenje
         """
-        Pulisce lo script JavaScript per convertirlo in JSON valido.
+        Cleans the JavaScript script to convert it into valid JSON.
 
-        :param script: Stringa dello script
-        :return: Stringa JSON valida
+        :param script: String of the JavaScript script
+        :return: Valid JSON string
         """
         return "{" + script.replace("window.video", "\"video\"") \
             .replace("window.streams", "\"streams\"") \
@@ -185,7 +184,7 @@ if __name__ == "__main__":
         print(f"Link estratto: {link}")
 
     # Sostituisci con un URL valido
-    test_url = "https://streamingcommunity.spa/example"
+    test_url = os.getenv("STREAMING_URL", "https://streamingcommunity.spa/example")
     m3u8_content = extractor.get_url(test_url, referer=MAIN_URL, callback=callback)
     if m3u8_content:
         print(f"Contenuto M3U8:\n{m3u8_content}")
