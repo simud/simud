@@ -5,6 +5,7 @@ import json
 import time
 import re
 from urllib.parse import urljoin
+from datetime import datetime
 
 # Configurazione del logging
 logging.basicConfig(level=logging.DEBUG, format='%(levelname)s:%(name)s:%(message)s')
@@ -90,19 +91,32 @@ def get_video_url(title_url):
                 logger.debug(f"GetVideoUrl - Link video trovato nello script: {video_url}")
                 return video_url
     
+    # Tenta di trovare un endpoint API per il flusso video
+    video_api_url = f"{title_url}/stream"  # Hypothetical endpoint, adjust based on inspection
+    try:
+        logger.debug(f"GetVideoUrl - Tentativo di accesso all'API video: {video_api_url}")
+        response = requests.get(video_api_url, headers=HEADERS, timeout=10)
+        response.raise_for_status()
+        data = response.json()
+        video_url = data.get('url') or data.get('stream_url')
+        if video_url:
+            logger.debug(f"GetVideoUrl - Link video trovato tramite API: {video_url}")
+            return video_url
+    except (requests.RequestException, ValueError):
+        logger.debug(f"GetVideoUrl - Nessun flusso video trovato tramite API: {video_api_url}")
+
     logger.error(f"GetVideoUrl - Nessun iframe, video o link trovato nella pagina: {title_url}")
     return None
 
 # Funzione per generare il file M3U8
 def generate_m3u8(titles, output_file="streaming.m3u8"):
-    m3u8_content = "#EXTM3U\n"
+    m3u8_content = f"#EXTM3U\n# Generated on {datetime.utcnow().isoformat()}\n"
     for title in titles:
         title_url = f"{BASE_URL}/titles/{title['id']}-{title['slug']}"
         video_url = get_video_url(title_url)
         if video_url:
             m3u8_content += f"#EXTINF:-1,{title['name']}\n{video_url}\n"
         else:
-            # Aggiungi un placeholder per garantire che il file cambi
             m3u8_content += f"#EXTINF:-1,{title['name']}\n# Nessun flusso video disponibile\n"
         time.sleep(1)  # Ritardo per evitare blocchi
     
