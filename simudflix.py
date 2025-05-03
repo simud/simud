@@ -1,11 +1,12 @@
 import os
 from scuapi import API
 
-# Sito corrente di StreamingCommunity
+# Sito attuale di StreamingCommunity (modifica solo qui se cambia dominio)
 BASE_DOMAIN = "StreamingCommunity.spa"
+BASE_URL = f"https://{BASE_DOMAIN}"
 sc = API(BASE_DOMAIN)
 
-# Lista di film Marvel in italiano
+# Lista di film
 film_lista = [
     "Thunderbolts",
     "Iron Man 3",
@@ -32,11 +33,19 @@ for film in film_lista:
 
     try:
         _, m3u_url, _ = sc.get_links(movie_id, get_m3u=True)
-        user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
-        referer = f"https://{BASE_DOMAIN}/titles/{movie_id}-{results[match]['slug']}"
+
+        user_agent = "Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1"
+        referer = f"{BASE_URL}/titles/{movie_id}-{results[match]['slug']}"
+        origin = BASE_URL
+
         playlist_entries.append(
-            f'#EXTINF:-1,{match}\n#EXTVLCOPT:http-user-agent={user_agent}\n#EXTVLCOPT:http-referrer={referer}\n{m3u_url}'
+            f'#EXTINF:-1,{match}\n'
+            f'#EXTVLCOPT:http-referrer={referer}\n'
+            f'#EXTVLCOPT:http-origin={origin}\n'
+            f'#EXTVLCOPT:http-user-agent={user_agent}\n'
+            f'{m3u_url}'
         )
+
         print(f"Aggiunto: {match}")
     except Exception as e:
         print(f"Errore per {film}: {e}")
