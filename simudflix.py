@@ -1,57 +1,56 @@
-import os
 from scuapi import API
+import re
 
-# Dominio corrente
-BASE_DOMAIN = "StreamingCommunity.spa"
-BASE_URL = f"https://{BASE_DOMAIN}"
-sc = API(BASE_DOMAIN)
+# URL di base
+base_url = "https://StreamingCommunity.spa"
+sc = API(base_url)
 
-# Lista dei film da cercare
-film_lista = [
-    "Iron Man 2",
+# Lista dei film Marvel
+film_marvel = [
+    "Thunderbolts",
     "Iron Man 3",
-    "Thor: Ragnarok",
-    "Captain America: Civil War",
-    "Black Panther: Wakanda Forever",
     "Spider-Man: No Way Home",
-    "Doctor Strange nel Multiverso della Follia",
+    "Black Panther: Wakanda Forever",
+    "Captain America: Civil War",
+    "Thor: Ragnarok",
+    "Doctor Strange",
     "Avengers: Endgame",
-    "Guardiani della Galassia Vol. 3",
-    "The Marvels"
+    "Ant-Man and The Wasp",
+    "Guardians of the Galaxy Vol. 3"
 ]
 
-playlist_entries = []
+# Header VLC
+vlc_headers = f"""#EXTVLCOPT:http-referrer={base_url}/
+#EXTVLCOPT:http-origin={base_url}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+"""
 
-for film in film_lista:
-    results = sc.search(film)
-    match = next((k for k in results if film.lower() in k.lower()), None)
-    if not match:
-        print(f"Film non trovato: {film}")
-        continue
-
-    movie_id = results[match]["id"]
-
-    try:
-        _, m3u_url, _ = sc.get_links(movie_id, get_m3u=True)
-
-        user_agent = "Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1"
-        ref_and_origin = BASE_URL  # stesso valore per referer e origin
-
-        playlist_entries.append(
-            f'#EXTINF:-1,{match}\n'
-            f'#EXTVLCOPT:http-referrer={ref_and_origin}\n'
-            f'#EXTVLCOPT:http-origin={ref_and_origin}\n'
-            f'#EXTVLCOPT:http-user-agent={user_agent}\n'
-            f'{m3u_url}'
-        )
-
-        print(f"Aggiunto: {match}")
-    except Exception as e:
-        print(f"Errore per {film}: {e}")
-
-# Scrive l'intera playlist in un unico file .m3u8
+# File m3u8 di output
 with open("streaming.m3u8", "w", encoding="utf-8") as f:
     f.write("#EXTM3U\n")
-    f.write("\n".join(playlist_entries))
 
-print("File streaming.m3u8 generato correttamente.")
+    for title in film_marvel:
+        try:
+            results = sc.search(title)
+            if not results:
+                print(f"Film non trovato: {title}")
+                continue
+
+            # Prendi il primo risultato
+            movie_key = list(results.keys())[0]
+            movie_id = results[movie_key]["id"]
+
+            # Ottieni i link del film
+            iframe, m3u_url, m3u_file = sc.get_links(movie_id, get_m3u=True)
+
+            # Scegli il link m3u8 più "recente" se presente
+            urls = re.findall(r'https[^\s&"]+token[^&"\']+', m3u_url)
+            best_url = sorted(urls, reverse=True)[0] if urls else m3u_url
+
+            f.write(f"#EXTINF:-1,{movie_key}\n")
+            f.write(vlc_headers)
+            f.write(f"{best_url}\n")
+            print(f"Aggiunto: {movie_key}")
+
+        except Exception as e:
+            print(f"Errore con {title}: {e}")
