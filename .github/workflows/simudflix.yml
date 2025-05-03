@@ -1,16 +1,16 @@
 name: StreamingCommunity Scraper
 
 on:
-  workflow_dispatch:  # Permette l'esecuzione manuale
+  workflow_dispatch:
   schedule:
-    - cron: '*/15 * * * *'  # Esegue ogni 15 minuti
+    - cron: '*/15 * * * *'
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository with custom token
+      - name: Checkout repository con token
         uses: actions/checkout@v3
         with:
           token: ${{ secrets.ACTIONS_TOKEN }}
@@ -27,11 +27,11 @@ jobs:
         run: |
           python simudflix.py
 
-      - name: Commit e push dei file M3U8
+      - name: Commit e push del file streaming.m3u8
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
-          git add *.m3u8
-          git commit -m "Aggiornati flussi M3U8" || echo "Nessun cambiamento da committare"
+          git add streaming.m3u8
+          git commit -m "Aggiornato file M3U8 con nuovi flussi" || echo "Nessun cambiamento da committare"
           git push
         continue-on-error: true
