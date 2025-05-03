@@ -1,53 +1,58 @@
-from streamingcommunity_unofficialapi import API
-import os
-from urllib.parse import urlparse
+from fastapi import FastAPI, Response
+from scuapi import API
 
-movies = [
+app = FastAPI()
+
+# Dominio attuale di StreamingCommunity
+BASE_DOMAIN = "streamingcommunity.spa"
+BASE_URL = f"https://{BASE_DOMAIN}"
+sc = API(BASE_DOMAIN)
+
+# Lista dei film da cercare
+film_lista = [
     "Thunderbolts",
     "Iron Man 3",
-    "Spider-Man: No Way Home",
-    "Black Panther: Wakanda Forever",
-    "Captain America: Civil War",
     "Thor: Ragnarok",
-    "Doctor Strange",
+    "Captain America: Civil War",
+    "Black Panther: Wakanda Forever",
+    "Spider-Man: No Way Home",
+    "Doctor Strange nel Multiverso della Follia",
     "Avengers: Endgame",
-    "Ant-Man and The Wasp",
-    "Guardians of the Galaxy Vol. 3"
+    "Guardiani della Galassia Vol. 3",
+    "The Marvels"
 ]
 
-output_file = os.path.join(os.getenv("GITHUB_WORKSPACE", "."), "streaming.m3u8")
-api = API()
-lines = ["#EXTM3U\n"]
+@app.get("/")
+def root():
+    return {"message": "StreamingCommunity M3U8 API attiva"}
 
-for movie in movies:
-    try:
-        results = api.search(movie)
-        best_match = list(results.values())[0]
-        movie_id = best_match["id"]
-        title = api.get_title(movie_id)
+@app.get("/playlist.m3u8")
+def generate_playlist():
+    user_agent = "Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1"
+    ref_and_origin = BASE_URL
 
-        if not title.streams:
-            print(f"Nessun flusso trovato per {movie}")
+    playlist_entries = ["#EXTM3U"]
+
+    for film in film_lista:
+        try:
+            results = sc.search(film)
+            match = next((k for k in results if film.lower() in k.lower()), None)
+            if not match:
+                continue
+
+            movie_id = results[match]["id"]
+            _, m3u_url, _ = sc.get_links(movie_id, get_m3u=True)
+
+            playlist_entries.append(
+                f'#EXTINF:-1,{match}\n'
+                f'#EXTVLCOPT:http-referrer={ref_and_origin}\n'
+                f'#EXTVLCOPT:http-origin={ref_and_origin}\n'
+                f'#EXTVLCOPT:http-user-agent={user_agent}\n'
+                f'{m3u_url}'
+            )
+        except Exception as e:
+            print(f"Errore con {film}: {e}")
             continue
 
-        # Scegli il flusso più recente (in base a created_at o ultima stagione/episodio)
-        sorted_streams = sorted(title.streams, key=lambda x: x.get("created_at", ""), reverse=True)
-        best_stream = sorted_streams[0]
-
-        stream_url = best_stream["url"]
-        parsed = urlparse(api.base_url)
-        origin = f"{parsed.scheme}://{parsed.netloc}"
-
-        lines.append(f"#EXTINF:-1,{movie}")
-        lines.append(f"#EXTVLCOPT:http-referrer={origin}")
-        lines.append(f"#EXTVLCOPT:http-origin={origin}")
-        lines.append("#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1")
-        lines.append(stream_url + "\n")
-
-    except Exception as e:
-        print(f"Errore con {movie}: {e}")
-
-with open(output_file, "w", encoding="utf-8") as f:
-    f.write("\n".join(lines))
-
-print("File streaming.m3u8 aggiornato.")
+    playlist_str = "\n".join(playlist_entries)
+    return Response(content=playlist_str, media_type="application/x-mpegURL")
