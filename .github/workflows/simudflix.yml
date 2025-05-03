@@ -20,22 +20,14 @@ jobs:
           python -m pip install --upgrade pip
           pip install streamingcommunity-unofficialapi --trusted-host pypi.org --trusted-host pypi.python.org --trusted-host=files.pythonhosted.org
           pip install requests
-          pip install fastapi uvicorn
 
-      - name: Esegui server FastAPI
+      - name: Run StreamingCommunity scraper
+        env:
+          GITHUB_WORKSPACE: ${{ github.workspace }}
         run: |
-          uvicorn main:app --host 0.0.0.0 --port 8000 --reload &
-          sleep 40  # Aumentato il tempo di attesa per essere sicuri che il server sia pronto
+          python simudflix.py
 
-      - name: Verifica se il server è in esecuzione
-        run: |
-          curl -v http://localhost:8000
-
-      - name: Scarica la playlist M3U8
-        run: |
-          curl -v -o streaming.m3u8 http://localhost:8000/playlist.m3u8
-
-      - name: Commit e push del file M3U8 aggiornato
+      - name: Commit and push updated M3U8 file
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
