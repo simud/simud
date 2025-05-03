@@ -1,9 +1,9 @@
-import time
+import os
 from scuapi import API
 
+# Dominio corrente
 BASE_DOMAIN = "StreamingCommunity.spa"
 BASE_URL = f"https://{BASE_DOMAIN}"
-
 sc = API(BASE_DOMAIN)
 
 # Lista dei film da cercare
@@ -32,16 +32,16 @@ for film in film_lista:
     movie_id = results[match]["id"]
 
     try:
-        # Recupera i link
+        # Estrai i link del flusso in modo più preciso
         _, m3u_url, _ = sc.get_links(movie_id, get_m3u=True)
 
-        if m3u_url:
-            print(f"Film: {match}, URL: {m3u_url}")  # Stampa l'URL per vedere se è corretto
-
-            # Aggiungi all'elenco della playlist
+        # Verifica che il flusso contenga la giusta URL
+        if "vixcloud.co" in m3u_url:
+            # Rivediamo la struttura per includere correttamente l'header
             user_agent = "Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1"
             ref_and_origin = BASE_URL  # stesso valore per referer e origin
 
+            # Aggiungi il flusso alla playlist
             playlist_entries.append(
                 f'#EXTINF:-1,{match}\n'
                 f'#EXTVLCOPT:http-referrer={ref_and_origin}\n'
@@ -49,9 +49,11 @@ for film in film_lista:
                 f'#EXTVLCOPT:http-user-agent={user_agent}\n'
                 f'{m3u_url}'
             )
-            print(f"Aggiunto: {match}")
+
+            print(f"Aggiunto: {match} con URL: {m3u_url}")
         else:
-            print(f"Nessun URL trovato per {film}")
+            print(f"URL non valido per il film: {film}")
+
     except Exception as e:
         print(f"Errore per {film}: {e}")
 
