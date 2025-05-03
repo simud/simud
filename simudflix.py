@@ -71,7 +71,6 @@ def generate_default_cookies():
     cookie_jar.save()
     logger.info("GenerateDefaultCookies - Cookie predefiniti salvati con successo")
 
-
 # Gestione dei cookie
 if not os.path.exists(COOKIE_FILE):
     logger.warning("File cookies.txt non trovato, generazione automatica dei cookie")
@@ -86,9 +85,7 @@ else:
         logger.error(f"Errore nel caricamento di cookies.txt: {e}")
         generate_default_cookies()
 
-# Resto dello script: funzioni per estrarre video e generare M3U8
-# (include get_page_html, try_api, get_video_url_yt_dlp, get_video_url, generate_m3u8, get_all_categories)
-
+# Funzioni per estrarre video e generare M3U8
 def get_page_html(url):
     try:
         logger.debug(f"GetUrl - Richiesta URL: {url}")
@@ -101,19 +98,19 @@ def get_page_html(url):
         return None
 
 def try_api(category_url):
-    # Funzione identica a prima, mantenuta invariata
+    pass  # Implementazione da aggiungere
 
 def get_video_url_yt_dlp(player_url):
-    # Funzione identica a prima, mantenuta invariata
+    pass  # Implementazione da aggiungere
 
 def get_video_url(title_id, is_series=False, season=1, episode=1):
-    # Funzione identica a prima, mantenuta invariata
+    pass  # Implementazione da aggiungere
 
 def generate_m3u8(titles, output_file="streaming.m3u8"):
-    # Funzione identica a prima, mantenuta invariata
+    pass  # Implementazione da aggiungere
 
 def get_all_categories():
-    # Funzione identica a prima, mantenuta invariata
+    pass  # Implementazione da aggiungere
 
 if __name__ == "__main__":
     try:
