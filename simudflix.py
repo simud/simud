@@ -1,52 +1,76 @@
-from streamingcommunity import StreamingCommunity
-import time
+import requests
+from streamingcommunity_unofficialapi import StreamingCommunity
+import random
 
-# Imposta il dominio di StreamingCommunity (modifica se necessario)
-domain = 'streamingcommunity.spa'
-
-# Crea un'istanza della classe StreamingCommunity
-sc = StreamingCommunity(domain)
-
-# Lista di film da cercare
-film_list = [
-    "The Matrix", "John Wick", "Avengers: Endgame", "Titanic", "The Dark Knight",
-    "Inception", "Spider-Man: No Way Home", "Joker", "The Lion King", "Interstellar"
+# Lista di 10 film Marvel scelti
+film_selezionati = [
+    "Thunderbolts",
+    "Guardiani della Galassia Vol. 3",
+    "Avengers: Endgame",
+    "Black Panther: Wakanda Forever",
+    "Doctor Strange nel Multiverso della Follia",
+    "Spider-Man: No Way Home",
+    "Shang-Chi e la Leggenda dei Dieci Anelli",
+    "Eternals",
+    "Ant-Man and the Wasp: Quantumania",
+    "Captain Marvel"
 ]
 
-# Lista per memorizzare i link M3U8
-m3u8_links = []
+# Funzione per generare un user-agent casuale
+def genera_user_agent():
+    user_agents = [
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36",
+        "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0",
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:78.0) Gecko/20100101 Firefox/78.0"
+    ]
+    return random.choice(user_agents)
 
-# Funzione per ottenere i link m3u8
-def get_m3u8_links(film_name):
-    try:
-        # Cerca il film
-        result = sc.search(film_name)
-        if result:
-            film_id = result[0]['id']  # Prendi il primo film trovato
-            print(f"Film trovato: {film_name}")
+# Funzione per generare un referer casuale
+def genera_referer():
+    referers = [
+        "https://streamingcommunity.spa",
+        "https://streamingcommunity.spa/watch",
+        "https://streamingcommunity.spa/movie"
+    ]
+    return random.choice(referers)
 
-            # Ottieni i link (iframe e m3u8)
-            links = sc.get_links(film_id)
-            iframe = links.get('iframe', '')
-            m3u_url = links.get('m3u8', '')
+# Inizializzare la libreria StreamingCommunity
+sc = StreamingCommunity()
 
-            if iframe and m3u_url:
-                m3u8_links.append(f"#{film_name} - {iframe}\n{m3u_url}")
-            else:
-                print(f"Nessun link m3u8 trovato per: {film_name}")
-        else:
-            print(f"Film '{film_name}' non trovato.")
-    except Exception as e:
-        print(f"Errore durante la ricerca dei link per '{film_name}': {e}")
+# File M3U8 da generare
+m3u8_filename = "streaming.m3u8"
+with open(m3u8_filename, "w") as m3u8_file:
+    m3u8_file.write("#EXTM3U\n")  # Intestazione del file M3U8
 
-# Esegui la ricerca per ogni film
-for film in film_list:
-    get_m3u8_links(film)
-    time.sleep(1)  # Ritardo tra le richieste per non sovraccaricare il server
+    # Loop per ogni film nella lista
+    for film in film_selezionati:
+        print(f"Recuperando flusso per {film}...")
+        
+        # Recupera le informazioni del film (modifica in base alla libreria)
+        try:
+            flussi = sc.get_film_streams(film)  # Questa è una chiamata esemplificativa, verifica nella libreria per il nome corretto
+            if not flussi:
+                print(f"Nessun flusso trovato per {film}.")
+                continue
 
-# Scrivi i risultati in un file .m3u8
-with open("streaming.m3u8", "w") as file:
-    for link in m3u8_links:
-        file.write(link + "\n")
+            # Scegli un flusso (esempio: il primo disponibile)
+            flusso = flussi[0]  # Potresti fare altre scelte in base a qualità, tipo, ecc.
 
-print("File streaming.m3u8 creato con successo!")
+            # Prepara i dati per la richiesta HTTP con referer e user agent
+            headers = {
+                "User-Agent": genera_user_agent(),
+                "Referer": genera_referer()
+            }
+            
+            # Ottieni il link del flusso (modifica in base alla struttura della libreria)
+            url_flusso = flusso["url"]
+
+            # Scrivi il flusso nel file M3U8
+            m3u8_file.write(f"#EXTINF:-1,{film}\n{url_flusso}\n")
+
+            print(f"Flusso per {film} aggiunto al M3U8.")
+        
+        except Exception as e:
+            print(f"Errore nel recupero del flusso per {film}: {e}")
+
+print(f"File {m3u8_filename} creato con successo.")
