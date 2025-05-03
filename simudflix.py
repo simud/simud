@@ -14,11 +14,16 @@ m3u8_links = []
 
 # Funzione per ottenere i link m3u8
 def get_m3u8_links(film_name):
-    result = sc.search(film_name)
-    if result:
-        film_id = list(result.keys())[0]  # Prendiamo il primo risultato
-        iframe, m3u_playlist_url, m3u_playlist_file = sc.get_links(film_id, get_m3u=True)
-        m3u8_links.append(f"#{film_name} - {iframe}\n{m3u_playlist_url}")
+    try:
+        result = sc.search(film_name)
+        if result:
+            film_id = list(result.keys())[0]  # Prendiamo il primo risultato
+            iframe, m3u_playlist_url, m3u_playlist_file = sc.get_links(film_id, get_m3u=True)
+            m3u8_links.append(f"#{film_name} - {iframe}\n{m3u_playlist_url}")
+        else:
+            print(f"Film '{film_name}' non trovato.")
+    except Exception as e:
+        print(f"Errore nel recuperare i link per '{film_name}': {e}")
 
 # Eseguiamo la ricerca per ogni film nella lista
 for film in film_list:
