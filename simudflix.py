@@ -7,15 +7,15 @@ main_url = "https://streamingcommunity.spa"
 # Funzione per fare richiesta e ottenere l'HTML della pagina
 def get_html(url):
     response = requests.get(url)
-    response.raise_for_status()
+    response.raise_for_status()  # Se la risposta non è OK, solleva un errore
     return response.text
 
-# Funzione per ottenere i link dalle categorie principali
+# Funzione per ottenere i link delle categorie principali
 def get_category_links():
     html = get_html(main_url)
     soup = BeautifulSoup(html, 'html.parser')
 
-    # Estrai i link delle categorie principali dalla pagina principale
+    # Esegui l'analisi per ottenere i link alle categorie
     category_links = {
         "Top 10 di oggi": f"{main_url}/browse/top10",
         "I Titoli Del Momento": f"{main_url}/browse/trending",
@@ -37,30 +37,51 @@ def get_category_links():
     }
     return category_links
 
-# Funzione per estrarre i flussi da una categoria
-def extract_streaming_links_from_category(category_url):
+# Funzione per estrarre il link di streaming da una pagina di film o serie
+def extract_streaming_link_from_page(page_url):
+    html = get_html(page_url)
+    soup = BeautifulSoup(html, 'html.parser')
+
+    # Supponiamo che il flusso di streaming sia contenuto in un tag con class 'video-player' o simile
+    # Modifica questo selettore in base alla struttura effettiva del sito
+    video_tag = soup.find('video')
+    if video_tag and video_tag.get('src'):
+        return video_tag['src']  # Restituisce l'URL del flusso
+    return None
+
+# Funzione per estrarre i film/episodi dalla categoria
+def extract_content_from_category(category_url):
     html = get_html(category_url)
     soup = BeautifulSoup(html, 'html.parser')
 
-    # Trova tutti i film o episodi nella pagina della categoria
-    # Adatta questo codice in base alla struttura dell'HTML
-    video_links = []
-    for link in soup.find_all('a', href=True):
-        if 'watch' in link['href']:  # cerca link di streaming
-            video_links.append(link['href'])
-    
-    return video_links
+    content_links = []
 
-# Funzione per raccogliere tutti i flussi da tutte le categorie
+    # Supponiamo che i film/episodi siano in tag 'a' con una certa classe
+    # Devi adattare questa parte per riflettere correttamente il sito
+    for link in soup.find_all('a', href=True):
+        if '/watch/' in link['href']:  # Cerca link a contenuti specifici di film/serie
+            content_links.append(f"{main_url}{link['href']}")
+
+    return content_links
+
+# Funzione principale per raccogliere i flussi da tutte le categorie
 def collect_streaming_links():
     category_links = get_category_links()
     all_streaming_links = {}
 
-    # Per ogni categoria, estrai i link di streaming
+    # Estrai i contenuti per ogni categoria e trova i flussi
     for category_name, category_url in category_links.items():
         print(f"Estraendo flussi dalla categoria: {category_name}")
-        video_links = extract_streaming_links_from_category(category_url)
-        all_streaming_links[category_name] = video_links
+        content_links = extract_content_from_category(category_url)
+        
+        category_streaming_links = []
+        for content_link in content_links:
+            print(f"  Estraendo flusso da: {content_link}")
+            streaming_link = extract_streaming_link_from_page(content_link)
+            if streaming_link:
+                category_streaming_links.append(streaming_link)
+
+        all_streaming_links[category_name] = category_streaming_links
 
     return all_streaming_links
 
