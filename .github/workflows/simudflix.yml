@@ -31,8 +31,7 @@ jobs:
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
-          git pull origin main --rebase  # Esegui il pull prima di fare il push
           git add streaming.m3u8
           git commit -m "Aggiornato file M3U8 con nuovi flussi" || echo "Nessun cambiamento da committare"
-          git push origin main
+          git push
         continue-on-error: true
