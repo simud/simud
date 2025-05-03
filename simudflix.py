@@ -30,7 +30,7 @@ BASE_URL = "https://streamingcommunity.spa"
 COOKIE_FILE = "cookies.txt"
 session = requests.Session()
 if os.path.exists(COOKIE_FILE):
- cookie_jar = http.cookiejar.MozillaCookieJar(COOKIE_FILE)
+ cookie_jar = http.cookiejar.M ozillaCookieJar(COOKIE_FILE)
  cookie_jar.load()
  session.cookies = cookie_jar
  logger.debug("Cookies caricati da cookies.txt")
@@ -134,7 +134,7 @@ def get_video_url(title_id, is_series=False, season=1, episode=1):
  iframe = soup.find('iframe')
  if iframe and iframe.get('src') and 'vixcloud.co' in iframe.get('src'):
  logger.debug(f"GetVideoUrl - Iframe trovato: {iframe['src']}")
- return iframe['src']
+ return iframe[' src']
  
  # Cerca elementi <video>
  video = soup.find('video')
