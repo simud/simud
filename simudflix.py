@@ -2,12 +2,13 @@ import logging
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
+import os
 
 # Configurazione del logging
 logging.basicConfig(level=logging.DEBUG, format='%(levelname)s:%(name)s:%(message)s')
 logger = logging.getLogger(__name__)
 
-# Intestazioni ispirate al plugin Kotlin
+# Intestazioni HTTP
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
     'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
@@ -31,6 +32,17 @@ def get_page_html(url):
         logger.error(f"GetUrl - Errore durante la richiesta {url}: {e}")
         return None
 
+def save_html_to_file(html, filename="page_debug.html"):
+    """
+    Salva l'HTML in un file per analisi manuale.
+    """
+    try:
+        with open(filename, "w", encoding="utf-8") as file:
+            file.write(html)
+        logger.info(f"HTML salvato nel file: {filename}")
+    except Exception as e:
+        logger.error(f"Errore durante il salvataggio dell'HTML: {e}")
+
 def extract_categories(html):
     """
     Estrae le categorie dalla homepage.
@@ -39,11 +51,11 @@ def extract_categories(html):
     soup = BeautifulSoup(html, 'html.parser')
     categories = []
     
-    # Modifica questo selettore in base alla struttura del sito
-    for a in soup.find_all('a', class_='category-link'):  # Selettore ipotetico
+    # Modifica questo selettore in base alla struttura HTML
+    for a in soup.find_all('a', href=True):  # Modificato per trovare tutti i link
+        href = a['href']
         name = a.text.strip()
-        href = a.get('href')
-        if href:
+        if href and name:
             url = urljoin(BASE_URL, href)
             categories.append((name, url))
             logger.debug(f"Trovata categoria: {name} ({url})")
@@ -62,14 +74,16 @@ def extract_stream_links(category_url):
         logger.error(f"Impossibile ottenere l'HTML per la categoria: {category_url}")
         return []
 
+    save_html_to_file(html, filename="category_debug.html")  # Salva HTML della categoria per debug
+
     soup = BeautifulSoup(html, 'html.parser')
     streams = []
 
     # Modifica questo selettore in base alla struttura del sito
-    for a in soup.find_all('a', class_='stream-link'):  # Selettore ipotetico
+    for a in soup.find_all('a', href=True):  # Generico per iniziare
+        href = a['href']
         title = a.text.strip()
-        href = a.get('href')
-        if href:
+        if href and title:
             url = urljoin(BASE_URL, href)
             streams.append((title, url))
             logger.debug(f"Trovato flusso: {title} ({url})")
@@ -86,6 +100,8 @@ def get_all_categories_and_streams():
     if not homepage_html:
         logger.error("Impossibile ottenere l'HTML della homepage")
         return
+
+    save_html_to_file(homepage_html, filename="homepage_debug.html")  # Salva HTML della homepage per debug
 
     categories = extract_categories(homepage_html)
     if not categories:
