@@ -1,33 +1,41 @@
 #EXTM3U
 #EXTINF:-1,Thunderbolts*
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://StreamingCommunity.spa/titles/10002-thunderbolts
-https://vixcloud.co/playlist/311493?b=1&expires=1751467043&token=9d6aeb5d06cc31c270037e8e88c5c43f&h=1
+#EXTVLCOPT:http-origin=https://StreamingCommunity.spa
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://vixcloud.co/playlist/311493?b=1&expires=1751467105&token=d9b5f929e7ff07c906f955b2a314e708&h=1
 #EXTINF:-1,Iron Man 3
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://StreamingCommunity.spa/titles/315-iron-man-3
-https://vixcloud.co/playlist/253379?expires=1751467044&token=a54f0d5a4aa36c8635d14062efde0fd7&h=1
+#EXTVLCOPT:http-origin=https://StreamingCommunity.spa
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://vixcloud.co/playlist/253379?expires=1751467106&token=26cd2a49c5b88d61ad1a6025eeeade18&h=1
 #EXTINF:-1,Thor: Ragnarok
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://StreamingCommunity.spa/titles/344-thor-ragnarok
-https://vixcloud.co/playlist/146629?expires=1751467045&token=53dc8cd7f0940914e8fb8bcec3f5cbb2&h=1
+#EXTVLCOPT:http-origin=https://StreamingCommunity.spa
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://vixcloud.co/playlist/146629?expires=1751467107&token=030b3883f07cd6c381a68e40a33a6e62&h=1
 #EXTINF:-1,Captain America: Civil War
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://StreamingCommunity.spa/titles/382-captain-america-civil-war
-https://vixcloud.co/playlist/204967?expires=1751467045&token=34d89b359ce159a598aa7cced8de1500&h=1
+#EXTVLCOPT:http-origin=https://StreamingCommunity.spa
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://vixcloud.co/playlist/204967?expires=1751467109&token=07669156b28cdd0200f9154fb8f0ba32&h=1
 #EXTINF:-1,Black Panther: Wakanda Forever
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://StreamingCommunity.spa/titles/5767-black-panther-wakanda-forever
-https://vixcloud.co/playlist/148685?expires=1751467046&token=9020d8465e627690c7e99e22223a5272&h=1
+#EXTVLCOPT:http-origin=https://StreamingCommunity.spa
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://vixcloud.co/playlist/148685?expires=1751467109&token=fc82f44f452f172f8bfc311fee65d954&h=1
 #EXTINF:-1,Spider-Man: No Way Home
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://StreamingCommunity.spa/titles/3868-spider-man-no-way-home
-https://vixcloud.co/playlist/103166?expires=1751467047&token=12eac6a21513dfdf89a42f06ac0f4693&h=1
+#EXTVLCOPT:http-origin=https://StreamingCommunity.spa
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://vixcloud.co/playlist/103166?expires=1751467110&token=6708420f8dfa4804e51f86a5051a98a5&h=1
 #EXTINF:-1,Doctor Strange nel Multiverso della Follia
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://StreamingCommunity.spa/titles/3559-doctor-strange-nel-multiverso-della-follia
-https://vixcloud.co/playlist/120723?expires=1751467047&token=b0d2678a75bd74f2ce6509efa8c74509&h=1
+#EXTVLCOPT:http-origin=https://StreamingCommunity.spa
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://vixcloud.co/playlist/120723?expires=1751467111&token=2130a96fe83bef57365c1648c4d73058&h=1
 #EXTINF:-1,The Marvels
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://StreamingCommunity.spa/titles/6814-the-marvels
-https://vixcloud.co/playlist/186258?expires=1751467048&token=3edf12e1b943aa98d4c5d420c43f6200&h=1
+#EXTVLCOPT:http-origin=https://StreamingCommunity.spa
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://vixcloud.co/playlist/186258?expires=1751467113&token=598dbb0a06eb6927c4f94c425245fb92&h=1
