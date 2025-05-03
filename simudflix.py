@@ -38,13 +38,13 @@ if os.path.exists(COOKIE_FILE):
     except Exception as e:
         logger.error(f"Errore nel caricamento di cookies.txt: {e}")
 else:
-    logger.warning("File cookies.txt non trovato, procedo senza cookie")
+    logger.error("File cookies.txt non trovato. Potrebbe essere necessaria l'autenticazione per accedere ai flussi.")
 
 # Funzione per ottenere i dati dalla pagina HTML
 def get_page_html(url):
     try:
         logger.debug(f"GetUrl - Richiesta URL: {url}")
-        response = session.get(url, headers=HEADERS, timeout=15)
+        response = session.get(url, headers=HEADERS, timeout=20)
         response.raise_for_status()
         logger.debug("GetUrl - HTML della pagina ottenuto")
         return response.text
@@ -63,7 +63,7 @@ def try_api(category_url):
     for api_url in api_urls:
         try:
             logger.debug(f"TryApi - Tentativo di accesso all'API: {api_url}")
-            response = session.get(api_url, headers=HEADERS, timeout=15)
+            response = session.get(api_url, headers=HEADERS, timeout=20)
             response.raise_for_status()
             data = response.json()
             logger.debug(f"TryApi - Dati API ottenuti: {json.dumps(data, indent=2)}")
@@ -101,91 +101,95 @@ def get_video_url_yt_dlp(player_url):
 
 # Funzione per estrarre il link video dalla pagina del player
 def get_video_url(title_id, is_series=False, season=1, episode=1):
-    # URL del player
     player_url = f"{BASE_URL}/watch/{title_id}"
     if is_series:
         player_url += f"?season={season}&episode={episode}"
     
-    logger.debug(f"GetVideoUrl - Tentativo di estrazione per: {player_url}")
+    logger.debug(f"GetVideoUrl - Inizio estrazione per: {player_url}")
     
-    # Ottieni l'HTML della pagina del player
-    html = get_page_html(player_url)
-    if not html:
-        logger.error(f"GetVideoUrl - Impossibile ottenere HTML per: {player_url}")
-        return None
+    try:
+        # Ottieni l'HTML della pagina del player
+        logger.debug("GetVideoUrl - Richiesta HTML")
+        html = get_page_html(player_url)
+        if not html:
+            logger.error(f"GetVideoUrl - Impossibile ottenere HTML per: {player_url}")
+            return None
 
-    soup = BeautifulSoup(html, 'html.parser')
-    
-    # Cerca iframe
-    logger.debug("GetVideoUrl - Ricerca iframe")
-    iframe = soup.find('iframe')
-    if iframe and iframe.get('src') and 'vixcloud.co' in iframe.get('src'):
-        logger.debug(f"GetVideoUrl - Iframe trovato: {iframe['src']}")
-        return iframe['src']
-    
-    # Cerca elementi <video>
-    logger.debug("GetVideoUrl - Ricerca elemento video")
-    video = soup.find('video')
-    if video:
-        src = video.get('src') or (video.find('source') and video.find('source').get('src'))
-        if src and 'vixcloud.co' in src:
-            logger.debug(f"GetVideoUrl - Video trovato: {src}")
-            return src
-    
-    # Cerca link .m3u8 di vixcloud.co negli script
-    logger.debug("GetVideoUrl - Ricerca link .m3u8 negli script")
-    for script in soup.find_all('script'):
-        script_text = script.string
-        if script_text:
-            video_urls = re.findall(r'(https?://vixcloud\.co/playlist/\d+\?[^\'"]+)', script_text)
-            if video_urls:
-                video_url = video_urls[0]
-                logger.debug(f"GetVideoUrl - Link video trovato nello script: {video_url}")
-                return video_url
-            
-            config_match = re.search(r'playerConfig\s*=\s*({.*?});', script_text, re.DOTALL)
-            if config_match:
-                try:
-                    config = json.loads(config_match.group(1))
-                    video_url = config.get('url') or config.get('stream_url') or config.get('hls_src')
-                    if video_url and 'vixcloud.co' in video_url:
-                        logger.debug(f"GetVideoUrl - Link video trovato in playerConfig: {video_url}")
-                        return video_url
-                except json.JSONDecodeError as e:
-                    logger.debug(f"GetVideoUrl - Errore nel parsing di playerConfig: {e}")
-            
-            hls_match = re.search(r'hls_src\s*=\s*[\'"](https?://vixcloud\.co/playlist/\d+\?[^\'"]*)[\'"]', script_text)
-            if hls_match:
-                logger.debug(f"GetVideoUrl - Link hls_src trovato: {hls_match.group(1)}")
-                return hls_match.group(1)
-    
-    # Tenta con API di streaming
-    api_urls = [
-        f"{BASE_URL}/api/stream/{title_id}",
-        f"{BASE_URL}/api/watch/{title_id}",
-        f"{BASE_URL}/api/video/{title_id}",
-    ]
-    if is_series:
-        api_urls = [url + f"?season={season}&episode={episode}" for url in api_urls]
-    
-    for api_url in api_urls:
-        try:
-            logger.debug(f"GetVideoUrl - Tentativo di accesso all'API: {api_url}")
-            response = session.get(api_url, headers=HEADERS, timeout=15)
-            response.raise_for_status()
-            data = response.json()
-            video_url = data.get('url') or data.get('stream_url') or data.get('hls_url') or data.get('hls_src')
-            if video_url and 'vixcloud.co' in video_url:
-                logger.debug(f"GetVideoUrl - Link video trovato tramite API: {video_url}")
-                return video_url
-        except (requests.RequestException, ValueError) as e:
-            logger.debug(f"GetVideoUrl - Nessun flusso video trovato tramite API: {api_url} ({e})")
+        soup = BeautifulSoup(html, 'html.parser')
+        
+        # Cerca iframe
+        logger.debug("GetVideoUrl - Ricerca iframe")
+        iframe = soup.find('iframe')
+        if iframe and iframe.get('src') and 'vixcloud.co' in iframe.get('src'):
+            logger.debug(f"GetVideoUrl - Iframe trovato: {iframe['src']}")
+            return iframe['src']
+        
+        # Cerca elementi <video>
+        logger.debug("GetVideoUrl - Ricerca elemento video")
+        video = soup.find('video')
+        if video:
+            src = video.get('src') or (video.find('source') and video.find('source').get('src'))
+            if src and 'vixcloud.co' in src:
+                logger.debug(f"GetVideoUrl - Video trovato: {src}")
+                return src
+        
+        # Cerca link .m3u8 di vixcloud.co negli script
+        logger.debug("GetVideoUrl - Ricerca link .m3u8 negli script")
+        for script in soup.find_all('script'):
+            script_text = script.string
+            if script_text:
+                video_urls = re.findall(r'(https?://vixcloud\.co/playlist/\d+\?[^\'"]+)', script_text)
+                if video_urls:
+                    video_url = video_urls[0]
+                    logger.debug(f"GetVideoUrl - Link video trovato nello script: {video_url}")
+                    return video_url
+                
+                config_match = re.search(r'playerConfig\s*=\s*({.*?});', script_text, re.DOTALL)
+                if config_match:
+                    try:
+                        config = json.loads(config_match.group(1))
+                        video_url = config.get('url') or config.get('stream_url') or config.get('hls_src')
+                        if video_url and 'vixcloud.co' in video_url:
+                            logger.debug(f"GetVideoUrl - Link video trovato in playerConfig: {video_url}")
+                            return video_url
+                    except json.JSONDecodeError as e:
+                        logger.debug(f"GetVideoUrl - Errore nel parsing di playerConfig: {e}")
+                
+                hls_match = re.search(r'hls_src\s*=\s*[\'"](https?://vixcloud\.co/playlist/\d+\?[^\'"]*)[\'"]', script_text)
+                if hls_match:
+                    logger.debug(f"GetVideoUrl - Link hls_src trovato: {hls_match.group(1)}")
+                    return hls_match.group(1)
+        
+        # Tenta con API di streaming
+        api_urls = [
+            f"{BASE_URL}/api/stream/{title_id}",
+            f"{BASE_URL}/api/watch/{title_id}",
+            f"{BASE_URL}/api/video/{title_id}",
+        ]
+        if is_series:
+            api_urls = [url + f"?season={season}&episode={episode}" for url in api_urls]
+        
+        for api_url in api_urls:
+            try:
+                logger.debug(f"GetVideoUrl - Tentativo di accesso all'API: {api_url}")
+                response = session.get(api_url, headers=HEADERS, timeout=20)
+                response.raise_for_status()
+                data = response.json()
+                video_url = data.get('url') or data.get('stream_url') or data.get('hls_url') or data.get('hls_src')
+                if video_url and 'vixcloud.co' in video_url:
+                    logger.debug(f"GetVideoUrl - Link video trovato tramite API: {video_url}")
+                    return video_url
+            except (requests.RequestException, ValueError) as e:
+                logger.debug(f"GetVideoUrl - Nessun flusso video trovato tramite API: {api_url} ({e})")
 
-    # Prova con yt-dlp
-    logger.debug("GetVideoUrl - Tentativo con yt-dlp")
-    video_url = get_video_url_yt_dlp(player_url)
-    if video_url:
-        return video_url
+        # Prova con yt-dlp
+        logger.debug("GetVideoUrl - Tentativo con yt-dlp")
+        video_url = get_video_url_yt_dlp(player_url)
+        if video_url:
+            return video_url
+
+    except Exception as e:
+        logger.error(f"GetVideoUrl - Errore imprevisto durante l'estrazione per {player_url}: {e}")
 
     logger.error(f"GetVideoUrl - Nessun flusso video trovato per: {player_url}")
     return None
@@ -197,14 +201,13 @@ def generate_m3u8(titles, output_file="streaming.m3u8"):
         for title in titles:
             try:
                 logger.debug(f"GenerateM3U8 - Elaborazione titolo: {title['name']} (ID: {title['id']})")
-                # Determina se è una serie TV
                 is_series = title.get('type') == 'tv' or title.get('seasons_count', 0) > 0
                 video_url = get_video_url(title['id'], is_series=is_series, season=1, episode=1)
                 if video_url:
                     m3u8_content += f"#EXTINF:-1,{title['name']}\n{video_url}\n"
                 else:
                     m3u8_content += f"#EXTINF:-1,{title['name']}\n# Nessun flusso video disponibile\n"
-                time.sleep(1)  # Ritardo per evitare blocchi
+                time.sleep(2)  # Ritardo per evitare blocchi
             except Exception as e:
                 logger.error(f"GenerateM3U8 - Errore durante l'elaborazione del titolo {title['name']}: {e}")
                 m3u8_content += f"#EXTINF:-1,{title['name']}\n# Errore: {str(e)}\n"
