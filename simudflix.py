@@ -33,20 +33,6 @@ def get_category_links():
     }
     return category_links
 
-# Funzione per estrarre il flusso di streaming da una pagina di film o serie
-def extract_streaming_link_from_page(page_url):
-    html = get_html(page_url)
-    soup = BeautifulSoup(html, 'html.parser')
-
-    # Supponiamo che il flusso M3U8 sia in un tag <video> o <source> o simile
-    # Aggiusta questa parte in base alla struttura della pagina effettiva
-    video_tag = soup.find('video')
-    if video_tag:
-        m3u8_link = video_tag.find('source', type="application/x-mpegURL")
-        if m3u8_link:
-            return m3u8_link['src']
-    return None
-
 # Funzione per estrarre i link di film/episodi dalla pagina della categoria
 def extract_content_from_category(category_url):
     html = get_html(category_url)
@@ -61,6 +47,20 @@ def extract_content_from_category(category_url):
             content_links.append(f"{main_url}{link['href']}")
 
     return content_links
+
+# Funzione per estrarre il flusso di streaming da una pagina di film o serie
+def extract_streaming_link_from_page(page_url):
+    html = get_html(page_url)
+    soup = BeautifulSoup(html, 'html.parser')
+
+    # Supponiamo che il flusso M3U8 sia in un tag <video> o <source> o simile
+    # Aggiusta questa parte in base alla struttura della pagina effettiva
+    video_tag = soup.find('video')
+    if video_tag:
+        m3u8_link = video_tag.find('source', type="application/x-mpegURL")
+        if m3u8_link:
+            return m3u8_link['src']
+    return None
 
 # Funzione per raccogliere i flussi per tutte le categorie
 def collect_streaming_links():
