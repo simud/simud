@@ -15,10 +15,11 @@ jobs:
         with:
           token: ${{ secrets.ACTIONS_TOKEN }}
 
+      # Installa le dipendenze richieste
       - name: Install dependencies
         run: |
-          pip install --upgrade pip
-          pip install streamingcommunity-unofficialapi
+          python -m pip install --upgrade pip
+        pip install requests PyGithub
 
       - name: Run SkyStreaming scraper
         env:
