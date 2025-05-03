@@ -3,18 +3,15 @@ from scuapi import API
 import requests
 import cloudscraper
 
-# Dominio corrente (aggiorna con il dominio attivo)
-BASE_DOMAIN = "streamingcommunity.online"  # Verifica il dominio su forum o X
+# Dominio corrente
+BASE_DOMAIN = os.getenv("BASE_DOMAIN", "streamingcommunity.spa")  # Usa env var o default
 BASE_URL = f"https://{BASE_DOMAIN}"
 sc = API(BASE_DOMAIN)
 
 # Funzione per verificare e ottenere un URL M3U8 valido
 def get_valid_m3u_url(movie_id, sc, base_url):
     try:
-        # Ottiene l'URL M3U8
         _, m3u_url, _ = sc.get_links(movie_id, get_m3u=True)
-        
-        # Headers per simulare una richiesta browser
         headers = {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "Referer": base_url,
@@ -23,11 +20,8 @@ def get_valid_m3u_url(movie_id, sc, base_url):
             "Accept-Language": "en-US,en;q=0.9",
             "Connection": "keep-alive"
         }
-        
-        # Usa cloudscraper per bypassare Cloudflare
         scraper = cloudscraper.create_scraper()
         response = scraper.head(m3u_url, headers=headers, allow_redirects=True)
-        
         if response.status_code == 200:
             print(f"URL valido: {m3u_url}")
             return m3u_url
