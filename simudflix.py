@@ -1,18 +1,9 @@
-import requests
 import logging
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-import json
-import time
-import re
-import subprocess
-from urllib.parse import urljoin
-from datetime import datetime
-import http.cookiejar
+import requests
+from bs4 import BeautifulSoup
 import os
+import http.cookiejar
+from urllib.parse import urljoin
 
 # Configurazione del logging
 logging.basicConfig(level=logging.DEBUG, format='%(levelname)s:%(name)s:%(message)s')
@@ -89,79 +80,23 @@ else:
         logger.error(f"Errore nel caricamento di cookies.txt: {e}")
         generate_default_cookies()
 
-# Configurazione di Selenium
-def setup_selenium():
-    """
-    Configura il driver di Selenium per Chrome in modalità headless.
-    """
-    chrome_options = Options()
-    chrome_options.add_argument('--headless')  # Esegui in modalità headless
-    chrome_options.add_argument('--no-sandbox')
-    chrome_options.add_argument('--disable-dev-shm-usage')
-    chrome_options.add_argument(f'user-agent={HEADERS["User-Agent"]}')
-    
-    driver = webdriver.Chrome(options=chrome_options)
-    return driver
-
-# Funzioni per estrarre video e generare M3U8
 def get_page_html(url):
     """
-    Ottiene l'HTML della pagina usando Selenium per gestire contenuti dinamici.
+    Ottiene l'HTML della pagina utilizzando la libreria requests.
     """
-    driver = None
     try:
-        logger.debug(f"GetUrl - Richiesta URL con Selenium: {url}")
-        driver = setup_selenium()
-        
-        # Carica i cookie salvati in cookies.txt
-        driver.get(BASE_URL)  # Prima vai alla homepage per impostare il dominio
-        if os.path.exists(COOKIE_FILE):
-            cookie_jar = http.cookiejar.MozillaCookieJar(COOKIE_FILE)
-            cookie_jar.load()
-            for cookie in cookie_jar:
-                driver.add_cookie({
-                    'name': cookie.name,
-                    'value': cookie.value,
-                    'domain': cookie.domain,
-                    'path': cookie.path,
-                    'secure': cookie.secure,
-                    'expiry': cookie.expires
-                })
-        
-        # Carica la pagina desiderata
-        driver.get(url)
-        
-        # Aspetta che la pagina sia completamente caricata (es. un elemento specifico)
-        WebDriverWait(driver, 10).until(
-            EC.presence_of_element_located((By.TAG_NAME, "body"))
-        )
-        
-        # Ottieni l'HTML
-        html = driver.page_source
-        logger.debug("GetUrl - HTML della pagina ottenuto con Selenium")
-        return html
-    except Exception as e:
+        logger.debug(f"GetUrl - Richiesta URL con Requests: {url}")
+        response = session.get(url, headers=HEADERS)
+        response.raise_for_status()
+        logger.debug("GetUrl - HTML della pagina ottenuto con Requests")
+        return response.text
+    except requests.exceptions.RequestException as e:
         logger.error(f"GetUrl - Errore durante la richiesta {url}: {e}")
         return None
-    finally:
-        if driver:
-            driver.quit()
-
-def try_api(category_url):
-    pass  # Implementazione da aggiungere
-
-def get_video_url_yt_dlp(player_url):
-    pass  # Implementazione da aggiungere
-
-def get_video_url(title_id, is_series=False, season=1, episode=1):
-    pass  # Implementazione da aggiungere
-
-def generate_m3u8(titles, output_file="streaming.m3u8"):
-    pass  # Implementazione da aggiungere
 
 def get_all_categories():
     """
-    Recupera tutte le categorie dal sito usando Selenium.
+    Recupera tutte le categorie dal sito usando BeautifulSoup per fare il parsing HTML.
     """
     logger.info("Recupero delle categorie dal sito")
     url = BASE_URL
@@ -169,28 +104,24 @@ def get_all_categories():
     if not html:
         logger.error("Impossibile ottenere l'HTML della homepage")
         return
-    
-    driver = setup_selenium()
-    try:
-        driver.get(url)
-        # Aspetta che le categorie siano visibili (adatta il selettore)
-        WebDriverWait(driver, 10).until(
-            EC.presence_of_all_elements_located((By.CSS_SELECTOR, 'a.category-link'))  # Selettore ipotetico
-        )
-        
-        # Trova i link delle categorie
-        categories = driver.find_elements(By.CSS_SELECTOR, 'a.category-link')  # Adatta il selettore
-        for category in categories:
-            category_name = category.text.strip()
-            category_url = category.get_attribute('href')
-            if not category_url.startswith('http'):
-                category_url = urljoin(BASE_URL, category_url)
-            logger.info(f"Elaborazione categoria: {category_name} ({category_url})")
-            try_api(category_url)
-    except Exception as e:
-        logger.error(f"Errore durante l'elaborazione delle categorie: {e}")
-    finally:
-        driver.quit()
+
+    soup = BeautifulSoup(html, 'html.parser')
+
+    # Trova i link delle categorie (adatta il selettore)
+    categories = soup.find_all('a', class_='category-link')  # Selettore ipotetico
+    for category in categories:
+        category_name = category.text.strip()
+        category_url = category.get('href')
+        if not category_url.startswith('http'):
+            category_url = urljoin(BASE_URL, category_url)
+        logger.info(f"Elaborazione categoria: {category_name} ({category_url})")
+        try_api(category_url)
+
+def try_api(category_url):
+    """
+    Funzione da implementare per gestire l'API per ogni categoria.
+    """
+    pass  # Implementazione da aggiungere
 
 if __name__ == "__main__":
     try:
