@@ -23,12 +23,16 @@ jobs:
       - name: Install system dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y ffmpeg chromium-browser chromium-chromedriver
+          sudo apt-get install -y ffmpeg
+
+      - name: Clear pip cache
+        run: |
+          pip cache purge
 
       - name: Install Python dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests beautifulsoup4 yt-dlp selenium-wire blinker
+          pip install requests==2.31.0 beautifulsoup4==4.12.3 yt-dlp==2023.12.30
 
       - name: Run SkyStreaming scraper
         env:
