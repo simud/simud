@@ -110,7 +110,24 @@ def generate_m3u8(titles, output_file="streaming.m3u8"):
     pass  # Implementazione da aggiungere
 
 def get_all_categories():
-    pass  # Implementazione da aggiungere
+    """
+    Recupera tutte le categorie dal sito e avvia l'estrazione dei contenuti.
+    """
+    logger.info("Recupero delle categorie dal sito")
+    url = BASE_URL
+    html = get_page_html(url)
+    if not html:
+        logger.error("Impossibile ottenere l'HTML della homepage")
+        return
+    
+    soup = BeautifulSoup(html, 'html.parser')
+    # Esempio: trova i link alle categorie (da adattare in base alla struttura del sito)
+    categories = soup.select('a.category-link')  # Selettore CSS ipotetico
+    for category in categories:
+        category_name = category.text.strip()
+        category_url = urljoin(BASE_URL, category.get('href'))
+        logger.info(f"Elaborazione categoria: {category_name} ({category_url})")
+        try_api(category_url)
 
 if __name__ == "__main__":
     try:
