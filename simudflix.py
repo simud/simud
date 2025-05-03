@@ -24,14 +24,20 @@ for movie in movies:
     print(f"Risultati per '{movie}': {results}")
     
     # Prendi l'ID del film dalla ricerca
-    movie_id = results[movie]["id"]
+    # Aggiungiamo un controllo per trovare la chiave corretta
+    movie_key = next((key for key in results if movie.lower() in key.lower()), None)
     
-    # Ottieni i link m3u per il film
-    m3u_link = sc.get_links(movie_id, get_m3u=True)
-    
-    # Crea un file m3u8 per ogni film
-    with open(f'{movie.replace(" ", "_")}.m3u8', 'w') as f:
-        f.write(m3u_link[1])  # m3u_link[1] contiene l'URL m3u8
-        print(f"Flusso m3u8 per '{movie}' scritto in {movie.replace(' ', '_')}.m3u8")
-
+    if movie_key:
+        movie_id = results[movie_key]["id"]
+        
+        # Ottieni i link m3u per il film
+        m3u_link = sc.get_links(movie_id, get_m3u=True)
+        
+        # Crea un file m3u8 per ogni film
+        with open(f'{movie.replace(" ", "_")}.m3u8', 'w') as f:
+            f.write(m3u_link[1])  # m3u_link[1] contiene l'URL m3u8
+            print(f"Flusso m3u8 per '{movie}' scritto in {movie.replace(' ', '_')}.m3u8")
+    else:
+        print(f"Film '{movie}' non trovato.")
+        
 print("Tutti i film sono stati elaborati.")
