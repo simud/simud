@@ -1,7 +1,7 @@
 from scuapi import API
 import os
 
-# Lista dei titoli che vuoi cercare
+# Lista dei titoli da cercare
 film_list = [
     "Iron Man 3",
     "Thor: Ragnarok",
@@ -12,7 +12,10 @@ film_list = [
     "The Marvels"
 ]
 
-api = API()
+# Inizializza l'API col dominio attuale
+api = API(domain="https://streamingcommunity.spa")
+
+# Inizializza la playlist M3U
 playlist_lines = ["#EXTM3U"]
 
 for title in film_list:
