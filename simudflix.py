@@ -30,7 +30,7 @@ BASE_URL = "https://streamingcommunity.spa"
 COOKIE_FILE = "cookies.txt"
 session = requests.Session()
 if os.path.exists(COOKIE_FILE):
- cookie_jar = http.cookiejar.M ozillaCookieJar(COOKIE_FILE)
+ cookie_jar = http.cookiejar.MozillaCookieJar(COOKIE_FILE)
  cookie_jar.load()
  session.cookies = cookie_jar
  logger.debug("Cookies caricati da cookies.txt")
