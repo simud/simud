@@ -35,8 +35,8 @@ class StreamingCommunity:
             self.type_ = type_
             self.__sc = __sc
 
-        def get(self) -> StreamingCommunity._Movie:
-            if (self.type_ == "movie"):
+        def get(self) -> StreamingCommunity._Movie | StreamingCommunity._Tv:
+            if self.type_ == "movie":
                 return self.__get_movie()
             else:
                 return self.__get_tv()
@@ -177,9 +177,14 @@ class StreamingCommunity:
         with open("streaming.m3u8", "w") as file:
             file.write("#EXTM3U\n")
             for title in titles:
-                movie = title.get()
-                file.write(f"#EXTINF:-1,{movie.name}\n")
-                file.write(f"{movie.playlist_url}\n")
+                item = title.get()
+                if isinstance(item, StreamingCommunity._Movie):
+                    file.write(f"#EXTINF:-1,{item.name}\n")
+                    file.write(f"{item.playlist_url}\n")
+                elif isinstance(item, StreamingCommunity._Tv):
+                    # Per le serie TV, possiamo scrivere solo titolo e qualità, senza playlist_url
+                    file.write(f"#EXTINF:-1,{item.name} - TV Show\n")
+                    file.write(f"Quality: {item.quality}\n")
 
 # Impostazione dell'oggetto StreamingCommunity per usare il dominio .spa
 sc = StreamingCommunity("https://streamingcommunity.spa")
