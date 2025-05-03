@@ -1,62 +1,48 @@
+# Script Python aggiornato per estrarre flussi M3U8
+
+import os
 import logging
 import requests
 from bs4 import BeautifulSoup
-from urllib.parse import urljoin
-import os
 
-# Configurazione del logging
-logging.basicConfig(level=logging.DEBUG, format='%(levelname)s:%(name)s:%(message)s')
+# Configurazione logging
+logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger(__name__)
-
-# Intestazioni HTTP
-HEADERS = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-    'Accept-Language': 'it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7',
-    'Connection': 'keep-alive',
-}
 
 BASE_URL = "https://streamingcommunity.spa"
 
 def get_page_html(url):
     """
-    Ottiene l'HTML della pagina utilizzando Requests.
+    Scarica l'HTML di una pagina.
     """
     try:
         logger.debug(f"GetUrl - Richiesta URL con Requests: {url}")
-        response = requests.get(url, headers=HEADERS)
+        response = requests.get(url, timeout=10)
         response.raise_for_status()
         logger.debug("GetUrl - HTML della pagina ottenuto con Requests")
         return response.text
-    except requests.exceptions.RequestException as e:
-        logger.error(f"GetUrl - Errore durante la richiesta {url}: {e}")
+    except requests.RequestException as e:
+        logger.error(f"Errore durante la richiesta: {e}")
         return None
 
 def extract_categories(html):
     """
-    Estrae le categorie principali dalla homepage.
+    Estrae le categorie dalla homepage.
     """
-    logger.info("Parsing delle categorie dall'HTML")
     soup = BeautifulSoup(html, 'html.parser')
     categories = {}
-
-    # Modifica i selettori per corrispondere alla struttura del sito
     for a in soup.find_all('a', href=True):
-        name = a.text.strip().lower()
-        href = a['href']
-        if "film" in name or "serie tv" in name:  # Filtra solo le categorie rilevanti
-            categories[name] = urljoin(BASE_URL, href)
-            logger.debug(f"Trovata categoria: {name} ({categories[name]})")
-    
+        if '/watch/' in a['href'] or '/serie-tv' in a['href'] or '/film' in a['href']:
+            categories[a.text.strip()] = BASE_URL + a['href']
+            logger.debug(f"Trovata categoria: {a.text.strip()} ({BASE_URL + a['href']})")
     if not categories:
-        logger.warning("Nessuna categoria rilevante trovata.")
+        logger.warning("Nessuna categoria trovata - verifica il selettore HTML.")
     return categories
 
 def extract_streams(category_url):
     """
-    Estrae i flussi video da una categoria specifica.
+    Estrae i flussi video da una categoria.
     """
-    logger.info(f"Estrazione flussi per la categoria: {category_url}")
     html = get_page_html(category_url)
     if not html:
         logger.error(f"Impossibile ottenere l'HTML per la categoria: {category_url}")
@@ -64,47 +50,49 @@ def extract_streams(category_url):
 
     soup = BeautifulSoup(html, 'html.parser')
     streams = []
+    for a in soup.find_all('a', href=True):
+        if '/watch/' in a['href']:
+            streams.append((a.text.strip(), BASE_URL + a['href']))
+            logger.debug(f"Trovato flusso: {a.text.strip()} ({BASE_URL + a['href']})")
 
-    # Modifica questo selettore in base alla struttura del sito
-    for a in soup.find_all('a', href=True, class_="stream-link"):  # Es. "stream-link" è da sostituire con il selettore reale
-        title = a.text.strip()
-        href = a['href']
-        if href and title:
-            streams.append((title, urljoin(BASE_URL, href)))
-            logger.debug(f"Trovato flusso: {title} ({streams[-1][1]})")
-    
     if not streams:
         logger.warning(f"Nessun flusso trovato per la categoria: {category_url}")
     return streams
 
-def extract_episodes(stream_url):
+def extract_m3u8_streams(page_url):
     """
-    Estrae gli episodi da una pagina specifica.
+    Estrae i flussi M3U8 da una pagina di film o episodio.
     """
-    logger.info(f"Estrazione episodi per il flusso: {stream_url}")
-    html = get_page_html(stream_url)
+    logger.info(f"Estrazione M3U8 dalla pagina: {page_url}")
+    html = get_page_html(page_url)
     if not html:
-        logger.error(f"Impossibile ottenere l'HTML per il flusso: {stream_url}")
+        logger.error(f"Impossibile ottenere l'HTML per la pagina: {page_url}")
         return []
 
     soup = BeautifulSoup(html, 'html.parser')
-    episodes = []
+    m3u8_streams = []
 
-    # Modifica questo selettore in base alla struttura del sito
-    for a in soup.find_all('a', href=True, class_="episode-link"):  # Es. "episode-link" è da sostituire
-        title = a.text.strip()
-        href = a['href']
-        if href and title:
-            episodes.append((title, urljoin(BASE_URL, href)))
-            logger.debug(f"Trovato episodio: {title} ({episodes[-1][1]})")
-    
-    if not episodes:
-        logger.warning(f"Nessun episodio trovato per il flusso: {stream_url}")
-    return episodes
+    # Metodo 1: Usa BeautifulSoup per cercare link con estensione .m3u8
+    for a in soup.find_all('a', href=True):
+        if '.m3u8' in a['href']:
+            m3u8_streams.append(a['href'])
+
+    # Metodo 2: Cerca direttamente nell'HTML
+    for line in html.splitlines():
+        if '.m3u8' in line:
+            start_idx = line.find('http')
+            end_idx = line.find('.m3u8') + 5  # Include ".m3u8"
+            m3u8_streams.append(line[start_idx:end_idx])
+
+    if not m3u8_streams:
+        logger.warning(f"Nessun flusso M3U8 trovato per la pagina: {page_url}")
+    else:
+        logger.info(f"Flussi M3U8 trovati: {m3u8_streams}")
+    return m3u8_streams
 
 def main():
     """
-    Esegue il processo completo: categorie -> flussi -> episodi.
+    Esegue il processo completo: categorie -> flussi -> M3U8.
     """
     homepage_html = get_page_html(BASE_URL)
     if not homepage_html:
@@ -122,11 +110,11 @@ def main():
         if streams:
             for stream_title, stream_url in streams:
                 logger.info(f"Processo del flusso: {stream_title}")
-                episodes = extract_episodes(stream_url)
-                if episodes:
-                    logger.info(f"Episodi trovati per {stream_title}: {episodes}")
+                m3u8_links = extract_m3u8_streams(stream_url)
+                if m3u8_links:
+                    logger.info(f"Flussi M3U8 trovati per {stream_title}: {m3u8_links}")
                 else:
-                    logger.info(f"Nessun episodio trovato per {stream_title}")
+                    logger.info(f"Nessun flusso M3U8 trovato per {stream_title}")
         else:
             logger.info(f"Nessun flusso trovato per {category_name}")
 
