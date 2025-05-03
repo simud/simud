@@ -16,10 +16,10 @@ jobs:
           token: ${{ secrets.ACTIONS_TOKEN }}
 
       - name: Installa dipendenze
-      run: |
-        python -m pip install --upgrade pip
-        pip install streamingcommunity_unofficialapi --trusted-host pypi.org --trusted-host pypi.python.org --trusted-host=files.pythonhosted.org
-        pip install requests
+        run: |
+          python -m pip install --upgrade pip
+          pip install streamingcommunity_unofficialapi --trusted-host pypi.org --trusted-host pypi.python.org --trusted-host=files.pythonhosted.org
+          pip install requests
 
       - name: Run SkyStreaming scraper
         env:
