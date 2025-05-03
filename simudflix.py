@@ -1,15 +1,24 @@
 import time
 import httpx
+import os
+import random
+import string
+
+# Funzione per generare un token random (placeholder)
+def generate_token(length=12):
+    return ''.join(random.choices(string.ascii_letters + string.digits, k=length))
 
 # Funzione per ottenere i flussi validi
-def get_valid_stream(url):
+def get_valid_stream(url, proxy=None):
     headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+        "User-Agent": "Mozilla/5.0",
         "Accept": "*/*",
     }
 
+    proxies = {"http://": proxy, "https://": proxy} if proxy else None
+
     try:
-        with httpx.Client(follow_redirects=True, timeout=10, headers=headers) as client:
+        with httpx.Client(follow_redirects=True, timeout=10, headers=headers, proxies=proxies) as client:
             response = client.get(url)
             if response.status_code == 200:
                 return url
@@ -19,7 +28,7 @@ def get_valid_stream(url):
     return None
 
 # Funzione per ottenere i flussi dei film
-def get_movie_streams():
+def get_movie_streams(proxy=None):
     movie_data = [
         ("Thunderbolts", "311493"),
         ("Iron Man 3", "253379"),
@@ -35,8 +44,9 @@ def get_movie_streams():
     
     for movie, playlist_id in movie_data:
         print(f"Controllo flusso per: {movie}")
-        url = f"https://vixcloud.co/playlist/{playlist_id}?expires={int(time.time()) + 3600}&b=1&token=random_token&h=1"
-        valid_url = get_valid_stream(url)
+        token = generate_token()
+        url = f"https://vixcloud.co/playlist/{playlist_id}?expires={int(time.time()) + 3600}&b=1&token={token}&h=1"
+        valid_url = get_valid_stream(url, proxy=proxy)
         if valid_url:
             valid_streams.append(f"#EXTINF:-1,{movie}\n{valid_url}")
         else:
@@ -53,7 +63,8 @@ def create_m3u8_file(valid_streams):
     print("File M3U8 creato correttamente.")
 
 def main():
-    valid_streams = get_movie_streams()
+    proxy = os.getenv("PROXY_URL")  # Puoi settare un proxy come variabile d'ambiente
+    valid_streams = get_movie_streams(proxy=proxy)
     if valid_streams:
         create_m3u8_file(valid_streams)
     else:
