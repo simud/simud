@@ -7,9 +7,6 @@ import re
 import subprocess
 from urllib.parse import urljoin
 from datetime import datetime
-from seleniumwire import webdriver
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.common.by import By
 
 # Configurazione del logging
 logging.basicConfig(level=logging.DEBUG, format='%(levelname)s:%(name)s:%(message)s')
@@ -62,10 +59,10 @@ def try_api(category_url):
     return []
 
 # Funzione per estrarre il flusso video con yt-dlp
-def get_video_url_yt_dlp(title_url):
+def get_video_url_yt_dlp(player_url):
     try:
         result = subprocess.run(
-            ['yt-dlp', '--get-url', '--user-agent', HEADERS['User-Agent'], '--referer', BASE_URL, title_url],
+            ['yt-dlp', '--get-url', '--user-agent', HEADERS['User-Agent'], '--referer', BASE_URL, player_url],
             capture_output=True, text=True, check=True
         )
         video_url = result.stdout.strip()
@@ -76,67 +73,12 @@ def get_video_url_yt_dlp(title_url):
         logger.error(f"GetVideoUrl - Errore con yt-dlp: {e}")
     return None
 
-# Funzione per estrarre il flusso video con Selenium Wire
-def get_video_url_selenium_wire(title_url):
-    options = Options()
-    options.add_argument('--headless')
-    options.add_argument('--no-sandbox')
-    options.add_argument('--disable-dev-shm-usage')
-    
-    driver = webdriver.Chrome(options=options)
-    try:
-        logger.debug(f"GetVideoUrl - Avvio Selenium Wire per: {title_url}")
-        driver.get(title_url)
-        time.sleep(5)  # Attendi il caricamento della pagina
-        
-        # Cerca e clicca sul pulsante "Play"
-        try:
-            play_button = driver.find_element(By.CSS_SELECTOR, 'button.play, .vjs-play-control, [aria-label="Play"], .play-button')
-            play_button.click()
-            logger.debug("GetVideoUrl - Pulsante Play cliccato")
-            time.sleep(5)  # Attendi il caricamento del flusso
-        except:
-            logger.debug("GetVideoUrl - Pulsante Play non trovato")
-
-        # Analizza le richieste di rete
-        for request in driver.requests:
-            if request.response and 'vixcloud.co/playlist' in request.url and '.m3u8' in request.url:
-                logger.debug(f"GetVideoUrl - Flusso trovato con Selenium Wire: {request.url}")
-                return request.url
-        
-        # Cerca iframe o elementi <video>
-        iframes = driver.find_elements(By.TAG_NAME, 'iframe')
-        for iframe in iframes:
-            src = iframe.get_attribute('src')
-            if src and 'vixcloud.co' in src:
-                logger.debug(f"GetVideoUrl - Iframe trovato con Selenium: {src}")
-                return src
-        
-        videos = driver.find_elements(By.TAG_NAME, 'video')
-        for video in videos:
-            src = video.get_attribute('src')
-            if src and 'vixcloud.co' in src:
-                logger.debug(f"GetVideoUrl - Video trovato con Selenium: {src}")
-                return src
-            sources = video.find_elements(By.TAG_NAME, 'source')
-            for source in sources:
-                src = source.get_attribute('src')
-                if src and 'vixcloud.co' in src:
-                    logger.debug(f"GetVideoUrl - Source trovato con Selenium: {src}")
-                    return src
-    
-    except Exception as e:
-        logger.error(f"GetVideoUrl - Errore con Selenium Wire: {e}")
-    finally:
-        driver.quit()
-    return None
-
 # Funzione per estrarre il link video dalla pagina del player
 def get_video_url(title_id):
     # URL del player
     player_url = f"{BASE_URL}/watch/{title_id}"
     
-    # Prima prova con l'HTML della pagina del player
+    # Ottieni l'HTML della pagina del player
     html = get_page_html(player_url)
     if not html:
         logger.error(f"GetVideoUrl - Impossibile ottenere HTML per: {player_url}")
@@ -184,13 +126,22 @@ def get_video_url(title_id):
                 logger.debug(f"GetVideoUrl - Link hls_src trovato: {hls_match.group(1)}")
                 return hls_match.group(1)
     
+    # Tenta con API di streaming
+    api_url = f"{BASE_URL}/api/stream/{title_id}"
+    try:
+        logger.debug(f"GetVideoUrl - Tentativo di accesso all'API: {api_url}")
+        response = requests.get(api_url, headers=HEADERS, timeout=10)
+        response.raise_for_status()
+        data = response.json()
+        video_url = data.get('url') or data.get('stream_url') or data.get('hls_url')
+        if video_url and 'vixcloud.co' in video_url:
+            logger.debug(f"GetVideoUrl - Link video trovato tramite API: {video_url}")
+            return video_url
+    except (requests.RequestException, ValueError) as e:
+        logger.debug(f"GetVideoUrl - Nessun flusso video trovato tramite API: {api_url} ({e})")
+
     # Prova con yt-dlp
     video_url = get_video_url_yt_dlp(player_url)
-    if video_url:
-        return video_url
-    
-    # Prova con Selenium Wire
-    video_url = get_video_url_selenium_wire(player_url)
     if video_url:
         return video_url
 
@@ -199,42 +150,50 @@ def get_video_url(title_id):
 
 # Funzione per generare il file M3U8
 def generate_m3u8(titles, output_file="streaming.m3u8"):
-    m3u8_content = f"#EXTM3U\n# Generated on {datetime.utcnow().isoformat()}\n"
-    for title in titles:
-        video_url = get_video_url(title['id'])
-        if video_url:
-            m3u8_content += f"#EXTINF:-1,{title['name']}\n{video_url}\n"
-        else:
-            m3u8_content += f"#EXTINF:-1,{title['name']}\n# Nessun flusso video disponibile\n"
-        time.sleep(1)  # Ritardo per evitare blocchi
-    
-    # Scrivi il file M3U8
-    with open(output_file, 'w', encoding='utf-8') as f:
-        f.write(m3u8_content)
-    logger.info(f"generate_m3u8 - File {output_file} generato con successo")
+    try:
+        m3u8_content = f"#EXTM3U\n# Generated on {datetime.utcnow().isoformat()}\n"
+        for title in titles:
+            video_url = get_video_url(title['id'])
+            if video_url:
+                m3u8_content += f"#EXTINF:-1,{title['name']}\n{video_url}\n"
+            else:
+                m3u8_content += f"#EXTINF:-1,{title['name']}\n# Nessun flusso video disponibile\n"
+            time.sleep(1)  # Ritardo per evitare blocchi
+        
+        # Scrivi il file M3U8
+        with open(output_file, 'w', encoding='utf-8') as f:
+            f.write(m3u8_content)
+        logger.info(f"generate_m3u8 - File {output_file} generato con successo")
+    except Exception as e:
+        logger.error(f"generate_m3u8 - Errore durante la generazione del file M3U8: {e}")
+        raise
 
 # Funzione principale per processare tutte le categorie
 def get_all_categories():
-    categories = [
-        {"name": "Top 10 di oggi", "url": f"{BASE_URL}/browse/top10"},
-        {"name": "I Titoli Del Momento", "url": f"{BASE_URL}/browse/trending"},
-    ]
+    try:
+        categories = [
+            {"name": "Top 10 di oggi", "url": f"{BASE_URL}/browse/top10"},
+            {"name": "I Titoli Del Momento", "url": f"{BASE_URL}/browse/trending"},
+        ]
 
-    for category in categories:
-        logger.info(f"GetAllCategories - Processing category: {category['name']} ({category['url']})")
-        
-        # Ottieni i titoli dall'API
-        titles = try_api(category['url'])
-        if not titles:
-            logger.error(f"GetAllCategories - Nessun titolo trovato per: {category['name']}")
-            continue
-        
-        # Genera il file M3U8
-        generate_m3u8(titles)
-        
-        # Log dei titoli trovati
-        for title in titles:
-            logger.info(f"Titolo: {title['name']} - Player URL: {BASE_URL}/watch/{title['id']}")
+        for category in categories:
+            logger.info(f"GetAllCategories - Processing category: {category['name']} ({category['url']})")
+            
+            # Ottieni i titoli dall'API
+            titles = try_api(category['url'])
+            if not titles:
+                logger.error(f"GetAllCategories - Nessun titolo trovato per: {category['name']}")
+                continue
+            
+            # Genera il file M3U8
+            generate_m3u8(titles)
+            
+            # Log dei titoli trovati
+            for title in titles:
+                logger.info(f"Titolo: {title['name']} - Player URL: {BASE_URL}/watch/{title['id']}")
+    except Exception as e:
+        logger.error(f"GetAllCategories - Errore durante l'elaborazione delle categorie: {e}")
+        raise
 
 # Esecuzione principale
 if __name__ == "__main__":
