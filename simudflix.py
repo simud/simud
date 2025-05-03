@@ -23,7 +23,6 @@ film_lista = [
 playlist_entries = []
 
 for film in film_lista:
-    # Cerca il film nella piattaforma StreamingCommunity
     results = sc.search(film)
     match = next((k for k in results if film.lower() in k.lower()), None)
     if not match:
@@ -33,23 +32,26 @@ for film in film_lista:
     movie_id = results[match]["id"]
 
     try:
-        # Recupera il link m3u
+        # Recupera i link
         _, m3u_url, _ = sc.get_links(movie_id, get_m3u=True)
 
-        # Definisci gli header
-        user_agent = "Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1"
-        ref_and_origin = BASE_URL  # stesso valore per referer e origin
+        if m3u_url:
+            print(f"Film: {match}, URL: {m3u_url}")  # Stampa l'URL per vedere se è corretto
 
-        # Aggiungi l'entrata alla playlist
-        playlist_entries.append(
-            f'#EXTINF:-1,{match}\n'
-            f'#EXTVLCOPT:http-referrer={ref_and_origin}\n'
-            f'#EXTVLCOPT:http-origin={ref_and_origin}\n'
-            f'#EXTVLCOPT:http-user-agent={user_agent}\n'
-            f'{m3u_url}'
-        )
+            # Aggiungi all'elenco della playlist
+            user_agent = "Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1"
+            ref_and_origin = BASE_URL  # stesso valore per referer e origin
 
-        print(f"Aggiunto: {match}")
+            playlist_entries.append(
+                f'#EXTINF:-1,{match}\n'
+                f'#EXTVLCOPT:http-referrer={ref_and_origin}\n'
+                f'#EXTVLCOPT:http-origin={ref_and_origin}\n'
+                f'#EXTVLCOPT:http-user-agent={user_agent}\n'
+                f'{m3u_url}'
+            )
+            print(f"Aggiunto: {match}")
+        else:
+            print(f"Nessun URL trovato per {film}")
     except Exception as e:
         print(f"Errore per {film}: {e}")
 
