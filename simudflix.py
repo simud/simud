@@ -5,6 +5,20 @@ import re
 from typing import Literal
 from dataclasses import dataclass
 
+# Lista iniziale di titoli da cercare
+titles_to_search = [
+    "John Wick",
+    "Breaking Bad",
+    "Oppenheimer",
+    "Avatar",
+    "Stranger Things",
+    "The Matrix",
+    "Inception",
+    "The Witcher",
+    "Game of Thrones",
+    "Black Mirror"
+]
+
 @dataclass
 class Title:
     id: int
@@ -162,10 +176,26 @@ class StreamingCommunity:
             titles
         ))
 
+    def generate_m3u8(self, titles: list[_Title]):
+        with open('streaming.m3u8', 'w') as file:
+            file.write("#EXTM3U\n")
+            for title in titles:
+                try:
+                    result = title.get()
+                    if isinstance(result, StreamingCommunity._Movie):
+                        file.write(f"#EXTINF:-1, {result.name}\n")
+                        file.write(f"{result.playlist_url}\n")
+                    elif isinstance(result, StreamingCommunity._Tv):
+                        for season in result.seasons:
+                            for episode in season.episodes:
+                                file.write(f"#EXTINF:-1, {episode.name}\n")
+                                file.write(f"{episode.playlist_url}\n")
+                except Exception as e:
+                    print(f"Errore per {title.name}: {e}")
+
     @staticmethod
     def _get_inertia_version(url: str) -> str | None:
         pattern = r"version&quot;:&quot;([a-f0-9]+)&quot;"
-
         res = requests.get(url)
         _match = re.search(pattern, res.text)
         if _match:
@@ -173,24 +203,10 @@ class StreamingCommunity:
         else:
             raise LookupError(f"Given url ({url}) is not an Inertia application")
 
-    def generate_m3u8(self, titles: list[_Title]) -> None:
-        with open("streaming.m3u8", "w") as file:
-            file.write("#EXTM3U\n")
-            for title in titles:
-                item = title.get()
-                if isinstance(item, StreamingCommunity._Movie):
-                    file.write(f"#EXTINF:-1,{item.name}\n")
-                    file.write(f"{item.playlist_url}\n")
-                elif isinstance(item, StreamingCommunity._Tv):
-                    # Per le serie TV, possiamo scrivere solo titolo e qualità, senza playlist_url
-                    file.write(f"#EXTINF:-1,{item.name} - TV Show\n")
-                    file.write(f"Quality: {item.quality}\n")
-
-# Impostazione dell'oggetto StreamingCommunity per usare il dominio .spa
+# Creazione dell'istanza di StreamingCommunity con il dominio .spa
 sc = StreamingCommunity("https://streamingcommunity.spa")
 
-# Ricerca di un film
-titles = sc.search("john wick")
-
-# Generazione del file m3u8
-sc.generate_m3u8(titles)
+# Esegui la ricerca per ogni titolo nella lista e genera il file m3u8
+for title_name in titles_to_search:
+    titles = sc.search(title_name)
+    sc.generate_m3u8(titles)
