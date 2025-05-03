@@ -2,15 +2,34 @@ import os
 from scuapi import API
 import requests
 import cloudscraper
+import time
 
-# Dominio corrente
 BASE_DOMAIN = os.getenv("BASE_DOMAIN", "streamingcommunity.spa")
 BASE_URL = f"https://{BASE_DOMAIN}"
 sc = API(BASE_DOMAIN)
 
 def get_valid_m3u_url(movie_id, sc, base_url):
     try:
+        # Richiedi un nuovo link M3U8 per ogni film
         _, m3u_url, _ = sc.get_links(movie_id, get_m3u=True)
+        
+        if not m3u_url:
+            print(f"Nessun flusso M3U8 trovato per {movie_id}")
+            return None
+        
+        # Estrai i parametri dalla URL M3U8 per analizzare expires e token
+        from urllib.parse import urlparse, parse_qs
+        parsed_url = urlparse(m3u_url)
+        query_params = parse_qs(parsed_url.query)
+        
+        expires = int(query_params.get('expires', [0])[0])
+        current_time = int(time.time())  # Ottieni l'ora attuale in secondi
+        
+        # Verifica se il flusso è scaduto
+        if expires <= current_time:
+            print(f"Flusso scaduto per {movie_id}. Genera un nuovo flusso.")
+            return None  # Il flusso è scaduto, quindi non restituirlo
+        
         headers = {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "Referer": base_url,
@@ -19,17 +38,20 @@ def get_valid_m3u_url(movie_id, sc, base_url):
             "Accept-Language": "en-US,en;q=0.9",
             "Connection": "keep-alive"
         }
+        
+        # Scraping del flusso con cloudscraper
         scraper = cloudscraper.create_scraper()
         response = scraper.head(m3u_url, headers=headers, allow_redirects=True)
         
         if response.status_code == 200:
-            print(f"URL valido: {m3u_url}")
+            print(f"URL valido per {movie_id}: {m3u_url}")
             return m3u_url
         else:
-            print(f"URL non valido per movie_id {movie_id}: {m3u_url} (Status: {response.status_code})")
+            print(f"URL non valido per {movie_id}: {m3u_url} (Status: {response.status_code})")
             return None
+        
     except Exception as e:
-        print(f"Errore nella verifica dell'URL per movie_id {movie_id}: {e}")
+        print(f"Errore per {movie_id}: {e}")
         return None
 
 # Lista dei film da cercare
