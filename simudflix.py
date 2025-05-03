@@ -14,7 +14,7 @@ import os
 logging.basicConfig(level=logging.DEBUG, format='%(levelname)s:%(name)s:%(message)s')
 logger = logging.getLogger(__name__)
 
-# Intestazioni per emulare un browser reale
+# Intestazioni ispirate al plugin Kotlin
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
     'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
@@ -26,7 +26,7 @@ HEADERS = {
 # URL di base
 BASE_URL = "https://streamingcommunity.spa"
 
-# Carica cookie da file (se esiste)
+# Carica cookie da file (essenziale, come nel plugin Kotlin)
 COOKIE_FILE = "cookies.txt"
 session = requests.Session()
 if os.path.exists(COOKIE_FILE):
@@ -38,13 +38,13 @@ if os.path.exists(COOKIE_FILE):
     except Exception as e:
         logger.error(f"Errore nel caricamento di cookies.txt: {e}")
 else:
-    logger.error("File cookies.txt non trovato. Potrebbe essere necessaria l'autenticazione per accedere ai flussi.")
+    logger.error("File cookies.txt non trovato. L'autenticazione è necessaria per accedere ai flussi video.")
 
 # Funzione per ottenere i dati dalla pagina HTML
 def get_page_html(url):
     try:
         logger.debug(f"GetUrl - Richiesta URL: {url}")
-        response = session.get(url, headers=HEADERS, timeout=20)
+        response = session.get(url, headers=HEADERS, timeout=30)
         response.raise_for_status()
         logger.debug("GetUrl - HTML della pagina ottenuto")
         return response.text
@@ -63,7 +63,7 @@ def try_api(category_url):
     for api_url in api_urls:
         try:
             logger.debug(f"TryApi - Tentativo di accesso all'API: {api_url}")
-            response = session.get(api_url, headers=HEADERS, timeout=20)
+            response = session.get(api_url, headers=HEADERS, timeout=30)
             response.raise_for_status()
             data = response.json()
             logger.debug(f"TryApi - Dati API ottenuti: {json.dumps(data, indent=2)}")
@@ -133,7 +133,7 @@ def get_video_url(title_id, is_series=False, season=1, episode=1):
                 logger.debug(f"GetVideoUrl - Video trovato: {src}")
                 return src
         
-        # Cerca link .m3u8 di vixcloud.co negli script
+        # Cerca link .m3u8 di vixcloud.co negli script (ispirato al plugin Kotlin)
         logger.debug("GetVideoUrl - Ricerca link .m3u8 negli script")
         for script in soup.find_all('script'):
             script_text = script.string
@@ -160,7 +160,7 @@ def get_video_url(title_id, is_series=False, season=1, episode=1):
                     logger.debug(f"GetVideoUrl - Link hls_src trovato: {hls_match.group(1)}")
                     return hls_match.group(1)
         
-        # Tenta con API di streaming
+        # Tenta con API di streaming (ispirato al plugin Kotlin)
         api_urls = [
             f"{BASE_URL}/api/stream/{title_id}",
             f"{BASE_URL}/api/watch/{title_id}",
@@ -172,7 +172,7 @@ def get_video_url(title_id, is_series=False, season=1, episode=1):
         for api_url in api_urls:
             try:
                 logger.debug(f"GetVideoUrl - Tentativo di accesso all'API: {api_url}")
-                response = session.get(api_url, headers=HEADERS, timeout=20)
+                response = session.get(api_url, headers=HEADERS, timeout=30)
                 response.raise_for_status()
                 data = response.json()
                 video_url = data.get('url') or data.get('stream_url') or data.get('hls_url') or data.get('hls_src')
