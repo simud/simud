@@ -7,9 +7,16 @@ import re
 import subprocess
 from urllib.parse import urljoin
 from datetime import datetime
-from seleniumwire import webdriver
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.common.by import By
+
+# Verifica se selenium-wire è disponibile
+try:
+    from seleniumwire import webdriver
+    from selenium.webdriver.chrome.options import Options
+    from selenium.webdriver.common.by import By
+    SELENIUM_AVAILABLE = True
+except ImportError as e:
+    logging.warning(f"SeleniumWire non disponibile: {e}. Procedo senza Selenium.")
+    SELENIUM_AVAILABLE = False
 
 # Configurazione del logging
 logging.basicConfig(level=logging.DEBUG, format='%(levelname)s:%(name)s:%(message)s')
@@ -78,6 +85,10 @@ def get_video_url_yt_dlp(player_url):
 
 # Funzione per estrarre il flusso video con Selenium Wire
 def get_video_url_selenium_wire(player_url):
+    if not SELENIUM_AVAILABLE:
+        logger.debug("GetVideoUrl - Selenium Wire non disponibile, salto")
+        return None
+
     options = Options()
     options.add_argument('--headless')
     options.add_argument('--no-sandbox')
@@ -137,6 +148,8 @@ def get_video_url(title_id, is_series=False, season=1, episode=1):
     player_url = f"{BASE_URL}/watch/{title_id}"
     if is_series:
         player_url += f"?season={season}&episode={episode}"
+    
+    logger.debug(f"GetVideoUrl - Tentativo di estrazione per: {player_url}")
     
     # Ottieni l'HTML della pagina del player
     html = get_page_html(player_url)
