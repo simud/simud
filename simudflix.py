@@ -96,16 +96,19 @@ def try_api(category_url):
 # Funzione per estrarre il flusso video con yt-dlp
 def get_video_url_yt_dlp(player_url):
  try:
+ cmd = [
+ 'yt-dlp', '--get-url', '--user-agent', HEADERS['User-Agent'],
+ '--referer', BASE_URL, '--cookies', COOKIE_FILE, player_url
+ ]
  result = subprocess.run(
- ['yt-dlp', '--get-url', '--user-agent', HEADERS['User-Agent'], '--referer', BASE_URL, '--cookies', COOKIE_FILE, player_url],
- capture_output=True, text=True, check=True
+ cmd, capture_output=True, text=True, check=True
  )
  video_url = result.stdout.strip()
  if video_url and ('.m3u8' in video_url or '.mp4' in video_url):
  logger.debug(f"GetVideoUrl - Link video trovato con yt-dlp: {video_url}")
  return video_url
  except subprocess.CalledProcessError as e:
- logger.error(f"GetVideoUrl - Errore con yt-dlp: {e}\nOutput: {e.output}\nErrore: {e.stderr}")
+ logger.error(f"GetVideoUrl - Errore con yt-dlp: {e}\nCommand: {cmd}\nOutput: {e.output}\nErrore: {e.stderr}")
  except FileNotFoundError as e:
  logger.error(f"GetVideoUrl - yt-dlp non trovato: {e}")
  return None
@@ -115,7 +118,7 @@ def get_video_url(title_id, is_series=False, season=1, episode=1):
  # URL del player
  player_url = f"{BASE_URL}/watch/{title_id}"
  if is_series:
- player_url += f"?season={season}&episode={ episode}"
+ player_url += f"?season={season}&episode={episode}"
  
  logger.debug(f"GetVideoUrl - Tentativo di estrazione per: {player_url}")
  
@@ -169,7 +172,7 @@ def get_video_url(title_id, is_series=False, season=1, episode=1):
  
  # Tenta con API di streaming
  api_urls = [
- f"{BASE _URL}/api/stream/{title_id}",
+ f"{BASE_URL}/api/stream/{title_id}",
  f"{BASE_URL}/api/watch/{title_id}",
  f"{BASE_URL}/api/video/{title_id}",
  ]
