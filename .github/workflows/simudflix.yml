@@ -23,7 +23,7 @@ jobs:
           pip install streamingcommunity-unofficialapi --trusted-host pypi.org --trusted-host pypi.python.org --trusted-host=files.pythonhosted.org
           pip install requests
 
-      # Step 3: Visualizza il contenuto di streaming.m3u8 prima dello scraper (per debug)
+      # Step 3: Visualizza il contenuto del file M3U8 prima dello scraper (per debug)
       - name: Visualizza contenuto del file M3U8 prima dello scraper
         run: cat streaming.m3u8 || echo "Il file streaming.m3u8 non esiste"
 
@@ -34,7 +34,7 @@ jobs:
         run: |
           python simudflix.py
 
-      # Step 5: Visualizza il contenuto di streaming.m3u8 dopo lo scraper (per debug)
+      # Step 5: Visualizza il contenuto del file M3U8 dopo lo scraper (per debug)
       - name: Visualizza contenuto del file M3U8 dopo lo scraper
         run: cat streaming.m3u8 || echo "Il file streaming.m3u8 non esiste"
 
@@ -43,14 +43,22 @@ jobs:
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
-          git pull origin main --rebase  # Esegui il pull prima di fare il push
-          
-          # Aggiungi il file M3U8 modificato
+
+          # Prima di fare il commit, verifichiamo se ci sono modifiche
+          git diff --exit-code || echo "Ci sono modifiche nel file streaming.m3u8"
+
+          # Eseguiamo il pull per ottenere gli aggiornamenti più recenti
+          git pull origin main --rebase
+
+          # Aggiungiamo il file M3U8 modificato
           git add streaming.m3u8
-          
-          # Commit delle modifiche
-          git commit -m "Aggiornato file M3U8 con nuovi flussi" || echo "Nessun cambiamento da committare"
-          
-          # Push delle modifiche
-          git push origin main
-        continue-on-error: true
+
+          # Se ci sono modifiche, commettiamo, altrimenti, stampiamo un messaggio
+          if git diff --quiet; then
+            echo "Nessun cambiamento nel file streaming.m3u8"
+          else
+            git commit -m "Aggiornato file M3U8 con nuovi flussi"
+          fi
+
+          # Eseguiamo il push delle modifiche
+          git push origin main || echo "Nessuna modifica da inviare al repository"
