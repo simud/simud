@@ -31,39 +31,20 @@ COOKIE_FILE = "cookies.txt"
 session = requests.Session()
 if os.path.exists(COOKIE_FILE):
     cookie_jar = http.cookiejar.MozillaCookieJar(COOKIE_FILE)
-    cookie_jar.load()
-    session.cookies = cookie_jar
-    logger.debug("Cookies caricati da cookies.txt")
-
-# Funzione per autenticazione (sostituire con credenziali reali)
-def authenticate():
-    login_url = f"{BASE_URL}/api/login"
-    payload = {
-        "email": "your_email@example.com",  # Sostituisci con email reale
-        "password": "your_password"         # Sostituisci con password reale
-    }
     try:
-        logger.debug(f"Authenticate - Tentativo di login: {login_url}")
-        response = session.post(login_url, json=payload, headers=HEADERS, timeout=10)
-        response.raise_for_status()
-        data = response.json()
-        token = data.get('token')
-        if token:
-            HEADERS['Authorization'] = f"Bearer {token}"
-            logger.debug(f"Authenticate - Token ottenuto: {token}")
-            return token
-        else:
-            logger.error("Authenticate - Nessun token trovato nella risposta")
-            return None
-    except requests.RequestException as e:
-        logger.error(f"Authenticate - Errore durante il login: {e}")
-        return None
+        cookie_jar.load()
+        session.cookies = cookie_jar
+        logger.debug("Cookies caricati da cookies.txt")
+    except Exception as e:
+        logger.error(f"Errore nel caricamento di cookies.txt: {e}")
+else:
+    logger.warning("File cookies.txt non trovato, procedo senza cookie")
 
 # Funzione per ottenere i dati dalla pagina HTML
 def get_page_html(url):
     try:
         logger.debug(f"GetUrl - Richiesta URL: {url}")
-        response = session.get(url, headers=HEADERS, timeout=10)
+        response = session.get(url, headers=HEADERS, timeout=15)
         response.raise_for_status()
         logger.debug("GetUrl - HTML della pagina ottenuto")
         return response.text
@@ -82,7 +63,7 @@ def try_api(category_url):
     for api_url in api_urls:
         try:
             logger.debug(f"TryApi - Tentativo di accesso all'API: {api_url}")
-            response = session.get(api_url, headers=HEADERS, timeout=10)
+            response = session.get(api_url, headers=HEADERS, timeout=15)
             response.raise_for_status()
             data = response.json()
             logger.debug(f"TryApi - Dati API ottenuti: {json.dumps(data, indent=2)}")
@@ -96,21 +77,26 @@ def try_api(category_url):
 # Funzione per estrarre il flusso video con yt-dlp
 def get_video_url_yt_dlp(player_url):
     try:
+        logger.debug(f"GetVideoUrlYtDlp - Esecuzione yt-dlp per: {player_url}")
         cmd = [
             'yt-dlp', '--get-url', '--user-agent', HEADERS['User-Agent'],
             '--referer', BASE_URL, '--cookies', COOKIE_FILE, player_url
         ]
         result = subprocess.run(
-            cmd, capture_output=True, text=True, check=True
+            cmd, capture_output=True, text=True, check=True, timeout=30
         )
         video_url = result.stdout.strip()
         if video_url and ('.m3u8' in video_url or '.mp4' in video_url):
-            logger.debug(f"GetVideoUrl - Link video trovato con yt-dlp: {video_url}")
+            logger.debug(f"GetVideoUrlYtDlp - Link video trovato: {video_url}")
             return video_url
+        else:
+            logger.debug(f"GetVideoUrlYtDlp - Nessun link valido trovato: {video_url}")
     except subprocess.CalledProcessError as e:
-        logger.error(f"GetVideoUrl - Errore con yt-dlp: {e}\nCommand: {cmd}\nOutput: {e.output}\nErrore: {e.stderr}")
+        logger.error(f"GetVideoUrlYtDlp - Errore con yt-dlp: {e}\nCommand: {cmd}\nOutput: {e.output}\nErrore: {e.stderr}")
     except FileNotFoundError as e:
-        logger.error(f"GetVideoUrl - yt-dlp non trovato: {e}")
+        logger.error(f"GetVideoUrlYtDlp - yt-dlp non trovato: {e}")
+    except subprocess.TimeoutExpired as e:
+        logger.error(f"GetVideoUrlYtDlp - Timeout yt-dlp: {e}")
     return None
 
 # Funzione per estrarre il link video dalla pagina del player
@@ -131,12 +117,14 @@ def get_video_url(title_id, is_series=False, season=1, episode=1):
     soup = BeautifulSoup(html, 'html.parser')
     
     # Cerca iframe
+    logger.debug("GetVideoUrl - Ricerca iframe")
     iframe = soup.find('iframe')
     if iframe and iframe.get('src') and 'vixcloud.co' in iframe.get('src'):
         logger.debug(f"GetVideoUrl - Iframe trovato: {iframe['src']}")
         return iframe['src']
     
     # Cerca elementi <video>
+    logger.debug("GetVideoUrl - Ricerca elemento video")
     video = soup.find('video')
     if video:
         src = video.get('src') or (video.find('source') and video.find('source').get('src'))
@@ -145,6 +133,7 @@ def get_video_url(title_id, is_series=False, season=1, episode=1):
             return src
     
     # Cerca link .m3u8 di vixcloud.co negli script
+    logger.debug("GetVideoUrl - Ricerca link .m3u8 negli script")
     for script in soup.find_all('script'):
         script_text = script.string
         if script_text:
@@ -162,8 +151,8 @@ def get_video_url(title_id, is_series=False, season=1, episode=1):
                     if video_url and 'vixcloud.co' in video_url:
                         logger.debug(f"GetVideoUrl - Link video trovato in playerConfig: {video_url}")
                         return video_url
-                except json.JSONDecodeError:
-                    logger.debug("GetVideoUrl - Errore nel parsing di playerConfig")
+                except json.JSONDecodeError as e:
+                    logger.debug(f"GetVideoUrl - Errore nel parsing di playerConfig: {e}")
             
             hls_match = re.search(r'hls_src\s*=\s*[\'"](https?://vixcloud\.co/playlist/\d+\?[^\'"]*)[\'"]', script_text)
             if hls_match:
@@ -182,7 +171,7 @@ def get_video_url(title_id, is_series=False, season=1, episode=1):
     for api_url in api_urls:
         try:
             logger.debug(f"GetVideoUrl - Tentativo di accesso all'API: {api_url}")
-            response = session.get(api_url, headers=HEADERS, timeout=10)
+            response = session.get(api_url, headers=HEADERS, timeout=15)
             response.raise_for_status()
             data = response.json()
             video_url = data.get('url') or data.get('stream_url') or data.get('hls_url') or data.get('hls_src')
@@ -193,6 +182,7 @@ def get_video_url(title_id, is_series=False, season=1, episode=1):
             logger.debug(f"GetVideoUrl - Nessun flusso video trovato tramite API: {api_url} ({e})")
 
     # Prova con yt-dlp
+    logger.debug("GetVideoUrl - Tentativo con yt-dlp")
     video_url = get_video_url_yt_dlp(player_url)
     if video_url:
         return video_url
@@ -205,29 +195,31 @@ def generate_m3u8(titles, output_file="streaming.m3u8"):
     try:
         m3u8_content = f"#EXTM3U\n# Generated on {datetime.utcnow().isoformat()}\n"
         for title in titles:
-            # Determina se è una serie TV (basato sul campo 'type' o 'seasons_count')
-            is_series = title.get('type') == 'tv' or title.get('seasons_count', 0) > 0
-            video_url = get_video_url(title['id'], is_series=is_series, season=1, episode=1)
-            if video_url:
-                m3u8_content += f"#EXTINF:-1,{title['name']}\n{video_url}\n"
-            else:
-                m3u8_content += f"#EXTINF:-1,{title['name']}\n# Nessun flusso video disponibile\n"
-            time.sleep(1)  # Ritardo per evitare blocchi
+            try:
+                logger.debug(f"GenerateM3U8 - Elaborazione titolo: {title['name']} (ID: {title['id']})")
+                # Determina se è una serie TV
+                is_series = title.get('type') == 'tv' or title.get('seasons_count', 0) > 0
+                video_url = get_video_url(title['id'], is_series=is_series, season=1, episode=1)
+                if video_url:
+                    m3u8_content += f"#EXTINF:-1,{title['name']}\n{video_url}\n"
+                else:
+                    m3u8_content += f"#EXTINF:-1,{title['name']}\n# Nessun flusso video disponibile\n"
+                time.sleep(1)  # Ritardo per evitare blocchi
+            except Exception as e:
+                logger.error(f"GenerateM3U8 - Errore durante l'elaborazione del titolo {title['name']}: {e}")
+                m3u8_content += f"#EXTINF:-1,{title['name']}\n# Errore: {str(e)}\n"
         
         # Scrivi il file M3U8
         with open(output_file, 'w', encoding='utf-8') as f:
             f.write(m3u8_content)
-        logger.info(f"generate_m3u8 - File {output_file} generato con successo")
+        logger.info(f"GenerateM3U8 - File {output_file} generato con successo")
     except Exception as e:
-        logger.error(f"generate_m3u8 - Errore durante la generazione del file M3U8: {e}")
+        logger.error(f"GenerateM3U8 - Errore durante la generazione del file M3U8: {e}")
         raise
 
 # Funzione principale per processare tutte le categorie
 def get_all_categories():
     try:
-        # Tenta l'autenticazione
-        authenticate()
-        
         categories = [
             {"name": "Top 10 di oggi", "url": f"{BASE_URL}/browse/top10"},
             {"name": "I Titoli Del Momento", "url": f"{BASE_URL}/browse/trending"},
