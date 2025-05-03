@@ -1,18 +1,21 @@
-import os
 import time
-from scuapi import API
-import requests
-import cloudscraper
+import httpx
 
 # Funzione per ottenere i flussi validi
 def get_valid_stream(url):
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+        "Accept": "*/*",
+    }
+
     try:
-        scraper = cloudscraper.create_scraper()
-        response = scraper.get(url, timeout=10)
-        if response.status_code == 200:
-            return url
+        with httpx.Client(follow_redirects=True, timeout=10, headers=headers) as client:
+            response = client.get(url)
+            if response.status_code == 200:
+                return url
     except Exception as e:
         print(f"Errore durante la richiesta per {url}: {e}")
+    
     return None
 
 # Funzione per ottenere i flussi dei film
