@@ -3,7 +3,7 @@ name: StreamingCommunity Scraper
 on:
   workflow_dispatch:  # Permette l'esecuzione manuale
   schedule:
-    - cron: '*/15 * * * *'  # Esegue ogni 3 ore: 0:00, 3:00, 6:00, 9:00, 12:00, 15:00, 18:00, 21:00 UTC
+    - cron: '*/15 * * * *'  # Esegue ogni 15 minuti
 
 jobs:
   scrape:
@@ -18,20 +18,20 @@ jobs:
       - name: Installa dipendenze
         run: |
           python -m pip install --upgrade pip
-          pip install streamingcommunity-unofficialapi --trusted-host pypi.org --trusted-host pypi.python.org --trusted-host=files.pythonhosted.org
+          pip install git+https://github.com/Blu-Tiger/streamingcommunity-unofficialapi.git
           pip install requests
 
-      - name: Run SkyStreaming scraper
+      - name: Esegui scraper StreamingCommunity
         env:
           GITHUB_WORKSPACE: ${{ github.workspace }}
         run: |
           python simudflix.py
 
-      - name: Commit and push updated M3U8 file
+      - name: Commit e push dei file M3U8
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
-          git add streaming.m3u8
-          git commit -m "Aggiornato file M3U8 con nuovi flussi" || echo "Nessun cambiamento da committare"
+          git add *.m3u8
+          git commit -m "Aggiornati flussi M3U8" || echo "Nessun cambiamento da committare"
           git push
         continue-on-error: true
