@@ -1,6 +1,5 @@
 from scuapi import API
 
-# Titoli da cercare
 titles = [
     "John Wick",
     "Breaking Bad",
@@ -18,7 +17,7 @@ with open("streaming.m3u8", "w", encoding="utf-8") as file:
             print(f"Cercando: {title}")
             results = sc.search(title)
             first_result = next(iter(results.values()))
-            url = str(first_result["url"])  # FIX: cast esplicito a stringa
+            url = first_result["url"].geturl()  # CORRETTO: Convertiamo ParseResult in stringa URL
             iframe, m3u8 = sc.get_links(url)
             file.write(f"#EXTINF:-1,{title}\n{m3u8}\n")
             print(f"  Aggiunto: {m3u8}")
