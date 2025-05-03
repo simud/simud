@@ -1,12 +1,12 @@
 import os
 from scuapi import API
 
-# Sito attuale di StreamingCommunity (modifica solo qui se cambia dominio)
+# Dominio corrente
 BASE_DOMAIN = "StreamingCommunity.spa"
 BASE_URL = f"https://{BASE_DOMAIN}"
 sc = API(BASE_DOMAIN)
 
-# Lista di film
+# Lista dei film da cercare
 film_lista = [
     "Thunderbolts",
     "Iron Man 3",
@@ -24,7 +24,7 @@ playlist_entries = []
 
 for film in film_lista:
     results = sc.search(film)
-    match = next((k for k in results.keys() if film.lower() in k.lower()), None)
+    match = next((k for k in results if film.lower() in k.lower()), None)
     if not match:
         print(f"Film non trovato: {film}")
         continue
@@ -35,13 +35,12 @@ for film in film_lista:
         _, m3u_url, _ = sc.get_links(movie_id, get_m3u=True)
 
         user_agent = "Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1"
-        referer = f"{BASE_URL}/titles/{movie_id}-{results[match]['slug']}"
-        origin = BASE_URL
+        ref_and_origin = BASE_URL  # stesso valore per referer e origin
 
         playlist_entries.append(
             f'#EXTINF:-1,{match}\n'
-            f'#EXTVLCOPT:http-referrer={referer}\n'
-            f'#EXTVLCOPT:http-origin={origin}\n'
+            f'#EXTVLCOPT:http-referrer={ref_and_origin}\n'
+            f'#EXTVLCOPT:http-origin={ref_and_origin}\n'
             f'#EXTVLCOPT:http-user-agent={user_agent}\n'
             f'{m3u_url}'
         )
@@ -50,9 +49,9 @@ for film in film_lista:
     except Exception as e:
         print(f"Errore per {film}: {e}")
 
-# Scrive tutto in un unico file .m3u8
+# Scrive l'intera playlist in un unico file .m3u8
 with open("streaming.m3u8", "w", encoding="utf-8") as f:
     f.write("#EXTM3U\n")
     f.write("\n".join(playlist_entries))
 
-print("streaming.m3u8 generato correttamente.")
+print("File streaming.m3u8 generato correttamente.")
