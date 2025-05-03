@@ -1,52 +1,63 @@
-import requests
-import os
+import time
+from scuapi import API
 
-# Funzione per invertire i parametri di expires e token
-def invert_parameters(url):
-    # Suddividi la query string della URL
-    base_url, query = url.split('?')
-    params = dict(p.split('=') for p in query.split('&'))
+BASE_DOMAIN = "StreamingCommunity.spa"
+BASE_URL = f"https://{BASE_DOMAIN}"
 
-    # Inverti expires e token
-    if 'expires' in params and 'token' in params:
-        params['expires'], params['token'] = params['token'], params['expires']
+sc = API(BASE_DOMAIN)
 
-    # Ricostruisci la URL con i parametri invertiti
-    new_query = '&'.join([f"{key}={value}" for key, value in params.items()])
-    return base_url + '?' + new_query
+# Lista dei film da cercare
+film_lista = [
+    "Thunderbolts",
+    "Iron Man 3",
+    "Thor: Ragnarok",
+    "Captain America: Civil War",
+    "Black Panther: Wakanda Forever",
+    "Spider-Man: No Way Home",
+    "Doctor Strange nel Multiverso della Follia",
+    "Avengers: Endgame",
+    "Guardiani della Galassia Vol. 3",
+    "The Marvels"
+]
 
-# Funzione per ottenere nuovi flussi (simulazione)
-def get_new_flows():
-    # Lista di flussi di esempio (da sostituire con API reali o logica di scraping)
-    flows = [
-        {"title": "Thunderbolts", "url": "https://vixcloud.co/playlist/311493?b=1&expires=1751470092&token=b712d13b7d8da879f1360276c763eb18&h=1"},
-        {"title": "Iron Man 3", "url": "https://vixcloud.co/playlist/253379?expires=1751469914&token=80b4c58e91791216c0c1189cdb13838c&h=1"},
-        {"title": "Thor: Ragnarok", "url": "https://vixcloud.co/playlist/146629?expires=1751469915&token=491fb259e7c21586efb75d2cf05b403e&h=1"},
-        # Aggiungi altri flussi qui
-    ]
+playlist_entries = []
 
-    # Inverti i parametri di expires e token per ogni flusso
-    for flow in flows:
-        flow['url'] = invert_parameters(flow['url'])
+for film in film_lista:
+    results = sc.search(film)
+    match = next((k for k in results if film.lower() in k.lower()), None)
+    if not match:
+        print(f"Film non trovato: {film}")
+        continue
 
-    return flows
+    movie_id = results[match]["id"]
 
-# Funzione per scrivere i flussi nel file M3U8
-def write_to_m3u8(flows, file_path='streaming.m3u8'):
-    with open(file_path, 'w') as file:
-        file.write('#EXTM3U\n')  # Header del file M3U8
+    try:
+        # Recupera i link
+        _, m3u_url, _ = sc.get_links(movie_id, get_m3u=True)
 
-        for flow in flows:
-            file.write(f"#EXTINF:-1,{flow['title']}\n")
-            file.write(f"#EXTVLCOPT:http-referrer=https://StreamingCommunity.spa\n")
-            file.write(f"#EXTVLCOPT:http-origin=https://StreamingCommunity.spa\n")
-            file.write(f"#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1\n")
-            file.write(f"{flow['url']}\n")
+        if m3u_url:
+            print(f"Film: {match}, URL: {m3u_url}")  # Stampa l'URL per vedere se è corretto
 
-# Esegui lo scraper
-def main():
-    new_flows = get_new_flows()  # Ottieni nuovi flussi
-    write_to_m3u8(new_flows)     # Scrivi nel file M3U8
+            # Aggiungi all'elenco della playlist
+            user_agent = "Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1"
+            ref_and_origin = BASE_URL  # stesso valore per referer e origin
 
-if __name__ == "__main__":
-    main()
+            playlist_entries.append(
+                f'#EXTINF:-1,{match}\n'
+                f'#EXTVLCOPT:http-referrer={ref_and_origin}\n'
+                f'#EXTVLCOPT:http-origin={ref_and_origin}\n'
+                f'#EXTVLCOPT:http-user-agent={user_agent}\n'
+                f'{m3u_url}'
+            )
+            print(f"Aggiunto: {match}")
+        else:
+            print(f"Nessun URL trovato per {film}")
+    except Exception as e:
+        print(f"Errore per {film}: {e}")
+
+# Scrive l'intera playlist in un unico file .m3u8
+with open("streaming.m3u8", "w", encoding="utf-8") as f:
+    f.write("#EXTM3U\n")
+    f.write("\n".join(playlist_entries))
+
+print("File streaming.m3u8 generato correttamente.")
