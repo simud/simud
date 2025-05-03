@@ -8,16 +8,6 @@ import subprocess
 from urllib.parse import urljoin
 from datetime import datetime
 
-# Verifica se selenium-wire è disponibile
-try:
-    from seleniumwire import webdriver
-    from selenium.webdriver.chrome.options import Options
-    from selenium.webdriver.common.by import By
-    SELENIUM_AVAILABLE = True
-except ImportError as e:
-    logging.warning(f"SeleniumWire non disponibile: {e}. Procedo senza Selenium.")
-    SELENIUM_AVAILABLE = False
-
 # Configurazione del logging
 logging.basicConfig(level=logging.DEBUG, format='%(levelname)s:%(name)s:%(message)s')
 logger = logging.getLogger(__name__)
@@ -34,11 +24,16 @@ HEADERS = {
 # URL di base
 BASE_URL = "https://streamingcommunity.spa"
 
+# Cookie di sessione (se necessario, sostituire con cookie reali)
+COOKIES = {
+    # Esempio: 'session_id': 'your_session_cookie'
+}
+
 # Funzione per ottenere i dati dalla pagina HTML
 def get_page_html(url):
     try:
         logger.debug(f"GetUrl - Richiesta URL: {url}")
-        response = requests.get(url, headers=HEADERS, timeout=10)
+        response = requests.get(url, headers=HEADERS, cookies=COOKIES, timeout=10)
         response.raise_for_status()
         logger.debug("GetUrl - HTML della pagina ottenuto")
         return response.text
@@ -57,7 +52,7 @@ def try_api(category_url):
     for api_url in api_urls:
         try:
             logger.debug(f"TryApi - Tentativo di accesso all'API: {api_url}")
-            response = requests.get(api_url, headers=HEADERS, timeout=10)
+            response = requests.get(api_url, headers=HEADERS, cookies=COOKIES, timeout=10)
             response.raise_for_status()
             data = response.json()
             logger.debug(f"TryApi - Dati API ottenuti: {json.dumps(data, indent=2)}")
@@ -79,67 +74,10 @@ def get_video_url_yt_dlp(player_url):
         if video_url and ('.m3u8' in video_url or '.mp4' in video_url):
             logger.debug(f"GetVideoUrl - Link video trovato con yt-dlp: {video_url}")
             return video_url
-    except (subprocess.CalledProcessError, FileNotFoundError) as e:
-        logger.error(f"GetVideoUrl - Errore con yt-dlp: {e}")
-    return None
-
-# Funzione per estrarre il flusso video con Selenium Wire
-def get_video_url_selenium_wire(player_url):
-    if not SELENIUM_AVAILABLE:
-        logger.debug("GetVideoUrl - Selenium Wire non disponibile, salto")
-        return None
-
-    options = Options()
-    options.add_argument('--headless')
-    options.add_argument('--no-sandbox')
-    options.add_argument('--disable-dev-shm-usage')
-    
-    try:
-        driver = webdriver.Chrome(options=options)
-        logger.debug(f"GetVideoUrl - Avvio Selenium Wire per: {player_url}")
-        driver.get(player_url)
-        time.sleep(5)  # Attendi il caricamento della pagina
-        
-        # Cerca e clicca sul pulsante "Play"
-        try:
-            play_button = driver.find_element(By.CSS_SELECTOR, 'button.play, .vjs-play-control, [aria-label="Play"], .play-button')
-            play_button.click()
-            logger.debug("GetVideoUrl - Pulsante Play cliccato")
-            time.sleep(5)  # Attendi il caricamento del flusso
-        except:
-            logger.debug("GetVideoUrl - Pulsante Play non trovato")
-
-        # Analizza le richieste di rete
-        for request in driver.requests:
-            if request.response and 'vixcloud.co/playlist' in request.url and '.m3u8' in request.url:
-                logger.debug(f"GetVideoUrl - Flusso trovato con Selenium Wire: {request.url}")
-                return request.url
-        
-        # Cerca iframe o elementi <video>
-        iframes = driver.find_elements(By.TAG_NAME, 'iframe')
-        for iframe in iframes:
-            src = iframe.get_attribute('src')
-            if src and 'vixcloud.co' in src:
-                logger.debug(f"GetVideoUrl - Iframe trovato con Selenium: {src}")
-                return src
-        
-        videos = driver.find_elements(By_TAG_NAME, 'video')
-        for video in videos:
-            src = video.get_attribute('src')
-            if src and 'vixcloud.co' in src:
-                logger.debug(f"GetVideoUrl - Video trovato con Selenium: {src}")
-                return src
-            sources = video.find_elements(By_TAG_NAME, 'source')
-            for source in sources:
-                src = source.get_attribute('src')
-                if src and 'vixcloud.co' in src:
-                    logger.debug(f"GetVideoUrl - Source trovato con Selenium: {src}")
-                    return src
-    
-    except Exception as e:
-        logger.error(f"GetVideoUrl - Errore con Selenium Wire: {e}")
-    finally:
-        driver.quit()
+    except subprocess.CalledProcessError as e:
+        logger.error(f"GetVideoUrl - Errore con yt-dlp: {e}\nOutput: {e.output}\nErrore: {e.stderr}")
+    except FileNotFoundError as e:
+        logger.error(f"GetVideoUrl - yt-dlp non trovato: {e}")
     return None
 
 # Funzione per estrarre il link video dalla pagina del player
@@ -205,7 +143,7 @@ def get_video_url(title_id, is_series=False, season=1, episode=1):
         api_url += f"?season={season}&episode={episode}"
     try:
         logger.debug(f"GetVideoUrl - Tentativo di accesso all'API: {api_url}")
-        response = requests.get(api_url, headers=HEADERS, timeout=10)
+        response = requests.get(api_url, headers=HEADERS, cookies=COOKIES, timeout=10)
         response.raise_for_status()
         data = response.json()
         video_url = data.get('url') or data.get('stream_url') or data.get('hls_url')
@@ -217,11 +155,6 @@ def get_video_url(title_id, is_series=False, season=1, episode=1):
 
     # Prova con yt-dlp
     video_url = get_video_url_yt_dlp(player_url)
-    if video_url:
-        return video_url
-    
-    # Prova con Selenium Wire
-    video_url = get_video_url_selenium_wire(player_url)
     if video_url:
         return video_url
 
