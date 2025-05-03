@@ -1,12 +1,10 @@
 import os
-from streaming_community import StreamingCommunity
+from scuapi import API
 
 # Dominio corrente
 BASE_DOMAIN = "StreamingCommunity.spa"
 BASE_URL = f"https://{BASE_DOMAIN}"
-
-# Crea una connessione all'API di StreamingCommunity
-sc = StreamingCommunity(BASE_DOMAIN)
+sc = API(BASE_DOMAIN)
 
 # Lista dei film da cercare
 film_lista = [
@@ -25,34 +23,29 @@ film_lista = [
 playlist_entries = []
 
 for film in film_lista:
+    results = sc.search(film)
+    match = next((k for k in results if film.lower() in k.lower()), None)
+    if not match:
+        print(f"Film non trovato: {film}")
+        continue
+
+    movie_id = results[match]["id"]
+
     try:
-        # Cerca il film utilizzando l'API
-        search_results = sc.search(film)
-        
-        # Trova il primo film che corrisponde al titolo
-        match = next((result for result in search_results if film.lower() in result['name'].lower()), None)
-        
-        if not match:
-            print(f"Film non trovato: {film}")
-            continue
-
-        movie_id = match['id']
-
-        # Ottieni i link di streaming per il film
-        m3u_url = sc.get_stream_link(movie_id)
+        _, m3u_url, _ = sc.get_links(movie_id, get_m3u=True)
 
         user_agent = "Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1"
         ref_and_origin = BASE_URL  # stesso valore per referer e origin
 
         playlist_entries.append(
-            f'#EXTINF:-1,{film}\n'
+            f'#EXTINF:-1,{match}\n'
             f'#EXTVLCOPT:http-referrer={ref_and_origin}\n'
             f'#EXTVLCOPT:http-origin={ref_and_origin}\n'
             f'#EXTVLCOPT:http-user-agent={user_agent}\n'
             f'{m3u_url}'
         )
 
-        print(f"Aggiunto: {film}")
+        print(f"Aggiunto: {match}")
     except Exception as e:
         print(f"Errore per {film}: {e}")
 
