@@ -4,11 +4,10 @@ import requests
 import cloudscraper
 
 # Dominio corrente
-BASE_DOMAIN = os.getenv("BASE_DOMAIN", "streamingcommunity.spa")  # Usa env var o default
+BASE_DOMAIN = os.getenv("BASE_DOMAIN", "streamingcommunity.spa")
 BASE_URL = f"https://{BASE_DOMAIN}"
 sc = API(BASE_DOMAIN)
 
-# Funzione per verificare e ottenere un URL M3U8 valido
 def get_valid_m3u_url(movie_id, sc, base_url):
     try:
         _, m3u_url, _ = sc.get_links(movie_id, get_m3u=True)
@@ -22,6 +21,7 @@ def get_valid_m3u_url(movie_id, sc, base_url):
         }
         scraper = cloudscraper.create_scraper()
         response = scraper.head(m3u_url, headers=headers, allow_redirects=True)
+        
         if response.status_code == 200:
             print(f"URL valido: {m3u_url}")
             return m3u_url
@@ -34,16 +34,10 @@ def get_valid_m3u_url(movie_id, sc, base_url):
 
 # Lista dei film da cercare
 film_lista = [
-    "Thunderbolts",
-    "Iron Man 3",
-    "Thor: Ragnarok",
-    "Captain America: Civil War",
-    "Black Panther: Wakanda Forever",
-    "Spider-Man: No Way Home",
-    "Doctor Strange nel Multiverso della Follia",
-    "Avengers: Endgame",
-    "Guardiani della Galassia Vol. 3",
-    "The Marvels"
+    "Thunderbolts", "Iron Man 3", "Thor: Ragnarok", "Captain America: Civil War",
+    "Black Panther: Wakanda Forever", "Spider-Man: No Way Home",
+    "Doctor Strange nel Multiverso della Follia", "Avengers: Endgame",
+    "Guardiani della Galassia Vol. 3", "The Marvels"
 ]
 
 playlist_entries = []
@@ -51,21 +45,23 @@ playlist_entries = []
 for film in film_lista:
     results = sc.search(film)
     match = next((k for k in results if film.lower() in k.lower()), None)
+    
     if not match:
         print(f"Film non trovato: {film}")
         continue
-
+    
     movie_id = results[match]["id"]
-
+    
     try:
         m3u_url = get_valid_m3u_url(movie_id, sc, BASE_URL)
+        
         if not m3u_url:
             print(f"Impossibile ottenere un URL valido per {film}")
             continue
-
+        
         user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
         ref_and_origin = BASE_URL
-
+        
         playlist_entries.append(
             f'#EXTINF:-1,{match}\n'
             f'#EXTVLCOPT:http-referrer={ref_and_origin}\n'
@@ -73,8 +69,8 @@ for film in film_lista:
             f'#EXTVLCOPT:http-user-agent={user_agent}\n'
             f'{m3u_url}\n'
         )
-
         print(f"Aggiunto: {match}")
+    
     except Exception as e:
         print(f"Errore per {film}: {e}")
 
