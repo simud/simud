@@ -7,6 +7,9 @@ import re
 import subprocess
 from urllib.parse import urljoin
 from datetime import datetime
+from seleniumwire import webdriver
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.by import By
 
 # Configurazione del logging
 logging.basicConfig(level=logging.DEBUG, format='%(levelname)s:%(name)s:%(message)s')
@@ -73,10 +76,67 @@ def get_video_url_yt_dlp(player_url):
         logger.error(f"GetVideoUrl - Errore con yt-dlp: {e}")
     return None
 
+# Funzione per estrarre il flusso video con Selenium Wire
+def get_video_url_selenium_wire(player_url):
+    options = Options()
+    options.add_argument('--headless')
+    options.add_argument('--no-sandbox')
+    options.add_argument('--disable-dev-shm-usage')
+    
+    try:
+        driver = webdriver.Chrome(options=options)
+        logger.debug(f"GetVideoUrl - Avvio Selenium Wire per: {player_url}")
+        driver.get(player_url)
+        time.sleep(5)  # Attendi il caricamento della pagina
+        
+        # Cerca e clicca sul pulsante "Play"
+        try:
+            play_button = driver.find_element(By.CSS_SELECTOR, 'button.play, .vjs-play-control, [aria-label="Play"], .play-button')
+            play_button.click()
+            logger.debug("GetVideoUrl - Pulsante Play cliccato")
+            time.sleep(5)  # Attendi il caricamento del flusso
+        except:
+            logger.debug("GetVideoUrl - Pulsante Play non trovato")
+
+        # Analizza le richieste di rete
+        for request in driver.requests:
+            if request.response and 'vixcloud.co/playlist' in request.url and '.m3u8' in request.url:
+                logger.debug(f"GetVideoUrl - Flusso trovato con Selenium Wire: {request.url}")
+                return request.url
+        
+        # Cerca iframe o elementi <video>
+        iframes = driver.find_elements(By.TAG_NAME, 'iframe')
+        for iframe in iframes:
+            src = iframe.get_attribute('src')
+            if src and 'vixcloud.co' in src:
+                logger.debug(f"GetVideoUrl - Iframe trovato con Selenium: {src}")
+                return src
+        
+        videos = driver.find_elements(By_TAG_NAME, 'video')
+        for video in videos:
+            src = video.get_attribute('src')
+            if src and 'vixcloud.co' in src:
+                logger.debug(f"GetVideoUrl - Video trovato con Selenium: {src}")
+                return src
+            sources = video.find_elements(By_TAG_NAME, 'source')
+            for source in sources:
+                src = source.get_attribute('src')
+                if src and 'vixcloud.co' in src:
+                    logger.debug(f"GetVideoUrl - Source trovato con Selenium: {src}")
+                    return src
+    
+    except Exception as e:
+        logger.error(f"GetVideoUrl - Errore con Selenium Wire: {e}")
+    finally:
+        driver.quit()
+    return None
+
 # Funzione per estrarre il link video dalla pagina del player
-def get_video_url(title_id):
+def get_video_url(title_id, is_series=False, season=1, episode=1):
     # URL del player
     player_url = f"{BASE_URL}/watch/{title_id}"
+    if is_series:
+        player_url += f"?season={season}&episode={episode}"
     
     # Ottieni l'HTML della pagina del player
     html = get_page_html(player_url)
@@ -128,6 +188,8 @@ def get_video_url(title_id):
     
     # Tenta con API di streaming
     api_url = f"{BASE_URL}/api/stream/{title_id}"
+    if is_series:
+        api_url += f"?season={season}&episode={episode}"
     try:
         logger.debug(f"GetVideoUrl - Tentativo di accesso all'API: {api_url}")
         response = requests.get(api_url, headers=HEADERS, timeout=10)
@@ -144,6 +206,11 @@ def get_video_url(title_id):
     video_url = get_video_url_yt_dlp(player_url)
     if video_url:
         return video_url
+    
+    # Prova con Selenium Wire
+    video_url = get_video_url_selenium_wire(player_url)
+    if video_url:
+        return video_url
 
     logger.error(f"GetVideoUrl - Nessun flusso video trovato per: {player_url}")
     return None
@@ -153,7 +220,9 @@ def generate_m3u8(titles, output_file="streaming.m3u8"):
     try:
         m3u8_content = f"#EXTM3U\n# Generated on {datetime.utcnow().isoformat()}\n"
         for title in titles:
-            video_url = get_video_url(title['id'])
+            # Determina se è una serie TV (basato sul campo 'type' o 'seasons_count')
+            is_series = title.get('type') == 'tv' or title.get('seasons_count', 0) > 0
+            video_url = get_video_url(title['id'], is_series=is_series, season=1, episode=1)
             if video_url:
                 m3u8_content += f"#EXTINF:-1,{title['name']}\n{video_url}\n"
             else:
