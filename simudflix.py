@@ -4,8 +4,6 @@ import urllib.parse
 import re
 from typing import Literal
 from dataclasses import dataclass
-import os
-from github import Github
 
 @dataclass
 class Title:
@@ -149,7 +147,7 @@ class StreamingCommunity:
         self.base_url = base_url
 
     def search(self, query: str) -> list[_Title]:
-        params = {"q": query}
+        params = { "q": query }
         url = f"{self.base_url}/search?{urllib.parse.urlencode(params)}"
         inertia_version = self._get_inertia_version(url)
         res = requests.get(url,
@@ -166,7 +164,6 @@ class StreamingCommunity:
 
     @staticmethod
     def _get_inertia_version(url: str) -> str | None:
-
         pattern = r"version&quot;:&quot;([a-f0-9]+)&quot;"
 
         res = requests.get(url)
@@ -176,29 +173,19 @@ class StreamingCommunity:
         else:
             raise LookupError(f"Given url ({url}) is not an Inertia application")
 
-# Funzione per creare file m3u8
-def create_m3u8_file(playlist_url: str, filename: str):
-    m3u8_content = f"#EXTM3U\n#EXTINF:-1, {filename}\n{playlist_url}"
-    with open(filename, "w") as m3u8_file:
-        m3u8_file.write(m3u8_content)
-    print(f"File {filename} creato con successo!")
+    def generate_m3u8(self, titles: list[_Title]) -> None:
+        with open("streaming.m3u8", "w") as file:
+            file.write("#EXTM3U\n")
+            for title in titles:
+                movie = title.get()
+                file.write(f"#EXTINF:-1,{movie.name}\n")
+                file.write(f"{movie.playlist_url}\n")
 
-# Funzione per caricare il file su GitHub
-def upload_to_github(filename: str, repo_name: str, access_token: str):
-    g = Github(access_token)
-    repo = g.get_repo(repo_name)
-    with open(filename, "r") as file:
-        content = file.read()
-    repo.create_file(f"streaming.m3u8", "Upload streaming.m3u8", content)
-    print("File caricato su GitHub!")
-
-# Creazione della sessione
+# Impostazione dell'oggetto StreamingCommunity per usare il dominio .spa
 sc = StreamingCommunity("https://streamingcommunity.spa")
-titles = sc.search("John Wick")  # Cerca "John Wick" o qualsiasi altro titolo
-movie = titles[0].get()  # Supponiamo che il primo risultato sia un film
 
-# Crea il file M3U8
-create_m3u8_file(movie.playlist_url, "streaming.m3u8")
+# Ricerca di un film
+titles = sc.search("john wick")
 
-# Carica il file su GitHub
-upload_to_github("streaming.m3u8", "nome-repository", "access_token")  # Sostituisci con il tuo repository e token
+# Generazione del file m3u8
+sc.generate_m3u8(titles)
