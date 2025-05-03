@@ -25,7 +25,11 @@ jobs:
       - name: Esegui server FastAPI
         run: |
           uvicorn main:app --host 0.0.0.0 --port 8000 --reload &
-          sleep 20  # Aumenta il tempo di attesa per dare al server il tempo di avviarsi
+          sleep 40  # Aumentato il tempo di attesa per essere sicuri che il server sia pronto
+
+      - name: Verifica se il server è in esecuzione
+        run: |
+          curl -v http://localhost:8000
 
       - name: Scarica la playlist M3U8
         run: |
