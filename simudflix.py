@@ -21,15 +21,16 @@ def find_movie_pages():
         response.raise_for_status()
         soup = BeautifulSoup(response.text, 'html.parser')
 
-        # Debug: Stampa l'intero contenuto HTML per capire cosa contiene la pagina
-        print(soup.prettify())  # Questo mostrerà l'HTML completo della pagina
-
+        # Trova tutti i collegamenti ai film/serie dalla home
         movie_links = set()
 
-        # Trova tutti i collegamenti ai film/serie
+        # Identifica i titoli dei film/serie dalla struttura della pagina
         for a in soup.find_all('a', href=True):
             href = a['href']
-            if re.match(r'/[^/]+-streaming-gratis.html', href):  # Pattern per il link ai film
+            title = a.get_text(strip=True)
+            
+            # Verifica se il link contiene il formato del film (ad esempio "streaming gratis")
+            if re.match(r'/[^/]+-streaming-gratis\.html', href) and title:
                 full_url = urljoin(SITE_URL, href)
                 movie_links.add(full_url)
 
@@ -46,25 +47,17 @@ def get_video_stream(movie_url):
         response.raise_for_status()
         soup = BeautifulSoup(response.text, 'html.parser')
 
-        # Trova iframe, embed o video
+        # Trova il flusso video nelle pagine degli iframe, embed o video
         for iframe in soup.find_all('iframe'):
             src = iframe.get('src')
             if src and ("stream" in src.lower() or re.search(r'\.(m3u8|mp4|ts|html|php)', src, re.IGNORECASE)):
                 return src, iframe
 
-        for embed in soup.find_all('embed'):
-            src = embed.get('src')
-            if src and ("stream" in src.lower() or re.search(r'\.(m3u8|mp4|ts|html|php)', src, re.IGNORECASE)):
-                return src, embed
-
+        # In alternativa cerca nei tag video
         for video in soup.find_all('video'):
             src = video.get('src')
             if src and ("stream" in src.lower() or re.search(r'\.(m3u8|mp4|ts)', src, re.IGNORECASE)):
                 return src, video
-            for source in video.find_all('source'):
-                src = source.get('src')
-                if src and ("stream" in src.lower() or re.search(r'\.(m3u8|mp4|ts)', src, re.IGNORECASE)):
-                    return src, source
 
         return None, None
 
@@ -72,20 +65,20 @@ def get_video_stream(movie_url):
         print(f"Errore durante l'accesso a {movie_url}: {e}")
         return None, None
 
-# Funzione per estrarre il nome del canale
-def extract_channel_name(movie_url, element):
+# Funzione per estrarre il nome del film
+def extract_movie_name(movie_url, element):
     movie_name_match = re.search(r'/([^/]+)-streaming-gratis\.html', movie_url)
     if movie_name_match:
         return movie_name_match.group(1).replace('-', ' ').title()
 
     return "Unknown Movie"
 
-# Funzione per aggiornare il file M3U8 con l'immagine fissa per gruppi e canali
+# Funzione per aggiornare il file M3U8 con i flussi video
 def update_m3u_file(video_streams, m3u_file="streaming.m3u8"):
     REPO_PATH = os.getenv('GITHUB_WORKSPACE', '.')
     file_path = os.path.join(REPO_PATH, m3u_file)
 
-    # Scrivi il file aggiornato
+    # Scrivi il file M3U8
     with open(file_path, "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
 
@@ -93,20 +86,20 @@ def update_m3u_file(video_streams, m3u_file="streaming.m3u8"):
         for movie_url, stream_url, element in video_streams:
             if not stream_url:
                 continue
-            channel_name = extract_channel_name(movie_url, element)
+            movie_name = extract_movie_name(movie_url, element)
             group = "Film"
 
             if group not in groups:
                 groups[group] = []
-            groups[group].append((channel_name, stream_url))
+            groups[group].append((movie_name, stream_url))
 
-        # Ordinamento alfabetico dei canali all'interno di ciascun gruppo
-        for group, channels in groups.items():
-            channels.sort(key=lambda x: x[0].lower())
-            # Aggiungi il logo al gruppo usando tvg-logo
+        # Ordinamento alfabetico dei film
+        for group, movies in groups.items():
+            movies.sort(key=lambda x: x[0].lower())
+            # Aggiungi il logo al gruppo
             f.write(f"#EXTGRP:{group} tvg-logo=\"{DEFAULT_IMAGE_URL}\"\n")
-            for channel_name, link in channels:
-                f.write(f"#EXTINF:-1 group-title=\"{group}\" tvg-logo=\"{DEFAULT_IMAGE_URL}\", {channel_name}\n")
+            for movie_name, link in movies:
+                f.write(f"#EXTINF:-1 group-title=\"{group}\" tvg-logo=\"{DEFAULT_IMAGE_URL}\", {movie_name}\n")
                 f.write(f"#EXTVLCOPT:http-user-agent={headers['User-Agent']}\n")
                 f.write(f"#EXTVLCOPT:http-referrer={headers['Referer']}\n")
                 f.write(f"{link}\n")
