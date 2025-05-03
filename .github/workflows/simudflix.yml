@@ -17,9 +17,9 @@ jobs:
 
       # Installa le dipendenze richieste
       - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-        pip install requests PyGithub
+          run: |
+            python -m pip install --upgrade pip
+          pip install requests PyGithub
 
       - name: Run SkyStreaming scraper
         env:
