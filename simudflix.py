@@ -1,9 +1,9 @@
-import os
+import time
 from scuapi import API
 
-# Dominio corrente
 BASE_DOMAIN = "StreamingCommunity.spa"
 BASE_URL = f"https://{BASE_DOMAIN}"
+
 sc = API(BASE_DOMAIN)
 
 # Lista dei film da cercare
