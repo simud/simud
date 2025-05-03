@@ -15,28 +15,20 @@ jobs:
         with:
           token: ${{ secrets.ACTIONS_TOKEN }}
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.9'
-
-      - name: Install system dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y ffmpeg
-
-      - name: Configure DNS (ispirato al plugin Kotlin)
-        run: |
-          echo "nameserver 1.1.1.1" | sudo tee /etc/resolv.conf
-
-      - name: Clear pip cache
-        run: |
-          pip cache purge
-
-      - name: Install Python dependencies
+      # Installa le dipendenze
+      - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests==2.31.0 beautifulsoup4==4.12.3 yt-dlp==2023.12.30
+          pip install requests yt-dlp beautifulsoup4
+
+      # Crea il file cookies.txt
+      - name: Create cookies.txt
+        run: |
+          cat <<EOF > cookies.txt
+          # Inserisci i tuoi cookie qui
+          # Esempio di contenuto dei cookie:
+          # .streamingcommunity.spa	TRUE	/	FALSE	1699999999	sessionid	1234567890abcdef
+          EOF
 
       - name: Run SkyStreaming scraper
         env:
