@@ -8,7 +8,7 @@ sc = API(BASE_DOMAIN)
 
 # Lista dei film da cercare
 film_lista = [
-    "Thunderbolts",
+    "Iron Man 2",
     "Iron Man 3",
     "Thor: Ragnarok",
     "Captain America: Civil War",
