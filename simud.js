@@ -3,7 +3,7 @@ const fs = require('fs').promises;
 
 (async () => {
     // Versione dello script
-    console.log('Script Versione: 1.7 - Focalizzato su vixcloud.co/playlist senza estensione .m3u8');
+    console.log('Script Versione: 1.8 - Migliorata risoluzione blob URL e estrazione HLS.js');
 
     // Configurazione
     const url = process.env.TARGET_URL || 'https://streamingcommunity.spa/watch/314';
@@ -134,9 +134,9 @@ const fs = require('fs').promises;
                                     if (video && window.Hls && window.Hls.isSupported()) {
                                         const hls = new window.Hls();
                                         hls.attachMedia(video);
-                                        hls.on(window.Hls.Events.MANIFEST_PARSED, () => {
-                                            console.log('HLS.js manifesto caricato:', hls.url);
-                                            resolve(hls.url || null);
+                                        hls.on(window.Hls.Events.MANIFEST_LOADED, (event, data) => {
+                                            console.log('HLS.js manifesto caricato:', data.url);
+                                            resolve(data.url || null);
                                         });
                                         hls.on(window.Hls.Events.ERROR, (event, data) => {
                                             console.log('Errore HLS.js:', data);
@@ -174,17 +174,31 @@ const fs = require('fs').promises;
                                     streamLinks.add(videoData);
                                 } else if (videoData.startsWith('blob:')) {
                                     console.log(`Blob URL trovato: ${videoData}, tentativo di risoluzione...`);
-                                    const resolvedUrl = await nestedFrame.evaluate((blobUrl) => {
-                                        return new Promise((resolve) => {
-                                            fetch(blobUrl)
-                                                .then(res => res.url)
-                                                .then(url => resolve(url))
-                                                .catch(() => resolve(null));
-                                        });
-                                    }, videoData);
-                                    if (resolvedUrl && resolvedUrl.includes('vixcloud.co/playlist')) {
-                                        console.log(`Flusso risolto da blob URL: ${resolvedUrl}`);
-                                        streamLinks.add(resolvedUrl);
+                                    // Monitora le richieste di rete per trovare il flusso reale
+                                    const blobResolvedUrl = await new Promise((resolve) => {
+                                        const requestListener = request => {
+                                            const url = request.url();
+                                            if (url.includes('vixcloud.co/playlist')) {
+                                                page.off('request', requestListener);
+                                                resolve(url);
+                                            }
+                                        };
+                                        page.on('request', requestListener);
+                                        nestedFrame.evaluate((blobUrl) => {
+                                            fetch(blobUrl).catch(err => {
+                                                console.log('Errore fetch blob URL:', err);
+                                            });
+                                        }, videoData);
+                                        setTimeout(() => {
+                                            page.off('request', requestListener);
+                                            resolve(null);
+                                        }, 10000);
+                                    });
+                                    if (blobResolvedUrl) {
+                                        console.log(`Flusso risolto da blob URL: ${blobResolvedUrl}`);
+                                        streamLinks.add(blobResolvedUrl);
+                                    } else {
+                                        console.log('Impossibile risolvere il blob URL: nessuna richiesta vixcloud.co/playlist rilevata entro il timeout.');
                                     }
                                 }
                             }
