@@ -1,33 +1,51 @@
 name: StreamingCommunity Scraper
 
 on:
-  workflow_dispatch:
+  workflow_dispatch: # Permette esecuzione manuale
   schedule:
-    - cron: '*/15 * * * *'
+    - cron: '*/15 * * * *' # Esegue ogni 15 minuti
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
 
     steps:
+      # Checkout del repository con token personalizzato
       - name: Checkout repository with custom token
         uses: actions/checkout@v3
         with:
           token: ${{ secrets.ACTIONS_TOKEN }}
 
+      # Configura Node.js
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
       # Installa dipendenze
       - name: Install dependencies
+        run: npm install puppeteer
+
+      # Installa FFmpeg
+      - name: Install FFmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+
+      # Installa Chromium per Puppeteer
+      - name: Install Chromium
         run: |
-          python -m pip install --upgrade pip
-          pip install m3u8 requests beautifulsoup4
+          sudo apt-get update
+          sudo apt-get install -y chromium-browser
+          echo "CHROMIUM_PATH=/usr/bin/chromium-browser" >> $GITHUB_ENV
 
-
-      - name: Run SkyStreaming scraper
+      # Esegui lo script simud.js
+      - name: Run StreamingCommunity scraper
         env:
           GITHUB_WORKSPACE: ${{ github.workspace }}
-        run: |
-          python simudflix.py
+          TARGET_URL: 'https://streamingcommunity.spa/watch/314' # Configura l'URL
+          PLAY_BUTTON_SELECTOR: '#play-button' # Configura il selettore CSS
+        run: node simud.js
 
+      # Commit e push del file streaming.m3u8 aggiornato
       - name: Commit and push updated M3U8 file
         run: |
           git config --global user.name "GitHub Action"
