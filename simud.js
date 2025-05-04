@@ -3,7 +3,7 @@ const fs = require('fs').promises;
 
 (async () => {
     // Versione dello script
-    console.log('Script Versione: 1.2 - Con intercettazione risposte e clic su player class');
+    console.log('Script Versione: 1.3 - Migliorata intercettazione vixcloud.co/playlist');
 
     // Configurazione
     const url = process.env.TARGET_URL || 'https://streamingcommunity.spa/watch/314';
@@ -58,6 +58,9 @@ const fs = require('fs').promises;
     page.on('request', request => {
         const requestUrl = request.url();
         networkRequests.push(requestUrl);
+        if (requestUrl.includes('vixcloud.co')) {
+            console.log(`Richiesta rilevata con vixcloud.co: ${requestUrl}`);
+        }
         if (requestUrl.includes('.m3u8') || requestUrl.includes('vixcloud.co/playlist')) {
             console.log(`Flusso M3U8 o playlist trovato: ${requestUrl}`);
             m3u8Links.add(requestUrl);
@@ -68,6 +71,9 @@ const fs = require('fs').promises;
     // Intercetta le risposte per cercare flussi M3U8
     page.on('response', async response => {
         const responseUrl = response.url();
+        if (responseUrl.includes('vixcloud.co')) {
+            console.log(`Risposta rilevata con vixcloud.co: ${responseUrl}`);
+        }
         if (responseUrl.includes('.m3u8') || responseUrl.includes('vixcloud.co/playlist')) {
             console.log(`Flusso M3U8 o playlist trovato nella risposta: ${responseUrl}`);
             m3u8Links.add(responseUrl);
@@ -173,9 +179,9 @@ const fs = require('fs').promises;
             console.log(`Attributo src del video nella pagina principale: ${videoSrc || 'non presente'}`);
         }
 
-        // Aspetta 60 secondi per il caricamento del video
-        console.log('Attendo 60 secondi per il caricamento del video...');
-        await new Promise(resolve => setTimeout(resolve, 60000));
+        // Aspetta 90 secondi per il caricamento del video
+        console.log('Attendo 90 secondi per il caricamento del video...');
+        await new Promise(resolve => setTimeout(resolve, 90000));
 
         // Salva i link trovati
         if (m3u8Links.size === 0) {
