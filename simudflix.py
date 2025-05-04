@@ -1,5 +1,7 @@
-import requests
-from bs4 import BeautifulSoup
+from scuapi import API
+
+# Inizializza l'API con il dominio corretto
+sc = API('streamingcommunity.spa')
 
 # Lista di film Marvel con i rispettivi ID
 marvel_movies = {
@@ -15,29 +17,18 @@ marvel_movies = {
     "Avengers: Endgame": 328
 }
 
-# Lista per memorizzare le voci M3U
 m3u_entries = []
 
-# Funzione per estrarre l'URL M3U8 dalla pagina di visione
-def get_m3u8_url(movie_id):
-    url = f"https://streamingcommunity.spa/watch/{movie_id}"
-    response = requests.get(url)
-    
-    if response.status_code == 200:
-        soup = BeautifulSoup(response.text, 'html.parser')
-        # Troviamo il flusso M3U8 nella pagina, supponendo che sia nel tag <video> o simile
-        video_tag = soup.find('video')
-        if video_tag and 'src' in video_tag.attrs:
-            return video_tag.attrs['src']
-    return None
-
-# Elaboriamo i film
 for title, movie_id in marvel_movies.items():
     try:
-        # Ottieni l'URL M3U8 dalla pagina di visione
-        m3u8_url = get_m3u8_url(movie_id)
+        # Costruisce l'URL per il watch
+        watch_url = f"https://streamingcommunity.spa/watch/{movie_id}"
+        
+        # Carica i dettagli usando l'ID (utilizzerò watch_url per il flusso)
+        details = sc.load(str(movie_id))
+        m3u8_url = details.get('m3u8_url')
         if m3u8_url:
-            m3u_entries.append(f"#EXTINF:-1,{title}\n{m3u8_url}")
+            m3u_entries.append(f"#EXTINF:-1,{title}\n{watch_url}")
         else:
             print(f"Nessun flusso M3U8 trovato per {title}")
     except Exception as e:
