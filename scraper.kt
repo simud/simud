@@ -1,3 +1,5 @@
+package scraper
+
 import okhttp3.OkHttpClient
 import okhttp3.Request
 import org.jsoup.Jsoup
