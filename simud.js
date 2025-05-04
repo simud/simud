@@ -3,15 +3,21 @@ const fs = require('fs').promises;
 
 (async () => {
     // Versione dello script
-    console.log('Script Versione: 1.14 - Intercettazione Web Worker e eventi video');
+    console.log('Script Versione: 1.16 - Navigazione diretta all\'iframe');
 
     // Configurazione
-    const url = process.env.TARGET_URL || 'https://streamingcommunity.spa/watch/314';
+    const url = 'https://streamingcommunity.spa/iframe/314'; // Navigazione diretta all'iframe
     const outputFile = 'streaming.m3u8';
     const playButtonSelector = process.env.PLAY_BUTTON_SELECTOR || '#play-button';
     const networkLogFile = 'network_requests.log';
     const iframeContentFile = 'iframe_content.html';
     const sessionCookie = process.env.SESSION_COOKIE || ''; // Cookie di autenticazione
+
+    // Verifica presenza del cookie
+    if (!sessionCookie) {
+        console.error('Errore: Nessun cookie di autenticazione fornito. Il cookie è obbligatorio per accedere al flusso. Imposta la variabile d\'ambiente SESSION_COOKIE.');
+        process.exit(1);
+    }
 
     // Avvia il browser
     console.log('Avvio del browser Puppeteer...');
@@ -37,17 +43,13 @@ const fs = require('fs').promises;
     // Imposta User-Agent
     await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36');
 
-    // Aggiungi cookie di autenticazione, se fornito
-    if (sessionCookie) {
-        await page.setCookie({
-            name: 'session',
-            value: sessionCookie,
-            domain: 'streamingcommunity.spa'
-        });
-        console.log('Cookie di autenticazione aggiunto.');
-    } else {
-        console.log('Nessun cookie di autenticazione fornito. Potrebbe essere necessario per accedere al flusso.');
-    }
+    // Aggiungi cookie di autenticazione
+    await page.setCookie({
+        name: 'session',
+        value: sessionCookie,
+        domain: 'streamingcommunity.spa'
+    });
+    console.log('Cookie di autenticazione aggiunto.');
 
     // Disabilita il Service Worker e applica override
     await page.evaluateOnNewDocument(() => {
@@ -87,6 +89,7 @@ const fs = require('fs').promises;
             const originalXHROpen = XMLHttpRequest.prototype.open;
             XMLHttpRequest.prototype.open = function () {
                 const url = arguments[1];
+                console.log('XHR aperto:', url);
                 if (url.includes('vixcloud.co/playlist')) {
                     console.log('XHR intercettato:', url);
                     window.xhrStreamUrl = url;
@@ -98,6 +101,7 @@ const fs = require('fs').promises;
             const originalFetch = window.fetch;
             window.fetch = async function () {
                 const url = arguments[0].url || arguments[0];
+                console.log('Fetch avviato:', url);
                 if (typeof url === 'string' && url.includes('vixcloud.co/playlist')) {
                     console.log('Fetch intercettato:', url);
                     window.fetchStreamUrl = url;
@@ -128,6 +132,9 @@ const fs = require('fs').promises;
                     if (this.src.includes('vixcloud.co/playlist')) {
                         window.videoStreamUrl = this.src;
                     }
+                });
+                this.addEventListener('error', (e) => {
+                    console.log('Errore video:', e);
                 });
                 return originalVideoPlay.apply(this, arguments);
             };
@@ -168,7 +175,7 @@ const fs = require('fs').promises;
     });
 
     try {
-        // Naviga al sito
+        // Naviga direttamente all'iframe
         console.log(`Navigazione verso ${url}`);
         await page.goto(url, { waitUntil: 'networkidle2', timeout: 30000 });
 
@@ -185,7 +192,7 @@ const fs = require('fs').promises;
         await fs.writeFile(networkLogFile, networkRequests.join('\n'));
         console.log(`Richieste di rete salvate come ${networkLogFile}`);
 
-        // Cerca iframe e applica override
+        // Cerca iframe annidati
         const iframes = await page.$$('iframe');
         console.log(`Iframe trovati: ${iframes.length}`);
         for (let i = 0; i < iframes.length; i++) {
@@ -193,7 +200,6 @@ const fs = require('fs').promises;
             if (frame) {
                 const frameUrl = await frame.url();
                 console.log(`Iframe ${i + 1} URL: ${frameUrl}`);
-                // Salva il contenuto dell'iframe
                 const frameContent = await frame.content();
                 await fs.appendFile(iframeContentFile, `Iframe ${i + 1} (${frameUrl}):\n${frameContent}\n\n`);
                 console.log(`Contenuto iframe ${i + 1} salvato in ${iframeContentFile}`);
@@ -205,133 +211,99 @@ const fs = require('fs').promises;
                 } catch (e) {
                     console.log(`Errore applicazione override in iframe ${i + 1}:`, e.message);
                 }
-                // Cerca iframe annidati
-                const nestedIframes = await frame.$$('iframe');
-                console.log(`Iframe annidati in iframe ${i + 1}: ${nestedIframes.length}`);
-                for (let j = 0; j < nestedIframes.length; j++) {
-                    const nestedFrame = await nestedIframes[j].contentFrame();
-                    if (nestedFrame) {
-                        const nestedFrameUrl = await nestedFrame.url();
-                        console.log(`Iframe annidato ${j + 1} URL: ${nestedFrameUrl}`);
-                        const nestedFrameContent = await nestedFrame.content();
-                        await fs.appendFile(iframeContentFile, `Iframe annidato ${j + 1} (${nestedFrameUrl}):\n${nestedFrameContent}\n\n`);
-                        // Applica override nell'iframe annidato
-                        try {
-                            await nestedFrame.evaluate(() => {
-                                window.applyOverrides && window.applyOverrides();
-                            });
-                        } catch (e) {
-                            console.log(`Errore applicazione override in iframe annidato ${j + 1}:`, e.message);
-                        }
-                        // Cerca il player nell'iframe annidato
-                        const nestedVideo = await nestedFrame.$('video');
-                        const nestedPlayerClasses = await nestedFrame.$$('[class*="player"], [class*="video"], [class*="play"]');
-                        console.log(`Elementi <video> trovati in iframe annidato ${j + 1}: ${nestedVideo ? 1 : 0}`);
-                        console.log(`Elementi con classi player/video/play trovati in iframe annidato ${j + 1}: ${nestedPlayerClasses.length}`);
-                        if (nestedPlayerClasses.length > 0) {
-                            await nestedFrame.evaluate(el => el.click(), nestedPlayerClasses[0]);
-                            console.log(`Cliccato sul primo elemento player in iframe annidato ${j + 1}.`);
+                // Cerca il player nell'iframe
+                const nestedVideo = await frame.$('video');
+                const nestedPlayerClasses = await frame.$$('[class*="player"], [class*="video"], [class*="play"]');
+                console.log(`Elementi <video> trovati in iframe ${i + 1}: ${nestedVideo ? 1 : 0}`);
+                console.log(`Elementi con classi player/video/play trovati in iframe ${i + 1}: ${nestedPlayerClasses.length}`);
+                if (nestedPlayerClasses.length > 0) {
+                    await frame.evaluate(el => el.click(), nestedPlayerClasses[0]);
+                    console.log(`Cliccato sul primo elemento player in iframe ${i + 1}.`);
 
-                            // Tenta di estrarre il flusso
-                            const streamUrl = await nestedFrame.evaluate(() => {
-                                return new Promise((resolve) => {
-                                    const video = document.querySelector('video');
-                                    if (video && window.Hls && window.Hls.isSupported()) {
-                                        const hls = new window.Hls();
-                                        hls.attachMedia(video);
-                                        hls.on(window.Hls.Events.MANIFEST_LOADED, (event, data) => {
-                                            console.log('HLS.js manifesto caricato:', data.url);
-                                            resolve(data.url || null);
-                                        });
-                                        hls.on(window.Hls.Events.MEDIA_ATTACHED, () => {
-                                            console.log('HLS.js media attaccato');
-                                        });
-                                        hls.on(window.Hls.Events.ERROR, (event, data) => {
-                                            console.log('Errore HLS.js:', data);
-                                            resolve(null);
-                                        });
-                                        // Avvia il video
-                                        video.play().catch(err => {
-                                            console.log('Errore avvio video:', err);
-                                            resolve(null);
-                                        });
-                                        // Controlla se l'URL è stato intercettato
-                                        setInterval(() => {
-                                            if (window.hlsStreamUrl) {
-                                                resolve(window.hlsStreamUrl);
-                                            } else if (window.xhrStreamUrl) {
-                                                resolve(window.xhrStreamUrl);
-                                            } else if (window.fetchStreamUrl) {
-                                                resolve(window.fetchStreamUrl);
-                                            } else if (window.workerStreamUrl) {
-                                                resolve(window.workerStreamUrl);
-                                            } else if (window.videoStreamUrl) {
-                                                resolve(window.videoStreamUrl);
-                                            }
-                                        }, 1000);
-                                        // Timeout di sicurezza
-                                        setTimeout(() => resolve(null), 10000);
-                                    } else {
-                                        resolve(null);
+                    // Tenta di estrarre il flusso
+                    const streamUrl = await frame.evaluate(() => {
+                        return new Promise((resolve) => {
+                            const video = document.querySelector('video');
+                            if (video && window.Hls && window.Hls.isSupported()) {
+                                const hls = new window.Hls();
+                                hls.attachMedia(video);
+                                hls.on(window.Hls.Events.MANIFEST_LOADED, (event, data) => {
+                                    console.log('HLS.js manifesto caricato:', data.url);
+                                    resolve(data.url || null);
+                                });
+                                hls.on(window.Hls.Events.MEDIA_ATTACHED, () => {
+                                    console.log('HLS.js media attaccato');
+                                });
+                                hls.on(window.Hls.Events.ERROR, (event, data) => {
+                                    console.log('Errore HLS.js:', data);
+                                    resolve(null);
+                                });
+                                // Avvia il video
+                                video.play().catch(err => {
+                                    console.log('Errore avvio video:', err);
+                                    resolve(null);
+                                });
+                                // Controlla se l'URL è stato intercettato
+                                setInterval(() => {
+                                    if (window.hlsStreamUrl) {
+                                        resolve(window.hlsStreamUrl);
+                                    } else if (window.xhrStreamUrl) {
+                                        resolve(window.xhrStreamUrl);
+                                    } else if (window.fetchStreamUrl) {
+                                        resolve(window.fetchStreamUrl);
+                                    } else if (window.workerStreamUrl) {
+                                        resolve(window.workerStreamUrl);
+                                    } else if (window.videoStreamUrl) {
+                                        resolve(window.videoStreamUrl);
                                     }
-                                });
-                            });
-                            if (streamUrl) {
-                                console.log(`Flusso trovato: ${streamUrl}`);
-                                streamLinks.add(streamUrl);
+                                }, 1000);
+                                // Timeout di sicurezza
+                                setTimeout(() => resolve(null), 10000);
+                            } else {
+                                resolve(null);
                             }
+                        });
+                    });
+                    if (streamUrl) {
+                        console.log(`Flusso trovato: ${streamUrl}`);
+                        streamLinks.add(streamUrl);
+                    }
 
-                            // Controllo alternativo: cerca attributi dati o src nel video
-                            const videoData = await nestedFrame.evaluate(() => {
-                                const video = document.querySelector('video');
-                                if (video) {
-                                    const src = video.src || video.getAttribute('data-src') || video.getAttribute('data-hls') || null;
-                                    return src;
-                                }
-                                return null;
-                            });
-                            if (videoData) {
-                                console.log(`Attributo src/data del video in iframe annidato ${j + 1}: ${videoData}`);
-                                if (videoData.includes('vixcloud.co/playlist')) {
-                                    console.log(`Flusso trovato tramite attributi video: ${videoData}`);
-                                    streamLinks.add(videoData);
-                                }
-                            }
-                        } else if (nestedVideo) {
-                            const videoSrc = await nestedFrame.evaluate(el => el.src, nestedVideo);
-                            console.log(`Attributo src del video in iframe annidato ${j + 1}: ${videoSrc || 'non presente'}`);
-                            await nestedFrame.evaluate(el => el.click(), nestedVideo);
-                            console.log(`Cliccato sul tag <video> in iframe annidato ${j + 1}.`);
-                        } else if (nestedFrameUrl.includes('vixcloud.co/embed/253542')) {
-                            console.log('Iframe di Vixcloud trovato, simulo clic al centro...');
-                            await nestedFrame.evaluate(() => {
-                                const x = window.innerWidth / 2;
-                                const y = window.innerHeight / 2;
-                                const clickEvent = new MouseEvent('click', {
-                                    view: window,
-                                    bubbles: true,
-                                    cancelable: true,
-                                    clientX: x,
-                                    clientY: y
-                                });
-                                document.elementFromPoint(x, y).dispatchEvent(clickEvent);
-                            });
+                    // Controllo alternativo: cerca attributi dati o src nel video
+                    const videoData = await frame.evaluate(() => {
+                        const video = document.querySelector('video');
+                        if (video) {
+                            const src = video.src || video.getAttribute('data-src') || video.getAttribute('data-hls') || null;
+                            return src;
+                        }
+                        return null;
+                    });
+                    if (videoData) {
+                        console.log(`Attributo src/data del video in iframe ${i + 1}: ${videoData}`);
+                        if (videoData.includes('vixcloud.co/playlist')) {
+                            console.log(`Flusso trovato tramite attributi video: ${videoData}`);
+                            streamLinks.add(videoData);
                         }
                     }
-                }
-                // Cerca il player nell'iframe principale
-                const frameVideo = await frame.$('video');
-                const framePlayerClasses = await frame.$$('[class*="player"], [class*="video"], [class*="play"]');
-                console.log(`Elementi <video> trovati in iframe ${i + 1}: ${frameVideo ? 1 : 0}`);
-                console.log(`Elementi con classi player/video/play trovati in iframe ${i + 1}: ${framePlayerClasses.length}`);
-                if (frameVideo) {
-                    const videoSrc = await frame.evaluate(el => el.src, frameVideo);
+                } else if (nestedVideo) {
+                    const videoSrc = await frame.evaluate(el => el.src, nestedVideo);
                     console.log(`Attributo src del video in iframe ${i + 1}: ${videoSrc || 'non presente'}`);
-                    await frame.evaluate(el => el.click(), frameVideo);
+                    await frame.evaluate(el => el.click(), nestedVideo);
                     console.log(`Cliccato sul tag <video> in iframe ${i + 1}.`);
-                } else if (framePlayerClasses.length > 0) {
-                    await frame.evaluate(el => el.click(), framePlayerClasses[0]);
-                    console.log(`Cliccato sul primo elemento player in iframe ${i + 1}.`);
+                } else if (frameUrl.includes('vixcloud.co/embed/253542')) {
+                    console.log('Iframe di Vixcloud trovato, simulo clic al centro...');
+                    await frame.evaluate(() => {
+                        const x = window.innerWidth / 2;
+                        const y = window.innerHeight / 2;
+                        const clickEvent = new MouseEvent('click', {
+                            view: window,
+                            bubbles: true,
+                            cancelable: true,
+                            clientX: x,
+                            clientY: y
+                        });
+                        document.elementFromPoint(x, y).dispatchEvent(clickEvent);
+                    });
                 }
             }
         }
