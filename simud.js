@@ -1,6 +1,5 @@
 const puppeteer = require('puppeteer');
 const fs = require('fs').promises;
-const { spawn } = require('child_process');
 
 (async () => {
     // Configurazione
@@ -8,6 +7,7 @@ const { spawn } = require('child_process');
     const outputFile = 'streaming.m3u8';
     const playButtonSelector = process.env.PLAY_BUTTON_SELECTOR || '#play-button';
     const networkLogFile = 'network_requests.log';
+    const iframeContentFile = 'iframe_content.html';
 
     // Avvia il browser
     console.log('Avvio del browser Puppeteer...');
@@ -18,7 +18,7 @@ const { spawn } = require('child_process');
             '--disable-setuid-sandbox',
             '--disable-dev-shm-usage',
             '--disable-web-security',
-            '--disable-service-workers' // Disabilita Service Worker
+            '--disable-service-workers'
         ],
         executablePath: process.env.CHROMIUM_PATH || '/usr/bin/chromium'
     });
@@ -90,6 +90,10 @@ const { spawn } = require('child_process');
                         }
                         request.continue();
                     });
+                    // Salva il contenuto dell'iframe
+                    const frameContent = await frame.content();
+                    await fs.appendFile(iframeContentFile, `Iframe ${i + 1} (${frameUrl}):\n${frameContent}\n\n`);
+                    console.log(`Contenuto iframe ${i + 1} salvato in ${iframeContentFile}`);
                 }
             }
         }
@@ -99,6 +103,12 @@ const { spawn } = require('child_process');
         const playerClasses = await page.$$('[class*="player"], [class*="video"], [class*="play"]');
         console.log(`Elementi <video> trovati: ${videoElement ? 1 : 0}`);
         console.log(`Elementi con classi player/video/play trovati: ${playerClasses.length}`);
+
+        // Verifica attributi del player
+        if (videoElement) {
+            const videoSrc = await page.evaluate(el => el.src, videoElement);
+            console.log(`Attributo src del video: ${videoSrc || 'non presente'}`);
+        }
 
         // Verifica se il pulsante play esiste
         console.log(`Verifica del selettore: ${playButtonSelector}`);
@@ -119,7 +129,7 @@ const { spawn } = require('child_process');
             for (const selector of alternativeSelectors) {
                 playButton = await page.$(selector);
                 if (playButton) {
-                    console.log(`Trovato selettore alternativo ${selector}, clicco...');
+                    console.log(`Trovato selettore alternativo ${selector}, clicco...`);
                     await page.click(selector);
                     break;
                 }
@@ -153,7 +163,6 @@ const { spawn } = require('child_process');
             const links = Array.from(m3u8Links).join('\n');
             await fs.writeFile(outputFile, links);
             console.log(`Trovati ${m3u8Links.size} flussi M3U8. Salvati in ${outputFile}`);
-            // Verifica se l'URL desiderato è presente
             if (links.includes('vixcloud.co/playlist/253542')) {
                 console.log('URL desiderato trovato e salvato!');
             }
