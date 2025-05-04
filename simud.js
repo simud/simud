@@ -3,7 +3,7 @@ const fs = require('fs').promises;
 
 (async () => {
     // Versione dello script
-    console.log('Script Versione: 1.5 - Correzione errore requestUrl e migliorata intercettazione');
+    console.log('Script Versione: 1.7 - Focalizzato su vixcloud.co/playlist senza estensione .m3u8');
 
     // Configurazione
     const url = process.env.TARGET_URL || 'https://streamingcommunity.spa/watch/314';
@@ -51,7 +51,7 @@ const fs = require('fs').promises;
 
     // Intercetta tutte le richieste di rete
     await page.setRequestInterception(true);
-    const m3u8Links = new Set();
+    const streamLinks = new Set();
     const networkRequests = [];
 
     page.on('request', request => {
@@ -60,22 +60,22 @@ const fs = require('fs').promises;
         if (requestUrl.includes('vixcloud.co')) {
             console.log(`Richiesta rilevata con vixcloud.co: ${requestUrl}`);
         }
-        if (requestUrl.includes('.m3u8') || requestUrl.includes('vixcloud.co/playlist')) {
-            console.log(`Flusso M3U8 o playlist trovato: ${requestUrl}`);
-            m3u8Links.add(requestUrl);
+        if (requestUrl.includes('vixcloud.co/playlist')) {
+            console.log(`Flusso trovato: ${requestUrl}`);
+            streamLinks.add(requestUrl);
         }
         request.continue();
     });
 
-    // Intercetta le risposte per cercare flussi M3U8
+    // Intercetta le risposte per cercare flussi
     page.on('response', async response => {
         const responseUrl = response.url();
         if (responseUrl.includes('vixcloud.co')) {
             console.log(`Risposta rilevata con vixcloud.co: ${responseUrl}`);
         }
-        if (responseUrl.includes('.m3u8') || responseUrl.includes('vixcloud.co/playlist')) {
-            console.log(`Flusso M3U8 o playlist trovato nella risposta: ${responseUrl}`);
-            m3u8Links.add(responseUrl);
+        if (responseUrl.includes('vixcloud.co/playlist')) {
+            console.log(`Flusso trovato nella risposta: ${responseUrl}`);
+            streamLinks.add(responseUrl);
         }
     });
 
@@ -129,22 +129,36 @@ const fs = require('fs').promises;
                             console.log(`Cliccato sul primo elemento player in iframe annidato ${j + 1}.`);
                             // Tenta di estrarre il flusso da HLS.js
                             const hlsUrl = await nestedFrame.evaluate(() => {
-                                const video = document.querySelector('video');
-                                if (video && window.Hls && window.Hls.isSupported()) {
-                                    const hls = new window.Hls();
-                                    hls.attachMedia(video);
-                                    hls.on(window.Hls.Events.MANIFEST_PARSED, () => {
-                                        return hls.url;
-                                    });
-                                    return hls.url || null;
-                                }
-                                return null;
+                                return new Promise((resolve) => {
+                                    const video = document.querySelector('video');
+                                    if (video && window.Hls && window.Hls.isSupported()) {
+                                        const hls = new window.Hls();
+                                        hls.attachMedia(video);
+                                        hls.on(window.Hls.Events.MANIFEST_PARSED, () => {
+                                            console.log('HLS.js manifesto caricato:', hls.url);
+                                            resolve(hls.url || null);
+                                        });
+                                        hls.on(window.Hls.Events.ERROR, (event, data) => {
+                                            console.log('Errore HLS.js:', data);
+                                            resolve(null);
+                                        });
+                                        // Avvia il video per forzare il caricamento del flusso
+                                        video.play().catch(err => {
+                                            console.log('Errore avvio video:', err);
+                                            resolve(null);
+                                        });
+                                        // Timeout di sicurezza
+                                        setTimeout(() => resolve(null), 10000);
+                                    } else {
+                                        resolve(null);
+                                    }
+                                });
                             });
                             if (hlsUrl) {
-                                console.log(`Flusso M3U8 trovato tramite HLS.js: ${hlsUrl}`);
-                                m3u8Links.add(hlsUrl);
+                                console.log(`Flusso trovato tramite HLS.js: ${hlsUrl}`);
+                                streamLinks.add(hlsUrl);
                             }
-                            // Controllo alternativo: cerca attributi dati o src nel video
+                            // Controllo alternativo: cerca attributi dati, src o blob URL nel video
                             const videoData = await nestedFrame.evaluate(() => {
                                 const video = document.querySelector('video');
                                 if (video) {
@@ -153,9 +167,26 @@ const fs = require('fs').promises;
                                 }
                                 return null;
                             });
-                            if (videoData && (videoData.includes('.m3u8') || videoData.includes('vixcloud.co/playlist'))) {
-                                console.log(`Flusso M3U8 trovato tramite attributi video: ${videoData}`);
-                                m3u8Links.add(videoData);
+                            if (videoData) {
+                                console.log(`Attributo src/data del video in iframe annidato ${j + 1}: ${videoData}`);
+                                if (videoData.includes('vixcloud.co/playlist')) {
+                                    console.log(`Flusso trovato tramite attributi video: ${videoData}`);
+                                    streamLinks.add(videoData);
+                                } else if (videoData.startsWith('blob:')) {
+                                    console.log(`Blob URL trovato: ${videoData}, tentativo di risoluzione...`);
+                                    const resolvedUrl = await nestedFrame.evaluate((blobUrl) => {
+                                        return new Promise((resolve) => {
+                                            fetch(blobUrl)
+                                                .then(res => res.url)
+                                                .then(url => resolve(url))
+                                                .catch(() => resolve(null));
+                                        });
+                                    }, videoData);
+                                    if (resolvedUrl && resolvedUrl.includes('vixcloud.co/playlist')) {
+                                        console.log(`Flusso risolto da blob URL: ${resolvedUrl}`);
+                                        streamLinks.add(resolvedUrl);
+                                    }
+                                }
                             }
                         } else if (nestedVideo) {
                             const videoSrc = await nestedFrame.evaluate(el => el.src, nestedVideo);
@@ -213,13 +244,13 @@ const fs = require('fs').promises;
         await new Promise(resolve => setTimeout(resolve, 90000));
 
         // Salva i link trovati
-        if (m3u8Links.size === 0) {
-            console.log('Nessun flusso M3U8 trovato.');
+        if (streamLinks.size === 0) {
+            console.log('Nessun flusso trovato.');
             await fs.writeFile(outputFile, '');
         } else {
-            const links = Array.from(m3u8Links).join('\n');
+            const links = Array.from(streamLinks).join('\n');
             await fs.writeFile(outputFile, links);
-            console.log(`Trovati ${m3u8Links.size} flussi M3U8. Salvati in ${outputFile}`);
+            console.log(`Trovati ${streamLinks.size} flussi. Salvati in ${outputFile}`);
             if (links.includes('vixcloud.co/playlist/253542')) {
                 console.log('URL desiderato trovato e salvato!');
             }
