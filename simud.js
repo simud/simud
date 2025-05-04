@@ -32,14 +32,7 @@ const fs = require('fs').promises;
     // Imposta User-Agent
     await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36');
 
-    // Aggiungi cookie di autenticazione (esempio, da configurare)
-    /* await page.setCookie({
-        name: 'session_cookie_name',
-        value: 'session_cookie_value',
-        domain: 'streamingcommunity.spa'
-    }); */
-
-    // Intercetta tutte le richieste di rete
+    // Intercetta tutte le richieste di rete a livello di pagina
     await page.setRequestInterception(true);
     const m3u8Links = new Set();
     const networkRequests = [];
@@ -80,16 +73,6 @@ const fs = require('fs').promises;
             if (frame) {
                 const frameUrl = await frame.url();
                 console.log(`Iframe ${i + 1} URL: ${frameUrl}`);
-                await frame.setRequestInterception(true);
-                frame.on('request', request => {
-                    const requestUrl = request.url();
-                    networkRequests.push(requestUrl);
-                    if (requestUrl.includes('.m3u8') || requestUrl.includes('vixcloud.co/playlist')) {
-                        console.log(`Flusso M3U8 o playlist in iframe: ${requestUrl}`);
-                        m3u8Links.add(requestUrl);
-                    }
-                    request.continue();
-                });
                 // Salva il contenuto dell'iframe
                 const frameContent = await frame.content();
                 await fs.appendFile(iframeContentFile, `Iframe ${i + 1} (${frameUrl}):\n${frameContent}\n\n`);
@@ -102,16 +85,6 @@ const fs = require('fs').promises;
                     if (nestedFrame) {
                         const nestedFrameUrl = await nestedFrame.url();
                         console.log(`Iframe annidato ${j + 1} URL: ${nestedFrameUrl}`);
-                        await nestedFrame.setRequestInterception(true);
-                        nestedFrame.on('request', request => {
-                            const requestUrl = request.url();
-                            networkRequests.push(requestUrl);
-                            if (requestUrl.includes('.m3u8') || requestUrl.includes('vixcloud.co/playlist')) {
-                                console.log(`Flusso M3U8 o playlist in iframe annidato: ${requestUrl}`);
-                                m3u8Links.add(requestUrl);
-                            }
-                            request.continue();
-                        });
                         const nestedFrameContent = await nestedFrame.content();
                         await fs.appendFile(iframeContentFile, `Iframe annidato ${j + 1} (${nestedFrameUrl}):\n${nestedFrameContent}\n\n`);
                     }
@@ -142,8 +115,9 @@ const fs = require('fs').promises;
                             '[aria-label="Play"]',
                             'button',
                             '.vjs-play-control',
-                            '.vjs-big-play-button',
-                            '[class*="player"] button'
+                            '.vjs-big-play-button', // Comune in Video.js
+                            '[class*="player"] button',
+                            '.vjs-big-play-button.vjs-control.vjs-button' // Più specifico per Video.js
                         ];
                         for (const selector of alternativeSelectors) {
                             const altPlayButton = await frame.$(selector);
@@ -185,7 +159,8 @@ const fs = require('fs').promises;
                 'button',
                 '.vjs-play-control',
                 '.vjs-big-play-button',
-                '[class*="player"] button'
+                '[class*="player"] button',
+                '.vjs-big-play-button.vjs-control.vjs-button'
             ];
             for (const selector of alternativeSelectors) {
                 playButton = await page.$(selector);
