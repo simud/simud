@@ -24,7 +24,7 @@ jobs:
 
       # Installa dipendenze
       - name: Install dependencies
-        run: npm install puppeteer@21.0.0 # Versione specifica per compatibilità
+        run: npm install puppeteer@21.0.0 # Versione specifica
 
       # Installa FFmpeg
       - name: Install FFmpeg
@@ -47,7 +47,7 @@ jobs:
 
       # Carica lo screenshot per il debug
       - name: Upload debug screenshot
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: debug-screenshot
           path: debug_screenshot.png
@@ -55,7 +55,7 @@ jobs:
 
       # Carica il file streaming.m3u8 come artefatto
       - name: Upload M3U8 links
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: m3u8-links
           path: streaming.m3u8
