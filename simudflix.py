@@ -155,7 +155,7 @@ for title in movies:
     if movie_id:
         m3u_url = get_m3u8_url(movie_id, title, scraper)
         if m3u_url:
-            m3u_entries.append(f"#EXTINF:-1,{title}\n{m3u  m3u_url}")
+            m3u_entries.append(f"#EXTINF:-1,{title}\n{m3u_url}")
     time.sleep(REQUEST_DELAY)
 
 # Scrittura del file M3U8
