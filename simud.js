@@ -3,7 +3,7 @@ const fs = require('fs').promises;
 
 (async () => {
     // Versione dello script
-    console.log('Script Versione: 1.12 - Override in iframe e intercettazione MSE');
+    console.log('Script Versione: 1.13 - Correzione override iframe e intercettazione blob URL');
 
     // Configurazione
     const url = process.env.TARGET_URL || 'https://streamingcommunity.spa/watch/314';
@@ -50,7 +50,7 @@ const fs = require('fs').promises;
         });
 
         // Funzione per applicare gli override
-        const applyOverrides = () => {
+        window.applyOverrides = () => {
             // Override HLS.js
             Object.defineProperty(window, 'Hls', {
                 set: function (value) {
@@ -91,33 +91,29 @@ const fs = require('fs').promises;
                 return originalFetch.apply(this, arguments);
             };
 
-            // Intercetta Media Source Extensions (MSE)
-            const originalAddSourceBuffer = MediaSource.prototype.addSourceBuffer;
-            MediaSource.prototype.addSourceBuffer = function () {
-                const sourceBuffer = originalAddSourceBuffer.apply(this, arguments);
-                const originalAppendBuffer = sourceBuffer.appendBuffer;
-                sourceBuffer.appendBuffer = function (buffer) {
-                    console.log('MSE appendBuffer intercettato');
-                    // Tenta di rilevare l'origine del buffer tramite XHR/Fetch
-                    return originalAppendBuffer.apply(this, arguments);
-                };
-                return sourceBuffer;
+            // Intercetta creazione di blob URL
+            const originalCreateObjectURL = URL.createObjectURL;
+            URL.createObjectURL = function (blob) {
+                const blobUrl = originalCreateObjectURL.apply(this, arguments);
+                console.log('Blob URL creato:', blobUrl);
+                window.blobStreamUrl = blobUrl;
+                return blobUrl;
             };
         };
 
         // Applica gli override nella pagina principale
-        applyOverrides();
+        window.applyOverrides();
 
         // Applica gli override in tutti gli iframe
         const applyOverridesToIframes = () => {
             const iframes = document.getElementsByTagName('iframe');
             for (let iframe of iframes) {
                 try {
-                    const iframeWindow = iframe.contentWindow;
-                    iframeWindow.eval(`(${applyOverrides.toString()})();
-                    applyOverrides();`);
+                    if (iframe.contentWindow && iframe.contentWindow.document) {
+                        iframe.contentWindow.eval('window.applyOverrides && window.applyOverrides();');
+                    }
                 } catch (e) {
-                    console.log('Errore applicazione override in iframe:', e);
+                    console.log('Errore applicazione override in iframe:', e.message);
                 }
             }
         };
@@ -207,7 +203,7 @@ const fs = require('fs').promises;
                             await nestedFrame.evaluate(el => el.click(), nestedPlayerClasses[0]);
                             console.log(`Cliccato sul primo elemento player in iframe annidato ${j + 1}.`);
 
-                            // Tenta di estrarre il flusso da HLS.js, XHR, Fetch o MSE
+                            // Tenta di estrarre il flusso da HLS.js, XHR, Fetch o blob
                             const streamUrl = await nestedFrame.evaluate(() => {
                                 return new Promise((resolve) => {
                                     const video = document.querySelector('video');
@@ -238,6 +234,8 @@ const fs = require('fs').promises;
                                                 resolve(window.xhrStreamUrl);
                                             } else if (window.fetchStreamUrl) {
                                                 resolve(window.fetchStreamUrl);
+                                            } else if (window.blobStreamUrl) {
+                                                resolve(window.blobStreamUrl);
                                             }
                                         }, 1000);
                                         // Timeout di sicurezza
