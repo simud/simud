@@ -7,10 +7,8 @@ import random
 import json
 import re
 
-# Configura il logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-# Lista dei titoli di film/serie
 movies = [
     "Iron Man",
     "Iron Man 2",
@@ -24,7 +22,6 @@ movies = [
     "Avengers: Endgame"
 ]
 
-# Lista di User-Agent per rotazione
 user_agents = [
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
@@ -40,12 +37,11 @@ headers = {
 m3u_entries = []
 base_url = "https://streamingcommunity.spa"
 MAX_RETRIES = 3
-TIMEOUT = 60  # Aumentato per gestire Cloudflare
-REQUEST_DELAY = 3  # Aumentato per ridurre il rischio di blocchi
+TIMEOUT = 60
+REQUEST_DELAY = 3
 cookies = {}
 
 def get_movie_id(title, scraper):
-    """Cerca l'ID del film/serie tramite l'API di ricerca."""
     global cookies
     for attempt in range(MAX_RETRIES):
         try:
@@ -53,9 +49,8 @@ def get_movie_id(title, scraper):
             encoded_title = urllib.parse.quote(title)
             search_url = f"{base_url}/api/search?q={encoded_title}"
             logging.info(f"Ricerco: {search_url} (User-Agent: {headers['User-Agent']})")
-            
             res = scraper.get(search_url, headers=headers, cookies=cookies, timeout=TIMEOUT)
-            
+
             if res.status_code != 200:
                 logging.error(f"Errore HTTP per '{title}': Stato {res.status_code}")
                 time.sleep(REQUEST_DELAY)
@@ -67,130 +62,73 @@ def get_movie_id(title, scraper):
                 continue
 
             cookies.update(res.cookies.get_dict())
-            logging.info(f"Intestazioni risposta: {res.headers}")
-            logging.info(f"Cookie ricevuti: {res.cookies.get_dict()}")
-            
+            logging.info(f"Risposta JSON: {res.text}")
             try:
                 data = res.json()
-                logging.info(f"Risposta JSON: {json.dumps(data, indent=2)}")
                 for result in data.get('data', []):
                     movie_id = result.get('id')
                     if movie_id and str(movie_id).isdigit():
-                        logging.info(f"Trovato ID {movie_id} per '{title}'")
                         return str(movie_id)
-                logging.warning(f"Nessun ID valido trovato per '{title}' nei risultati JSON")
-                break
             except ValueError:
-                logging.warning(f"Risposta non JSON per '{title}', provo a parsare HTML")
                 soup = BeautifulSoup(res.text, "html.parser")
                 result = soup.select_one("div.card a[href*='/watch/']") or soup.select_one("a[href*='/watch/']")
                 if not result:
-                    logging.warning(f"Nessun risultato trovato per '{title}'. HTML: {res.text}")
                     break
-
                 href = result['href']
                 movie_id = href.split('/')[-1]
                 if movie_id.isdigit():
-                    logging.info(f"Trovato ID {movie_id} per '{title}'")
                     return movie_id
-                else:
-                    logging.error(f"ID non valido per '{title}': {movie_id}")
-                    break
-
         except Exception as e:
-            logging.error(f"Errore nella ricerca per '{title}' (tentativo {attempt + 1}/{MAX_RETRIES}): {e}")
+            logging.error(f"Errore nella ricerca per '{title}': {e}")
             time.sleep(REQUEST_DELAY)
-    
-    logging.error(f"Impossibile trovare ID per '{title}' dopo {MAX_RETRIES} tentativi")
     return None
 
 def get_m3u8_url(movie_id, title, scraper):
-    """Estrae il link M3U8 dalla pagina del film/serie o dall'API video."""
     global cookies
     for attempt in range(MAX_RETRIES):
         try:
             headers["User-Agent"] = random.choice(user_agents)
-            
-            # 1. Prova l'API video
             video_url = f"{base_url}/api/video/{movie_id}"
-            logging.info(f"Provo API video: {video_url} (Cookie: {cookies})")
             res = scraper.get(video_url, headers=headers, cookies=cookies, timeout=TIMEOUT)
-            
+
             if res.status_code == 200 and "application/json" in res.headers.get("Content-Type", ""):
                 try:
                     data = res.json()
-                    logging.info(f"Risposta API video: {json.dumps(data, indent=2)}")
                     m3u_url = data.get('url') or data.get('playlist') or data.get('m3u8')
                     if m3u_url and "vixcloud.co/playlist" in m3u_url:
-                        logging.info(f"Trovato M3U8 per '{title}' (ID: {movie_id}) via API: {m3u_url}")
                         return m3u_url
-                    logging.warning(f"Nessun URL M3U8 valido nell'API video per '{title}' (ID: {movie_id})")
                 except ValueError:
-                    logging.warning(f"Risposta API video non JSON per '{title}' (ID: {movie_id}): {res.text}")
-            else:
-                logging.warning(f"Errore API video per '{title}' (ID: {movie_id}): Stato {res.status_code}, Risposta: {res.text}")
-            
-            # 2. Prova la pagina watch
+                    pass
+
             watch_url = f"{base_url}/watch/{movie_id}"
-            logging.info(f"Provo pagina watch: {watch_url} (Cookie: {cookies})")
             res = scraper.get(watch_url, headers=headers, cookies=cookies, timeout=TIMEOUT)
-            
             if res.status_code != 200:
-                logging.error(f"Errore nel caricare la pagina per '{title}' (ID: {movie_id}): Stato HTTP {res.status_code}")
-                time.sleep(REQUEST_DELAY)
                 continue
 
-            if "cf-browser-verification" in res.text or "Checking your browser" in res.text:
-                logging.error(f"Pagina di verifica Cloudflare non bypassata per '{title}' (ID: {movie_id})")
-                logging.warning(f"HTML ricevuto: {res.text}")
+            if "cf-browser-verification" in res.text:
                 time.sleep(REQUEST_DELAY)
                 continue
 
             cookies.update(res.cookies.get_dict())
-            logging.info(f"Intestazioni risposta: {res.headers}")
-            logging.info(f"Cookie ricevuti: {res.cookies.get_dict()}")
-            
             soup = BeautifulSoup(res.text, "html.parser")
-            
-            # Cerca link vixcloud.co/playlist negli script
             scripts = soup.find_all("script")
             for script in scripts:
                 if script.string and "vixcloud.co/playlist" in script.string:
                     match = re.search(r'(https://vixcloud\.co/playlist/\d+\?[^"\']+)', script.string)
                     if match:
-                        m3u_url = match.group(1)
-                        logging.info(f"Trovato M3U8 per '{title}' (ID: {movie_id}) in script: {m3u_url}")
-                        return m3u_url
-            
-            # Cerca link in iframe
+                        return match.group(1)
             iframes = soup.find_all("iframe")
             for iframe in iframes:
                 src = iframe.get('src', '')
                 if "vixcloud.co/playlist" in src:
-                    logging.info(f"Trovato M3U8 per '{title}' (ID: {movie_id}) in iframe: {src}")
                     return src
-            
-            # Cerca link in attributi data-*
-            for element in soup.find_all(attrs={"data-": True}):
-                for attr, value in element.attrs.items():
-                    if "vixcloud.co/playlist" in value:
-                        logging.info(f"Trovato M3U8 per '{title}' (ID: {movie_id}) in attributo {attr}: {value}")
-                        return value
-            
-            logging.warning(f"Flusso M3U8 non trovato per '{title}' (ID: {movie_id}). HTML: {res.text}")
-            return None
-
         except Exception as e:
-            logging.error(f"Errore nel recuperare M3U8 per '{title}' (ID: {movie_id}, tentativo {attempt + 1}/{MAX_RETRIES}): {e}")
+            logging.error(f"Errore nel recuperare M3U8 per '{title}': {e}")
             time.sleep(REQUEST_DELAY)
-    
-    logging.error(f"Impossibile trovare M3U8 per '{title}' (ID: {movie_id}) dopo {MAX_RETRIES} tentativi")
     return None
 
-# Crea un'istanza di cloudscraper con interprete Node.js e sessione persistente
-scraper = cloudscraper.create_scraper(interpreter='nodejs', delay=30, sess=True)
+scraper = cloudscraper.create_scraper(delay=30, sess=True)
 
-# Iterazione sui titoli
 for title in movies:
     logging.info(f"Elaborazione: {title}")
     movie_id = get_movie_id(title, scraper)
@@ -200,7 +138,6 @@ for title in movies:
             m3u_entries.append(f"#EXTINF:-1,{title}\n{m3u_url}")
     time.sleep(REQUEST_DELAY)
 
-# Scrittura del file M3U8
 if m3u_entries:
     with open("streaming.m3u8", "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
