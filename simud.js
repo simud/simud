@@ -3,7 +3,7 @@ const fs = require('fs').promises;
 
 (async () => {
     // Versione dello script
-    console.log('Script Versione: 1.13 - Correzione override iframe e intercettazione blob URL');
+    console.log('Script Versione: 1.14 - Intercettazione Web Worker e eventi video');
 
     // Configurazione
     const url = process.env.TARGET_URL || 'https://streamingcommunity.spa/watch/314';
@@ -11,6 +11,7 @@ const fs = require('fs').promises;
     const playButtonSelector = process.env.PLAY_BUTTON_SELECTOR || '#play-button';
     const networkLogFile = 'network_requests.log';
     const iframeContentFile = 'iframe_content.html';
+    const sessionCookie = process.env.SESSION_COOKIE || ''; // Cookie di autenticazione
 
     // Avvia il browser
     console.log('Avvio del browser Puppeteer...');
@@ -36,6 +37,18 @@ const fs = require('fs').promises;
     // Imposta User-Agent
     await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36');
 
+    // Aggiungi cookie di autenticazione, se fornito
+    if (sessionCookie) {
+        await page.setCookie({
+            name: 'session',
+            value: sessionCookie,
+            domain: 'streamingcommunity.spa'
+        });
+        console.log('Cookie di autenticazione aggiunto.');
+    } else {
+        console.log('Nessun cookie di autenticazione fornito. Potrebbe essere necessario per accedere al flusso.');
+    }
+
     // Disabilita il Service Worker e applica override
     await page.evaluateOnNewDocument(() => {
         // Disabilita Service Worker
@@ -53,12 +66,13 @@ const fs = require('fs').promises;
         window.applyOverrides = () => {
             // Override HLS.js
             Object.defineProperty(window, 'Hls', {
+                configurable: true,
                 set: function (value) {
                     if (value && value.isSupported) {
                         const originalLoadSource = value.prototype.loadSource;
                         value.prototype.loadSource = function (url) {
                             console.log('HLS.js loadSource intercettato:', url);
-                            window.hlsStreamUrl = url; // Salva l'URL globalmente
+                            window.hlsStreamUrl = url;
                             return originalLoadSource.apply(this, arguments);
                         };
                     }
@@ -91,37 +105,36 @@ const fs = require('fs').promises;
                 return originalFetch.apply(this, arguments);
             };
 
-            // Intercetta creazione di blob URL
-            const originalCreateObjectURL = URL.createObjectURL;
-            URL.createObjectURL = function (blob) {
-                const blobUrl = originalCreateObjectURL.apply(this, arguments);
-                console.log('Blob URL creato:', blobUrl);
-                window.blobStreamUrl = blobUrl;
-                return blobUrl;
+            // Intercetta Web Worker
+            const originalWorker = window.Worker;
+            window.Worker = function (url) {
+                console.log('Web Worker rilevato:', url);
+                const worker = new originalWorker(url);
+                worker.onmessage = function (event) {
+                    console.log('Messaggio ricevuto dal worker:', event.data);
+                    if (typeof event.data === 'string' && event.data.includes('vixcloud.co/playlist')) {
+                        window.workerStreamUrl = event.data;
+                    }
+                };
+                return worker;
+            };
+
+            // Intercetta eventi video
+            const originalVideoPlay = HTMLVideoElement.prototype.play;
+            HTMLVideoElement.prototype.play = function () {
+                console.log('Video play intercettato');
+                this.addEventListener('loadedmetadata', () => {
+                    console.log('Evento loadedmetadata: src=', this.src);
+                    if (this.src.includes('vixcloud.co/playlist')) {
+                        window.videoStreamUrl = this.src;
+                    }
+                });
+                return originalVideoPlay.apply(this, arguments);
             };
         };
 
         // Applica gli override nella pagina principale
         window.applyOverrides();
-
-        // Applica gli override in tutti gli iframe
-        const applyOverridesToIframes = () => {
-            const iframes = document.getElementsByTagName('iframe');
-            for (let iframe of iframes) {
-                try {
-                    if (iframe.contentWindow && iframe.contentWindow.document) {
-                        iframe.contentWindow.eval('window.applyOverrides && window.applyOverrides();');
-                    }
-                } catch (e) {
-                    console.log('Errore applicazione override in iframe:', e.message);
-                }
-            }
-        };
-
-        // Esegui al caricamento della pagina e monitora nuovi iframe
-        window.addEventListener('load', applyOverridesToIframes);
-        const observer = new MutationObserver(() => applyOverridesToIframes());
-        observer.observe(document.documentElement, { childList: true, subtree: true });
     });
 
     // Intercetta tutte le richieste di rete
@@ -172,7 +185,7 @@ const fs = require('fs').promises;
         await fs.writeFile(networkLogFile, networkRequests.join('\n'));
         console.log(`Richieste di rete salvate come ${networkLogFile}`);
 
-        // Cerca iframe
+        // Cerca iframe e applica override
         const iframes = await page.$$('iframe');
         console.log(`Iframe trovati: ${iframes.length}`);
         for (let i = 0; i < iframes.length; i++) {
@@ -184,6 +197,14 @@ const fs = require('fs').promises;
                 const frameContent = await frame.content();
                 await fs.appendFile(iframeContentFile, `Iframe ${i + 1} (${frameUrl}):\n${frameContent}\n\n`);
                 console.log(`Contenuto iframe ${i + 1} salvato in ${iframeContentFile}`);
+                // Applica override nell'iframe
+                try {
+                    await frame.evaluate(() => {
+                        window.applyOverrides && window.applyOverrides();
+                    });
+                } catch (e) {
+                    console.log(`Errore applicazione override in iframe ${i + 1}:`, e.message);
+                }
                 // Cerca iframe annidati
                 const nestedIframes = await frame.$$('iframe');
                 console.log(`Iframe annidati in iframe ${i + 1}: ${nestedIframes.length}`);
@@ -194,6 +215,14 @@ const fs = require('fs').promises;
                         console.log(`Iframe annidato ${j + 1} URL: ${nestedFrameUrl}`);
                         const nestedFrameContent = await nestedFrame.content();
                         await fs.appendFile(iframeContentFile, `Iframe annidato ${j + 1} (${nestedFrameUrl}):\n${nestedFrameContent}\n\n`);
+                        // Applica override nell'iframe annidato
+                        try {
+                            await nestedFrame.evaluate(() => {
+                                window.applyOverrides && window.applyOverrides();
+                            });
+                        } catch (e) {
+                            console.log(`Errore applicazione override in iframe annidato ${j + 1}:`, e.message);
+                        }
                         // Cerca il player nell'iframe annidato
                         const nestedVideo = await nestedFrame.$('video');
                         const nestedPlayerClasses = await nestedFrame.$$('[class*="player"], [class*="video"], [class*="play"]');
@@ -203,7 +232,7 @@ const fs = require('fs').promises;
                             await nestedFrame.evaluate(el => el.click(), nestedPlayerClasses[0]);
                             console.log(`Cliccato sul primo elemento player in iframe annidato ${j + 1}.`);
 
-                            // Tenta di estrarre il flusso da HLS.js, XHR, Fetch o blob
+                            // Tenta di estrarre il flusso
                             const streamUrl = await nestedFrame.evaluate(() => {
                                 return new Promise((resolve) => {
                                     const video = document.querySelector('video');
@@ -221,7 +250,7 @@ const fs = require('fs').promises;
                                             console.log('Errore HLS.js:', data);
                                             resolve(null);
                                         });
-                                        // Avvia il video per forzare il caricamento del flusso
+                                        // Avvia il video
                                         video.play().catch(err => {
                                             console.log('Errore avvio video:', err);
                                             resolve(null);
@@ -234,8 +263,10 @@ const fs = require('fs').promises;
                                                 resolve(window.xhrStreamUrl);
                                             } else if (window.fetchStreamUrl) {
                                                 resolve(window.fetchStreamUrl);
-                                            } else if (window.blobStreamUrl) {
-                                                resolve(window.blobStreamUrl);
+                                            } else if (window.workerStreamUrl) {
+                                                resolve(window.workerStreamUrl);
+                                            } else if (window.videoStreamUrl) {
+                                                resolve(window.videoStreamUrl);
                                             }
                                         }, 1000);
                                         // Timeout di sicurezza
