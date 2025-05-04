@@ -26,20 +26,20 @@ jobs:
           pip install cloudscraper beautifulsoup4
 
       - name: Run StreamingCommunity scraper
-        run: python simudflix.py
+        run: python scraper.py
 
-      - name: Upload page content
+      - name: Upload debug files
         uses: actions/upload-artifact@v4
         with:
-          name: page-content
-          path: page_content.html
+          name: debug-files
+          path: debug/*.html
           if-no-files-found: warn
 
-      - name: Upload iframe content
+      - name: Upload network requests
         uses: actions/upload-artifact@v4
         with:
-          name: iframe-content
-          path: iframe_content.html
+          name: network-requests
+          path: network_requests.log
           if-no-files-found: warn
 
       - name: Upload M3U8 links
