@@ -1,43 +1,26 @@
+import m3u8
 import requests
-from bs4 import BeautifulSoup
+import subprocess
 
-# URL della pagina contenente il flusso
-url = "https://streamingcommunity.spa/watch/314"
+# Funzione per scaricare un flusso m3u8
+def download_m3u8_stream(url):
+    # Scarica il file m3u8
+    response = requests.get(url)
+    m3u8_obj = m3u8.loads(response.text)
 
-# Effettua la richiesta HTTP alla pagina
-response = requests.get(url)
-response.raise_for_status()
-
-# Analizza il contenuto HTML della pagina
-soup = BeautifulSoup(response.text, 'html.parser')
-
-# Cerca il link del flusso M3U8 nella pagina
-# Adatta questa parte in base alla struttura della pagina
-# Questo è solo un esempio, potrebbe essere necessario fare una ricerca più accurata
-m3u8_url = None
-
-# Supponiamo che il flusso M3U8 sia in un attributo "data-m3u8" o simile
-# Esplora l'HTML della pagina per determinare come ottenere il link esatto
-
-# Esempio di ricerca tramite tag script (spesso i flussi M3U8 sono incorporati in script JS)
-for script in soup.find_all('script'):
-    if 'm3u8' in script.text:
-        # Estrai l'URL del flusso M3U8 dal testo JavaScript (questa parte può variare)
-        start_index = script.text.find("m3u8")
-        end_index = script.text.find(".m3u8") + 5
-        m3u8_url = script.text[start_index:end_index]
-        break
-
-if m3u8_url:
-    print(f"Flusso M3U8 trovato: {m3u8_url}")
+    # Prendi il primo segmento del flusso
+    segment_url = m3u8_obj.segments[0].uri
+    print(f"Segment URL: {segment_url}")
     
-    # Crea una playlist M3U8
-    playlist_filename = "streaming.m3u8"
-    with open(playlist_filename, 'w', encoding='utf-8') as f:
-        f.write("#EXTM3U\n")
-        f.write("#EXTINF:-1, Film Esempio\n")
-        f.write(m3u8_url + "\n")
+    # Se il flusso è composto da più segmenti, puoi usare ffmpeg per unirli
+    ffmpeg_cmd = [
+        'ffmpeg',
+        '-i', segment_url,  # URL del segmento m3u8
+        '-c', 'copy',        # Copia senza ricodifica
+        '-bsf:a', 'aac_adtstoasc',  # Correzione del formato audio
+        'output.mp4'         # Nome del file finale
+    ]
+    subprocess.run(ffmpeg_cmd)
 
-    print(f"Playlist creata con successo: {playlist_filename}")
-else:
-    print("Flusso M3U8 non trovato.")
+# Esegui la funzione passando l'URL del flusso m3u8
+download_m3u8_stream('URL_DEL_TUO_FLUSSO_M3U8')
