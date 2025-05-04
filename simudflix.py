@@ -4,6 +4,7 @@ import urllib.parse
 import time
 import logging
 import random
+import json
 
 # Configura il logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -32,7 +33,7 @@ user_agents = [
 headers = {
     "User-Agent": random.choice(user_agents),
     "Accept-Language": "en-US,en;q=0.9,it;q=0.8",
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+    "Accept": "application/json, text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
 }
 
 m3u_entries = []
@@ -40,18 +41,20 @@ base_url = "https://streamingcommunity.spa"
 MAX_RETRIES = 3
 TIMEOUT = 30
 REQUEST_DELAY = 2
+cookies = {}
 
 def get_movie_id(title, scraper):
-    """Cerca l'ID del film/serie tramite il motore di ricerca usando cloudscraper."""
+    """Cerca l'ID del film/serie tramite l'API di ricerca."""
+    global cookies
     for attempt in range(MAX_RETRIES):
         try:
             headers["User-Agent"] = random.choice(user_agents)
             encoded_title = urllib.parse.quote(title)
-            search_url = f"{base_url}/search?q={encoded_title}"
+            search_url = f"{base_url}/api/search?q={encoded_title}"
             logging.info(f"Ricerco: {search_url} (User-Agent: {headers['User-Agent']})")
             
-            # Usa cloudscraper per bypassare Cloudflare
-            res = scraper.get(search_url, headers=headers, timeout=TIMEOUT)
+            # Usa cloudscraper per interrogare l'API
+            res = scraper.get(search_url, headers=headers, cookies=cookies, timeout=TIMEOUT)
             
             if res.status_code != 200:
                 logging.error(f"Errore HTTP per '{title}': Stato {res.status_code}")
@@ -64,26 +67,41 @@ def get_movie_id(title, scraper):
                 time.sleep(REQUEST_DELAY)
                 continue
 
-            # Log delle intestazioni e dei cookie
+            # Aggiorna i cookie
+            cookies.update(res.cookies.get_dict())
             logging.info(f"Intestazioni risposta: {res.headers}")
             logging.info(f"Cookie ricevuti: {res.cookies.get_dict()}")
             
-            soup = BeautifulSoup(res.text, "html.parser")
-            # Cerca un link più specifico
-            result = soup.select_one("div.card a[href*='/watch/']") or soup.select_one("a[href*='/watch/']")
-            if not result:
-                logging.warning(f"Nessun risultato trovato per '{title}'. HTML: {res.text}")
+            # Prova a parsare la risposta come JSON
+            try:
+                data = res.json()
+                logging.info(f"Risposta JSON: {json.dumps(data, indent=2)}")
+                # Cerca il primo risultato con un ID valido
+                for result in data.get('results', []):
+                    movie_id = result.get('id')
+                    if movie_id and str(movie_id).isdigit():
+                        logging.info(f"Trovato ID {movie_id} per '{title}'")
+                        return str(movie_id)
+                logging.warning(f"Nessun ID valido trovato per '{title}' nei risultati JSON")
                 break
+            except ValueError:
+                # Fallback: se non è JSON, prova a parsare l'HTML
+                logging.warning(f"Risposta non JSON per '{title}', provo a parsare HTML")
+                soup = BeautifulSoup(res.text, "html.parser")
+                result = soup.select_one("div.card a[href*='/watch/']") or soup.select_one("a[href*='/watch/']")
+                if not result:
+                    logging.warning(f"Nessun risultato trovato per '{title}'. HTML: {res.text}")
+                    break
 
-            # Estrai l'ID dall'URL (es. /watch/10002)
-            href = result['href']
-            movie_id = href.split('/')[-1]
-            if movie_id.isdigit():
-                logging.info(f"Trovato ID {movie_id} per '{title}'")
-                return movie_id
-            else:
-                logging.error(f"ID non valido per '{title}': {movie_id}")
-                break
+                # Estrai l'ID dall'URL (es. /watch/10002)
+                href = result['href']
+                movie_id = href.split('/')[-1]
+                if movie_id.isdigit():
+                    logging.info(f"Trovato ID {movie_id} per '{title}'")
+                    return movie_id
+                else:
+                    logging.error(f"ID non valido per '{title}': {movie_id}")
+                    break
 
         except Exception as e:
             logging.error(f"Errore nella ricerca per '{title}' (tentativo {attempt + 1}/{MAX_RETRIES}): {e}")
@@ -94,12 +112,13 @@ def get_movie_id(title, scraper):
 
 def get_m3u8_url(movie_id, title, scraper):
     """Estrae il link M3U8 dalla pagina del film/serie usando cloudscraper."""
+    global cookies
     for attempt in range(MAX_RETRIES):
         try:
             headers["User-Agent"] = random.choice(user_agents)
             url = f"{base_url}/watch/{movie_id}"
             logging.info(f"Recupero M3U8 da: {url}")
-            res = scraper.get(url, headers=headers, timeout=TIMEOUT)
+            res = scraper.get(url, headers=headers, cookies=cookies, timeout=TIMEOUT)
             
             if res.status_code != 200:
                 logging.error(f"Errore nel caricare la pagina per '{title}' (ID: {movie_id}): Stato HTTP {res.status_code}")
@@ -111,7 +130,8 @@ def get_m3u8_url(movie_id, title, scraper):
                 time.sleep(REQUEST_DELAY)
                 continue
 
-            # Log delle intestazioni e dei cookie
+            # Aggiorna i cookie
+            cookies.update(res.cookies.get_dict())
             logging.info(f"Intestazioni risposta: {res.headers}")
             logging.info(f"Cookie ricevuti: {res.cookies.get_dict()}")
             
@@ -137,7 +157,7 @@ def get_m3u8_url(movie_id, title, scraper):
     return None
 
 # Crea un'istanza di cloudscraper con interprete Node.js e sessione persistente
-scraper = cloudscraper.create_scraper(interpreter='nodejs', delay=20, sess=True)
+scraper = cloudscraper.create_scraper(interpreter='nodejs', delay=30, sess=True)
 
 # Iterazione sui titoli
 for title in movies:
