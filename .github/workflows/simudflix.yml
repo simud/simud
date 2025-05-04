@@ -15,18 +15,42 @@ jobs:
         with:
           token: ${{ secrets.ACTIONS_TOKEN }}
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
+      - name: Set up JDK 11
+        uses: actions/setup-java@v3
         with:
-          python-version: '3.10'
+          java-version: '11'
+          distribution: 'temurin'
+
+      - name: Install Gradle
+        uses: gradle/gradle-build-action@v2
 
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
-          pip install cloudscraper beautifulsoup4
+          sudo apt-get update
+          sudo apt-get install -y jq
+        # Nota: jq è opzionale per il parsing JSON, se necessario
 
-      - name: Run StreamingCommunity scraper
-        run: python simudflix.py
+      - name: Build and run Kotlin script
+        run: |
+          # Crea un file build.gradle temporaneo
+          cat << 'EOF' > build.gradle
+          plugins {
+              id 'org.jetbrains.kotlin.jvm' version '1.9.0'
+          }
+          repositories {
+              mavenCentral()
+          }
+          dependencies {
+              implementation 'org.jsoup:jsoup:1.15.3'
+              implementation 'com.squareup.okhttp3:okhttp:4.10.0'
+              implementation 'org.json:json:20230227'
+          }
+          EOF
+          # Compila ed esegui lo script
+          gradle run --args='scraper.kt'
+        env:
+          SCRIPT_CONTENT: |
+            $(cat scraper.kt)
 
       - name: Upload debug files
         uses: actions/upload-artifact@v4
