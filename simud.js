@@ -2,6 +2,9 @@ const puppeteer = require('puppeteer');
 const fs = require('fs').promises;
 
 (async () => {
+    // Versione dello script
+    console.log('Script Versione: 1.2 - Con intercettazione risposte e clic su player class');
+
     // Configurazione
     const url = process.env.TARGET_URL || 'https://streamingcommunity.spa/watch/314';
     const outputFile = 'streaming.m3u8';
@@ -40,6 +43,11 @@ const fs = require('fs').promises;
                 registration.unregister();
             }
         });
+        // Impedisci la registrazione di nuovi Service Worker
+        Object.defineProperty(navigator, 'serviceWorker', {
+            value: undefined,
+            writable: false
+        });
     });
 
     // Intercetta tutte le richieste di rete
@@ -55,6 +63,15 @@ const fs = require('fs').promises;
             m3u8Links.add(requestUrl);
         }
         request.continue();
+    });
+
+    // Intercetta le risposte per cercare flussi M3U8
+    page.on('response', async response => {
+        const responseUrl = response.url();
+        if (responseUrl.includes('.m3u8') || responseUrl.includes('vixcloud.co/playlist')) {
+            console.log(`Flusso M3U8 o playlist trovato nella risposta: ${responseUrl}`);
+            m3u8Links.add(responseUrl);
+        }
     });
 
     try {
@@ -102,14 +119,14 @@ const fs = require('fs').promises;
                         const nestedPlayerClasses = await nestedFrame.$$('[class*="player"], [class*="video"], [class*="play"]');
                         console.log(`Elementi <video> trovati in iframe annidato ${j + 1}: ${nestedVideo ? 1 : 0}`);
                         console.log(`Elementi con classi player/video/play trovati in iframe annidato ${j + 1}: ${nestedPlayerClasses.length}`);
-                        if (nestedVideo) {
+                        if (nestedPlayerClasses.length > 0) {
+                            await nestedFrame.evaluate(el => el.click(), nestedPlayerClasses[0]);
+                            console.log(`Cliccato sul primo elemento player in iframe annidato ${j + 1}.`);
+                        } else if (nestedVideo) {
                             const videoSrc = await nestedFrame.evaluate(el => el.src, nestedVideo);
                             console.log(`Attributo src del video in iframe annidato ${j + 1}: ${videoSrc || 'non presente'}`);
                             await nestedFrame.evaluate(el => el.click(), nestedVideo);
                             console.log(`Cliccato sul tag <video> in iframe annidato ${j + 1}.`);
-                        } else if (nestedPlayerClasses.length > 0) {
-                            await nestedFrame.evaluate(el => el.click(), nestedPlayerClasses[0]);
-                            console.log(`Cliccato sul primo elemento player in iframe annidato ${j + 1}.`);
                         } else if (nestedFrameUrl.includes('vixcloud.co/embed/253542')) {
                             console.log('Iframe di Vixcloud trovato, simulo clic al centro...');
                             await nestedFrame.evaluate(() => {
@@ -156,9 +173,9 @@ const fs = require('fs').promises;
             console.log(`Attributo src del video nella pagina principale: ${videoSrc || 'non presente'}`);
         }
 
-        // Aspetta 40 secondi per il caricamento del video
-        console.log('Attendo 40 secondi per il caricamento del video...');
-        await new Promise(resolve => setTimeout(resolve, 40000));
+        // Aspetta 60 secondi per il caricamento del video
+        console.log('Attendo 60 secondi per il caricamento del video...');
+        await new Promise(resolve => setTimeout(resolve, 60000));
 
         // Salva i link trovati
         if (m3u8Links.size === 0) {
