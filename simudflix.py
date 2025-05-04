@@ -1,54 +1,50 @@
-import asyncio
-from mediaflow_proxy.extractors.vixcloud import VixCloudExtractor
+from scuapi import API
 
-marvel_titles = [
-    "Iron Man", "The Avengers", "Captain America", "Thor",
-    "Black Panther", "Doctor Strange", "Guardiani della Galassia",
-    "Spider-Man", "Ant-Man", "Captain Marvel"
+# Inizializza l'API con il dominio corretto
+sc = API('streamingcommunity.spa')
+
+# Lista di 10 film Marvel
+marvel_movies = [
+    "Iron Man",
+    "The Incredible Hulk",
+    "Thor",
+    "Captain America: The First Avenger",
+    "The Avengers",
+    "Guardians of the Galaxy",
+    "Doctor Strange",
+    "Black Panther",
+    "Captain Marvel",
+    "Avengers: Endgame"
 ]
 
-# URL base dei contenuti su streamingcommunity (simulato per l'esempio)
-BASE_URL = "https://streamingcommunity.spa/watch/"
+# Lista per memorizzare le voci M3U
+m3u_entries = []
 
-# Mappa titoli a ID contenuto (dovresti avere un modo per recuperarli dinamicamente)
-title_id_map = {
-    "Iron Man": "1001",
-    "The Avengers": "1002",
-    "Captain America": "1003",
-    "Thor": "1004",
-    "Black Panther": "1005",
-    "Doctor Strange": "1006",
-    "Guardiani della Galassia": "1007",
-    "Spider-Man": "1008",
-    "Ant-Man": "1009",
-    "Captain Marvel": "1010"
-}
-
-async def extract_playlist_url(title: str, content_id: str, extractor: VixCloudExtractor):
+for movie in marvel_movies:
     try:
-        url = f"{BASE_URL}{content_id}"
-        result = await extractor.extract(url)
-        return title, result["destination_url"]
-    except Exception as e:
-        print(f"Fallito: {title} - {e}")
-        return title, None
-
-async def main():
-    extractor = VixCloudExtractor()
-    tasks = [
-        extract_playlist_url(title, title_id_map[title], extractor)
-        for title in marvel_titles
-    ]
-    results = await asyncio.gather(*tasks)
-
-    with open("streaming.m3u8", "w", encoding="utf-8") as f:
-        f.write("#EXTM3U\n")
-        for title, url in results:
-            if url:
-                f.write(f"#EXTINF:-1,{title}\n{url}\n")
-                print(f"Successo: {title}")
+        # Ricerca del film
+        results = sc.search(movie)
+        if results:
+            # Prende il primo risultato
+            first_result = next(iter(results.values()))
+            slug = first_result['slug']
+            # Carica i dettagli del film
+            details = sc.load(slug)
+            # Estrae l'URL del flusso M3U8
+            m3u8_url = details.get('m3u8_url')
+            if m3u8_url:
+                # Aggiunge l'entry al file M3U
+                m3u_entries.append(f"#EXTINF:-1,{movie}\n{m3u8_url}")
             else:
-                print(f"Fallito: {title}")
+                print(f"Flusso M3U8 non trovato per {movie}")
+        else:
+            print(f"Nessun risultato trovato per {movie}")
+    except Exception as e:
+        print(f"Errore durante l'elaborazione di {movie}: {e}")
 
-if __name__ == "__main__":
-    asyncio.run(main())
+# Scrive le voci nel file M3U con il nuovo nome
+with open("streaming.m3u8", "w", encoding="utf-8") as f:
+    f.write("#EXTM3U\n")
+    f.write("\n".join(m3u_entries))
+
+print("File streaming.m3u8 creato con successo.")
