@@ -1,51 +1,44 @@
 name: StreamingCommunity Scraper
 
 on:
-  workflow_dispatch: # Permette esecuzione manuale
+  workflow_dispatch:
   schedule:
-    - cron: '*/15 * * * *' # Esegue ogni 15 minuti
+    - cron: '*/15 * * * *'
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
 
     steps:
-      # Checkout del repository con token personalizzato
       - name: Checkout repository with custom token
         uses: actions/checkout@v3
         with:
           token: ${{ secrets.ACTIONS_TOKEN }}
 
-      # Configura Node.js
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
           node-version: '18'
 
-      # Installa dipendenze
       - name: Install dependencies
-        run: npm install puppeteer@21.0.0 # Versione specifica
+        run: npm install puppeteer@21.0.0
 
-      # Installa FFmpeg
       - name: Install FFmpeg
         run: sudo apt-get update && sudo apt-get install -y ffmpeg
 
-      # Installa Chromium per Puppeteer
       - name: Install Chromium
         run: |
           sudo apt-get update
           sudo apt-get install -y chromium-browser
           echo "CHROMIUM_PATH=/usr/bin/chromium-browser" >> $GITHUB_ENV
 
-      # Esegui lo script simud.js
       - name: Run StreamingCommunity scraper
         env:
           GITHUB_WORKSPACE: ${{ github.workspace }}
           TARGET_URL: 'https://streamingcommunity.spa/watch/314'
-          PLAY_BUTTON_SELECTOR: '#play-button' # Aggiorna con il selettore corretto
+          PLAY_BUTTON_SELECTOR: '#play-button'
         run: node simud.js
 
-      # Carica lo screenshot di debug
       - name: Upload debug screenshot
         uses: actions/upload-artifact@v4
         with:
@@ -53,7 +46,6 @@ jobs:
           path: debug_screenshot.png
           if-no-files-found: warn
 
-      # Carica lo screenshot di errore
       - name: Upload error screenshot
         uses: actions/upload-artifact@v4
         with:
@@ -61,7 +53,6 @@ jobs:
           path: error_screenshot.png
           if-no-files-found: warn
 
-      # Carica il contenuto HTML
       - name: Upload page content
         uses: actions/upload-artifact@v4
         with:
@@ -69,7 +60,6 @@ jobs:
           path: page_content.html
           if-no-files-found: warn
 
-      # Carica il contenuto degli iframe
       - name: Upload iframe content
         uses: actions/upload-artifact@v4
         with:
@@ -77,7 +67,6 @@ jobs:
           path: iframe_content.html
           if-no-files-found: warn
 
-      # Carica le richieste di rete
       - name: Upload network requests
         uses: actions/upload-artifact@v4
         with:
@@ -85,7 +74,6 @@ jobs:
           path: network_requests.log
           if-no-files-found: warn
 
-      # Carica il file streaming.m3u8
       - name: Upload M3U8 links
         uses: actions/upload-artifact@v4
         with:
@@ -93,7 +81,6 @@ jobs:
           path: streaming.m3u8
           if-no-files-found: warn
 
-      # Commit e push del file streaming.m3u8
       - name: Commit and push updated M3U8 file
         run: |
           git config --global user.name "GitHub Action"
