@@ -3,7 +3,7 @@ const fs = require('fs').promises;
 
 (async () => {
     // Versione dello script
-    console.log('Script Versione: 1.3 - Migliorata intercettazione vixcloud.co/playlist');
+    console.log('Script Versione: 1.4 - Aggiunta estrazione flusso da HLS.js e controllo alternativo');
 
     // Configurazione
     const url = process.env.TARGET_URL || 'https://streamingcommunity.spa/watch/314';
@@ -43,7 +43,6 @@ const fs = require('fs').promises;
                 registration.unregister();
             }
         });
-        // Impedisci la registrazione di nuovi Service Worker
         Object.defineProperty(navigator, 'serviceWorker', {
             value: undefined,
             writable: false
@@ -74,7 +73,7 @@ const fs = require('fs').promises;
         if (responseUrl.includes('vixcloud.co')) {
             console.log(`Risposta rilevata con vixcloud.co: ${responseUrl}`);
         }
-        if (responseUrl.includes('.m3u8') || responseUrl.includes('vixcloud.co/playlist')) {
+        if (responseUrl.includes('.m3u8') || requestUrl.includes('vixcloud.co/playlist')) {
             console.log(`Flusso M3U8 o playlist trovato nella risposta: ${responseUrl}`);
             m3u8Links.add(responseUrl);
         }
@@ -128,6 +127,36 @@ const fs = require('fs').promises;
                         if (nestedPlayerClasses.length > 0) {
                             await nestedFrame.evaluate(el => el.click(), nestedPlayerClasses[0]);
                             console.log(`Cliccato sul primo elemento player in iframe annidato ${j + 1}.`);
+                            // Tenta di estrarre il flusso da HLS.js
+                            const hlsUrl = await nestedFrame.evaluate(() => {
+                                const video = document.querySelector('video');
+                                if (video && window.Hls && window.Hls.isSupported()) {
+                                    const hls = new window.Hls();
+                                    hls.attachMedia(video);
+                                    hls.on(window.Hls.Events.MANIFEST_PARSED, () => {
+                                        return hls.url;
+                                    });
+                                    return hls.url || null;
+                                }
+                                return null;
+                            });
+                            if (hlsUrl) {
+                                console.log(`Flusso M3U8 trovato tramite HLS.js: ${hlsUrl}`);
+                                m3u8Links.add(hlsUrl);
+                            }
+                            // Controllo alternativo: cerca attributi dati o src nel video
+                            const videoData = await nestedFrame.evaluate(() => {
+                                const video = document.querySelector('video');
+                                if (video) {
+                                    const src = video.src || video.getAttribute('data-src') || video.getAttribute('data-hls') || null;
+                                    return src;
+                                }
+                                return null;
+                            });
+                            if (videoData && (videoData.includes('.m3u8') || videoData.includes('vixcloud.co/playlist'))) {
+                                console.log(`Flusso M3U8 trovato tramite attributi video: ${videoData}`);
+                                m3u8Links.add(videoData);
+                            }
                         } else if (nestedVideo) {
                             const videoSrc = await nestedFrame.evaluate(el => el.src, nestedVideo);
                             console.log(`Attributo src del video in iframe annidato ${j + 1}: ${videoSrc || 'non presente'}`);
