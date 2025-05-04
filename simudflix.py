@@ -3,46 +3,35 @@ from scuapi import API
 # Inizializza l'API con il dominio corretto
 sc = API('streamingcommunity.spa')
 
-# Lista di 10 film Marvel
-marvel_movies = [
-    "Iron Man",
-    "The Incredible Hulk",
-    "Thor",
-    "Captain America: The First Avenger",
-    "The Avengers",
-    "Guardians of the Galaxy",
-    "Doctor Strange",
-    "Black Panther",
-    "Captain Marvel",
-    "Avengers: Endgame"
-]
+# Lista di film Marvel con i rispettivi ID
+marvel_movies = {
+    "Iron Man": 312,
+    "Iron Man 2": 313,
+    "Iron Man 3": 314,
+    "Thor": 317,
+    "Captain America: The First Avenger": 316,
+    "The Avengers": 315,
+    "Guardians of the Galaxy": 320,
+    "Doctor Strange": 322,
+    "Black Panther": 325,
+    "Avengers: Endgame": 328
+}
 
-# Lista per memorizzare le voci M3U
 m3u_entries = []
 
-for movie in marvel_movies:
+for title, movie_id in marvel_movies.items():
     try:
-        # Ricerca del film
-        results = sc.search(movie)
-        if results:
-            # Prende il primo risultato
-            first_result = next(iter(results.values()))
-            slug = first_result['slug']
-            # Carica i dettagli del film
-            details = sc.load(slug)
-            # Estrae l'URL del flusso M3U8
-            m3u8_url = details.get('m3u8_url')
-            if m3u8_url:
-                # Aggiunge l'entry al file M3U
-                m3u_entries.append(f"#EXTINF:-1,{movie}\n{m3u8_url}")
-            else:
-                print(f"Flusso M3U8 non trovato per {movie}")
+        # Carica i dettagli usando l'ID
+        details = sc.load(str(movie_id))
+        m3u8_url = details.get('m3u8_url')
+        if m3u8_url:
+            m3u_entries.append(f"#EXTINF:-1,{title}\n{m3u8_url}")
         else:
-            print(f"Nessun risultato trovato per {movie}")
+            print(f"Nessun flusso M3U8 trovato per {title}")
     except Exception as e:
-        print(f"Errore durante l'elaborazione di {movie}: {e}")
+        print(f"Errore durante l'elaborazione di {title}: {e}")
 
-# Scrive le voci nel file M3U con il nuovo nome
+# Scrittura del file .m3u8
 with open("streaming.m3u8", "w", encoding="utf-8") as f:
     f.write("#EXTM3U\n")
     f.write("\n".join(m3u_entries))
