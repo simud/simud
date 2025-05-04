@@ -22,20 +22,6 @@ movies = [
     "Avengers: Endgame"
 ]
 
-# Dizionario per titoli alternativi (in italiano)
-alternative_titles = {
-    "Iron Man": "Uomo di Ferro",
-    "Iron Man 2": "Uomo di Ferro 2",
-    "Iron Man 3": "Uomo di Ferro 3",
-    "The Avengers": "I Vendicatori",
-    "Captain America: The First Avenger": "Capitan America: Il primo Vendicatore",
-    "Thor": "Thor",
-    "Guardians of the Galaxy": "Guardiani della Galassia",
-    "Doctor Strange": "Dottor Strange",
-    "Black Panther": "Black Panther",
-    "Avengers: Endgame": "Avengers: Fine del gioco"
-}
-
 # Lista di User-Agent per rotazione
 user_agents = [
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
@@ -52,55 +38,55 @@ headers = {
 m3u_entries = []
 base_url = "https://streamingcommunity.spa"
 MAX_RETRIES = 3
-TIMEOUT = 15
+TIMEOUT = 20
 REQUEST_DELAY = 2
 
 def get_movie_id(title, scraper):
     """Cerca l'ID del film/serie tramite il motore di ricerca usando cloudscraper."""
-    titles_to_try = [title, alternative_titles.get(title, title)]
-    
-    for search_title in titles_to_try:
-        for attempt in range(MAX_RETRIES):
-            try:
-                headers["User-Agent"] = random.choice(user_agents)
-                encoded_title = urllib.parse.quote(search_title)
-                search_url = f"{base_url}/search?q={encoded_title}"
-                logging.info(f"Ricerco: {search_url} (User-Agent: {headers['User-Agent']})")
-                
-                # Usa cloudscraper per bypassare Cloudflare
-                res = scraper.get(search_url, headers=headers, timeout=TIMEOUT)
-                
-                if res.status_code != 200:
-                    logging.error(f"Errore HTTP per '{search_title}': Stato {res.status_code}")
-                    time.sleep(REQUEST_DELAY)
-                    continue
-
-                # Controlla se la risposta è una pagina di verifica Cloudflare
-                if "cf-browser-verification" in res.text or "Checking your browser" in res.text:
-                    logging.error(f"Pagina di verifica Cloudflare non bypassata per '{search_title}'")
-                    time.sleep(REQUEST_DELAY)
-                    continue
-
-                soup = BeautifulSoup(res.text, "html.parser")
-                # Cerca un link più specifico
-                result = soup.select_one("div.card a[href*='/watch/']") or soup.select_one("a[href*='/watch/']")
-                if not result:
-                    logging.warning(f"Nessun risultato trovato per '{search_title}'. HTML: {res.text[:2000]}...")
-                    break
-
-                # Estrai l'ID dall'URL (es. /watch/10002)
-                href = result['href']
-                movie_id = href.split('/')[-1]
-                if movie_id.isdigit():
-                    logging.info(f"Trovato ID {movie_id} per '{title}' (cercato come '{search_title}')")
-                    return movie_id
-                else:
-                    logging.error(f"ID non valido per '{search_title}': {movie_id}")
-                    break
-
-            except Exception as e:
-                logging.error(f"Errore nella ricerca per '{search_title}' (tentativo {attempt + 1}/{MAX_RETRIES}): {e}")
+    for attempt in range(MAX_RETRIES):
+        try:
+            headers["User-Agent"] = random.choice(user_agents)
+            encoded_title = urllib.parse.quote(title)
+            search_url = f"{base_url}/search?q={encoded_title}"
+            logging.info(f"Ricerco: {search_url} (User-Agent: {headers['User-Agent']})")
+            
+            # Usa cloudscraper per bypassare Cloudflare
+            res = scraper.get(search_url, headers=headers, timeout=TIMEOUT)
+            
+            if res.status_code != 200:
+                logging.error(f"Errore HTTP per '{title}': Stato {res.status_code}")
                 time.sleep(REQUEST_DELAY)
+                continue
+
+            # Controlla se la risposta è una pagina di verifica Cloudflare
+            if "cf-browser-verification" in res.text or "Checking your browser" in res.text:
+                logging.error(f"Pagina di verifica Cloudflare non bypassata per '{title}'")
+                time.sleep(REQUEST_DELAY)
+                continue
+
+            # Log delle intestazioni della risposta
+            logging.info(f"Intestazioni risposta: {res.headers}")
+            
+            soup = BeautifulSoup(res.text, "html.parser")
+            # Cerca un link più specifico
+            result = soup.select_one("div.card a[href*='/watch/']") or soup.select_one("a[href*='/watch/']")
+            if not result:
+                logging.warning(f"Nessun risultato trovato per '{title}'. HTML: {res.text}")
+                break
+
+            # Estrai l'ID dall'URL (es. /watch/10002)
+            href = result['href']
+            movie_id = href.split('/')[-1]
+            if movie_id.isdigit():
+                logging.info(f"Trovato ID {movie_id} per '{title}'")
+                return movie_id
+            else:
+                logging.error(f"ID non valido per '{title}': {movie_id}")
+                break
+
+        except Exception as e:
+            logging.error(f"Errore nella ricerca per '{title}' (tentativo {attempt + 1}/{MAX_RETRIES}): {e}")
+            time.sleep(REQUEST_DELAY)
     
     logging.error(f"Impossibile trovare ID per '{title}' dopo {MAX_RETRIES} tentativi")
     return None
@@ -124,6 +110,9 @@ def get_m3u8_url(movie_id, title, scraper):
                 time.sleep(REQUEST_DELAY)
                 continue
 
+            # Log delle intestazioni della risposta
+            logging.info(f"Intestazioni risposta: {res.headers}")
+            
             soup = BeautifulSoup(res.text, "html.parser")
             scripts = soup.find_all("script")
 
@@ -146,7 +135,7 @@ def get_m3u8_url(movie_id, title, scraper):
     return None
 
 # Crea un'istanza di cloudscraper con interprete JavaScript
-scraper = cloudscraper.create_scraper(interpreter='js2py', delay=10)
+scraper = cloudscraper.create_scraper(interpreter='js2py', delay=15)
 
 # Iterazione sui titoli
 for title in movies:
