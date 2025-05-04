@@ -3,7 +3,7 @@ const fs = require('fs').promises;
 
 (async () => {
     // Versione dello script
-    console.log('Script Versione: 1.11 - Override HLS.js anticipato e intercettazione XHR/Fetch');
+    console.log('Script Versione: 1.12 - Override in iframe e intercettazione MSE');
 
     // Configurazione
     const url = process.env.TARGET_URL || 'https://streamingcommunity.spa/watch/314';
@@ -36,7 +36,7 @@ const fs = require('fs').promises;
     // Imposta User-Agent
     await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36');
 
-    // Disabilita il Service Worker e applica override di HLS.js e XHR/Fetch
+    // Disabilita il Service Worker e applica override
     await page.evaluateOnNewDocument(() => {
         // Disabilita Service Worker
         navigator.serviceWorker.getRegistrations().then(registrations => {
@@ -49,45 +49,83 @@ const fs = require('fs').promises;
             writable: false
         });
 
-        // Override HLS.js
-        Object.defineProperty(window, 'Hls', {
-            set: function (value) {
-                if (value && value.isSupported) {
-                    const originalLoadSource = value.prototype.loadSource;
-                    value.prototype.loadSource = function (url) {
-                        console.log('HLS.js loadSource intercettato:', url);
-                        window.hlsStreamUrl = url; // Salva l'URL globalmente
-                        return originalLoadSource.apply(this, arguments);
-                    };
+        // Funzione per applicare gli override
+        const applyOverrides = () => {
+            // Override HLS.js
+            Object.defineProperty(window, 'Hls', {
+                set: function (value) {
+                    if (value && value.isSupported) {
+                        const originalLoadSource = value.prototype.loadSource;
+                        value.prototype.loadSource = function (url) {
+                            console.log('HLS.js loadSource intercettato:', url);
+                            window.hlsStreamUrl = url; // Salva l'URL globalmente
+                            return originalLoadSource.apply(this, arguments);
+                        };
+                    }
+                    this._Hls = value;
+                },
+                get: function () {
+                    return this._Hls;
                 }
-                this._Hls = value;
-            },
-            get: function () {
-                return this._Hls;
-            }
-        });
+            });
 
-        // Intercetta XHR
-        const originalXHROpen = XMLHttpRequest.prototype.open;
-        XMLHttpRequest.prototype.open = function () {
-            const url = arguments[1];
-            if (url.includes('vixcloud.co/playlist')) {
-                console.log('XHR intercettato:', url);
-                window.xhrStreamUrl = url;
-            }
-            return originalXHROpen.apply(this, arguments);
+            // Intercetta XHR
+            const originalXHROpen = XMLHttpRequest.prototype.open;
+            XMLHttpRequest.prototype.open = function () {
+                const url = arguments[1];
+                if (url.includes('vixcloud.co/playlist')) {
+                    console.log('XHR intercettato:', url);
+                    window.xhrStreamUrl = url;
+                }
+                return originalXHROpen.apply(this, arguments);
+            };
+
+            // Intercetta Fetch
+            const originalFetch = window.fetch;
+            window.fetch = async function () {
+                const url = arguments[0].url || arguments[0];
+                if (typeof url === 'string' && url.includes('vixcloud.co/playlist')) {
+                    console.log('Fetch intercettato:', url);
+                    window.fetchStreamUrl = url;
+                }
+                return originalFetch.apply(this, arguments);
+            };
+
+            // Intercetta Media Source Extensions (MSE)
+            const originalAddSourceBuffer = MediaSource.prototype.addSourceBuffer;
+            MediaSource.prototype.addSourceBuffer = function () {
+                const sourceBuffer = originalAddSourceBuffer.apply(this, arguments);
+                const originalAppendBuffer = sourceBuffer.appendBuffer;
+                sourceBuffer.appendBuffer = function (buffer) {
+                    console.log('MSE appendBuffer intercettato');
+                    // Tenta di rilevare l'origine del buffer tramite XHR/Fetch
+                    return originalAppendBuffer.apply(this, arguments);
+                };
+                return sourceBuffer;
+            };
         };
 
-        // Intercetta Fetch
-        const originalFetch = window.fetch;
-        window.fetch = async function () {
-            const url = arguments[0].url || arguments[0];
-            if (typeof url === 'string' && url.includes('vixcloud.co/playlist')) {
-                console.log('Fetch intercettato:', url);
-                window.fetchStreamUrl = url;
+        // Applica gli override nella pagina principale
+        applyOverrides();
+
+        // Applica gli override in tutti gli iframe
+        const applyOverridesToIframes = () => {
+            const iframes = document.getElementsByTagName('iframe');
+            for (let iframe of iframes) {
+                try {
+                    const iframeWindow = iframe.contentWindow;
+                    iframeWindow.eval(`(${applyOverrides.toString()})();
+                    applyOverrides();`);
+                } catch (e) {
+                    console.log('Errore applicazione override in iframe:', e);
+                }
             }
-            return originalFetch.apply(this, arguments);
         };
+
+        // Esegui al caricamento della pagina e monitora nuovi iframe
+        window.addEventListener('load', applyOverridesToIframes);
+        const observer = new MutationObserver(() => applyOverridesToIframes());
+        observer.observe(document.documentElement, { childList: true, subtree: true });
     });
 
     // Intercetta tutte le richieste di rete
@@ -169,7 +207,7 @@ const fs = require('fs').promises;
                             await nestedFrame.evaluate(el => el.click(), nestedPlayerClasses[0]);
                             console.log(`Cliccato sul primo elemento player in iframe annidato ${j + 1}.`);
 
-                            // Tenta di estrarre il flusso da HLS.js, XHR o Fetch
+                            // Tenta di estrarre il flusso da HLS.js, XHR, Fetch o MSE
                             const streamUrl = await nestedFrame.evaluate(() => {
                                 return new Promise((resolve) => {
                                     const video = document.querySelector('video');
@@ -192,7 +230,7 @@ const fs = require('fs').promises;
                                             console.log('Errore avvio video:', err);
                                             resolve(null);
                                         });
-                                        // Controlla se l'URL è stato intercettato dall'override
+                                        // Controlla se l'URL è stato intercettato
                                         setInterval(() => {
                                             if (window.hlsStreamUrl) {
                                                 resolve(window.hlsStreamUrl);
