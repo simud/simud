@@ -24,18 +24,12 @@ jobs:
       - name: Install Gradle
         uses: gradle/gradle-build-action@v2
 
-      - name: Install dependencies
+      - name: Create build.gradle
         run: |
-          sudo apt-get update
-          sudo apt-get install -y jq
-        # Nota: jq è opzionale per il parsing JSON, se necessario
-
-      - name: Build and run Kotlin script
-        run: |
-          # Crea un file build.gradle temporaneo
           cat << 'EOF' > build.gradle
           plugins {
               id 'org.jetbrains.kotlin.jvm' version '1.9.0'
+              id 'application'
           }
           repositories {
               mavenCentral()
@@ -45,12 +39,16 @@ jobs:
               implementation 'com.squareup.okhttp3:okhttp:4.10.0'
               implementation 'org.json:json:20230227'
           }
+          application {
+              mainClass.set('StreamingCommunityScraperKt')
+          }
           EOF
-          # Compila ed esegui lo script
-          gradle run --args='scraper.kt'
+
+      - name: Build and run Kotlin script
+        run: |
+          gradle run
         env:
-          SCRIPT_CONTENT: |
-            $(cat scraper.kt)
+          GRADLE_OPTS: "-Dorg.gradle.jvmargs=-Xmx2g"
 
       - name: Upload debug files
         uses: actions/upload-artifact@v4
