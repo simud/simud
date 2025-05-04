@@ -9,8 +9,9 @@ const { spawn } = require('child_process');
     const playButtonSelector = process.env.PLAY_BUTTON_SELECTOR || '#play-button';
 
     // Avvia il browser
+    console.log('Avvio del browser Puppeteer...');
     const browser = await puppeteer.launch({
-        headless: true,
+        headless: 'new', // Usa il nuovo headless mode
         args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage'],
         executablePath: process.env.CHROMIUM_PATH || '/usr/bin/chromium'
     });
@@ -41,22 +42,38 @@ const { spawn } = require('child_process');
         await page.screenshot({ path: 'debug_screenshot.png', fullPage: true });
         console.log('Screenshot salvato come debug_screenshot.png');
 
+        // Log del contenuto della pagina (prime 500 righe)
+        const pageContent = await page.content();
+        console.log('Contenuto pagina (prime 500 righe):', pageContent.slice(0, 500));
+
         // Verifica se il pulsante play esiste
-        console.log(`Attendo il selettore: ${playButtonSelector}`);
+        console.log(`Verifica del selettore: ${playButtonSelector}`);
         const playButton = await page.$(playButtonSelector);
         if (playButton) {
             console.log('Pulsante play trovato, clicco...');
             await page.click(playButtonSelector);
         } else {
             console.log('Pulsante play non trovato, il video potrebbe avviarsi automaticamente.');
+            // Prova selettori alternativi
+            const alternativeSelectors = ['.play-btn', 'button.video-play', '[aria-label="Play"]', 'button'];
+            for (const selector of alternativeSelectors) {
+                const altButton = await page.$(selector);
+                if (altButton) {
+                    console.log(`Trovato selettore alternativo ${selector}, clicco...`);
+                    await page.click(selector);
+                    break;
+                }
+            }
         }
 
-        // Aspetta 10 secondi per il caricamento del video
-        await new Promise(resolve => setTimeout(resolve, 10000));
+        // Aspetta 20 secondi per il caricamento del video
+        console.log('Attendo 20 secondi per il caricamento del video...');
+        await new Promise(resolve => setTimeout(resolve, 20000));
 
         // Salva i link trovati
         if (m3u8Links.size === 0) {
             console.log('Nessun flusso M3U8 trovato.');
+            await fs.writeFile(outputFile, ''); // Crea un file vuoto
         } else {
             const links = Array.from(m3u8Links).join('\n');
             await fs.writeFile(outputFile, links);
@@ -82,14 +99,18 @@ const { spawn } = require('child_process');
                 console.log(`FFmpeg terminato con codice ${code}`);
             });
 
-            // Aspetta che FFmpeg finisca (semplificazione)
+            // Aspetta che FFmpeg finisca
             await new Promise(resolve => setTimeout(resolve, 30000));
         }
 
     } catch (error) {
         console.error(`Errore durante l'esecuzione: ${error.message}`);
+        // Salva uno screenshot in caso di errore
+        await page.screenshot({ path: 'error_screenshot.png', fullPage: true });
+        console.log('Screenshot di errore salvato come error_screenshot.png');
         process.exit(1);
     } finally {
         await browser.close();
+        console.log('Browser chiuso.');
     }
 })();
