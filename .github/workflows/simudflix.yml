@@ -3,7 +3,7 @@ name: StreamingCommunity Scraper
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/15 * * * *'
+    - cron: '*/15 * * * *' # Esegui ogni 15 minuti
 
 jobs:
   scrape:
@@ -15,43 +15,18 @@ jobs:
         with:
           token: ${{ secrets.ACTIONS_TOKEN }}
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
         with:
-          node-version: '18'
+          python-version: '3.10'
 
       - name: Install dependencies
-        run: npm install puppeteer@21.0.0
-
-      - name: Install FFmpeg
-        run: sudo apt-get update && sudo apt-get install -y ffmpeg
-
-      - name: Install Chromium
         run: |
-          sudo apt-get update
-          sudo apt-get install -y chromium-browser
-          echo "CHROMIUM_PATH=/usr/bin/chromium-browser" >> $GITHUB_ENV
+          python -m pip install --upgrade pip
+          pip install cloudscraper beautifulsoup4
 
       - name: Run StreamingCommunity scraper
-        env:
-          GITHUB_WORKSPACE: ${{ github.workspace }}
-          TARGET_URL: 'https://streamingcommunity.spa/watch/314'
-          PLAY_BUTTON_SELECTOR: '#play-button'
-        run: node simud.js
-
-      - name: Upload debug screenshot
-        uses: actions/upload-artifact@v4
-        with:
-          name: debug-screenshot
-          path: debug_screenshot.png
-          if-no-files-found: warn
-
-      - name: Upload error screenshot
-        uses: actions/upload-artifact@v4
-        with:
-          name: error-screenshot
-          path: error_screenshot.png
-          if-no-files-found: warn
+        run: python simudflix.py
 
       - name: Upload page content
         uses: actions/upload-artifact@v4
@@ -65,13 +40,6 @@ jobs:
         with:
           name: iframe-content
           path: iframe_content.html
-          if-no-files-found: warn
-
-      - name: Upload network requests
-        uses: actions/upload-artifact@v4
-        with:
-          name: network-requests
-          path: network_requests.log
           if-no-files-found: warn
 
       - name: Upload M3U8 links
