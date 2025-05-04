@@ -62,7 +62,6 @@ def get_movie_id(title, scraper):
                 continue
 
             cookies.update(res.cookies.get_dict())
-            logging.info(f"Risposta JSON: {res.text}")
             try:
                 data = res.json()
                 for result in data.get('data', []):
@@ -127,7 +126,8 @@ def get_m3u8_url(movie_id, title, scraper):
             time.sleep(REQUEST_DELAY)
     return None
 
-scraper = cloudscraper.create_scraper(delay=30, sess=True)
+# FIX: rimossa opzione non supportata `sess`
+scraper = cloudscraper.create_scraper(delay=30)
 
 for title in movies:
     logging.info(f"Elaborazione: {title}")
