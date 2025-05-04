@@ -40,8 +40,8 @@ headers = {
 m3u_entries = []
 base_url = "https://streamingcommunity.spa"
 MAX_RETRIES = 3
-TIMEOUT = 30
-REQUEST_DELAY = 2
+TIMEOUT = 60  # Aumentato per gestire Cloudflare
+REQUEST_DELAY = 3  # Aumentato per ridurre il rischio di blocchi
 cookies = {}
 
 def get_movie_id(title, scraper):
@@ -126,7 +126,9 @@ def get_m3u8_url(movie_id, title, scraper):
                         return m3u_url
                     logging.warning(f"Nessun URL M3U8 valido nell'API video per '{title}' (ID: {movie_id})")
                 except ValueError:
-                    logging.warning(f"Risposta API video non JSON per '{title}' (ID: {movie_id})")
+                    logging.warning(f"Risposta API video non JSON per '{title}' (ID: {movie_id}): {res.text}")
+            else:
+                logging.warning(f"Errore API video per '{title}' (ID: {movie_id}): Stato {res.status_code}, Risposta: {res.text}")
             
             # 2. Prova la pagina watch
             watch_url = f"{base_url}/watch/{movie_id}"
@@ -154,7 +156,7 @@ def get_m3u8_url(movie_id, title, scraper):
             scripts = soup.find_all("script")
             for script in scripts:
                 if script.string and "vixcloud.co/playlist" in script.string:
-                    match = re.search(r'(https://vixcloud\.co/playlist/\d+\?[^"]+)', script.string)
+                    match = re.search(r'(https://vixcloud\.co/playlist/\d+\?[^"\']+)', script.string)
                     if match:
                         m3u_url = match.group(1)
                         logging.info(f"Trovato M3U8 per '{title}' (ID: {movie_id}) in script: {m3u_url}")
@@ -167,6 +169,13 @@ def get_m3u8_url(movie_id, title, scraper):
                 if "vixcloud.co/playlist" in src:
                     logging.info(f"Trovato M3U8 per '{title}' (ID: {movie_id}) in iframe: {src}")
                     return src
+            
+            # Cerca link in attributi data-*
+            for element in soup.find_all(attrs={"data-": True}):
+                for attr, value in element.attrs.items():
+                    if "vixcloud.co/playlist" in value:
+                        logging.info(f"Trovato M3U8 per '{title}' (ID: {movie_id}) in attributo {attr}: {value}")
+                        return value
             
             logging.warning(f"Flusso M3U8 non trovato per '{title}' (ID: {movie_id}). HTML: {res.text}")
             return None
