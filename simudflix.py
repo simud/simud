@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import urllib.parse
 import time
 import logging
+import random
 
 # Configura il logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -35,16 +36,24 @@ alternative_titles = {
     "Avengers: Endgame": "Avengers: Fine del gioco"
 }
 
+# Lista di User-Agent per rotazione
+user_agents = [
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0",
+]
+
 headers = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
-    "Accept-Language": "en-US,en;q=0.9,it;q=0.8"
+    "User-Agent": random.choice(user_agents),
+    "Accept-Language": "en-US,en;q=0.9,it;q=0.8",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
 }
 
 m3u_entries = []
 base_url = "https://streamingcommunity.spa"
 MAX_RETRIES = 3
 TIMEOUT = 10
-REQUEST_DELAY = 1  # Secondi tra le richieste
+REQUEST_DELAY = 1
 
 def get_movie_id(title):
     """Cerca l'ID del film/serie tramite il motore di ricerca."""
@@ -53,22 +62,28 @@ def get_movie_id(title):
     for search_title in titles_to_try:
         for attempt in range(MAX_RETRIES):
             try:
+                headers["User-Agent"] = random.choice(user_agents)  # Ruota User-Agent
                 encoded_title = urllib.parse.quote(search_title)
                 search_url = f"{base_url}/search?q={encoded_title}"
                 logging.info(f"Ricerco: {search_url}")
                 res = requests.get(search_url, headers=headers, timeout=TIMEOUT)
                 
                 if res.status_code != 200:
-                    logging.error(f"Errore nella ricerca per '{search_title}': Stato HTTP {res.status_code}")
+                    logging.error(f"Errore HTTP per '{search_title}': Stato {res.status_code}")
                     time.sleep(REQUEST_DELAY)
                     continue
 
+                # Controlla se la risposta è una pagina di verifica Cloudflare
+                if "cf-browser-verification" in res.text or "Checking your browser" in res.text:
+                    logging.error(f"Pagina di verifica Cloudflare rilevata per '{search_title}'")
+                    return None
+
                 soup = BeautifulSoup(res.text, "html.parser")
-                # Cerca un link che contenga '/watch/' nei risultati di ricerca
+                # Cerca un link che contenga '/watch/'
                 result = soup.select_one("a[href*='/watch/']")
                 if not result:
-                    logging.warning(f"Nessun risultato trovato per '{search_title}'. HTML: {res.text[:500]}...")
-                    break  # Prova il titolo alternativo
+                    logging.warning(f"Nessun risultato trovato per '{search_title}'. HTML: {res.text[:1000]}...")
+                    break
 
                 # Estrai l'ID dall'URL (es. /watch/10002)
                 href = result['href']
@@ -91,6 +106,7 @@ def get_m3u8_url(movie_id, title):
     """Estrae il link M3U8 dalla pagina del film/serie."""
     for attempt in range(MAX_RETRIES):
         try:
+            headers["User-Agent"] = random.choice(user_agents)
             url = f"{base_url}/watch/{movie_id}"
             logging.info(f"Recupero M3U8 da: {url}")
             res = requests.get(url, headers=headers, timeout=TIMEOUT)
@@ -99,6 +115,10 @@ def get_m3u8_url(movie_id, title):
                 logging.error(f"Errore nel caricare la pagina per '{title}' (ID: {movie_id}): Stato HTTP {res.status_code}")
                 time.sleep(REQUEST_DELAY)
                 continue
+
+            if "cf-browser-verification" in res.text or "Checking your browser" in res.text:
+                logging.error(f"Pagina di verifica Cloudflare rilevata per '{title}' (ID: {movie_id})")
+                return None
 
             soup = BeautifulSoup(res.text, "html.parser")
             scripts = soup.find_all("script")
@@ -129,7 +149,7 @@ for title in movies:
         m3u_url = get_m3u8_url(movie_id, title)
         if m3u_url:
             m3u_entries.append(f"#EXTINF:-1,{title}\n{m3u_url}")
-    time.sleep(REQUEST_DELAY)  # Pausa per evitare sovraccarico
+    time.sleep(REQUEST_DELAY)
 
 # Scrittura del file M3U8
 if m3u_entries:
