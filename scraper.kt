@@ -129,7 +129,7 @@ object StreamingCommunityScraper {
                         if (it.startsWith("http")) it else "$BASE_URL$it"
                     }
                     client.newCall(Request.Builder().url(iframeUrl).build()).execute().use { iframeResponse ->
-                        val iframeBody = iframeResponse.body?.string() ?: return@let
+                        val iframeBody = iframeResponse.body?.string() ?: return null
                         logNetworkRequest(iframeUrl, iframeResponse.code, iframeBody.length)
 
                         // Salva l'iframe per debug
@@ -149,7 +149,7 @@ object StreamingCommunityScraper {
                 if (apiMatch != null) {
                     val apiUrl = apiMatch.groupValues[1]
                     client.newCall(Request.Builder().url(apiUrl).build()).execute().use { apiResponse ->
-                        val apiBody = apiResponse.body?.string() ?: return@let
+                        val apiBody = apiResponse.body?.string() ?: return null
                         logNetworkRequest(apiUrl, apiResponse.code, apiBody.length)
                         try {
                             val json = org.json.JSONObject(apiBody)
