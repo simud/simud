@@ -21,12 +21,13 @@ m3u_entries = []
 
 for title, movie_id in marvel_movies.items():
     try:
-        # Costruisce l'URL per il watch
+        # Creazione manuale del link di watch
         watch_url = f"https://streamingcommunity.spa/watch/{movie_id}"
         
-        # Carica i dettagli usando l'ID (utilizzerò watch_url per il flusso)
+        # Carica i dettagli usando l'ID (per ottenere l'eventuale M3U8)
         details = sc.load(str(movie_id))
         m3u8_url = details.get('m3u8_url')
+        
         if m3u8_url:
             m3u_entries.append(f"#EXTINF:-1,{title}\n{watch_url}")
         else:
