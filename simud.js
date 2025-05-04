@@ -4,15 +4,15 @@ const { spawn } = require('child_process');
 
 (async () => {
     // Configurazione
-    const url = process.env.TARGET_URL || 'https://streamingcommunity.spa/watch/314'; // URL configurabile
-    const outputFile = 'streaming.m3u8'; // File di output per i link M3U8
-    const playButtonSelector = process.env.PLAY_BUTTON_SELECTOR || '#play-button'; // Selettore CSS configurabile
+    const url = process.env.TARGET_URL || 'https://streamingcommunity.spa/watch/314';
+    const outputFile = 'streaming.m3u8';
+    const playButtonSelector = process.env.PLAY_BUTTON_SELECTOR || '#play-button';
 
     // Avvia il browser
     const browser = await puppeteer.launch({
         headless: true,
         args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage'],
-        executablePath: process.env.CHROMIUM_PATH || '/usr/bin/chromium' // Per GitHub Actions
+        executablePath: process.env.CHROMIUM_PATH || '/usr/bin/chromium'
     });
     const page = await browser.newPage();
 
@@ -37,19 +37,22 @@ const { spawn } = require('child_process');
         console.log(`Navigazione verso ${url}`);
         await page.goto(url, { waitUntil: 'networkidle2', timeout: 30000 });
 
-        // Aspetta il pulsante play
+        // Salva uno screenshot per il debug
+        await page.screenshot({ path: 'debug_screenshot.png', fullPage: true });
+        console.log('Screenshot salvato come debug_screenshot.png');
+
+        // Verifica se il pulsante play esiste
         console.log(`Attendo il selettore: ${playButtonSelector}`);
-        await page.waitForSelector(playButtonSelector, { timeout: 10000 }).catch(() => {
-            console.log('Pulsante play non trovato, proseguo...');
-        });
+        const playButton = await page.$(playButtonSelector);
+        if (playButton) {
+            console.log('Pulsante play trovato, clicco...');
+            await page.click(playButtonSelector);
+        } else {
+            console.log('Pulsante play non trovato, il video potrebbe avviarsi automaticamente.');
+        }
 
-        // Simula il clic sul pulsante play
-        await page.click(playButtonSelector).catch(err => {
-            console.error(`Errore nel clic sul pulsante play: ${err.message}`);
-        });
-
-        // Aspetta il caricamento del video
-        await page.waitForTimeout(10000);
+        // Aspetta 10 secondi per il caricamento del video
+        await new Promise(resolve => setTimeout(resolve, 10000));
 
         // Salva i link trovati
         if (m3u8Links.size === 0) {
@@ -65,7 +68,7 @@ const { spawn } = require('child_process');
             const firstLink = Array.from(m3u8Links)[0];
             console.log(`Tentativo di scaricare il flusso: ${firstLink}`);
             const ffmpeg = spawn('ffmpeg', [
-                '-headers', 'Referer: https://streamingcommunity.spa', // Aggiunto per gestire token
+                '-headers', 'Referer: https://streamingcommunity.spa',
                 '-i', firstLink,
                 '-c', 'copy',
                 'output.mp4'
@@ -85,7 +88,7 @@ const { spawn } = require('child_process');
 
     } catch (error) {
         console.error(`Errore durante l'esecuzione: ${error.message}`);
-        process.exit(1); // Esci con errore per GitHub Actions
+        process.exit(1);
     } finally {
         await browser.close();
     }
