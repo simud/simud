@@ -45,12 +45,20 @@ jobs:
           PLAY_BUTTON_SELECTOR: '#play-button' # Aggiorna con il selettore corretto
         run: node simud.js
 
-      # Carica lo screenshot per il debug
+      # Carica lo screenshot di debug
       - name: Upload debug screenshot
         uses: actions/upload-artifact@v4
         with:
           name: debug-screenshot
           path: debug_screenshot.png
+          if-no-files-found: warn
+
+      # Carica lo screenshot di errore (se presente)
+      - name: Upload error screenshot
+        uses: actions/upload-artifact@v4
+        with:
+          name: error-screenshot
+          path: error_screenshot.png
           if-no-files-found: warn
 
       # Carica il file streaming.m3u8 come artefatto
