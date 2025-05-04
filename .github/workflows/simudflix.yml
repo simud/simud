@@ -58,7 +58,7 @@ jobs:
 
       - name: Build and run Kotlin script
         run: |
-          gradle run
+          gradle run --stacktrace
         env:
           GRADLE_OPTS: "-Dorg.gradle.jvmargs=-Xmx2g"
 
