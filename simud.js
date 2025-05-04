@@ -3,7 +3,7 @@ const fs = require('fs').promises;
 
 (async () => {
     // Versione dello script
-    console.log('Script Versione: 1.4 - Aggiunta estrazione flusso da HLS.js e controllo alternativo');
+    console.log('Script Versione: 1.5 - Correzione errore requestUrl e migliorata intercettazione');
 
     // Configurazione
     const url = process.env.TARGET_URL || 'https://streamingcommunity.spa/watch/314';
@@ -73,7 +73,7 @@ const fs = require('fs').promises;
         if (responseUrl.includes('vixcloud.co')) {
             console.log(`Risposta rilevata con vixcloud.co: ${responseUrl}`);
         }
-        if (responseUrl.includes('.m3u8') || requestUrl.includes('vixcloud.co/playlist')) {
+        if (responseUrl.includes('.m3u8') || responseUrl.includes('vixcloud.co/playlist')) {
             console.log(`Flusso M3U8 o playlist trovato nella risposta: ${responseUrl}`);
             m3u8Links.add(responseUrl);
         }
