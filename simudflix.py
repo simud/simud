@@ -2,11 +2,14 @@ import cloudscraper
 from bs4 import BeautifulSoup
 import re
 import json
+import os
 
 # Configurazioni
 BASE_URL = "https://streamingcommunity.spa"
 SEARCH_URL = f"{BASE_URL}/search"
 OUTPUT_FILE = "streaming.m3u8"
+DEBUG_DIR = "debug"
+NETWORK_LOG = "network_requests.log"
 
 # Lista dei 10 film Marvel
 MARVEL_MOVIES = [
@@ -29,22 +32,48 @@ HEADERS = {
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
 }
 
+def setup_debug_dir():
+    """Crea la directory di debug se non esiste."""
+    if not os.path.exists(DEBUG_DIR):
+        os.makedirs(DEBUG_DIR)
+
+def log_network_request(url, status, content_length):
+    """Registra le richieste di rete nel file di log."""
+    with open(NETWORK_LOG, "a", encoding="utf-8") as f:
+        f.write(f"URL: {url}, Status: {status}, Content-Length: {content_length}\n")
+
 def fetch_title_url(title, year):
     """Cerca un film e restituisce l'URL della pagina del contenuto."""
     scraper = cloudscraper.create_scraper()
+    query = f"{title} {year}"
     try:
-        query = f"{title} {year}"
         response = scraper.get(SEARCH_URL, params={"q": query}, headers=HEADERS)
-        response.raise_for_status()
+        log_network_request(response.url, response.status_code, len(response.text))
+        
+        # Salva la pagina di ricerca per debug
+        debug_file = os.path.join(DEBUG_DIR, f"search_{title.replace(' ', '_')}.html")
+        with open(debug_file, "w", encoding="utf-8") as f:
+            f.write(response.text)
+        
         soup = BeautifulSoup(response.text, "html.parser")
         
-        # Cerca il primo risultato (adatta il selettore al sito)
-        result = soup.select_one("a[href*='/watch/']")  # Basato su URL tipo /watch/<id>
-        if result and result["href"]:
-            link = result["href"]
-            if not link.startswith("http"):
-                link = BASE_URL + link
-            return link
+        # Prova diversi selettori per i risultati di ricerca
+        selectors = [
+            ".card a[href*='/watch/']",  # Esempio basato su struttura comune
+            ".media a[href*='/watch/']",
+            "a[href*='/watch/']",
+            ".title a"  # Fallback generico
+        ]
+        for selector in selectors:
+            result = soup.select_one(selector)
+            if result and result["href"]:
+                link = result["href"]
+                if not link.startswith("http"):
+                    link = BASE_URL + link
+                print(f"Trovato URL per '{title}': {link}")
+                return link
+        
+        print(f"Nessun risultato trovato per '{title}' con i selettori provati")
         return None
     except Exception as e:
         print(f"Errore nella ricerca di '{title} ({year})': {e}")
@@ -55,48 +84,59 @@ def extract_stream_url(page_url):
     scraper = cloudscraper.create_scraper()
     try:
         response = scraper.get(page_url, headers=HEADERS)
-        response.raise_for_status()
+        log_network_request(response.url, response.status_code, len(response.text))
         
-        # Salva il contenuto della pagina per debug
-        with open("page_content.html", "w", encoding="utf-8") as f:
+        # Salva la pagina del contenuto per debug
+        debug_file = os.path.join(DEBUG_DIR, f"content_{page_url.split('/')[-1]}.html")
+        with open(debug_file, "w", encoding="utf-8") as f:
             f.write(response.text)
         
         soup = BeautifulSoup(response.text, "html.parser")
         
-        # Cerca uno script contenente l'URL M3U8
+        # Cerca negli script
         scripts = soup.select("script")
         for script in scripts:
             if script.string and "m3u8" in script.string:
                 match = re.search(r'"(https?://[^"]+\.m3u8)"', script.string)
                 if match:
+                    print(f"Trovato M3U8 in script: {match.group(1)}")
                     return match.group(1)
         
-        # Alternativa: cerca un iframe del player
+        # Cerca un iframe del player
         iframe = soup.select_one("iframe[src*='player']")
         if iframe:
             iframe_url = iframe["src"]
             if not iframe_url.startswith("http"):
                 iframe_url = BASE_URL + iframe_url
             iframe_response = scraper.get(iframe_url, headers=HEADERS)
+            log_network_request(iframe_url, iframe_response.status_code, len(iframe_response.text))
             
-            # Salva il contenuto dell'iframe per debug
-            with open("iframe_content.html", "w", encoding="utf-8") as f:
+            # Salva l'iframe per debug
+            debug_file = os.path.join(DEBUG_DIR, f"iframe_{page_url.split('/')[-1]}.html")
+            with open(debug_file, "w", encoding="utf-8") as f:
                 f.write(iframe_response.text)
             
             match = re.search(r'"(https?://[^"]+\.m3u8)"', iframe_response.text)
             if match:
+                print(f"Trovato M3U8 in iframe: {match.group(1)}")
                 return match.group(1)
         
-        # Cerca un'API del player (ispirato al plugin Kotlin)
+        # Cerca un'API del player
         api_match = re.search(r'"playerApi":"(https?://[^"]+)"', response.text)
         if api_match:
             api_url = api_match.group(1)
             api_response = scraper.get(api_url, headers=HEADERS)
-            api_data = api_response.json()
-            m3u8_url = api_data.get("m3u8_url")  # Adatta al formato reale
-            if m3u8_url:
-                return m3u8_url
+            log_network_request(api_url, api_response.status_code, len(api_response.text))
+            try:
+                api_data = api_response.json()
+                m3u8_url = api_data.get("m3u8_url") or api_data.get("url")
+                if m3u8_url and m3u8_url.endswith(".m3u8"):
+                    print(f"Trovato M3U8 in API: {m3u8_url}")
+                    return m3u8_url
+            except json.JSONDecodeError:
+                print(f"Risposta API non valida per {api_url}")
         
+        print(f"Nessun M3U8 trovato per {page_url}")
         return None
     except Exception as e:
         print(f"Errore nell'estrazione del flusso per {page_url}: {e}")
@@ -104,6 +144,7 @@ def extract_stream_url(page_url):
 
 def generate_m3u8():
     """Genera il file M3U8 con i flussi dei film Marvel."""
+    setup_debug_dir()
     streams = []
     for movie in MARVEL_MOVIES:
         title = movie["title"]
@@ -127,6 +168,9 @@ def generate_m3u8():
     print(f"File {OUTPUT_FILE} generato con {len(streams)} flussi.")
 
 def main():
+    # Inizializza il file di log delle richieste
+    if os.path.exists(NETWORK_LOG):
+        os.remove(NETWORK_LOG)
     generate_m3u8()
 
 if __name__ == "__main__":
