@@ -17,7 +17,7 @@ const { spawn } = require('child_process');
             '--no-sandbox',
             '--disable-setuid-sandbox',
             '--disable-dev-shm-usage',
-            '--disable-web-security', // Disabilita alcune restrizioni
+            '--disable-web-security',
             '--disable-service-workers' // Disabilita Service Worker
         ],
         executablePath: process.env.CHROMIUM_PATH || '/usr/bin/chromium'
@@ -45,8 +45,8 @@ const { spawn } = require('child_process');
     page.on('request', request => {
         const requestUrl = request.url();
         networkRequests.push(requestUrl);
-        if (requestUrl.includes('.m3u8')) {
-            console.log(`Flusso M3U8 trovato: ${requestUrl}`);
+        if (requestUrl.includes('.m3u8') || requestUrl.includes('vixcloud.co/playlist')) {
+            console.log(`Flusso M3U8 o playlist trovato: ${requestUrl}`);
             m3u8Links.add(requestUrl);
         }
         request.continue();
@@ -69,6 +69,30 @@ const { spawn } = require('child_process');
         // Salva le richieste di rete
         await fs.writeFile(networkLogFile, networkRequests.join('\n'));
         console.log(`Richieste di rete salvate come ${networkLogFile}`);
+
+        // Cerca iframe
+        const iframes = await page.$$('iframe');
+        console.log(`Iframe trovati: ${iframes.length}`);
+        for (let i = 0; i < iframes.length; i++) {
+            const frame = await iframes[i].contentFrame();
+            if (frame) {
+                const frameUrl = await frame.url();
+                console.log(`Iframe ${i + 1} URL: ${frameUrl}`);
+                if (frameUrl.includes('vixcloud.co')) {
+                    console.log('Iframe di vixcloud.co trovato, intercetto richieste...');
+                    await frame.setRequestInterception(true);
+                    frame.on('request', request => {
+                        const requestUrl = request.url();
+                        networkRequests.push(requestUrl);
+                        if (requestUrl.includes('.m3u8') || requestUrl.includes('vixcloud.co/playlist')) {
+                            console.log(`Flusso M3U8 o playlist in iframe: ${requestUrl}`);
+                            m3u8Links.add(requestUrl);
+                        }
+                        request.continue();
+                    });
+                }
+            }
+        }
 
         // Cerca il player video
         const videoElement = await page.$('video');
@@ -95,13 +119,13 @@ const { spawn } = require('child_process');
             for (const selector of alternativeSelectors) {
                 playButton = await page.$(selector);
                 if (playButton) {
-                    console.log(`Trovato selettore alternativo ${selector}, clicco...`);
+                    console.log(`Trovato selettore alternativo ${selector}, clicco...');
                     await page.click(selector);
                     break;
                 }
             }
             if (!playButton) {
-                console.log('Nessun selettore alternativo trovato, provo interazioni generiche...');
+                console.log('Nessun selettore alternativo trovato, simulo interazioni naturali...');
                 if (videoElement) {
                     await page.evaluate(el => el.click(), videoElement);
                     console.log('Cliccato sul tag <video>.');
@@ -109,10 +133,10 @@ const { spawn } = require('child_process');
                     await page.evaluate(el => el.click(), playerClasses[0]);
                     console.log('Cliccato sul primo elemento player.');
                 } else {
-                    console.log('Nessun player trovato, simulo interazioni naturali...');
+                    console.log('Nessun player trovato, scrollo e clicco su <body>...');
                     await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
                     await page.click('body');
-                    console.log('Cliccato su <body> e scroll effettuato.');
+                    console.log('Scroll e clic su <body> completati.');
                 }
             }
         }
@@ -129,28 +153,10 @@ const { spawn } = require('child_process');
             const links = Array.from(m3u8Links).join('\n');
             await fs.writeFile(outputFile, links);
             console.log(`Trovati ${m3u8Links.size} flussi M3U8. Salvati in ${outputFile}`);
-        }
-
-        // Opzionale: scarica il primo flusso con FFmpeg
-        if (m3u8Links.size > 0) {
-            const firstLink = Array.from(m3u8Links)[0];
-            console.log(`Tentativo di scaricare il flusso: ${firstLink}`);
-            const ffmpeg = spawn('ffmpeg', [
-                '-headers', 'Referer: https://streamingcommunity.spa\nUser-Agent: Mozilla/5.0',
-                '-i', firstLink,
-                '-c', 'copy',
-                'output.mp4'
-            ]);
-
-            ffmpeg.stderr.on('data', (data) => {
-                console.error(`FFmpeg errore: ${data}`);
-            });
-
-            ffmpeg.on('close', (code) => {
-                console.log(`FFmpeg terminato con codice ${code}`);
-            });
-
-            await new Promise(resolve => setTimeout(resolve, 30000));
+            // Verifica se l'URL desiderato è presente
+            if (links.includes('vixcloud.co/playlist/253542')) {
+                console.log('URL desiderato trovato e salvato!');
+            }
         }
 
     } catch (error) {
