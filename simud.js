@@ -68,7 +68,7 @@ const { spawn } = require('child_process');
             const firstLink = Array.from(m3u8Links)[0];
             console.log(`Tentativo di scaricare il flusso: ${firstLink}`);
             const ffmpeg = spawn('ffmpeg', [
-                '-headers', 'Referer: https://streamingcommunity.spa',
+                '-headers', 'Referer: https://streamingcommunity.spa\nUser-Agent: Mozilla/5.0',
                 '-i', firstLink,
                 '-c', 'copy',
                 'output.mp4'
