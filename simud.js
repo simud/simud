@@ -7,12 +7,19 @@ const { spawn } = require('child_process');
     const url = process.env.TARGET_URL || 'https://streamingcommunity.spa/watch/314';
     const outputFile = 'streaming.m3u8';
     const playButtonSelector = process.env.PLAY_BUTTON_SELECTOR || '#play-button';
+    const networkLogFile = 'network_requests.log';
 
     // Avvia il browser
     console.log('Avvio del browser Puppeteer...');
     const browser = await puppeteer.launch({
-        headless: 'new', // Usa il nuovo headless mode
-        args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage'],
+        headless: 'new',
+        args: [
+            '--no-sandbox',
+            '--disable-setuid-sandbox',
+            '--disable-dev-shm-usage',
+            '--disable-web-security', // Disabilita alcune restrizioni
+            '--disable-service-workers' // Disabilita Service Worker
+        ],
         executablePath: process.env.CHROMIUM_PATH || '/usr/bin/chromium'
     });
     const page = await browser.newPage();
@@ -23,12 +30,21 @@ const { spawn } = require('child_process');
     // Imposta User-Agent
     await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36');
 
-    // Intercetta le richieste di rete
+    // Aggiungi cookie di autenticazione (esempio, da configurare)
+    /* await page.setCookie({
+        name: 'session_cookie_name',
+        value: 'session_cookie_value',
+        domain: 'streamingcommunity.spa'
+    }); */
+
+    // Intercetta tutte le richieste di rete
     await page.setRequestInterception(true);
     const m3u8Links = new Set();
+    const networkRequests = [];
 
     page.on('request', request => {
         const requestUrl = request.url();
+        networkRequests.push(requestUrl);
         if (requestUrl.includes('.m3u8')) {
             console.log(`Flusso M3U8 trovato: ${requestUrl}`);
             m3u8Links.add(requestUrl);
@@ -50,6 +66,10 @@ const { spawn } = require('child_process');
         await fs.writeFile('page_content.html', pageContent);
         console.log('Contenuto HTML salvato come page_content.html');
 
+        // Salva le richieste di rete
+        await fs.writeFile(networkLogFile, networkRequests.join('\n'));
+        console.log(`Richieste di rete salvate come ${networkLogFile}`);
+
         // Cerca il player video
         const videoElement = await page.$('video');
         const playerClasses = await page.$$('[class*="player"], [class*="video"], [class*="play"]');
@@ -64,7 +84,14 @@ const { spawn } = require('child_process');
             await page.click(playButtonSelector);
         } else {
             console.log('Pulsante play non trovato, provo selettori alternativi...');
-            const alternativeSelectors = ['.play-btn', 'button.video-play', '[aria-label="Play"]', 'button', '.vjs-play-control', '.vjs-big-play-button'];
+            const alternativeSelectors = [
+                '.play-btn',
+                'button.video-play',
+                '[aria-label="Play"]',
+                'button',
+                '.vjs-play-control',
+                '.vjs-big-play-button'
+            ];
             for (const selector of alternativeSelectors) {
                 playButton = await page.$(selector);
                 if (playButton) {
@@ -74,20 +101,25 @@ const { spawn } = require('child_process');
                 }
             }
             if (!playButton) {
-                console.log('Nessun selettore alternativo trovato, provo a cliccare sul player video...');
+                console.log('Nessun selettore alternativo trovato, provo interazioni generiche...');
                 if (videoElement) {
                     await page.evaluate(el => el.click(), videoElement);
                     console.log('Cliccato sul tag <video>.');
                 } else if (playerClasses.length > 0) {
                     await page.evaluate(el => el.click(), playerClasses[0]);
                     console.log('Cliccato sul primo elemento player.');
+                } else {
+                    console.log('Nessun player trovato, simulo interazioni naturali...');
+                    await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
+                    await page.click('body');
+                    console.log('Cliccato su <body> e scroll effettuato.');
                 }
             }
         }
 
-        // Aspetta 30 secondi per il caricamento del video
-        console.log('Attendo 30 secondi per il caricamento del video...');
-        await new Promise(resolve => setTimeout(resolve, 30000));
+        // Aspetta 40 secondi per il caricamento del video
+        console.log('Attendo 40 secondi per il caricamento del video...');
+        await new Promise(resolve => setTimeout(resolve, 40000));
 
         // Salva i link trovati
         if (m3u8Links.size === 0) {
@@ -118,7 +150,6 @@ const { spawn } = require('child_process');
                 console.log(`FFmpeg terminato con codice ${code}`);
             });
 
-            // Aspetta che FFmpeg finisca
             await new Promise(resolve => setTimeout(resolve, 30000));
         }
 
