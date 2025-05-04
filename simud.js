@@ -3,7 +3,7 @@ const fs = require('fs').promises;
 
 (async () => {
     // Versione dello script
-    console.log('Script Versione: 1.9 - Monitoraggio esteso delle richieste e HLS.js');
+    console.log('Script Versione: 1.10 - Intercettazione aggressiva HLS.js e monitoraggio continuo');
 
     // Configurazione
     const url = process.env.TARGET_URL || 'https://streamingcommunity.spa/watch/314';
@@ -125,20 +125,16 @@ const fs = require('fs').promises;
                         console.log(`Elementi <video> trovati in iframe annidato ${j + 1}: ${nestedVideo ? 1 : 0}`);
                         console.log(`Elementi con classi player/video/play trovati in iframe annidato ${j + 1}: ${nestedPlayerClasses.length}`);
                         if (nestedPlayerClasses.length > 0) {
-                            // Monitora le richieste di rete dopo il clic
-                            const networkPromise = new Promise((resolve) => {
-                                const requestListener = request => {
-                                    const url = request.url();
-                                    if (url.includes('vixcloud.co/playlist')) {
-                                        page.off('request', requestListener);
-                                        resolve(url);
-                                    }
-                                };
-                                page.on('request', requestListener);
-                                setTimeout(() => {
-                                    page.off('request', requestListener);
-                                    resolve(null);
-                                }, 30000); // Timeout di 30 secondi
+                            // Override di HLS.js per intercettare l'URL del flusso
+                            await nestedFrame.evaluate(() => {
+                                if (window.Hls && window.Hls.isSupported()) {
+                                    const originalLoadSource = window.Hls.prototype.loadSource;
+                                    window.Hls.prototype.loadSource = function (url) {
+                                        console.log('HLS.js loadSource intercettato:', url);
+                                        window.hlsStreamUrl = url; // Salva l'URL globalmente
+                                        return originalLoadSource.apply(this, arguments);
+                                    };
+                                }
                             });
 
                             await nestedFrame.evaluate(el => el.click(), nestedPlayerClasses[0]);
@@ -167,6 +163,12 @@ const fs = require('fs').promises;
                                             console.log('Errore avvio video:', err);
                                             resolve(null);
                                         });
+                                        // Controlla se l'URL è stato intercettato dall'override
+                                        setInterval(() => {
+                                            if (window.hlsStreamUrl) {
+                                                resolve(window.hlsStreamUrl);
+                                            }
+                                        }, 1000);
                                         // Timeout di sicurezza
                                         setTimeout(() => resolve(null), 10000);
                                     } else {
@@ -179,7 +181,7 @@ const fs = require('fs').promises;
                                 streamLinks.add(hlsUrl);
                             }
 
-                            // Controllo alternativo: cerca attributi dati, src o blob URL nel video
+                            // Controllo alternativo: cerca attributi dati o src nel video
                             const videoData = await nestedFrame.evaluate(() => {
                                 const video = document.querySelector('video');
                                 if (video) {
@@ -194,15 +196,6 @@ const fs = require('fs').promises;
                                     console.log(`Flusso trovato tramite attributi video: ${videoData}`);
                                     streamLinks.add(videoData);
                                 }
-                            }
-
-                            // Aspetta il risultato del monitoraggio delle richieste
-                            const networkStream = await networkPromise;
-                            if (networkStream) {
-                                console.log(`Flusso trovato tramite monitoraggio rete: ${networkStream}`);
-                                streamLinks.add(networkStream);
-                            } else {
-                                console.log('Nessuna richiesta vixcloud.co/playlist rilevata durante il monitoraggio rete.');
                             }
                         } else if (nestedVideo) {
                             const videoSrc = await nestedFrame.evaluate(el => el.src, nestedVideo);
