@@ -82,10 +82,10 @@ def get_movie_id(title, scraper):
                     continue
 
                 soup = BeautifulSoup(res.text, "html.parser")
-                # Cerca un link che contenga '/watch/'
-                result = soup.select_one("a[href*='/watch/']")
+                # Cerca un link più specifico
+                result = soup.select_one("div.card a[href*='/watch/']") or soup.select_one("a[href*='/watch/']")
                 if not result:
-                    logging.warning(f"Nessun risultato trovato per '{search_title}'. HTML: {res.text[:1000]}...")
+                    logging.warning(f"Nessun risultato trovato per '{search_title}'. HTML: {res.text[:2000]}...")
                     break
 
                 # Estrai l'ID dall'URL (es. /watch/10002)
@@ -145,8 +145,8 @@ def get_m3u8_url(movie_id, title, scraper):
     logging.error(f"Impossibile trovare M3U8 per '{title}' (ID: {movie_id}) dopo {MAX_RETRIES} tentativi")
     return None
 
-# Crea un'istanza di cloudscraper
-scraper = cloudscraper.create_scraper()
+# Crea un'istanza di cloudscraper con interprete JavaScript
+scraper = cloudscraper.create_scraper(interpreter='js2py', delay=10)
 
 # Iterazione sui titoli
 for title in movies:
