@@ -24,7 +24,7 @@ jobs:
 
       # Installa dipendenze
       - name: Install dependencies
-        run: npm install puppeteer
+        run: npm install puppeteer@21.0.0 # Versione specifica per compatibilità
 
       # Installa FFmpeg
       - name: Install FFmpeg
@@ -41,9 +41,25 @@ jobs:
       - name: Run StreamingCommunity scraper
         env:
           GITHUB_WORKSPACE: ${{ github.workspace }}
-          TARGET_URL: 'https://streamingcommunity.spa/watch/314' # Configura l'URL
-          PLAY_BUTTON_SELECTOR: '#play-button' # Configura il selettore CSS
+          TARGET_URL: 'https://streamingcommunity.spa/watch/314'
+          PLAY_BUTTON_SELECTOR: '#play-button' # Aggiorna con il selettore corretto
         run: node simud.js
+
+      # Carica lo screenshot per il debug
+      - name: Upload debug screenshot
+        uses: actions/upload-artifact@v3
+        with:
+          name: debug-screenshot
+          path: debug_screenshot.png
+          if-no-files-found: warn
+
+      # Carica il file streaming.m3u8 come artefatto
+      - name: Upload M3U8 links
+        uses: actions/upload-artifact@v3
+        with:
+          name: m3u8-links
+          path: streaming.m3u8
+          if-no-files-found: warn
 
       # Commit e push del file streaming.m3u8 aggiornato
       - name: Commit and push updated M3U8 file
