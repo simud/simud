@@ -53,7 +53,7 @@ jobs:
           path: debug_screenshot.png
           if-no-files-found: warn
 
-      # Carica lo screenshot di errore (se presente)
+      # Carica lo screenshot di errore
       - name: Upload error screenshot
         uses: actions/upload-artifact@v4
         with:
@@ -61,7 +61,15 @@ jobs:
           path: error_screenshot.png
           if-no-files-found: warn
 
-      # Carica il file streaming.m3u8 come artefatto
+      # Carica il contenuto HTML
+      - name: Upload page content
+        uses: actions/upload-artifact@v4
+        with:
+          name: page-content
+          path: page_content.html
+          if-no-files-found: warn
+
+      # Carica il file streaming.m3u8
       - name: Upload M3U8 links
         uses: actions/upload-artifact@v4
         with:
@@ -69,7 +77,7 @@ jobs:
           path: streaming.m3u8
           if-no-files-found: warn
 
-      # Commit e push del file streaming.m3u8 aggiornato
+      # Commit e push del file streaming.m3u8
       - name: Commit and push updated M3U8 file
         run: |
           git config --global user.name "GitHub Action"
