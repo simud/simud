@@ -18,7 +18,9 @@ const fs = require('fs').promises;
             '--disable-setuid-sandbox',
             '--disable-dev-shm-usage',
             '--disable-web-security',
-            '--disable-service-workers'
+            '--disable-service-workers',
+            '--disable-background-networking',
+            '--disable-features=ServiceWorker,NetworkService'
         ],
         executablePath: process.env.CHROMIUM_PATH || '/usr/bin/chromium'
     });
@@ -78,75 +80,139 @@ const fs = require('fs').promises;
             if (frame) {
                 const frameUrl = await frame.url();
                 console.log(`Iframe ${i + 1} URL: ${frameUrl}`);
-                if (frameUrl.includes('vixcloud.co')) {
-                    console.log('Iframe di vixcloud.co trovato, intercetto richieste...');
-                    await frame.setRequestInterception(true);
-                    frame.on('request', request => {
-                        const requestUrl = request.url();
-                        networkRequests.push(requestUrl);
-                        if (requestUrl.includes('.m3u8') || requestUrl.includes('vixcloud.co/playlist')) {
-                            console.log(`Flusso M3U8 o playlist in iframe: ${requestUrl}`);
-                            m3u8Links.add(requestUrl);
+                await frame.setRequestInterception(true);
+                frame.on('request', request => {
+                    const requestUrl = request.url();
+                    networkRequests.push(requestUrl);
+                    if (requestUrl.includes('.m3u8') || requestUrl.includes('vixcloud.co/playlist')) {
+                        console.log(`Flusso M3U8 o playlist in iframe: ${requestUrl}`);
+                        m3u8Links.add(requestUrl);
+                    }
+                    request.continue();
+                });
+                // Salva il contenuto dell'iframe
+                const frameContent = await frame.content();
+                await fs.appendFile(iframeContentFile, `Iframe ${i + 1} (${frameUrl}):\n${frameContent}\n\n`);
+                console.log(`Contenuto iframe ${i + 1} salvato in ${iframeContentFile}`);
+                // Cerca iframe annidati
+                const nestedIframes = await frame.$$('iframe');
+                console.log(`Iframe annidati in iframe ${i + 1}: ${nestedIframes.length}`);
+                for (let j = 0; j < nestedIframes.length; j++) {
+                    const nestedFrame = await nestedIframes[j].contentFrame();
+                    if (nestedFrame) {
+                        const nestedFrameUrl = await nestedFrame.url();
+                        console.log(`Iframe annidato ${j + 1} URL: ${nestedFrameUrl}`);
+                        await nestedFrame.setRequestInterception(true);
+                        nestedFrame.on('request', request => {
+                            const requestUrl = request.url();
+                            networkRequests.push(requestUrl);
+                            if (requestUrl.includes('.m3u8') || requestUrl.includes('vixcloud.co/playlist')) {
+                                console.log(`Flusso M3U8 o playlist in iframe annidato: ${requestUrl}`);
+                                m3u8Links.add(requestUrl);
+                            }
+                            request.continue();
+                        });
+                        const nestedFrameContent = await nestedFrame.content();
+                        await fs.appendFile(iframeContentFile, `Iframe annidato ${j + 1} (${nestedFrameUrl}):\n${nestedFrameContent}\n\n`);
+                    }
+                }
+                // Cerca il player nell'iframe
+                const frameVideo = await frame.$('video');
+                const framePlayerClasses = await frame.$$('[class*="player"], [class*="video"], [class*="play"]');
+                console.log(`Elementi <video> trovati in iframe ${i + 1}: ${frameVideo ? 1 : 0}`);
+                console.log(`Elementi con classi player/video/play trovati in iframe ${i + 1}: ${framePlayerClasses.length}`);
+                if (frameVideo) {
+                    const videoSrc = await frame.evaluate(el => el.src, frameVideo);
+                    console.log(`Attributo src del video in iframe ${i + 1}: ${videoSrc || 'non presente'}`);
+                    await frame.evaluate(el => el.click(), frameVideo);
+                    console.log(`Cliccato sul tag <video> in iframe ${i + 1}.`);
+                } else if (framePlayerClasses.length > 0) {
+                    await frame.evaluate(el => el.click(), framePlayerClasses[0]);
+                    console.log(`Cliccato sul primo elemento player in iframe ${i + 1}.`);
+                } else {
+                    // Tenta clic su pulsante play nell'iframe
+                    const framePlayButton = await frame.$(playButtonSelector);
+                    if (framePlayButton) {
+                        console.log(`Pulsante play trovato in iframe ${i + 1}, clicco...`);
+                        await frame.click(playButtonSelector);
+                    } else {
+                        const alternativeSelectors = [
+                            '.play-btn',
+                            'button.video-play',
+                            '[aria-label="Play"]',
+                            'button',
+                            '.vjs-play-control',
+                            '.vjs-big-play-button',
+                            '[class*="player"] button'
+                        ];
+                        for (const selector of alternativeSelectors) {
+                            const altPlayButton = await frame.$(selector);
+                            if (altPlayButton) {
+                                console.log(`Trovato selettore alternativo ${selector} in iframe ${i + 1}, clicco...`);
+                                await frame.click(selector);
+                                break;
+                            }
                         }
-                        request.continue();
-                    });
-                    // Salva il contenuto dell'iframe
-                    const frameContent = await frame.content();
-                    await fs.appendFile(iframeContentFile, `Iframe ${i + 1} (${frameUrl}):\n${frameContent}\n\n`);
-                    console.log(`Contenuto iframe ${i + 1} salvato in ${iframeContentFile}`);
+                    }
                 }
             }
         }
 
-        // Cerca il player video
+        // Cerca il player video nella pagina principale
         const videoElement = await page.$('video');
         const playerClasses = await page.$$('[class*="player"], [class*="video"], [class*="play"]');
-        console.log(`Elementi <video> trovati: ${videoElement ? 1 : 0}`);
-        console.log(`Elementi con classi player/video/play trovati: ${playerClasses.length}`);
+        console.log(`Elementi <video> trovati nella pagina principale: ${videoElement ? 1 : 0}`);
+        console.log(`Elementi con classi player/video/play trovati nella pagina principale: ${playerClasses.length}`);
 
         // Verifica attributi del player
         if (videoElement) {
             const videoSrc = await page.evaluate(el => el.src, videoElement);
-            console.log(`Attributo src del video: ${videoSrc || 'non presente'}`);
+            console.log(`Attributo src del video nella pagina principale: ${videoSrc || 'non presente'}`);
         }
 
-        // Verifica se il pulsante play esiste
-        console.log(`Verifica del selettore: ${playButtonSelector}`);
+        // Verifica se il pulsante play esiste nella pagina principale
+        console.log(`Verifica del selettore nella pagina principale: ${playButtonSelector}`);
         let playButton = await page.$(playButtonSelector);
         if (playButton) {
-            console.log('Pulsante play trovato, clicco...');
+            console.log('Pulsante play trovato nella pagina principale, clicco...');
             await page.click(playButtonSelector);
         } else {
-            console.log('Pulsante play non trovato, provo selettori alternativi...');
+            console.log('Pulsante play non trovato nella pagina principale, provo selettori alternativi...');
             const alternativeSelectors = [
                 '.play-btn',
                 'button.video-play',
                 '[aria-label="Play"]',
                 'button',
                 '.vjs-play-control',
-                '.vjs-big-play-button'
+                '.vjs-big-play-button',
+                '[class*="player"] button'
             ];
             for (const selector of alternativeSelectors) {
                 playButton = await page.$(selector);
                 if (playButton) {
-                    console.log(`Trovato selettore alternativo ${selector}, clicco...`);
+                    console.log(`Trovato selettore alternativo ${selector} nella pagina principale, clicco...`);
                     await page.click(selector);
                     break;
                 }
             }
             if (!playButton) {
-                console.log('Nessun selettore alternativo trovato, simulo interazioni naturali...');
+                console.log('Nessun selettore alternativo trovato nella pagina principale, simulo interazioni naturali...');
                 if (videoElement) {
                     await page.evaluate(el => el.click(), videoElement);
-                    console.log('Cliccato sul tag <video>.');
+                    console.log('Cliccato sul tag <video> nella pagina principale.');
                 } else if (playerClasses.length > 0) {
                     await page.evaluate(el => el.click(), playerClasses[0]);
-                    console.log('Cliccato sul primo elemento player.');
+                    console.log('Cliccato sul primo elemento player nella pagina principale.');
                 } else {
-                    console.log('Nessun player trovato, scrollo e clicco su <body>...');
+                    console.log('Nessun player trovato nella pagina principale, scrollo e clicco su <body>...');
                     await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
                     await page.click('body');
                     console.log('Scroll e clic su <body> completati.');
+                    // Tenta clic su iframe
+                    if (iframes.length > 0) {
+                        console.log('Tento clic su iframe 1...');
+                        await iframes[0].click();
+                    }
                 }
             }
         }
