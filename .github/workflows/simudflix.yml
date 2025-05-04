@@ -24,6 +24,11 @@ jobs:
       - name: Install Gradle
         uses: gradle/gradle-build-action@v2
 
+      - name: Create project structure
+        run: |
+          mkdir -p src/main/kotlin
+          mv scraper.kt src/main/kotlin/scraper.kt
+
       - name: Create build.gradle
         run: |
           cat << 'EOF' > build.gradle
@@ -40,7 +45,14 @@ jobs:
               implementation 'org.json:json:20230227'
           }
           application {
-              mainClass.set('StreamingCommunityScraperKt')
+              mainClass = 'scraper.StreamingCommunityScraperKt'
+          }
+          sourceSets {
+              main {
+                  kotlin {
+                      srcDirs = ['src/main/kotlin']
+                  }
+              }
           }
           EOF
 
