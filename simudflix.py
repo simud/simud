@@ -1,4 +1,4 @@
-import requests
+import cloudscraper
 from bs4 import BeautifulSoup
 import urllib.parse
 import time
@@ -52,21 +52,23 @@ headers = {
 m3u_entries = []
 base_url = "https://streamingcommunity.spa"
 MAX_RETRIES = 3
-TIMEOUT = 10
-REQUEST_DELAY = 1
+TIMEOUT = 15
+REQUEST_DELAY = 2
 
-def get_movie_id(title):
-    """Cerca l'ID del film/serie tramite il motore di ricerca."""
+def get_movie_id(title, scraper):
+    """Cerca l'ID del film/serie tramite il motore di ricerca usando cloudscraper."""
     titles_to_try = [title, alternative_titles.get(title, title)]
     
     for search_title in titles_to_try:
         for attempt in range(MAX_RETRIES):
             try:
-                headers["User-Agent"] = random.choice(user_agents)  # Ruota User-Agent
+                headers["User-Agent"] = random.choice(user_agents)
                 encoded_title = urllib.parse.quote(search_title)
                 search_url = f"{base_url}/search?q={encoded_title}"
-                logging.info(f"Ricerco: {search_url}")
-                res = requests.get(search_url, headers=headers, timeout=TIMEOUT)
+                logging.info(f"Ricerco: {search_url} (User-Agent: {headers['User-Agent']})")
+                
+                # Usa cloudscraper per bypassare Cloudflare
+                res = scraper.get(search_url, headers=headers, timeout=TIMEOUT)
                 
                 if res.status_code != 200:
                     logging.error(f"Errore HTTP per '{search_title}': Stato {res.status_code}")
@@ -75,8 +77,9 @@ def get_movie_id(title):
 
                 # Controlla se la risposta è una pagina di verifica Cloudflare
                 if "cf-browser-verification" in res.text or "Checking your browser" in res.text:
-                    logging.error(f"Pagina di verifica Cloudflare rilevata per '{search_title}'")
-                    return None
+                    logging.error(f"Pagina di verifica Cloudflare non bypassata per '{search_title}'")
+                    time.sleep(REQUEST_DELAY)
+                    continue
 
                 soup = BeautifulSoup(res.text, "html.parser")
                 # Cerca un link che contenga '/watch/'
@@ -102,14 +105,14 @@ def get_movie_id(title):
     logging.error(f"Impossibile trovare ID per '{title}' dopo {MAX_RETRIES} tentativi")
     return None
 
-def get_m3u8_url(movie_id, title):
-    """Estrae il link M3U8 dalla pagina del film/serie."""
+def get_m3u8_url(movie_id, title, scraper):
+    """Estrae il link M3U8 dalla pagina del film/serie usando cloudscraper."""
     for attempt in range(MAX_RETRIES):
         try:
             headers["User-Agent"] = random.choice(user_agents)
             url = f"{base_url}/watch/{movie_id}"
             logging.info(f"Recupero M3U8 da: {url}")
-            res = requests.get(url, headers=headers, timeout=TIMEOUT)
+            res = scraper.get(url, headers=headers, timeout=TIMEOUT)
             
             if res.status_code != 200:
                 logging.error(f"Errore nel caricare la pagina per '{title}' (ID: {movie_id}): Stato HTTP {res.status_code}")
@@ -117,8 +120,9 @@ def get_m3u8_url(movie_id, title):
                 continue
 
             if "cf-browser-verification" in res.text or "Checking your browser" in res.text:
-                logging.error(f"Pagina di verifica Cloudflare rilevata per '{title}' (ID: {movie_id})")
-                return None
+                logging.error(f"Pagina di verifica Cloudflare non bypassata per '{title}' (ID: {movie_id})")
+                time.sleep(REQUEST_DELAY)
+                continue
 
             soup = BeautifulSoup(res.text, "html.parser")
             scripts = soup.find_all("script")
@@ -141,14 +145,17 @@ def get_m3u8_url(movie_id, title):
     logging.error(f"Impossibile trovare M3U8 per '{title}' (ID: {movie_id}) dopo {MAX_RETRIES} tentativi")
     return None
 
+# Crea un'istanza di cloudscraper
+scraper = cloudscraper.create_scraper()
+
 # Iterazione sui titoli
 for title in movies:
     logging.info(f"Elaborazione: {title}")
-    movie_id = get_movie_id(title)
+    movie_id = get_movie_id(title, scraper)
     if movie_id:
-        m3u_url = get_m3u8_url(movie_id, title)
+        m3u_url = get_m3u8_url(movie_id, title, scraper)
         if m3u_url:
-            m3u_entries.append(f"#EXTINF:-1,{title}\n{m3u_url}")
+            m3u_entries.append(f"#EXTINF:-1,{title}\n{m3u  m3u_url}")
     time.sleep(REQUEST_DELAY)
 
 # Scrittura del file M3U8
