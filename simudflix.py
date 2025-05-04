@@ -1,38 +1,52 @@
 import requests
-from bs4 import BeautifulSoup
-import m3u8
 import subprocess
+import time
 
-# URL della pagina di streaming
-url = 'https://streamingcommunity.spa/watch/314'
+# URL per l'API di LJ Downloader
+API_URL = "http://localhost:9666/jsonrpc"  # L'API di LJ Downloader, predefinita sulla porta 9666
 
-# 1. Recupera il codice sorgente della pagina
-response = requests.get(url)
-html_content = response.text
+# Funzione per ottenere il flusso m3u8 da LJ Downloader
+def get_m3u8_link_from_ljdownloader(url):
+    # Payload per aggiungere il link all'elenco di download di LJ Downloader
+    payload = {
+        "method": "linkgrabber.addLinks",
+        "params": [url],
+        "id": 1
+    }
 
-# 2. Analizza il contenuto HTML per trovare il link m3u8
-soup = BeautifulSoup(html_content, 'html.parser')
+    # Esegui la richiesta API
+    response = requests.post(API_URL, json=payload)
 
-# Supponiamo che l'URL del flusso m3u8 sia in un tag <script> o <video>
-# Adatta questa parte in base a dove si trova effettivamente l'URL m3u8 nella pagina HTML
-m3u8_url = None
-for script in soup.find_all('script'):
-    if 'm3u8' in script.text:
-        # Trova il link m3u8 nel contenuto del tag <script>
-        m3u8_url = script.text.split('m3u8')[1].split('"')[1]  # Estrai l'URL
-        break
+    # Verifica la risposta
+    if response.status_code == 200:
+        data = response.json()
+        for item in data.get('result', []):
+            if 'm3u8' in item['url']:  # Verifica se il flusso è un m3u8
+                print(f"Flusso m3u8 trovato: {item['url']}")
+                return item['url']
+    else:
+        print("Errore nell'API di LJ Downloader")
+        return None
 
-if not m3u8_url:
-    print("Non trovato flusso m3u8 nella pagina")
-else:
-    print(f"Flusso m3u8 trovato: {m3u8_url}")
-
-    # 3. Scarica e salva il flusso usando ffmpeg
+# Funzione per scaricare il flusso m3u8 usando ffmpeg
+def download_m3u8_stream(m3u8_url):
+    # Esegui il comando ffmpeg per scaricare il flusso
     ffmpeg_cmd = [
         'ffmpeg',
-        '-i', m3u8_url,  # Inserisci l'URL del flusso m3u8
+        '-i', m3u8_url,  # URL del flusso m3u8
         '-c', 'copy',     # Copia senza ricodifica
         '-bsf:a', 'aac_adtstoasc',  # Correzione del formato audio
         'output.mp4'      # Nome del file finale
     ]
     subprocess.run(ffmpeg_cmd)
+
+# Main: ottieni il flusso m3u8 e avvia il download
+if __name__ == '__main__':
+    url = 'https://streamingcommunity.spa/watch/314'  # Inserisci il link della pagina da cui estrarre il flusso
+    m3u8_link = get_m3u8_link_from_ljdownloader(url)
+    
+    if m3u8_link:
+        print(f"Scaricando il flusso da: {m3u8_link}")
+        download_m3u8_stream(m3u8_link)
+    else:
+        print("Non trovato il flusso m3u8.")
