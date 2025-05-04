@@ -38,7 +38,7 @@ headers = {
 m3u_entries = []
 base_url = "https://streamingcommunity.spa"
 MAX_RETRIES = 3
-TIMEOUT = 20
+TIMEOUT = 30
 REQUEST_DELAY = 2
 
 def get_movie_id(title, scraper):
@@ -64,8 +64,9 @@ def get_movie_id(title, scraper):
                 time.sleep(REQUEST_DELAY)
                 continue
 
-            # Log delle intestazioni della risposta
+            # Log delle intestazioni e dei cookie
             logging.info(f"Intestazioni risposta: {res.headers}")
+            logging.info(f"Cookie ricevuti: {res.cookies.get_dict()}")
             
             soup = BeautifulSoup(res.text, "html.parser")
             # Cerca un link più specifico
@@ -110,8 +111,9 @@ def get_m3u8_url(movie_id, title, scraper):
                 time.sleep(REQUEST_DELAY)
                 continue
 
-            # Log delle intestazioni della risposta
+            # Log delle intestazioni e dei cookie
             logging.info(f"Intestazioni risposta: {res.headers}")
+            logging.info(f"Cookie ricevuti: {res.cookies.get_dict()}")
             
             soup = BeautifulSoup(res.text, "html.parser")
             scripts = soup.find_all("script")
@@ -134,8 +136,8 @@ def get_m3u8_url(movie_id, title, scraper):
     logging.error(f"Impossibile trovare M3U8 per '{title}' (ID: {movie_id}) dopo {MAX_RETRIES} tentativi")
     return None
 
-# Crea un'istanza di cloudscraper con interprete JavaScript
-scraper = cloudscraper.create_scraper(interpreter='js2py', delay=15)
+# Crea un'istanza di cloudscraper con interprete Node.js e sessione persistente
+scraper = cloudscraper.create_scraper(interpreter='nodejs', delay=20, sess=True)
 
 # Iterazione sui titoli
 for title in movies:
