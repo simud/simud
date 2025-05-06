@@ -91,7 +91,7 @@ for i, line in enumerate(lines):
                     # Determina il nuovo group-title
                     new_group_title = current_group
                     if tvg_name in sky_uno_names or tvg_name in sky_serie_names:
-                        new_group_title = "Intrattenimento"
+                        new_group_title = "Sky Sport FHD Backup"
                         modified_line = re.sub(r'group-title="[^"]+"', f'group-title="{new_group_title}"', modified_line)
                     elif tvg_name in sky_primafila_names:
                         new_group_title = "Sky Primafila FHD"
@@ -109,7 +109,7 @@ for i, line in enumerate(lines):
                     
                     # Gestisci i canali Sky Uno
                     if tvg_name in sky_uno_names:
-                        modified_line = re.sub(r'tvg-name="[^"]+"', 'tvg-name="Sky Uno FHD"', modified_line)
+                        modified_line = re.sub(r'tvg-name="[^"]+"', 'tvg-name="Sky Sport Uno FHD"', modified_line)
                         modified_line = re.sub(r',[^,]+$', ',Sky Uno FHD', modified_line)
                         new_playlist.append(modified_line)
                         if i + 1 < len(lines) and not lines[i + 1].startswith("#"):
