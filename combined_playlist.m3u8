@@ -1,14 +1,14 @@
 #EXTM3U url-tvg="http://www.epgitalia.tv/gzip,http://epg-guide.com/it.gz,https://raw.github.com/matthuisman/i.mjh.nz/master/PlutoTV/us.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/PlutoTV/it.xml.gz,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-events-epg.xml,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-channels-epg.xml,https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/it.xml.gz"
-#EXTINF:-1 tvg-id="30c17b55d8b5426fc9e6579304cd5ab1" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie A : Como vs Cagliari (DAZN ZONA IT)
-#EXTVLCOPT:http-origin=https://caq21harderv991gpluralplay.xyz
-#EXTVLCOPT:http-referrer=https://caq21harderv991gpluralplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://nfsnew.newkso.ru/nfs/premium877/mono.m3u8
 #EXTINF:-1 tvg-id="f1f317323e776a324a64d79f2e83bccb" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie A (women) : Fiorentina vs Roma (DAZN ITALIA)
 #EXTVLCOPT:http-origin=https://caq21harderv991gpluralplay.xyz
 #EXTVLCOPT:http-referrer=https://caq21harderv991gpluralplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://ddy6new.newkso.ru/ddy6/premium55/mono.m3u8
+#EXTINF:-1 tvg-id="30c17b55d8b5426fc9e6579304cd5ab1" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie A : Como vs Cagliari (DAZN ZONA IT)
+#EXTVLCOPT:http-origin=https://caq21harderv991gpluralplay.xyz
+#EXTVLCOPT:http-referrer=https://caq21harderv991gpluralplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://nfsnew.newkso.ru/nfs/premium877/mono.m3u8
 #EXTINF:-1 tvg-id="abb708294752be0c5daf08cbf5146033" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",Italy - Serie C : Messina vs Foggia (SKY SPORT 251 IT)
 #EXTVLCOPT:http-origin=https://caq21harderv991gpluralplay.xyz
 #EXTVLCOPT:http-referrer=https://caq21harderv991gpluralplay.xyz/
@@ -29,16 +29,16 @@ https://ddy6new.newkso.ru/ddy6/premium462/mono.m3u8
 #EXTVLCOPT:http-referrer=https://caq21harderv991gpluralplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://nfsnew.newkso.ru/nfs/premium28/mono.m3u8
-#EXTINF:-1 tvg-id="0af724c493a10ffd6d7c5831bf748bb9" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",England - Premier League : Wolves vs Brighton (SKY SPORT 254 IT)
-#EXTVLCOPT:http-origin=https://caq21harderv991gpluralplay.xyz
-#EXTVLCOPT:http-referrer=https://caq21harderv991gpluralplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://nfsnew.newkso.ru/nfs/premium30/mono.m3u8
 #EXTINF:-1 tvg-id="c5cfec2e100258757ce6dc02cb6f103b" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",England - Premier League : Fulham vs Everton (SKY SPORT 253 IT)
 #EXTVLCOPT:http-origin=https://caq21harderv991gpluralplay.xyz
 #EXTVLCOPT:http-referrer=https://caq21harderv991gpluralplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://nfsnew.newkso.ru/nfs/premium27/mono.m3u8
+#EXTINF:-1 tvg-id="0af724c493a10ffd6d7c5831bf748bb9" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",England - Premier League : Wolves vs Brighton (SKY SPORT 254 IT)
+#EXTVLCOPT:http-origin=https://caq21harderv991gpluralplay.xyz
+#EXTVLCOPT:http-referrer=https://caq21harderv991gpluralplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://nfsnew.newkso.ru/nfs/premium30/mono.m3u8
 #EXTINF:-1 tvg-id="44458f0cadef8c8c72d3685e4c27d8ee" tvg-logo="https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png" group-title="Calcio",England - Premier League : Southampton vs Manchester City (SKY SPORT CALCIO IT)
 #EXTVLCOPT:http-origin=https://caq21harderv991gpluralplay.xyz
 #EXTVLCOPT:http-referrer=https://caq21harderv991gpluralplay.xyz/
@@ -350,7 +350,7 @@ https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-c
 #EXTVLCOPT:http-referrer=https://www.twitch.tv/kingsleague
 #EXTVLCOPT:http-origin=https://www.twitch.tv/kingsleague
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://usw21-0.playlist.ttvnw.net/v1/playlist/Cu4ENUS_duLnIu1gJjbwvo4HUijRJhZDH70cNW3Zl4TarPDt7InYlg0scwEW1niz-kXtorfQVplHwbqQYArjCF4ChXQs3_IoQd1E7qT2HY1rStEicCUdphuIRA2NvVeZm_2vDl2ZrsfVcoV-dQ7M3OgyI8isaP-0pHYJVoms85EGQ-6Gfj7kO-SLxcMb1j9samWI7CjMdJNDMgqVs2f69t0pUEE81eMSDj7Py1BPl5wFxphqUWhbqbxmOdzurYflHslXsyYQj0nHTMdGj0kUrelChMMbsjWVE2B8aBmb9n3amGHSfS34KEAOD3YOLkY6Hy_qsq1Ld0gXwdJNdfbI9DuilOc3UB1jFuHM8E0N208IgWZreCmfM9jfMxin7JM0_hxo8dGyUeJHS1Szy-MLb4op9pbZ4t22bbNBGuzIys3eSFsY2vHhE21dZnBAAUkU-lBNoGp9tOnkyVvowrc8ctVMmYqKd9NGeffxtf_BRfdTzJJaf60m-_WoNezUn8MnsDELkJzAGsR7adAb_wCa64l3bxtTK6MVmSkhh9TBOVawLrOlHZ41RQWAxrO461c384NrVuMP7LwmOHxBL7mA4jjvYIi4S9iL5_PBy0ZwUpnMnl5hNSLm2OvOAN5eANgegBl0EoL5srpA1Y4Zb5OZuG8YqIBkq4cOcsOy713_REzaUxdLggSBMo6LVdYIUgaV6dr8mbCySToWbPObKL2naBdKgB98JBm9D8U3PVUBKImb2ijVIGP_WhqLJIjlUw7fMQcbbv2iDdsfnl3A5fTzX9XZ26_XY07aJLYlwv82YbvgIvMvqOKNYFdLYyck7CWbMhoMLcdd5R7SNFrJvHQiIAEqCXVzLWVhc3QtMjCeDA.m3u8
+https://use21-0.playlist.ttvnw.net/v1/playlist/Cu8EdezrRNR-niPp0Y1ZAPDlbKwcpcDw6ytqfyXMDSCF6F4q3zNyQ6jgF0V0mvTVuYVNbFm2BjX9VICF2B19tSW1wUi0RyhMA7E03Mw8OnQK8MBAgmT0x9NAJDl61nEPZqEu--RWFgUwN1Hd16l92XreffGSNudPjLveJk1DRhTMq9gZSLRLuPwWcpdkkNveRotUsrnY-THyCm1M1hYcB3EuIluRF9IfxAGjc9y9uJ_wZ317z7zOwcM1rDz0MFAOAKIjSIfyPIpKjmPS5g3oofrKrkDRB8xV7RWqe3s5-v81ue7RrimKuZNvgk7SlpXOAs71LkdstfN_WXjPV1NrNZHd-siF3_wVq3pX-PxcxpnrL9RnhZ4-2Zz84bqoRPRfFNQHTJ2pIg_e1Sy4LkOfbTG1oT_NMm-tgpOPu80JNBc5f1hPdPnSDfmeeGWFTt8t1eNuKd6q7SZrQwEe35rdyoQ_il6F7BYWE_y1-QKZwEnnBnw4F5nGDzDgBE0WPjeZMXHRMz3k0tl8SBTY3JD8f1GuL9ZBUkxtGFAcAIOaoQuESzjegeMuXF7J88TTkknHVV_flrSsFe_zIXCVFKd5SSfzgQ0veBx2-Cy2kE6MfKBkDUsUI_UOn4bUAEoFEYqmBGbBAbjd4ESXiI3BhgiU8rgqISr2kSvYJetPOvPwVbEB2kS__SkBmnAxAFytp6XRKtcD-qNPV9KVOpsodw8Bz8M_eVbaCSmxWAntbZI3zWBccRavTvu_qMjUon-XBXMhJBoIEE9r6LZAGSN9fP2UKMFkXgPyyiJsHok1c_dvZaVa7C8jiqODC1IRuvwG1YA_SrcaDHmeci5wlf32x9WedyABKgl1cy1lYXN0LTIwngw.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Kings League", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 #EXTM3U  url-tvg="http://www.epgitalia.tv/gzip,http://epg-guide.com/it.gz,https://raw.github.com/matthuisman/i.mjh.nz/master/PlutoTV/us.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/PlutoTV/it.xml.gz,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-events-epg.xml,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-channels-epg.xml,https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/it.xml.gz"
