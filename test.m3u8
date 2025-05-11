@@ -1,195 +1,97 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="eurosport1" tvg-name="EUROSPORT 1" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/eurosport-1-es.png" group-title="DAZN Serie A", EUROSPORT 1
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F3481346857%2Findex.m3u8
-#EXTINF:-1 tvg-id="eurosport1" tvg-name="EUROSPORT 1" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/eurosport-1-es.png" group-title="DAZN Serie A", EUROSPORT 1 (2)
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F3448075317%2Findex.m3u8
-#EXTINF:-1 tvg-id="eurosport2hd" tvg-name="EUROSPORT 2" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/eurosport-2-es.png" group-title="DAZN Serie A", EUROSPORT 2
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F2317684453%2Findex.m3u8
-#EXTINF:-1 tvg-id="eurosport2hd" tvg-name="EUROSPORT 2" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/eurosport-2-es.png" group-title="DAZN Serie A", EUROSPORT 2 (2)
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F2283887097%2Findex.m3u8
-#EXTINF:-1 tvg-id="intertv" tvg-name="INTER TV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/italy/inter-tv-it.png?raw=true" group-title="DAZN Serie A", INTER TV
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F2973773076%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="LAZIO TV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/italy/lazio-style-channel-it.png?raw=true" group-title="DAZN Serie A", LAZIO TV
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F2774026655%2Findex.m3u8
-#EXTINF:-1 tvg-id="milantvhd" tvg-name="MILAN TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/italy/milan-tv-it.png" group-title="DAZN Serie A", MILAN TV
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F3657217948%2Findex.m3u8
-#EXTINF:-1 tvg-id="skysportcalciohd" tvg-name="SKY SPORT CALCIO" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-calcio-it.png" group-title="DAZN Serie A", SKY SPORT CALCIO
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F449990998%2Findex.m3u8
-#EXTINF:-1 tvg-id="skysportcalciohd" tvg-name="SKY SPORT CALCIO" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-calcio-it.png" group-title="DAZN Serie A", SKY SPORT CALCIO (2)
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F1665920101%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="SKY SPORT FOOTBALL" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-football-it.png" group-title="DAZN Serie A", SKY SPORT FOOTBALL
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F3093535330%2Findex.m3u8
-#EXTINF:-1 tvg-id="skysportunohd" tvg-name="Sky Uno FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-uno-it.png" group-title="Intrattenimento", SKY SPORT UNO
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F3192996672%2Findex.m3u8
-#EXTINF:-1 tvg-id="skysportunohd" tvg-name="Sky Uno FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-uno-it.png" group-title="Intrattenimento", SKY SPORT UNO (2)
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F210669162%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="DISNEY+ FILM" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Disney%2B_logo.svg/2560px-Disney%2B_logo.svg.png" group-title="Sky Cinema FHD Backup", DISNEY+ FILM
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F1264775727%2Findex.m3u8
-#EXTINF:-1 tvg-id="skyatlanticfullhd" tvg-name="SKY ATLANTIC" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-atlantic-it.png" group-title="Sky Cinema FHD Backup", SKY ATLANTIC
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F1421393119%2Findex.m3u8
-#EXTINF:-1 tvg-id="skyatlanticfullhd" tvg-name="SKY ATLANTIC" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-atlantic-it.png" group-title="Sky Cinema FHD Backup", SKY ATLANTIC (2)
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F1482866609%2Findex.m3u8
-#EXTINF:-1 tvg-id="skycinemaactionhd" tvg-name="SKY CINEMA ACTION" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-action-it.png" group-title="Sky Cinema FHD Backup", SKY CINEMA ACTION
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F3812796171%2Findex.m3u8
-#EXTINF:-1 tvg-id="skycinemaactionhd" tvg-name="SKY CINEMA ACTION" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-action-it.png" group-title="Sky Cinema FHD Backup", SKY CINEMA ACTION (2)
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F1144128726%2Findex.m3u8
-#EXTINF:-1 tvg-id="skycinemaactionhd" tvg-name="SKY CINEMA ACTION" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-action-it.png" group-title="Sky Cinema FHD Backup", SKY CINEMA ACTION (3)
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F2242741766%2Findex.m3u8
-#EXTINF:-1 tvg-id="skycinemacollectionfullhd" tvg-name="SKY CINEMA COLLECTION" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-collection-it.png" group-title="Sky Cinema FHD Backup", SKY CINEMA COLLECTION
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F3525837057%2Findex.m3u8
-#EXTINF:-1 tvg-id="skycinemacomedyfullhd" tvg-name="SKY CINEMA COMEDY" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-comedy-it.png" group-title="Sky Cinema FHD Backup", SKY CINEMA COMEDY
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F500203271%2Findex.m3u8
-#EXTINF:-1 tvg-id="skycinemacomedyfullhd" tvg-name="SKY CINEMA COMEDY" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-comedy-it.png" group-title="Sky Cinema FHD Backup", SKY CINEMA COMEDY (2)
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F3131104474%2Findex.m3u8
-#EXTINF:-1 tvg-id="skycinemadramahd" tvg-name="SKY CINEMA DRAMA" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-drama-it.png" group-title="Sky Cinema FHD Backup", SKY CINEMA DRAMA
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F1235530177%2Findex.m3u8
-#EXTINF:-1 tvg-id="skycinemaduehd" tvg-name="SKY CINEMA DUE" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-due-it.png" group-title="Sky Cinema FHD Backup", SKY CINEMA DUE
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F2330574729%2Findex.m3u8
-#EXTINF:-1 tvg-id="skycinemaduehd" tvg-name="SKY CINEMA DUE" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-due-it.png" group-title="Sky Cinema FHD Backup", SKY CINEMA DUE (2)
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F1228534500%2Findex.m3u8
-#EXTINF:-1 tvg-id="skycinemadue+24hd" tvg-name="SKY CINEMA DUE +24" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-due-plus24-it.png" group-title="Sky Cinema FHD Backup", SKY CINEMA DUE +24
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F1078650168%2Findex.m3u8
-#EXTINF:-1 tvg-id="skycinemafamily" tvg-name="SKY CINEMA FAMILY" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-family-it.png" group-title="Sky Cinema FHD Backup", SKY CINEMA FAMILY
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F3216516117%2Findex.m3u8
-#EXTINF:-1 tvg-id="skycinemafamily" tvg-name="SKY CINEMA FAMILY" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-family-it.png" group-title="Sky Cinema FHD Backup", SKY CINEMA FAMILY (2)
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F415795144%2Findex.m3u8
-#EXTINF:-1 tvg-id="skycinemaromancehd" tvg-name="SKY CINEMA ROMANCE" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-romance-it.png" group-title="Sky Cinema FHD Backup", SKY CINEMA ROMANCE
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F2890008905%2Findex.m3u8
-#EXTINF:-1 tvg-id="skycinemaromancehd" tvg-name="SKY CINEMA ROMANCE" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-romance-it.png" group-title="Sky Cinema FHD Backup", SKY CINEMA ROMANCE (2)
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F1281264885%2Findex.m3u8
-#EXTINF:-1 tvg-id="skycinemasuspensefullhd" tvg-name="SKY CINEMA SUSPENSE" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-suspense-it.png" group-title="Sky Cinema FHD Backup", SKY CINEMA SUSPENSE
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F1820997555%2Findex.m3u8
-#EXTINF:-1 tvg-id="skycinemasuspensefullhd" tvg-name="SKY CINEMA SUSPENSE" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-suspense-it.png" group-title="Sky Cinema FHD Backup", SKY CINEMA SUSPENSE (2)
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F3060043751%2Findex.m3u8
-#EXTINF:-1 tvg-id="skycinemaunofullhd" tvg-name="SKY CINEMA UNO" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-uno-it.png" group-title="Sky Cinema FHD Backup", SKY CINEMA UNO
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F2872151911%2Findex.m3u8
-#EXTINF:-1 tvg-id="skycinemaunofullhd" tvg-name="SKY CINEMA UNO" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-uno-it.png" group-title="Sky Cinema FHD Backup", SKY CINEMA UNO (2)
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F1759625738%2Findex.m3u8
-#EXTINF:-1 tvg-id="skycinemauno+24fullhd" tvg-name="SKY CINEMA UNO +24" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-uno-plus24-it.png" group-title="Sky Cinema FHD Backup", SKY CINEMA UNO +24
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F1699876530%2Findex.m3u8
-#EXTINF:-1 tvg-id="skyseriefullhd" tvg-name="SKY SERIE" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-serie-it.png" group-title="Sky Cinema FHD Backup", SKY SERIE
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F836680112%2Findex.m3u8
-#EXTINF:-1 tvg-id="babytvfullhd" tvg-name="BABY TV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/baby-tv-es.png?raw=true" group-title="Bambini", BABY TV
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F2265727942%2Findex.m3u8
-#EXTINF:-1 tvg-id="babytvfullhd" tvg-name="BABY TV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/baby-tv-es.png?raw=true" group-title="Bambini", BABY TV (2)
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F3938501125%2Findex.m3u8
-#EXTINF:-1 tvg-id="boing" tvg-name="BOING" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/boing-it.png" group-title="Bambini", BOING
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F3022771961%2Findex.m3u8
-#EXTINF:-1 tvg-id="boing" tvg-name="BOING" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/boing-it.png" group-title="Bambini", BOING (2)
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F3373510242%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BOING PLUS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Boing_Plus_logo_2020.svg/1200px-Boing_Plus_logo_2020.svg.png" group-title="Bambini", BOING PLUS
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F3841982646%2Findex.m3u8
-#EXTINF:-1 tvg-id="cartoonnetworkfullhd" tvg-name="CARTOON NETWORK" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/cartoon-network-it.png" group-title="Bambini", CARTOON NETWORK
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F1289777017%2Findex.m3u8
-#EXTINF:-1 tvg-id="cartoonnetworkfullhd" tvg-name="CARTOON NETWORK" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/cartoon-network-it.png" group-title="Bambini", CARTOON NETWORK (2)
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F1744435623%2Findex.m3u8
-#EXTINF:-1 tvg-id="cartoonito" tvg-name="CARTOONITO" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/cartoonito-it.png" group-title="Bambini", CARTOONITO
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F1987220436%2Findex.m3u8
-#EXTINF:-1 tvg-id="cartoonito" tvg-name="CARTOONITO" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/cartoonito-it.png" group-title="Bambini", CARTOONITO (2)
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F2178717282%2Findex.m3u8
-#EXTINF:-1 tvg-id="cartoonito" tvg-name="CARTOONITO" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/cartoonito-it.png" group-title="Bambini", CARTOONITO (3)
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F1907000512%2Findex.m3u8
-#EXTINF:-1 tvg-id="discoveryk2" tvg-name="DISCOVERY K2" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/k2-it.png" group-title="Bambini", DISCOVERY K2
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F3037871903%2Findex.m3u8
-#EXTINF:-1 tvg-id="frisbee" tvg-name="FRISBEE" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/frisbee-it.png" group-title="Bambini", FRISBEE
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F1995860185%2Findex.m3u8
-#EXTINF:-1 tvg-id="k2" tvg-name="K2" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/k2-it.png" group-title="Bambini", K2
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F2255724318%2Findex.m3u8
-#EXTINF:-1 tvg-id="k2" tvg-name="K2" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/k2-it.png" group-title="Bambini", K2 (2)
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F11090349%2Findex.m3u8
-#EXTINF:-1 tvg-id="nickjr" tvg-name="NICK JR" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/nick-jr-it.png" group-title="Bambini", NICK JR
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F380958472%2Findex.m3u8
-#EXTINF:-1 tvg-id="nickelodeon" tvg-name="NICKELODEON" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/nickelodeon-it.png" group-title="Bambini", NICKELODEON
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F3039389215%2Findex.m3u8
-#EXTINF:-1 tvg-id="super!" tvg-name="SUPER!" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Super%21_logo_2021.svg/1024px-Super%21_logo_2021.svg.png" group-title="Bambini", SUPER!
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F3550030443%2Findex.m3u8
-#EXTINF:-1 tvg-id="super!" tvg-name="SUPER!" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Super%21_logo_2021.svg/1024px-Super%21_logo_2021.svg.png" group-title="Bambini", SUPER! (2)
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F2900362153%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="ARTE NETWORK" tvg-logo="https://www.arte.tv/sites/corporate/wp-content/themes/arte-entreprise/img/arte_logo.png" group-title="Documentari", ARTE NETWORK
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F430570853%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="AURORA ARTE" tvg-logo="https://www.auroraarte.it/wp-content/uploads/2023/11/AURORA-ARTE-brand.png" group-title="Documentari", AURORA ARTE
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F3267376899%2Findex.m3u8
-#EXTINF:-1 tvg-id="discoverychannelhd" tvg-name="DISCOVERY CHANNEL" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/discovery-channel-it.png" group-title="Documentari", DISCOVERY CHANNEL
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F3554841914%2Findex.m3u8
-#EXTINF:-1 tvg-id="discoverychannelhd" tvg-name="DISCOVERY CHANNEL" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/discovery-channel-it.png" group-title="Documentari", DISCOVERY CHANNEL (2)
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F1955739367%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="DISCOVERY FOCUS" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/focus-it.png" group-title="Documentari", DISCOVERY FOCUS
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F2113273064%2Findex.m3u8
-#EXTINF:-1 tvg-id="discoverynovehd" tvg-name="DISCOVERY NOVE" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/nove-it.png" group-title="Documentari", DISCOVERY NOVE
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F1574591400%2Findex.m3u8
-#EXTINF:-1 tvg-id="discoverynovehd" tvg-name="DISCOVERY NOVE" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/nove-it.png" group-title="Documentari", DISCOVERY NOVE (2)
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F2651461317%2Findex.m3u8
-#EXTINF:-1 tvg-id="historyfullhd" tvg-name="HISTORY" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/history-channel-it.png" group-title="Documentari", HISTORY
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F317837654%2Findex.m3u8
-#EXTINF:-1 tvg-id="historyfullhd" tvg-name="HISTORY" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/history-channel-it.png" group-title="Documentari", HISTORY (2)
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F2134724757%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="NAT GEO" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/national-geographic-it.png" group-title="Documentari", NAT GEO
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F179844839%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="NAT GEO" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/national-geographic-it.png" group-title="Documentari", NAT GEO (2)
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F1735702308%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="NAT GEO WILD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/national-geographic-wild-it.png" group-title="Documentari", NAT GEO WILD
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F3428501495%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="NAT GEO WILD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/national-geographic-wild-it.png" group-title="Documentari", NAT GEO WILD (2)
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F3229664409%2Findex.m3u8
-#EXTINF:-1 tvg-id="skyarte" tvg-name="SKY ARTE" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-arte-it.png" group-title="Documentari", SKY ARTE
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F1806815496%2Findex.m3u8
-#EXTINF:-1 tvg-id="skyarte" tvg-name="SKY ARTE" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-arte-it.png" group-title="Documentari", SKY ARTE (2)
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F1902695925%2Findex.m3u8
-#EXTINF:-1 tvg-id="skydocumentariesfullhd" tvg-name="SKY DOCUMENTARIES" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-documentaries-it.png" group-title="Documentari", SKY DOCUMENTARIES
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F464281981%2Findex.m3u8
-#EXTINF:-1 tvg-id="skynaturefullhd" tvg-name="SKY NATURE" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-nature-it.png" group-title="Documentari", SKY NATURE
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F3810188456%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="TELEARTE" tvg-logo="https://www.teleartetv.it/web/wp-content/uploads/2023/04/logo_TA.jpg" group-title="Documentari", TELEARTE
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F2586615238%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 1" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD", SKY PRIMAFILA 1
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F1492183364%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 1" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD", SKY PRIMAFILA 1 (2)
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F1944682394%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 2" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD", SKY PRIMAFILA 2
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F525374356%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 2" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD", SKY PRIMAFILA 2 (2)
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F877200714%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 3" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD", SKY PRIMAFILA 3
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F573618724%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 3" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD", SKY PRIMAFILA 3 (2)
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F153693434%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 4" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD", SKY PRIMAFILA 4
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F3137990890%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 4" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD", SKY PRIMAFILA 4 (2)
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F2416993844%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 5" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD", SKY PRIMAFILA 5
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F2909818756%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 5" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD", SKY PRIMAFILA 5 (2)
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F2255083866%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 6" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD", SKY PRIMAFILA 6
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F3939513684%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 6" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD", SKY PRIMAFILA 6 (2)
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F3251217290%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 7" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD", SKY PRIMAFILA 7
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F3618643172%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 7" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD", SKY PRIMAFILA 7 (2)
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F4238969402%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 8" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD", SKY PRIMAFILA 8
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F1440779061%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 8" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD", SKY PRIMAFILA 8 (2)
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F2130255339%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 9" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD", SKY PRIMAFILA 9
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F1753260677%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 9" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD", SKY PRIMAFILA 9 (2)
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F1134113883%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 10" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD", SKY PRIMAFILA 10
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F4272937805%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 10" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD", SKY PRIMAFILA 10 (2)
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F2268489342%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 12" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD", SKY PRIMAFILA 12
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F2221901869%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 14" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD", SKY PRIMAFILA 14
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F187661709%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 15" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD", SKY PRIMAFILA 15
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F911168573%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 16" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD", SKY PRIMAFILA 16
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F1911500525%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 17" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD", SKY PRIMAFILA 17
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F1284441949%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 18" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD", SKY PRIMAFILA 18
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F3470758028%2Findex.m3u8
+#EXTINF:-1, tvg-id="Prima Stagione" tvg-name="---Prima Stagione---" tvg-logo="http://psicologiaramonda.it/wp-content/uploads/2018/11/numero-1.png"group-title="Mr. Robot",[COLOR yellow]---Prima Stagione---[/COLOR]
+https://streamingcommunity.net/search?q=Gomo
+#EXTINF:-1, tvg-id="Prima Stagione" tvg-name="Mr. Robot ep 1" tvg-logo="https://www.unwritten.cloud/images/2/1b5efd2a-1647-4215-a053-6da7a01df99e.jpg" group-title="Mr. Robot",Mr. Robot ep 1
+https://archive.org/download/serie-tv/Mr.%20Robot/S1%20ep%201
+#EXTINF:-1, tvg-id="Prima Stagione" tvg-name="Mr. Robot ep 2" tvg-logo="https://www.unwritten.cloud/images/2/1b5efd2a-1647-4215-a053-6da7a01df99e.jpg" group-title="Mr. Robot",Mr. Robot ep 2
+https://archive.org/download/serie-tv/Mr.%20Robot/S1%20ep%202
+#EXTINF:-1, tvg-id="Prima Stagione" tvg-name="Mr. Robot ep 3" tvg-logo="https://www.unwritten.cloud/images/2/1b5efd2a-1647-4215-a053-6da7a01df99e.jpg" group-title="Mr. Robot",Mr. Robot ep 3
+https://archive.org/download/serie-tv/Mr.%20Robot/S1%20ep%203
+#EXTINF:-1, tvg-id="Prima Stagione" tvg-name="Mr. Robot ep 4" tvg-logo="https://www.unwritten.cloud/images/2/1b5efd2a-1647-4215-a053-6da7a01df99e.jpg" group-title="Mr. Robot",Mr. Robot ep 4
+https://archive.org/download/serie-tv/Mr.%20Robot/S1%20ep%204
+#EXTINF:-1, tvg-id="Prima Stagione" tvg-name="Mr. Robot ep 5" tvg-logo="https://www.unwritten.cloud/images/2/1b5efd2a-1647-4215-a053-6da7a01df99e.jpg" group-title="Mr. Robot",Mr. Robot ep 5
+https://archive.org/download/serie-tv/Mr.%20Robot/S1%20ep%205
+#EXTINF:-1, tvg-id="Prima Stagione" tvg-name="Mr. Robot ep 6" tvg-logo="https://www.unwritten.cloud/images/2/1b5efd2a-1647-4215-a053-6da7a01df99e.jpg" group-title="Mr. Robot",Mr. Robot ep 6
+https://archive.org/download/serie-tv/Mr.%20Robot/S1%20ep%206
+#EXTINF:-1, tvg-id="Prima Stagione" tvg-name="Mr. Robot ep 7" tvg-logo="https://www.unwritten.cloud/images/2/1b5efd2a-1647-4215-a053-6da7a01df99e.jpg" group-title="Mr. Robot",Mr. Robot ep 7
+https://archive.org/download/serie-tv/Mr.%20Robot/S1%20ep%207
+#EXTINF:-1, tvg-id="Prima Stagione" tvg-name="Mr. Robot ep 8" tvg-logo="https://www.unwritten.cloud/images/2/1b5efd2a-1647-4215-a053-6da7a01df99e.jpg" group-title="Mr. Robot",Mr. Robot ep 8
+https://archive.org/download/serie-tv/Mr.%20Robot/S1%20ep%208
+#EXTINF:-1, tvg-id="Prima Stagione" tvg-name="Mr. Robot ep 9" tvg-logo="https://www.unwritten.cloud/images/2/1b5efd2a-1647-4215-a053-6da7a01df99e.jpg" group-title="Mr. Robot",Mr. Robot ep 9
+https://archive.org/download/serie-tv/Mr.%20Robot/S1%20ep%209
+#EXTINF:-1, tvg-id="Prima Stagione" tvg-name="Mr. Robot ep 10" tvg-logo="https://www.unwritten.cloud/images/2/1b5efd2a-1647-4215-a053-6da7a01df99e.jpg" group-title="Mr. Robot",Mr. Robot ep 10
+https://archive.org/download/serie-tv/Mr.%20Robot/S1%20ep%2010
+#EXTINF:-1, tvg-id="Seconda Stagione"tvg-name="---Seconda Stagione---" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/NYCS-bull-trans-2.svg/75px-NYCS-bull-trans-2.svg.png"group-title="Mr. Robot",[COLOR yellow]---Seconda Stagione---[/COLOR]
+https://www.tantifilm.vip/
+#EXTINF:-1, tvg-id="Seconda Stagione" tvg-name="Mr. Robot ep 1" tvg-logo="https://www.unwritten.cloud/images/2/1b5efd2a-1647-4215-a053-6da7a01df99e.jpg" group-title="Mr. Robot",Mr. Robot ep 1
+https://archive.org/download/serie-tv/Mr.%20Robot/S2%20ep%201
+#EXTINF:-1, tvg-id="Seconda Stagione" tvg-name="Mr. Robot ep 2" tvg-logo="https://www.unwritten.cloud/images/2/1b5efd2a-1647-4215-a053-6da7a01df99e.jpg" group-title="Mr. Robot",Mr. Robot ep 2
+https://archive.org/download/serie-tv/Mr.%20Robot/S2%20ep%202
+#EXTINF:-1, tvg-id="Seconda Stagione" tvg-name="Mr. Robot ep 3" tvg-logo="https://www.unwritten.cloud/images/2/1b5efd2a-1647-4215-a053-6da7a01df99e.jpg" group-title="Mr. Robot",Mr. Robot ep 3
+https://archive.org/download/serie-tv/Mr.%20Robot/S2%20ep%203
+#EXTINF:-1, tvg-id="Seconda Stagione" tvg-name="Mr. Robot ep 4" tvg-logo="https://www.unwritten.cloud/images/2/1b5efd2a-1647-4215-a053-6da7a01df99e.jpg" group-title="Mr. Robot",Mr. Robot ep 4
+https://archive.org/download/serie-tv/Mr.%20Robot/S2%20ep%204
+#EXTINF:-1, tvg-id="Seconda Stagione" tvg-name="Mr. Robot ep 5" tvg-logo="https://www.unwritten.cloud/images/2/1b5efd2a-1647-4215-a053-6da7a01df99e.jpg" group-title="Mr. Robot",Mr. Robot ep 5
+https://archive.org/download/serie-tv/Mr.%20Robot/S2%20ep%205
+#EXTINF:-1, tvg-id="Seconda Stagione" tvg-name="Mr. Robot ep 6" tvg-logo="https://www.unwritten.cloud/images/2/1b5efd2a-1647-4215-a053-6da7a01df99e.jpg" group-title="Mr. Robot",Mr. Robot ep 6
+https://archive.org/download/serie-tv/Mr.%20Robot/S2%20ep%206
+#EXTINF:-1, tvg-id="Seconda Stagione" tvg-name="Mr. Robot ep 7" tvg-logo="https://www.unwritten.cloud/images/2/1b5efd2a-1647-4215-a053-6da7a01df99e.jpg" group-title="Mr. Robot",Mr. Robot ep 7
+https://archive.org/download/serie-tv/Mr.%20Robot/S2%20ep%207
+#EXTINF:-1, tvg-id="Seconda Stagione" tvg-name="Mr. Robot ep 8" tvg-logo="https://www.unwritten.cloud/images/2/1b5efd2a-1647-4215-a053-6da7a01df99e.jpg" group-title="Mr. Robot",Mr. Robot ep 8
+https://archive.org/download/serie-tv/Mr.%20Robot/S2%20ep%208
+#EXTINF:-1, tvg-id="Seconda Stagione" tvg-name="Mr. Robot ep 9" tvg-logo="https://www.unwritten.cloud/images/2/1b5efd2a-1647-4215-a053-6da7a01df99e.jpg" group-title="Mr. Robot",Mr. Robot ep 9
+https://archive.org/download/serie-tv/Mr.%20Robot/S2%20ep%209
+#EXTINF:-1, tvg-id="Seconda Stagione" tvg-name="Mr. Robot ep 10" tvg-logo="https://www.unwritten.cloud/images/2/1b5efd2a-1647-4215-a053-6da7a01df99e.jpg" group-title="Mr. Robot",Mr. Robot ep 10
+https://archive.org/download/serie-tv/Mr.%20Robot/S2%20ep%2010
+#EXTINF:-1, tvg-id="Seconda Stagione" tvg-name="Mr. Robot ep 11" tvg-logo="https://www.unwritten.cloud/images/2/1b5efd2a-1647-4215-a053-6da7a01df99e.jpg" group-title="Mr. Robot",Mr. Robot ep 11
+https://archive.org/download/serie-tv/Mr.%20Robot/S2%20ep%2011
+#EXTINF:-1, tvg-id="Seconda Stagione" tvg-name="Mr. Robot ep 12" tvg-logo="https://www.unwritten.cloud/images/2/1b5efd2a-1647-4215-a053-6da7a01df99e.jpg" group-title="Mr. Robot",Mr. Robot ep 12
+https://archive.org/download/serie-tv/Mr.%20Robot/S2%20ep%2012
+#EXTINF:-1, tvg-id="Terza Stagione"tvg-name="---Terza Stagione---" tvg-logo="https://icon-library.net/images/3-icon/3-icon-2.jpg"group-title="Mr. Robot",[COLOR yellow]---Terza Stagione---[/COLOR]
+https://www.tantifilm.vip/
+#EXTINF:-1, tvg-id="Terza Stagione" tvg-name="Mr. Robot ep 1" tvg-logo="https://www.unwritten.cloud/images/2/1b5efd2a-1647-4215-a053-6da7a01df99e.jpg" group-title="Mr. Robot",Mr. Robot ep 1
+https://archive.org/download/serie-tv/Mr.%20Robot/S3%20ep%201
+#EXTINF:-1, tvg-id="Terza Stagione" tvg-name="Mr. Robot ep 2" tvg-logo="https://www.unwritten.cloud/images/2/1b5efd2a-1647-4215-a053-6da7a01df99e.jpg" group-title="Mr. Robot",Mr. Robot ep 2
+https://archive.org/download/serie-tv/Mr.%20Robot/S3%20ep%202
+#EXTINF:-1, tvg-id="Terza Stagione" tvg-name="Mr. Robot ep 3" tvg-logo="https://www.unwritten.cloud/images/2/1b5efd2a-1647-4215-a053-6da7a01df99e.jpg" group-title="Mr. Robot",Mr. Robot ep 3
+https://archive.org/download/serie-tv/Mr.%20Robot/S3%20ep%203
+#EXTINF:-1, tvg-id="Terza Stagione" tvg-name="Mr. Robot ep 4" tvg-logo="https://www.unwritten.cloud/images/2/1b5efd2a-1647-4215-a053-6da7a01df99e.jpg" group-title="Mr. Robot",Mr. Robot ep 4
+https://archive.org/download/serie-tv/Mr.%20Robot/S3%20ep%204
+#EXTINF:-1, tvg-id="Terza Stagione" tvg-name="Mr. Robot ep 5" tvg-logo="https://www.unwritten.cloud/images/2/1b5efd2a-1647-4215-a053-6da7a01df99e.jpg" group-title="Mr. Robot",Mr. Robot ep 5
+https://archive.org/download/serie-tv/Mr.%20Robot/S3%20ep%205
+#EXTINF:-1, tvg-id="Terza Stagione" tvg-name="Mr. Robot ep 6" tvg-logo="https://www.unwritten.cloud/images/2/1b5efd2a-1647-4215-a053-6da7a01df99e.jpg" group-title="Mr. Robot",Mr. Robot ep 6
+https://archive.org/download/serie-tv/Mr.%20Robot/S3%20ep%206
+#EXTINF:-1, tvg-id="Terza Stagione" tvg-name="Mr. Robot ep 7" tvg-logo="https://www.unwritten.cloud/images/2/1b5efd2a-1647-4215-a053-6da7a01df99e.jpg" group-title="Mr. Robot",Mr. Robot ep 7
+https://archive.org/download/serie-tv/Mr.%20Robot/S3%20ep%207
+#EXTINF:-1, tvg-id="Terza Stagione" tvg-name="Mr. Robot ep 8" tvg-logo="https://www.unwritten.cloud/images/2/1b5efd2a-1647-4215-a053-6da7a01df99e.jpg" group-title="Mr. Robot",Mr. Robot ep 8
+https://archive.org/download/serie-tv/Mr.%20Robot/S3%20ep%208
+#EXTINF:-1, tvg-id="Terza Stagione" tvg-name="Mr. Robot ep 9" tvg-logo="https://www.unwritten.cloud/images/2/1b5efd2a-1647-4215-a053-6da7a01df99e.jpg" group-title="Mr. Robot",Mr. Robot ep 9
+https://archive.org/download/serie-tv/Mr.%20Robot/S3%20ep%209
+#EXTINF:-1, tvg-id="Terza Stagione" tvg-name="Mr. Robot ep 10" tvg-logo="https://www.unwritten.cloud/images/2/1b5efd2a-1647-4215-a053-6da7a01df99e.jpg" group-title="Mr. Robot",Mr. Robot ep 10
+https://archive.org/download/serie-tv/Mr.%20Robot/S3%20ep%2010
+#EXTINF:-1, tvg-id="Quarta Stagione"tvg-name="---Quarta Stagione---" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/NYCS-bull-trans-4.svg/75px-NYCS-bull-trans-4.svg.png"group-title="Mr. Robot",[COLOR yellow]---Quarta Stagione---[/COLOR]
+https://www.tantifilm.vip/
+#EXTINF:-1, tvg-id="Quarta Stagione" tvg-name="Mr. Robot ep 1" tvg-logo="https://www.unwritten.cloud/images/2/1b5efd2a-1647-4215-a053-6da7a01df99e.jpg" group-title="Mr. Robot",Mr. Robot ep 1
+https://archive.org/download/serie-tv/Mr.%20Robot/S4%20ep%201
+#EXTINF:-1, tvg-id="Quarta Stagione" tvg-name="Mr. Robot ep 2" tvg-logo="https://www.unwritten.cloud/images/2/1b5efd2a-1647-4215-a053-6da7a01df99e.jpg" group-title="Mr. Robot",Mr. Robot ep 2
+https://archive.org/download/serie-tv/Mr.%20Robot/S4%20ep%202
+#EXTINF:-1, tvg-id="Quarta Stagione" tvg-name="Mr. Robot ep 3" tvg-logo="https://www.unwritten.cloud/images/2/1b5efd2a-1647-4215-a053-6da7a01df99e.jpg" group-title="Mr. Robot",Mr. Robot ep 3
+https://archive.org/download/serie-tv/Mr.%20Robot/S4%20ep%203
+#EXTINF:-1, tvg-id="Quarta Stagione" tvg-name="Mr. Robot ep 4" tvg-logo="https://www.unwritten.cloud/images/2/1b5efd2a-1647-4215-a053-6da7a01df99e.jpg" group-title="Mr. Robot",Mr. Robot ep 4
+https://archive.org/download/serie-tv/Mr.%20Robot/S4%20ep%204
+#EXTINF:-1, tvg-id="Quarta Stagione" tvg-name="Mr. Robot ep 5" tvg-logo="https://www.unwritten.cloud/images/2/1b5efd2a-1647-4215-a053-6da7a01df99e.jpg" group-title="Mr. Robot",Mr. Robot ep 5
+https://archive.org/download/serie-tv/Mr.%20Robot/S4%20ep%205
+#EXTINF:-1, tvg-id="Quarta Stagione" tvg-name="Mr. Robot ep 6" tvg-logo="https://www.unwritten.cloud/images/2/1b5efd2a-1647-4215-a053-6da7a01df99e.jpg" group-title="Mr. Robot",Mr. Robot ep 6
+https://archive.org/download/serie-tv/Mr.%20Robot/S4%20ep%206
+#EXTINF:-1, tvg-id="Quarta Stagione" tvg-name="Mr. Robot ep 7" tvg-logo="https://www.unwritten.cloud/images/2/1b5efd2a-1647-4215-a053-6da7a01df99e.jpg" group-title="Mr. Robot",Mr. Robot ep 7
+https://archive.org/download/serie-tv/Mr.%20Robot/S4%20ep%207
+#EXTINF:-1, tvg-id="Quarta Stagione" tvg-name="Mr. Robot ep 8" tvg-logo="https://www.unwritten.cloud/images/2/1b5efd2a-1647-4215-a053-6da7a01df99e.jpg" group-title="Mr. Robot",Mr. Robot ep 8
+https://archive.org/download/serie-tv/Mr.%20Robot/S4%20ep%208
+#EXTINF:-1, tvg-id="Quarta Stagione" tvg-name="Mr. Robot ep 9" tvg-logo="https://www.unwritten.cloud/images/2/1b5efd2a-1647-4215-a053-6da7a01df99e.jpg" group-title="Mr. Robot",Mr. Robot ep 9
+https://archive.org/download/serie-tv/Mr.%20Robot/S4%20ep%209
+#EXTINF:-1, tvg-id="Quarta Stagione" tvg-name="Mr. Robot ep 10" tvg-logo="https://www.unwritten.cloud/images/2/1b5efd2a-1647-4215-a053-6da7a01df99e.jpg" group-title="Mr. Robot",Mr. Robot ep 10
+https://archive.org/download/serie-tv/Mr.%20Robot/S4%20ep%2010
+#EXTINF:-1, tvg-id="Quarta Stagione" tvg-name="Mr. Robot ep 11" tvg-logo="https://www.unwritten.cloud/images/2/1b5efd2a-1647-4215-a053-6da7a01df99e.jpg" group-title="Mr. Robot",Mr. Robot ep 11
+https://archive.org/download/serie-tv/Mr.%20Robot/S4%20ep%2011
+#EXTINF:-1, tvg-id="Quarta Stagione" tvg-name="Mr. Robot ep 12" tvg-logo="https://www.unwritten.cloud/images/2/1b5efd2a-1647-4215-a053-6da7a01df99e.jpg" group-title="Mr. Robot",Mr. Robot ep 12
+https://archive.org/download/serie-tv/Mr.%20Robot/S4%20ep%2012
