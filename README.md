@@ -22,7 +22,7 @@
 
 ---
 
-![_](https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F2911178456%2Findex.m3u8)
+![_](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGJoM3VsOTk2NWsyc2hraGg3d2pmcGpvdmpqeW1qM3d1MGU4NDZ3cCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/1AibDuFkF8cKhZpDfX/giphy.gif)
 
 
 ## 🛠️ Come iniziare
