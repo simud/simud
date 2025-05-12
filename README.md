@@ -22,7 +22,7 @@
 
 ---
 
-![_]([https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2gwZGhrYjA4NG84MjVsemczb2lrYm1lMzFwdzhvZTgxMzB6aDZzYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/maYHFjRpJxR3RXObug/giphy.gif](https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F2911178456%2Findex.m3u8))
+![_](https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F2911178456%2Findex.m3u8)
 
 
 ## 🛠️ Come iniziare
