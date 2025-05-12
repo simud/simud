@@ -22,7 +22,7 @@
 
 ---
 
-[Guarda il live stream]([https://example.com/stream.m3u8](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2gwZGhrYjA4NG84MjVsemczb2lrYm1lMzFwdzhvZTgxMzB6aDZzYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/maYHFjRpJxR3RXObug/giphy.gif))
+![_](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2gwZGhrYjA4NG84MjVsemczb2lrYm1lMzFwdzhvZTgxMzB6aDZzYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/maYHFjRpJxR3RXObug/giphy.gif)
 
 
 ## 🛠️ Come iniziare
