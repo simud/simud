@@ -1,130 +1,256 @@
 #EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-INDEPENDENT-SEGMENTS
-#EXT-X-STREAM-INF:BANDWIDTH=800000,NAME="Variant 1"
-#EXT-X-KEY:METHOD=SAMPLE-AES,URI="skd://ODI3MmJmNmJhNDZmMjNmOWRhNTI3MDA1N2I2ZTAyOGE6NzRhZTcwZGQxMGI0YmlzOGVkNmZmZTg0M2YzZTJjY2Q"
-https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd
+#EXTINF:-1 tvg-id="channel1" tvg-name="Variant 1" group-title="Test",Variant 1
+#EXTVLCOPT:http-referrer=https://thisnot.business/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=skd://ODI3MmJmNmJhNDZmMjNmOWRhNTI3MDA1N2I2ZTAyOGE6NzRhZTcwZGQxMGI0YmlzOGVkNmZmZTg0M2YzZTJjY2Q
+https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd|http={'Origin':'https://thisnot.business/','Referer':'https://thisnot.business/','User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36'}
 
-#EXT-X-STREAM-INF:BANDWIDTH=800000,NAME="Variant 2"
-#EXT-X-KEY:METHOD=SAMPLE-AES,URI="skd://ODI3MmJmNmJhNDZmMjNmOWRhNTI3MDA1N2I2ZTAyOGE6NzRhZTcwZGQxMGI0YmIzOGVkNmZmZTg0M2YzZTJjY2Q"
-https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd
+#EXTINF:-1 tvg-id="channel2" tvg-name="Variant 2" group-title="Test",Variant 2
+#EXTVLCOPT:http-referrer=https://thisnot.business/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=skd://ODI3MmJmNmJhNDZmMjNmOWRhNTI3MDA1N2I2ZTAyOGE6NzRhZTcwZGQxMGI0YmIzOGVkNmZmZTg0M2YzZTJjY2Q
+https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd|http={'Origin':'https://thisnot.business/','Referer':'https://thisnot.business/','User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36'}
 
-#EXT-X-STREAM-INF:BANDWIDTH=800000,NAME="Variant 3"
-#EXT-X-KEY:METHOD=SAMPLE-AES,URI="skd://ODI3MmJmNmJhNDZmMjNmOWRhNTI3MDA1N2I2ZTAyOGE6NzRhZTcwZGQxMGl0YmlzOGVkNmZmZTg0M2YzZTJjY2Q"
-https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd
+#EXTINF:-1 tvg-id="channel3" tvg-name="Variant 3" group-title="Test",Variant 3
+#EXTVLCOPT:http-referrer=https://thisnot.business/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=skd://ODI3MmJmNmJhNDZmMjNmOWRhNTI3MDA1N2I2ZTAyOGE6NzRhZTcwZGQxMGl0YmlzOGVkNmZmZTg0M2YzZTJjY2Q
+https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd|http={'Origin':'https://thisnot.business/','Referer':'https://thisnot.business/','User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36'}
 
-#EXT-X-STREAM-INF:BANDWIDTH=800000,NAME="Variant 4"
-#EXT-X-KEY:METHOD=SAMPLE-AES,URI="skd://ODI3MmJmNmJhNDZmMjNmOWRhNTI3MDA1N2I2ZTAyOGE6NzRhZTcwZGQxMGl0YmIzOGVkNmZmZTg0M2YzZTJjY2Q"
-https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd
+#EXTINF:-1 tvg-id="channel4" tvg-name="Variant 4" group-title="Test",Variant 4
+#EXTVLCOPT:http-referrer=https://thisnot.business/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=skd://ODI3MmJmNmJhNDZmMjNmOWRhNTI3MDA1N2I2ZTAyOGE6NzRhZTcwZGQxMGl0YmIzOGVkNmZmZTg0M2YzZTJjY2Q
+https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd|http={'Origin':'https://thisnot.business/','Referer':'https://thisnot.business/','User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36'}
 
-#EXT-X-STREAM-INF:BANDWIDTH=800000,NAME="Variant 5"
-#EXT-X-KEY:METHOD=SAMPLE-AES,URI="skd://ODI3MmJmNmJhNDZmMjNmOWRhNTI3MDA1N2l2ZTAyOGE6NzRhZTcwZGQxMGI0YmlzOGVkNmZmZTg0M2YzZTJjY2Q"
-https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd
+#EXTINF:-1 tvg-id="channel5" tvg-name="Variant 5" group-title="Test",Variant 5
+#EXTVLCOPT:http-referrer=https://thisnot.business/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=skd://ODI3MmJmNmJhNDZmMjNmOWRhNTI3MDA1N2l2ZTAyOGE6NzRhZTcwZGQxMGI0YmlzOGVkNmZmZTg0M2YzZTJjY2Q
+https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a438 gratuitamente257f/cenc.mpd|http={'Origin':'https://thisnot.business/','Referer':'https://thisnot.business/','User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36'}
 
-#EXT-X-STREAM-INF:BANDWIDTH=800000,NAME="Variant 6"
-#EXT-X-KEY:METHOD=SAMPLE-AES,URI="skd://ODI3MmJmNmJhNDZmMjNmOWRhNTI3MDA1N2l2ZTAyOGE6NzRhZTcwZGQxMGI0YmIzOGVkNmZmZTg0M2YzZTJjY2Q"
-https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd
+#EXTINF:-1 tvg-id="channel6" tvg-name="Variant 6" group-title="Test",Variant 6
+#EXTVLCOPT:http-referrer=https://thisnot.business/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=skd://ODI3MmJmNmJhNDZmMjNmOWRhNTI3MDA1N2l2ZTAyOGE6NzRhZTcwZGQxMGI0YmIzOGVkNmZmZTg0M2YzZTJjY2Q
+https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd|http={'Origin':'https://thisnot.business/','Referer':'https://thisnot.business/','User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36'}
 
-#EXT-X-STREAM-INF:BANDWIDTH=800000,NAME="Variant 7"
-#EXT-X-KEY:METHOD=SAMPLE-AES,URI="skd://ODI3MmJmNmJhNDZmMjNmOWRhNTI3MDA1N2l2ZTAyOGE6NzRhZTcwZGQxMGl0YmlzOGVkNmZmZTg0M2YzZTJjY2Q"
-https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd
+#EXTINF:-1 tvg-id="channel7" tvg-name="Variant 7" group-title="Test",Variant 7
+#EXTVLCOPT:http-referrer=https://thisnot.business/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=skd://ODI3MmJmNmJhNDZmMjNmOWRhNTI3MDA1N2l2ZTAyOGE6NzRhZTcwZGQxMGl0YmlzOGVkNmZmZTg0M2YzZTJjY2Q
+https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd|http={'Origin':'https://thisnot.business/','Referer':'https://thisnot.business/','User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36'}
 
-#EXT-X-STREAM-INF:BANDWIDTH=800000,NAME="Variant 8"
-#EXT-X-KEY:METHOD=SAMPLE-AES,URI="skd://ODI3MmJmNmJhNDZmMjNmOWRhNTI3MDA1N2l2ZTAyOGE6NzRhZTcwZGQxMGl0YmIzOGVkNmZmZTg0M2YzZTJjY2Q"
-https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd
+#EXTINF:-1 tvg-id="channel8" tvg-name="Variant 8" group-title="Test",Variant 8
+#EXTVLCOPT:http-referrer=https://thisnot.business/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=skd://ODI3MmJmNmJhNDZmMjNmOWRhNTI3MDA1N2l2ZTAyOGE6NzRhZTcwZGQxMGl0YmIzOGVkNmZmZTg0M2YzZTJjY2Q
+https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd|http={'Origin':'https://thisnot.business/','Referer':'https://thisnot.business/','User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36'}
 
-#EXT-X-STREAM-INF:BANDWIDTH=800000,NAME="Variant 9"
-#EXT-X-KEY:METHOD=SAMPLE-AES,URI="skd://ODI3MmJmNmJhNDZmMjNmOWRhNTl3MDA1N2I2ZTAyOGE6NzRhZTcwZGQxMGI0YmlzOGVkNmZmZTg0M2YzZTJjY2Q"
-https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd
+#EXTINF:-1 tvg-id="channel9" tvg-name="Variant 9" group-title="Test",Variant 9
+#EXTVLCOPT:http-referrer=https://thisnot.business/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=skd://ODI3MmJmNmJhNDZmMjNmOWRhNTl3MDA1N2I2ZTAyOGE6NzRhZTcwZGQxMGI0YmlzOGVkNmZmZTg0M2YzZTJjY2Q
+https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd|http={'Origin':'https://thisnot.business/','Referer':'https://thisnot.business/','User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36'}
 
-#EXT-X-STREAM-INF:BANDWIDTH=800000,NAME="Variant 10"
-#EXT-X-KEY:METHOD=SAMPLE-AES,URI="skd://ODI3MmJmNmJhNDZmMjNmOWRhNTl3MDA1N2I2ZTAyOGE6NzRhZTcwZGQxMGI0YmIzOGVkNmZmZTg0M2YzZTJjY2Q"
-https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd
+#EXTINF:-1 tvg-id="channel10" tvg-name="Variant 10" group-title="Test",Variant 10
+#EXTVLCOPT:http-referrer=https://thisnot.business/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=skd://ODI3MmJmNmJhNDZmMjNmOWRhNTl3MDA1N2I2ZTAyOGE6NzRhZTcwZGQxMGI0YmIzOGVkNmZmZTg0M2YzZTJjY2Q
+https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd|http={'Origin':'https://thisnot.business/','Referer':'https://thisnot.business/','User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36'}
 
-#EXT-X-STREAM-INF:BANDWIDTH=800000,NAME="Variant 11"
-#EXT-X-KEY:METHOD=SAMPLE-AES,URI="skd://ODI3MmJmNmJhNDZmMjNmOWRhNTl3MDA1N2I2ZTAyOGE6NzRhZTcwZGQxMGl0YmlzOGVkNmZmZTg0M2YzZTJjY2Q"
-https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd
+#EXTINF:-1 tvg-id="channel11" tvg-name="Variant 11" group-title="Test",Variant 11
+#EXTVLCOPT:http-referrer=https://thisnot.business/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=skd://ODI3MmJmNmJhNDZmMjNmOWRhNTl3MDA1N2I2ZTAyOGE6NzRhZTcwZGQxMGl0YmlzOGVkNmZmZTg0M2YzZTJjY2Q
+https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd|http={'Origin':'https://thisnot.business/','Referer':'https://thisnot.business/','User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36'}
 
-#EXT-X-STREAM-INF:BANDWIDTH=800000,NAME="Variant 12"
-#EXT-X-KEY:METHOD=SAMPLE-AES,URI="skd://ODI3MmJmNmJhNDZmMjNmOWRhNTl3MDA1N2I2ZTAyOGE6NzRhZTcwZGQxMGl0YmIzOGVkNmZmZTg0M2YzZTJjY2Q"
-https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd
+#EXTINF:-1 tvg-id="channel12" tvg-name="Variant 12" group-title="Test",Variant 12
+#EXTVLCOPT:http-referrer=https://thisnot.business/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=skd://ODI3MmJmNmJhNDZmMjNmOWRhNTl3MDA1N2I2ZTAyOGE6NzRhZTcwZGQxMGl0YmIzOGVkNmZmZTg0M2YzZTJjY2Q
+https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd|http={'Origin':'https://thisnot.business/','Referer':'https://thisnot.business/','User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36'}
 
-#EXT-X-STREAM-INF:BANDWIDTH=800000,NAME="Variant 13"
-#EXT-X-KEY:METHOD=SAMPLE-AES,URI="skd://ODI3MmJmNmJhNDZmMjNmOWRhNTl3MDA1N2l2ZTAyOGE6NzRhZTcwZGQxMGI0YmlzOGVkNmZmZTg0M2YzZTJjY2Q"
-https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd
+#EXTINF:-1 tvg-id="channel13" tvg-name="Variant 13" group-title="Test",Variant 13
+#EXTVLCOPT:http-referrer=https://thisnot.business/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=skd://ODI3MmJmNmJhNDZmMjNmOWRhNTl3MDA1N2l2ZTAyOGE6NzRhZTcwZGQxMGI0YmlzOGVkNmZmZTg0M2YzZTJjY2Q
+https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd|http={'Origin':'https://thisnot.business/','Referer':'https://thisnot.business/','User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36'}
 
-#EXT-X-STREAM-INF:BANDWIDTH=800000,NAME="Variant 14"
-#EXT-X-KEY:METHOD=SAMPLE-AES,URI="skd://ODI3MmJmNmJhNDZmMjNmOWRhNTl3MDA1N2l2ZTAyOGE6NzRhZTcwZGQxMGI0YmIzOGVkNmZmZTg0M2YzZTJjY2Q"
-https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd
+#EXTINF:-1 tvg-id="channel14" tvg-name="Variant 14" group-title="Test",Variant 14
+#EXTVLCOPT:http-referrer=https://thisnot.business/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=skd://ODI3MmJmNmJhNDZmMjNmOWRhNTl3MDA1N2l2ZTAyOGE6NzRhZTcwZGQxMGI0YmIzOGVkNmZmZTg0M2YzZTJjY2Q
+https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd|http={'Origin':'https://thisnot.business/','Referer':'https://thisnot.business/','User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36'}
 
-#EXT-X-STREAM-INF:BANDWIDTH=800000,NAME="Variant 15"
-#EXT-X-KEY:METHOD=SAMPLE-AES,URI="skd://ODI3MmJmNmJhNDZmMjNmOWRhNTl3MDA1N2l2ZTAyOGE6NzRhZTcwZGQxMGl0YmlzOGVkNmZmZTg0M2YzZTJjY2Q"
-https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd
+#EXTINF:-1 tvg-id="channel15" tvg-name="Variant 15" group-title="Test",Variant 15
+#EXTVLCOPT:http-referrer=https://thisnot.business/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=skd://ODI3MmJmNmJhNDZmMjNmOWRhNTl3MDA1N2l2ZTAyOGE6NzRhZTcwZGQxMGl0YmlzOGVkNmZmZTg0M2YzZTJjY2Q
+https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd|http={'Origin':'https://thisnot.business/','Referer':'https://thisnot.business/','User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36'}
 
-#EXT-X-STREAM-INF:BANDWIDTH=800000,NAME="Variant 16"
-#EXT-X-KEY:METHOD=SAMPLE-AES,URI="skd://ODI3MmJmNmJhNDZmMjNmOWRhNTl3MDA1N2l2ZTAyOGE6NzRhZTcwZGQxMGl0YmIzOGVkNmZmZTg0M2YzZTJjY2Q"
-https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd
+#EXTINF:-1 tvg-id="channel16" tvg-name="Variant 16" group-title="Test",Variant 16
+#EXTVLCOPT:http-referrer=https://thisnot.business/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=skd://ODI3MmJmNmJhNDZmMjNmOWRhNTl3MDA1N2l2ZTAyOGE6NzRhZTcwZGQxMGl0YmIzOGVkNmZmZTg0M2YzZTJjY2Q
+https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd|http={'Origin':'https://thisnot.business/','Referer':'https://thisnot.business/','User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36'}
 
-#EXT-X-STREAM-INF:BANDWIDTH=800000,NAME="Variant 17"
-#EXT-X-KEY:METHOD=SAMPLE-AES,URI="skd://ODl3MmJmNmJhNDZmMjNmOWRhNTI3MDA1N2I2ZTAyOGE6NzRhZTcwZGQxMGI0YmlzOGVkNmZmZTg0M2YzZTJjY2Q"
-https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd
+#EXTINF:-1 tvg-id="channel17" tvg-name="Variant 17" group-title="Test",Variant 17
+#EXTVLCOPT:http-referrer=https://thisnot.business/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=skd://ODl3MmJmNmJhNDZmMjNmOWRhNTI3MDA1N2I2ZTAyOGE6NzRhZTcwZGQxMGI0YmlzOGVkNmZmZTg0M2YzZTJjY2Q
+https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd|http={'Origin':'https://thisnot.business/','Referer':'https://thisnot.business/','User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36'}
 
-#EXT-X-STREAM-INF:BANDWIDTH=800000,NAME="Variant 18"
-#EXT-X-KEY:METHOD=SAMPLE-AES,URI="skd://ODl3MmJmNmJhNDZmMjNmOWRhNTI3MDA1N2I2ZTAyOGE6NzRhZTcwZGQxMGI0YmIzOGVkNmZmZTg0M2YzZTJjY2Q"
-https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd
+#EXTINF:-1 tvg-id="channel18" tvg-name="Variant 18" group-title="Test",Variant 18
+#EXTVLCOPT:http-referrer=https://thisnot.business/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=skd://ODl3MmJmNmJhNDZmMjNmOWRhNTI3MDA1N2I2ZTAyOGE6NzRhZTcwZGQxMGI0YmIzOGVkNmZmZTg0M2YzZTJjY2Q
+https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd|http={'Origin':'https://thisnot.business/','Referer':'https://thisnot.business/','User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36'}
 
-#EXT-X-STREAM-INF:BANDWIDTH=800000,NAME="Variant 19"
-#EXT-X-KEY:METHOD=SAMPLE-AES,URI="skd://ODl3MmJmNmJhNDZmMjNmOWRhNTI3MDA1N2I2ZTAyOGE6NzRhZTcwZGQxMGl0YmlzOGVkNmZmZTg0M2YzZTJjY2Q"
-https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd
+#EXTINF:-1 tvg-id="channel19" tvg-name="Variant 19" group-title="Test",Variant 19
+#EXTVLCOPT:http-referrer=https://thisnot.business/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=skd://ODl3MmJmNmJhNDZmMjNmOWRhNTI3MDA1N2I2ZTAyOGE6NzRhZTcwZGQxMGl0YmlzOGVkNmZmZTg0M2YzZTJjY2Q
+https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd|http={'Origin':'https://thisnot.business/','Referer':'https://thisnot.business/','User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36'}
 
-#EXT-X-STREAM-INF:BANDWIDTH=800000,NAME="Variant 20"
-#EXT-X-KEY:METHOD=SAMPLE-AES,URI="skd://ODl3MmJmNmJhNDZmMjNmOWRhNTI3MDA1N2I2ZTAyOGE6NzRhZTcwZGQxMGl0YmIzOGVkNmZmZTg0M2YzZTJjY2Q"
-https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd
+#EXTINF:-1 tvg-id="channel20" tvg-name="Variant 20" group-title="Test",Variant 20
+#EXTVLCOPT:http-referrer=https://thisnot.business/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=skd://ODl3MmJmNmJhNDZmMjNmOWRhNTI3MDA1N2I2ZTAyOGE6NzRhZTcwZGQxMGl0YmIzOGVkNmZmZTg0M2YzZTJjY2Q
+https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd|http={'Origin':'https://thisnot.business/','Referer':'https://thisnot.business/','User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0раво0 Safari/537.36'}
 
-#EXT-X-STREAM-INF:BANDWIDTH=800000,NAME="Variant 21"
-#EXT-X-KEY:METHOD=SAMPLE-AES,URI="skd://ODl3MmJmNmJhNDZmMjNmOWRhNTI3MDA1N2l2ZTAyOGE6NzRhZTcwZGQxMGI0YmlzOGVkNmZmZTg0M2YzZTJjY2Q"
-https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd
+#EXTINF:-1 tvg-id="channel21" tvg-name="Variant 21" group-title="Test",Variant 21
+#EXTVLCOPT:http-referrer=https://thisnot.business/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=skd://ODl3MmJmNmJhNDZmMjNmOWRhNTI3MDA1N2l2ZTAyOGE6NzRhZTcwZGQxMGI0YmlzOGVkNmZmZTg0M2YzZTJjY2Q
+https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd|http={'Origin':'https://thisnot.business/','Referer':'https://thisnot.business/','User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36'}
 
-#EXT-X-STREAM-INF:BANDWIDTH=800000,NAME="Variant 22"
-#EXT-X-KEY:METHOD=SAMPLE-AES,URI="skd://ODl3MmJmNmJhNDZmMjNmOWRhNTI3MDA1N2l2ZTAyOGE6NzRhZTcwZGQxMGI0YmIzOGVkNmZmZTg0M2YzZTJjY2Q"
-https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd
+#EXTINF:-1 tvg-id="channel22" tvg-name="Variant 22" group-title="Test",Variant 22
+#EXTVLCOPT:http-referrer=https://thisnot.business/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=skd://ODl3MmJmNmJhNDZmMjNmOWRhNTI3MDA1N2l2ZTAyOGE6NzRhZTcwZGQxMGI0YmIzOGVkNmZmZTg0M2YzZTJjY2Q
+https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd|http={'Origin':'https://thisnot.business/','Referer':'https://thisnot.business/','User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36'}
 
-#EXT-X-STREAM-INF:BANDWIDTH=800000,NAME="Variant 23"
-#EXT-X-KEY:METHOD=SAMPLE-AES,URI="skd://ODl3MmJmNmJhNDZmMjNmOWRhNTI3MDA1N2l2ZTAyOGE6NzRhZTcwZGQxMGl0YmlzOGVkNmZmZTg0M2YzZTJjY2Q"
-https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd
+#EXTINF:-1 tvg-id="channel23" tvg-name="Variant 23" group-title="Test",Variant 23
+#EXTVLCOPT:http-referrer=https://thisnot.business/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=skd://ODl3MmJmNmJhNDZmMjNmOWRhNTI3MDA1N2l2ZTAyOGE6NzRhZTcwZGQxMGl0YmlzOGVkNmZmZTg0M2YzZTJjY2Q
+https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd|http={'Origin':'https://thisnot.business/','Referer':'https://thisnot.business/','User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36'}
 
-#EXT-X-STREAM-INF:BANDWIDTH=800000,NAME="Variant 24"
-#EXT-X-KEY:METHOD=SAMPLE-AES,URI="skd://ODl3MmJmNmJhNDZmMjNmOWRhNTI3MDA1N2l2ZTAyOGE6NzRhZTcwZGQxMGl0YmIzOGVkNmZmZTg0M2YzZTJjY2Q"
-https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd
+#EXTINF:-1 tvg-id="channel24" tvg-name="Variant 24" group-title="Test",Variant 24
+#EXTVLCOPT:http-referrer=https://thisnot.business/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=skd://ODl3MmJmNmJhNDZmMjNmOWRhNTI3MDA1N2l2ZTAyOGE6NzRhZTcwZGQxMGl0YmIzOGVkNmZmZTg0M2YzZTJjY2Q
+https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd|http={'Origin':'https://thisnot.business/','Referer':'https://thisnot.business/','User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36'}
 
-#EXT-X-STREAM-INF:BANDWIDTH=800000,NAME="Variant 25"
-#EXT-X-KEY:METHOD=SAMPLE-AES,URI="skd://ODl3MmJmNmJhNDZmMjNmOWRhNTl3MDA1N2I2ZTAyOGE6NzRhZTcwZGQxMGI0YmlzOGVkNmZmZTg0M2YzZTJjY2Q"
-https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd
+#EXTINF:-1 tvg-id="channel25" tvg-name="Variant 25" group-title="Test",Variant 25
+#EXTVLCOPT:http-referrer=https://thisnot.business/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=skd://ODl3MmJmNmJhNDZmMjNmOWRhNTl3MDA1N2I2ZTAyOGE6NzRhZTcwZGQxMGI0YmlzOGVkNmZmZTg0M2YzZTJjY2Q
+https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd|http={'Origin':'https://thisnot.business/','Referer':'https://thisnot.business/','User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36'}
 
-#EXT-X-STREAM-INF:BANDWIDTH=800000,NAME="Variant 26"
-#EXT-X-KEY:METHOD=SAMPLE-AES,URI="skd://ODl3MmJmNmJhNDZmMjNmOWRhNTl3MDA1N2I2ZTAyOGE6NzRhZTcwZGQxMGI0YmIzOGVkNmZmZTg0M2YzZTJjY2Q"
-https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd
+#EXTINF:-1 tvg-id="channel26" tvg-name="Variant 26" group-title="Test",Variant 26
+#EXTVLCOPT:http-referrer=https://thisnot.business/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=skd://ODl3MmJmNmJhNDZmMjNmOWRhNTl3MDA1N2I2ZTAyOGE6NzRhZTcwZGQxMGI0YmIzOGVkNmZmZTg0M2YzZTJjY2Q
+https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd|http={'Origin':'https://thisnot.business/','Referer':'https://thisnot.business/','User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36'}
 
-#EXT-X-STREAM-INF:BANDWIDTH=800000,NAME="Variant 27"
-#EXT-X-KEY:METHOD=SAMPLE-AES,URI="skd://ODl3MmJmNmJhNDZmMjNmOWRhNTl3MDA1N2I2ZTAyOGE6NzRhZTcwZGQxMGl0YmlzOGVkNmZmZTg0M2YzZTJjY2Q"
-https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd
+#EXTINF:-1 tvg-id="channel27" tvg-name="Variant 27" group-title="Test",Variant 27
+#EXTVLCOPT:http-referrer=https://thisnot.business/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=skd://ODl3MmJmNmJhNDZmMjNmOWRhNTl3MDA1N2I2ZTAyOGE6NzRhZTcwZGQxMGl0YmlzOGVkNmZmZTg0M2YzZTJjY2Q
+https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd|http={'Origin':'https://thisnot.business/','Referer':'https://thisnot.business/','User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36'}
 
-#EXT-X-STREAM-INF:BANDWIDTH=800000,NAME="Variant 28"
-#EXT-X-KEY:METHOD=SAMPLE-AES,URI="skd://ODl3MmJmNmJhNDZmMjNmOWRhNTl3MDA1N2I2ZTAyOGE6NzRhZTcwZGQxMGl0YmIzOGVkNmZmZTg0M2YzZTJjY2Q"
-https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd
+#EXTINF:-1 tvg-id="channel28" tvg-name="Variant 28" group-title="Test",Variant 28
+#EXTVLCOPT:http-referrer=https://thisnot.business/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=skd://ODl3MmJmNmJhNDZmMjNmOWRhNTl3MDA1N2I2ZTAyOGE6NzRhZTcwZGQxMGl0YmIzOGVkNmZmZTg0M2YzZTJjY2Q
+https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd|http={'Origin':'https://thisnot.business/','Referer':'https://thisnot.business/','User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36'}
 
-#EXT-X-STREAM-INF:BANDWIDTH=800000,NAME="Variant 29"
-#EXT-X-KEY:METHOD=SAMPLE-AES,URI="skd://ODl3MmJmNmJhNDZmMjNmOWRhNTl3MDA1N2l2ZTAyOGE6NzRhZTcwZGQxMGI0YmlzOGVkNmZmZTg0M2YzZTJjY2Q"
-https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd
+#EXTINF:-1 tvg-id="channel29" tvg-name="Variant 29" group-title="Test",Variant 29
+#EXTVLCOPT:http-referrer=https://thisnot.business/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=skd://ODl3MmJmNmJhNDZmMjNmOWRhNTl3MDA1N2l2ZTAyOGE6NzRhZTcwZGQxMGI0YmlzOGVkNmZmZTg0M2YzZTJjY2Q
+https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd|http={'Origin':'https://thisnot.business/','Referer':'https://thisnot.business/','User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36'}
 
-#EXT-X-STREAM-INF:BANDWIDTH=800000,NAME="Variant 30"
-#EXT-X-KEY:METHOD=SAMPLE-AES,URI="skd://ODl3MmJmNmJhNDZmMjNmOWRhNTl3MDA1N2l2ZTAyOGE6NzRhZTcwZGQxMGI0YmIzOGVkNmZmZTg0M2YzZTJjY2Q"
-https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd
+#EXTINF:-1 tvg-id="channel30" tvg-name="Variant 30" group-title="Test",Variant 30
+#EXTVLCOPT:http-referrer=https://thisnot.business/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=skd://ODl3MmJmNmJhNDZmMjNmOWRhNTl3MDA1N2l2ZTAyOGE6NzRhZTcwZGQxMGI0YmIzOGVkNmZmZTg0M2YzZTJjY2Q
+https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd|http={'Origin':'https://thisnot.business/','Referer':'https://thisnot.business/','User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36'}
 
-#EXT-X-STREAM-INF:BANDWIDTH=800000,NAME="Variant 31"
-#EXT-X-KEY:METHOD=SAMPLE-AES,URI="skd://ODl3MmJmNmJhNDZmMjNmOWRhNTl3MDA1N2l2ZTAyOGE6NzRhZTcwZGQxMGl0YmlzOGVkNmZmZTg0M2YzZTJjY2Q"
-https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd
+#EXTINF:-1 tvg-id="channel31" tvg-name="Variant 31" group-title="Test",Variant 31
+#EXTVLCOPT:http-referrer=https://thisnot.business/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=skd://ODl3MmJmNmJhNDZmMjNmOWRhNTl3MDA1N2l2ZTAyOGE6NzRhZTcwZGQxMGl0YmlzOGVkNmZmZTg0M2YzZTJjY2Q
+https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd|http={'Origin':'https://thisnot.business/','Referer':'https://thisnot.business/','User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36'}
 
-#EXT-X-STREAM-INF:BANDWIDTH=800000,NAME="Variant 32"
-#EXT-X-KEY:METHOD=SAMPLE-AES,URI="skd://ODl3MmJmNmJhNDZmMjNmOWRhNTl3MDA1N2l2ZTAyOGE6NzRhZTcwZGQxMGl0YmIzOGVkNmZmZTg0M2YzZTJjY2Q"
-https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd
+#EXTINF:-1 tvg-id="channel32" tvg-name="Variant 32" group-title="Test",Variant 32
+#EXTVLCOPT:http-referrer=https://thisnot.business/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=skd://ODl3MmJmNmJhNDZmMjNmOWRhNTl3MDA1N2l2ZTAyOGE6NzRhZTcwZGQxMGl0YmIzOGVkNmZmZTg0M2YzZTJjY2Q
+https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd|http={'Origin':'https://thisnot.business/','Referer':'https://thisnot.business/','User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36'}
