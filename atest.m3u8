@@ -278,9 +278,7 @@ https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live
 #KODIPROP:http-header-User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
 https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd
 
-#EXTINF:-1 tvg-id="channel32" tvg
-
--name="Variant 32" group-title="Test",Variant 32
+#EXTINF:-1 tvg-id="channel32" tvg-name="Variant 32" group-title="Test",Variant 32
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=skd://ODl3MmJmNmJhNDZmMjNmOWRhNTl3MDA1N2l2ZTAyOGE6NzRhZTcwZGQxMGl0YmIzOGVkNmZmZTg0M2YzZTJjY2Q
