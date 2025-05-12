@@ -22,6 +22,9 @@
 
 ---
 
+[Guarda il live stream](https://example.com/stream.m3u8)
+
+
 ## 🛠️ Come iniziare
 
 Puoi usare la lista con qualsiasi app IPTV compatibile con link M3U.  
