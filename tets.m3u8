@@ -1,241 +1,654 @@
 #EXTM3U
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Aladdin" tvg-logo="https://upload.wikimedia.org/wikipedia/it/e/e1/Aladdinpesonaggio.JPG" group-title="Film",Aladdin
-https://files.catbox.moe/f3u1a4.m3u
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Aladdin 2" tvg-logo="https://upload.wikimedia.org/wikipedia/it/9/96/Aladdin_2.png" group-title="Film",Aladdin 2
-https://archive.org/download/film-animazione/Aladdin%20Saga.iso/Aladdin%202.webm
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Aladdin 3" tvg-logo="https://upload.wikimedia.org/wikipedia/it/e/ec/Saluk.jpg" group-title="Film",Aladdin 3
-https://archive.org/download/film-animazione/Aladdin%20Saga.iso/Aladdin%203.webm
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Raya e l'ultimo drago" tvg-logo="https://lordchannel.com/media/zDgV6rPCqAUDOtfKvvxExOiR2om_7lmlQAD.jpg" group-title="Film",Raya e l'ultimo drago
-https://cdn01.lordchannel.com/Film/Raya%20e%20l%27ultimo%20drago/Raya.E.L%27Ultimo.Drago.2021.m3u8
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Tom & Jerry" tvg-logo="https://lordchannel.com/media/8XZI9QZ7Pm3fVkigWJPbrXCMzjq_compressed.jpg" group-title="Film",Tom & Jerry
-https://cdn01.lordchannel.com/Film/Tom%20&%20Jerry%202021/Tom.m3u8
-#EXTINF:-1, tvg-id="Animazione" tvg-name="La ragazza che saltava nel tempo" tvg-logo="https://upload.wikimedia.org/wikipedia/it/9/9d/Ragazzachesaltava2006.png" group-title="Film",La ragazza che saltava nel tempo
-https://t.ly/721bm
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Hotarubi no Mori e" tvg-logo="https://static.zerochan.net/Hotarubi.no.Mori.e.full.2371927.jpg" group-title="Film",Hotarubi no Mori e
-https://t.ly/3DZr0
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Luca" tvg-logo="https://lordchannel.com/media/i2aZyRzbuIFcoTkGIYfmhycbrra_compressed.jpg" group-title="Film",Luca 
-https://cdn00.lordchannel.com//Film/Luca%202021/Luca.m3u8
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Tarzan" tvg-logo="https://upload.wikimedia.org/wikipedia/it/1/13/Tarzan_Disney_1999.jpg" group-title="Film",Tarzan 
-https://t.ly/3izVZ
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Tarzan 2 " tvg-logo="https://upload.wikimedia.org/wikipedia/it/c/c2/Tarzan_2.JPG" group-title="Film",Tarzan 2 
-https://archive.org/download/film-animazione/Tarzan%20Saga.iso/Tarzan%202.webm
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Tarzan 3" tvg-logo="https://upload.wikimedia.org/wikipedia/it/e/e2/Tarzanejane_gip.jpg" group-title="Film",Tarzan 3
-https://archive.org/download/film-animazione/Tarzan%20Saga.iso/Tarzan%20Jane.webm
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Il re leone" tvg-logo="https://upload.wikimedia.org/wikipedia/it/e/e2/Il_Re_Leone.png" group-title="Film",Il re leone
-https://t.ly/z4yhe
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Il re leone 2" tvg-logo="https://upload.wikimedia.org/wikipedia/it/a/a4/Re_Leone_2.jpg" group-title="Film",Il re leone 2
-https://t.ly/kulZm
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Il re leone 3" tvg-logo="https://upload.wikimedia.org/wikipedia/it/1/14/Re-Leone-3.jpg" group-title="Film",Il re leone 3
-https://t.ly/rbEiv
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Gli Incredibili" tvg-logo="https://upload.wikimedia.org/wikipedia/it/e/e7/Gli_Incredibili.jpg" group-title="Film",Gli Incredibili
-https://cdn03.lordchannel.com//Film/Gli%20incredibili%201/Gli%20Incredibili%20-%20Una%20normale%20famiglia%20di%20supereroi%20(2004).m3u8
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Gli Incredibili 2" tvg-logo="https://upload.wikimedia.org/wikipedia/it/3/38/Gli_Incredibili_2.jpg" group-title="Film",Gli Incredibili 2
-https://cdn02.lordchannel.com/Film/Gli%20incredibili%202/Gli.Incredibili.2.2018.m3u8
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Happy Feet" tvg-logo="https://upload.wikimedia.org/wikipedia/it/5/54/Happyfeet.jpg" group-title="Film",Happy Feet
-https://archive.org/download/film-animazione/Happy%20Feet%20Saga.iso/Happy%20Feet.webm
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Happy Feet 2" tvg-logo="https://upload.wikimedia.org/wikipedia/it/c/cb/Happy_Feet_2.png" group-title="Film",Happy Feet 2
-https://archive.org/download/film-animazione/Happy%20Feet%20Saga.iso/Happy%20Feet%202.webm
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Pokemon 20 - Scelgo Te!" tvg-logo="https://pad.mymovies.it/filmclub/2017/09/031/locandina.jpg" group-title="Film",Pokemon 20 - Scelgo Te! 
-https://t.ly/n3vUi
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Kono Sekai no Katasumi ni" tvg-logo="https://danbooru.donmai.us/data/sample/__urano_suzu_kono_sekai_no_katasumi_ni_drawn_by_hiranko__sample-e4e465890133950cd9034131e884a5a6.jpg" group-title="Film",Kono Sekai no Katasumi ni
-https://t.ly/FZvPx
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Wolf Children - Ame e Yuki i bambini lupo" tvg-logo="https://upload.wikimedia.org/wikipedia/it/9/98/Wolf_Children.jpg" group-title="Film",Wolf Children - Ame e Yuki i bambini lupo
-https://t.ly/ReoCQ
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Neon Genesis Evangelion: Death & Rebirth" tvg-logo="https://upload.wikimedia.org/wikipedia/it/d/d2/Deathrebirth.jpg" group-title="Film",Neon Genesis Evangelion: Death & Rebirth
-https://t.ly/ZVtEy
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Asterix e il segreto della pozione magica" tvg-logo="https://upload.wikimedia.org/wikipedia/it/7/79/Asterixeilsegretodellapozionemagica.jpg" group-title="Film",Asterix e il segreto della pozione magica
-https://t.ly/YaaXZ
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Princess Mononoke" tvg-logo="https://upload.wikimedia.org/wikipedia/it/4/45/Princess_Mononoke.png" group-title="Film",Princess Mononoke
-https://t.ly/CGwfM
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Paprika - Sognando un sogno" tvg-logo="https://upload.wikimedia.org/wikipedia/it/f/f6/Paprika_-_Sognando_un_sogno.png" group-title="Film",Paprika - Sognando un sogno
-https://t.ly/iVGi4
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Naruto: La via dei ninja" tvg-logo="https://www.animeclick.it/immagini/anime/Naruto_Shippuuden_Movie_6/cover/Naruto_Shippuuden_Movie_6-cover.jpg" group-title="Film",Naruto: La via dei ninja
-https://t.ly/fcmo-
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Naruto il film: La prigione insanguinata" tvg-logo="https://upload.wikimedia.org/wikipedia/it/e/e9/Naruto_-_La_prigione_insanguinata.png" group-title="Film",Naruto il film: La prigione insanguinata 
-https://t.ly/0SDYR
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Naruto Shippuden il film: La torre perduta" tvg-logo="http://www.narutogt.it/files/gallerie/utenti/usr-1790/Naruto%20Shippuden%204:%20The%20Lost%20Tower.jpg" group-title="Film",Naruto Shippuden il film: La torre perduta 
-https://t.ly/bxiGP
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Sword of the Stranger" tvg-logo="https://upload.wikimedia.org/wikipedia/en/b/b9/Sword_of_the_Stranger_poster.jpg" group-title="Film",Sword of the Stranger  
-https://t.ly/fBheb
-#EXTINF:-1, tvg-id="Animazione" tvg-name="The Boy and the Beast" tvg-logo="https://upload.wikimedia.org/wikipedia/en/c/c4/The_Boy_and_the_Beast_poster.jpg" group-title="Film",The Boy and the Beast
-https://t.ly/VzHXz
-#EXTINF:-1, tvg-id="Animazione" tvg-name="My Hero Academia The Movie" tvg-logo="https://upload.wikimedia.org/wikipedia/it/d/d0/MHA_Two_Heroes.jpg" group-title="Film",My Hero Academia The Movie
-https://t.ly/I5WOL
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Coco" tvg-logo="https://pad.mymovies.it/filmclub/2016/10/147/locandina.jpg" group-title="Film",Coco
-https://cdn03.lordchannel.com//Film/Coco%202017/Coco.m3u8
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Lupin III - The First" tvg-logo="https://upload.wikimedia.org/wikipedia/it/b/b6/Lupin_III_-_The_First.png" group-title="Film",Lupin III - The First
-https://t.ly/andBu
-#EXTINF:-1, tvg-id="Animazione" tvg-name="I Mitchell contro le macchine" tvg-logo="https://upload.wikimedia.org/wikipedia/it/3/35/Mitchell2021.png" group-title="Film",I Mitchell contro le macchine
-https://t.ly/g5nWA
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Dragon Ball Super Broly" tvg-logo="https://upload.wikimedia.org/wikipedia/it/1/19/Dragon_Ball_Super-Broly.png" group-title="Film",Dragon Ball Super Broly
-https://t.ly/jsYpX
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Soul" tvg-logo="https://lordchannel.com/media/kfuV1s3r6HoCFlWiv14HB041GWA.jpg" group-title="Film",Soul
-https://cdn00.lordchannel.com//Film/Soul%20(2020)/Soul.m3u8
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Vivo" tvg-logo="https://upload.wikimedia.org/wikipedia/it/9/95/Vivo2021.PNG" group-title="Film",Vivo
-https://t.ly/yJwGu
-#EXTINF:-1, tvg-id="Animazione" tvg-name="La famiglia Willoughby" tvg-logo="https://pad.mymovies.it/filmclub/2019/06/124/locandina.jpg" group-title="Film",La famiglia Willoughby
-https://t.ly/-je97
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Onward - Oltre la magia" tvg-logo="https://lordchannel.com/media/a52aYOgM6YVdZ9RAFdQhpMFn6Gq_compressed.jpg" group-title="Film",Onward - Oltre la magia
-https://cdn02.lordchannel.com/Film/Onward%20oltre%20la%20magia/Onward.Oltre.La.Magia.2020.m3u8
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Over the Moon - Il fantastico mondo di Lunaria" tvg-logo="https://pad.mymovies.it/filmclub/2020/06/144/locandina.jpg" group-title="Film",Over the Moon - Il fantastico mondo di Lunaria
-https://t.ly/H4ghX
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Frozen - Il regno di ghiaccio" tvg-logo="https://upload.wikimedia.org/wikipedia/it/7/71/Elsa%26Anna.png" group-title="Film",Frozen - Il regno di ghiaccio
-https://cdn03.lordchannel.com//Film/Frozen%20-%20Il%20regno%20di%20ghiaccio/Frozen-Ilregnodighiaccio.m3u8
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Frozen II - Il segreto di Arendelle" tvg-logo="https://upload.wikimedia.org/wikipedia/it/b/b3/Frozen2.png" group-title="Film",Frozen II - Il segreto di Arendelle
-https://cdn00.lordchannel.com//Film/Frozen%20II%202019/FrozenII.m3u8
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Spider-Man - Un nuovo universo" tvg-logo="https://lordchannel.com/media/ebiu13XGsOfMvIUPA2oSrpNtnqQ_6xgnU9C.jpg" group-title="Film",Spider-Man - Un nuovo universo
-https://cdn02.lordchannel.com/Film/Spider-Man%20Into%20the%20Spider-Verse%202018/Spider-ManIntotheSpider-Verse.m3u8
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Oceania" tvg-logo="https://lordchannel.com/media/vNJFiwtsl7Twww7C0uM4qPnygNw.jpg" group-title="Film",Oceania
-https://cdn00.lordchannel.com//Film/Oceania%20(2016)/Oceania.m3u8
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Ralph Spaccatutto" tvg-logo="https://upload.wikimedia.org/wikipedia/it/d/da/Ralph_Spaccatutto%2C_2012.jpg" group-title="Film",Ralph Spaccatutto
-https://cdn00.lordchannel.com//Film/Ralph%20Spaccatutto/Ralph%20Spaccatutto%20(2012).m3u8
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Ralph spacca Internet" tvg-logo="https://upload.wikimedia.org/wikipedia/it/e/ef/RalphBreaksInternet.png" group-title="Film",Ralph spacca Internet
-https://cdn01.lordchannel.com/Film/Ralph%20Spaccainternet/Ralph.Breaks.the.Internet.2018.m3u8
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Dragon Trainer" tvg-logo="https://upload.wikimedia.org/wikipedia/it/8/8f/Dragon_Trainer.jpg" group-title="Film",Dragon Trainer
-https://cdn01.lordchannel.com/Film/Dragon%20Trainer%201/DragonTrainer1.m3u8
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Dragon Trainer 2" tvg-logo="https://upload.wikimedia.org/wikipedia/it/5/5e/Dragontrainerilmonascosto.jpg" group-title="Film",Dragon Trainer 2
-https://cdn01.lordchannel.com/Film/Dragon%20Trainer%202/DragonTrainer2.m3u8
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Dragon Trainer - Il mondo nascosto" tvg-logo="https://upload.wikimedia.org/wikipedia/it/c/cc/Dragon_Trainer_2.png" group-title="Film",Dragon Trainer - Il mondo nascosto
-https://cdn00.lordchannel.com//Film/Dragon%20Trainer%203/DragonTrainer3.m3u8
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Toy Story - Il mondo dei giocattoli" tvg-logo="https://upload.wikimedia.org/wikipedia/it/e/e6/Toy_Story_Woody_e_Buzz.png" group-title="Film",Toy Story - Il mondo dei giocattoli
-https://cdn03.lordchannel.com//Film/Toy%20Story%20-%20Il%20mondo%20dei%20giocattoli%20(1995)/ToyStory-Ilmondodeigiocattoli.m3u8
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Toy Story 2 - Woody & Buzz alla riscossa" tvg-logo="https://upload.wikimedia.org/wikipedia/it/c/c0/Toy_Story_2.jpg" group-title="Film",Toy Story 2 - Woody & Buzz alla riscossa
-https://cdn00.lordchannel.com//Film/Toy%20Story%202%20-%20Woody%20e%20Buzz%20alla%20riscossa%20(1999)/ToyStory2-WoodyeBuzzallariscossa.m3u8
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Toy Story 3 - La grande fuga" tvg-logo="https://upload.wikimedia.org/wikipedia/it/a/a5/Toy_Story_3_screenshot.jpg" group-title="Film",Toy Story 3 - La grande fuga
-https://cdn01.lordchannel.com/Film/Toy%20Story%203%20-%20La%20grande%20fuga%20(2010)/ToyStory3-Lagrandefuga.m3u8
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Toy Story 4" tvg-logo="https://upload.wikimedia.org/wikipedia/it/7/7d/Toy_Story_4.jpg" group-title="Film",Toy Story 4
-https://cdn03.lordchannel.com//Film/Toy%20Story%204/ToyStory4.m3u8
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Minions" tvg-logo="https://upload.wikimedia.org/wikipedia/it/2/2e/Minions_film.jpg" group-title="Film",Minions
-https://cdn00.lordchannel.com//Film/Minions(2015)/Minions.m3u8
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Minions 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/ac/Minions_-_The_Rise_of_Gru_logo.svg" group-title="Film",Minions 2
-https://cdn02.lordchannel.com/Film/Minions%202%20Come%20Gru%20Diventa%20Cattivissimo%202022/Minions2ComeGruDiventaCattivissimo.m3u8
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Cattivissimo me" tvg-logo="https://upload.wikimedia.org/wikipedia/it/4/4b/Cattivissimo_me.jpg" group-title="Film",Cattivissimo me
-https://t.ly/aPIF2
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Cattivissimo me 2" tvg-logo="https://upload.wikimedia.org/wikipedia/it/2/23/Cattivissimo_me_2.jpeg" group-title="Film",Cattivissimo me 2
-https://t.ly/m70iI
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Cattivissimo me 3" tvg-logo="https://upload.wikimedia.org/wikipedia/it/2/2d/Cattivissimo_me_3.jpg" group-title="Film",Cattivissimo me 3
-https://t.ly/CLmEg
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Zootropolis" tvg-logo="https://lordchannel.com/media/sM33SANp9z6rXW8Itn7NnG1GOEs.jpg" group-title="Film",Zootropolis
-https://cdn03.lordchannel.com//Film/Zootropolis%202016/Zootropolis.m3u8
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Cars - Motori ruggenti" tvg-logo="https://upload.wikimedia.org/wikipedia/it/9/90/Cars_-_Motori_ruggenti.png" group-title="Film",Cars - Motori ruggenti
-https://cdn00.lordchannel.com//Film/Cars%201%20-%20Motori%20ruggenti%20(2006)%201080p%20H264/Cars1-MotoriruggentipH264.m3u8
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Cars 2" tvg-logo="https://upload.wikimedia.org/wikipedia/it/b/b0/Cars_2.jpg" group-title="Film",Cars 2
-https://cdn00.lordchannel.com//Film/Cars%202%20(2011)%201080p%20H264/Cars2pH264.m3u8
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Cars 3" tvg-logo="https://upload.wikimedia.org/wikipedia/it/7/76/Cars3.png" group-title="Film",Cars 3
-https://cdn02.lordchannel.com/Film/Cars%203%20(2017)%201080p%20H264/Cars3pH264.m3u8
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Big Hero 6" tvg-logo="https://lordchannel.com/media/jB4QjcilHeKnlhA5xRuHPEDGGTN.jpg" group-title="Film",Big Hero 6
-https://cdn03.lordchannel.com//Film/Big%20Hero%206%20(2014)/BigHero6.m3u8
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Alla ricerca di Nemo" tvg-logo="https://upload.wikimedia.org/wikipedia/it/6/65/Alla_ricerca_di_Nemo.jpg" group-title="Film",Alla ricerca di Nemo
-https://cdn03.lordchannel.com//Film/Alla%20ricerca%20di%20Nemo%20(2003)/AllaricercadiNemo.m3u8
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Alla ricerca di Dory" tvg-logo="https://upload.wikimedia.org/wikipedia/it/e/ed/Alla_ricerca_di_Dory.jpg" group-title="Film",Alla ricerca di Dory
-https://cdn00.lordchannel.com//Film/Alla%20ricerca%20di%20Dory%20(2016)/AllaricercadiDory.m3u8
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Monsters University" tvg-logo="https://upload.wikimedia.org/wikipedia/it/0/0c/Mike_e_Sulley_in_Monsters_University.jpg" group-title="Film",Monsters University
-https://cdn00.lordchannel.com//Film/Monsters%20University%20(2013)/MonstersUniversity.m3u8
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Monsters & Co." tvg-logo="https://upload.wikimedia.org/wikipedia/it/0/0c/Monsters_Co.jpg" group-title="Film",Monsters & Co.
-https://cdn03.lordchannel.com//Film/Monsters%20e%20Co%20%20(2001)/MonsterseCo.m3u8
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Hotel Transylvania" tvg-logo="https://upload.wikimedia.org/wikipedia/it/4/4d/Hotel_transylvania.jpeg" group-title="Film",Hotel Transylvania
-https://cdn01.lordchannel.com/Film/Hotel%20Transylvania%20(2012)/HotelTransylvania.m3u8
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Hotel Transylvania 2" tvg-logo="https://upload.wikimedia.org/wikipedia/it/5/54/Hotel_Transylvania_2.png" group-title="Film",Hotel Transylvania 2
-https://cdn00.lordchannel.com//Film/Hotel%20Transylvania%202%202015/HotelTransylvania5.m3u8
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Hotel Transylvania 3 - Una vacanza mostruosa" tvg-logo="https://upload.wikimedia.org/wikipedia/it/5/51/Hotel_Transylvania_3_-_Una_vacanza_mostruosa.jpeg" group-title="Film",Hotel Transylvania 3 - Una vacanza mostruosa
-https://cdn01.lordchannel.com/Film/Hotel%20Transylvania%203/Hotel.Transylvania.3-Una.Vacanza.Mostruosa.2018.m3u8
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Hotel Transylvania 4 - Uno scambio mostruoso" tvg-logo="https://upload.wikimedia.org/wikipedia/it/f/fe/HotelTransylvaniaUnoScambioMostruoso.png" group-title="Film",Hotel Transylvania 4 - Uno scambio mostruoso
-https://cdn00.lordchannel.com//Film/Hotel%20Transylvania%204%20Uno%20Scambio%20Mostruoso%202022/HotelTransylvania4UnoScambioMostruoso.m3u8
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Ribelle - The Brave" tvg-logo="https://lordchannel.com/media/1XAuDtMWpL0sYSFK0R6EZate2Ux.jpg" group-title="Film",Ribelle - The Brave
-https://cdn01.lordchannel.com/Film/Rebelle%20Brave%202012/RebelleBrave.m3u8
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Rapunzel - L'intreccio della torre" tvg-logo="https://lordchannel.com/media/722788f5a0c9c08a.jpg" group-title="Film",Rapunzel - L'intreccio della torre
-https://cdn00.lordchannel.com//Film/Rapunzel%20e%20l%27intreccio%20della%20torre/Rapunzel%20-%20L%20intreccio%20della%20torre%20(2010).m3u8
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Le 5 leggende" tvg-logo="https://www.unwritten.cloud/images/2/3e1bdf8a-7bfe-4855-bdbd-a05d592e5efc.jpg" group-title="Film",Le 5 leggende
-https://t.ly/ZbKlY
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Kung Fu Panda" tvg-logo="https://upload.wikimedia.org/wikipedia/it/2/26/KungFuPanda.png" group-title="Film",Kung Fu Panda
-https://cdn02.lordchannel.com/Film/Kung%20Fu%20Panda/KungFuPanda.m3u8
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Kung Fu Panda 2" tvg-logo="https://upload.wikimedia.org/wikipedia/it/a/a2/Kung_Fu_Panda_2.png" group-title="Film",Kung Fu Panda 2
-https://cdn01.lordchannel.com/Film/Kung%20Fu%20Panda%202/KungFuPanda2.m3u8
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Kung Fu Panda 3" tvg-logo="https://upload.wikimedia.org/wikipedia/it/6/6d/KungFuPanda3.png" group-title="Film",Kung Fu Panda 3
-https://cdn02.lordchannel.com/Film/Kung%20Fu%20Panda%203/KungFuPanda3.m3u8
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Up" tvg-logo="https://lordchannel.com/media/rIfKIYMbwVlnAXOOaQRsm34GW3S.jpg" group-title="Film",Up
-https://cdn02.lordchannel.com/Film/Up%20(2009)/Up.m3u8
-#EXTINF:-1, tvg-id="Animazione" tvg-name="La principessa e il ranocchio" tvg-logo="https://upload.wikimedia.org/wikipedia/it/a/ae/PrincessandtheFrog.png" group-title="Film",La principessa e il ranocchio
-https://t.ly/d0vAR
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Megamind" tvg-logo="https://lordchannel.com/media/uZ9ytt3sPTx62XTfN56ILSuYWRe.jpg" group-title="Film",Megamind
-https://cdn02.lordchannel.com/Film/Megamind/Megamind.m3u8
-#EXTINF:-1, tvg-id="Animazione" tvg-name="L'era glaciale" tvg-logo="https://upload.wikimedia.org/wikipedia/it/5/51/Eraglaciale-2002-trio.png" group-title="Film",L'era glaciale
-https://t.ly/XKCJj
-#EXTINF:-1, tvg-id="Animazione" tvg-name="L'era glaciale 2 - Il disgelo" tvg-logo="https://upload.wikimedia.org/wikipedia/it/a/a4/Eraglaciale2-2006.png" group-title="Film",L'era glaciale 2 - Il disgelo
-https://t.ly/rgI-M
-#EXTINF:-1, tvg-id="Animazione" tvg-name="L'era glaciale 3 - L'alba dei dinosauri" tvg-logo="https://upload.wikimedia.org/wikipedia/it/e/e3/L_Era_Glaciale_3_Era_dei_dinosauri.jpg" group-title="Film",L'era glaciale 3 - L'alba dei dinosauri
-https://t.ly/ISPIG
-#EXTINF:-1, tvg-id="Animazione" tvg-name="L'era glaciale 4 - Continenti alla deriva" tvg-logo="https://upload.wikimedia.org/wikipedia/it/0/07/L%27era_glaciale_4.png" group-title="Film",L'era glaciale 4 - Continenti alla deriva
-https://t.ly/xXAE4
-#EXTINF:-1, tvg-id="Animazione" tvg-name="L'era glaciale - In rotta di collisione" tvg-logo="https://upload.wikimedia.org/wikipedia/it/1/11/L%27era_glaciale_-_In_rotta_di_collisione.png" group-title="Film",L'era glaciale - In rotta di collisione
-https://t.ly/co3x6
-#EXTINF:-1, tvg-id="Animazione" tvg-name="L'era glaciale - Le avventure di Buck" tvg-logo="https://upload.wikimedia.org/wikipedia/it/6/69/L%27era_glaciale_-_Le_avventure_di_Buck.png" group-title="Film",L'era glaciale - Le avventure di Buck
-https://t.ly/ixu7F
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Lilo & Stitch" tvg-logo="https://upload.wikimedia.org/wikipedia/it/6/62/Lilo%26Stitch.png" group-title="Film",Lilo & Stitch
-https://cdn00.lordchannel.com//Film/Lilo%20e%20Stitch%201/Lilo%20e%20Stitch%20(2002).m3u8
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Lilo & Stitch 2 - Che disastro, Stitch!" tvg-logo="https://upload.wikimedia.org/wikipedia/it/9/91/Lilo_%26_Stitch_2.png" group-title="Film",Lilo & Stitch 2 - Che disastro, Stitch!
-https://t.ly/efMI8
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Coraline e la porta magica" tvg-logo="https://upload.wikimedia.org/wikipedia/it/0/0f/Coraline_e_la_porta_magica.jpg" group-title="Film",Coraline e la porta magica
-https://t.ly/qkXV0
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Shrek" tvg-logo="https://upload.wikimedia.org/wikipedia/it/5/55/Donkey-and-Shrek.png" group-title="Film",Shrek
-https://cdn03.lordchannel.com//Film/Shrek%20(2001)/Shrek.m3u8
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Shrek 2" tvg-logo="https://upload.wikimedia.org/wikipedia/it/f/ff/Shrek_2.jpg" group-title="Film",Shrek 2
-https://cdn03.lordchannel.com//Film/Shrek%202%20(2004)/Shrek2.m3u8
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Shrek terzo" tvg-logo="https://upload.wikimedia.org/wikipedia/it/7/7b/Shrek_terzo.png" group-title="Film",Shrek terzo
-https://cdn00.lordchannel.com//Film/Shrek%20terzo%20(2007)/Shrekterzo.m3u8
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Shrek e vissero felici e contenti" tvg-logo="https://upload.wikimedia.org/wikipedia/it/2/22/Shrek_e_vissero_felici_e_contenti.jpg" group-title="Film",Shrek e vissero felici e contenti
-https://cdn02.lordchannel.com/Film/Shrek%20e%20vissero%20felici%20e%20contenti%20(2010)/Shrekevisserofeliciecontenti.m3u8
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Piovono polpette" tvg-logo="https://upload.wikimedia.org/wikipedia/it/1/1e/Piovono_polpette.jpg" group-title="Film",Piovono polpette
-https://t.ly/hMQye
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Piovono polpette 2 - La rivincita degli avanzi" tvg-logo="https://upload.wikimedia.org/wikipedia/it/9/90/Cloudy_with_a_Chance_of_Meatballs_2.png" group-title="Film",Piovono polpette 2 - La rivincita degli avanzi
-https://t.ly/9MZ4m
-#EXTINF:-1, tvg-id="Animazione" tvg-name="I Puffi" tvg-logo="https://upload.wikimedia.org/wikipedia/it/7/79/I_Puffi_3d.png" group-title="Film",I Puffi
-https://t.ly/RPpX2
-#EXTINF:-1, tvg-id="Animazione" tvg-name="I Puffi 2" tvg-logo="https://upload.wikimedia.org/wikipedia/it/b/b4/I_Puffi_2.png" group-title="Film",I Puffi 2
-https://t.ly/z11LH
-#EXTINF:-1, tvg-id="Animazione" tvg-name="I Puffi 3" tvg-logo="https://upload.wikimedia.org/wikipedia/it/0/01/I_Puffi_-_Viaggio_nella_foresta_segreta.png" group-title="Film",I Puffi 3
-https://t.ly/IohTk
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Il gigante di ferro" tvg-logo="https://lordchannel.com/media/il-gigante-di-ferro-1hl57drrr_wSS6l5P.jpg" group-title="Film",Il gigante di ferro
-https://cdn00.lordchannel.com//Film/Il%20Gigante%20Di%20Ferro%201999/IlGiganteDiFerro.m3u8
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Mr. Peabody e Sherman" tvg-logo="https://upload.wikimedia.org/wikipedia/it/3/37/Mr_Peabody_e_Sherman_film_2014.JPG" group-title="Film",Mr. Peabody e Sherman
-https://t.ly/3ldUu
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Astro Boy" tvg-logo="https://upload.wikimedia.org/wikipedia/it/7/78/Astro_Boy_copertina.jpg" group-title="Film",Astro Boy
-https://t.ly/8y8MZ
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Bee Movie" tvg-logo="https://upload.wikimedia.org/wikipedia/it/c/ce/Bee_Movie_DVD.png" group-title="Film",Bee Movie
-https://t.ly/OngvP
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Ratatouille" tvg-logo="https://lordchannel.com/media/npHNjldbeTHdKKw28bJKs7lzqzj.jpg" group-title="Film",Ratatouille
-https://cdn01.lordchannel.com/Film/Ratatouille%20(2007)/Ratatouille.m3u8
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Monster House" tvg-logo="https://upload.wikimedia.org/wikipedia/it/8/8d/Monster_House.jpg" group-title="Film",Monster House
-https://t.ly/Pkm1q
-#EXTINF:-1, tvg-id="Animazione" tvg-name="La sposa cadavere" tvg-logo="https://lordchannel.com/media/bd0cbebf4c05adb51290cb08c98349a3cfd0b6f9_s2_n2.jpg" group-title="Film",La sposa cadavere
-https://cdn00.lordchannel.com//Film/La%20sposa%20cadavere/Lasposacadavere.m3u8
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Spirit - Cavallo selvaggio" tvg-logo="https://upload.wikimedia.org/wikipedia/it/d/df/Spirit_Cavallo_selvaggio.jpg" group-title="Film",Spirit - Cavallo selvaggio
-https://t.ly/pW_qx
-#EXTINF:-1, tvg-id="Animazione" tvg-name="La spada magica - Alla ricerca di Camelot" tvg-logo="https://upload.wikimedia.org/wikipedia/it/f/f2/La_spada_magica_-_Alla_ricerca_di_Camelot.jpg" group-title="Film",La spada magica - Alla ricerca di Camelot
-https://t.ly/5l9pi
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Hercules" tvg-logo="https://lordchannel.com/media/tzoKq20x36urYDxS2t3bAM7NsBq_vpYRyYt.jpg" group-title="Film",Hercules
-https://cdn00.lordchannel.com//Film/Hercules%20(1997)/Hercules.m3u8
-#EXTINF:-1, tvg-id="Animazione" tvg-name="La strada per El Dorado" tvg-logo="https://lordchannel.com/media/ip5MgTU8qpsFcmlgjcSlXXAwTRB.jpg" group-title="Film",La strada per El Dorado
-https://cdn03.lordchannel.com//Film/La%20strada%20per%20El%20Dorado%20(2000)/LastradaperElDorado.m3u8
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Il gobbo di Notre Dame" tvg-logo="https://lordchannel.com/media/ssssssswww.jpg.png" group-title="Film",Il gobbo di Notre Dame
-https://cdn02.lordchannel.com/Film/Il%20gobbo%20di%20Notre%20Dame%20(1996)/IlgobbodiNotreDame.m3u8
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Mulan" tvg-logo="https://upload.wikimedia.org/wikipedia/it/5/55/Mulan.png" group-title="Film",Mulan
-https://t.ly/lyh9C
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Next Gen" tvg-logo="https://upload.wikimedia.org/wikipedia/it/5/52/Next_Gen.png" group-title="Film",Next Gen
-https://t.ly/i-kU6
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Baby Boss" tvg-logo="https://upload.wikimedia.org/wikipedia/it/7/7e/Baby_Boss.jpg" group-title="Film",Baby Boss
-https://cdn02.lordchannel.com/Film/Baby%20Boss%202017/BabyBoss.m3u8
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Baby Boss 2" tvg-logo="https://upload.wikimedia.org/wikipedia/it/a/aa/Babyboss2.png" group-title="Film",Baby Boss 2
-https://cdn01.lordchannel.com/Film/Baby%20Boss%202%20-%20Affari%20Di%20Famiglia%20(2021)/BabyBoss2-AffariDiFamiglia.m3u8
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Inside Out" tvg-logo="https://lordchannel.com/media/2H1TmgdfNtsKlU9jKdeNyYL5y8T.jpg" group-title="Film",Inside Out
-https://cdn01.lordchannel.com/Film/Inside%20Out%201080p/InsideOutp.m3u8
-#EXTINF:-1, tvg-id="Animazione" tvg-name="I pinguini di Madagascar" tvg-logo="https://upload.wikimedia.org/wikipedia/it/c/c3/I_pinguini_di_Madagascar.png" group-title="Film",I pinguini di Madagascar
-https://t.ly/ESlL_
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Turbo" tvg-logo="https://upload.wikimedia.org/wikipedia/it/b/b6/Turbo.png" group-title="Film",Turbo
-https://t.ly/h0tzH
-#EXTINF:-1, tvg-id="Animazione" tvg-name="I Croods" tvg-logo="https://upload.wikimedia.org/wikipedia/it/c/c6/Croods.png" group-title="Film",I Croods
-https://t.ly/EKqod
-#EXTINF:-1, tvg-id="Animazione" tvg-name="I Croods 2" tvg-logo="https://upload.wikimedia.org/wikipedia/it/5/54/I_Croods_2.jpg" group-title="Film",I Croods 2
-https://t.ly/hrNiW
-#EXTINF:-1, tvg-id="Animazione" tvg-name="Trash - La leggenda della piramide magica" tvg-logo="https://upload.wikimedia.org/wikipedia/it/4/4f/Trash_La_leggenda_della_piramide_magica.png" group-title="Film",Trash - La leggenda della piramide magica
-https://t.ly/3ccHA
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/28714.mkv
+#EXTINF:0 CUID="4383" tvg-name="IT:10 giorni senza mamma" tvg-logo="http://mu03.wanicelife.com:8880/images/rIz4XmEjYQHyzovwx1v80YOioqf_small.jpg" group-title="Italy",IT:10 giorni senza mamma
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40516.mp4
+#EXTINF:0 CUID="4384" tvg-name="IT:100 Streets" tvg-logo="http://mu03.wanicelife.com:8880/images/ouOIaLg5AMHw9o9mOhlbCTq1PML_small.jpg" group-title="Italy",IT:100 Streets
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40517.mp4
+#EXTINF:0 CUID="4385" tvg-name="IT:17 Anni (e Come Uscirne Vivi)" tvg-logo="http://mu03.wanicelife.com:8880/images/utv34NRNufLyGOstCLsLQGsAvAZ_small.jpg" group-title="Italy",IT:17 Anni (e Come Uscirne Vivi)
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40518.mp4
+#EXTINF:0 CUID="4386" tvg-name="IT:3 Generations Una Famiglia Quasi Perfetta" tvg-logo="http://mu03.wanicelife.com:8880/images/xUFYbdHgm4W8kVlkRmVN5HB7ZgS_small.jpg" group-title="Italy",IT:3 Generations Una Famiglia Quasi Perfetta
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40519.mp4
+#EXTINF:0 CUID="4387" tvg-name="IT:Absolutely Fabulous:il Film" group-title="Italy",IT:Absolutely Fabulous:il Film
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40521.mp4
+#EXTINF:0 CUID="4388" tvg-name="IT:Aglien" tvg-logo="http://mu03.wanicelife.com:8880/images/oAn80HlSNpd0DFDA8yzVgZdUEug_small.jpg" group-title="Italy",IT:Aglien
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40522.mp4
+#EXTINF:0 CUID="4389" tvg-name="IT:Aiuto Ho Ristretto La Prof!" tvg-logo="http://mu03.wanicelife.com:8880/images/n4Wce89sp7wYQiFFT64WPafPgE7_small.jpg" group-title="Italy",IT:Aiuto Ho Ristretto La Prof!
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40523.mp4
+#EXTINF:0 CUID="4390" tvg-name="IT:Al Posto Tuo" tvg-logo="http://mu03.wanicelife.com:8880/images/7syFIdiS89bk1RwS0yq0cvt6S31_small.jpg" group-title="Italy",IT:Al Posto Tuo
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40524.mp4
+#EXTINF:0 CUID="4391" tvg-name="IT:Ali & Nino" tvg-logo="http://mu03.wanicelife.com:8880/images/iVkAzZZhTivIzEg2JTgliMCZMZ0_small.jpg" group-title="Italy",IT:Ali & Nino
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40525.mp4
+#EXTINF:0 CUID="4392" tvg-name="IT:Alien Covenant" tvg-logo="http://mu03.wanicelife.com:8880/images/pQu8zDVLmfnXKIQ4oyscd7ihp1b_small.jpg" group-title="Italy",IT:Alien Covenant
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40526.mp4
+#EXTINF:0 CUID="4393" tvg-name="IT:Alita - Angelo della battaglia" tvg-logo="http://mu03.wanicelife.com:8880/images/bWOmzd1pUkSsP2efOtiocN9YUQq_small.jpg" group-title="Italy",IT:Alita - Angelo della battaglia
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40527.mp4
+#EXTINF:0 CUID="4394" tvg-name="IT:Almost Christmas–vacanze In Famiglia" tvg-logo="http://mu03.wanicelife.com:8880/images/7bRSm7ZWqDYI0pGYx5Av7lo1Jrb_small.jpg" group-title="Italy",IT:Almost Christmas–vacanze In Famiglia
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40528.mp4
+#EXTINF:0 CUID="4395" tvg-name="IT:Amore E Inganni" tvg-logo="http://mu03.wanicelife.com:8880/images/wA7WllHjCBzucA8ETHM2gJdXIfz_small.jpg" group-title="Italy",IT:Amore E Inganni
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40529.mp4
+#EXTINF:0 CUID="4396" tvg-name="IT:Amore Mio" tvg-logo="http://mu03.wanicelife.com:8880/images/6z7RtcOD3ef0n2yYuGxRnjvusDs_small.jpg" group-title="Italy",IT:Amore Mio
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40530.mp4
+#EXTINF:0 CUID="4397" tvg-name="IT:Animali Fantastici E Dove Trovarli" tvg-logo="http://mu03.wanicelife.com:8880/images/1xasTpFXxP92eLbMV1DZJXw54mw_small.jpg" group-title="Italy",IT:Animali Fantastici E Dove Trovarli
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40531.mp4
+#EXTINF:0 CUID="4398" tvg-name="IT:Arès" tvg-logo="http://mu03.wanicelife.com:8880/images/TXUa7CWwRDYLj0xfWrkdc4zmuq_small.jpg" group-title="Italy",IT:Arès
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40534.mp4
+#EXTINF:0 CUID="4399" tvg-name="IT:Armando Maradona" tvg-logo="http://mu03.wanicelife.com:8880/images/_small.jpg" group-title="Italy",IT:Armando Maradona
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40532.mp4
+#EXTINF:0 CUID="4400" tvg-name="IT:Arsenal Hd" group-title="Italy",IT:Arsenal Hd
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40533.mp4
+#EXTINF:0 CUID="4401" tvg-name="IT:Ashby Una Spia Per Amico" tvg-logo="http://mu03.wanicelife.com:8880/images/o4gaHLrCIC2rHNxdsfYX427ZVYI_small.jpg" group-title="Italy",IT:Ashby Una Spia Per Amico
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40535.mp4
+#EXTINF:0 CUID="4402" tvg-name="IT:Asino Vola" tvg-logo="http://mu03.wanicelife.com:8880/images/iPtPw6bXAUuH2ZZma4IZiXJGWnU_small.jpg" group-title="Italy",IT:Asino Vola
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40536.mp4
+#EXTINF:0 CUID="4403" tvg-name="IT:Asterix Alle Olimpiadi" tvg-logo="http://mu03.wanicelife.com:8880/images/oi00gZ2DN2vSQFkXFYZykhsG3n_small.jpg" group-title="Italy",IT:Asterix Alle Olimpiadi
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40537.mp4
+#EXTINF:0 CUID="4404" tvg-name="IT:Attesa e cambiamenti" tvg-logo="http://mu03.wanicelife.com:8880/images/iqG7Q9YtVyv0CFoSxVQZZCbF702_small.jpg" group-title="Italy",IT:Attesa e cambiamenti
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40538.mp4
+#EXTINF:0 CUID="4405" tvg-name="IT:Autobahn:fuori Controllo" group-title="Italy",IT:Autobahn:fuori Controllo
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40539.mp4
+#EXTINF:0 CUID="4406" tvg-name="IT:Babbo Bastardo 2 (bad Santa 2) Ita" group-title="Italy",IT:Babbo Bastardo 2 (bad Santa 2) Ita
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40540.mp4
+#EXTINF:0 CUID="4407" tvg-name="IT:Babbo Natale Non Viene Da Nord" tvg-logo="http://mu03.wanicelife.com:8880/images/oF6rQp2dmaD4fqYCdfb6D9XKdla_small.jpg" group-title="Italy",IT:Babbo Natale Non Viene Da Nord
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40541.mp4
+#EXTINF:0 CUID="4408" tvg-name="IT:Baby Boss" tvg-logo="http://mu03.wanicelife.com:8880/images/9mrT3LHqhEzqAA3s2MRWkvgSyXr_small.jpg" group-title="Italy",IT:Baby Boss
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40542.mp4
+#EXTINF:0 CUID="4409" tvg-name="IT:Backtrack" tvg-logo="http://mu03.wanicelife.com:8880/images/aloSdlIQeToCVrW0nyZylOxywXn_small.jpg" group-title="Italy",IT:Backtrack
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40543.mp4
+#EXTINF:0 CUID="4410" tvg-name="IT:Bad Moms: Mamme Molto Cattive" tvg-logo="http://mu03.wanicelife.com:8880/images/hOF6uBW8oBbjLVignrfpRn8wmUo_small.jpg" group-title="Italy",IT:Bad Moms: Mamme Molto Cattive
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40544.mp4
+#EXTINF:0 CUID="4411" tvg-name="IT:Balle Spaziali" tvg-logo="http://mu03.wanicelife.com:8880/images/jvNtIkL3nFMpyLN4QCS42Wp0lti_small.jpg" group-title="Italy",IT:Balle Spaziali
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40545.mp4
+#EXTINF:0 CUID="4412" tvg-name="IT:Ballerina" tvg-logo="http://mu03.wanicelife.com:8880/images/iIRwz6zp2btXXzYNpTyhBzVXm6c_small.jpg" group-title="Italy",IT:Ballerina
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40546.mp4
+#EXTINF:0 CUID="4413" tvg-name="IT:Banana Joe" tvg-logo="http://mu03.wanicelife.com:8880/images/jwGmvZT2TzYQvzyDDnyUC1y8uQ2_small.jpg" group-title="Italy",IT:Banana Joe
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40547.mp4
+#EXTINF:0 CUID="4414" tvg-name="IT:Banat (il Viaggio)" tvg-logo="http://mu03.wanicelife.com:8880/images/cPBqdqdKsaiEGyX6djq3Ux1GLUS_small.jpg" group-title="Italy",IT:Banat (il Viaggio)
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40548.mp4
+#EXTINF:0 CUID="4415" tvg-name="IT:Bastille Day Il Colpo Del Secolo" tvg-logo="http://mu03.wanicelife.com:8880/images/ud1tQlQ7Y3bHKsQZs9drabzoQM7_small.jpg" group-title="Italy",IT:Bastille Day Il Colpo Del Secolo
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40549.mp4
+#EXTINF:0 CUID="4416" tvg-name="IT:Baywatch" tvg-logo="http://mu03.wanicelife.com:8880/images/4MsNxTKqriUTyhaKJvJZAMIDkpk_small.jpg" group-title="Italy",IT:Baywatch
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40550.mp4
+#EXTINF:0 CUID="4417" tvg-name="IT:Beata Ignoranza" tvg-logo="http://mu03.wanicelife.com:8880/images/sWfDI846sIGZCqQk3xp51R0bMTX_small.jpg" group-title="Italy",IT:Beata Ignoranza
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40551.mp4
+#EXTINF:0 CUID="4418" tvg-name="IT:Beta Test" tvg-logo="http://mu03.wanicelife.com:8880/images/9lvcWpo7na9nxW3FMyIQoc2tmdQ_small.jpg" group-title="Italy",IT:Beta Test
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40552.mp4
+#EXTINF:0 CUID="4419" tvg-name="IT:Bianca&Grey e la pozione magica" tvg-logo="http://mu03.wanicelife.com:8880/images/y2Qo5sOnO2FhJb180QcdA1wwGK0_small.jpg" group-title="Italy",IT:Bianca&Grey e la pozione magica
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40553.mp4
+#EXTINF:0 CUID="4420" tvg-name="IT:Bianconeri Juventus Story Ita" group-title="Italy",IT:Bianconeri Juventus Story Ita
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40554.mp4
+#EXTINF:0 CUID="4421" tvg-name="IT:Big Fat Liar 2 Una bugia ancora più grossa a Seattle" tvg-logo="http://mu03.wanicelife.com:8880/images/j6jMDEIebIHpZKePOZzhlEDeROW_small.jpg" group-title="Italy",IT:Big Fat Liar 2 Una bugia ancora più grossa a Seattle
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40555.mp4
+#EXTINF:0 CUID="4422" tvg-name="IT:Billy Lynn Un giorno da eroe" tvg-logo="http://mu03.wanicelife.com:8880/images/AunTqDAg6F1GJKV0aqUhGZK8rNT_small.jpg" group-title="Italy",IT:Billy Lynn Un giorno da eroe
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40556.mp4
+#EXTINF:0 CUID="4423" tvg-name="IT:Blair Witch" tvg-logo="http://mu03.wanicelife.com:8880/images/zSKH67EWApTlz1bsSH3oMjBZd0S_small.jpg" group-title="Italy",IT:Blair Witch
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40557.mp4
+#EXTINF:0 CUID="4424" tvg-name="IT:Boston Caccia all’uomo" group-title="Italy",IT:Boston Caccia all’uomo
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40558.mp4
+#EXTINF:0 CUID="4425" tvg-name="IT:Botte Di Natale" tvg-logo="http://mu03.wanicelife.com:8880/images/8UJuPfBLdSLLXzRA3j2nYYZSGua_small.jpg" group-title="Italy",IT:Botte Di Natale
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40559.mp4
+#EXTINF:0 CUID="4426" tvg-name="IT:Brian Di Nazareth: Monty Python" tvg-logo="http://mu03.wanicelife.com:8880/images/9NpfydvDXesC6xejGeKr6cBI4In_small.jpg" group-title="Italy",IT:Brian Di Nazareth: Monty Python
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40560.mp4
+#EXTINF:0 CUID="4427" tvg-name="IT:Burning Sands Il Codice Del Silenzio" tvg-logo="http://mu03.wanicelife.com:8880/images/nTOithYdgE4jAdSIuH1nAaxkmzY_small.jpg" group-title="Italy",IT:Burning Sands Il Codice Del Silenzio
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40561.mp4
+#EXTINF:0 CUID="4428" tvg-name="IT:Café Society" tvg-logo="http://mu03.wanicelife.com:8880/images/td2ywEwbI0eDtL8fsZcoAhCO0VH_small.jpg" group-title="Italy",IT:Café Society
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40562.mp4
+#EXTINF:0 CUID="4429" tvg-name="IT:Castello di sabbia" tvg-logo="http://mu03.wanicelife.com:8880/images/c9buG2jVRgAu68E4D4jpwlgqhO1_small.jpg" group-title="Italy",IT:Castello di sabbia
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40563.mp4
+#EXTINF:0 CUID="4430" tvg-name="IT:Che Vuoi Che Sia" tvg-logo="http://mu03.wanicelife.com:8880/images/p9NqimDg2xi0WCXnthYJGS1UFU4_small.jpg" group-title="Italy",IT:Che Vuoi Che Sia
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40564.mp4
+#EXTINF:0 CUID="4431" tvg-name="IT:Ciao Brother" tvg-logo="http://mu03.wanicelife.com:8880/images/t4JI9WTMduBSzwc4PTJJHOqKzbO_small.jpg" group-title="Italy",IT:Ciao Brother
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40565.mp4
+#EXTINF:0 CUID="4432" tvg-name="IT:Cicogne In Missione" tvg-logo="http://mu03.wanicelife.com:8880/images/mCo9RoV9f6tNzD81E2x6tKjHjur_small.jpg" group-title="Italy",IT:Cicogne In Missione
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40566.mp4
+#EXTINF:0 CUID="4433" tvg-name="IT:Classe Z" tvg-logo="http://mu03.wanicelife.com:8880/images/pbjhucaPx8jqzAYdxMpxoajy9L0_small.jpg" group-title="Italy",IT:Classe Z
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40567.mp4
+#EXTINF:0 CUID="4434" tvg-name="IT:Clinical" tvg-logo="http://mu03.wanicelife.com:8880/images/yDnaWPY7MNVaHA0IuUtkgkxGI1c_small.jpg" group-title="Italy",IT:Clinical
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40568.mp4
+#EXTINF:0 CUID="4435" tvg-name="IT:Close" tvg-logo="http://mu03.wanicelife.com:8880/images/4kjUGqPIv6kpxJUvjmeQX7nQpKd_small.jpg" group-title="Italy",IT:Close
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40569.mp4
+#EXTINF:0 CUID="4436" tvg-name="IT:Codice criminale" tvg-logo="http://mu03.wanicelife.com:8880/images/c8IQvlNIN9NvOQGboKmyhlVIj2N_small.jpg" group-title="Italy",IT:Codice criminale
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40570.mp4
+#EXTINF:0 CUID="4437" tvg-name="IT:Cognati per caso" tvg-logo="http://mu03.wanicelife.com:8880/images/XbdlRNUcVMJfAvsi0VFJbMKnRG_small.jpg" group-title="Italy",IT:Cognati per caso
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40571.mp4
+#EXTINF:0 CUID="4438" tvg-name="IT:Colonia" tvg-logo="http://mu03.wanicelife.com:8880/images/lSSPDcrdGtv8xVt5TiWDBuHZdB7_small.jpg" group-title="Italy",IT:Colonia
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40572.mp4
+#EXTINF:0 CUID="4439" tvg-name="IT:Come Diventare Grandi Nonostante I Genitori" tvg-logo="http://mu03.wanicelife.com:8880/images/hjOGmQsBGPwpbragf6nB1diZcG1_small.jpg" group-title="Italy",IT:Come Diventare Grandi Nonostante I Genitori
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40573.mp4
+#EXTINF:0 CUID="4440" tvg-name="IT:Conspiracy:la Cospirazione" group-title="Italy",IT:Conspiracy:la Cospirazione
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40574.mp4
+#EXTINF:0 CUID="4441" tvg-name="IT:Continuavano A Chiamarlo Trinità" tvg-logo="http://mu03.wanicelife.com:8880/images/9faUc51sSJyR9SEsgHlUiDq5jQ3_small.jpg" group-title="Italy",IT:Continuavano A Chiamarlo Trinità
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40575.mp4
+#EXTINF:0 CUID="4442" tvg-name="IT:Crazy Dirty Cops" tvg-logo="http://mu03.wanicelife.com:8880/images/pX3iD8tX3avq0KyTidg2eEzBvvk_small.jpg" group-title="Italy",IT:Crazy Dirty Cops
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40576.mp4
+#EXTINF:0 CUID="4443" tvg-name="IT:Cross Wars" tvg-logo="http://mu03.wanicelife.com:8880/images/bUIOjVzbE4aWh8IkQDSz6qgIOvD_small.jpg" group-title="Italy",IT:Cross Wars
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40577.mp4
+#EXTINF:0 CUID="4444" tvg-name="IT:Crossfire Fuoco Incrociato" tvg-logo="http://mu03.wanicelife.com:8880/images/enaA9kvPGai5jRMGw4M1J01lmu2_small.jpg" group-title="Italy",IT:Crossfire Fuoco Incrociato
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40578.mp4
+#EXTINF:0 CUID="4445" tvg-name="IT:Cuore Artico" tvg-logo="http://mu03.wanicelife.com:8880/images/rFFlctP0SjXu1po16QXXWD6LXMH_small.jpg" group-title="Italy",IT:Cuore Artico
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40579.mp4
+#EXTINF:0 CUID="4446" tvg-name="IT:David Brent: Life On The Road" tvg-logo="http://mu03.wanicelife.com:8880/images/ahqA9SDsslheXPJOWBIEpexKeOs_small.jpg" group-title="Italy",IT:David Brent: Life On The Road
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40580.mp4
+#EXTINF:0 CUID="4447" tvg-name="IT:Death Race 2050" tvg-logo="http://mu03.wanicelife.com:8880/images/pVRsBgbozj3020Q9S1CNIIUdZ3W_small.jpg" group-title="Italy",IT:Death Race 2050
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40581.mp4
+#EXTINF:0 CUID="4448" tvg-name="IT:Deidra&laney Rapinano Un Treno" tvg-logo="http://mu03.wanicelife.com:8880/images/lLKKDTgUu8bXBKRmkJX25STWeO0_small.jpg" group-title="Italy",IT:Deidra&laney Rapinano Un Treno
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40582.mp4
+#EXTINF:0 CUID="4449" tvg-name="IT:Despicable Me 3–Cattivissimo Me 3" tvg-logo="http://mu03.wanicelife.com:8880/images/bapLpnoV3PUbgcZNDwg6Hxe75HI_small.jpg" group-title="Italy",IT:Despicable Me 3–Cattivissimo Me 3
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40583.mp4
+#EXTINF:0 CUID="4450" tvg-name="IT:Dio Perdona… Io No" tvg-logo="http://mu03.wanicelife.com:8880/images/380ESrpagcwmFti8nnEy5QuXIBJ_small.jpg" group-title="Italy",IT:Dio Perdona… Io No
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40584.mp4
+#EXTINF:0 CUID="4451" tvg-name="IT:Don Verdean" tvg-logo="http://mu03.wanicelife.com:8880/images/zpAffTJHPVncd1rV4tUHYImYOQ3_small.jpg" group-title="Italy",IT:Don Verdean
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40585.mp4
+#EXTINF:0 CUID="4452" tvg-name="IT:Don’t Think Twice" group-title="Italy",IT:Don’t Think Twice
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40586.mp4
+#EXTINF:0 CUID="4453" tvg-name="IT:È Solo La Fine Del Mondo Hd" group-title="Italy",IT:È Solo La Fine Del Mondo Hd
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40833.mp4
+#EXTINF:0 CUID="4454" tvg-name="IT:Effetti Indesiderati" tvg-logo="http://mu03.wanicelife.com:8880/images/vmhgYKP6GaThT7Qz83bc1dkJXJ0_small.jpg" group-title="Italy",IT:Effetti Indesiderati
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40587.mp4
+#EXTINF:0 CUID="4455" tvg-name="IT:Era D’estate:falcone E Borsellino All Asinara" group-title="Italy",IT:Era D’estate:falcone E Borsellino All Asinara
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40588.mp4
+#EXTINF:0 CUID="4456" tvg-name="IT:Ethel And Ernest" tvg-logo="http://mu03.wanicelife.com:8880/images/dPkyvcwxPuNPLYIzWbCU0va07Ux_small.jpg" group-title="Italy",IT:Ethel And Ernest
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40589.mp4
+#EXTINF:0 CUID="4457" tvg-name="IT:Fai Bei Sogni" tvg-logo="http://mu03.wanicelife.com:8880/images/tTi1v2zgUtb7tQOw1JqJrebvroa_small.jpg" group-title="Italy",IT:Fai Bei Sogni
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40590.mp4
+#EXTINF:0 CUID="4458" tvg-name="IT:Falchi Falcons Special Squad" group-title="Italy",IT:Falchi Falcons Special Squad
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40591.mp4
+#EXTINF:0 CUID="4459" tvg-name="IT:Fallen" tvg-logo="http://mu03.wanicelife.com:8880/images/tdtDypgqmbkQC4yqcanqWtgRRtQ_small.jpg" group-title="Italy",IT:Fallen
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40592.mp4
+#EXTINF:0 CUID="4460" tvg-name="IT:Famiglia all improvviso" tvg-logo="http://mu03.wanicelife.com:8880/images/qT9yvd1WKA0ZMuoFuqQrPe8vGtp_small.jpg" group-title="Italy",IT:Famiglia all improvviso
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40593.mp4
+#EXTINF:0 CUID="4461" tvg-name="IT:Fantasticherie Di Un Passeggiatore Solitario" tvg-logo="http://mu03.wanicelife.com:8880/images/o5wfNc61kqWrF6R3Dm8cOwGS32F_small.jpg" group-title="Italy",IT:Fantasticherie Di Un Passeggiatore Solitario
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40594.mp4
+#EXTINF:0 CUID="4462" tvg-name="IT:Fantomas ’70" tvg-logo="http://mu03.wanicelife.com:8880/images/7KNbtlnum4uNGYANDzC4tXJZYC6_small.jpg" group-title="Italy",IT:Fantomas ’70
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40596.mp4
+#EXTINF:0 CUID="4463" tvg-name="IT:Fantomas Minaccia Il Mondo" tvg-logo="http://mu03.wanicelife.com:8880/images/oSIBTVKv0eNJhIbKhxoaAQ6n1t4_small.jpg" group-title="Italy",IT:Fantomas Minaccia Il Mondo
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40595.mp4
+#EXTINF:0 CUID="4464" tvg-name="IT:Fast & Furious 8" tvg-logo="http://mu03.wanicelife.com:8880/images/1zZaZGMo23NsOGoGF5HRCPWwWN7_small.jpg" group-title="Italy",IT:Fast & Furious 8
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40597.mp4
+#EXTINF:0 CUID="4465" tvg-name="IT:Fiore Del Deserto" tvg-logo="http://mu03.wanicelife.com:8880/images/irFkxgOgJSg42KHF9hggw5zwf4H_small.jpg" group-title="Italy",IT:Fiore Del Deserto
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40598.mp4
+#EXTINF:0 CUID="4466" tvg-name="IT:Fortidens Skygge" tvg-logo="http://mu03.wanicelife.com:8880/images/dHcqXoICbzv4yBqbSuZHhdS8B9w_small.jpg" group-title="Italy",IT:Fortidens Skygge
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40599.mp4
+#EXTINF:0 CUID="4467" tvg-name="IT:Frank&Lola" tvg-logo="http://mu03.wanicelife.com:8880/images/9crdkG9eNvQ7ApOUFSK720iuzPV_small.jpg" group-title="Italy",IT:Frank&Lola
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40600.mp4
+#EXTINF:0 CUID="4468" tvg-name="IT:Fratelli Di Sangue" tvg-logo="http://mu03.wanicelife.com:8880/images/_small.jpg" group-title="Italy",IT:Fratelli Di Sangue
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40601.mp4
+#EXTINF:0 CUID="4469" tvg-name="IT:Fuck You Prof! 2" tvg-logo="http://mu03.wanicelife.com:8880/images/2cJjqC8QAaJmxPIhWoBeQuTEPyz_small.jpg" group-title="Italy",IT:Fuck You Prof! 2
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40602.mp4
+#EXTINF:0 CUID="4470" tvg-name="IT:God’s Not Dead 2 Dio non è morto 2" group-title="Italy",IT:God’s Not Dead 2 Dio non è morto 2
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40603.mp4
+#EXTINF:0 CUID="4471" tvg-name="IT:Gold-La grande truffa" tvg-logo="http://mu03.wanicelife.com:8880/images/m3hdy8GxZpInf8daCqJdqMDIrOV_small.jpg" group-title="Italy",IT:Gold-La grande truffa
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40604.mp4
+#EXTINF:0 CUID="4472" tvg-name="IT:Gomorroide" tvg-logo="http://mu03.wanicelife.com:8880/images/lRtIGBs1AZdJ7Ay8bfw0N6shIMB_small.jpg" group-title="Italy",IT:Gomorroide
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40605.mp4
+#EXTINF:0 CUID="4473" tvg-name="IT:Green Book" tvg-logo="http://mu03.wanicelife.com:8880/images/z3WIHEB18GAT0lP3JtPn88jGTji_small.jpg" group-title="Italy",IT:Green Book
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40606.mp4
+#EXTINF:0 CUID="4474" tvg-name="IT:Grosso Guaio A Chinatown" tvg-logo="http://mu03.wanicelife.com:8880/images/lcgWkis1E2Xywi0Y5tZtZDHCi2t_small.jpg" group-title="Italy",IT:Grosso Guaio A Chinatown
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40607.mp4
+#EXTINF:0 CUID="4475" tvg-name="IT:Guardiani della Galassia Vol. 2" tvg-logo="http://mu03.wanicelife.com:8880/images/gcFMqIqB4Sl3XEj1MuhGqWaL9Jp_small.jpg" group-title="Italy",IT:Guardiani della Galassia Vol. 2
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40608.mp4
+#EXTINF:0 CUID="4476" tvg-name="IT:Ha già i tuoi occhi" group-title="Italy",IT:Ha già i tuoi occhi
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40609.mp4
+#EXTINF:0 CUID="4477" tvg-name="IT:Hacker Soldi Facili" group-title="Italy",IT:Hacker Soldi Facili
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40610.mp4
+#EXTINF:0 CUID="4478" tvg-name="IT:Headshot" tvg-logo="http://mu03.wanicelife.com:8880/images/pobssUBo48dBsdi3XW98Pmagj7u_small.jpg" group-title="Italy",IT:Headshot
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40611.mp4
+#EXTINF:0 CUID="4479" tvg-name="IT:Helicopter Mom" tvg-logo="http://mu03.wanicelife.com:8880/images/a9OYTznF4N3H8j6cLJ9fy4J0pF1_small.jpg" group-title="Italy",IT:Helicopter Mom
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40612.mp4
+#EXTINF:0 CUID="4480" tvg-name="IT:High Flying Bird" tvg-logo="http://mu03.wanicelife.com:8880/images/ccE21xixa1zhkGtWDr4n8ReOp40_small.jpg" group-title="Italy",IT:High Flying Bird
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40613.mp4
+#EXTINF:0 CUID="4481" tvg-name="IT:I Cacciatori Di Tesori:cronache Della Tribù Fantasma" group-title="Italy",IT:I Cacciatori Di Tesori:cronache Della Tribù Fantasma
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40614.mp4
+#EXTINF:0 CUID="4482" tvg-name="IT:I Don’t Feel At Home In This World Anymore" group-title="Italy",IT:I Don’t Feel At Home In This World Anymore
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40615.mp4
+#EXTINF:0 CUID="4483" tvg-name="IT:I Magnifici Sette" tvg-logo="http://mu03.wanicelife.com:8880/images/5RywGQ0uvaMuGUbsChFtCtcWgBn_small.jpg" group-title="Italy",IT:I Magnifici Sette
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40616.mp4
+#EXTINF:0 CUID="4484" tvg-name="IT:I nostri amanti" tvg-logo="http://mu03.wanicelife.com:8880/images/eJpqpkzVCJE8BobALIZzQ3F5azZ_small.jpg" group-title="Italy",IT:I nostri amanti
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40618.mp4
+#EXTINF:0 CUID="4485" tvg-name="IT:I Predoni" tvg-logo="http://mu03.wanicelife.com:8880/images/p78Y0n3UTCiwfQoKEeSRZi69Rnx_small.jpg" group-title="Italy",IT:I Predoni
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40617.mp4
+#EXTINF:0 CUID="4486" tvg-name="IT:Iboy" tvg-logo="http://mu03.wanicelife.com:8880/images/hq28FmSpvzG2x2iNm9rsjqUOpbN_small.jpg" group-title="Italy",IT:Iboy
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40619.mp4
+#EXTINF:0 CUID="4487" tvg-name="IT:Il Cittadino Illustre" tvg-logo="http://mu03.wanicelife.com:8880/images/tOCdpZTKoS14Xn3k2DHQe7uB5Qa_small.jpg" group-title="Italy",IT:Il Cittadino Illustre
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40620.mp4
+#EXTINF:0 CUID="4488" tvg-name="IT:Il faro delle orche" tvg-logo="http://mu03.wanicelife.com:8880/images/so2EQbNMe6kvdvl53hvgSHTyLNU_small.jpg" group-title="Italy",IT:Il faro delle orche
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40633.mp4
+#EXTINF:0 CUID="4489" tvg-name="IT:Il Ladro Di Bagdad" tvg-logo="http://mu03.wanicelife.com:8880/images/fdYuXRlkfEhQMY36kkcPAHSpNrc_small.jpg" group-title="Italy",IT:Il Ladro Di Bagdad
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40622.mp4
+#EXTINF:0 CUID="4490" tvg-name="IT:Il medico di campagna" tvg-logo="http://mu03.wanicelife.com:8880/images/m3srHee0OvWox94cn0QXATIkxey_small.jpg" group-title="Italy",IT:Il medico di campagna
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40634.mp4
+#EXTINF:0 CUID="4491" tvg-name="IT:Il Messaggio (1976) Cd1 (la Storia Del Profeta Muhammad Pace E Benedizione Su Di Lui)" group-title="Italy",IT:Il Messaggio (1976) Cd1 (la Storia Del Profeta Muhammad Pace E Benedizione Su Di Lui)
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40623.mp4
+#EXTINF:0 CUID="4492" tvg-name="IT:Il Messaggio (1976) Cd2 (la Storia Del Profeta Muhammad Pace E Benedizione Su Di Lui)" group-title="Italy",IT:Il Messaggio (1976) Cd2 (la Storia Del Profeta Muhammad Pace E Benedizione Su Di Lui)
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40624.mp4
+#EXTINF:0 CUID="4493" tvg-name="IT:Il Messaggio (1976) Cd3 (la Storia Del Profeta Muhammad Pace E Benedizione Su Di Lui)" group-title="Italy",IT:Il Messaggio (1976) Cd3 (la Storia Del Profeta Muhammad Pace E Benedizione Su Di Lui)
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40625.mp4
+#EXTINF:0 CUID="4494" tvg-name="IT:Il Messaggio (1976) Cd4 (la Storia Del Profeta Muhammad Pace E Benedizione Su Di Lui)" group-title="Italy",IT:Il Messaggio (1976) Cd4 (la Storia Del Profeta Muhammad Pace E Benedizione Su Di Lui)
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40626.mp4
+#EXTINF:0 CUID="4495" tvg-name="IT:Il Ministro" tvg-logo="http://mu03.wanicelife.com:8880/images/vxbrBxcgNoPN0aXI8NHER8Jh5yJ_small.jpg" group-title="Italy",IT:Il Ministro
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40627.mp4
+#EXTINF:0 CUID="4496" tvg-name="IT:Il Mistero Delle Dodici Sedie" tvg-logo="http://mu03.wanicelife.com:8880/images/u9lRpOldhIC1EmSwnhCgcMlxzJY_small.jpg" group-title="Italy",IT:Il Mistero Delle Dodici Sedie
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40628.mp4
+#EXTINF:0 CUID="4497" tvg-name="IT:Il mondo sulle spalle" tvg-logo="http://mu03.wanicelife.com:8880/images/4WZYehFSEeVsMliBIHs26tD5BgT_small.jpg" group-title="Italy",IT:Il mondo sulle spalle
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40635.mp4
+#EXTINF:0 CUID="4498" tvg-name="IT:Il padre d’Italia" group-title="Italy",IT:Il padre d’Italia
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40636.mp4
+#EXTINF:0 CUID="4499" tvg-name="IT:Il Permesso-48 Ore Fuori" tvg-logo="http://mu03.wanicelife.com:8880/images/74tsmBOVFbNsUpPXziDo9tCeeWv_small.jpg" group-title="Italy",IT:Il Permesso-48 Ore Fuori
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40629.mp4
+#EXTINF:0 CUID="4500" tvg-name="IT:Il Piu Forte Del Mondo:la Storia Di Jose Aldo" group-title="Italy",IT:Il Piu Forte Del Mondo:la Storia Di Jose Aldo
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40630.mp4
+#EXTINF:0 CUID="4501" tvg-name="IT:Il ragazzo che catturo il vento" tvg-logo="http://mu03.wanicelife.com:8880/images/yOr7RxHw15MMXNxGMXSmngDqHyI_small.jpg" group-title="Italy",IT:Il ragazzo che catturo il vento
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40637.mp4
+#EXTINF:0 CUID="4502" tvg-name="IT:Il regno dei bravi bambini" tvg-logo="http://mu03.wanicelife.com:8880/images/nEVlfsgilYfSAZIayFUwbGOjeQR_small.jpg" group-title="Italy",IT:Il regno dei bravi bambini
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40638.mp4
+#EXTINF:0 CUID="4503" tvg-name="IT:Il Sogno Di Francesco" tvg-logo="http://mu03.wanicelife.com:8880/images/wsi4jE6g7J1QHdKMCEPHjuT3lE9_small.jpg" group-title="Italy",IT:Il Sogno Di Francesco
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40631.mp4
+#EXTINF:0 CUID="4504" tvg-name="IT:Il Traditore Tipo" tvg-logo="http://mu03.wanicelife.com:8880/images/j46LlSFWLWztcHeHwFtfyrqM73f_small.jpg" group-title="Italy",IT:Il Traditore Tipo
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40632.mp4
+#EXTINF:0 CUID="4505" tvg-name="IT:Il tuo ultimo sguardo" tvg-logo="http://mu03.wanicelife.com:8880/images/iJhS5UvY0rNIlYIt6bqYu7Fy08H_small.jpg" group-title="Italy",IT:Il tuo ultimo sguardo
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40639.mp4
+#EXTINF:0 CUID="4506" tvg-name="IT:Ils Sont Partout:sono Dappertutto" group-title="Italy",IT:Ils Sont Partout:sono Dappertutto
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40640.mp4
+#EXTINF:0 CUID="4507" tvg-name="IT:In Guerra Per Amore" tvg-logo="http://mu03.wanicelife.com:8880/images/6cA3IIv8SYZCxczQaMvjG42uSMC_small.jpg" group-title="Italy",IT:In Guerra Per Amore
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40641.mp4
+#EXTINF:0 CUID="4508" tvg-name="IT:In viaggio con Jacqueline" tvg-logo="http://mu03.wanicelife.com:8880/images/2l13b23c5iR0cqFiU2mzCEnySm8_small.jpg" group-title="Italy",IT:In viaggio con Jacqueline
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40642.mp4
+#EXTINF:0 CUID="4509" tvg-name="IT:Incarnate Non potrai nasconderti" tvg-logo="http://mu03.wanicelife.com:8880/images/6GquG69LDEZAHejNYe7I7bRCFpM_small.jpg" group-title="Italy",IT:Incarnate Non potrai nasconderti
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40643.mp4
+#EXTINF:0 CUID="4510" tvg-name="IT:Incarnate: Non Potrai Nasconderti" tvg-logo="http://mu03.wanicelife.com:8880/images/6GquG69LDEZAHejNYe7I7bRCFpM_small.jpg" group-title="Italy",IT:Incarnate: Non Potrai Nasconderti
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40644.mp4
+#EXTINF:0 CUID="4511" tvg-name="IT:Indiana Jones E Il Tempio Maledetto" tvg-logo="http://mu03.wanicelife.com:8880/images/55l5a4iKGcIPlhBVhPd7HTlY3m1_small.jpg" group-title="Italy",IT:Indiana Jones E Il Tempio Maledetto
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40645.mp4
+#EXTINF:0 CUID="4512" tvg-name="IT:Indivisibili" tvg-logo="http://mu03.wanicelife.com:8880/images/vwbyV6SelKyCSH1C8tLlIqRXzNG_small.jpg" group-title="Italy",IT:Indivisibili
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40646.mp4
+#EXTINF:0 CUID="4513" tvg-name="IT:Infernet" tvg-logo="http://mu03.wanicelife.com:8880/images/mcZDyu22mnRa0cp7sMvAvjTm5Vd_small.jpg" group-title="Italy",IT:Infernet
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40647.mp4
+#EXTINF:0 CUID="4514" tvg-name="IT:Inferno" tvg-logo="http://mu03.wanicelife.com:8880/images/ekUEUO3pclEsskEN1Uslld34iyi_small.jpg" group-title="Italy",IT:Inferno
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40648.mp4
+#EXTINF:0 CUID="4515" tvg-name="IT:Insospettabili sospetti" tvg-logo="http://mu03.wanicelife.com:8880/images/5BzQEJ5umk8ldrp9anugf5aXYP6_small.jpg" group-title="Italy",IT:Insospettabili sospetti
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40649.mp4
+#EXTINF:0 CUID="4516" tvg-name="IT:Io Prima Di Te" tvg-logo="http://mu03.wanicelife.com:8880/images/pCS5wxCECavxeUPrZduMgxFZkaS_small.jpg" group-title="Italy",IT:Io Prima Di Te
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40650.mp4
+#EXTINF:0 CUID="4517" tvg-name="IT:Io sola sulla Terra" tvg-logo="http://mu03.wanicelife.com:8880/images/utH781EwjzzXQC6fZUO3cw8L5Ht_small.jpg" group-title="Italy",IT:Io sola sulla Terra
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40651.mp4
+#EXTINF:0 CUID="4518" tvg-name="IT:Io sono Mia" tvg-logo="http://mu03.wanicelife.com:8880/images/uAZMY2je5PSoLrjvMLBZanKGXca_small.jpg" group-title="Italy",IT:Io sono Mia
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40652.mp4
+#EXTINF:0 CUID="4519" tvg-name="IT:Jack Reacher:punto Di Non Ritorno" group-title="Italy",IT:Jack Reacher:punto Di Non Ritorno
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40653.mp4
+#EXTINF:0 CUID="4520" tvg-name="IT:Jason Bourne" tvg-logo="http://mu03.wanicelife.com:8880/images/1O6gzc3gRGYkJcfN6IL2CCrzBzH_small.jpg" group-title="Italy",IT:Jason Bourne
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40654.mp4
+#EXTINF:0 CUID="4521" tvg-name="IT:Joshy–Un weekend al limite" tvg-logo="http://mu03.wanicelife.com:8880/images/9bNHcBr12wYyeAQbXDtXz7xs05K_small.jpg" group-title="Italy",IT:Joshy–Un weekend al limite
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40655.mp4
+#EXTINF:0 CUID="4522" tvg-name="IT:Jungle Shuffle" tvg-logo="http://mu03.wanicelife.com:8880/images/hKrzMyNfGmKbcZbbXea8LtwI54D_small.jpg" group-title="Italy",IT:Jungle Shuffle
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40656.mp4
+#EXTINF:0 CUID="4523" tvg-name="IT:Keeping Up With The Joneses" tvg-logo="http://mu03.wanicelife.com:8880/images/2fKrQQnuLp2jiDKErUyIk4Ct9Ui_small.jpg" group-title="Italy",IT:Keeping Up With The Joneses
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40657.mp4
+#EXTINF:0 CUID="4524" tvg-name="IT:King Arthur Il potere della spada" tvg-logo="http://mu03.wanicelife.com:8880/images/9I90Y56r0BZHOpxg03gGsJOrjZj_small.jpg" group-title="Italy",IT:King Arthur Il potere della spada
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40658.mp4
+#EXTINF:0 CUID="4525" tvg-name="IT:Knight Rusty" tvg-logo="http://mu03.wanicelife.com:8880/images/yqyszY2tZGt3TJCx3aiyHuxsEjB_small.jpg" group-title="Italy",IT:Knight Rusty
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40659.mp4
+#EXTINF:0 CUID="4526" tvg-name="IT:Kubo E La Spada Magica" tvg-logo="http://mu03.wanicelife.com:8880/images/5wwIj9R0wVDHfhTjBLHuQmn0DSI_small.jpg" group-title="Italy",IT:Kubo E La Spada Magica
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40660.mp4
+#EXTINF:0 CUID="4527" tvg-name="IT:Kung Fu Yoga" tvg-logo="http://mu03.wanicelife.com:8880/images/rL6XM4fsr1cM5mN2flEhQ8jQter_small.jpg" group-title="Italy",IT:Kung Fu Yoga
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40661.mp4
+#EXTINF:0 CUID="4528" tvg-name="IT:Kung Pow" tvg-logo="http://mu03.wanicelife.com:8880/images/yB9bESCHpp2iHUGuTC2Rc74Wdff_small.jpg" group-title="Italy",IT:Kung Pow
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40662.mp4
+#EXTINF:0 CUID="4529" tvg-name="IT:L'albero del sangue" tvg-logo="http://mu03.wanicelife.com:8880/images/nkzXnom4u7i3PxkuQyFf5rvHyHs_small.jpg" group-title="Italy",IT:L'albero del sangue
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40663.mp4
+#EXTINF:0 CUID="4530" tvg-name="IT:L'estate Addosso" tvg-logo="http://mu03.wanicelife.com:8880/images/4tzVZqpDUHtq0grnRPXJQeufvOT_small.jpg" group-title="Italy",IT:L'estate Addosso
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40664.mp4
+#EXTINF:0 CUID="4531" tvg-name="IT:L’era Glaciale La Grande Caccia Alle Uova" group-title="Italy",IT:L’era Glaciale La Grande Caccia Alle Uova
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40689.mp4
+#EXTINF:0 CUID="4532" tvg-name="IT:L’incantesimo Del Lago:missione Spie" group-title="Italy",IT:L’incantesimo Del Lago:missione Spie
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40690.mp4
+#EXTINF:0 CUID="4533" tvg-name="IT:L’ombra Della Paura" group-title="Italy",IT:L’ombra Della Paura
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40691.mp4
+#EXTINF:0 CUID="4534" tvg-name="IT:L’ora legale" group-title="Italy",IT:L’ora legale
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40692.mp4
+#EXTINF:0 CUID="4535" tvg-name="IT:L’uomo di 101 anni che non pagò il conto e scomparve" group-title="Italy",IT:L’uomo di 101 anni che non pagò il conto e scomparve
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40693.mp4
+#EXTINF:0 CUID="4536" tvg-name="IT:La Cura Del Benessere" tvg-logo="http://mu03.wanicelife.com:8880/images/8gMqS8HCB0yaOsVsIXI3xOKUFS2_small.jpg" group-title="Italy",IT:La Cura Del Benessere
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40665.mp4
+#EXTINF:0 CUID="4537" tvg-name="IT:La festa delle fidanzate" tvg-logo="http://mu03.wanicelife.com:8880/images/cOwPS4mtz5nFGniMnkrJgRYClmI_small.jpg" group-title="Italy",IT:La festa delle fidanzate
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40677.mp4
+#EXTINF:0 CUID="4538" tvg-name="IT:La Festa Prima Delle Feste" tvg-logo="http://mu03.wanicelife.com:8880/images/yMRxQZxpRJHB7EZByHjMuhcLKPq_small.jpg" group-title="Italy",IT:La Festa Prima Delle Feste
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40666.mp4
+#EXTINF:0 CUID="4539" tvg-name="IT:La Foresta Dei Sogni" tvg-logo="http://mu03.wanicelife.com:8880/images/bvxTYJ9ccyUngZPXDab2U4rsKXa_small.jpg" group-title="Italy",IT:La Foresta Dei Sogni
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40667.mp4
+#EXTINF:0 CUID="4540" tvg-name="IT:La Legge è Uguale Per Tutti Forse" tvg-logo="http://mu03.wanicelife.com:8880/images/7s6sYA90NO5gUOqIpB41gSbVTxd_small.jpg" group-title="Italy",IT:La Legge è Uguale Per Tutti Forse
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40668.mp4
+#EXTINF:0 CUID="4541" tvg-name="IT:La Luce Sugli Oceani" tvg-logo="http://mu03.wanicelife.com:8880/images/7lxV1IIhZya30oh4DkewCOAe4k9_small.jpg" group-title="Italy",IT:La Luce Sugli Oceani
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40669.mp4
+#EXTINF:0 CUID="4542" tvg-name="IT:La meravigliosa favola di Biancaneve" tvg-logo="http://mu03.wanicelife.com:8880/images/7nFNLfkKXflZUu4NZHYXTiiemkV_small.jpg" group-title="Italy",IT:La meravigliosa favola di Biancaneve
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40678.mp4
+#EXTINF:0 CUID="4543" tvg-name="IT:La Mummia" tvg-logo="http://mu03.wanicelife.com:8880/images/4gjE9Cq9HfATFos0AMAXR881cUK_small.jpg" group-title="Italy",IT:La Mummia
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40670.mp4
+#EXTINF:0 CUID="4544" tvg-name="IT:La Nostra Vacanza In Scozia" tvg-logo="http://mu03.wanicelife.com:8880/images/lOE9fSYHQHiREYZZECmznHBZuvs_small.jpg" group-title="Italy",IT:La Nostra Vacanza In Scozia
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40671.mp4
+#EXTINF:0 CUID="4545" tvg-name="IT:La parrucchiera" tvg-logo="http://mu03.wanicelife.com:8880/images/x9qsknQYD8KwsOjSyfR9m3jxC5f_small.jpg" group-title="Italy",IT:La parrucchiera
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40679.mp4
+#EXTINF:0 CUID="4546" tvg-name="IT:La Pazza Gioia" tvg-logo="http://mu03.wanicelife.com:8880/images/eanfHkOh9tM0juMPbpSF6S3cmJN_small.jpg" group-title="Italy",IT:La Pazza Gioia
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40672.mp4
+#EXTINF:0 CUID="4547" tvg-name="IT:La Ragazza Del Mondo" tvg-logo="http://mu03.wanicelife.com:8880/images/hkI7T0ri75nbPd5oeQVWkWkepH_small.jpg" group-title="Italy",IT:La Ragazza Del Mondo
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40673.mp4
+#EXTINF:0 CUID="4548" tvg-name="IT:La regina delle nevi" tvg-logo="http://mu03.wanicelife.com:8880/images/6FdFNSMuSAk4e88toGK8YIAgMYe_small.jpg" group-title="Italy",IT:La regina delle nevi
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40681.mp4
+#EXTINF:0 CUID="4549" tvg-name="IT:La regina delle nevi 2" tvg-logo="http://mu03.wanicelife.com:8880/images/ay6HvLDYH56SVXoqG6QUpRfUlYi_small.jpg" group-title="Italy",IT:La regina delle nevi 2
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40680.mp4
+#EXTINF:0 CUID="4550" tvg-name="IT:La Scoperta" tvg-logo="http://mu03.wanicelife.com:8880/images/dt08GeoOfcT6xZjGHDNaF3TBSxI_small.jpg" group-title="Italy",IT:La Scoperta
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40674.mp4
+#EXTINF:0 CUID="4551" tvg-name="IT:La Tartaruga Rossa" tvg-logo="http://mu03.wanicelife.com:8880/images/xupaZMYAxczTOcGZXPGWtEVamZP_small.jpg" group-title="Italy",IT:La Tartaruga Rossa
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40675.mp4
+#EXTINF:0 CUID="4552" tvg-name="IT:La tempesta di sabbia" tvg-logo="http://mu03.wanicelife.com:8880/images/gI31jIS3LOXN8yutrLEP8Kk5xs1_small.jpg" group-title="Italy",IT:La tempesta di sabbia
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40682.mp4
+#EXTINF:0 CUID="4553" tvg-name="IT:La vendetta di un uomo tranquillo" tvg-logo="http://mu03.wanicelife.com:8880/images/iO14FKRjlRHNWlTCiUMDMtwPYhi_small.jpg" group-title="Italy",IT:La vendetta di un uomo tranquillo
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40683.mp4
+#EXTINF:0 CUID="4554" tvg-name="IT:La Verità Negata" tvg-logo="http://mu03.wanicelife.com:8880/images/t59tkQzxFXz0MDDBunmsc2cVFQd_small.jpg" group-title="Italy",IT:La Verità Negata
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40676.mp4
+#EXTINF:0 CUID="4555" tvg-name="IT:La verità vi spiego sull’amore" group-title="Italy",IT:La verità vi spiego sull’amore
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40684.mp4
+#EXTINF:0 CUID="4556" tvg-name="IT:Les Innocentes–Agnus Dei" group-title="Italy",IT:Les Innocentes–Agnus Dei
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40685.mp4
+#EXTINF:0 CUID="4557" tvg-name="IT:Level Up Sub-ita Hd" group-title="Italy",IT:Level Up Sub-ita Hd
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40686.mp4
+#EXTINF:0 CUID="4558" tvg-name="IT:Life Of Crime" tvg-logo="http://mu03.wanicelife.com:8880/images/zACk9GZTONOik0HRdx3nlqQ3Tlk_small.jpg" group-title="Italy",IT:Life Of Crime
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40687.mp4
+#EXTINF:0 CUID="4559" tvg-name="IT:Lo Chiamavano Trinità" tvg-logo="http://mu03.wanicelife.com:8880/images/f2NU58Kei2JprWNHWQR4dSFdHNG_small.jpg" group-title="Italy",IT:Lo Chiamavano Trinità
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40688.mp4
+#EXTINF:0 CUID="4560" tvg-name="IT:Ma Loute" tvg-logo="http://mu03.wanicelife.com:8880/images/fL32SI6DlbQ3jkxyps1B2g7w8YN_small.jpg" group-title="Italy",IT:Ma Loute
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40694.mp4
+#EXTINF:0 CUID="4561" tvg-name="IT:Ma Vie De Courgette La Mia Vita Da Zucchina" group-title="Italy",IT:Ma Vie De Courgette La Mia Vita Da Zucchina
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40695.mp4
+#EXTINF:0 CUID="4562" tvg-name="IT:Maciste All’inferno" group-title="Italy",IT:Maciste All’inferno
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40696.mp4
+#EXTINF:0 CUID="4563" tvg-name="IT:Mamma O Papà?" tvg-logo="http://mu03.wanicelife.com:8880/images/qsBBkrDZkJoD9xHm7dlMsqCjyUl_small.jpg" group-title="Italy",IT:Mamma O Papà?
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40698.mp4
+#EXTINF:0 CUID="4564" tvg-name="IT:Manchester By The Sea" tvg-logo="http://mu03.wanicelife.com:8880/images/e8daDzP0vFOnGyKmve95Yv0D0io_small.jpg" group-title="Italy",IT:Manchester By The Sea
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40699.mp4
+#EXTINF:0 CUID="4565" tvg-name="IT:Maradona–La mano de dios" tvg-logo="http://mu03.wanicelife.com:8880/images/58ujRxgXGhACFWTNYbBssvvcsCI_small.jpg" group-title="Italy",IT:Maradona–La mano de dios
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40700.mp4
+#EXTINF:0 CUID="4566" tvg-name="IT:Mascots" tvg-logo="http://mu03.wanicelife.com:8880/images/ixbO02Ax8EXPnozvuqJzW1SPtwL_small.jpg" group-title="Italy",IT:Mascots
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40701.mp4
+#EXTINF:0 CUID="4567" tvg-name="IT:Masterminds:i Geni Della Truffa" group-title="Italy",IT:Masterminds:i Geni Della Truffa
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40702.mp4
+#EXTINF:0 CUID="4568" tvg-name="IT:Mercenaire" tvg-logo="http://mu03.wanicelife.com:8880/images/aqssfigK47ZRVvKYWvlD2dfxo5b_small.jpg" group-title="Italy",IT:Mercenaire
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40703.mp4
+#EXTINF:0 CUID="4569" tvg-name="IT:Mezzogiorno E Mezzo Di Fuoco" tvg-logo="http://mu03.wanicelife.com:8880/images/y5qydt9pfrAmyI2N2CvP7iOPU7N_small.jpg" group-title="Italy",IT:Mezzogiorno E Mezzo Di Fuoco
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40704.mp4
+#EXTINF:0 CUID="4570" tvg-name="IT:Mike&dave Un Matrimonio Da Sballo" tvg-logo="http://mu03.wanicelife.com:8880/images/78Rlf0V9h6w3WbTTxKxLg2rhIaz_small.jpg" group-title="Italy",IT:Mike&dave Un Matrimonio Da Sballo
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40705.mp4
+#EXTINF:0 CUID="4571" tvg-name="IT:Mindhorn" tvg-logo="http://mu03.wanicelife.com:8880/images/1cg6oZo7C7iqYTZgbfOvscAFiP2_small.jpg" group-title="Italy",IT:Mindhorn
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40706.mp4
+#EXTINF:0 CUID="4572" tvg-name="IT:Mister Felicita" tvg-logo="http://mu03.wanicelife.com:8880/images/rdBwgbZOjWcrMKiXdkLTutOyUsw_small.jpg" group-title="Italy",IT:Mister Felicita
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40707.mp4
+#EXTINF:0 CUID="4573" tvg-name="IT:Molly Moon E L Incredibile Libro Dell Ipnotismo" tvg-logo="http://mu03.wanicelife.com:8880/images/cnJmff2rlbg7BXddNp7i5RvsaMB_small.jpg" group-title="Italy",IT:Molly Moon E L Incredibile Libro Dell Ipnotismo
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40708.mp4
+#EXTINF:0 CUID="4574" tvg-name="IT:Monkey Business: Una Scimmietta Dispettosa" tvg-logo="http://mu03.wanicelife.com:8880/images/p3TTWksshdj3hzrVQEWUtE11dCP_small.jpg" group-title="Italy",IT:Monkey Business: Una Scimmietta Dispettosa
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40709.mp4
+#EXTINF:0 CUID="4575" tvg-name="IT:Monster Trucks" tvg-logo="http://mu03.wanicelife.com:8880/images/csEtd2A5UsKvjArktgZgIarUgJj_small.jpg" group-title="Italy",IT:Monster Trucks
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40710.mp4
+#EXTINF:0 CUID="4576" tvg-name="IT:Moonwalkers" tvg-logo="http://mu03.wanicelife.com:8880/images/p8Gq5dL2CxQf5QA6ILvnudhQada_small.jpg" group-title="Italy",IT:Moonwalkers
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40711.mp4
+#EXTINF:0 CUID="4577" tvg-name="IT:Morgan" tvg-logo="http://mu03.wanicelife.com:8880/images/u9DY1Uf9ZOUlgwQCOHzQvCXCn6U_small.jpg" group-title="Italy",IT:Morgan
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40712.mp4
+#EXTINF:0 CUID="4578" tvg-name="IT:Morte A Carcassonne (2015) (the Templar Killer)" group-title="Italy",IT:Morte A Carcassonne (2015) (the Templar Killer)
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40713.mp4
+#EXTINF:0 CUID="4579" tvg-name="IT:Mother’s Day" group-title="Italy",IT:Mother’s Day
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40715.mp4
+#EXTINF:0 CUID="4580" tvg-name="IT:Mothers And Daughters" tvg-logo="http://mu03.wanicelife.com:8880/images/hxxM8Lpn9eHbvRk7WRe19Hr3ElS_small.jpg" group-title="Italy",IT:Mothers And Daughters
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40714.mp4
+#EXTINF:0 CUID="4581" tvg-name="IT:Mr Pig" tvg-logo="http://mu03.wanicelife.com:8880/images/7BzeO82ja5IODwo31ktHwVEwQqp_small.jpg" group-title="Italy",IT:Mr Pig
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40716.mp4
+#EXTINF:0 CUID="4582" tvg-name="IT:My father Jack" tvg-logo="http://mu03.wanicelife.com:8880/images/6gztb1Lnp0ArVE7g9UwXUVbdKQM_small.jpg" group-title="Italy",IT:My father Jack
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40717.mp4
+#EXTINF:0 CUID="4583" tvg-name="IT:Mystic Game" tvg-logo="http://mu03.wanicelife.com:8880/images/sE6z2BLsO2Lz551NsfojVbN9Fas_small.jpg" group-title="Italy",IT:Mystic Game
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40718.mp4
+#EXTINF:0 CUID="4584" tvg-name="IT:Natale A Londra–dio Salvi La Regina" tvg-logo="http://mu03.wanicelife.com:8880/images/lXPGQ7E2irLeLc3CLa5k4SBsUEp_small.jpg" group-title="Italy",IT:Natale A Londra–dio Salvi La Regina
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40719.mp4
+#EXTINF:0 CUID="4585" tvg-name="IT:Nati Con La Camicia" tvg-logo="http://mu03.wanicelife.com:8880/images/qiNvYHCmJCco1fRxzMXbgImCgQw_small.jpg" group-title="Italy",IT:Nati Con La Camicia
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40720.mp4
+#EXTINF:0 CUID="4586" tvg-name="IT:National Lampoon’s Vacation" group-title="Italy",IT:National Lampoon’s Vacation
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40721.mp4
+#EXTINF:0 CUID="4587" tvg-name="IT:Natural Born Pranksters" tvg-logo="http://mu03.wanicelife.com:8880/images/AldyIBKJsVtG4ofGaLJXeVTdTc6_small.jpg" group-title="Italy",IT:Natural Born Pranksters
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40722.mp4
+#EXTINF:0 CUID="4588" tvg-name="IT:Nerve" tvg-logo="http://mu03.wanicelife.com:8880/images/joITJsAAfHPEXoo0kjFk6pfkcWo_small.jpg" group-title="Italy",IT:Nerve
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40723.mp4
+#EXTINF:0 CUID="4589" tvg-name="IT:Nessuno Ci Può Fermare" tvg-logo="http://mu03.wanicelife.com:8880/images/2pzs4zp4Kb4E7GzQkYBgkZfqyTo_small.jpg" group-title="Italy",IT:Nessuno Ci Può Fermare
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40724.mp4
+#EXTINF:0 CUID="4590" tvg-name="IT:Non C'è Più Religione" tvg-logo="http://mu03.wanicelife.com:8880/images/aQH5sSmieXLOmil1C6GbyNC1VAU_small.jpg" group-title="Italy",IT:Non C'è Più Religione
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40725.mp4
+#EXTINF:0 CUID="4591" tvg-name="IT:Non e romantico" tvg-logo="http://mu03.wanicelife.com:8880/images/eib5r3L7Wpmhs0r6U9jyI7VbxSJ_small.jpg" group-title="Italy",IT:Non e romantico
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40726.mp4
+#EXTINF:0 CUID="4592" tvg-name="IT:Non è un paese per giovani" tvg-logo="http://mu03.wanicelife.com:8880/images/sxXQ9jMEwCnePyG3723BYL9mKDE_small.jpg" group-title="Italy",IT:Non è un paese per giovani
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40727.mp4
+#EXTINF:0 CUID="4593" tvg-name="IT:Oceania" tvg-logo="http://mu03.wanicelife.com:8880/images/4TY0gqYGu2qjpvLjFqvIs71rdzn_small.jpg" group-title="Italy",IT:Oceania
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40728.mp4
+#EXTINF:0 CUID="4594" tvg-name="IT:Okja" tvg-logo="http://mu03.wanicelife.com:8880/images/zdAx3pxJi2EaStpWjN1ZbMFdl15_small.jpg" group-title="Italy",IT:Okja
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40729.mp4
+#EXTINF:0 CUID="4595" tvg-name="IT:Omicidio All’italiana" group-title="Italy",IT:Omicidio All’italiana
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40730.mp4
+#EXTINF:0 CUID="4596" tvg-name="IT:Ozzy cucciolo coraggioso" tvg-logo="http://mu03.wanicelife.com:8880/images/2pHt0MF0PHhJxwjm3YgMmqaP396_small.jpg" group-title="Italy",IT:Ozzy cucciolo coraggioso
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40731.mp4
+#EXTINF:0 CUID="4597" tvg-name="IT:P1 The Absent One Battuta Di Caccia" group-title="Italy",IT:P1 The Absent One Battuta Di Caccia
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40732.mp4
+#EXTINF:0 CUID="4598" tvg-name="IT:P2 A Conspiracy Of Faith Il Messaggio Nella Bottiglia" group-title="Italy",IT:P2 A Conspiracy Of Faith Il Messaggio Nella Bottiglia
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40733.mp4
+#EXTINF:0 CUID="4599" tvg-name="IT:Paddleton" tvg-logo="http://mu03.wanicelife.com:8880/images/gtssTSvNgY8132hPRtp1DbciYJ6_small.jpg" group-title="Italy",IT:Paddleton
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40734.mp4
+#EXTINF:0 CUID="4600" tvg-name="IT:Palle Di Neve" tvg-logo="http://mu03.wanicelife.com:8880/images/r5TUs76PbO68b6qmHgWjw4Nsz39_small.jpg" group-title="Italy",IT:Palle Di Neve
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40735.mp4
+#EXTINF:0 CUID="4601" tvg-name="IT:Pari E Dispari" tvg-logo="http://mu03.wanicelife.com:8880/images/79WWrMr6KPGnIGiFl92HN6tP9L8_small.jpg" group-title="Italy",IT:Pari E Dispari
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40736.mp4
+#EXTINF:0 CUID="4602" tvg-name="IT:Parigi e nostra" tvg-logo="http://mu03.wanicelife.com:8880/images/qo9rrmgSJkGRhL6ryqxpFdFP3cf_small.jpg" group-title="Italy",IT:Parigi e nostra
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40737.mp4
+#EXTINF:0 CUID="4603" tvg-name="IT:Paterson" tvg-logo="http://mu03.wanicelife.com:8880/images/aNvDUCTgyRTjHttlSITiGvUXGOM_small.jpg" group-title="Italy",IT:Paterson
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40738.mp4
+#EXTINF:0 CUID="4604" tvg-name="IT:Pay The Ghost" tvg-logo="http://mu03.wanicelife.com:8880/images/lHvWEpV5GYuSoACvDK8gV7Pz5LT_small.jpg" group-title="Italy",IT:Pay The Ghost
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40739.mp4
+#EXTINF:0 CUID="4605" tvg-name="IT:Pelé" tvg-logo="http://mu03.wanicelife.com:8880/images/lNamQP0Q8OO5WIrGzUohypsFoWg_small.jpg" group-title="Italy",IT:Pelé
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40740.mp4
+#EXTINF:0 CUID="4606" tvg-name="IT:Per Mio Figlio" tvg-logo="http://mu03.wanicelife.com:8880/images/3NSu1Z1SECFXXquyPtgXXh7KHI7_small.jpg" group-title="Italy",IT:Per Mio Figlio
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40741.mp4
+#EXTINF:0 CUID="4607" tvg-name="IT:Piccole Canaglie" tvg-logo="http://mu03.wanicelife.com:8880/images/vsvs0GjHEImGhoaiK6QstZZQ8Nc_small.jpg" group-title="Italy",IT:Piccole Canaglie
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40743.mp4
+#EXTINF:0 CUID="4608" tvg-name="IT:Piccole Canaglie Alla Riscossa" tvg-logo="http://mu03.wanicelife.com:8880/images/wtQgUAbeFS0No7ghz3H6gj3LUSq_small.jpg" group-title="Italy",IT:Piccole Canaglie Alla Riscossa
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40742.mp4
+#EXTINF:0 CUID="4609" tvg-name="IT:Piccoli Demoni–hellions" tvg-logo="http://mu03.wanicelife.com:8880/images/bpnu2PYC4k6f7AgAr7eMi1eIgTN_small.jpg" group-title="Italy",IT:Piccoli Demoni–hellions
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40744.mp4
+#EXTINF:0 CUID="4610" tvg-name="IT:Pirati dei Caraibi 5 La vendetta di Salazar" tvg-logo="http://mu03.wanicelife.com:8880/images/gGOyjbKGpPGeuJ8nGfmgdsI47E0_small.jpg" group-title="Italy",IT:Pirati dei Caraibi 5 La vendetta di Salazar
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40746.mp4
+#EXTINF:0 CUID="4611" tvg-name="IT:Più Forte Ragazzi!" tvg-logo="http://mu03.wanicelife.com:8880/images/zzHopluTAmvtVxHD53gVCiAuoQT_small.jpg" group-title="Italy",IT:Più Forte Ragazzi!
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40747.mp4
+#EXTINF:0 CUID="4612" tvg-name="IT:Planetarium" tvg-logo="http://mu03.wanicelife.com:8880/images/2bk6aKbZsMALeT1ymCpQ9VlXTHu_small.jpg" group-title="Italy",IT:Planetarium
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40748.mp4
+#EXTINF:0 CUID="4613" tvg-name="IT:Polar" tvg-logo="http://mu03.wanicelife.com:8880/images/evp1F6WYz8GnAFVVrRXqDq8B4wl_small.jpg" group-title="Italy",IT:Polar
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40749.mp4
+#EXTINF:0 CUID="4614" tvg-name="IT:Popeye: Braccio Di Ferro" tvg-logo="http://mu03.wanicelife.com:8880/images/w5GWaQ9t2bJElJxZCjoDjH6WeR3_small.jpg" group-title="Italy",IT:Popeye: Braccio Di Ferro
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40750.mp4
+#EXTINF:0 CUID="4615" tvg-name="IT:Power Rangers" tvg-logo="http://mu03.wanicelife.com:8880/images/vsRUEGhJMsH1YEun8LvVY7YMGug_small.jpg" group-title="Italy",IT:Power Rangers
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40751.mp4
+#EXTINF:0 CUID="4616" tvg-name="IT:Presa mortale 5 Scontro letale The Marine 5" tvg-logo="http://mu03.wanicelife.com:8880/images/9dbZqft6gS34f4qVncU6APBAKWU_small.jpg" group-title="Italy",IT:Presa mortale 5 Scontro letale The Marine 5
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40752.mp4
+#EXTINF:0 CUID="4617" tvg-name="IT:Prima di lunedì" tvg-logo="http://mu03.wanicelife.com:8880/images/bYu9kaVaXMSBGjTuCiqDeSC9lhG_small.jpg" group-title="Italy",IT:Prima di lunedì
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40753.mp4
+#EXTINF:0 CUID="4618" tvg-name="IT:Qualcosa Di Nuovo" tvg-logo="http://mu03.wanicelife.com:8880/images/gmSTpzTY0uO6ax2O8QVoeIDxEdw_small.jpg" group-title="Italy",IT:Qualcosa Di Nuovo
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40754.mp4
+#EXTINF:0 CUID="4619" tvg-name="IT:Quel bravo ragazzo" tvg-logo="http://mu03.wanicelife.com:8880/images/zpX5SFpAB9Gc1PUM0EVQfTH8UcD_small.jpg" group-title="Italy",IT:Quel bravo ragazzo
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40755.mp4
+#EXTINF:0 CUID="4620" tvg-name="IT:Questione di karma" tvg-logo="http://mu03.wanicelife.com:8880/images/caA9ewppopVLMqDERIULB9P9fiI_small.jpg" group-title="Italy",IT:Questione di karma
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40756.mp4
+#EXTINF:0 CUID="4621" tvg-name="IT:Railroad Tigers (2016) albanan" group-title="Italy",IT:Railroad Tigers (2016) albanan
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40757.mp4
+#EXTINF:0 CUID="4622" tvg-name="IT:Ralph spacca internet - Ralph Spaccatutto 2" group-title="Italy",IT:Ralph spacca internet - Ralph Spaccatutto 2
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40758.mp4
+#EXTINF:0 CUID="4623" tvg-name="IT:Robin Hood Un Uomo In Calzamaglia" tvg-logo="http://mu03.wanicelife.com:8880/images/y15v14qPMUcCV0hRBdofoDaWdWy_small.jpg" group-title="Italy",IT:Robin Hood Un Uomo In Calzamaglia
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40759.mp4
+#EXTINF:0 CUID="4624" tvg-name="IT:Robinson Crusoe" tvg-logo="http://mu03.wanicelife.com:8880/images/zw4WnOwGuYzTewfiQQKkeGqADlo_small.jpg" group-title="Italy",IT:Robinson Crusoe
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40760.mp4
+#EXTINF:0 CUID="4625" tvg-name="IT:Rosso Istanbul" tvg-logo="http://mu03.wanicelife.com:8880/images/Ad8uGQ3TXC6GGc8BAoipCz5i7oH_small.jpg" group-title="Italy",IT:Rosso Istanbul
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40761.mp4
+#EXTINF:0 CUID="4626" tvg-name="IT:Sahara" tvg-logo="http://mu03.wanicelife.com:8880/images/hpFR9wsIbZorfQr5hDvxMbUWN4G_small.jpg" group-title="Italy",IT:Sahara
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40762.mp4
+#EXTINF:0 CUID="4627" tvg-name="IT:Saint Amour" tvg-logo="http://mu03.wanicelife.com:8880/images/mjFO3uQjRx8tDfeY8ziej7wQfIO_small.jpg" group-title="Italy",IT:Saint Amour
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40763.mp4
+#EXTINF:0 CUID="4628" tvg-name="IT:Sandy Wexler" tvg-logo="http://mu03.wanicelife.com:8880/images/38SDqWOt4utiLOnWlas7BfrYQGS_small.jpg" group-title="Italy",IT:Sandy Wexler
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40764.mp4
+#EXTINF:0 CUID="4629" tvg-name="IT:Sausage Party:vita Segreta Di Una Salsiccia" group-title="Italy",IT:Sausage Party:vita Segreta Di Una Salsiccia
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40765.mp4
+#EXTINF:0 CUID="4630" tvg-name="IT:Scappa Get Out" tvg-logo="http://mu03.wanicelife.com:8880/images/bE9RaLg1Gw71GHUafri9duCH8fW_small.jpg" group-title="Italy",IT:Scappa Get Out
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40766.mp4
+#EXTINF:0 CUID="4631" tvg-name="IT:Scuola Media: Gli Anni Peggiori Della Mia Vita" tvg-logo="http://mu03.wanicelife.com:8880/images/4ivn2Ze0kWpFNXgow2itfkdQftT_small.jpg" group-title="Italy",IT:Scuola Media: Gli Anni Peggiori Della Mia Vita
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40767.mp4
+#EXTINF:0 CUID="4632" tvg-name="IT:Sette minuti dopo la mezzanotte" tvg-logo="http://mu03.wanicelife.com:8880/images/9OMJ0QedzWbSAsNyLfb2nUMMOsp_small.jpg" group-title="Italy",IT:Sette minuti dopo la mezzanotte
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40768.mp4
+#EXTINF:0 CUID="4633" tvg-name="IT:Shaolin Soccer" tvg-logo="http://mu03.wanicelife.com:8880/images/6axpFFQC0lSK57V636s0qAKOzjR_small.jpg" group-title="Italy",IT:Shaolin Soccer
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40769.mp4
+#EXTINF:0 CUID="4634" tvg-name="IT:Shut In" tvg-logo="http://mu03.wanicelife.com:8880/images/mWSgzPRvNjh0MwiqDh3lDtK1Tbm_small.jpg" group-title="Italy",IT:Shut In
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40770.mp4
+#EXTINF:0 CUID="4635" tvg-name="IT:Silence" tvg-logo="http://mu03.wanicelife.com:8880/images/26nfQY68vryF7PcM6QoZyylsAuA_small.jpg" group-title="Italy",IT:Silence
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40771.mp4
+#EXTINF:0 CUID="4636" tvg-name="IT:Sing" tvg-logo="http://mu03.wanicelife.com:8880/images/cOFEAaQ3A051PyIzKbjRNDxrUDH_small.jpg" group-title="Italy",IT:Sing
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40772.mp4
+#EXTINF:0 CUID="4637" tvg-name="IT:Small Crimes" tvg-logo="http://mu03.wanicelife.com:8880/images/z7jmLmrs0pLlDU4GI6ItaJeqlET_small.jpg" group-title="Italy",IT:Small Crimes
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40773.mp4
+#EXTINF:0 CUID="4638" tvg-name="IT:Smetto Quando Voglio Masterclass" tvg-logo="http://mu03.wanicelife.com:8880/images/yIAUoB61m4glvZsAduBwqOMfm1V_small.jpg" group-title="Italy",IT:Smetto Quando Voglio Masterclass
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40774.mp4
+#EXTINF:0 CUID="4639" tvg-name="IT:Somnia" tvg-logo="http://mu03.wanicelife.com:8880/images/4mLhsFeHt92amDj8Dk4RYg6ph0n_small.jpg" group-title="Italy",IT:Somnia
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40775.mp4
+#EXTINF:0 CUID="4640" tvg-name="IT:Spider-Man:Homecoming" group-title="Italy",IT:Spider-Man:Homecoming
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40776.mp4
+#EXTINF:0 CUID="4641" tvg-name="IT:Stick Man" tvg-logo="http://mu03.wanicelife.com:8880/images/5AT8JdBX4NoE2WdAeXRIGWtaij_small.jpg" group-title="Italy",IT:Stick Man
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40777.mp4
+#EXTINF:0 CUID="4642" tvg-name="IT:Sundown" tvg-logo="http://mu03.wanicelife.com:8880/images/AFeuY7y5EgktZzE6nwByAkVYPP_small.jpg" group-title="Italy",IT:Sundown
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40778.mp4
+#EXTINF:0 CUID="4643" tvg-name="IT:Swallows And Amazons" tvg-logo="http://mu03.wanicelife.com:8880/images/p6PvWG4634hMLRzFnJVX9qiVUY1_small.jpg" group-title="Italy",IT:Swallows And Amazons
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40779.mp4
+#EXTINF:0 CUID="4644" tvg-name="IT:Take The 10: L’autostrada" group-title="Italy",IT:Take The 10: L’autostrada
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40780.mp4
+#EXTINF:0 CUID="4645" tvg-name="IT:Tanna" tvg-logo="http://mu03.wanicelife.com:8880/images/aSTasPT6yk8nVWTbfO72crqkIYR_small.jpg" group-title="Italy",IT:Tanna
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40781.mp4
+#EXTINF:0 CUID="4646" tvg-name="IT:Teenage Cocktail" tvg-logo="http://mu03.wanicelife.com:8880/images/qwQc8BJRaM8H5c79eTxeQFyxdqh_small.jpg" group-title="Italy",IT:Teenage Cocktail
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40782.mp4
+#EXTINF:0 CUID="4647" tvg-name="IT:Tempo Limite" tvg-logo="http://mu03.wanicelife.com:8880/images/5c8HrCrzzBC4vFalspCWeRIBzLs_small.jpg" group-title="Italy",IT:Tempo Limite
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40783.mp4
+#EXTINF:0 CUID="4648" tvg-name="IT:The Accountant" tvg-logo="http://mu03.wanicelife.com:8880/images/9DxoUMpXAYPD97TSpDq5BrFJSLl_small.jpg" group-title="Italy",IT:The Accountant
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40784.mp4
+#EXTINF:0 CUID="4649" tvg-name="IT:The Assassin" tvg-logo="http://mu03.wanicelife.com:8880/images/vUFKHCFiLMXNWqUNlps0Xhao9eJ_small.jpg" group-title="Italy",IT:The Assassin
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40785.mp4
+#EXTINF:0 CUID="4650" tvg-name="IT:The Book Of Love Subita Hd" group-title="Italy",IT:The Book Of Love Subita Hd
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40786.mp4
+#EXTINF:0 CUID="4651" tvg-name="IT:The Condemned 2 L’ultimo sopravissuto" group-title="Italy",IT:The Condemned 2 L’ultimo sopravissuto
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40787.mp4
+#EXTINF:0 CUID="4652" tvg-name="IT:The Dirt - Motley crue" tvg-logo="http://mu03.wanicelife.com:8880/images/xGY5rr8441ib0lT9mtHZn7e8Aay_small.jpg" group-title="Italy",IT:The Dirt - Motley crue
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40788.mp4
+#EXTINF:0 CUID="4653" tvg-name="IT:The Edge Of Seventeen" tvg-logo="http://mu03.wanicelife.com:8880/images/utv34NRNufLyGOstCLsLQGsAvAZ_small.jpg" group-title="Italy",IT:The Edge Of Seventeen
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40789.mp4
+#EXTINF:0 CUID="4654" tvg-name="IT:The Forger Il falsario" tvg-logo="http://mu03.wanicelife.com:8880/images/6Xz7FWLGJPMauwYxfzjabUkyi8t_small.jpg" group-title="Italy",IT:The Forger Il falsario
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40790.mp4
+#EXTINF:0 CUID="4655" tvg-name="IT:The Great Wall" tvg-logo="http://mu03.wanicelife.com:8880/images/efoAJaEglvmNFbb30ezZYQCdHGU_small.jpg" group-title="Italy",IT:The Great Wall
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40791.mp4
+#EXTINF:0 CUID="4656" tvg-name="IT:The Hard Way" tvg-logo="http://mu03.wanicelife.com:8880/images/z4UNeIfvuqUrbSANkZBzKyrr0tT_small.jpg" group-title="Italy",IT:The Hard Way
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40792.mp4
+#EXTINF:0 CUID="4657" tvg-name="IT:The Last Showing Ita" group-title="Italy",IT:The Last Showing Ita
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40793.mp4
+#EXTINF:0 CUID="4658" tvg-name="IT:The Lego Movie 2 - Una nuova avventura" tvg-logo="http://mu03.wanicelife.com:8880/images/kX18eeRrATvF2mugObVQgd0Pf7t_small.jpg" group-title="Italy",IT:The Lego Movie 2 - Una nuova avventura
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40794.mp4
+#EXTINF:0 CUID="4659" tvg-name="IT:The Warriors Gate" tvg-logo="http://mu03.wanicelife.com:8880/images/AgKsvtBeljaX8Wx60Rx9u8BFW3R_small.jpg" group-title="Italy",IT:The Warriors Gate
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40795.mp4
+#EXTINF:0 CUID="4660" tvg-name="IT:The Witch" tvg-logo="http://mu03.wanicelife.com:8880/images/o384OC1tCV8nCnozkM6y4MiSqsw_small.jpg" group-title="Italy",IT:The Witch
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40796.mp4
+#EXTINF:0 CUID="4661" tvg-name="IT:Tigri all’assalto" tvg-logo="http://mu03.wanicelife.com:8880/images/2tCeUBBZbhD7FhoGv4GuNawHgkE_small.jpg" group-title="Italy",IT:Tigri all’assalto
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40797.mp4
+#EXTINF:0 CUID="4662" tvg-name="IT:Tini:la Nuova Vita Di Violetta" group-title="Italy",IT:Tini:la Nuova Vita Di Violetta
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40798.mp4
+#EXTINF:0 CUID="4663" tvg-name="IT:Torno Da Mia Madre" tvg-logo="http://mu03.wanicelife.com:8880/images/sbbv4TIDgusXTyHOZfSNwUKNWsi_small.jpg" group-title="Italy",IT:Torno Da Mia Madre
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40799.mp4
+#EXTINF:0 CUID="4664" tvg-name="IT:Tramps" tvg-logo="http://mu03.wanicelife.com:8880/images/baXRDIafCF0qVkpySLpQp8bQMEv_small.jpg" group-title="Italy",IT:Tramps
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40800.mp4
+#EXTINF:0 CUID="4665" tvg-name="IT:Transformers 5–L’ultimo cavaliere" group-title="Italy",IT:Transformers 5–L’ultimo cavaliere
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40801.mp4
+#EXTINF:0 CUID="4666" tvg-name="IT:Tre uomini e una bara" tvg-logo="http://mu03.wanicelife.com:8880/images/55SbPJwtfS4gXKhkLoQZxEjzVas_small.jpg" group-title="Italy",IT:Tre uomini e una bara
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40802.mp4
+#EXTINF:0 CUID="4667" tvg-name="IT:Triple frontier" tvg-logo="http://mu03.wanicelife.com:8880/images/WizJONh37Vg3SLOlmGi4oyMbIp_small.jpg" group-title="Italy",IT:Triple frontier
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40803.mp4
+#EXTINF:0 CUID="4668" tvg-name="IT:Trolls" tvg-logo="http://mu03.wanicelife.com:8880/images/l1ORADvP8Ay6Mo36zIyDDDUOGfi_small.jpg" group-title="Italy",IT:Trolls
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40804.mp4
+#EXTINF:0 CUID="4669" tvg-name="IT:Troppo Napoletano" tvg-logo="http://mu03.wanicelife.com:8880/images/enjQtVKJibTir3fwm0kVAl6CpnV_small.jpg" group-title="Italy",IT:Troppo Napoletano
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40805.mp4
+#EXTINF:0 CUID="4670" tvg-name="IT:Truman:un Vero Amico E Per Sempre" group-title="Italy",IT:Truman:un Vero Amico E Per Sempre
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40806.mp4
+#EXTINF:0 CUID="4671" tvg-name="IT:Tutto o niente" tvg-logo="http://mu03.wanicelife.com:8880/images/5GC1Kiso3T3MQ82VXyuGNClXqTf_small.jpg" group-title="Italy",IT:Tutto o niente
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40807.mp4
+#EXTINF:0 CUID="4672" tvg-name="IT:Un nuovo futuro" tvg-logo="http://mu03.wanicelife.com:8880/images/g0AgiPF1qBObVDLK7pwncujVpuo_small.jpg" group-title="Italy",IT:Un nuovo futuro
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40811.mp4
+#EXTINF:0 CUID="4673" tvg-name="IT:Un Paese Quasi Perfetto" tvg-logo="http://mu03.wanicelife.com:8880/images/A6lD6Rnexw3TeyuPNYKgzbJUF2f_small.jpg" group-title="Italy",IT:Un Paese Quasi Perfetto
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40808.mp4
+#EXTINF:0 CUID="4674" tvg-name="IT:Un Po Tanto Ciecamente" tvg-logo="http://mu03.wanicelife.com:8880/images/6xSM090XuDZ8afSyCTUass8dRdD_small.jpg" group-title="Italy",IT:Un Po Tanto Ciecamente
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40809.mp4
+#EXTINF:0 CUID="4675" tvg-name="IT:Un re allo sbando" tvg-logo="http://mu03.wanicelife.com:8880/images/8Q763a77m3AG47zArosnB8yGZ3S_small.jpg" group-title="Italy",IT:Un re allo sbando
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40812.mp4
+#EXTINF:0 CUID="4676" tvg-name="IT:Un Tirchio Quasi Perfetto Hd" group-title="Italy",IT:Un Tirchio Quasi Perfetto Hd
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40810.mp4
+#EXTINF:0 CUID="4677" tvg-name="IT:Un viaggio a quattro zampe" tvg-logo="http://mu03.wanicelife.com:8880/images/rOpFRcSpYxW37unqmkHnYKAD1I_small.jpg" group-title="Italy",IT:Un viaggio a quattro zampe
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40813.mp4
+#EXTINF:0 CUID="4678" tvg-name="IT:Un'ultima risata" tvg-logo="http://mu03.wanicelife.com:8880/images/CSGJd80ajL7G7BIusniFi8XtFc_small.jpg" group-title="Italy",IT:Un'ultima risata
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40814.mp4
+#EXTINF:0 CUID="4679" tvg-name="IT:Una di noi" tvg-logo="http://mu03.wanicelife.com:8880/images/6hZf7pqcoyykNfSKDjS0um0Cd2D_small.jpg" group-title="Italy",IT:Una di noi
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40816.mp4
+#EXTINF:0 CUID="4680" tvg-name="IT:Una doppia verità" tvg-logo="http://mu03.wanicelife.com:8880/images/ljOPbX86VuVNv6c0dn55CPqPRFZ_small.jpg" group-title="Italy",IT:Una doppia verità
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40817.mp4
+#EXTINF:0 CUID="4681" tvg-name="IT:Una Pallottola Spuntata" tvg-logo="http://mu03.wanicelife.com:8880/images/qtEKIi8LBRnyDXIO1oEhTdAuQF5_small.jpg" group-title="Italy",IT:Una Pallottola Spuntata
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40815.mp4
+#EXTINF:0 CUID="4682" tvg-name="IT:Underworld Blood Wars" tvg-logo="http://mu03.wanicelife.com:8880/images/zpNCZ7WCvrL6FfYpEoqOtWxzwPb_small.jpg" group-title="Italy",IT:Underworld Blood Wars
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40818.mp4
+#EXTINF:0 CUID="4683" tvg-name="IT:Underworld: Blood Wars Hd" group-title="Italy",IT:Underworld: Blood Wars Hd
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40819.mp4
+#EXTINF:0 CUID="4684" tvg-name="IT:Underworld:blood Wars" group-title="Italy",IT:Underworld:blood Wars
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40821.mp4
+#EXTINF:0 CUID="4685" tvg-name="IT:Underworld:blood Wars (2017) 3d" group-title="Italy",IT:Underworld:blood Wars (2017) 3d
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40820.mp4
+#EXTINF:0 CUID="4686" tvg-name="IT:Vicky E Il Tesoro Degli Dei" tvg-logo="http://mu03.wanicelife.com:8880/images/eeNr3zcHDL5RAkdmTXXGbew8kNZ_small.jpg" group-title="Italy",IT:Vicky E Il Tesoro Degli Dei
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40822.mp4
+#EXTINF:0 CUID="4687" tvg-name="IT:Vieni a vivere a Napoli" tvg-logo="http://mu03.wanicelife.com:8880/images/cfjCsbCOaC82slbtnyymzma9IEe_small.jpg" group-title="Italy",IT:Vieni a vivere a Napoli
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40823.mp4
+#EXTINF:0 CUID="4688" tvg-name="IT:Vita-cuore-battito" tvg-logo="http://mu03.wanicelife.com:8880/images/vOGnhvCL9XmGfrYC1XoJhZ698W8_small.jpg" group-title="Italy",IT:Vita-cuore-battito
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40824.mp4
+#EXTINF:0 CUID="4689" tvg-name="IT:War Machine" tvg-logo="http://mu03.wanicelife.com:8880/images/vDBvTBuTvmVRq1asCMQaI7DuodQ_small.jpg" group-title="Italy",IT:War Machine
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40825.mp4
+#EXTINF:0 CUID="4690" tvg-name="IT:Warrior’s Gate[sub-ita" group-title="Italy",IT:Warrior’s Gate[sub-ita
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40826.mp4
+#EXTINF:0 CUID="4691" tvg-name="IT:Weaponized" tvg-logo="http://mu03.wanicelife.com:8880/images/xTtJpfelvkA024hHuNGcn13aZPU_small.jpg" group-title="Italy",IT:Weaponized
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40827.mp4
+#EXTINF:0 CUID="4692" tvg-name="IT:When the Bough Breaks" tvg-logo="http://mu03.wanicelife.com:8880/images/goPzegO1l1z80dO5tVjDZkdmQeB_small.jpg" group-title="Italy",IT:When the Bough Breaks
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40828.mp4
+#EXTINF:0 CUID="4693" tvg-name="IT:Where To Invade Next" tvg-logo="http://mu03.wanicelife.com:8880/images/fu3yXLoYtMxbv3NLquCDVLNK35p_small.jpg" group-title="Italy",IT:Where To Invade Next
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40829.mp4
+#EXTINF:0 CUID="4694" tvg-name="IT:WienerDog" tvg-logo="http://mu03.wanicelife.com:8880/images/ca0ojNPmPupDwkXdSQAKcv025Wf_small.jpg" group-title="Italy",IT:WienerDog
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40830.mp4
+#EXTINF:0 CUID="4695" tvg-name="IT:Wonder Woman" tvg-logo="http://mu03.wanicelife.com:8880/images/paKWqpEGiHilKfpFKuHXXkFpYNn_small.jpg" group-title="Italy",IT:Wonder Woman
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40831.mp4
+#EXTINF:0 CUID="4696" tvg-name="IT:Yakuza Apocalypse The Great War of the Underworld" tvg-logo="http://mu03.wanicelife.com:8880/images/jJOAEo8pEzf7BvaN9wA6pPA2HlZ_small.jpg" group-title="Italy",IT:Yakuza Apocalypse The Great War of the Underworld
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/40832.mp4
+#EXTINF:0 CUID="4697" tvg-name="A Classic Horror Story (2021)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/eErd3FqwgeRUcskfxkzFHqQf7F3.jpg" group-title="Italy",A Classic Horror Story (2021)
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/77853.mp4
+#EXTINF:0 CUID="4698" tvg-name="Occhiali neri (2022)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/f4vQArwE3LLvRyhoG3X5nNcWXoG.jpg" group-title="Italy",Occhiali neri (2022)
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/77854.mp4
+#EXTINF:0 CUID="4699" tvg-name="Sulla stessa onda (2021)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/gHNkedUdx9yIWRyjPMqOeoT6fQB.jpg" group-title="Italy",Sulla stessa onda (2021)
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/77855.mp4
+#EXTINF:0 CUID="4700" tvg-name="4 metà (2022)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/4iHOgjnPRUHaobosB9HIiMPSE9W.jpg" group-title="Italy",4 metà (2022)
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/77856.mp4
+#EXTINF:0 CUID="4701" tvg-name="Futura (2021)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/xHIDqlu5NbacJGrC3TEwQB73Qgl.jpg" group-title="Italy",Futura (2021)
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/77857.mp4
+#EXTINF:0 CUID="4702" tvg-name="Mio fratello, mia sorella (2021)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/lAysbKnY3QoFcChVGKDcvPYInTs.jpg" group-title="Italy",Mio fratello, mia sorella (2021)
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/77858.mp4
+#EXTINF:0 CUID="4703" tvg-name="Security (2021)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/tuMcn12Us09pmAOuVEHXmFRivjF.jpg" group-title="Italy",Security (2021)
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/77859.mkv
+#EXTINF:0 CUID="4704" tvg-name="Ancora più bello (2021)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/lJqV17wSjaTLvI9czGQlP5sRgiA.jpg" group-title="Italy",Ancora più bello (2021)
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/77860.mp4
+#EXTINF:0 CUID="4705" tvg-name="È stata la mano di Dio (2021)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/i0X3iJGYcjkx7xoOAkTzo6Rg4ek.jpg" group-title="Italy",È stata la mano di Dio (2021)
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/77861.mkv
+#EXTINF:0 CUID="4706" tvg-name="Il filo invisibile (2022)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/qQwEDjypPHSVGvseGkkbedOraEI.jpg" group-title="Italy",Il filo invisibile (2022)
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/77862.mp4
+#EXTINF:0 CUID="4707" tvg-name="Re Granchio (2021)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/jQPbgsspSJJfYzh1D1bjfRL8vua.jpg" group-title="Italy",Re Granchio (2021)
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/77863.mp4
+#EXTINF:0 CUID="4708" tvg-name="Yara (2021)" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/2w7WEXK62otOa9euEMQE2LCWphI.jpg" group-title="Italy",Yara (2021)
+http://yesimes.oknirvana.club:8880/movie/D12m3924/33397696/77864.mp4
