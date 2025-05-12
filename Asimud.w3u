@@ -1,1 +1,15 @@
-
+{
+  "name": "SimudW3U",
+  "author": "Simud",
+  "image": "https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png",
+  "url": "https://raw.githubusercontent.com/simud/simud/refs/heads/main/itaevents3.m3u8",
+  "groups": [
+    {
+      "name": "SimudEventi",
+      "author": "Simud",
+      "image": "https://media.giphy.com/media/eNPYvbSJ30DZvTVqEs/giphy.gif",
+      "url": "https://raw.githubusercontent.com/simud/simud/refs/heads/main/itaevents3.m3u8",
+      "import": "true"
+    }
+  ]
+}
