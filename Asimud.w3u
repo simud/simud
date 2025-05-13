@@ -10,6 +10,13 @@
       "image": "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWl0cjE5MWZnMTlycHM2NXk5azh6NG9mbzl3MWZ1ZnU4ejUwMXd6cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VEphJLw0f242ObxJaj/giphy.gif",
       "url": "https://raw.githubusercontent.com/simud/simud/refs/heads/main/itaevents3.m3u8",
       "import": "true"
+    },
+    {
+      "name": "Eventi Multilingua",
+      "author": "Simud",
+      "image": "https://images.squarespace-cdn.com/content/v1/649c3fc01a3eb74ca8f5a4c7/35201e43-2276-4e86-b168-8a50393e9f4c/1380914972_3.gif?format=2500w",
+      "url": "https://raw.githubusercontent.com/simud/simud/refs/heads/main/itaevents2.m3u8",
+      "import": "true"
     }
   ]
 }
