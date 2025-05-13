@@ -166,7 +166,7 @@ https://dcf-de-livedazn.daznedge.net/dash/dazn-linear-066/stream.mpd?p=web
 https://linear311-it-dash1-prd.selector.skycdn.it/016a/31775/FHD/skysport257/master_stereo.mpd
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=MDAzNmZiN2M1NjRjNGViOTllMzEwZjVmYTgyYWIyZjI6NjQ3ZjA3YjY4NThhNjY5NDU2ZTczY2ExMDNiNGMyYzA=
+#KODIPROP:inputstream.adaptive.license_key=4b3ffd36869478cf03b0f45fe71fbe44
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Sky_Sport_Tennis.svg/512px-Sky_Sport_Tennis.svg.png" group-title="Sky Sport",Tennis
 https://linear310-it-dash1-prd.selector.skycdn.it/016a/32559/FHD/skysporttennis/master.mpd
 
