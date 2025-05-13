@@ -1,3 +1,7 @@
 #EXTM3U
-#EXTINF:-1,Sky Sport Tenni
-https://linear310-it-dash1-prd.selector.skycdn.it/016a/32559/FHD/skysporttennis/master.mpd?ck=MDAzNmZiN2M1NjRjNGViOTllMzEwZjVmYTgyYWIyZjI6NjQ3ZjA3YjY4NThhNjY5NDU2ZTczY2ExMDNiNGMyYzA
+#EXTINF:-1,Sky Sport Tennis
+#EXTVLCOPT:http-origin=https://thisnot.business/
+#EXTVLCOPT:http-referrer=https://thisnot.business/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-header-fields=ck: MDAzNmZiN2M1NjRjNGViOTllMzEwZjVmYTgyYWIyZjI6NjQ3ZjA3YjY4NThhNjY5NDU2ZTczY2ExMDNiNGMyYzA=
+https://linear310-it-dash1-prd.selector.skycdn.it/016a/32559/FHD/skysporttennis/master.mpd
