@@ -1,7 +1,110 @@
 #EXTM3U
-#EXTINF:-1,Sky Sport Tennis
-#EXTVLCOPT:http-origin=https://thisnot.business/
-#EXTVLCOPT:http-referrer=https://thisnot.business/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-header-fields=ck: MDAzNmZiN2M1NjRjNGViOTllMzEwZjVmYTgyYWIyZjI6NjQ3ZjA3YjY4NThhNjY5NDU2ZTczY2ExMDNiNGMyYzA=
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Sky_Sport_24_-_Logo_2020.svg/512px-Sky_Sport_24_-_Logo_2020.svg.png" group-title="Sky Sport",Sky Sport 24
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=003663ddf1acb25ea88a7cf973afc0d5:35ea91b4151d6975007998c328daee6c
+https://linear303-it-dash1-prd.selector.skycdn.it/016a/31035/FHD/skysport24/master.mpd
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Sky_Sport_Uno_-_Logo_2020.svg/512px-Sky_Sport_Uno_-_Logo_2020.svg.png" group-title="Sky Sport",Sky Sport Uno
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0036aaa1d68c6b487e29a5cb080a8a28:a3e8db3ff3c876f7b43a961b64a63474
+https://linear301-it-dash1-prd.selector.skycdn.it/016a/31023/FHD/skysportuno/master.mpd
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Sky_Sport_F1_-_Logo_2020.svg/512px-Sky_Sport_F1_-_Logo_2020.svg.png" group-title="Sky Sport",Sky Sport F1
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0036a96b6bbbf1828488f90e6b2ca1f4:d24e6ae926e88f8303b6926271ff8155
+https://linear307-it-dash1-prd.selector.skycdn.it/016a/31478/FHD/skysportf1/master.mpd
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Sky_Sport_MotoGP_-_Logo_2020.svg/512px-Sky_Sport_MotoGP_-_Logo_2020.svg.png" group-title="Sky Sport",Sky Sport MotoGP
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=00362e9181eaa0c5f91761ade3515eb8:52cf3c27885d58ad76aaf36d4217a984
+https://linear306-it-dash1-prd.selector.skycdn.it/016a/31483/FHD/skysportmotogp/master.mpd
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Sky_Sport_Arena_-_Logo_2020.svg/512px-Sky_Sport_Arena_-_Logo_2020.svg.png" group-title="Sky Sport",Sky Sport Arena
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=00368f2bf10736c9c2c02ab0fa694d00:92eec9d841ac0c1ff16b90a0db82c792
+https://linear304-it-dash1-prd-akp2.cdn13.skycdp.com/016a/31024/FHD/skysportarena/master.mpd
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Sky_Sport_Tennis_-_Logo_2020.svg/512px-Sky_Sport_Tennis_-_Logo_2020.svg.png" group-title="Sky Sport",Sky Sport Tennis
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0036fb7c564c4eb99e310f5fa82ab2f2:647f07b6858a669456e73ca103b4c2c0
 https://linear310-it-dash1-prd.selector.skycdn.it/016a/32559/FHD/skysporttennis/master.mpd
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Sky_Sport_NBA_-_Logo_2020.svg/512px-Sky_Sport_NBA_-_Logo_2020.svg.png" group-title="Sky Sport",Sky Sport NBA
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=00364eac2ffee337640e39682439b540:0960172d9000c470ade0658bd36c1d53
+https://linear308-it-dash1-prd-akp2.cdn13.skycdp.com/016a/31764/FHD/skysportnba/master.mpd
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Sky_Sport_Max_-_Logo_2020.svg/512px-Sky_Sport_Max_-_Logo_2020.svg.png" group-title="Sky Sport",Sky Sport Max
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0036f13bca1c5603b9f3bb28ec28fa80:f01403bcb5a02c61153d297fb0c4395f
+https://linear305-it-dash1-prd-akp2.cdn13.skycdp.com/016a/31248/FHD/skysportmax/master.mpd
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Sky_Sport_Golf_-_Logo_2020.svg/512px-Sky_Sport_Golf_-_Logo_2020.svg.png" group-title="Sky Sport",Sky Sport Golf
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=00360b7729f74bf56a0a4eb0eda15ec5:f8a5f4723c71ac84c2f1ff6f55939a63
+https://linear309-it-dash1-prd-akp2.cdn13.skycdp.com/016a/32768/FHD/skysportgolf/master.mpd
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Eurosport_1_logo.svg/512px-Eurosport_1_logo.svg.png" group-title="Sky Sport",Eurosport 1
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0036bb3fa7e6f2c334d7cba5c28b6caf:217fa35739cd68e90b2cd23322c01312
+https://linear311-it-dash1-prd.selector.skycdn.it/016a/313073/FHD/eurosport/master.mpd
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Eurosport_2_logo.svg/512px-Eurosport_2_logo.svg.png" group-title="Sky Sport",Eurosport 2
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=003670a7034342a4a07c91173818c61c:7b90055c1a1ea34d9090e9ebf6c4db8a
+https://linear312-it-dash1-prd-akp2.cdn13.skycdp.com/016a/31150/FHD/eurosport2/master.mpd
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/DAZN_Logo.svg/512px-DAZN_Logo.svg.png" group-title="Sky Sport",DAZN
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
+https://dcf-de-livedazn.daznedge.net/dash/dazn-linear-024/stream.mpd?p=web
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Sky_Sport_Serie_A_-_Logo_2020.svg/512px-Sky_Sport_Serie_A_-_Logo_2020.svg.png" group-title="Sky Sport",Sky Sport Calcio
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=00362f95db61eba0e6f14acee3f71e01:fb74cd84b53c7557e18424a3356c4665
+https://linear302-it-dash1-prd.selector.skycdn.it/016a/31209/FHD/skysportseriea/master.mpd
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Sky_Sport_251_-_Logo_2020.svg/512px-Sky_Sport_251_-_Logo_2020.svg.png" group-title="Sky Sport",Sky Sport Calcio 1
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0036384f59a2b80ed142f82250c79f77:2e6507cb779a28739b0bb1564f418823
+https://linear311-it-dash1-prd.selector.skycdn.it/016a/31917/FHD/skysport251/master.mpd
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Sky_Sport_252_-_Logo_2020.svg/512px-Sky_Sport_252_-_Logo_2020.svg.png" group-title="Sky Sport",Sky Sport Calcio 2
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=003610b4ce44ba838c199b6636cf7431:8369cbbccf0c1ff6bdbacbdae9252a04
+https://linear312-it-dash1-prd.selector.skycdn.it/016a/32951/FHD/skysport252/master.mpd
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Sky_Sport_253_-_Logo_2020.svg/512px-Sky_Sport_253_-_Logo_2020.svg.png" group-title="Sky Sport",Sky Sport Calcio 3
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0036d3b63b421abd69d9f0d3b6bdcf19:0725c3162d5aefbf9c6d144f06ea0c92
+https://linear311-it-dash1-prd.selector.skycdn.it/016a/32233/FHD/skysport253/master.mpd
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Sky_Sport_254_-_Logo_2020.svg/512px-Sky_Sport_254_-_Logo_2020.svg.png" group-title="Sky Sport",Sky Sport Calcio 4
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=00369c14c20b78aadb1ec0e3c0e74979:e768767e2c7238d8069887bb36aed7fa
+https://linear312-it-dash1-prd.selector.skycdn.it/016a/31234/FHD/skysport254/master.mpd
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Sky_Sport_255_-_Logo_2020.svg/512px-Sky_Sport_255_-_Logo_2020.svg.png" group-title="Sky Sport",Sky Sport Calcio 5
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0036b781a22ebb0c20c16ac27d5d1448:f309b94acfda720bf1ed5741489f8967
+https://linear311-it-dash1-prd.selector.skycdn.it/016a/32910/FHD/skysport255/master.mpd
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Sky_Sport_256_-_Logo_2020.svg/512px-Sky_Sport_256_-_Logo_2020.svg.png" group-title="Sky Sport",Sky Sport Calcio 6
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=00366f263859fc1cc82d2c4da6a66ef6:754ae922d113c54349002cd9a88694a4
+https://linear312-it-dash1-prd.selector.skycdn.it/016a/31912/FHD/skysport256/master.mpd
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Sky_Sport_257_-_Logo_2020.svg/512px-Sky_Sport_257_-_Logo_2020.svg.png" group-title="Sky Sport",Sky Sport Calcio 7
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0036faeace9872d3ceeb8b1b63f0baa3:dbd41ee944243307d39b7b27f16615a8
+https://linear311-it-dash1-prd-akp2.cdn13.skycdp.com/016a/31775/FHD/skysport257/master.mpd
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Sky_Sport_258_-_Logo_2020.svg/512px-Sky_Sport_258_-_Logo_2020.svg.png" group-title="Sky Sport",Sky Sport Calcio 8
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0036fd8ccfddba47c8b40aeff63a797c:dfd5c9d0f4ac6f3a1bd89803399e7026
+https://linear312-it-dash1-prd-akp2.cdn13.skycdp.com/016a/32772/skysport258/master.mpd
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Sky_Sport_259_-_Logo_2020.svg/512px-Sky_Sport_259_-_Logo_2020.svg  group-title="Sky Sport",Sky Sport Calcio 9
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0036644f7699f43e401f88d920dc385c:e5b0cebdc3edd7996d283041535fce9c
+https://linear311-it-dash1-prd-akp1.cdn13.skycdp.com/016a/31613/skysport259/master.mpd
