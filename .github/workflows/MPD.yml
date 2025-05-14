@@ -1,4 +1,4 @@
-name: Daddy
+name: MPD
 
 on:
   workflow_dispatch:  # Permette l'esecuzione manuale
