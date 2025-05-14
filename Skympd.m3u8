@@ -155,15 +155,15 @@ https://linear301-it-dash1-prd.selector.skycdn.it/016a/32231/FHD/cinemaromance/m
 #KODIPROP:inputstream.adaptive.license_key=003610b8556000936e48061cdb4ee11a:2cd6bcc2160aa6ec048e5a5f7a0f73c8
 https://linear313-it-dash1-prd.selector.skycdn.it/016a/32477/FHD/skyuno/master.mpd
 
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/d3fXKnGj/sky-condivisione.png" group-title="Intrattenimento",Sky Atlantic
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0036d37875a7307fd4551bcd6e466882:a8cdc74a5d05c7a45c551af45aa5549c
-https://linear315-it-dash1-prd-akp2.cdn13.skycdp.com/016a/31226/FHD/skyatlantic/master.mpd
-
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/d3fXKnGj/sky-condivisione.png" group-title="Intrattenimento",Sky Serie
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=00366cd68acfb019e5d302f452c96ed7:fbb59d554722277be85b0728c13051ab
 https://linear315-it-dash1-prd-akp2.cdn13.skycdp.com/016a/31684/FHD/skyserie/master.mpd
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/d3fXKnGj/sky-condivisione.png" group-title="Intrattenimento",Sky Atlantic
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0036d37875a7307fd4551bcd6e466882:a8cdc74a5d05c7a45c551af45aa5549c
+https://linear315-it-dash1-prd-akp2.cdn13.skycdp.com/016a/31226/FHD/skyatlantic/master.mpd
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/d3fXKnGj/sky-condivisione.png" group-title="Intrattenimento",Sky Crime
 #KODIPROP:inputstream.adaptive.license_type=clearkey
