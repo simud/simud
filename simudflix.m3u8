@@ -366,17 +366,11 @@ https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-c
 
 # DAZN Serie A 
 
-#EXTINF:-1 tvg-id="DAZN.2.de" tvg-logo="https://i.postimg.cc/L6bNsP4s/photo-2025-03-12-12-30-43.png" tvg-name="DAZN 1" group-title="DAZN Serie A ", DAZN 1
-#EXTVLCOPT:http-referrer=https://sportzone.digital/
-#EXTVLCOPT:http-origin=https://sportzone.digital/
+#EXTINF:-1 tvg-id="DAZN.2.de" tvg-name="DAZN 1 HD" tvg-logo="https://i.postimg.cc/L6bNsP4s/photo-2025-03-12-12-30-43.png" group-title="DAZN Serie A ", DAZN 1
+#EXTVLCOPT:http-referrer=https://dokoplay.xyz/
+#EXTVLCOPT:http-origin=https://dokoplay.xyz
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://hls.kangal.icu/hls/dazn1/index.m3u8
-
-#EXTINF:-1 tvg-id="DAZN.2.de" tvg-logo="https://i.postimg.cc/L6bNsP4s/photo-2025-03-12-12-30-43.png" tvg-name="DAZN 1" group-title="DAZN Serie A ", DAZN 1 HD
-#EXTVLCOPT:http-referrer=https://skystreaming.download/
-#EXTVLCOPT:http-origin=https://skystreaming.download/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://hls.kangal.icu/hls/dazn1/index.m3u8
+https://nfsnew.newkso.ru/nfs/premium877/mono.m3u8
 
 #EXTINF:-1 tvg-id="DAZN.2.de" tvg-name="DAZN 1 HD" tvg-logo="https://i.postimg.cc/L6bNsP4s/photo-2025-03-12-12-30-43.png" group-title="DAZN Serie A ", DAZN 1 FHD
 #EXTVLCOPT:http-referrer=https://dokoplay.xyz/
