@@ -10,6 +10,11 @@ https://linear303-it-dash1-prd.selector.skycdn.it/016a/31035/FHD/skysport24/mast
 #KODIPROP:inputstream.adaptive.license_key=0036aaa1d68c6b487e29a5cb080a8a28:a3e8db3ff3c876f7b43a961b64a63474
 https://linear301-it-dash1-prd.selector.skycdn.it/016a/31023/FHD/skysportuno/master.mpd
 
+#EXTINF:-1 tvg-id="Sky.Sport.Calcio.it" tvg-logo="https://i.postimg.cc/d3fXKnGj/sky-condivisione.png" group-title="Sky Sport",Sky Sport Calcio
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=00362f95db61eba0e6f14acee3f71e01:fb74cd84b53c7557e18424a3356c4665
+https://linear302-it-dash1-prd.selector.skycdn.it/016a/31209/FHD/skysportseriea/master.mpd
+
 #EXTINF:-1 tvg-id="Sky.Sport.F1.it" tvg-logo="https://i.postimg.cc/d3fXKnGj/sky-condivisione.png" group-title="Sky Sport",Sky Sport F1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=0036a96b6bbbf1828488f90e6b2ca1f4:d24e6ae926e88f8303b6926271ff8155
@@ -54,11 +59,6 @@ https://linear311-it-dash1-prd.selector.skycdn.it/016a/313073/FHD/eurosport/mast
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=003670a7034342a4a07c91173818c61c:7b90055c1a1ea34d9090e9ebf6c4db8a
 https://linear312-it-dash1-prd-akp2.cdn13.skycdp.com/016a/31150/FHD/eurosport2/master.mpd
-
-#EXTINF:-1 tvg-id="Sky.Sport.Calcio.it" tvg-logo="https://i.postimg.cc/d3fXKnGj/sky-condivisione.png" group-title="Sky Sport",Sky Sport Calcio
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=00362f95db61eba0e6f14acee3f71e01:fb74cd84b53c7557e18424a3356c4665
-https://linear302-it-dash1-prd.selector.skycdn.it/016a/31209/FHD/skysportseriea/master.mpd
 
 #EXTINF:-1 tvg-id="Sky.Sport..251.it" tvg-logo="https://i.postimg.cc/d3fXKnGj/sky-condivisione.png" group-title="Sky Sport",Sky Sport Calcio 1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
