@@ -5,7 +5,7 @@ from github import Github
 from github import GithubException
 
 # URL della playlist
-url = "https://raw.githubusercontent.com/realbestia/itatv/e93adee56379c15ee37c4cd54c8a1f1fc0cecfac/combined_playlist.m3u8"
+url = "https://raw.githubusercontent.com/realbestia/itatv/refs/heads/main/combined_playlist.m3u8"
 
 # Gruppi desiderati
 gruppi_desiderati = ["Bambini", "Sport", "Film & Serie TV", "Documentari"]
