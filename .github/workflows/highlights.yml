@@ -1,4 +1,4 @@
-name: SkyStreaming Scraper
+name: YT Highlights
 
 on:
   workflow_dispatch:  # Permette l'esecuzione manuale
