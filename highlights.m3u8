@@ -1,6 +1,0 @@
-#EXTM3U
-#EXTINF:-1 tvg-id="highlights" tvg-logo="https://i.postimg.cc/Ss88rXcm/photo-2025-03-12-12-23-14.png" group-title="Highlights",20 Sky
-#EXTVLCOPT:http-origin=https://sport.sky.it/
-#EXTVLCOPT:http-referrer=https://sport.sky.it/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://acdn.ak-stream-videoplatform.sky.it/secure/hls/2025/05/12/1009601/master/720p/hdntl=exp=1747504258~acl=%2fsecure%2fhls%2f2025%2f05%2f12%2f1009601%2f*~data=hdntl~hmac=973f8b3bb2fbb472d2917d146341721960ab3d67bbf794b48c4adb9f7d79dae6/stream.m3u8?hdnts=st=1747417855~exp=1747418155~acl=/secure/hls/2025/05/12/1009601/*~hmac=73ddd60eab175095ca23cd673538a98c786bfccde84f909f6ebeb63d91ef4b26
