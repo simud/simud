@@ -1,6 +1,6 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-id="Italia.1.it" group-title="Rai" tvg-logo="https://i.postimg.cc/j5d5bSGp/photo-2025-03-13-12-56-42.png",Italia 1 FHD
+#EXTINF:-1 tvg-id="Italia.1.it" group-title="Rai" tvg-logo="https://i.postimg.cc/j5d5bSGp/photo-2025-03-13-12-56-42.png",Italia 1 FHDd
 #EXTVLCOPT:http-referrer=https://daddylive.dad
 #EXTVLCOPT:http-origin=https://daddylive.dad
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
