@@ -83,7 +83,7 @@ https://viamotionhsi.netplus.ch/live/eds/rete4/browser-dash/rete4.mpd
 https://viamotionhsi.netplus.ch/live/eds/canale5/browser-dash/canale5.mpd
 
 #EXTINF:-1 tvg-id="canale 5" group-title="Rai" tvg-logo="https://i.postimg.cc/j5d5bSGp/photo-2025-03-13-12-56-42.png", Canale 5 FHD
-#EXTVLCOPT:http-referrer=https://daddylive.dad/
+#EXTVLCOPT:http-referrer=https://daddylive.dad
 #EXTVLCOPT:http-origin=https://daddylive.dad
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://windnew.newkso.ru/wind/premium853/mono.m3u8
@@ -92,7 +92,7 @@ https://windnew.newkso.ru/wind/premium853/mono.m3u8
 https://viamotionhsi.netplus.ch/live/eds/italia1/browser-dash/italia1.mpd
 
 #EXTINF:-1 tvg-id="Italia.1.it" group-title="Rai" tvg-logo="https://i.postimg.cc/j5d5bSGp/photo-2025-03-13-12-56-42.png",Italia 1 FHD
-#EXTVLCOPT:http-referrer=https://daddylive.dad/
+#EXTVLCOPT:http-referrer=https://daddylive.dad
 #EXTVLCOPT:http-origin=https://daddylive.dad
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://windnew.newkso.ru/wind/premium854/mono.m3u8
