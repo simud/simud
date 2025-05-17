@@ -75,11 +75,6 @@ https://xuione.sportstreaming.net/SportStreaming/SportStreaming/96.m3u8
 https://xuione.sportstreaming.net/SportStreaming/SportStreaming/25.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Eventi", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/mZ6gwjBg/kings-league.png" group-title="Kings League", controcalcio__
-#EXTVLCOPT:http-referrer=https://www.twitch.tv/controcalcio__
-#EXTVLCOPT:http-origin=https://www.twitch.tv/controcalcio__
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://use12-0.playlist.ttvnw.net/v1/playlist/CvIEGeZFnd7jNMDpPFpfPz2GzT838Ijk7s_iz0S483Kq59ak43Jee74C9LAZWd6yE3hBHI7Jjc5aK0EUqmBBg3VvceuJhPVCVgZnap3IjyfpnXSdnAr9H6aGzeImQo9JKxGMGmmEV0eHxIQZJMysAmvYCI5UCxV_gmftQJUxX9ege_D3Ve51eL0XfccMb6rGv3gCU0ktZKDTWG2CZ2fOaMuLNWGqIKWeCLCQf0nxbY0kABXbE4dMPik63Ra9Kb2UwFbSat-3L_gZovU-ETQLNgvbscCvad6K6pT29Hoal6ifCKG962XcnJ5ZaKfPWlX6q3Kl6SpK97cuURFt0kbSMKTeeIEbmy_kLcrU_NPyRgqIWfv0QiOj5zEF3AxfOODcISmI0wZVBAyRIs2ynda7rUOQZuic-Nc7M15MWJzQ0uwXfXqEpudB3Cqrb98EKmmUuZHbI8LOWNyld1sCD9u_yOoWUGHUx-XwKjsRmNVRrxchs9b2mwl16wP6NJxRAXQtAr9ka8bkuczvpd8eKAUC8nElo4YBfzkTcCDPjD82pd9q0g9TY0ZJpeG6ZesIce0vsPTGFEfmvT72JOb5kMiFY8MZa427RaC1bhcAUY6Y43SB9DBnoAgiZrqlbZi30ay1eaj3PUJtjt78y027v5TTypeIfhuGlxOJG5axWKUi3wZVAP5KmVJAEGIhfpb-LQfk0JIMGtOlUNoUh_WFXwOhq7TIJT918ogaTQIvJTUy-TouEp3Y1LpTw_TMUdMRkvmuwXV12Z575TL62OgYiydCicR0G5lLmj5_yWVJvSWDY7zctMVab2o7WoP63d09zw40Z3GWeGUaDNC4m6k1nKmv5a6iESABKgl1cy1lYXN0LTIwpAw.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Kings League", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 #EXTINF:-1 tvg-id="acisporttv.it" tvg-name="ACI SPORT TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/italy/aci-sport-tv-it.png" group-title="Sky Sport FHD Backup",ACI SPORT TV
