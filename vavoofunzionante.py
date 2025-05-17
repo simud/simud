@@ -34,7 +34,7 @@ sky_uno_names = ["SKY SPORT UNO", "SKY SPORT UNO (2)"]
 # Canale da rinominare in Sky Serie FHD e spostare in Intrattenimento
 sky_serie_names = ["SKY SERIE"]
 
-# Loghi per i gruppi
+# Loghi per i gruppi (non utilizzato per mantenere i loghi originali)
 logos = {
     "Sky Sport FHD Backup": "https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png",
     "Intrattenimento": "https://i.postimg.cc/NFGs2Ptq/photo-2025-03-12-12-36-48.png",
@@ -103,9 +103,10 @@ for i, line in enumerate(lines):
                         new_group_title = "Sky Sport FHD Backup"
                         modified_line = re.sub(r'group-title="Sport"', f'group-title="{new_group_title}"', modified_line)
                     
-                    # Assegna il logo in base al nuovo group-title
-                    if new_group_title in logos:
-                        modified_line = re.sub(r'tvg-logo="[^"]*"', f'tvg-logo="{logos[new_group_title]}"', modified_line)
+                    # NON MODIFICARE IL tvg-logo per mantenere il logo originale
+                    # La riga seguente è stata rimossa:
+                    # if new_group_title in logos:
+                    #     modified_line = re.sub(r'tvg-logo="[^"]*"', f'tvg-logo="{logos[new_group_title]}"', modified_line)
                     
                     # Gestisci i canali Sky Uno
                     if tvg_name in sky_uno_names:
