@@ -106,7 +106,6 @@ def update_m3u_file(video_streams, m3u_file="sportstreaming_playlist.m3u8"):
     with open(file_path, "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
         
-        standard_count = 1
         perma_count = 1
 
         for event_url, stream_url, element, channel_name in video_streams:
@@ -119,8 +118,13 @@ def update_m3u_file(video_streams, m3u_file="sportstreaming_playlist.m3u8"):
                 image_url = f"https://sportstreaming.net/assets/img/live/perma/live{perma_count}.png"
                 perma_count += 1
             else:
-                image_url = f"https://sportstreaming.net/assets/img/live/standard/live{standard_count}.png"
-                standard_count += 1
+                # Estrai il numero dall'URL per i canali standard (es. live-3 -> 3)
+                match = re.search(r'live-(\d+)', event_url)
+                if match:
+                    live_number = match.group(1)
+                    image_url = f"https://sportstreaming.net/assets/img/live/standard/live{live_number}.png"
+                else:
+                    image_url = "https://sportstreaming.net/assets/img/live/standard/live1.png"  # Fallback
 
             group = "Eventi"
             f.write(f"#EXTINF:-1 group-title=\"{group}\" tvg-logo=\"{image_url}\", {channel_name}\n")
