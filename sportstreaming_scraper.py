@@ -11,9 +11,6 @@ headers = {
     "Referer": "https://www.sportstreaming.net/"
 }
 
-# Immagine fissa da usare per tutti i canali
-DEFAULT_IMAGE_URL = "https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png"
-
 # Canale ADMIN da aggiungere alla fine
 ADMIN_CHANNEL = '''#EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Eventi", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4'''
@@ -25,16 +22,21 @@ def find_event_pages():
         response.raise_for_status()
         soup = BeautifulSoup(response.text, 'html.parser')
 
-        event_links = set()
+        event_links = []
+        seen_links = set()
         for a in soup.find_all('a', href=True):
             href = a['href']
             if re.match(r'/live-(perma-)?\d+', href):
                 full_url = base_url + href.lstrip('/')
-                event_links.add(full_url)
+                if full_url not in seen_links:
+                    event_links.append(full_url)
+                    seen_links.add(full_url)
             elif re.match(r'https://www\.sportstreaming\.net/live-(perma-)?\d+', href):
-                event_links.add(href)
+                if href not in seen_links:
+                    event_links.append(href)
+                    seen_links.add(href)
 
-        return list(event_links)
+        return event_links
 
     except requests.RequestException as e:
         print(f"Errore durante la ricerca delle pagine evento: {e}")
@@ -104,23 +106,27 @@ def update_m3u_file(video_streams, m3u_file="sportstreaming_playlist.m3u8"):
     with open(file_path, "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
         
-        groups = {}
+        standard_count = 1
+        perma_count = 1
+
         for event_url, stream_url, element, channel_name in video_streams:
             if not stream_url:
                 continue
-            group = "Eventi"
             
-            if group not in groups:
-                groups[group] = []
-            groups[group].append((channel_name, stream_url))
+            # Determina se è un canale permanente o standard
+            is_perma = "perma" in event_url.lower()
+            if is_perma:
+                image_url = f"https://sportstreaming.net/assets/img/live/perma/live{perma_count}.png"
+                perma_count += 1
+            else:
+                image_url = f"https://sportstreaming.net/assets/img/live/standard/live{standard_count}.png"
+                standard_count += 1
 
-        for group, channels in groups.items():
-            channels.sort(key=lambda x: x[0].lower())
-            for channel_name, link in channels:
-                f.write(f"#EXTINF:-1 group-title=\"{group}\" tvg-logo=\"{DEFAULT_IMAGE_URL}\", {channel_name}\n")
-                f.write(f"#EXTVLCOPT:http-user-agent={headers['User-Agent']}\n")
-                f.write(f"#EXTVLCOPT:http-referrer={headers['Referer']}\n")
-                f.write(f"{link}\n")
+            group = "Eventi"
+            f.write(f"#EXTINF:-1 group-title=\"{group}\" tvg-logo=\"{image_url}\", {channel_name}\n")
+            f.write(f"#EXTVLCOPT:http-user-agent={headers['User-Agent']}\n")
+            f.write(f"#EXTVLCOPT:http-referrer={headers['Referer']}\n")
+            f.write(f"{stream_url}\n")
         
         # Aggiungi il canale ADMIN alla fine
         f.write("\n")  # Riga vuota per separazione
