@@ -77,143 +77,143 @@ https://xuione.sportstreaming.net/SportStreaming/SportStreaming/25.m3u8
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Kings League", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
-#EXTINF:-1 tvg-id="acisporttv.it" tvg-name="ACI SPORT TV" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",ACI SPORT TV
+#EXTINF:-1 tvg-id="acisporttv.it" tvg-name="ACI SPORT TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/italy/aci-sport-tv-it.png" group-title="Sky Sport FHD Backup",ACI SPORT TV
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F1351631603%2Findex.m3u8
-#EXTINF:-1 tvg-id="dazn2.it" tvg-name="DAZN2" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",DAZN2
+#EXTINF:-1 tvg-id="dazn2.it" tvg-name="DAZN2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d6/Dazn-logo.png" group-title="Sky Sport FHD Backup",DAZN2
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F1376440573%2Findex.m3u8
-#EXTINF:-1 tvg-id="dazn2.it" tvg-name="DAZN2" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",DAZN2
+#EXTINF:-1 tvg-id="dazn2.it" tvg-name="DAZN2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d6/Dazn-logo.png" group-title="Sky Sport FHD Backup",DAZN2
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F2911178456%2Findex.m3u8
-#EXTINF:-1 tvg-id="eurosport1.it" tvg-name="EUROSPORT 1" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",EUROSPORT 1
+#EXTINF:-1 tvg-id="eurosport1.it" tvg-name="EUROSPORT 1" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/eurosport-1-es.png" group-title="Sky Sport FHD Backup",EUROSPORT 1
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F3481346857%2Findex.m3u8
-#EXTINF:-1 tvg-id="eurosport1.it" tvg-name="EUROSPORT 1" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",EUROSPORT 1
+#EXTINF:-1 tvg-id="eurosport1.it" tvg-name="EUROSPORT 1" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/eurosport-1-es.png" group-title="Sky Sport FHD Backup",EUROSPORT 1
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F3448075317%2Findex.m3u8
-#EXTINF:-1 tvg-id="eurosport2.it" tvg-name="EUROSPORT 2" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",EUROSPORT 2
+#EXTINF:-1 tvg-id="eurosport2.it" tvg-name="EUROSPORT 2" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/eurosport-2-es.png" group-title="Sky Sport FHD Backup",EUROSPORT 2
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F2317684453%2Findex.m3u8
-#EXTINF:-1 tvg-id="eurosport2.it" tvg-name="EUROSPORT 2" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",EUROSPORT 2
+#EXTINF:-1 tvg-id="eurosport2.it" tvg-name="EUROSPORT 2" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/eurosport-2-es.png" group-title="Sky Sport FHD Backup",EUROSPORT 2
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F2283887097%2Findex.m3u8
-#EXTINF:-1 tvg-id="intertv.it" tvg-name="INTER TV" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",INTER TV
+#EXTINF:-1 tvg-id="intertv.it" tvg-name="INTER TV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/italy/inter-tv-it.png?raw=true" group-title="Sky Sport FHD Backup",INTER TV
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F2973773076%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="LAZIO TV" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",LAZIO TV
+#EXTINF:-1 tvg-id="" tvg-name="LAZIO TV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/italy/lazio-style-channel-it.png?raw=true" group-title="Sky Sport FHD Backup",LAZIO TV
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F2774026655%2Findex.m3u8
-#EXTINF:-1 tvg-id="milantv.it" tvg-name="MILAN TV" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",MILAN TV
+#EXTINF:-1 tvg-id="milantv.it" tvg-name="MILAN TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/italy/milan-tv-it.png" group-title="Sky Sport FHD Backup",MILAN TV
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F3657217948%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="RTV SAN MARINO SPORT" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",RTV SAN MARINO SPORT
+#EXTINF:-1 tvg-id="" tvg-name="RTV SAN MARINO SPORT" tvg-logo="https://static.wikia.nocookie.net/internationaltelevision/images/7/79/San_Marino_RTV_Sport_-_logo.png/revision/latest?cb=20221207153729" group-title="Sky Sport FHD Backup",RTV SAN MARINO SPORT
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F1113853263%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="RTV SPORT" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",RTV SPORT
+#EXTINF:-1 tvg-id="" tvg-name="RTV SPORT" tvg-logo="https://logowik.com/content/uploads/images/san-marino-rtv-sport-20211731580347.logowik.com.webp" group-title="Sky Sport FHD Backup",RTV SPORT
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F134178901%2Findex.m3u8
-#EXTINF:-1 tvg-id="skysport.it" tvg-name="SKY SPORT" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",SKY SPORT
+#EXTINF:-1 tvg-id="skysport.it" tvg-name="SKY SPORT" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/italy/sky-sport-it.png" group-title="Sky Sport FHD Backup",SKY SPORT
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F924661659%2Findex.m3u8
-#EXTINF:-1 tvg-id="skysport24.it" tvg-name="SKY SPORT 24" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",SKY SPORT 24
+#EXTINF:-1 tvg-id="skysport24.it" tvg-name="SKY SPORT 24" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-24-it.png" group-title="Sky Sport FHD Backup",SKY SPORT 24
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F2775802255%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="SKY SPORT 24 [LIVE DURING EVENTS ONLY]" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",SKY SPORT 24 [LIVE DURING EVENTS ONLY]
+#EXTINF:-1 tvg-id="" tvg-name="SKY SPORT 24 [LIVE DURING EVENTS ONLY]" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-24-it.png" group-title="Sky Sport FHD Backup",SKY SPORT 24 [LIVE DURING EVENTS ONLY]
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F3445562519%2Findex.m3u8
-#EXTINF:-1 tvg-id="skysportarena.it" tvg-name="SKY SPORT ARENA" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",SKY SPORT ARENA
+#EXTINF:-1 tvg-id="skysportarena.it" tvg-name="SKY SPORT ARENA" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-arena-it.png" group-title="Sky Sport FHD Backup",SKY SPORT ARENA
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F2555960713%2Findex.m3u8
-#EXTINF:-1 tvg-id="skysportarena.it" tvg-name="SKY SPORT ARENA" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",SKY SPORT ARENA
+#EXTINF:-1 tvg-id="skysportarena.it" tvg-name="SKY SPORT ARENA" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-arena-it.png" group-title="Sky Sport FHD Backup",SKY SPORT ARENA
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F3007400791%2Findex.m3u8
-#EXTINF:-1 tvg-id="skysportcalcio.it" tvg-name="SKY SPORT CALCIO" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",SKY SPORT CALCIO
+#EXTINF:-1 tvg-id="skysportcalcio.it" tvg-name="SKY SPORT CALCIO" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-calcio-it.png" group-title="Sky Sport FHD Backup",SKY SPORT CALCIO
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F1665920101%2Findex.m3u8
-#EXTINF:-1 tvg-id="skysportcalcio.it" tvg-name="SKY SPORT CALCIO" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",SKY SPORT CALCIO
+#EXTINF:-1 tvg-id="skysportcalcio.it" tvg-name="SKY SPORT CALCIO" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-calcio-it.png" group-title="Sky Sport FHD Backup",SKY SPORT CALCIO
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F449990998%2Findex.m3u8
-#EXTINF:-1 tvg-id="skysportf1.it" tvg-name="SKY SPORT F1" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",SKY SPORT F1
+#EXTINF:-1 tvg-id="skysportf1.it" tvg-name="SKY SPORT F1" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-f1-it.png" group-title="Sky Sport FHD Backup",SKY SPORT F1
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F4246774056%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="SKY SPORT FOOTBALL" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",SKY SPORT FOOTBALL
+#EXTINF:-1 tvg-id="" tvg-name="SKY SPORT FOOTBALL" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-football-it.png" group-title="Sky Sport FHD Backup",SKY SPORT FOOTBALL
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F3093535330%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="SKY SPORT FOOTBALL [LIVE DURING EVENTS ONLY]" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",SKY SPORT FOOTBALL [LIVE DURING EVENTS ONLY]
+#EXTINF:-1 tvg-id="" tvg-name="SKY SPORT FOOTBALL [LIVE DURING EVENTS ONLY]" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-football-it.png" group-title="Sky Sport FHD Backup",SKY SPORT FOOTBALL [LIVE DURING EVENTS ONLY]
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F1989309231%2Findex.m3u8
-#EXTINF:-1 tvg-id="skysportgolf.it" tvg-name="SKY SPORT GOLF" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",SKY SPORT GOLF
+#EXTINF:-1 tvg-id="skysportgolf.it" tvg-name="SKY SPORT GOLF" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-golf-it.png" group-title="Sky Sport FHD Backup",SKY SPORT GOLF
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F729945219%2Findex.m3u8
-#EXTINF:-1 tvg-id="skysportgolf.it" tvg-name="SKY SPORT GOLF" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",SKY SPORT GOLF
+#EXTINF:-1 tvg-id="skysportgolf.it" tvg-name="SKY SPORT GOLF" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-golf-it.png" group-title="Sky Sport FHD Backup",SKY SPORT GOLF
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F3897711086%2Findex.m3u8
-#EXTINF:-1 tvg-id="skysportmax.it" tvg-name="SKY SPORT MAX" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",SKY SPORT MAX
+#EXTINF:-1 tvg-id="skysportmax.it" tvg-name="SKY SPORT MAX" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-max-it.png" group-title="Sky Sport FHD Backup",SKY SPORT MAX
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F2066326916%2Findex.m3u8
-#EXTINF:-1 tvg-id="skysportmotogp.it" tvg-name="SKY SPORT MOTO GP" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",SKY SPORT MOTO GP
+#EXTINF:-1 tvg-id="skysportmotogp.it" tvg-name="SKY SPORT MOTO GP" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-motogp-it.png" group-title="Sky Sport FHD Backup",SKY SPORT MOTO GP
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F3036316886%2Findex.m3u8
-#EXTINF:-1 tvg-id="skysportmotogp.it" tvg-name="SKY SPORT MOTOGP" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",SKY SPORT MOTOGP
+#EXTINF:-1 tvg-id="skysportmotogp.it" tvg-name="SKY SPORT MOTOGP" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/italy/hd/sky-sport-motogp-hd-it.png" group-title="Sky Sport FHD Backup",SKY SPORT MOTOGP
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F2090703806%2Findex.m3u8
-#EXTINF:-1 tvg-id="skysportnba.it" tvg-name="SKY SPORT NBA" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",SKY SPORT NBA
+#EXTINF:-1 tvg-id="skysportnba.it" tvg-name="SKY SPORT NBA" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-nba-it.png" group-title="Sky Sport FHD Backup",SKY SPORT NBA
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F2711959620%2Findex.m3u8
-#EXTINF:-1 tvg-id="skysportnba.it" tvg-name="SKY SPORT NBA" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",SKY SPORT NBA
+#EXTINF:-1 tvg-id="skysportnba.it" tvg-name="SKY SPORT NBA" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-nba-it.png" group-title="Sky Sport FHD Backup",SKY SPORT NBA
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F326825326%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="SKY SPORT SERIE A" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",SKY SPORT SERIE A
+#EXTINF:-1 tvg-id="" tvg-name="SKY SPORT SERIE A" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-serie-a-it.png" group-title="Sky Sport FHD Backup",SKY SPORT SERIE A
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F2077387085%2Findex.m3u8
-#EXTINF:-1 tvg-id="skysporttennis.it" tvg-name="SKY SPORT TENNIS" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",SKY SPORT TENNIS
+#EXTINF:-1 tvg-id="skysporttennis.it" tvg-name="SKY SPORT TENNIS" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-tennis-it.png" group-title="Sky Sport FHD Backup",SKY SPORT TENNIS
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F2100771782%2Findex.m3u8
-#EXTINF:-1 tvg-id="skysporttennis.it" tvg-name="SKY SPORT TENNIS" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",SKY SPORT TENNIS
+#EXTINF:-1 tvg-id="skysporttennis.it" tvg-name="SKY SPORT TENNIS" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-tennis-it.png" group-title="Sky Sport FHD Backup",SKY SPORT TENNIS
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F78546677%2Findex.m3u8
-#EXTINF:-1 tvg-id="skysportuno.it" tvg-name="Sky Sport Uno FHD" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",Sky Sport Uno FHD
+#EXTINF:-1 tvg-id="skysportuno.it" tvg-name="Sky Sport Uno FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-uno-it.png" group-title="Sky Sport FHD Backup",Sky Sport Uno FHD
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F210669162%2Findex.m3u8
-#EXTINF:-1 tvg-id="skysportuno.it" tvg-name="Sky Sport Uno FHD" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",Sky Sport Uno FHD
+#EXTINF:-1 tvg-id="skysportuno.it" tvg-name="Sky Sport Uno FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-uno-it.png" group-title="Sky Sport FHD Backup",Sky Sport Uno FHD
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F3192996672%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="SKY SPORTS F1" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",SKY SPORTS F1
+#EXTINF:-1 tvg-id="" tvg-name="SKY SPORTS F1" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-f1-it.png" group-title="Sky Sport FHD Backup",SKY SPORTS F1
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F2289038972%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="SKY SUPER TENNIS" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",SKY SUPER TENNIS
+#EXTINF:-1 tvg-id="" tvg-name="SKY SUPER TENNIS" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-tennis-it.png" group-title="Sky Sport FHD Backup",SKY SUPER TENNIS
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F558282118%2Findex.m3u8
-#EXTINF:-1 tvg-id="sportitalia.it" tvg-name="SPORT ITALIA" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",SPORT ITALIA
+#EXTINF:-1 tvg-id="sportitalia.it" tvg-name="SPORT ITALIA" tvg-logo="https://play-lh.googleusercontent.com/0IcWROAOpuEcMf2qbOBNQYhrAPUuSmw-zv0f867kUxKSwSTD_chyCDuBP2PScIyWI9k" group-title="Sky Sport FHD Backup",SPORT ITALIA
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F3165086929%2Findex.m3u8
-#EXTINF:-1 tvg-id="sportitalia.it" tvg-name="SPORT ITALIA" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",SPORT ITALIA
+#EXTINF:-1 tvg-id="sportitalia.it" tvg-name="SPORT ITALIA" tvg-logo="https://play-lh.googleusercontent.com/0IcWROAOpuEcMf2qbOBNQYhrAPUuSmw-zv0f867kUxKSwSTD_chyCDuBP2PScIyWI9k" group-title="Sky Sport FHD Backup",SPORT ITALIA
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F2881739927%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="SPORT ITALIA SOLO CALCIO [LIVE DURING EVENTS ONLY]" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",SPORT ITALIA SOLO CALCIO [LIVE DURING EVENTS ONLY]
+#EXTINF:-1 tvg-id="" tvg-name="SPORT ITALIA SOLO CALCIO [LIVE DURING EVENTS ONLY]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/SI_Solo_Calcio_logo_%282019%29.svg/1200px-SI_Solo_Calcio_logo_%282019%29.svg.png" group-title="Sky Sport FHD Backup",SPORT ITALIA SOLO CALCIO [LIVE DURING EVENTS ONLY]
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F830949486%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="SPORTITALIA PLUS" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",SPORTITALIA PLUS
+#EXTINF:-1 tvg-id="" tvg-name="SPORTITALIA PLUS" tvg-logo="https://www.capitaladv.eu/wp-content/uploads/2020/07/LOGO-SPORTITALIA-PLUS-HD_2-1.png" group-title="Sky Sport FHD Backup",SPORTITALIA PLUS
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F3342849313%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="SPORTITALIA SOLOCALCIO" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",SPORTITALIA SOLOCALCIO
+#EXTINF:-1 tvg-id="" tvg-name="SPORTITALIA SOLOCALCIO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/SI_Solo_Calcio_logo_%282019%29.svg/1200px-SI_Solo_Calcio_logo_%282019%29.svg.png" group-title="Sky Sport FHD Backup",SPORTITALIA SOLOCALCIO
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F2198410339%2Findex.m3u8
-#EXTINF:-1 tvg-id="supertennis.it" tvg-name="SUPER TENNIS" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",SUPER TENNIS
+#EXTINF:-1 tvg-id="supertennis.it" tvg-name="SUPER TENNIS" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/super-tennis-it.png" group-title="Sky Sport FHD Backup",SUPER TENNIS
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F3009377513%2Findex.m3u8
-#EXTINF:-1 tvg-id="supertennis.it" tvg-name="SUPER TENNIS" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",SUPER TENNIS
+#EXTINF:-1 tvg-id="supertennis.it" tvg-name="SUPER TENNIS" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/super-tennis-it.png" group-title="Sky Sport FHD Backup",SUPER TENNIS
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F3213195143%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="TENNIS CHANNEL" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",TENNIS CHANNEL
+#EXTINF:-1 tvg-id="" tvg-name="TENNIS CHANNEL" tvg-logo="https://images.tennis.com/image/upload/t_16-9_768/v1620828532/tenniscom-prd/assets/Fallback/Tennis_Fallback_v6_f5tjzv.jpg" group-title="Sky Sport FHD Backup",TENNIS CHANNEL
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F2716316208%2Findex.m3u8
-#EXTINF:-1 tvg-id="topcalcio24.it" tvg-name="TOP CALCIO 24" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",TOP CALCIO 24
+#EXTINF:-1 tvg-id="topcalcio24.it" tvg-name="TOP CALCIO 24" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPHW5VLQDGnNMVZszgWZRqnBSjPUTgAcUltQ&s" group-title="Sky Sport FHD Backup",TOP CALCIO 24
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F3835549326%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="TRSPORT" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",TRSPORT
+#EXTINF:-1 tvg-id="" tvg-name="TRSPORT" tvg-logo="https://teleromagna.it/Images/logo-tr-sport.jpg" group-title="Sky Sport FHD Backup",TRSPORT
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F361314062%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="DISNEY+ FILM" tvg-logo="https://i.postimg.cc/Ss88rXcm/photo-2025-03-12-12-23-14.png" group-title="Sky Cinema FHD Backup",DISNEY+ FILM
+#EXTINF:-1 tvg-id="" tvg-name="DISNEY+ FILM" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Disney%2B_logo.svg/2560px-Disney%2B_logo.svg.png" group-title="Sky Cinema FHD Backup",DISNEY+ FILM
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F1264775727%2Findex.m3u8
-#EXTINF:-1 tvg-id="skyatlantic.it" tvg-name="SKY ATLANTIC" tvg-logo="https://i.postimg.cc/Ss88rXcm/photo-2025-03-12-12-23-14.png" group-title="Sky Cinema FHD Backup",SKY ATLANTIC
+#EXTINF:-1 tvg-id="skyatlantic.it" tvg-name="SKY ATLANTIC" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-atlantic-it.png" group-title="Sky Cinema FHD Backup",SKY ATLANTIC
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F1421393119%2Findex.m3u8
-#EXTINF:-1 tvg-id="skyatlantic.it" tvg-name="SKY ATLANTIC" tvg-logo="https://i.postimg.cc/Ss88rXcm/photo-2025-03-12-12-23-14.png" group-title="Sky Cinema FHD Backup",SKY ATLANTIC
+#EXTINF:-1 tvg-id="skyatlantic.it" tvg-name="SKY ATLANTIC" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-atlantic-it.png" group-title="Sky Cinema FHD Backup",SKY ATLANTIC
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F1482866609%2Findex.m3u8
-#EXTINF:-1 tvg-id="skycinemaaction.it" tvg-name="SKY CINEMA ACTION" tvg-logo="https://i.postimg.cc/Ss88rXcm/photo-2025-03-12-12-23-14.png" group-title="Sky Cinema FHD Backup",SKY CINEMA ACTION
+#EXTINF:-1 tvg-id="skycinemaaction.it" tvg-name="SKY CINEMA ACTION" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-action-it.png" group-title="Sky Cinema FHD Backup",SKY CINEMA ACTION
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F1144128726%2Findex.m3u8
-#EXTINF:-1 tvg-id="skycinemaaction.it" tvg-name="SKY CINEMA ACTION" tvg-logo="https://i.postimg.cc/Ss88rXcm/photo-2025-03-12-12-23-14.png" group-title="Sky Cinema FHD Backup",SKY CINEMA ACTION
+#EXTINF:-1 tvg-id="skycinemaaction.it" tvg-name="SKY CINEMA ACTION" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-action-it.png" group-title="Sky Cinema FHD Backup",SKY CINEMA ACTION
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F3812796171%2Findex.m3u8
-#EXTINF:-1 tvg-id="skycinemaaction.it" tvg-name="SKY CINEMA ACTION" tvg-logo="https://i.postimg.cc/Ss88rXcm/photo-2025-03-12-12-23-14.png" group-title="Sky Cinema FHD Backup",SKY CINEMA ACTION
+#EXTINF:-1 tvg-id="skycinemaaction.it" tvg-name="SKY CINEMA ACTION" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-action-it.png" group-title="Sky Cinema FHD Backup",SKY CINEMA ACTION
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F2242741766%2Findex.m3u8
-#EXTINF:-1 tvg-id="skycinemacollectionhd.it" tvg-name="SKY CINEMA COLLECTION" tvg-logo="https://i.postimg.cc/Ss88rXcm/photo-2025-03-12-12-23-14.png" group-title="Sky Cinema FHD Backup",SKY CINEMA COLLECTION
+#EXTINF:-1 tvg-id="skycinemacollectionhd.it" tvg-name="SKY CINEMA COLLECTION" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-collection-it.png" group-title="Sky Cinema FHD Backup",SKY CINEMA COLLECTION
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F3525837057%2Findex.m3u8
-#EXTINF:-1 tvg-id="skycinemacomedy.it" tvg-name="SKY CINEMA COMEDY" tvg-logo="https://i.postimg.cc/Ss88rXcm/photo-2025-03-12-12-23-14.png" group-title="Sky Cinema FHD Backup",SKY CINEMA COMEDY
+#EXTINF:-1 tvg-id="skycinemacomedy.it" tvg-name="SKY CINEMA COMEDY" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-comedy-it.png" group-title="Sky Cinema FHD Backup",SKY CINEMA COMEDY
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F500203271%2Findex.m3u8
-#EXTINF:-1 tvg-id="skycinemacomedy.it" tvg-name="SKY CINEMA COMEDY" tvg-logo="https://i.postimg.cc/Ss88rXcm/photo-2025-03-12-12-23-14.png" group-title="Sky Cinema FHD Backup",SKY CINEMA COMEDY
+#EXTINF:-1 tvg-id="skycinemacomedy.it" tvg-name="SKY CINEMA COMEDY" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-comedy-it.png" group-title="Sky Cinema FHD Backup",SKY CINEMA COMEDY
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F3131104474%2Findex.m3u8
-#EXTINF:-1 tvg-id="skycinemadrama.it" tvg-name="SKY CINEMA DRAMA" tvg-logo="https://i.postimg.cc/Ss88rXcm/photo-2025-03-12-12-23-14.png" group-title="Sky Cinema FHD Backup",SKY CINEMA DRAMA
+#EXTINF:-1 tvg-id="skycinemadrama.it" tvg-name="SKY CINEMA DRAMA" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-drama-it.png" group-title="Sky Cinema FHD Backup",SKY CINEMA DRAMA
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F1235530177%2Findex.m3u8
-#EXTINF:-1 tvg-id="skycinemadue.it" tvg-name="SKY CINEMA DUE" tvg-logo="https://i.postimg.cc/Ss88rXcm/photo-2025-03-12-12-23-14.png" group-title="Sky Cinema FHD Backup",SKY CINEMA DUE
+#EXTINF:-1 tvg-id="skycinemadue.it" tvg-name="SKY CINEMA DUE" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-due-it.png" group-title="Sky Cinema FHD Backup",SKY CINEMA DUE
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F2330574729%2Findex.m3u8
-#EXTINF:-1 tvg-id="skycinemadue.it" tvg-name="SKY CINEMA DUE" tvg-logo="https://i.postimg.cc/Ss88rXcm/photo-2025-03-12-12-23-14.png" group-title="Sky Cinema FHD Backup",SKY CINEMA DUE
+#EXTINF:-1 tvg-id="skycinemadue.it" tvg-name="SKY CINEMA DUE" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-due-it.png" group-title="Sky Cinema FHD Backup",SKY CINEMA DUE
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F1228534500%2Findex.m3u8
-#EXTINF:-1 tvg-id="skycinemadue+24.it" tvg-name="SKY CINEMA DUE +24" tvg-logo="https://i.postimg.cc/Ss88rXcm/photo-2025-03-12-12-23-14.png" group-title="Sky Cinema FHD Backup",SKY CINEMA DUE +24
+#EXTINF:-1 tvg-id="skycinemadue+24.it" tvg-name="SKY CINEMA DUE +24" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-due-plus24-it.png" group-title="Sky Cinema FHD Backup",SKY CINEMA DUE +24
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F1078650168%2Findex.m3u8
-#EXTINF:-1 tvg-id="skycinemafamily.it" tvg-name="SKY CINEMA FAMILY" tvg-logo="https://i.postimg.cc/Ss88rXcm/photo-2025-03-12-12-23-14.png" group-title="Sky Cinema FHD Backup",SKY CINEMA FAMILY
+#EXTINF:-1 tvg-id="skycinemafamily.it" tvg-name="SKY CINEMA FAMILY" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-family-it.png" group-title="Sky Cinema FHD Backup",SKY CINEMA FAMILY
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F415795144%2Findex.m3u8
-#EXTINF:-1 tvg-id="skycinemafamily.it" tvg-name="SKY CINEMA FAMILY" tvg-logo="https://i.postimg.cc/Ss88rXcm/photo-2025-03-12-12-23-14.png" group-title="Sky Cinema FHD Backup",SKY CINEMA FAMILY
+#EXTINF:-1 tvg-id="skycinemafamily.it" tvg-name="SKY CINEMA FAMILY" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-family-it.png" group-title="Sky Cinema FHD Backup",SKY CINEMA FAMILY
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F3216516117%2Findex.m3u8
-#EXTINF:-1 tvg-id="skycinemaromance.it" tvg-name="SKY CINEMA ROMANCE" tvg-logo="https://i.postimg.cc/Ss88rXcm/photo-2025-03-12-12-23-14.png" group-title="Sky Cinema FHD Backup",SKY CINEMA ROMANCE
+#EXTINF:-1 tvg-id="skycinemaromance.it" tvg-name="SKY CINEMA ROMANCE" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-romance-it.png" group-title="Sky Cinema FHD Backup",SKY CINEMA ROMANCE
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F1281264885%2Findex.m3u8
-#EXTINF:-1 tvg-id="skycinemaromance.it" tvg-name="SKY CINEMA ROMANCE" tvg-logo="https://i.postimg.cc/Ss88rXcm/photo-2025-03-12-12-23-14.png" group-title="Sky Cinema FHD Backup",SKY CINEMA ROMANCE
+#EXTINF:-1 tvg-id="skycinemaromance.it" tvg-name="SKY CINEMA ROMANCE" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-romance-it.png" group-title="Sky Cinema FHD Backup",SKY CINEMA ROMANCE
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F2890008905%2Findex.m3u8
-#EXTINF:-1 tvg-id="skycinemasuspense.it" tvg-name="SKY CINEMA SUSPENSE" tvg-logo="https://i.postimg.cc/Ss88rXcm/photo-2025-03-12-12-23-14.png" group-title="Sky Cinema FHD Backup",SKY CINEMA SUSPENSE
+#EXTINF:-1 tvg-id="skycinemasuspense.it" tvg-name="SKY CINEMA SUSPENSE" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-suspense-it.png" group-title="Sky Cinema FHD Backup",SKY CINEMA SUSPENSE
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F3060043751%2Findex.m3u8
-#EXTINF:-1 tvg-id="skycinemasuspense.it" tvg-name="SKY CINEMA SUSPENSE" tvg-logo="https://i.postimg.cc/Ss88rXcm/photo-2025-03-12-12-23-14.png" group-title="Sky Cinema FHD Backup",SKY CINEMA SUSPENSE
+#EXTINF:-1 tvg-id="skycinemasuspense.it" tvg-name="SKY CINEMA SUSPENSE" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-suspense-it.png" group-title="Sky Cinema FHD Backup",SKY CINEMA SUSPENSE
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F1820997555%2Findex.m3u8
-#EXTINF:-1 tvg-id="skycinemauno.it" tvg-name="SKY CINEMA UNO" tvg-logo="https://i.postimg.cc/Ss88rXcm/photo-2025-03-12-12-23-14.png" group-title="Sky Cinema FHD Backup",SKY CINEMA UNO
+#EXTINF:-1 tvg-id="skycinemauno.it" tvg-name="SKY CINEMA UNO" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-uno-it.png" group-title="Sky Cinema FHD Backup",SKY CINEMA UNO
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F1759625738%2Findex.m3u8
-#EXTINF:-1 tvg-id="skycinemauno.it" tvg-name="SKY CINEMA UNO" tvg-logo="https://i.postimg.cc/Ss88rXcm/photo-2025-03-12-12-23-14.png" group-title="Sky Cinema FHD Backup",SKY CINEMA UNO
+#EXTINF:-1 tvg-id="skycinemauno.it" tvg-name="SKY CINEMA UNO" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-uno-it.png" group-title="Sky Cinema FHD Backup",SKY CINEMA UNO
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F2872151911%2Findex.m3u8
-#EXTINF:-1 tvg-id="skycinemauno+24.it" tvg-name="SKY CINEMA UNO +24" tvg-logo="https://i.postimg.cc/Ss88rXcm/photo-2025-03-12-12-23-14.png" group-title="Sky Cinema FHD Backup",SKY CINEMA UNO +24
+#EXTINF:-1 tvg-id="skycinemauno+24.it" tvg-name="SKY CINEMA UNO +24" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-uno-plus24-it.png" group-title="Sky Cinema FHD Backup",SKY CINEMA UNO +24
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F1699876530%2Findex.m3u8
-#EXTINF:-1 tvg-id="skyserie.it" tvg-name="Sky Serie FHD" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="Sky Sport FHD Backup",Sky Serie FHD
+#EXTINF:-1 tvg-id="skyserie.it" tvg-name="Sky Serie FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-serie-it.png" group-title="Sky Sport FHD Backup",Sky Serie FHD
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F836680112%2Findex.m3u8
 #EXTINF:-1 tvg-id="babytv.it" tvg-name="BABY TV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/baby-tv-es.png?raw=true" group-title="Bambini",BABY TV
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F3938501125%2Findex.m3u8
@@ -287,57 +287,57 @@ https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F3810188456%2Findex.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="TELEARTE" tvg-logo="https://www.teleartetv.it/web/wp-content/uploads/2023/04/logo_TA.jpg" group-title="Documentari",TELEARTE
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F2586615238%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 1" tvg-logo="https://i.postimg.cc/VL0pBWFX/Picsart-25-04-16-23-24-42-819.png" group-title="Sky Primafila FHD",SKY PRIMAFILA 1
+#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 1" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",SKY PRIMAFILA 1
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F1944682394%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 1" tvg-logo="https://i.postimg.cc/VL0pBWFX/Picsart-25-04-16-23-24-42-819.png" group-title="Sky Primafila FHD",SKY PRIMAFILA 1
+#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 1" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",SKY PRIMAFILA 1
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F1492183364%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 2" tvg-logo="https://i.postimg.cc/VL0pBWFX/Picsart-25-04-16-23-24-42-819.png" group-title="Sky Primafila FHD",SKY PRIMAFILA 2
+#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 2" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",SKY PRIMAFILA 2
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F877200714%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 2" tvg-logo="https://i.postimg.cc/VL0pBWFX/Picsart-25-04-16-23-24-42-819.png" group-title="Sky Primafila FHD",SKY PRIMAFILA 2
+#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 2" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",SKY PRIMAFILA 2
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F525374356%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 3" tvg-logo="https://i.postimg.cc/VL0pBWFX/Picsart-25-04-16-23-24-42-819.png" group-title="Sky Primafila FHD",SKY PRIMAFILA 3
+#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 3" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",SKY PRIMAFILA 3
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F573618724%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 3" tvg-logo="https://i.postimg.cc/VL0pBWFX/Picsart-25-04-16-23-24-42-819.png" group-title="Sky Primafila FHD",SKY PRIMAFILA 3
+#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 3" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",SKY PRIMAFILA 3
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F153693434%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 4" tvg-logo="https://i.postimg.cc/VL0pBWFX/Picsart-25-04-16-23-24-42-819.png" group-title="Sky Primafila FHD",SKY PRIMAFILA 4
+#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 4" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",SKY PRIMAFILA 4
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F3137990890%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 4" tvg-logo="https://i.postimg.cc/VL0pBWFX/Picsart-25-04-16-23-24-42-819.png" group-title="Sky Primafila FHD",SKY PRIMAFILA 4
+#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 4" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",SKY PRIMAFILA 4
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F2416993844%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 5" tvg-logo="https://i.postimg.cc/VL0pBWFX/Picsart-25-04-16-23-24-42-819.png" group-title="Sky Primafila FHD",SKY PRIMAFILA 5
+#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 5" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",SKY PRIMAFILA 5
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F2255083866%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 5" tvg-logo="https://i.postimg.cc/VL0pBWFX/Picsart-25-04-16-23-24-42-819.png" group-title="Sky Primafila FHD",SKY PRIMAFILA 5
+#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 5" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",SKY PRIMAFILA 5
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F2909818756%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 6" tvg-logo="https://i.postimg.cc/VL0pBWFX/Picsart-25-04-16-23-24-42-819.png" group-title="Sky Primafila FHD",SKY PRIMAFILA 6
+#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 6" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",SKY PRIMAFILA 6
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F3939513684%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 6" tvg-logo="https://i.postimg.cc/VL0pBWFX/Picsart-25-04-16-23-24-42-819.png" group-title="Sky Primafila FHD",SKY PRIMAFILA 6
+#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 6" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",SKY PRIMAFILA 6
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F3251217290%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 7" tvg-logo="https://i.postimg.cc/VL0pBWFX/Picsart-25-04-16-23-24-42-819.png" group-title="Sky Primafila FHD",SKY PRIMAFILA 7
+#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 7" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",SKY PRIMAFILA 7
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F3618643172%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 7" tvg-logo="https://i.postimg.cc/VL0pBWFX/Picsart-25-04-16-23-24-42-819.png" group-title="Sky Primafila FHD",SKY PRIMAFILA 7
+#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 7" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",SKY PRIMAFILA 7
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F4238969402%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 8" tvg-logo="https://i.postimg.cc/VL0pBWFX/Picsart-25-04-16-23-24-42-819.png" group-title="Sky Primafila FHD",SKY PRIMAFILA 8
+#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 8" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",SKY PRIMAFILA 8
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F2130255339%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 8" tvg-logo="https://i.postimg.cc/VL0pBWFX/Picsart-25-04-16-23-24-42-819.png" group-title="Sky Primafila FHD",SKY PRIMAFILA 8
+#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 8" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",SKY PRIMAFILA 8
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F1440779061%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 9" tvg-logo="https://i.postimg.cc/VL0pBWFX/Picsart-25-04-16-23-24-42-819.png" group-title="Sky Primafila FHD",SKY PRIMAFILA 9
+#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 9" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",SKY PRIMAFILA 9
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F1134113883%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 9" tvg-logo="https://i.postimg.cc/VL0pBWFX/Picsart-25-04-16-23-24-42-819.png" group-title="Sky Primafila FHD",SKY PRIMAFILA 9
+#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 9" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",SKY PRIMAFILA 9
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F1753260677%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 10" tvg-logo="https://i.postimg.cc/VL0pBWFX/Picsart-25-04-16-23-24-42-819.png" group-title="Sky Primafila FHD",SKY PRIMAFILA 10
+#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 10" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",SKY PRIMAFILA 10
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F4272937805%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 10" tvg-logo="https://i.postimg.cc/VL0pBWFX/Picsart-25-04-16-23-24-42-819.png" group-title="Sky Primafila FHD",SKY PRIMAFILA 10
+#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 10" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",SKY PRIMAFILA 10
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F2268489342%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 12" tvg-logo="https://i.postimg.cc/VL0pBWFX/Picsart-25-04-16-23-24-42-819.png" group-title="Sky Primafila FHD",SKY PRIMAFILA 12
+#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 12" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",SKY PRIMAFILA 12
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F2221901869%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 14" tvg-logo="https://i.postimg.cc/VL0pBWFX/Picsart-25-04-16-23-24-42-819.png" group-title="Sky Primafila FHD",SKY PRIMAFILA 14
+#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 14" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",SKY PRIMAFILA 14
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F187661709%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 15" tvg-logo="https://i.postimg.cc/VL0pBWFX/Picsart-25-04-16-23-24-42-819.png" group-title="Sky Primafila FHD",SKY PRIMAFILA 15
+#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 15" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",SKY PRIMAFILA 15
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F911168573%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 16" tvg-logo="https://i.postimg.cc/VL0pBWFX/Picsart-25-04-16-23-24-42-819.png" group-title="Sky Primafila FHD",SKY PRIMAFILA 16
+#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 16" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",SKY PRIMAFILA 16
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F1911500525%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 17" tvg-logo="https://i.postimg.cc/VL0pBWFX/Picsart-25-04-16-23-24-42-819.png" group-title="Sky Primafila FHD",SKY PRIMAFILA 17
+#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 17" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",SKY PRIMAFILA 17
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F1284441949%2Findex.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 18" tvg-logo="https://i.postimg.cc/VL0pBWFX/Picsart-25-04-16-23-24-42-819.png" group-title="Sky Primafila FHD",SKY PRIMAFILA 18
+#EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 18" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",SKY PRIMAFILA 18
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https%3A%2F%2Fvavoo.to%2Fplay%2F3470758028%2Findex.m3u8
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/it.xml"
 #EXTINF:-1 tvg-chno="80" tvg-name="Pluto TV Christmas" tvg-logo="https://images.pluto.tv/channels/612e05b885183d0007958101/colorLogoPNG.png" tvg-id="612e05b885183d0007958101" group-title="Pluto TV Italia",Pluto TV Christmas
