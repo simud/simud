@@ -27,7 +27,7 @@ m3u8_file = Path("twitch_streams.m3u8")
 user_agent = "Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1"
 
 # Immagine per ogni canale
-channel_logo = "https://i.postimg.cc/hjvtqD6B/photo-2025-03-20-16-36-52.png"
+channel_logo = "https://i.postimg.cc/mZ6gwjBg/kings-league.png"
 
 # Gruppo per ogni canale
 group_title = "Kings League"
