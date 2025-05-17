@@ -1,66 +1,12 @@
 #EXTM3U url-tvg="http://www.epgitalia.tv/gzip,http://epg-guide.com/it.gz,https://raw.github.com/matthuisman/i.mjh.nz/master/PlutoTV/us.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/PlutoTV/it.xml.gz,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-events-epg.xml,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-channels-epg.xml,https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/it.xml.gz"
-
-# Sky Sport 4K
-
-#EXTINF:-1 tvg-id="SkySp.F1.uk" tvg-name="UK: Sky Sports F1 UHD" tvg-logo="https://i.postimg.cc/vHmKRVkT/Picsart-25-04-16-11-33-31-681.png" group-title="Sky Sport 4K", Sky Sports F1 UHD (en)
-https://a1xs.vip/2000016
-
-#EXTINF:-1 tvg-id="SkySpMainEvHD.uk" tvg-name="UK: Sky Sports Main Event UHD" tvg-logo="https://i.postimg.cc/vHmKRVkT/Picsart-25-04-16-11-33-31-681.png" group-title="Sky Sport 4K", Sky Sports Main Event UHD (en)
-https://a1xs.vip/2000015
-
-#EXTINF:-1 tvg-id="TNT.Sports.Ultimate.uk" tvg-name="UK: TNT Sports Ultimate UHD" tvg-logo="https://i.postimg.cc/vHmKRVkT/Picsart-25-04-16-11-33-31-681.png" group-title="Sky Sport 4K",UK: TNT Sports Ultimate UHD
-https://a1xs.vip/2000031
-
-#EXTINF:-1 tvg-id="Astro.Sports.UHD.my" tvg-name="MY: Astro Sports UHD" tvg-logo="https://i.postimg.cc/vHmKRVkT/Picsart-25-04-16-11-33-31-681.png" group-title="Sky Sport 4K",MY: Astro Sports UHD
-https://a1xs.vip/9000001
-
-#EXTINF:-1 tvg-id="English.-.Now.Sports.4K.1.hk" tvg-name="HK: Now Sports 1 4k" tvg-logo="https://i.postimg.cc/vHmKRVkT/Picsart-25-04-16-11-33-31-681.png" group-title="Sky Sport 4K",HK: Now Sports 1 4k
-https://a1xs.vip/9000011
-
-#EXTINF:-1 tvg-id="Hub.Premier.2.sg" tvg-name="SG: Hub Premier 2 UHD" tvg-logo="https://i.postimg.cc/vHmKRVkT/Picsart-25-04-16-11-33-31-681.png" group-title="Sky Sport 4K",SG: Hub Premier 2 UHD
-https://a1xs.vip/9000012
-
-#EXTINF:-1 tvg-id="V.sport.ULTRA.HD.fi" tvg-name="SE: V Sport Ultra HD" tvg-logo="https://i.postimg.cc/vHmKRVkT/Picsart-25-04-16-11-33-31-681.png" group-title="Sky Sport 4K",SE: V Sport Ultra HD
-https://a1xs.vip/9000013
-
-#EXTINF:-1 tvg-id="New.England.Sports.Network.HDTV.(NESNHD).us" tvg-name="US: NESN UHD" tvg-logo="https://i.postimg.cc/vHmKRVkT/Picsart-25-04-16-11-33-31-681.png" group-title="Sky Sport 4K",US: NESN UHD
-https://a1xs.vip/4000080
-
-#EXTINF:-1 tvg-id="DE:.Fashion.TV.de" tvg-name="Fashion TV UHD" tvg-logo="https://i.postimg.cc/vHmKRVkT/Picsart-25-04-16-11-33-31-681.png" group-title="Sky Sport 4K",Fashion TV UHD
-https://a1xs.vip/ftv4kuhd
-
-#EXTINF:-1 tvg-id="Bloomberg.TV.USA.us" tvg-name="Bloomberg TV UHD" tvg-logo="https://i.postimg.cc/vHmKRVkT/Picsart-25-04-16-11-33-31-681.png" group-title="Sky Sport 4K",Bloomberg TV UHD
-https://a1xs.vip/blombuhd
-
-#EXTINF:-1 tvg-id="Love.Nature.ca" tvg-name="Love Nature 4K" tvg-logo="https://i.postimg.cc/vHmKRVkT/Picsart-25-04-16-11-33-31-681.png" group-title="Sky Sport 4K",Love Nature 4K
-https://a1xs.vip/lovent4k
-
-#EXTINF:-1 tvg-id="travelxp.4K.de" tvg-name="Travelxp 4K" tvg-logo="https://i.postimg.cc/vHmKRVkT/Picsart-25-04-16-11-33-31-681.png" group-title="Sky Sport 4K",Travelxp 4K
-https://a1xs.vip/travelxpuhd
-
-#EXTINF:-1 tvg-id="HOME.4K.pl" tvg-name="HOME 4K" tvg-logo="https://i.postimg.cc/vHmKRVkT/Picsart-25-04-16-11-33-31-681.png" group-title="Sky Sport 4K",HOME 4K
-https://a1xs.vip/home4k
-
-#EXTINF:-1 tvg-id="Museum.4k.ro" tvg-name="MUSEUM TV 4K" tvg-logo="https://i.postimg.cc/vHmKRVkT/Picsart-25-04-16-11-33-31-681.png" group-title="Sky Sport 4K",MUSEUM TV 4K
-https://a1xs.vip/msem4k
-
-#EXTINF:-1 tvg-id="Loupe4k" tvg-name="Loupe 4K" tvg-logo="https://i.postimg.cc/vHmKRVkT/Picsart-25-04-16-11-33-31-681.png" group-title="Sky Sport 4K",Loupe 4K
-https://a1xs.vip/loupe4k
-
-#EXTINF:-1 tvg-id="IRIBUHD" tvg-name="IRIB UHD" tvg-logo="https://i.postimg.cc/vHmKRVkT/Picsart-25-04-16-11-33-31-681.png" group-title="Sky Sport 4K",IRIB UHD
-https://a1xs.vip/iribuhd
-
-#EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Sky Sport 4K", ADMIN
-https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
-
 # Rai
 
 #EXTINF:0, tvg-id="rai 1" tvg-logo="https://i.postimg.cc/LXD7KCm4/photo-2025-03-13-12-52-29.png" group-title="Rai", Rai 1
 https://viamotionhsi.netplus.ch/live/eds/rai1/browser-dash/rai1.mpd
 
-#EXTINF:-1 tvg-id="Rai1.it" group-title="Rai" tvg-logo="https://i.postimg.cc/j5d5bSGp/photo-2025-03-13-12-56-42.png",Rai 1 HD
-#EXTVLCOPT:http-referrer=https://daddylive.dad
-#EXTVLCOPT:http-origin=https://daddylive.dad
+#EXTINF:-1 tvg-id="Rai1.it" group-title="Rai" tvg-logo="https://i.postimg.cc/j5d5bSGp/photo-2025-03-13-12-56-42.png",Rai 1 H
+#EXTVLCOPT:http-referrer=https://alldownplay.xyz
+#EXTVLCOPT:http-origin=https://alldownplay.xyz
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://ddy6new.newkso.ru/ddy6/premium850/mono.m3u8
 
@@ -83,8 +29,8 @@ https://viamotionhsi.netplus.ch/live/eds/rete4/browser-dash/rete4.mpd
 https://viamotionhsi.netplus.ch/live/eds/canale5/browser-dash/canale5.mpd
 
 #EXTINF:-1 tvg-id="canale 5" group-title="Rai" tvg-logo="https://i.postimg.cc/j5d5bSGp/photo-2025-03-13-12-56-42.png", Canale 5 FHD
-#EXTVLCOPT:http-referrer=https://daddylive.dad
-#EXTVLCOPT:http-origin=https://daddylive.dad
+#EXTVLCOPT:http-referrer=https://miztv.top/
+#EXTVLCOPT:http-origin=https://miztv.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://windnew.newkso.ru/wind/premium853/mono.m3u8
 
@@ -92,8 +38,8 @@ https://windnew.newkso.ru/wind/premium853/mono.m3u8
 https://viamotionhsi.netplus.ch/live/eds/italia1/browser-dash/italia1.mpd
 
 #EXTINF:-1 tvg-id="Italia.1.it" group-title="Rai" tvg-logo="https://i.postimg.cc/j5d5bSGp/photo-2025-03-13-12-56-42.png",Italia 1 FHD
-#EXTVLCOPT:http-referrer=https://daddylive.dad
-#EXTVLCOPT:http-origin=https://daddylive.dad
+#EXTVLCOPT:http-referrer=https://miztv.top/
+#EXTVLCOPT:http-origin=https://miztv.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://windnew.newkso.ru/wind/premium854/mono.m3u8
 
