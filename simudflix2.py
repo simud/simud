@@ -16,6 +16,10 @@ def clean_channel_name(name):
     name = re.sub(r'\s*\(D\)$', '', name, flags=re.IGNORECASE)
     return name.strip()
 
+def has_fhd(name):
+    """Verifica se il nome del canale contiene già FHD."""
+    return bool(re.search(r'\s*FHD$', name, flags=re.IGNORECASE))
+
 def transform_m3u8():
     try:
         # Scarica la playlist originale
@@ -28,27 +32,61 @@ def transform_m3u8():
         response.raise_for_status()
         simudflix_content = response.text
 
-        # Processa la playlist simudflix per estrarre i canali con flusso dproxy
-        simudflix_channels = {}
-        simudflix_lines = simudflix_content.splitlines()
+        # Processa la playlist originale per creare un dizionario di canali trasformati
+        original_channels = {}
+        original_lines = original_content.splitlines()
         i = 0
-        while i < len(simudflix_lines):
-            line = simudflix_lines[i].strip()
+        while i < len(original_lines):
+            line = original_lines[i].strip()
             if line.startswith("#EXTINF"):
-                match = re.match(r'(#EXTINF:.*?),\s*(.+?)\s*$', line)
+                match = re.match(r'(#EXTINF:.*?),\s*(.+?)\s*(\(D\))?\s*$', line)
                 if match:
-                    extinf = [line]
-                    channel_name = clean_channel_name(match.group(2))
+                    extinf = match.group(1)
+                    channel_name = match.group(2).strip()
+                    extinf_lines = [line]
                     j = i + 1
-                    # Raccogli eventuali righe #EXTVLCOPT
-                    while j < len(simudflix_lines) and simudflix_lines[j].startswith("#EXTVLCOPT"):
-                        extinf.append(simudflix_lines[j].strip())
+                    # Raccogli righe #EXTVLCOPT
+                    while j < len(original_lines) and original_lines[j].startswith("#EXTVLCOPT"):
+                        extinf_lines.append(original_lines[j].strip())
                         j += 1
-                    if j < len(simudflix_lines):
-                        stream_url = simudflix_lines[j].strip()
-                        if stream_url.startswith("https://dproxy-o.hf.space/stream/"):
-                            simudflix_channels[channel_name] = (extinf, stream_url)
-                    i = j
+                    # Trova l'URL del flusso
+                    stream_url = None
+                    if j < len(original_lines) and not original_lines[j].startswith("#"):
+                        stream_url = original_lines[j].strip()
+                    
+                    # Modifica il gruppo
+                    group_pattern = r'group-title="([^"]*)"'
+                    group_match = re.search(group_pattern, extinf)
+                    if group_match:
+                        current_group = group_match.group(1)
+                        if current_group in ["TV Italia", "Mediaset", "Rai TV"]:
+                            extinf = re.sub(group_pattern, 'group-title="Rai"', extinf)
+                        elif current_group == "Sky":
+                            extinf = re.sub(group_pattern, 'group-title="Sky Cinema FHD"', extinf)
+                        elif current_group == "Sport":
+                            extinf = re.sub(group_pattern, 'group-title="Sky Sport FHD"', extinf)
+                    
+                    # Modifica per Rai 3 -> Canale 5
+                    if channel_name == "Rai 3":
+                        channel_name = "Canale 5"
+                        if 'tvg-logo="' in extinf:
+                            extinf = re.sub(r'tvg-logo="[^"]*"', f'tvg-logo="{canale_5_logo}"', extinf)
+                        else:
+                            extinf = extinf.replace('tvg-name="Rai 3"', f'tvg-name="Canale 5" tvg-logo="{canale_5_logo}"')
+                        extinf = re.sub(r'tvg-name="[^"]*"', f'tvg-name="Canale 5"', extinf)
+                    
+                    # Aggiungi FHD al nome del canale, se non presente
+                    new_channel_name = channel_name if has_fhd(channel_name) else f"{channel_name} FHD"
+                    
+                    # Trasforma l'URL con il proxy
+                    transformed_url = proxy_base + stream_url if stream_url else None
+                    
+                    # Salva il canale trasformato
+                    cleaned_name = clean_channel_name(channel_name)
+                    original_channels[cleaned_name] = (extinf_lines, transformed_url, new_channel_name)
+                    
+                    i = j + 1 if stream_url else j
+                    continue
                 else:
                     i += 1
             else:
@@ -61,105 +99,72 @@ def transform_m3u8():
             # Scrivi l'intestazione M3U
             f.write("#EXTM3U\n")
             
-            # Processa la playlist originale
-            lines = original_content.splitlines()
+            # Processa la playlist simudflix
+            simudflix_lines = simudflix_content.splitlines()
             i = 0
-            while i < len(lines):
-                line = lines[i].strip()
-                
-                # Modifica le righe #EXTINF
+            written_channels = set()  # Per evitare duplicati
+            while i < len(simudflix_lines):
+                line = simudflix_lines[i].strip()
                 if line.startswith("#EXTINF"):
-                    match = re.match(r'(#EXTINF:.*?),\s*(.+?)\s*(\(D\))?\s*$', line)
+                    match = re.match(r'(#EXTINF:.*?),\s*(.+?)\s*$', line)
                     if match:
-                        extinf = match.group(1)  # Parte #EXTINF con attributi
-                        channel_name = match.group(2).strip()  # Nome del canale
+                        extinf = match.group(1)
+                        channel_name = match.group(2).strip()
                         extinf_lines = [line]
-                        
-                        # Raccogli righe #EXTVLCOPT
                         j = i + 1
-                        while j < len(lines) and lines[j].startswith("#EXTVLCOPT"):
-                            extinf_lines.append(lines[j].strip())
+                        # Raccogli righe #EXTVLCOPT
+                        while j < len(simudflix_lines) and simudflix_lines[j].startswith("#EXTVLCOPT"):
+                            extinf_lines.append(simudflix_lines[j].strip())
                             j += 1
-                        
                         # Trova l'URL del flusso
                         stream_url = None
-                        if j < len(lines) and not lines[j].startswith("#"):
-                            stream_url = lines[j].strip()
+                        if j < len(simudflix_lines) and not simudflix_lines[j].startswith("#"):
+                            stream_url = simudflix_lines[j].strip()
                         
-                        # Modifica il gruppo
-                        group_pattern = r'group-title="([^"]*)"'
-                        group_match = re.search(group_pattern, extinf)
-                        if group_match:
-                            current_group = group_match.group(1)
-                            if current_group in ["TV Italia", "Mediaset", "Rai TV"]:
-                                extinf = re.sub(group_pattern, 'group-title="Rai"', extinf)
-                            elif current_group == "Sky":
-                                extinf = re.sub(group_pattern, 'group-title="Sky Cinema FHD"', extinf)
-                            elif current_group == "Sport":
-                                extinf = re.sub(group_pattern, 'group-title="Sky Sport FHD"', extinf)
-                        
-                        # Modifica per Rai 3 -> Canale 5
-                        if channel_name == "Rai 3":
-                            channel_name = "Canale 5"
-                            if 'tvg-logo="' in extinf:
-                                extinf = re.sub(r'tvg-logo="[^"]*"', f'tvg-logo="{canale_5_logo}"', extinf)
-                            else:
-                                extinf = extinf.replace('tvg-name="Rai 3"', f'tvg-name="Canale 5" tvg-logo="{canale_5_logo}"')
-                            extinf = re.sub(r'tvg-name="[^"]*"', f'tvg-name="Canale 5"', extinf)
-                        
-                        # Aggiungi FHD al nome del canale
-                        new_channel_name = f"{channel_name} FHD"
-                        
-                        # Controlla se il canale esiste in simudflix con flusso dproxy
                         cleaned_name = clean_channel_name(channel_name)
-                        if cleaned_name in simudflix_channels:
-                            # Usa la riga EXTINF e il flusso da simudflix
-                            simud_extinf_lines, simud_stream = simudflix_channels[cleaned_name]
-                            # Scrivi le righe EXTINF e EXTVLCOPT da simudflix
-                            for simud_line in simud_extinf_lines:
-                                if simud_line.startswith("#EXTINF"):
-                                    f.write(f"{simud_line.split(',')[0]},{new_channel_name}\n")
+                        new_channel_name = channel_name if has_fhd(channel_name) else f"{channel_name} FHD"
+                        
+                        # Se il flusso è dproxy e il canale esiste nella playlist originale
+                        if stream_url and stream_url.startswith("https://dproxy-o.hf.space/stream/") and cleaned_name in original_channels:
+                            # Usa i dati della playlist originale
+                            orig_extinf_lines, orig_stream, orig_channel_name = original_channels[cleaned_name]
+                            # Scrivi le righe EXTINF e EXTVLCOPT
+                            for orig_line in orig_extinf_lines:
+                                if orig_line.startswith("#EXTINF"):
+                                    f.write(f"{orig_line.split(',')[0]},{orig_channel_name}\n")
                                 else:
-                                    f.write(simud_line + "\n")
-                            f.write(simud_stream + "\n")
-                            # Rimuovi il canale da simudflix_channels per evitare duplicati
-                            del simudflix_channels[cleaned_name]
+                                    f.write(orig_line + "\n")
+                            f.write(orig_stream + "\n")
+                            written_channels.add(cleaned_name)
                         else:
-                            # Usa la riga originale trasformata
-                            f.write(f"{extinf},{new_channel_name}\n")
-                            # Scrivi le righe EXTVLCOPT
-                            for extvlc_line in extinf_lines[1:]:
-                                f.write(extvlc_line + "\n")
-                            # Trasforma l'URL con il proxy
+                            # Mantieni il canale di simudflix invariato
+                            for extinf_line in extinf_lines:
+                                if extinf_line.startswith("#EXTINF"):
+                                    f.write(f"{extinf_line.split(',')[0]},{new_channel_name}\n")
+                                else:
+                                    f.write(extinf_line + "\n")
                             if stream_url:
-                                transformed_url = proxy_base + stream_url
-                                f.write(transformed_url + "\n")
+                                f.write(stream_url + "\n")
                         
                         i = j + 1 if stream_url else j
                         continue
                     else:
-                        # Scrivi la riga invariata se non trova il nome
                         f.write(line + "\n")
-                
-                # Scrivi altre righe invariata
                 else:
                     f.write(line + "\n")
                 
                 i += 1
             
-            # Concatena i canali rimanenti di simudflix
-            for channel_name, (extinf_lines, stream_url) in simudflix_channels.items():
-                for extinf_line in extinf_lines:
-                    if extinf_line.startswith("#EXTINF"):
-                        match = re.match(r'(#EXTINF:.*?),\s*(.+?)\s*$', extinf_line)
-                        if match:
-                            simud_extinf = match.group(1)
-                            simud_channel_name = match.group(2).strip()
-                            new_channel_name = f"{simud_channel_name} FHD"
-                            f.write(f"{simud_extinf},{new_channel_name}\n")
-                    else:
-                        f.write(extinf_line + "\n")
-                f.write(stream_url + "\n")
+            # Aggiungi i canali della playlist originale non ancora scritti
+            for cleaned_name, (extinf_lines, stream_url, new_channel_name) in original_channels.items():
+                if cleaned_name not in written_channels:
+                    for extinf_line in extinf_lines:
+                        if extinf_line.startswith("#EXTINF"):
+                            f.write(f"{extinf_line.split(',')[0]},{new_channel_name}\n")
+                        else:
+                            f.write(extinf_line + "\n")
+                    if stream_url:
+                        f.write(stream_url + "\n")
         
         print(f"Playlist trasformata e concatenata salvata come {output_file}")
         
