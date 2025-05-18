@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 
 # Single URL variable to control base_url, Origin, and Referer
-SITE_URL = "https://skystreaming.help/"  # Modifica questo URL per il sito desiderato
+SITE_URL = "https://skystreaming.help/"
 headers = {
     "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1",
     "Origin": SITE_URL.rstrip('/'),
@@ -27,11 +27,12 @@ def find_event_pages():
             href = a['href']
             # Normalizza i link relativi e assoluti
             full_url = urljoin(SITE_URL, href)
-            # Cerca pattern di URL evento (più flessibile)
-            if re.match(r'.*/view/[^/]+/[^/]+', full_url) and SITE_URL in full_url:
-                event_links.add(full_url)
+            # Cerca pattern di URL evento più flessibile
+            if re.match(r'.*/view/[^/]+/[^/]+/?$', full_url) or re.match(r'.*/view/[^/]+/[A-Za-z0-9]+$', full_url):
+                if SITE_URL in full_url:
+                    event_links.add(full_url)
 
-        print(f"Trovate {len(event_links)} pagine evento.")
+        print(f"Trovate {len(event_links)} pagine evento: {list(event_links)}")
         return list(event_links)
 
     except requests.RequestException as e:
@@ -45,19 +46,16 @@ def get_video_stream(event_url):
         response.raise_for_status()
         soup = BeautifulSoup(response.text, 'html.parser')
 
-        # Cerca iframe
         for iframe in soup.find_all('iframe'):
             src = iframe.get('src')
             if src and re.search(r'\.(m3u8|mp4|ts|html|php)|stream', src, re.IGNORECASE):
                 return src, iframe
 
-        # Cerca embed
         for embed in soup.find_all('embed'):
             src = embed.get('src')
             if src and re.search(r'\.(m3u8|mp4|ts|html|php)|stream', src, re.IGNORECASE):
                 return src, embed
 
-        # Cerca video
         for video in soup.find_all('video'):
             src = video.get('src')
             if src and re.search(r'\.(m3u8|mp4|ts)|stream', src, re.IGNORECASE):
@@ -75,17 +73,14 @@ def get_video_stream(event_url):
 
 # Funzione per estrarre il nome del canale
 def extract_channel_name(event_url, element):
-    # Estrai dal pattern dell'URL
     event_name_match = re.search(r'/view/([^/]+)/[^/]+', event_url)
     if event_name_match:
         return event_name_match.group(1).replace('-', ' ').title()
 
-    # Estrai dal flusso video
     name_match = re.search(r'([^/]+?)(?:\.(m3u8|mp4|ts|html|php))?$', event_url)
     if name_match:
         return name_match.group(1).replace('-', ' ').title()
 
-    # Estrai dal contesto dell'elemento
     parent = element.find_parent() if element else None
     if parent and parent.text.strip():
         return parent.text.strip()[:50].replace('\n', ' ').title()
@@ -109,7 +104,7 @@ def update_m3u_file(video_streams, m3u_file="skystreaming_playlist.m3u8"):
             if "sport" in channel_name.lower():
                 group = "Sport"
             elif "serie" in channel_name.lower():
-                group = "Serie TV"
+                group = "Dirette Goal"  # Modificato da "Serie TV" a "Dirette Goal"
             elif "film" in channel_name.lower():
                 group = "Cinema"
             else:
@@ -119,7 +114,6 @@ def update_m3u_file(video_streams, m3u_file="skystreaming_playlist.m3u8"):
                 groups[group] = []
             groups[group].append((channel_name, stream_url))
 
-        # Ordinamento alfabetico dei canali
         for group, channels in sorted(groups.items()):
             channels.sort(key=lambda x: x[0].lower())
             f.write(f"#EXTGRP:{group} tvg-logo=\"{DEFAULT_IMAGE_URL}\"\n")
