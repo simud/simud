@@ -152,13 +152,12 @@ def transform_m3u8():
                         if replacement_channel and replacement_channel in original_channels:
                             # Usa i metadati di simudflix, ma il flusso da 247ita
                             orig_extinf_lines, orig_stream, orig_channel_name = original_channels[replacement_channel]
-                            if cleaned_name not in channels_to_remove:
-                                for extinf_line in extinf_lines:
-                                    if extinf_line.startswith("#EXTINF"):
-                                        f.write(f"{extinf_line.split(',')[0]},{new_channel_name}\n")
-                                    else:
-                                        f.write(extinf_line + "\n")
-                                f.write(orig_stream + "\n")
+                            for extinf_line in extinf_lines:
+                                if extinf_line.startswith("#EXTINF"):
+                                    f.write(f"{extinf_line.split(',')[0]},{new_channel_name}\n")
+                                else:
+                                    f.write(extinf_line + "\n")
+                            f.write(orig_stream + "\n")
                             written_channels.add(replacement_channel)
                         elif stream_url and stream_url.startswith("https://dproxy-o.hf.space/stream/") and cleaned_name in original_channels:
                             # Sostituisci il flusso dproxy con quello originale
