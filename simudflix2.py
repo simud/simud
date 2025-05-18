@@ -6,7 +6,7 @@ playlist_url = "https://raw.githubusercontent.com/ciccioxm3/omg/refs/heads/main/
 # URL della playlist da concatenare
 simudflix_url = "https://raw.githubusercontent.com/simud/simud/refs/heads/main/simudflix.m3u8"
 # Base URL del proxy
-proxyoral_base = "https://nzo66-tvproxy.hf.space/proxy/m3u?url="
+proxy_base = "https://nzo66-tvproxy.hf.space/proxy/m3u?url="
 # Nuovo logo per Canale 5
 canale_5_logo = "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Canale_5_-_2018_logo.svg/1222px-Canale_5_-_2018_logo.svg.png"
 
@@ -47,9 +47,13 @@ def has_fhd(name):
 def transform_group(current_group, channel_name):
     """Trasforma il nome del gruppo secondo le regole specificate."""
     cleaned_channel = clean_channel_name(channel_name)
-    # Confronto esatto dei gruppi come specificato
+    # Regola specifica per Rai Sport
+    if cleaned_channel == "Rai Sport":
+        return "Rai"
+    # Regola specifica per DAZN 1
     if cleaned_channel == "DAZN 1":
         return "DAZN Serie A"
+    # Confronto esatto dei gruppi
     if current_group in ["Tv Italia", "Rai Tv", "Mediaset"]:
         return "Rai"
     if current_group == "Sky":
@@ -120,7 +124,7 @@ def transform_m3u8():
 
                     # Salva il canale trasformato
                     cleaned_name = clean_channel_name(channel_name)
-                    transformed_url = proxyoral_base + stream_url if stream_url else None
+                    transformed_url = proxy_base + stream_url if stream_url else None
                     original_channels[cleaned_name] = (extinf_lines, transformed_url, new_channel_name)
 
                     i = j + 1 if stream_url else j
@@ -187,7 +191,7 @@ def transform_m3u8():
                             written_channels.add(cleaned_name)
                         else:
                             # Mantieni il canale di simudflix invariato
-                            if cleaned_name not in channels_to_remove:
+                            if cleaned_namecodecs="avc1.4d001f,mp4a.40.2" not in channels_to_remove:
                                 for extinf_line in extinf_lines:
                                     if extinf_line.startswith("#EXTINF"):
                                         new_extinf = update_extinf(extinf_line.split(',')[0], cleaned_name)
@@ -228,6 +232,8 @@ def transform_m3u8():
                         group = group_match.group(1)
                         if group in ["Tv Italia", "Rai Tv", "Mediaset", "Sky", "Sport"]:
                             print(f"Attenzione: trovato group-title non trasformato '{group}' in: {line.strip()}")
+                        if "Rai Sport" in line and group != "Rai":
+                            print(f"Attenzione: 'Rai Sport' ha group-title errato '{group}' in: {line.strip()}")
 
     except requests.RequestException as e:
         print(f"Errore nel scaricare una delle playlist: {e}")
