@@ -1,6 +1,6 @@
 #EXTM3U  url-tvg="http://www.epgitalia.tv/gzip,http://epg-guide.com/it.gz,https://raw.github.com/matthuisman/i.mjh.nz/master/PlutoTV/us.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/PlutoTV/it.xml.gz,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-events-epg.xml,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-channels-epg.xml,https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/it.xml.gz"
 
-#EXTINF:-1 tvg-id="rai 1" tvg-logo="https://i.postimg.cc/LXD7KCm4/photo-2025-03-13-12-52-29.png" group-title="Rai", Rai 1
+#EXTINF:-1 tvg-id="rai 1" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/rai-1-it.png" group-title="Rai", Rai 1
 https://viamotionhsi.netplus.ch/live/eds/rai1/browser-dash/rai1.mpd
 
 #EXTINF:-1 tvg-id="Rai1.it" group-title="Rai" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/rai-1-it.png",Rai 1 FHD
@@ -9,7 +9,7 @@ https://viamotionhsi.netplus.ch/live/eds/rai1/browser-dash/rai1.mpd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://dproxy-o.hf.space/stream/aHR0cHM6Ly9kZHk2bmV3Lm5ld2tzby5ydS9kZHk2L3ByZW1pdW04NTAvbW9uby5tM3U4
 
-#EXTINF:0, tvg-id="rai 2" tvg-logo="https://i.postimg.cc/LXD7KCm4/photo-2025-03-13-12-52-29.png" group-title="Rai", Rai 2
+#EXTINF:-1 tvg-id="rai 2" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/rai-2-it.png" group-title="Rai", Rai 2
 https://viamotionhsi.netplus.ch/live/eds/rai2/browser-dash/rai2.mpd
 
 #EXTINF:-1 tvg-id="Rai2.it" group-title="Rai" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/rai-2-it.png",Rai 2 FHD
@@ -18,13 +18,13 @@ https://viamotionhsi.netplus.ch/live/eds/rai2/browser-dash/rai2.mpd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://dproxy-o.hf.space/stream/aHR0cHM6Ly9kZHk2bmV3Lm5ld2tzby5ydS9kZHk2L3ByZW1pdW04NTEvbW9uby5tM3U4
 
-#EXTINF:0, tvg-id="rai 3" tvg-logo="https://i.postimg.cc/LXD7KCm4/photo-2025-03-13-12-52-29.png" group-title="Rai", Rai 3
+#EXTINF:-1 tvg-id="rai 3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Rai_3_logo.svg/2560px-Rai_3_logo.svg.png" group-title="Rai", Rai 3
 https://viamotionhsi.netplus.ch/live/eds/rai3/browser-dash/rai3.mpd
 
-#EXTINF:0, tvg-id="rai 4" tvg-logo="https://i.postimg.cc/j5d5bSGp/photo-2025-03-13-12-56-42.png" group-title="Rai", Rete 4
+#EXTINF:-1tvg-id="rai 4" tvg-logo="hhttps://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Rete_4_-_Logo_2018.svg/1200px-Rete_4_-_Logo_2018.svg.png" group-title="Rai", Rete 4
 https://viamotionhsi.netplus.ch/live/eds/rete4/browser-dash/rete4.mpd
 
-#EXTINF:0, tvg-id="canale 5" tvg-logo="https://i.postimg.cc/j5d5bSGp/photo-2025-03-13-12-56-42.png" group-title="Rai", Canale 5
+#EXTINF:-1 tvg-id="canale 5" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Canale_5_-_2018_logo.svg/1222px-Canale_5_-_2018_logo.svg.png" group-title="Rai", Canale 5
 https://viamotionhsi.netplus.ch/live/eds/canale5/browser-dash/canale5.mpd
 
 #EXTINF:-1 tvg-id="canale 5" group-title="Rai" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Canale_5_-_2018_logo.svg/1222px-Canale_5_-_2018_logo.svg.png", Canale 5 FHD
@@ -33,7 +33,7 @@ https://viamotionhsi.netplus.ch/live/eds/canale5/browser-dash/canale5.mpd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://dproxy-o.hf.space/stream/aHR0cHM6Ly93aW5kbmV3Lm5ld2tzby5ydS93aW5kL3ByZW1pdW04NTMvbW9uby5tM3U4
 
-#EXTINF:0, tvg-id="italia 1" tvg-logo="https://i.postimg.cc/j5d5bSGp/photo-2025-03-13-12-56-42.png" group-title="Rai", Italia 1
+#EXTINF:-1 tvg-id="italia 1" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/italia-1-it.png" group-title="Rai", Italia 1
 https://viamotionhsi.netplus.ch/live/eds/italia1/browser-dash/italia1.mpd
 
 #EXTINF:-1 tvg-id="Italia.1.it" group-title="Rai" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/italia-1-it.png",Italia 1 FHD
@@ -42,19 +42,19 @@ https://viamotionhsi.netplus.ch/live/eds/italia1/browser-dash/italia1.mpd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://dproxy-o.hf.space/stream/aHR0cHM6Ly93aW5kbmV3Lm5ld2tzby5ydS93aW5kL3ByZW1pdW04NTQvbW9uby5tM3U4
 
-#EXTINF:0, tvg-id="rai gulp" tvg-logo="https://i.postimg.cc/LXD7KCm4/photo-2025-03-13-12-52-29.png" group-title="Rai", Rai Gulp
+#EXTINF:-1 tvg-id="rai gulp" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Rai_Gulp_-_Logo_2017.svg/1200px-Rai_Gulp_-_Logo_2017.svg.png" group-title="Rai", Rai Gulp
 https://viamotionhsi.netplus.ch/live/eds/raigulp/browser-dash/raigulp.mpd
 
-#EXTINF:0, tvg-id="rainews.it" tvg-logo="https://i.postimg.cc/LXD7KCm4/photo-2025-03-13-12-52-29.png" group-title="Rai", Rai News 24
+#EXTINF:-1 tvg-id="rainews.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/24/Rai_News_-_Logo_2021.svg" group-title="Rai", Rai News 24
 https://viamotionhsi.netplus.ch/live/eds/rainews/browser-dash/rainews.mpd
 
-#EXTINF:0, tvg-id="rai storia" tvg-logo="https://i.postimg.cc/LXD7KCm4/photo-2025-03-13-12-52-29.png" group-title="Rai", Rai Storia
+#EXTINF:-1tvg-id="rai storia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Rai_Storia_-_Logo_2017.svg/2560px-Rai_Storia_-_Logo_2017.svg.png" group-title="Rai", Rai Storia
 https://viamotionhsi.netplus.ch/live/eds/raistoria/browser-dash/raistoria.mpd
 
-#EXTINF:0, tvg-id="rai scuola" tvg-logo="https://i.postimg.cc/LXD7KCm4/photo-2025-03-13-12-52-29.png" group-title="Rai", Rai Scuola
+#EXTINF:-1 tvg-id="rai scuola" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Rai_Scuola_-_Logo_2017.svg/2560px-Rai_Scuola_-_Logo_2017.svg.png" group-title="Rai", Rai Scuola
 https://viamotionhsi.netplus.ch/live/eds/raiscuola/browser-dash/raiscuola.mpd
 
-#EXTINF:0, tvg-id="rai sport" tvg-logo="https://i.postimg.cc/LXD7KCm4/photo-2025-03-13-12-52-29.png" group-title="Rai", Rai Sport
+#EXTINF:-1 tvg-id="rai sport" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/rai-sport-it.png" group-title="Rai", Rai Sport
 https://viamotionhsi.netplus.ch/live/eds/raisport1/browser-dash/raisport1.mpd
 
 #EXTINF:-1 tvg-id="RaiSport.it" group-title="Rai" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/rai-sport-it.png",Rai Sport FHD
@@ -63,7 +63,7 @@ https://viamotionhsi.netplus.ch/live/eds/raisport1/browser-dash/raisport1.mpd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://dproxy-o.hf.space/stream/aHR0cHM6Ly9kZHk2bmV3Lm5ld2tzby5ydS9kZHk2L3ByZW1pdW04ODIvbW9uby5tM3U4
 
-#EXTINF:0, tvg-id="la 7" tvg-logo="https://i.postimg.cc/j5d5bSGp/photo-2025-03-13-12-56-42.png" group-title="Rai", La7
+#EXTINF:-1 tvg-id="la 7" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/la-7-italy.png" group-title="Rai", La7
 https://viamotionhsi.netplus.ch/live/eds/la7/browser-dash/la7.mpd
 
 #EXTINF:-1 tvg-id="LA7.HD.it" group-title="Rai" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/la-7-italy.png",La7 HD
@@ -72,10 +72,10 @@ https://viamotionhsi.netplus.ch/live/eds/la7/browser-dash/la7.mpd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://dproxy-o.hf.space/stream/aHR0cHM6Ly93aW5kbmV3Lm5ld2tzby5ydS93aW5kL3ByZW1pdW04NTUvbW9uby5tM3U4
 
-#EXTINF:-1 tvg-chno="8" tvg-id="tv8" tvg-name="Tv8" tvg-logo="https://i.postimg.cc/j5d5bSGp/photo-2025-03-13-12-56-42.png" group-title="Rai",Tv8
+#EXTINF:-1 tvg-chno="8" tvg-id="tv8" tvg-name="Tv8" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShn5Y04DpzcEigc4jZsRpv_c9i0ZRVjczemQ&s" group-title="Rai",Tv8
 https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/11223/tv8web/master.m3u8?hdnea=st=1701861650~exp=1765449000~acl=/*~hmac=84c9f3f71e57b13c3a67afa8b29a8591ea9ed84bf786524399545d94be1ec04d
 
-#EXTINF:-1 tvg-chno="9" tvg-id="nove" tvg-name="Nove" tvg-logo="https://i.postimg.cc/j5d5bSGp/photo-2025-03-13-12-56-42.png" group-title="Rai",Nove
+#EXTINF:-1 tvg-chno="9" tvg-id="nove" tvg-name="Nove" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkvWChBSKr2QLlrcqbVQzHbEGelHySPnGcvg&s" group-title="Rai",Nove
 https://amg16146-wbdi-amg16146c1-samsung-it-1831.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-nove-samsungit/playlist.m3u8
 
 #EXTINF:0, tvg-id="la 7d" tvg-logo="https://i.postimg.cc/j5d5bSGp/photo-2025-03-13-12-56-42.png" group-title="Rai", La7d
@@ -87,59 +87,59 @@ https://viamotionhsi.netplus.ch/live/eds/la7d/browser-dash/la7d.mpd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://dproxy-o.hf.space/stream/aHR0cHM6Ly93aW5kbmV3Lm5ld2tzby5ydS93aW5kL3ByZW1pdW04NTcvbW9uby5tM3U4
 
-#EXTINF:-1 tvg-chno="13" tvg-id="Rai 4K" tvg-name="rai 4k" tvg-logo="https://i.postimg.cc/LXD7KCm4/photo-2025-03-13-12-52-29.png" group-title="Rai",Rai 4K
+#EXTINF:-1 tvg-chno="13" tvg-id="Rai 4K" tvg-name="rai 4k" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Rai_4K_-_Logo_2017.svg/330px-Rai_4K_-_Logo_2017.svg.png" group-title="Rai",Rai 4K
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://raievent10-elem-live.akamaized.net/hls/live/619189/raievent10/raievent10/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="21" tvg-id="rai 4" tvg-name="Rai 4" tvg-logo="https://i.postimg.cc/LXD7KCm4/photo-2025-03-13-12-52-29.png" group-title="Rai",Rai 4
+#EXTINF:-1 tvg-chno="21" tvg-id="rai 4" tvg-name="Rai 4" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fb/Rai_4_HD_Logo_2016.png" group-title="Rai",Rai 4
 #EXTVLCOPT:http-user-agent=rainet/4.0.4 (Linux;Android 14) ExoPlayerLib/2.18.0
 https://raiquattro1-dash-live.akamaized.net/dash/live/663977/raiquattro1/manifest.mpd
 
-#EXTINF:-1 tvg-chno="22" tvg-id="iris" tvg-name="Iris" tvg-logo="https://i.postimg.cc/j5d5bSGp/photo-2025-03-13-12-56-42.png" group-title="Rai",Iris
+#EXTINF:-1 tvg-chno="22" tvg-id="iris" tvg-name="Iris" tvg-logo="https://old.blogo.it/tvblog/I/IRI/IRIS_logo.JPG" group-title="Rai",Iris
 https://live02-seg.msf.cdn.mediaset.net/live/ch-ki/ki-clr.isml/index.m3u8
 
-#EXTINF:-1 tvg-chno="23" tvg-id="rai 5" tvg-name="Rai 5" tvg-logo="https://i.postimg.cc/LXD7KCm4/photo-2025-03-13-12-52-29.png" group-title="Rai",Rai 5
+#EXTINF:-1 tvg-chno="23" tvg-id="rai 5" tvg-name="Rai 5" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Rai_5_logo.svg/2560px-Rai_5_logo.svg.png" group-title="Rai",Rai 5
 #EXTVLCOPT:http-user-agent=rainet/4.0.4 (Linux;Android 14) ExoPlayerLib/2.18.0
 https://raicinque1-dash-live.akamaized.net/dash/live/664003/raicinque1/manifest.mpd
 
-#EXTINF:-1 tvg-chno="24" tvg-id="rai movie" tvg-name="Rai Movie" tvg-logo="https://i.postimg.cc/LXD7KCm4/photo-2025-03-13-12-52-29.png" group-title="Rai",Rai Movie
+#EXTINF:-1 tvg-chno="24" tvg-id="rai movie" tvg-name="Rai Movie" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Rai_Movie_-_Logo_2017.svg/2560px-Rai_Movie_-_Logo_2017.svg.png" group-title="Rai",Rai Movie
 #EXTVLCOPT:http-user-agent=rainet/4.0.4 (Linux;Android 14) ExoPlayerLib/2.18.0
 https://raimovie1-dash-live.akamaized.net/dash/live/663983/raimovie1/manifest.mpd
 
-#EXTINF:-1 tvg-chno="25" tvg-id="rai premium" tvg-name="Rai Premium" tvg-logo="https://i.postimg.cc/LXD7KCm4/photo-2025-03-13-12-52-29.png" group-title="Rai",Rai Premium
+#EXTINF:-1 tvg-chno="25" tvg-id="rai premium" tvg-name="Rai Premium" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa9iOmTZbYH-KHKmnlF4fk57okgajOwoKOOA&s" group-title="Rai",Rai Premium
 https://raipremium1-dash-live.akamaized.net/dash/live/663979/raipremium1/manifest.mpd
 
-#EXTINF:-1 tvg-chno="30" tvg-id="la 5" tvg-name="La 5" tvg-logo="https://i.postimg.cc/j5d5bSGp/photo-2025-03-13-12-56-42.png" group-title="Rai",La 5
+#EXTINF:-1 tvg-chno="30" tvg-id="la 5" tvg-name="La 5" tvg-logo="https://upload.wikimedia.org/wikipedia/it/thumb/6/64/La5_Italy.svg/1200px-La5_Italy.svg.png" group-title="Rai",La 5
 https://live02-seg.msf.cdn.mediaset.net/live/ch-ka/ka-clr.isml/index.m3u8
 
-#EXTINF:-1 tvg-chno="31" tvg-id="real time" tvg-name="Real Time" tvg-logo="https://i.postimg.cc/j5d5bSGp/photo-2025-03-13-12-56-42.png" group-title="Rai",Real Time
+#EXTINF:-1 tvg-chno="31" tvg-id="real time" tvg-name="Real Time" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Real_Time_logo.svg/2560px-Real_Time_logo.svg.png" group-title="Rai",Real Time
 https://amg16146-wbdi-amg16146c2-samsung-it-1835.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-realtime-samsungit/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="26" tvg-id="cielo" tvg-name="Cielo" tvg-logo="https://i.postimg.cc/j5d5bSGp/photo-2025-03-13-12-56-42.png" group-title="Rai",Cielo
+#EXTINF:-1 tvg-chno="26" tvg-id="cielo" tvg-name="Cielo" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Cielo_TV_logo_2013.svg/1200px-Cielo_TV_logo_2013.svg.png" group-title="Rai",Cielo
 https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/11219/cieloweb/master.m3u8?hdnea=st=1701861650~exp=1765449000~acl=/*~hmac=84c9f3f71e57b13c3a67afa8b29a8591ea9ed84bf786524399545d94be1ec04d
 
-#EXTINF:-1 tvg-chno="27" tvg-id="twentyseven" tvg-name="TwentySeven" tvg-logo="https://i.postimg.cc/j5d5bSGp/photo-2025-03-13-12-56-42.png" group-title="Rai",TwentySeven
+#EXTINF:-1 tvg-chno="27" tvg-id="twentyseven" tvg-name="TwentySeven" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Twentyseven_logo.svg/500px-Twentyseven_logo.svg.png" group-title="Rai",TwentySeven
 https://live02-seg.msf.cdn.mediaset.net/live/ch-ts/ts-clr.isml/index.m3u8
 
-#EXTINF:-1 tvg-chno="28" tvg-id="tv2000" tvg-name="Tv2000" tvg-logo="https://i.postimg.cc/j5d5bSGp/photo-2025-03-13-12-56-42.png" group-title="Rai",Tv2000
+#EXTINF:-1 tvg-chno="28" tvg-id="tv2000" tvg-name="Tv2000" tvg-logo="https://upload.wikimedia.org/wikipedia/it/0/0d/Logo_di_TV2000.png" group-title="Rai",Tv2000
 https://hls-live-tv2000.akamaized.net/hls/live/2028510/tv2000/master.m3u8
 
-#EXTINF:-1 tvg-chno="50" tvg-id="sky tg24" tvg-name="Sky TG24" tvg-logo="https://i.postimg.cc/j5d5bSGp/photo-2025-03-13-12-56-42.png" group-title="Rai",Sky TG24
+#EXTINF:-1 tvg-chno="50" tvg-id="sky tg24" tvg-name="Sky TG24" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/17/Sky_TG24_-_Logo_2021.png" group-title="Rai",Sky TG24
 https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/12221/web/master.m3u8?hdnts=st=1701861650~exp=1765449000~acl=/*~hmac=84c9f3f71e57b13c3a67afa8b29a8591ea9ed84bf786524399545d94be1ec04d
 
-#EXTINF:-1 tvg-chno="51" tvg-id="tgcom 24" tvg-name="TgCom 24" tvg-logo="https://i.postimg.cc/j5d5bSGp/photo-2025-03-13-12-56-42.png" group-title="Rai",TgCom 24
+#EXTINF:-1 tvg-chno="51" tvg-id="tgcom 24" tvg-name="TgCom 24" tvg-logo="https://upload.wikimedia.org/wikipedia/it/1/1a/Mediaset_TGCom24.png" group-title="Rai",TgCom 24
 https://live02-seg.msf.cdn.mediaset.net/live/ch-kf/kf-clr.isml/index.m3u8
 
-#EXTINF:-1 tvg-chno="52" tvg-id="dmax" tvg-name="Dmax" tvg-logo="https://i.postimg.cc/j5d5bSGp/photo-2025-03-13-12-56-42.png" group-title="Rai",Dmax
+#EXTINF:-1 tvg-chno="52" tvg-id="dmax" tvg-name="Dmax" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/DMAX_-_Logo_2016.svg/2560px-DMAX_-_Logo_2016.svg.png" group-title="Rai",Dmax
 https://amg16146-wbdi-amg16146c8-samsung-it-1841.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-dmax-samsungit/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="53" tvg-id="casa italia 53" tvg-name="Casa Italia 53" tvg-logo="https://i.postimg.cc/j5d5bSGp/photo-2025-03-13-12-56-42.png" group-title="Rai",Casa Italia 53
+#EXTINF:-1 tvg-chno="53" tvg-id="casa italia 53" tvg-name="Casa Italia 53" tvg-logo="https://casaitalia.tv/wp-content/uploads/2020/11/53-g-1400x349.png" group-title="Rai",Casa Italia 53
 https://ovp-live.akamaized.net/ac115_live/canale3.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="55" tvg-id="mediaset extra" tvg-name="Mediaset Extra" tvg-logo="https://i.postimg.cc/j5d5bSGp/photo-2025-03-13-12-56-42.png" group-title="Rai",Mediaset Extra
+#EXTINF:-1 tvg-chno="55" tvg-id="mediaset extra" tvg-name="Mediaset Extra" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0f/Mediaset_extra_logo.PNG" group-title="Rai",Mediaset Extra
 https://live02-seg.msf.cdn.mediaset.net/live/ch-kq/kq-clr.isml/index.m3u8
 
-#EXTINF:-1 tvg-chno="59" tvg-id="motor trend" tvg-name="Motor Trend" tvg-logo="https://i.postimg.cc/j5d5bSGp/photo-2025-03-13-12-56-42.png" group-title="Rai",Motor Trend
+#EXTINF:-1 tvg-chno="59" tvg-id="motor trend" tvg-name="Motor Trend" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Motor_Trend_logo.svg/1200px-Motor_Trend_logo.svg.png" group-title="Rai",Motor Trend
 https://amg16146-wbdi-amg16146c10-samsung-it-1843.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-motortrend-samsungit/playlist.m3u8
 
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Rai", ADMIN
@@ -268,13 +268,13 @@ https://dproxy-o.hf.space/stream/aHR0cHM6Ly9kb2trbzFuZXcubmV3a3NvLnJ1L2Rva2tvMS9
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://dproxy-o.hf.space/stream/aHR0cHM6Ly9kZHk2bmV3Lm5ld2tzby5ydS9kZHk2L3ByZW1pdW01NzQvbW9uby5tM3U4
 
-#EXTINF:-1 channel-id="pluto-63a0e33a45264d000850ed7e" tvg-id="63a0e33a45264d000850ed7e" tvg-logo="https://i.postimg.cc/NfjtMXnP/photo-2025-03-13-12-52-28.png" group-title="Sky Sport FHD", Golazo (SerieA)
+#EXTINF:-1 channel-id="pluto-63a0e33a45264d000850ed7e" tvg-id="63a0e33a45264d000850ed7e" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/91/Golazo_Network_logo.png/revision/latest/scale-to-width-down/1200?cb=20230502042859" group-title="Sky Sport FHD", Golazo (SerieA)
 http://stitcher.pluto.tv/v1/stitch/embed/hls/channel/63a0e33a45264d000850ed7e/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
 
-#EXTINF:0, tvg-id="rsi la1" tvg-logo="https://i.postimg.cc/HLxdhywy/photo-2025-03-13-12-49-58.png" group-title="Sky Sport FHD", RSI La1
+#EXTINF:-1 tvg-id="rsi la1" tvg-logo="https://il.rsi.ch/rsi-api/resize/image/v2/public/channel/WEBVISUAL/la1.png" group-title="Sky Sport FHD", RSI La1
 https://viamotionhsi.netplus.ch/live/eds/rsila1hd/browser-dash/rsila1hd.mpd
 
-#EXTINF:0, tvg-id="rsi la2" tvg-logo="https://i.postimg.cc/HLxdhywy/photo-2025-03-13-12-49-58.png" group-title="Sky Sport FHD", RSI La2
+#EXTINF:-1 tvg-id="rsi la2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/RSI_La_2_2012.svg/1200px-RSI_La_2_2012.svg.png" group-title="Sky Sport FHD", RSI La2
 https://viamotionhsi.netplus.ch/live/eds/rsila2hd/browser-dash/rsila2hd.mpd
 
 #EXTINF:-1 tvg-id="Sky.Sport..251.it" group-title="Sky Sport FHD" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-calcio-1.png",Sky Calcio 1 (251) FHD
@@ -317,7 +317,7 @@ https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-c
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://dproxy-o.hf.space/stream/aHR0cHM6Ly9kZHk2bmV3Lm5ld2tzby5ydS9kZHk2L3ByZW1pdW04NTAvbW9uby5tM3U4
 
-#EXTINF:-1 tvg-id="DAZN.2.de" tvg-name="DAZN 1 HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e3/Tv-channel-%E2%94%82-dazn-1.png" group-title="DAZN Serie A", DAZN 1 FHD
+#EXTINF:-1 tvg-id="DAZN.2.de" tvg-name="DAZN 1 HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e3/Tv-channel-%E2%94%82-dazn-1.png" group-title="DAZN Serie A", DAZN 1 FHD 2
 #EXTVLCOPT:http-referrer=https://dokoplay.xyz/
 #EXTVLCOPT:http-origin=https://dokoplay.xyz
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
@@ -335,22 +335,22 @@ https://dproxy-o.hf.space/stream/aHR0cHM6Ly93aW5kbmV3Lm5ld2tzby5ydS93aW5kL3ByZW1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://dproxy-o.hf.space/stream/aHR0cHM6Ly93aW5kbmV3Lm5ld2tzby5ydS93aW5kL3ByZW1pdW04NzkvbW9uby5tM3U4
 
-#EXTINF:-1 tvg-id="sportitalia.it" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Sportitalia solo calcio FHD" group-title="DAZN Serie A", Sportitalia solo calcio FHD
+#EXTINF:-1 tvg-id="sportitalia.it" tvg-logo="https://upload.wikimedia.org/wikipedia/it/c/c0/Sportitalia_Logo.JPG" tvg-name="Sportitalia solo calcio FHD" group-title="DAZN Serie A", Sportitalia solo calcio FHD
 https://di-kzbhv8pw.vo.lswcdn.net/sportitalia/sisolocalcio/chunklist.m3u8
 
-#EXTINF:-1 tvg-id="sportitalia.it" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Sportitalia FHD" group-title="DAZN Serie A", Sportitalia FHD
+#EXTINF:-1 tvg-id="sportitalia.it" tvg-logo="https://upload.wikimedia.org/wikipedia/it/c/c0/Sportitalia_Logo.JPG" tvg-name="Sportitalia FHD" group-title="DAZN Serie A", Sportitalia FHD
 https://di-kzbhv8pw.vo.lswcdn.net/sportitalia/sihd/chunklist.m3u8
 
-#EXTINF:-1 tvg-id="sportitalia24live" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Primavera TV" group-title="DAZN Serie A", Primavera TV
+#EXTINF:-1 tvg-id="sportitalia24live" tvg-logo="https://img.legaseriea.it/vimages/16fdc09a97148919/logo-primavera1-21-22.jpg" tvg-name="Primavera TV" group-title="DAZN Serie A", Primavera TV
 https://di-kzbhv8pw.vo.lswcdn.net/sportitalia/smil:silive24.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-id="sportitalia.it" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Primavera TV FHD" group-title="DAZN Serie A", Primavera TV FHD
+#EXTINF:-1 tvg-id="sportitalia.it" tvg-logo="https://img.legaseriea.it/vimages/16fdc09a97148919/logo-primavera1-21-22.jpg" tvg-name="Primavera TV FHD" group-title="DAZN Serie A", Primavera TV FHD
 https://di-kzbhv8pw.vo.lswcdn.net/sportitalia/silive24/chunklist.m3u8
 
-#EXTINF:-1 tvg-id="Tennis Channel" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Tennis Channel" group-title="DAZN Serie A",Tennis Channel
+#EXTINF:-1 tvg-id="Tennis Channel" tvg-logo="https://www.pngkey.com/png/full/432-4329627_tennis-channel-logo.png" tvg-name="Tennis Channel" group-title="DAZN Serie A",Tennis Channel
 https://amg01444-tennischannelth-tennischannelspain-orangees-gpx6v.amagi.tv/playlist/amg01444-tennischannelth-tennischannelspain-orangees/playlist.m3u8
 
-#EXTINF:-1 tvg-id="t2 tennis" tvg-name="T2 Tennis" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="DAZN Serie A",T2 Tennis
+#EXTINF:-1 tvg-id="t2 tennis" tvg-name="T2 Tennis" tvg-logo="https://www.newscaststudio.com/wp-content/uploads/2024/03/t2-logo.jpg" group-title="DAZN Serie A",T2 Tennis
 https://d3qg0hadt0dkov.cloudfront.net/v1/master/3622c60a815c199d9c0ef36c5b73da68a62b09d1/cc-3sfgyrfz9zduo-prod/amgtennisus/playlist.m3u8
 
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="DAZN Serie A", ADMIN
@@ -375,16 +375,16 @@ https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-c
 
 # Bambini 
 
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/NFGs2Ptq/photo-2025-03-12-12-36-48.png" tvg-name="Car City Adventures" group-title="Bambini" , Car City Adventures
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/28/Samsung_TV_Plus_logo.png" tvg-name="Car City Adventures" group-title="Bambini" , Car City Adventures
 https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads._fw_content_language=it&ads.rakuten_market=it&ads.xumo_channelId=88883094
 
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/NFGs2Ptq/photo-2025-03-12-12-36-48.png" tvg-name="Mr Bean Animated" group-title="Bambini", Mr Bean Animated
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/28/Samsung_TV_Plus_logo.png" tvg-name="Mr Bean Animated" group-title="Bambini", Mr Bean Animated
 https://amg00627-amg00627c29-rakuten-it-3989.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanitcc-rakutenit/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/NFGs2Ptq/photo-2025-03-12-12-36-48.png" tvg-name="Sonic The Hedgehog" group-title="Bambini", Sonic The Hedgehog
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/28/Samsung_TV_Plus_logo.png" tvg-name="Sonic The Hedgehog" group-title="Bambini", Sonic The Hedgehog
 https://d118hpi73ik9nb.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ncon6uzsiruj8/master.m3u8
 
-#EXTINF:-1 tvg-name="Peter Coniglio" tvg-id="ITBD31000016S" tvg-logo="https://i.postimg.cc/NFGs2Ptq/photo-2025-03-12-12-36-48.png" group-title="Bambini" , Peter Coniglio
+#EXTINF:-1 tvg-name="Peter Coniglio" tvg-id="ITBD31000016S" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/28/Samsung_TV_Plus_logo.png" group-title="Bambini" , Peter Coniglio
 https://odmedia-peterconiglio-1-it.samsung.wurl.tv/3000.m3u8
 
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Bambini", ADMIN
