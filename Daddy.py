@@ -3,6 +3,7 @@ import requests
 def concatenate_m3u8():
     # Lista degli URL (modifica qui per aggiungere fino a 10 URL)
     urls = [
+        "https://raw.githubusercontent.com/simud/simud/refs/heads/main/eventilive.m3u8",
         "https://raw.githubusercontent.com/simud/simud/refs/heads/main/sportstreaming_playlist.m3u8",
         "https://raw.githubusercontent.com/simud/simud/refs/heads/main/twitch_streams.m3u8",
         "https://raw.githubusercontent.com/simud/simud/refs/heads/main/simudflix.m3u8",
