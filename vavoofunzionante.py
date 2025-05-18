@@ -189,7 +189,7 @@ for extinf, url in eventi_sportivi_channels:
     if url:
         new_playlist.append(url)
 
-# Aggiungi il canale ADMIN alla fine del gruppo Eventi Sportivi
+# Aggiungi esplicitamente il canale ADMIN alla fine del gruppo Eventi Sportivi
 new_playlist.extend(canale_admin)
 
 # Scrivi la nuova playlist nella directory di lavoro corrente
