@@ -34,10 +34,10 @@ sky_uno_names = ["SKY SPORT UNO", "SKY SPORT UNO (2)"]
 # Canale da rinominare in Sky Serie FHD e spostare in Intrattenimento
 sky_serie_names = ["SKY SERIE"]
 
-# Logo per i canali Eventi Live senza logo
-eventi_live_logo = "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-uno-it.png"
+# Logo per i canali Eventi Live (ora Eventi Sportivi) senza logo
+eventi_logo = "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-uno-it.png"
 
-# Loghi per i gruppi (non utilizzato per mantenere i loghi originali tranne per Eventi Live)
+# Loghi per i gruppi (non utilizzato per mantenere i loghi originali tranne per Eventi Sportivi)
 logos = {
     "Sky Sport FHD Backup": "https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png",
     "Intrattenimento": "https://i.postimg.cc/NFGs2Ptq/photo-2025-03-12-12-36-48.png",
@@ -52,6 +52,12 @@ output_file = "./vavoofunzionante.m3u8"
 GITHUB_TOKEN = os.getenv("GH_TOKEN")  # Token di accesso personale GitHub
 REPO_NAME = "nome-utente/vavoo-playlist"  # Sostituisci con il tuo nome-utente/nome-repository
 FILE_PATH = "vavoofunzionante.m3u8"  # Percorso del file nel repository
+
+# Canale ADMIN da aggiungere alla fine del gruppo Eventi Sportivi
+canale_admin = [
+    '#EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Eventi Sportivi",ADMIN',
+    'https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4'
+]
 
 # Funzione per convertire il nome in formato con solo la prima lettera maiuscola
 def title_case_name(name):
@@ -69,6 +75,7 @@ if response.status_code != 200:
 # Inizializza la nuova playlist con l'intestazione
 new_playlist = ["#EXTM3U"]
 sky_primafila_channels = []  # Lista temporanea per i canali Sky Primafila
+eventi_sportivi_channels = []  # Lista temporanea per i canali Eventi Sportivi
 
 # Set per raccogliere i nomi dei gruppi trovati (per debug)
 gruppi_trovati = set()
@@ -111,15 +118,17 @@ for i, line in enumerate(lines):
                         new_group_title = "Sky Cinema FHD Backup"
                     elif current_group == "Sport":
                         new_group_title = "Sky Sport FHD Backup"
+                    elif current_group == "Eventi Live":
+                        new_group_title = "Eventi Sportivi"
                     
                     # Modifica la riga
                     modified_line = re.sub(r'tvg-name="[^"]+"', f'tvg-name="{display_name}"', line)
                     modified_line = re.sub(r'group-title="[^"]+"', f'group-title="{new_group_title}"', modified_line)
                     modified_line = re.sub(r',[^,]+$', f',{display_name}', modified_line)
                     
-                    # Aggiungi il logo per i canali Eventi Live senza logo
+                    # Aggiungi il logo per i canali Eventi Sportivi senza logo
                     if current_group == "Eventi Live" and not re.search(r'tvg-logo="[^"]+"', modified_line):
-                        modified_line = re.sub(r'(#EXTINF:[^,]+),', f'\\1 tvg-logo="{eventi_live_logo}",', modified_line)
+                        modified_line = re.sub(r'(#EXTINF:[^,]+),', f'\\1 tvg-logo="{eventi_logo}",', modified_line)
                     
                     # Gestisci i canali Sky Uno
                     if tvg_name in sky_uno_names:
@@ -138,6 +147,9 @@ for i, line in enumerate(lines):
                     # Gestisci i canali Sky Primafila
                     elif tvg_name in sky_primafila_names:
                         sky_primafila_channels.append((modified_line, lines[i + 1] if i + 1 < len(lines) and not lines[i + 1].startswith("#") else ""))
+                    # Gestisci i canali Eventi Sportivi
+                    elif current_group == "Eventi Live":
+                        eventi_sportivi_channels.append((modified_line, lines[i + 1] if i + 1 < len(lines) and not lines[i + 1].startswith("#") else ""))
                     else:
                         # Aggiungi direttamente alla playlist
                         new_playlist.append(modified_line)
@@ -170,6 +182,15 @@ for extinf, url in valid_sky_primafila_channels:
     new_playlist.append(extinf)
     if url:
         new_playlist.append(url)
+
+# Aggiungi i canali Eventi Sportivi alla playlist
+for extinf, url in eventi_sportivi_channels:
+    new_playlist.append(extinf)
+    if url:
+        new_playlist.append(url)
+
+# Aggiungi il canale ADMIN alla fine del gruppo Eventi Sportivi
+new_playlist.extend(canale_admin)
 
 # Scrivi la nuova playlist nella directory di lavoro corrente
 with open(output_file, "w", encoding="utf-8") as f:
