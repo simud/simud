@@ -15,7 +15,10 @@ channels_to_remove = [
     "Sky Cinema Uno +24",
     "Sky Cinema Due +24",
     "Rai Premium",
-。他们
+    "Sky Calcio 6",
+    "Sky Calcio 7",
+    "LA7d"
+]
 
 # Mappatura per la sostituzione dei flussi (simudflix -> 247ita)
 channel_replacements = {
