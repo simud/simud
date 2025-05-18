@@ -1,4 +1,4 @@
-name: SkyStreaming Scraper
+name: SimudFlix Scraper
 
 on:
   workflow_dispatch:  # Permette l'esecuzione manuale
