@@ -83,7 +83,10 @@ def transform_m3u8():
                     group_match = re.search(group_pattern, extinf)
                     if group_match:
                         current_group = group_match.group(1)
-                        if current_group in ["TV Italia", "Mediaset", "Rai TV"]:
+                        if channel_name == "DAZN 1":
+                            # Cambia il gruppo di DAZN 1 in DAZN Serie A
+                            extinf = re.sub(group_pattern, 'group-title="DAZN Serie A"', extinf)
+                        elif current_group in ["TV Italia", "Mediaset", "Rai TV"]:
                             extinf = re.sub(group_pattern, 'group-title="Rai"', extinf)
                         elif current_group == "Sky":
                             extinf = re.sub(group_pattern, 'group-title="Sky Cinema FHD"', extinf)
