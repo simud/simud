@@ -1,7 +1,6 @@
 #EXTM3U
 #EXTM3U  url-tvg="http://www.epgitalia.tv/gzip,http://epg-guide.com/it.gz,https://raw.github.com/matthuisman/i.mjh.nz/master/PlutoTV/us.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/PlutoTV/it.xml.gz,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-events-epg.xml,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-channels-epg.xml,https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/it.xml.gz"
 
-#EXTM3U
 #EXTINF:0 group-title="",tvg-id="rai 1" tvg-logo="https://i.postimg.cc/LXD7KCm4/photo-2025-03-13-12-52-29.png" group-title="Rai", Rai 1 FHD
 https://viamotionhsi.netplus.ch/live/eds/rai1/browser-dash/rai1.mpd
 
@@ -335,25 +334,25 @@ https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://windnew.newkso.ru/wind/prem
 #EXTVLCOPT:http-origin=https://forcedtoplay.xyz
 https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://windnew.newkso.ru/wind/premium879/mono.m3u8
 
-#EXTINF:-1 tvg-id="sportitalia.it" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Sportitalia solo calcio FHD" group-title="DAZN Serie A ",Sportitalia solo calcio FHD
+#EXTINF:-1 tvg-id="sportitalia.it" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Sportitalia solo calcio FHD" group-title="DAZN Serie A",Sportitalia solo calcio FHD
 https://di-kzbhv8pw.vo.lswcdn.net/sportitalia/sisolocalcio/chunklist.m3u8
 
-#EXTINF:-1 tvg-id="sportitalia.it" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Sportitalia FHD" group-title="DAZN Serie A ",Sportitalia FHD
+#EXTINF:-1 tvg-id="sportitalia.it" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Sportitalia FHD" group-title="DAZN Serie A",Sportitalia FHD
 https://di-kzbhv8pw.vo.lswcdn.net/sportitalia/sihd/chunklist.m3u8
 
-#EXTINF:-1 tvg-id="sportitalia24live" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Primavera TV" group-title="DAZN Serie A ",Primavera TV FHD
+#EXTINF:-1 tvg-id="sportitalia24live" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Primavera TV" group-title="DAZN Serie A",Primavera TV FHD
 https://di-kzbhv8pw.vo.lswcdn.net/sportitalia/smil:silive24.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-id="sportitalia.it" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Primavera TV FHD" group-title="DAZN Serie A ",Primavera TV FHD
+#EXTINF:-1 tvg-id="sportitalia.it" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Primavera TV FHD" group-title="DAZN Serie A",Primavera TV FHD
 https://di-kzbhv8pw.vo.lswcdn.net/sportitalia/silive24/chunklist.m3u8
 
-#EXTINF:-1 tvg-id="Tennis Channel" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Tennis Channel" group-title="DAZN Serie A ",Tennis Channel FHD
+#EXTINF:-1 tvg-id="Tennis Channel" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" tvg-name="Tennis Channel" group-title="DAZN Serie A",Tennis Channel FHD
 https://amg01444-tennischannelth-tennischannelspain-orangees-gpx6v.amagi.tv/playlist/amg01444-tennischannelth-tennischannelspain-orangees/playlist.m3u8
 
-#EXTINF:-1 tvg-id="t2 tennis" tvg-name="T2 Tennis" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="DAZN Serie A ",T2 Tennis FHD
+#EXTINF:-1 tvg-id="t2 tennis" tvg-name="T2 Tennis" tvg-logo="https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png" group-title="DAZN Serie A",T2 Tennis FHD
 https://d3qg0hadt0dkov.cloudfront.net/v1/master/3622c60a815c199d9c0ef36c5b73da68a62b09d1/cc-3sfgyrfz9zduo-prod/amgtennisus/playlist.m3u8
 
-#EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="DAZN Serie A ",ADMIN FHD
+#EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="DAZN Serie A",ADMIN FHD
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 
 # Sky Uno
