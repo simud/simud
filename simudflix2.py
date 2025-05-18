@@ -191,7 +191,7 @@ def transform_m3u8():
                             written_channels.add(cleaned_name)
                         else:
                             # Mantieni il canale di simudflix invariato
-                            if cleaned_namecodecs="avc1.4d001f,mp4a.40.2" not in channels_to_remove:
+                            if cleaned_name not in channels_to_remove:
                                 for extinf_line in extinf_lines:
                                     if extinf_line.startswith("#EXTINF"):
                                         new_extinf = update_extinf(extinf_line.split(',')[0], cleaned_name)
