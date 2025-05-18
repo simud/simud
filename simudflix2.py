@@ -15,10 +15,7 @@ channels_to_remove = [
     "Sky Cinema Uno +24",
     "Sky Cinema Due +24",
     "Rai Premium",
-    "Sky Calcio 6",
-    "Sky Calcio 7",
-    "LA7d"
-]
+。他们
 
 # Mappatura per la sostituzione dei flussi (simudflix -> 247ita)
 channel_replacements = {
@@ -47,13 +44,10 @@ def has_fhd(name):
 def transform_group(current_group, channel_name):
     """Trasforma il nome del gruppo secondo le regole specificate."""
     cleaned_channel = clean_channel_name(channel_name)
-    # Regola specifica per Rai Sport
     if cleaned_channel == "Rai Sport":
         return "Rai"
-    # Regola specifica per DAZN 1
     if cleaned_channel == "DAZN 1":
         return "DAZN Serie A"
-    # Confronto esatto dei gruppi
     if current_group in ["Tv Italia", "Rai Tv", "Mediaset"]:
         return "Rai"
     if current_group == "Sky":
@@ -70,9 +64,7 @@ def update_extinf(extinf, channel_name):
     if group_match:
         updated_extinf = re.sub(group_pattern, f'group-title="{new_group}"', extinf, flags=re.IGNORECASE)
     else:
-        # Se non c'è group-title, aggiungilo
         updated_extinf = f'{extinf} group-title="{new_group}"'
-    # Debug: log della trasformazione
     original_group = group_match.group(1) if group_match else "nessuno"
     print(f"Trasformazione gruppo per '{channel_name}': '{original_group}' -> '{new_group}'")
     return updated_extinf
@@ -119,7 +111,7 @@ def transform_m3u8():
                             extinf = extinf.replace('tvg-name="Rai 3"', f'tvg-name="Canale 5" tvg-logo="{canale_5_logo}"')
                         extinf = re.sub(r'tvg-name="[^"]*"', f'tvg-name="Canale 5"', extinf)
 
-                    # Aggiungi FHD al nome del canale, se non presente
+                    # Aggiungi FHD al nome del canale per 247ita, se non presente
                     new_channel_name = channel_name if has_fhd(channel_name) else f"{channel_name} FHD"
 
                     # Salva il canale trasformato
@@ -158,7 +150,8 @@ def transform_m3u8():
                         stream_url = simudflix_lines[j].strip() if j < len(simudflix_lines) and not simudflix_lines[j].startswith("#") else None
 
                         cleaned_name = clean_channel_name(channel_name)
-                        new_channel_name = channel_name if has_fhd(channel_name) else f"{channel_name} FHD"
+                        # Per simudflix, mantieni il nome originale senza aggiungere FHD
+                        new_channel_name = channel_name
 
                         # Trasforma il gruppo per simudflix
                         extinf = update_extinf(extinf, cleaned_name)
@@ -166,13 +159,13 @@ def transform_m3u8():
                         # Controlla se il canale deve essere sostituito
                         replacement_channel = channel_replacements.get(cleaned_name)
                         if replacement_channel and replacement_channel in original_channels:
-                            # Usa i metadati di simudflix, ma il flusso da 247ita
+                            # Usa i metadati di simudflix, ma il flusso e il nome da 247ita
                             orig_extinf_lines, orig_stream, orig_channel_name = original_channels[replacement_channel]
                             if cleaned_name not in channels_to_remove:
                                 for extinf_line in extinf_lines:
                                     if extinf_line.startswith("#EXTINF"):
                                         new_extinf = update_extinf(extinf_line.split(',')[0], cleaned_name)
-                                        f.write(f"{new_extinf},{new_channel_name}\n")
+                                        f.write(f"{new_extinf},{orig_channel_name}\n")
                                     else:
                                         f.write(extinf_line + "\n")
                                 f.write(orig_stream + "\n")
