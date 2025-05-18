@@ -33,8 +33,24 @@ for line in lines:
         current_channel.append(modified_url)
         in_channel = False
     else:
+        if current_channel and line.strip() and not line.startswith("http"):
+            # Modifica il nome del canale (ultima parte della riga #EXTINF)
+            if current_channel[0].startswith("#EXTINF"):
+                extinf_line = current_channel[0]
+                # Estrai tvg-name usando regex
+                tvg_name_match = re.search(r'tvg-name="([^"]+)"', extinf_line)
+                if tvg_name_match:
+                    tvg_name = tvg_name_match.group(1)
+                    # Estrai il nome del canale (ultima parte dopo la virgola)
+                    channel_name = extinf_line.split(",")[-1].strip()
+                    # Crea il nuovo nome: tvg-name (channel_name)
+                    new_channel_name = f"{tvg_name} ({channel_name})"
+                    # Sostituisci il vecchio nome con il nuovo
+                    new_extinf = ",".join(extinf_line.split(",")[:-1] + [new_channel_name])
+                    current_channel[0] = new_extinf
         if current_channel:
-            current_channel.append(line)
+            if not line.startswith("http"):
+                current_channel.append(line)
         else:
             new_lines.append(line)
 
@@ -43,7 +59,7 @@ if current_channel:
     new_lines.extend(current_channel)
 
 # Salva il nuovo file M3U8
-output_file = "itaevents3.m3u8"
+output_file = "modified_onlyevents.m3u8"
 with open(output_file, "w", encoding="utf-8") as f:
     f.write("\n".join(new_lines))
 
