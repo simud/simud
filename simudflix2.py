@@ -10,6 +10,29 @@ proxy_base = "https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123
 # Nuovo logo per Canale 5
 canale_5_logo = "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Canale_5_-_2018_logo.svg/1222px-Canale_5_-_2018_logo.svg.png"
 
+# Canali da eliminare
+channels_to_remove = [
+    "Sky Cinema Uno +24",
+    "Sky Cinema Due +24",
+    "Rai Premium",
+    "Sky Calcio 6",
+    "Sky Calcio 7"
+]
+
+# Mappatura per la sostituzione dei flussi (simudflix -> 247ita)
+channel_replacements = {
+    "Sky Uno": "Sky UNO",
+    "Sky Sport Uno": "Sky Sport UNO",
+    "Sky Sport Max": "Sky Sport Football",
+    "Sky Sport Golf": "Sky Sports Golf",
+    "La7 HD": "La7",
+    "DAZN 1 HD": "DAZN 1",
+    "Sky Calcio 1 (251)": "Sky Calcio 1",
+    "Sky Calcio 2 (252)": "Sky Calcio 2",
+    "Sky Calcio 3 (253)": "Sky Calcio 3",
+    "Sky Calcio 4 (254)": "Sky Calcio 4"
+}
+
 def clean_channel_name(name):
     """Pulisce il nome del canale rimuovendo FHD e (D) per il confronto."""
     name = re.sub(r'\s*FHD$', '', name, flags=re.IGNORECASE)
@@ -78,12 +101,13 @@ def transform_m3u8():
                     # Aggiungi FHD al nome del canale, se non presente
                     new_channel_name = channel_name if has_fhd(channel_name) else f"{channel_name} FHD"
                     
-                    # Trasforma l'URL con il proxy
-                    transformed_url = proxy_base + stream_url if stream_url else None
-                    
-                    # Salva il canale trasformato
-                    cleaned_name = clean_channel_name(channel_name)
-                    original_channels[cleaned_name] = (extinf_lines, transformed_url, new_channel_name)
+                    # Escludi i canali da rimuovere
+                    if clean_channel_name(new_channel_name) not in channels_to_remove:
+                        # Trasforma l'URL con il proxy
+                        transformed_url = proxy_base + stream_url if stream_url else None
+                        # Salva il canale trasformato
+                        cleaned_name = clean_channel_name(channel_name)
+                        original_channels[cleaned_name] = (extinf_lines, transformed_url, new_channel_name)
                     
                     i = j + 1 if stream_url else j
                     continue
@@ -124,11 +148,22 @@ def transform_m3u8():
                         cleaned_name = clean_channel_name(channel_name)
                         new_channel_name = channel_name if has_fhd(channel_name) else f"{channel_name} FHD"
                         
-                        # Se il flusso è dproxy e il canale esiste nella playlist originale
-                        if stream_url and stream_url.startswith("https://dproxy-o.hf.space/stream/") and cleaned_name in original_channels:
+                        # Controlla se il canale deve essere sostituito
+                        replacement_channel = channel_replacements.get(cleaned_name)
+                        if replacement_channel and replacement_channel in original_channels:
                             # Usa i dati della playlist originale
-                            orig_extinf_lines, orig_stream, orig_channel_name = original_channels[cleaned_name]
+                            orig_extinf_lines, orig_stream, orig_channel_name = original_channels[replacement_channel]
                             # Scrivi le righe EXTINF e EXTVLCOPT
+                            for orig_line in orig_extinf_lines:
+                                if orig_line.startswith("#EXTINF"):
+                                    f.write(f"{orig_line.split(',')[0]},{orig_channel_name}\n")
+                                else:
+                                    f.write(orig_line + "\n")
+                            f.write(orig_stream + "\n")
+                            written_channels.add(replacement_channel)
+                        elif stream_url and stream_url.startswith("https://dproxy-o.hf.space/stream/") and cleaned_name in original_channels:
+                            # Sostituisci il flusso dproxy con quello originale
+                            orig_extinf_lines, orig_stream, orig_channel_name = original_channels[cleaned_name]
                             for orig_line in orig_extinf_lines:
                                 if orig_line.startswith("#EXTINF"):
                                     f.write(f"{orig_line.split(',')[0]},{orig_channel_name}\n")
@@ -138,13 +173,14 @@ def transform_m3u8():
                             written_channels.add(cleaned_name)
                         else:
                             # Mantieni il canale di simudflix invariato
-                            for extinf_line in extinf_lines:
-                                if extinf_line.startswith("#EXTINF"):
-                                    f.write(f"{extinf_line.split(',')[0]},{new_channel_name}\n")
-                                else:
-                                    f.write(extinf_line + "\n")
-                            if stream_url:
-                                f.write(stream_url + "\n")
+                            if cleaned_name not in channels_to_remove:
+                                for extinf_line in extinf_lines:
+                                    if extinf_line.startswith("#EXTINF"):
+                                        f.write(f"{extinf_line.split(',')[0]},{new_channel_name}\n")
+                                    else:
+                                        f.write(extinf_line + "\n")
+                                if stream_url:
+                                    f.write(stream_url + "\n")
                         
                         i = j + 1 if stream_url else j
                         continue
@@ -157,7 +193,7 @@ def transform_m3u8():
             
             # Aggiungi i canali della playlist originale non ancora scritti
             for cleaned_name, (extinf_lines, stream_url, new_channel_name) in original_channels.items():
-                if cleaned_name not in written_channels:
+                if cleaned_name not in written_channels and cleaned_name not in channels_to_remove:
                     for extinf_line in extinf_lines:
                         if extinf_line.startswith("#EXTINF"):
                             f.write(f"{extinf_line.split(',')[0]},{new_channel_name}\n")
