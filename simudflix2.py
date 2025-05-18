@@ -17,8 +17,7 @@ channels_to_remove = [
     "Rai Premium",
     "Sky Calcio 6",
     "Sky Calcio 7",
-    "LA7d",
-    "DAZN 1"
+    "LA7d"
 ]
 
 # Mappatura per la sostituzione dei flussi (simudflix -> 247ita)
@@ -103,7 +102,7 @@ def transform_m3u8():
                     # Aggiungi FHD al nome del canale, se non presente
                     new_channel_name = channel_name if has_fhd(channel_name) else f"{channel_name} FHD"
                     
-                    # Salva il canale trasformato (anche se in channels_to_remove, per usarlo nelle sostituzioni)
+                    # Salva il canale trasformato
                     cleaned_name = clean_channel_name(channel_name)
                     transformed_url = proxy_base + stream_url if stream_url else None
                     original_channels[cleaned_name] = (extinf_lines, transformed_url, new_channel_name)
@@ -152,12 +151,13 @@ def transform_m3u8():
                         if replacement_channel and replacement_channel in original_channels:
                             # Usa i metadati di simudflix, ma il flusso da 247ita
                             orig_extinf_lines, orig_stream, orig_channel_name = original_channels[replacement_channel]
-                            for extinf_line in extinf_lines:
-                                if extinf_line.startswith("#EXTINF"):
-                                    f.write(f"{extinf_line.split(',')[0]},{new_channel_name}\n")
-                                else:
-                                    f.write(extinf_line + "\n")
-                            f.write(orig_stream + "\n")
+                            if cleaned_name not in channels_to_remove:
+                                for extinf_line in extinf_lines:
+                                    if extinf_line.startswith("#EXTINF"):
+                                        f.write(f"{extinf_line.split(',')[0]},{new_channel_name}\n")
+                                    else:
+                                        f.write(extinf_line + "\n")
+                                f.write(orig_stream + "\n")
                             written_channels.add(replacement_channel)
                         elif stream_url and stream_url.startswith("https://dproxy-o.hf.space/stream/") and cleaned_name in original_channels:
                             # Sostituisci il flusso dproxy con quello originale
