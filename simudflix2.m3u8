@@ -2,7 +2,7 @@
 #EXTM3U  url-tvg="http://www.epgitalia.tv/gzip,http://epg-guide.com/it.gz,https://raw.github.com/matthuisman/i.mjh.nz/master/PlutoTV/us.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/PlutoTV/it.xml.gz,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-events-epg.xml,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-channels-epg.xml,https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/it.xml.gz"
 
 #EXTM3U
-#EXTINF:0,tvg-id="rai 1" tvg-logo="https://i.postimg.cc/LXD7KCm4/photo-2025-03-13-12-52-29.png" group-title="Rai", Rai 1 FHD
+#EXTINF:0 group-title="",tvg-id="rai 1" tvg-logo="https://i.postimg.cc/LXD7KCm4/photo-2025-03-13-12-52-29.png" group-title="Rai", Rai 1 FHD
 https://viamotionhsi.netplus.ch/live/eds/rai1/browser-dash/rai1.mpd
 
 #EXTINF:-1 tvg-id="rai 1" tvg-name="Rai 1 " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-1-it.png" group-title="Rai Tv",Rai 1 FHD
@@ -11,7 +11,7 @@ https://viamotionhsi.netplus.ch/live/eds/rai1/browser-dash/rai1.mpd
 #EXTVLCOPT:http-origin=https://forcedtoplay.xyz
 https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://ddy6new.newkso.ru/ddy6/premium850/mono.m3u8
 
-#EXTINF:0,tvg-id="rai 2" tvg-logo="https://i.postimg.cc/LXD7KCm4/photo-2025-03-13-12-52-29.png" group-title="Rai", Rai 2 FHD
+#EXTINF:0 group-title="",tvg-id="rai 2" tvg-logo="https://i.postimg.cc/LXD7KCm4/photo-2025-03-13-12-52-29.png" group-title="Rai", Rai 2 FHD
 https://viamotionhsi.netplus.ch/live/eds/rai2/browser-dash/rai2.mpd
 
 #EXTINF:-1 tvg-id="rai 2" tvg-name="Rai 2 " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-2-it.png" group-title="Rai Tv",Rai 2 FHD
@@ -20,13 +20,13 @@ https://viamotionhsi.netplus.ch/live/eds/rai2/browser-dash/rai2.mpd
 #EXTVLCOPT:http-origin=https://forcedtoplay.xyz
 https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://ddy6new.newkso.ru/ddy6/premium851/mono.m3u8
 
-#EXTINF:0,tvg-id="rai 3" tvg-logo="https://i.postimg.cc/LXD7KCm4/photo-2025-03-13-12-52-29.png" group-title="Rai", Rai 3 FHD
+#EXTINF:0 group-title="",tvg-id="rai 3" tvg-logo="https://i.postimg.cc/LXD7KCm4/photo-2025-03-13-12-52-29.png" group-title="Rai", Rai 3 FHD
 https://viamotionhsi.netplus.ch/live/eds/rai3/browser-dash/rai3.mpd
 
-#EXTINF:0,tvg-id="rai 4" tvg-logo="https://i.postimg.cc/j5d5bSGp/photo-2025-03-13-12-56-42.png" group-title="Rai", Rete 4 FHD
+#EXTINF:0 group-title="",tvg-id="rai 4" tvg-logo="https://i.postimg.cc/j5d5bSGp/photo-2025-03-13-12-56-42.png" group-title="Rai", Rete 4 FHD
 https://viamotionhsi.netplus.ch/live/eds/rete4/browser-dash/rete4.mpd
 
-#EXTINF:0,tvg-id="canale 5" tvg-logo="https://i.postimg.cc/j5d5bSGp/photo-2025-03-13-12-56-42.png" group-title="Rai", Canale 5 FHD
+#EXTINF:0 group-title="",tvg-id="canale 5" tvg-logo="https://i.postimg.cc/j5d5bSGp/photo-2025-03-13-12-56-42.png" group-title="Rai", Canale 5 FHD
 https://viamotionhsi.netplus.ch/live/eds/canale5/browser-dash/canale5.mpd
 
 #EXTINF:-1 tvg-id="rai 3" tvg-name="Rai 3 " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-3-it.png" group-title="Rai Tv",Canale 5 FHD
@@ -35,7 +35,7 @@ https://viamotionhsi.netplus.ch/live/eds/canale5/browser-dash/canale5.mpd
 #EXTVLCOPT:http-origin=https://forcedtoplay.xyz
 https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://windnew.newkso.ru/wind/premium853/mono.m3u8
 
-#EXTINF:0,tvg-id="italia 1" tvg-logo="https://i.postimg.cc/j5d5bSGp/photo-2025-03-13-12-56-42.png" group-title="Rai", Italia 1 FHD
+#EXTINF:0 group-title="",tvg-id="italia 1" tvg-logo="https://i.postimg.cc/j5d5bSGp/photo-2025-03-13-12-56-42.png" group-title="Rai", Italia 1 FHD
 https://viamotionhsi.netplus.ch/live/eds/italia1/browser-dash/italia1.mpd
 
 #EXTINF:-1 tvg-id="italia 1" tvg-name="Italia 1 " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/italia1-it.png" group-title="Rai",Italia 1 FHD
@@ -44,19 +44,19 @@ https://viamotionhsi.netplus.ch/live/eds/italia1/browser-dash/italia1.mpd
 #EXTVLCOPT:http-origin=https://forcedtoplay.xyz
 https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://windnew.newkso.ru/wind/premium854/mono.m3u8
 
-#EXTINF:0,tvg-id="rai gulp" tvg-logo="https://i.postimg.cc/LXD7KCm4/photo-2025-03-13-12-52-29.png" group-title="Rai", Rai Gulp FHD
+#EXTINF:0 group-title="",tvg-id="rai gulp" tvg-logo="https://i.postimg.cc/LXD7KCm4/photo-2025-03-13-12-52-29.png" group-title="Rai", Rai Gulp FHD
 https://viamotionhsi.netplus.ch/live/eds/raigulp/browser-dash/raigulp.mpd
 
-#EXTINF:0,tvg-id="rainews.it" tvg-logo="https://i.postimg.cc/LXD7KCm4/photo-2025-03-13-12-52-29.png" group-title="Rai", Rai News 24 FHD
+#EXTINF:0 group-title="",tvg-id="rainews.it" tvg-logo="https://i.postimg.cc/LXD7KCm4/photo-2025-03-13-12-52-29.png" group-title="Rai", Rai News 24 FHD
 https://viamotionhsi.netplus.ch/live/eds/rainews/browser-dash/rainews.mpd
 
-#EXTINF:0,tvg-id="rai storia" tvg-logo="https://i.postimg.cc/LXD7KCm4/photo-2025-03-13-12-52-29.png" group-title="Rai", Rai Storia FHD
+#EXTINF:0 group-title="",tvg-id="rai storia" tvg-logo="https://i.postimg.cc/LXD7KCm4/photo-2025-03-13-12-52-29.png" group-title="Rai", Rai Storia FHD
 https://viamotionhsi.netplus.ch/live/eds/raistoria/browser-dash/raistoria.mpd
 
-#EXTINF:0,tvg-id="rai scuola" tvg-logo="https://i.postimg.cc/LXD7KCm4/photo-2025-03-13-12-52-29.png" group-title="Rai", Rai Scuola FHD
+#EXTINF:0 group-title="",tvg-id="rai scuola" tvg-logo="https://i.postimg.cc/LXD7KCm4/photo-2025-03-13-12-52-29.png" group-title="Rai", Rai Scuola FHD
 https://viamotionhsi.netplus.ch/live/eds/raiscuola/browser-dash/raiscuola.mpd
 
-#EXTINF:0,tvg-id="rai sport" tvg-logo="https://i.postimg.cc/LXD7KCm4/photo-2025-03-13-12-52-29.png" group-title="Rai", Rai Sport FHD
+#EXTINF:0 group-title="",tvg-id="rai sport" tvg-logo="https://i.postimg.cc/LXD7KCm4/photo-2025-03-13-12-52-29.png" group-title="Rai", Rai Sport FHD
 https://viamotionhsi.netplus.ch/live/eds/raisport1/browser-dash/raisport1.mpd
 
 #EXTINF:-1 tvg-id="rai sport" tvg-name="Rai Sport " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-sport-it.png" group-title="Sky Sport FHD",Rai Sport FHD
@@ -65,7 +65,7 @@ https://viamotionhsi.netplus.ch/live/eds/raisport1/browser-dash/raisport1.mpd
 #EXTVLCOPT:http-origin=https://forcedtoplay.xyz
 https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://ddy6new.newkso.ru/ddy6/premium882/mono.m3u8
 
-#EXTINF:0,tvg-id="la 7" tvg-logo="https://i.postimg.cc/j5d5bSGp/photo-2025-03-13-12-56-42.png" group-title="Rai", La7 FHD
+#EXTINF:0 group-title="",tvg-id="la 7" tvg-logo="https://i.postimg.cc/j5d5bSGp/photo-2025-03-13-12-56-42.png" group-title="Rai", La7 FHD
 https://viamotionhsi.netplus.ch/live/eds/la7/browser-dash/la7.mpd
 
 #EXTINF:-1 tvg-id="LA7.HD.it" group-title="Rai" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/la-7-italy.png",La7 HD FHD
@@ -80,7 +80,7 @@ https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/11223/tv8web/master.m3u8?h
 #EXTINF:-1 tvg-chno="9" tvg-id="nove" tvg-name="Nove" tvg-logo="https://i.postimg.cc/j5d5bSGp/photo-2025-03-13-12-56-42.png" group-title="Rai",Nove FHD
 https://amg16146-wbdi-amg16146c1-samsung-it-1831.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-nove-samsungit/playlist.m3u8
 
-#EXTINF:0,tvg-id="la 7d" tvg-logo="https://i.postimg.cc/j5d5bSGp/photo-2025-03-13-12-56-42.png" group-title="Rai", La7d FHD
+#EXTINF:0 group-title="",tvg-id="la 7d" tvg-logo="https://i.postimg.cc/j5d5bSGp/photo-2025-03-13-12-56-42.png" group-title="Rai", La7d FHD
 https://viamotionhsi.netplus.ch/live/eds/la7d/browser-dash/la7d.mpd
 
 #EXTINF:-1 tvg-id="Mediaset 20" tvg-name="20 Mediaset " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/20-it.png" group-title="Rai",20 Mediaset FHD
@@ -271,10 +271,10 @@ https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://ddy6new.newkso.ru/ddy6/prem
 #EXTINF:-1 channel-id="pluto-63a0e33a45264d000850ed7e" tvg-id="63a0e33a45264d000850ed7e" tvg-logo="https://i.postimg.cc/NfjtMXnP/photo-2025-03-13-12-52-28.png" group-title="Sky Sport FHD",Golazo (SerieA) FHD
 http://stitcher.pluto.tv/v1/stitch/embed/hls/channel/63a0e33a45264d000850ed7e/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
 
-#EXTINF:0,tvg-id="rsi la1" tvg-logo="https://i.postimg.cc/HLxdhywy/photo-2025-03-13-12-49-58.png" group-title="Sky Sport FHD", RSI La1 FHD
+#EXTINF:0 group-title="",tvg-id="rsi la1" tvg-logo="https://i.postimg.cc/HLxdhywy/photo-2025-03-13-12-49-58.png" group-title="Sky Sport FHD", RSI La1 FHD
 https://viamotionhsi.netplus.ch/live/eds/rsila1hd/browser-dash/rsila1hd.mpd
 
-#EXTINF:0,tvg-id="rsi la2" tvg-logo="https://i.postimg.cc/HLxdhywy/photo-2025-03-13-12-49-58.png" group-title="Sky Sport FHD", RSI La2 FHD
+#EXTINF:0 group-title="",tvg-id="rsi la2" tvg-logo="https://i.postimg.cc/HLxdhywy/photo-2025-03-13-12-49-58.png" group-title="Sky Sport FHD", RSI La2 FHD
 https://viamotionhsi.netplus.ch/live/eds/rsila2hd/browser-dash/rsila2hd.mpd
 
 #EXTINF:-1 tvg-id="Sky.Sport..251.it" group-title="Sky Sport FHD" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-calcio-1.png",Sky Calcio 1 (251) FHD
