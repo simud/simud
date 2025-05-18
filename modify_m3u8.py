@@ -7,9 +7,11 @@ input_url = "https://raw.githubusercontent.com/ciccioxm3/omg/72596e5e7142f99b2a7
 prefix = "https://nzo66-tvproxy.hf.space/proxy/m3u?url="
 
 # Scarica il file M3U8
-response = requests.get(input_url)
-if response.status_code != 200:
-    print("Errore nel download del file M3U8")
+try:
+    response = requests.get(input_url)
+    response.raise_for_status()
+except requests.RequestException as e:
+    print(f"Errore nel download del file M3U8: {e}")
     exit()
 
 # Leggi il contenuto
@@ -17,50 +19,45 @@ lines = response.text.splitlines()
 
 # Lista per il nuovo contenuto
 new_lines = []
-in_channel = False
-current_channel = []
 
+# Variabili per gestire i canali
+current_extinf = None
 for line in lines:
     if line.startswith("#EXTINF"):
-        # Inizio di un nuovo canale
-        if current_channel:
-            new_lines.extend(current_channel)
-        current_channel = [line]
-        in_channel = True
-    elif in_channel and line.startswith("http"):
-        # Modifica il flusso video
+        current_extinf = line
+        new_lines.append(line)  # Aggiungi temporaneamente, verrà modificata dopo
+    elif current_extinf and line.strip() and line.startswith("http"):
+        # Modifica l'URL del flusso
         modified_url = prefix + line
-        current_channel.append(modified_url)
-        in_channel = False
-    else:
-        if current_channel and line.strip() and not line.startswith("http"):
-            # Modifica il nome del canale (ultima parte della riga #EXTINF)
-            if current_channel[0].startswith("#EXTINF"):
-                extinf_line = current_channel[0]
-                # Estrai tvg-name usando regex
-                tvg_name_match = re.search(r'tvg-name="([^"]+)"', extinf_line)
-                if tvg_name_match:
-                    tvg_name = tvg_name_match.group(1)
-                    # Estrai il nome del canale (ultima parte dopo la virgola)
-                    channel_name = extinf_line.split(",")[-1].strip()
-                    # Crea il nuovo nome: tvg-name (channel_name)
-                    new_channel_name = f"{tvg_name} ({channel_name})"
-                    # Sostituisci il vecchio nome con il nuovo
-                    new_extinf = ",".join(extinf_line.split(",")[:-1] + [new_channel_name])
-                    current_channel[0] = new_extinf
-        if current_channel:
-            if not line.startswith("http"):
-                current_channel.append(line)
+        # Modifica il nome del canale in current_extinf
+        tvg_name_match = re.search(r'tvg-name="([^"]+)"', current_extinf)
+        if tvg_name_match:
+            tvg_name = tvg_name_match.group(1)
+            # Estrai il nome del canale originale (ultima parte dopo la virgola)
+            try:
+                original_channel_name = current_extinf.split(",")[-1].strip()
+                # Crea il nuovo titolo: tvg-name (original_channel_name)
+                new_channel_name = f"{tvg_name} ({original_channel_name})"
+                # Sostituisci il vecchio nome con il nuovo nella riga EXTINF
+                new_extinf = ",".join(current_extinf.split(",")[:-1] + [new_channel_name])
+                # Sostituisci l'EXTINF nella lista
+                new_lines[-1] = new_extinf
+            except IndexError:
+                print(f"Errore nella riga EXTINF: {current_extinf}")
+                new_lines[-1] = current_extinf  # Mantieni invariato in caso di errore
         else:
-            new_lines.append(line)
-
-# Aggiungi l'ultimo canale
-if current_channel:
-    new_lines.extend(current_channel)
+            print(f"tvg-name non trovato in: {current_extinf}")
+        # Aggiungi l'URL modificato
+        new_lines.append(modified_url)
+        current_extinf = None
+    else:
+        new_lines.append(line)
 
 # Salva il nuovo file M3U8
-output_file = "modified_onlyevents.m3u8"
-with open(output_file, "w", encoding="utf-8") as f:
-    f.write("\n".join(new_lines))
-
-print(f"File modificato salvato come {output_file}")
+output_file = "itaevents3.m3u8"
+try:
+    with open(output_file, "w", encoding="utf-8") as f:
+        f.write("\n".join(new_lines) + "\n")
+    print(f"File modificato salvato come {output_file}")
+except Exception as e:
+    print(f"Errore nel salvataggio del file: {e}")
