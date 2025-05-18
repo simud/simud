@@ -68,11 +68,11 @@ https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://ddy
 #EXTINF:0,tvg-id="la 7" tvg-logo="https://i.postimg.cc/j5d5bSGp/photo-2025-03-13-12-56-42.png" group-title="Rai", La7 FHD
 https://viamotionhsi.netplus.ch/live/eds/la7/browser-dash/la7.mpd
 
-#EXTINF:-1 tvg-id="LA7.HD.it" group-title="Rai" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/la-7-italy.png",La7 HD FHD
-#EXTVLCOPT:http-referrer=https://dokoplay.xyz/
-#EXTVLCOPT:http-origin=https://dokoplay.xyz
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://dproxy-o.hf.space/stream/aHR0cHM6Ly93aW5kbmV3Lm5ld2tzby5ydS93aW5kL3ByZW1pdW04NTUvbW9uby5tM3U4
+#EXTINF:-1 tvg-id="la7" tvg-name="La7 " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/la7-it.png" group-title="Tv Italia",La7 FHD
+#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
+https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://windnew.newkso.ru/wind/premium855/mono.m3u8
 
 #EXTINF:-1 tvg-chno="8" tvg-id="tv8" tvg-name="Tv8" tvg-logo="https://i.postimg.cc/j5d5bSGp/photo-2025-03-13-12-56-42.png" group-title="Rai",Tv8 FHD
 https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/11223/tv8web/master.m3u8?hdnea=st=1701861650~exp=1765449000~acl=/*~hmac=84c9f3f71e57b13c3a67afa8b29a8591ea9ed84bf786524399545d94be1ec04d
@@ -108,8 +108,6 @@ https://raicinque1-dash-live.akamaized.net/dash/live/664003/raicinque1/manifest.
 #EXTVLCOPT:http-user-agent=rainet/4.0.4 (Linux;Android 14) ExoPlayerLib/2.18.0
 https://raimovie1-dash-live.akamaized.net/dash/live/663983/raimovie1/manifest.mpd
 
-#EXTINF:-1 tvg-chno="25" tvg-id="rai premium" tvg-name="Rai Premium" tvg-logo="https://i.postimg.cc/LXD7KCm4/photo-2025-03-13-12-52-29.png" group-title="Rai",Rai Premium FHD
-https://raipremium1-dash-live.akamaized.net/dash/live/663979/raipremium1/manifest.mpd
 
 #EXTINF:-1 tvg-chno="30" tvg-id="la 5" tvg-name="La 5" tvg-logo="https://i.postimg.cc/j5d5bSGp/photo-2025-03-13-12-56-42.png" group-title="Rai",La 5 FHD
 https://live02-seg.msf.cdn.mediaset.net/live/ch-ka/ka-clr.isml/index.m3u8
@@ -216,11 +214,11 @@ https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-c
 #EXTVLCOPT:http-origin=https://forcedtoplay.xyz
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://windnew.newkso.ru/wind/premium869/mono.m3u8
 
-#EXTINF:-1 tvg-id="Sky.Sport.Uno.it" group-title="Sky Sport FHD" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-sport-uno-it.png",Sky Sport Uno FHD
-#EXTVLCOPT:http-referrer=https://dokoplay.xyz/
-#EXTVLCOPT:http-origin=https://dokoplay.xyz
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://dproxy-o.hf.space/stream/aHR0cHM6Ly9kZHk2bmV3Lm5ld2tzby5ydS9kZHk2L3ByZW1pdW00NjEvbW9uby5tM3U4
+#EXTINF:-1 tvg-id="sky sport uno" tvg-name="Sky Sport UNO " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-uno-it.png" group-title="Sport",Sky Sport UNO FHD
+#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
+https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://ddy6new.newkso.ru/ddy6/premium461/mono.m3u8
 
 #EXTINF:-1 tvg-id="Sky Sport Calcio" tvg-name="Sky Sport Calcio " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-calcio-it.png" group-title="Sport",Sky Sport Calcio FHD
 #EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
@@ -258,17 +256,17 @@ https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://ddy
 #EXTVLCOPT:http-origin=https://forcedtoplay.xyz
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://nfsnew.newkso.ru/nfs/premium575/mono.m3u8
 
-#EXTINF:-1 tvg-id="Sky.Sport.Max.it" group-title="Sky Sport FHD" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-sport-football-it.png",Sky Sport Max FHD
-#EXTVLCOPT:http-referrer=https://dokoplay.xyz/
-#EXTVLCOPT:http-origin=https://dokoplay.xyz
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://dproxy-o.hf.space/stream/aHR0cHM6Ly9kb2trbzFuZXcubmV3a3NvLnJ1L2Rva2tvMS9wcmVtaXVtNDYwL21vbm8ubTN1OA==
+#EXTINF:-1 tvg-id="sky sport football" tvg-name="Sky Sport Football " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-football-it.png" group-title="Sport",Sky Sport Football FHD
+#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
+https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://dokko1new.newkso.ru/dokko1/premium460/mono.m3u8
 
-#EXTINF:-1 tvg-id="Sky.Sport.Golf.it" group-title="Sky Sport FHD" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-sport-golf-it.png",Sky Sport Golf FHD
-#EXTVLCOPT:http-referrer=https://dokoplay.xyz/
-#EXTVLCOPT:http-origin=https://dokoplay.xyz
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://dproxy-o.hf.space/stream/aHR0cHM6Ly9kZHk2bmV3Lm5ld2tzby5ydS9kZHk2L3ByZW1pdW01NzQvbW9uby5tM3U4
+#EXTINF:-1 tvg-id="sky sport golf" tvg-name="Sky Sports Golf " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-golf-it.png" group-title="Sport",Sky Sports Golf FHD
+#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
+https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://ddy6new.newkso.ru/ddy6/premium574/mono.m3u8
 
 #EXTINF:-1 channel-id="pluto-63a0e33a45264d000850ed7e" tvg-id="63a0e33a45264d000850ed7e" tvg-logo="https://i.postimg.cc/NfjtMXnP/photo-2025-03-13-12-52-28.png" group-title="Sky Sport FHD",Golazo (SerieA) FHD
 http://stitcher.pluto.tv/v1/stitch/embed/hls/channel/63a0e33a45264d000850ed7e/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
@@ -279,29 +277,29 @@ https://viamotionhsi.netplus.ch/live/eds/rsila1hd/browser-dash/rsila1hd.mpd
 #EXTINF:0,tvg-id="rsi la2" tvg-logo="https://i.postimg.cc/HLxdhywy/photo-2025-03-13-12-49-58.png" group-title="Sky Sport FHD", RSI La2 FHD
 https://viamotionhsi.netplus.ch/live/eds/rsila2hd/browser-dash/rsila2hd.mpd
 
-#EXTINF:-1 tvg-id="Sky.Sport..251.it" group-title="Sky Sport FHD" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-calcio-1.png",Sky Calcio 1 (251) FHD
-#EXTVLCOPT:http-referrer=https://dokoplay.xyz/
-#EXTVLCOPT:http-origin=https://dokoplay.xyz
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://dproxy-o.hf.space/stream/aHR0cHM6Ly96ZWtvbmV3Lm5ld2tzby5ydS96ZWtvL3ByZW1pdW04NzEvbW9uby5tM3U4
+#EXTINF:-1 tvg-id="Sky Sport" tvg-name="Sky Calcio 1  " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/germany/sky-select-1-alt-de.png" group-title="Sport",Sky Calcio 1 FHD
+#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
+https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://zekonew.newkso.ru/zeko/premium871/mono.m3u8
 
-#EXTINF:-1 tvg-id="Sky.Sport..252.it" group-title="Sky Sport FHD" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-calcio-2.png",Sky Calcio 2 (252) FHD
-#EXTVLCOPT:http-referrer=https://dokoplay.xyz/
-#EXTVLCOPT:http-origin=https://dokoplay.xyz
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://dproxy-o.hf.space/stream/aHR0cHM6Ly93aW5kbmV3Lm5ld2tzby5ydS93aW5kL3ByZW1pdW04NzIvbW9uby5tM3U4
+#EXTINF:-1 tvg-id="Sky Sport 2" tvg-name="Sky Calcio 2  " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/germany/sky-select-2-alt-de.png" group-title="Sport",Sky Calcio 2 FHD
+#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
+https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://windnew.newkso.ru/wind/premium872/mono.m3u8
 
-#EXTINF:-1 tvg-id="Sky.Sport..253.it" group-title="Sky Sport FHD" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-calcio-3.png",Sky Calcio 3 (253) FHD
-#EXTVLCOPT:http-referrer=https://dokoplay.xyz/
-#EXTVLCOPT:http-origin=https://dokoplay.xyz
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://dproxy-o.hf.space/stream/aHR0cHM6Ly93aW5kbmV3Lm5ld2tzby5ydS93aW5kL3ByZW1pdW04NzMvbW9uby5tM3U4
+#EXTINF:-1 tvg-id="sky sport 3" tvg-name="Sky Calcio 3  " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/germany/sky-select-3-alt-de.png" group-title="Sport",Sky Calcio 3 FHD
+#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
+https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://windnew.newkso.ru/wind/premium873/mono.m3u8
 
-#EXTINF:-1 tvg-id="Sky.Sport..254.it" group-title="Sky Sport FHD" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-calcio-4.png",Sky Calcio 4 (254) FHD
-#EXTVLCOPT:http-referrer=https://dokoplay.xyz/
-#EXTVLCOPT:http-origin=https://dokoplay.xyz
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://dproxy-o.hf.space/stream/aHR0cHM6Ly93aW5kbmV3Lm5ld2tzby5ydS93aW5kL3ByZW1pdW04NzQvbW9uby5tM3U4
+#EXTINF:-1 tvg-id="sky sport 4" tvg-name="Sky Calcio 4  " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/germany/sky-select-4-alt-de.png" group-title="Sport",Sky Calcio 4 FHD
+#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
+https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://windnew.newkso.ru/wind/premium874/mono.m3u8
 
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Sky Sport FHD",ADMIN FHD
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
@@ -360,11 +358,11 @@ https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-c
 
 # Sky Uno
 
-#EXTINF:-1 tvg-id="sky uno" group-title="Intrattenimento" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-uno-it.png",Sky Uno FHD
-#EXTVLCOPT:http-origin=https://chimeracuddleplay.cfd
-#EXTVLCOPT:http-referrer=https://chimeracuddleplay.cfd/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://dproxy-o.hf.space/stream/aHR0cHM6Ly93aW5kbmV3Lm5ld2tzby5ydS93aW5kL3ByZW1pdW04ODEvbW9uby5tM3U4
+#EXTINF:-1 tvg-id="sky uno" tvg-name="Sky UNO " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-uno-it.png" group-title="Sky",Sky UNO FHD
+#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
+https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://windnew.newkso.ru/wind/premium881/mono.m3u8
 
 #EXTINF:-1 tvg-id="sky serie" tvg-name="Sky Serie " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-serie-it.png" group-title="Sky",Sky Serie FHD
 #EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
@@ -1387,81 +1385,11 @@ https://bbrwebradio.radioca.st/stream?type=http&amp;nocache=6552&1684428942562
 
 #EXTINF:-1 tvg-logo="https://static.mytuner.mobi/media/tvos_radios/j6by3cev9rkb.png" group-title="Radio Web/Fm",Jolly Fm FHD
 http://nr4.newradio.it:9422/;?1571411143501
-#EXTINF:-1 tvg-id="la7" tvg-name="La7 " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/la7-it.png" group-title="Tv Italia",La7 FHD
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://windnew.newkso.ru/wind/premium855/mono.m3u8
 #EXTINF:-1 tvg-id="la7" tvg-name="LA7d  " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/la7-it.png" group-title="Tv Italia",LA7d FHD
 #EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://forcedtoplay.xyz
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://windnew.newkso.ru/wind/premium856/mono.m3u8
-#EXTINF:-1 tvg-id="rai premium" tvg-name="Rai Premium " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-premium-it.png" group-title="Rai Tv",Rai Premium FHD
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://windnew.newkso.ru/wind/premium858/mono.m3u8
-#EXTINF:-1 tvg-id="sky sport golf" tvg-name="Sky Sports Golf " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-golf-it.png" group-title="Sport",Sky Sports Golf FHD
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://ddy6new.newkso.ru/ddy6/premium574/mono.m3u8
-#EXTINF:-1 tvg-id="sky sport football" tvg-name="Sky Sport Football " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-football-it.png" group-title="Sport",Sky Sport Football FHD
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://dokko1new.newkso.ru/dokko1/premium460/mono.m3u8
-#EXTINF:-1 tvg-id="sky sport uno" tvg-name="Sky Sport UNO " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-uno-it.png" group-title="Sport",Sky Sport UNO FHD
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://ddy6new.newkso.ru/ddy6/premium461/mono.m3u8
-#EXTINF:-1 tvg-id="sky uno" tvg-name="Sky UNO " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-uno-it.png" group-title="Sky",Sky UNO FHD
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://windnew.newkso.ru/wind/premium881/mono.m3u8
-#EXTINF:-1 tvg-id="sky cinema uno" tvg-name="Sky Cinema Uno +24 " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-uno-it.png" group-title="Sky",Sky Cinema Uno +24 FHD
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://windnew.newkso.ru/wind/premium863/mono.m3u8
-#EXTINF:-1 tvg-id="sky cinema Due +24" tvg-name="Sky Cinema Due +24 " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-due-plus24-it.png" group-title="Sky",Sky Cinema Due +24 FHD
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://windnew.newkso.ru/wind/premium866/mono.m3u8
-#EXTINF:-1 tvg-id="Sky Sport" tvg-name="Sky Calcio 1  " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/germany/sky-select-1-alt-de.png" group-title="Sport",Sky Calcio 1 FHD
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://zekonew.newkso.ru/zeko/premium871/mono.m3u8
-#EXTINF:-1 tvg-id="Sky Sport 2" tvg-name="Sky Calcio 2  " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/germany/sky-select-2-alt-de.png" group-title="Sport",Sky Calcio 2 FHD
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://windnew.newkso.ru/wind/premium872/mono.m3u8
-#EXTINF:-1 tvg-id="sky sport 3" tvg-name="Sky Calcio 3  " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/germany/sky-select-3-alt-de.png" group-title="Sport",Sky Calcio 3 FHD
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://windnew.newkso.ru/wind/premium873/mono.m3u8
-#EXTINF:-1 tvg-id="sky sport 4" tvg-name="Sky Calcio 4  " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/germany/sky-select-4-alt-de.png" group-title="Sport",Sky Calcio 4 FHD
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://windnew.newkso.ru/wind/premium874/mono.m3u8
-#EXTINF:-1 tvg-id="sky sport 6" tvg-name="Sky Calcio 6  " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/germany/sky-select-6-alt-de.png" group-title="Sport",Sky Calcio 6 FHD
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://windnew.newkso.ru/wind/premium876/mono.m3u8
-#EXTINF:-1 tvg-id="sky sport 7" tvg-name="Sky Calcio 7  " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/germany/sky-select-7-alt-de.png" group-title="Sport",Sky Calcio 7 FHD
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://nfsnew.newkso.ru/nfs/premium877/mono.m3u8
 #EXTINF:-1 tvg-id="DAZN 1" tvg-name="DAZN 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/DAZN_1_Logo.svg/774px-DAZN_1_Logo.svg.png" group-title="Sport",DAZN 1 FHD
 #EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
