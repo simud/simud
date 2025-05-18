@@ -20,16 +20,23 @@ DEFAULT_IMAGE_URL = "https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396
 def read_existing_streams(m3u_file="skystreaming_playlist.m3u8"):
     REPO_PATH = os.getenv('GITHUB_WORKSPACE', '.')
     file_path = os.path.join(REPO_PATH, m3u_file)
-    existing_streams = set()
+    existing_streams = []
 
     if os.path.exists(file_path):
+        current_group = "Eventi"  # Default se non specificato
+        current_channel = None
         with open(file_path, "r", encoding="utf-8") as f:
             for line in f:
                 line = line.strip()
-                # Cerca le righe che contengono URL di flussi (non #EXTINF, #EXTGRP, ecc.)
-                if line and not line.startswith("#"):
-                    existing_streams.add(line)
-    
+                if line.startswith("#EXTGRP:"):
+                    current_group = line.replace("#EXTGRP:", "").split(" tvg-logo=")[0]
+                elif line.startswith("#EXTINF:"):
+                    current_channel = line.split(",")[-1].strip()
+                elif line and not line.startswith("#"):
+                    if current_channel:
+                        existing_streams.append((current_channel, line, current_group))
+                    current_channel = None
+
     print(f"Trovati {len(existing_streams)} flussi esistenti nel file M3U8.")
     return existing_streams
 
@@ -97,7 +104,7 @@ def get_video_stream(event_url):
             src = video.get('src')
             if src and re.search(r'\.(m3u8|mp4|ts)|stream', src, re.IGNORECASE):
                 return src, video
-            for source in soup.find_all('source'):
+            for source in video.find_all('source'):
                 src = source.get('src')
                 if src and re.search(r'\.(m3u8|mp4|ts)|stream', src, re.IGNORECASE):
                     return src, source
@@ -124,63 +131,49 @@ def extract_channel_name(event_url, element):
 
     return "Unknown Channel"
 
-# Funzione per aggiornare il file M3U8 con l'immagine fissa per gruppi e canali
-def update_m3u_file(video_streams, existing_streams, m3u_file="skystreaming_playlist.m3u8"):
+# Funzione per rimuovere i canali "clone" dal file M3U8
+def remove_clone_channels(m3u_file="skystreaming_playlist.m3u8"):
     REPO_PATH = os.getenv('GITHUB_WORKSPACE', '.')
     file_path = os.path.join(REPO_PATH, m3u_file)
+    
+    if not os.path.exists(file_path):
+        print(f"File M3U8 non trovato: {file_path}")
+        return
 
-    # Crea un dizionario per i nuovi flussi
+    # Leggi il file M3U8
+    streams = []
+    current_group = "Eventi"
+    current_channel = None
+    with open(file_path, "r", encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if line.startswith("#EXTGRP:"):
+                current_group = line.replace("#EXTGRP:", "").split(" tvg-logo=")[0]
+            elif line.startswith("#EXTINF:"):
+                current_channel = line.split(",")[-1].strip()
+            elif line and not line.startswith("#"):
+                if current_channel:
+                    streams.append((current_channel, line, current_group))
+                current_channel = None
+
+    # Rimuovi duplicati, mantenendo l'ultima istanza
+    unique_streams = {}
+    for channel_name, stream_url, group in streams:
+        unique_streams[stream_url] = (channel_name, stream_url, group)
+
+    print(f"Trovati {len(unique_streams)} flussi unici dopo la rimozione dei cloni.")
+
+    # Organizza i flussi per gruppo
     groups = {}
-    new_streams_count = 0
-    for event_url, stream_url, element in video_streams:
-        if not stream_url or stream_url in existing_streams:
-            continue  # Salta flussi vuoti o già presenti
-        channel_name = extract_channel_name(event_url, element)
-        if "sport" in channel_name.lower():
-            group = "Sport"
-        elif "serie" in channel_name.lower():
-            group = "Dirette Goal"
-        elif "film" in channel_name.lower():
-            group = "Cinema"
-        else:
-            group = "Eventi"
-
+    for channel_name, stream_url, group in unique_streams.values():
         if group not in groups:
             groups[group] = []
         groups[group].append((channel_name, stream_url))
-        new_streams_count += 1
 
-    # Leggi il file M3U8 esistente per preservare i flussi vecchi
-    old_groups = {}
-    if os.path.exists(file_path):
-        current_group = None
-        current_channel = None
-        with open(file_path, "r", encoding="utf-8") as f:
-            for line in f:
-                line = line.strip()
-                if line.startswith("#EXTGRP:"):
-                    current_group = line.replace("#EXTGRP:", "").split(" tvg-logo=")[0]
-                    if current_group not in old_groups:
-                        old_groups[current_group] = []
-                elif line.startswith("#EXTINF:"):
-                    channel_name = line.split(",")[-1].strip()
-                    current_channel = channel_name
-                elif line and not line.startswith("#"):
-                    if current_group and current_channel:
-                        old_groups[current_group].append((current_channel, line))
-                    current_channel = None
-
-    # Combina i gruppi vecchi e nuovi
-    combined_groups = old_groups.copy()
-    for group, channels in groups.items():
-        if group not in combined_groups:
-            combined_groups[group] = []
-        combined_groups[group].extend(channels)
-
-    # Scrivi il file M3U8 aggiornato
+    # Sovrascrivi il file M3U8
     with open(file_path, "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
-        for group, channels in sorted(combined_groups.items()):
+        for group, channels in sorted(groups.items()):
             channels.sort(key=lambda x: x[0].lower())
             f.write(f"#EXTGRP:{group} tvg-logo=\"{DEFAULT_IMAGE_URL}\"\n")
             for channel_name, link in channels:
@@ -189,7 +182,50 @@ def update_m3u_file(video_streams, existing_streams, m3u_file="skystreaming_play
                 f.write(f"#EXTVLCOPT:http-referrer={headers['Referer']}\n")
                 f.write(f"{link}\n")
 
-    print(f"File M3U8 aggiornato con successo: {file_path}. Aggiunti {new_streams_count} nuovi flussi.")
+    print(f"File M3U8 aggiornato con cloni rimossi: {file_path}")
+
+# Funzione per aggiornare il file M3U8
+def update_m3u_file(video_streams, existing_streams, m3u_file="skystreaming_playlist.m3u8"):
+    REPO_PATH = os.getenv('GITHUB_WORKSPACE', '.')
+    file_path = os.path.join(REPO_PATH, m3u_file)
+
+    # Combina flussi esistenti e nuovi
+    all_streams = existing_streams.copy()
+    for event_url, stream_url, element in video_streams:
+        if stream_url:
+            channel_name = extract_channel_name(event_url, element)
+            group = "Eventi"
+            if "sport" in channel_name.lower():
+                group = "Sport"
+            elif "serie" in channel_name.lower():
+                group = "Dirette Goal"
+            elif "film" in channel_name.lower():
+                group = "Cinema"
+            all_streams.append((channel_name, stream_url, group))
+
+    # Organizza i flussi per gruppo
+    groups = {}
+    for channel_name, stream_url, group in all_streams:
+        if group not in groups:
+            groups[group] = []
+        groups[group].append((channel_name, stream_url))
+
+    # Scrivi il file M3U8
+    with open(file_path, "w", encoding="utf-8") as f:
+        f.write("#EXTM3U\n")
+        for group, channels in sorted(groups.items()):
+            channels.sort(key=lambda x: x[0].lower())
+            f.write(f"#EXTGRP:{group} tvg-logo=\"{DEFAULT_IMAGE_URL}\"\n")
+            for channel_name, link in channels:
+                f.write(f"#EXTINF:-1 group-title=\"{group}\" tvg-logo=\"{DEFAULT_IMAGE_URL}\", {channel_name}\n")
+                f.write(f"#EXTVLCOPT:http-user-agent={headers['User-Agent']}\n")
+                f.write(f"#EXTVLCOPT:http-referrer={headers['Referer']}\n")
+                f.write(f"{link}\n")
+
+    print(f"File M3U8 generato con successo: {file_path}")
+
+    # Rimuovi i cloni
+    remove_clone_channels(m3u_file)
 
 # Esegui lo script
 if __name__ == "__main__":
@@ -223,7 +259,7 @@ if __name__ == "__main__":
                 print(f"Nessun flusso trovato per {event_url}")
             time.sleep(1)
 
-        if video_streams:
+        if video_streams or existing_streams:
             update_m3u_file(video_streams, existing_streams)
         else:
-            print("Nessun flusso video trovato in tutte le pagine evento.")
+            print("Nessun flusso video trovato e nessun flusso esistente.")
