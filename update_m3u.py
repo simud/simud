@@ -4,7 +4,7 @@ import os
 from bs4 import BeautifulSoup
 
 # Single URL variable to control base_url, Origin, and Referer
-SITE_URL = "https://skystreaming.download/"
+SITE_URL = "https://skystreaming.help/"
 headers = {
     "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1",
     "Origin": SITE_URL.rstrip('/'),
@@ -27,7 +27,7 @@ def find_event_pages():
             if re.match(r'/view/[^/]+/[^/]+', href):
                 full_url = SITE_URL + href.lstrip('/')
                 event_links.add(full_url)
-            elif re.match(r'https://skystreaming\.download/view/[^/]+/[^/]+', href):
+            elif re.match(r'https://skystreaming\.help/view/[^/]+/[^/]+', href):
                 event_links.add(href)
 
         return list(event_links)
