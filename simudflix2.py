@@ -6,7 +6,7 @@ playlist_url = "https://raw.githubusercontent.com/ciccioxm3/omg/refs/heads/main/
 # URL della playlist da concatenare
 simudflix_url = "https://raw.githubusercontent.com/simud/simud/refs/heads/main/simudflix.m3u8"
 # Base URL del proxy
-proxy_base = "https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d="
+proxy_base = "https://nzo66-tvproxy.hf.space/proxy/m3u?url="
 # Nuovo logo per Canale 5
 canale_5_logo = "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Canale_5_-_2018_logo.svg/1222px-Canale_5_-_2018_logo.svg.png"
 
