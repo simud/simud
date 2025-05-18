@@ -19,39 +19,53 @@ lines = response.text.splitlines()
 
 # Lista per il nuovo contenuto
 new_lines = []
+current_channel = []
+is_channel = False
 
-# Variabili per gestire i canali
-current_extinf = None
 for line in lines:
     if line.startswith("#EXTINF"):
-        current_extinf = line
-        new_lines.append(line)  # Aggiungi temporaneamente, verrà modificata dopo
-    elif current_extinf and line.strip() and line.startswith("http"):
+        # Inizio di un nuovo canale
+        if current_channel:
+            new_lines.extend(current_channel)
+        current_channel = [line]
+        is_channel = True
+    elif is_channel and line.strip() and line.startswith("http"):
         # Modifica l'URL del flusso
         modified_url = prefix + line
-        # Modifica il nome del canale in current_extinf
-        tvg_name_match = re.search(r'tvg-name="([^"]+)"', current_extinf)
+        # Modifica il nome del canale nella riga EXTINF
+        extinf_line = current_channel[0]
+        tvg_name_match = re.search(r'tvg-name="([^"]+)"', extinf_line)
         if tvg_name_match:
             tvg_name = tvg_name_match.group(1)
-            # Estrai il nome del canale originale (ultima parte dopo la virgola)
             try:
-                original_channel_name = current_extinf.split(",")[-1].strip()
-                # Crea il nuovo titolo: tvg-name (original_channel_name)
+                original_channel_name = extinf_line.split(",")[-1].strip()
                 new_channel_name = f"{tvg_name} ({original_channel_name})"
-                # Sostituisci il vecchio nome con il nuovo nella riga EXTINF
-                new_extinf = ",".join(current_extinf.split(",")[:-1] + [new_channel_name])
-                # Sostituisci l'EXTINF nella lista
-                new_lines[-1] = new_extinf
+                new_extinf = ",".join(extinf_line.split(",")[:-1] + [new_channel_name])
+                current_channel[0] = new_extinf
             except IndexError:
-                print(f"Errore nella riga EXTINF: {current_extinf}")
-                new_lines[-1] = current_extinf  # Mantieni invariato in caso di errore
+                print(f"Errore nella riga EXTINF: {extinf_line}")
         else:
-            print(f"tvg-name non trovato in: {current_extinf}")
+            print(f"tvg-name non trovato in: {extinf_line}")
         # Aggiungi l'URL modificato
-        new_lines.append(modified_url)
-        current_extinf = None
+        current_channel.append(modified_url)
+        # Scrivi il canale completo e resetta
+        new_lines.extend(current_channel)
+        current_channel = []
+        is_channel = False
+    elif is_channel and line.strip():
+        # Aggiungi righe intermedie (es. #EXTVLCOPT)
+        current_channel.append(line)
     else:
+        # Righe fuori da un canale (es. #EXTM3U)
+        if current_channel:
+            new_lines.extend(current_channel)
+            current_channel = []
+            is_channel = False
         new_lines.append(line)
+
+# Aggiungi l'ultimo canale, se presente
+if current_channel:
+    new_lines.extend(current_channel)
 
 # Salva il nuovo file M3U8
 output_file = "itaevents3.m3u8"
