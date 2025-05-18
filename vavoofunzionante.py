@@ -8,7 +8,7 @@ from github import GithubException
 url = "https://raw.githubusercontent.com/realbestia/itatv/refs/heads/main/combined_playlist.m3u8"
 
 # Gruppi desiderati
-gruppi_desiderati = ["Bambini", "Sport", "Film & Serie TV", "Documentari"]
+gruppi_desiderati = ["Bambini", "Sport", "Film & Serie TV", "Documentari", "Eventi Live"]
 
 # Canali da escludere (solo per Film & Serie TV)
 canali_esclusi = [
@@ -34,7 +34,10 @@ sky_uno_names = ["SKY SPORT UNO", "SKY SPORT UNO (2)"]
 # Canale da rinominare in Sky Serie FHD e spostare in Intrattenimento
 sky_serie_names = ["SKY SERIE"]
 
-# Loghi per i gruppi (non utilizzato per mantenere i loghi originali)
+# Logo per i canali Eventi Live senza logo
+eventi_live_logo = "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-uno-it.png"
+
+# Loghi per i gruppi (non utilizzato per mantenere i loghi originali tranne per Eventi Live)
 logos = {
     "Sky Sport FHD Backup": "https://i.postimg.cc/5063BN23/photo-2025-03-12-12-27-02.png",
     "Intrattenimento": "https://i.postimg.cc/NFGs2Ptq/photo-2025-03-12-12-36-48.png",
@@ -49,6 +52,13 @@ output_file = "./vavoofunzionante.m3u8"
 GITHUB_TOKEN = os.getenv("GH_TOKEN")  # Token di accesso personale GitHub
 REPO_NAME = "nome-utente/vavoo-playlist"  # Sostituisci con il tuo nome-utente/nome-repository
 FILE_PATH = "vavoofunzionante.m3u8"  # Percorso del file nel repository
+
+# Funzione per convertire il nome in formato con solo la prima lettera maiuscola
+def title_case_name(name):
+    # Rimuove "(2)" e altri suffissi simili
+    name = re.sub(r'\s*\(2\)', '', name)
+    # Converte in minuscolo e poi capitalizza ogni parola
+    return ' '.join(word.capitalize() for word in name.lower().split())
 
 # Scarica la playlist
 response = requests.get(url)
@@ -83,30 +93,33 @@ for i, line in enumerate(lines):
                 tvg_name = tvg_name_match.group(1)
                 # Escludi i canali indesiderati solo per Film & Serie TV
                 if current_group != "Film & Serie TV" or tvg_name not in canali_esclusi:
-                    # Rimuovi "(2)" da tvg-name e dal nome visualizzato
+                    # Rimuovi "(2)" da tvg-name
                     new_tvg_name = re.sub(r'\s*\(2\)', '', tvg_name)
-                    modified_line = re.sub(r'tvg-name="[^"]+"', f'tvg-name="{new_tvg_name}"', line)
-                    modified_line = re.sub(r',[^,]+$', f',{new_tvg_name}', modified_line)
+                    # Converti il nome in formato con prima lettera maiuscola
+                    display_name = title_case_name(new_tvg_name)
+                    # Aggiungi "FHD" solo se non è Eventi Live
+                    if current_group != "Eventi Live":
+                        display_name += " FHD"
                     
                     # Determina il nuovo group-title
                     new_group_title = current_group
                     if tvg_name in sky_uno_names or tvg_name in sky_serie_names:
                         new_group_title = "Sky Sport FHD Backup"
-                        modified_line = re.sub(r'group-title="[^"]+"', f'group-title="{new_group_title}"', modified_line)
                     elif tvg_name in sky_primafila_names:
                         new_group_title = "Sky Primafila FHD"
-                        modified_line = re.sub(r'group-title="Film & Serie TV"', f'group-title="{new_group_title}"', modified_line)
                     elif current_group == "Film & Serie TV":
                         new_group_title = "Sky Cinema FHD Backup"
-                        modified_line = re.sub(r'group-title="Film & Serie TV"', f'group-title="{new_group_title}"', modified_line)
                     elif current_group == "Sport":
                         new_group_title = "Sky Sport FHD Backup"
-                        modified_line = re.sub(r'group-title="Sport"', f'group-title="{new_group_title}"', modified_line)
                     
-                    # NON MODIFICARE IL tvg-logo per mantenere il logo originale
-                    # La riga seguente è stata rimossa:
-                    # if new_group_title in logos:
-                    #     modified_line = re.sub(r'tvg-logo="[^"]*"', f'tvg-logo="{logos[new_group_title]}"', modified_line)
+                    # Modifica la riga
+                    modified_line = re.sub(r'tvg-name="[^"]+"', f'tvg-name="{display_name}"', line)
+                    modified_line = re.sub(r'group-title="[^"]+"', f'group-title="{new_group_title}"', modified_line)
+                    modified_line = re.sub(r',[^,]+$', f',{display_name}', modified_line)
+                    
+                    # Aggiungi il logo per i canali Eventi Live senza logo
+                    if current_group == "Eventi Live" and not re.search(r'tvg-logo="[^"]+"', modified_line):
+                        modified_line = re.sub(r'(#EXTINF:[^,]+),', f'\\1 tvg-logo="{eventi_live_logo}",', modified_line)
                     
                     # Gestisci i canali Sky Uno
                     if tvg_name in sky_uno_names:
@@ -133,7 +146,7 @@ for i, line in enumerate(lines):
 
 # Funzione per estrarre il numero da tvg-name di Sky Primafila
 def get_primafila_number(tvg_name):
-    match = re.search(r'SKY PRIMAFILA (\d+)', tvg_name)
+    match = re.search(r'Sky Primafila (\d+)', tvg_name)
     return int(match.group(1)) if match else float('inf')
 
 # Filtra e ordina i canali Sky Primafila
@@ -144,7 +157,7 @@ for channel in sky_primafila_channels:
         print(f"Errore: tvg-name non trovato nella riga: {channel[0]}")
         continue
     tvg_name = tvg_name_match.group(1)
-    if tvg_name not in [re.sub(r'\s*\(2\)', '', name) for name in sky_primafila_names]:
+    if tvg_name not in [title_case_name(name) + " FHD" for name in [re.sub(r'\s*\(2\)', '', n) for n in sky_primafila_names]]:
         print(f"Errore: tvg-name non valido per Sky Primafila: {tvg_name}")
         continue
     valid_sky_primafila_channels.append(channel)
