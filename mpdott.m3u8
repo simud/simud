@@ -61,11 +61,6 @@ https://xuione.sportstreaming.net/SportStreaming/SportStreaming/96.m3u8
 https://xuione.sportstreaming.net/SportStreaming/SportStreaming/25.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Eventi", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/mZ6gwjBg/kings-league.png" group-title="Kings League", manuuxo
-#EXTVLCOPT:http-referrer=https://www.twitch.tv/manuuxo
-#EXTVLCOPT:http-origin=https://www.twitch.tv/manuuxo
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://use11.playlist.ttvnw.net/v1/playlist/CtkEUJou7Qa4s8ZKsmSpjMTkNtL-EAPU-fFD-k1DCtTd3bviy1dHuMcarFGhNdPitXUWVE6U1p2dJTZpu6buYlibA6gKVImR3i7wbgd2Yg6aR50NWB17I_2MitowrWae4AbbxdALKvnJniEjCmZCcEe6zLEkW6PdJujbXdtiou21JMYSy8ASYBlMZQwIl2NvXCvP1DdN9-VH8AfYTFA_Kcj3iFy0QGkbudshDRsvK6P2-RDLO-vFUACzI_G5H-uaPJ-jBJIWsWCI4KCTL30kd0tdeO5kirrcCHmHXCMHQ9ZZxmay3RJIHBFWhzVhhaWJObK0pTVbBfq9pnAXfwVQvRYD4vYMdXyI4f1lJgSOdhLpf6YnSnsacc29p00BHkzGF1TDMnlPEh811nrat39cUI3cg31MK_kKeff6yyVnc_Cyr8836EAswyqq3PNt1gjSWjYQudRcZmrjADsctR6ZNQbKr-ajBpfgRveG1yYIoc1D46nnMW2WF46fUTxvIe1rlC4sUJqpJw3JmtJqBmiYJfvf8QDsuLyAFjXYj86zuGryT8b9fanr2BH9VJSzutB9c-Kh859pgPQILwvEAYIm45Uz_sLxrmuCrz-XTIcEao4Z5cTcrif9p8NPjxP0f7ojipmKvlvs2B5spDYVIcBfiPXY5IMyjKNPkZmB1RciHSLYJwNTB7JIem4xaWOzDfKzt06TWn9NHzk2jD-dQRHbTKkIcnRnh6vl7hMgXnA_OowKYo4N5N9ZxZzWMT0bg6u1iaPAt6sGjn0vCqmHFBEnBREyJriUIN56frNHKxoMb_206s9OlA1IQP44IAEqCXVzLXdlc3QtMjCnDA.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Kings League", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 #EXTM3U  url-tvg="http://www.epgitalia.tv/gzip,http://epg-guide.com/it.gz,https://raw.github.com/matthuisman/i.mjh.nz/master/PlutoTV/us.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/PlutoTV/it.xml.gz,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-events-epg.xml,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-channels-epg.xml,https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/it.xml.gz"
@@ -366,11 +361,11 @@ https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://windnew.newkso.ru/wind/prem
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://forcedtoplay.xyz
 https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://windnew.newkso.ru/wind/premium865/mono.m3u8
-#EXTINF:-1 tvg-id="sky cinema suspense" tvg-name="Sky Cinema Suspense " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-suspense-it.png" group-title="Sky Cinema FHD",Sky Cinema Suspense FHD
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://ddy6new.newkso.ru/ddy6/premium868/mono.m3u8
+#EXTINF:-1 tvg-id="Sky.Cinema.Suspense.it" group-title="Sky Cinema FHD" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-cinema-suspense.png",Sky Cinema Suspense FHD
+#EXTVLCOPT:http-origin=https://webxzplay.cfd
+#EXTVLCOPT:http-referrer=https://webxzplay.cfd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://dproxy-o.hf.space/stream/aHR0cHM6Ly9kZHk2bmV3Lm5ld2tzby5ydS9kZHk2L3ByZW1pdW04NjgvbW9uby5tM3U4
 #EXTINF:-1 tvg-id="sky cinema drama" tvg-name="Sky Cinema Drama " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-drama-it.png" group-title="Sky Cinema FHD",Sky Cinema Drama FHD
 #EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
@@ -1459,7 +1454,7 @@ https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://vav
 https://exemple.m3u8
 #EXTINF:-1 tvg-id="23" tvg-name="Italy - Serie B : Salernitana Vs Frosinone (20:30)" tvg-logo="https://d5rzfs5ck83rq.cloudfront.net/legab.it/img/club/loghi/salernitana.png" group-title="Eventi Sportivi",Italy - Serie B : Salernitana Vs Frosinone (20:30)
 https://tvproxy.nzo66.com//proxy/m3u?url=https://nfsnew.newkso.ru/nfs/premium23/mono.m3u8
-#EXTINF:-1 tvg-id="870" tvg-name="England - Premier League : Brighton & Hove Albion Vs Liverpool (21:00)" tvg-logo="https://www.betsignals365.com/img/blog/li.png" group-title="Eventi Sportivi",England - Premier League : Brighton & Hove Albion Vs Liverpool (21:00)
+#EXTINF:-1 tvg-id="870" tvg-name="England - Premier League : Brighton & Hove Albion Vs Liverpool (21:00)" tvg-logo="https://1000logos.net/wp-content/uploads/2018/06/Brighton-Hove-Albion-Logo.png" group-title="Eventi Sportivi",England - Premier League : Brighton & Hove Albion Vs Liverpool (21:00)
 https://tvproxy.nzo66.com//proxy/m3u?url=https://windnew.newkso.ru/wind/premium870/mono.m3u8
 #EXTINF:-1 tvg-name="Basketball" group-title="Eventi Sportivi" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-uno-it.png",Basketball
 https://exemple.m3u8
