@@ -1,120 +1,120 @@
 #EXTM3U
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png",Brighton Vs Liverpool
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Brighton Vs Liverpool
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.help
 #EXTVLCOPT:http-origin=https://skystreaming.help
 https://hls.kangal.icu/hls/calcio/index.m3u8
-#EXTINF:-1 group-title="Sport" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png",Eurosport 1
+#EXTINF:-1 group-title="Sport" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Eurosport 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.help
 #EXTVLCOPT:http-origin=https://skystreaming.help
 https://hls.kangal.icu/hls/eurosport1/index.m3u8
-#EXTINF:-1 group-title="Sport" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png",Eurosport 2
+#EXTINF:-1 group-title="Sport" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Eurosport 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.help
 #EXTVLCOPT:http-origin=https://skystreaming.help
 https://hls.kangal.icu/hls/eurosport2/index.m3u8
-#EXTINF:-1 group-title="Sport" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png",Sky Sport 24
+#EXTINF:-1 group-title="Sport" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Sky Sport 24
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.help
 #EXTVLCOPT:http-origin=https://skystreaming.help
 https://hls.kangal.icu/hls/sky24/index.m3u8
-#EXTINF:-1 group-title="Sport" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png",Sky Sport 251
+#EXTINF:-1 group-title="Sport" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Sky Sport 251
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.help
 #EXTVLCOPT:http-origin=https://skystreaming.help
 https://hls.kangal.icu/hls/sky251/index.m3u8
-#EXTINF:-1 group-title="Sport" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png",Sky Sport 252
+#EXTINF:-1 group-title="Sport" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Sky Sport 252
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.help
 #EXTVLCOPT:http-origin=https://skystreaming.help
 https://hls.kangal.icu/hls/sky252/index.m3u8
-#EXTINF:-1 group-title="Sport" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png",Sky Sport 253
+#EXTINF:-1 group-title="Sport" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Sky Sport 253
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.help
 #EXTVLCOPT:http-origin=https://skystreaming.help
 https://hls.kangal.icu/hls/sky253/index.m3u8
-#EXTINF:-1 group-title="Sport" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png",Sky Sport 254
+#EXTINF:-1 group-title="Sport" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Sky Sport 254
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.help
 #EXTVLCOPT:http-origin=https://skystreaming.help
 https://hls.kangal.icu/hls/sky254/index.m3u8
-#EXTINF:-1 group-title="Sport" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png",Sky Sport 255
+#EXTINF:-1 group-title="Sport" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Sky Sport 255
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.help
 #EXTVLCOPT:http-origin=https://skystreaming.help
 https://hls.kangal.icu/hls/sky255/index.m3u8
-#EXTINF:-1 group-title="Sport" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png",Sky Sport 256
+#EXTINF:-1 group-title="Sport" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Sky Sport 256
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.help
 #EXTVLCOPT:http-origin=https://skystreaming.help
 https://hls.kangal.icu/hls/sky256/index.m3u8
-#EXTINF:-1 group-title="Sport" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png",Sky Sport 257
+#EXTINF:-1 group-title="Sport" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Sky Sport 257
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.help
 #EXTVLCOPT:http-origin=https://skystreaming.help
 https://hls.kangal.icu/hls/sky257/index.m3u8
-#EXTINF:-1 group-title="Sport" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png",Sky Sport 258
+#EXTINF:-1 group-title="Sport" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Sky Sport 258
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.help
 #EXTVLCOPT:http-origin=https://skystreaming.help
 https://hls.kangal.icu/hls/sky258/index.m3u8
-#EXTINF:-1 group-title="Sport" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png",Sky Sport 259
+#EXTINF:-1 group-title="Sport" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Sky Sport 259
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.help
 #EXTVLCOPT:http-origin=https://skystreaming.help
 https://hls.kangal.icu/hls/sky259/index.m3u8
-#EXTINF:-1 group-title="Sport" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png",Sky Sport 260
+#EXTINF:-1 group-title="Sport" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Sky Sport 260
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.help
 #EXTVLCOPT:http-origin=https://skystreaming.help
 https://hls.kangal.icu/hls/sky260/index.m3u8
-#EXTINF:-1 group-title="Sport" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png",Sky Sport 261
+#EXTINF:-1 group-title="Sport" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Sky Sport 261
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.help
 #EXTVLCOPT:http-origin=https://skystreaming.help
 https://hls.kangal.icu/hls/sky261/index.m3u8
-#EXTINF:-1 group-title="Sport" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png",Sky Sport Arena
+#EXTINF:-1 group-title="Sport" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Sky Sport Arena
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.help
 #EXTVLCOPT:http-origin=https://skystreaming.help
 https://hls.kangal.icu/hls/arena/index.m3u8
-#EXTINF:-1 group-title="Sport" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png",Sky Sport Calcio
+#EXTINF:-1 group-title="Sport" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Sky Sport Calcio
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.help
 #EXTVLCOPT:http-origin=https://skystreaming.help
 https://hls.kangal.icu/hls/calcio/index.m3u8
-#EXTINF:-1 group-title="Sport" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png",Sky Sport F1
+#EXTINF:-1 group-title="Sport" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Sky Sport F1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.help
 #EXTVLCOPT:http-origin=https://skystreaming.help
 https://hls.kangal.icu/hls/formula/index.m3u8
-#EXTINF:-1 group-title="Sport" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png",Sky Sport Golf
+#EXTINF:-1 group-title="Sport" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Sky Sport Golf
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.help
 #EXTVLCOPT:http-origin=https://skystreaming.help
 https://hls.kangal.icu/hls/golf/index.m3u8
-#EXTINF:-1 group-title="Sport" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png",Sky Sport Max
+#EXTINF:-1 group-title="Sport" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Sky Sport Max
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.help
 #EXTVLCOPT:http-origin=https://skystreaming.help
 https://hls.kangal.icu/hls/skymax/index.m3u8
-#EXTINF:-1 group-title="Sport" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png",Sky Sport Motogp
+#EXTINF:-1 group-title="Sport" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Sky Sport Motogp
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.help
 #EXTVLCOPT:http-origin=https://skystreaming.help
 https://hls.kangal.icu/hls/moto/index.m3u8
-#EXTINF:-1 group-title="Sport" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png",Sky Sport Nba
+#EXTINF:-1 group-title="Sport" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Sky Sport Nba
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.help
 #EXTVLCOPT:http-origin=https://skystreaming.help
 https://hls.kangal.icu/hls/skynba/index.m3u8
-#EXTINF:-1 group-title="Sport" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png",Sky Sport Tennis
+#EXTINF:-1 group-title="Sport" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Sky Sport Tennis
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.help
 #EXTVLCOPT:http-origin=https://skystreaming.help
 https://hls.kangal.icu/hls/tennis/index.m3u8
-#EXTINF:-1 group-title="Sport" tvg-logo="https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png",Sky Sport Uno
+#EXTINF:-1 group-title="Sport" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Sky Sport Uno
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.help
 #EXTVLCOPT:http-origin=https://skystreaming.help
