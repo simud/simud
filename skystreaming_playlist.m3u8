@@ -1,241 +1,99 @@
 #EXTM3U
-#EXTGRP:Dirette Goal tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png"
-#EXTINF:-1 group-title="Dirette Goal" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Diretta Gol Vs Serie A
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://skystreaming.help
-https://skystreaming.help/embed/v2PiV
-#EXTINF:-1 group-title="Dirette Goal" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Diretta Gol Vs Serie A Player 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://skystreaming.help
-https://skystreaming.help/embed/WZOv6
-#EXTINF:-1 group-title="Dirette Goal" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Zona Vs Serie A
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://skystreaming.help
-https://skystreaming.help/embed/ql0C7
-#EXTINF:-1 group-title="Dirette Goal" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Zona Vs Serie A Player 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://skystreaming.help
-https://skystreaming.help/embed/1e7e8
-#EXTGRP:Eventi tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png"
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Arsenal Vs Newcastle
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://skystreaming.help
-https://skystreaming.help/embed/0YUQT
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Atl Madrid Vs Betis
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://skystreaming.help
-https://skystreaming.help/embed/pnpn1
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Barcellona Vs Villarreal
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://skystreaming.help
-https://skystreaming.help/embed/pu4Ix
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Cagliari Vs Venezia
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://skystreaming.help
-https://skystreaming.help/embed/0Ovb8
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Cagliari Vs Venezia Player 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://skystreaming.help
-https://skystreaming.help/embed/T3a5h
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Celta Vigo Vs Vallecano
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://skystreaming.help
-https://skystreaming.help/embed/CAWmF
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Fiorentina Vs Bologna
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://skystreaming.help
-https://skystreaming.help/embed/dhYS4
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Fiorentina Vs Bologna Player 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://skystreaming.help
-https://skystreaming.help/embed/KXpnR
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Formula 1 Vs Gp Emilia Romagna Italia
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://skystreaming.help
-https://skystreaming.help/embed/6rsu0
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Formula 1 Vs Gp Emilia Romagna Italia Player 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://skystreaming.help
-https://skystreaming.help/embed/uXmmb
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Inter Vs Lazio
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://skystreaming.help
-https://skystreaming.help/embed/WwHOY
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Inter Vs Lazio Player 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://skystreaming.help
-https://skystreaming.help/embed/cRwOg
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Juventus Vs Udinese
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://skystreaming.help
-https://skystreaming.help/embed/0yBYY
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Juventus Vs Udinese Player 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://skystreaming.help
-https://skystreaming.help/embed/GmKNf
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Las Palmas Vs Leganes
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://skystreaming.help
-https://skystreaming.help/embed/ir6Gp
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Lecce Vs Torino
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://skystreaming.help
-https://skystreaming.help/embed/UAB4I
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Lecce Vs Torino Player 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://skystreaming.help
-https://skystreaming.help/embed/MRJal
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Maiorca Vs Getafe
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://skystreaming.help
-https://skystreaming.help/embed/hoVrc
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Monza Vs Empoli
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://skystreaming.help
-https://skystreaming.help/embed/sUFf0
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Monza Vs Empoli Player 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://skystreaming.help
-https://skystreaming.help/embed/Jyn7J
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Osasuna Vs Espanyol
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://skystreaming.help
-https://skystreaming.help/embed/zFxMS
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Parma Vs Napoli
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://skystreaming.help
-https://skystreaming.help/embed/Clfx9
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Parma Vs Napoli Player 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://skystreaming.help
-https://skystreaming.help/embed/hgAqp
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Real Sociedad Vs Girona
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://skystreaming.help
-https://skystreaming.help/embed/zLOET
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Roma Vs Milan
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://skystreaming.help
-https://skystreaming.help/embed/ym0Xd
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Roma Vs Milan Player 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://skystreaming.help
-https://skystreaming.help/embed/DkhVr
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Siviglia Vs Real Madrid
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://skystreaming.help
-https://skystreaming.help/embed/qzD2Z
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Valencia Vs Ath Bilbao
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://skystreaming.help
-https://skystreaming.help/embed/Ez1l7
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Valladolid Vs Alaves
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://skystreaming.help
-https://skystreaming.help/embed/qEVPA
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Verona Vs Como
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://skystreaming.help
-https://skystreaming.help/embed/wpJuA
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Verona Vs Como Player 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://skystreaming.help
-https://skystreaming.help/embed/6H8Fd
 #EXTGRP:Eventi Sky Streaming tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png"
 #EXTINF:-1 group-title="Eventi Sky Streaming" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Brighton Vs Liverpool
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.help
 https://skystreaming.help/embed/YsXOl
-#EXTGRP:Sport tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png"
-#EXTINF:-1 group-title="Sport" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Eurosport 1
+#EXTGRP:Sky Sport Backup SD tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png"
+#EXTINF:-1 group-title="Sky Sport Backup SD" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Eurosport 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.help
 https://skystreaming.help/embed/Vyv99
-#EXTINF:-1 group-title="Sport" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Eurosport 2
+#EXTINF:-1 group-title="Sky Sport Backup SD" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Eurosport 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.help
 https://skystreaming.help/embed/um8E5
-#EXTINF:-1 group-title="Sport" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Sky Sport 24
+#EXTINF:-1 group-title="Sky Sport Backup SD" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Sky Sport 24
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.help
 https://skystreaming.help/embed/GB7zq
-#EXTINF:-1 group-title="Sport" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Sky Sport 251
+#EXTINF:-1 group-title="Sky Sport Backup SD" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Sky Sport 251
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.help
 https://skystreaming.help/embed/drHbM
-#EXTINF:-1 group-title="Sport" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Sky Sport 252
+#EXTINF:-1 group-title="Sky Sport Backup SD" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Sky Sport 252
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.help
 https://skystreaming.help/embed/m5kfg
-#EXTINF:-1 group-title="Sport" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Sky Sport 253
+#EXTINF:-1 group-title="Sky Sport Backup SD" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Sky Sport 253
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.help
 https://skystreaming.help/embed/YprHf
-#EXTINF:-1 group-title="Sport" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Sky Sport 254
+#EXTINF:-1 group-title="Sky Sport Backup SD" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Sky Sport 254
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.help
 https://skystreaming.help/embed/wroRV
-#EXTINF:-1 group-title="Sport" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Sky Sport 255
+#EXTINF:-1 group-title="Sky Sport Backup SD" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Sky Sport 255
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.help
 https://skystreaming.help/embed/0TixN
-#EXTINF:-1 group-title="Sport" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Sky Sport 256
+#EXTINF:-1 group-title="Sky Sport Backup SD" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Sky Sport 256
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.help
 https://skystreaming.help/embed/8g8bh
-#EXTINF:-1 group-title="Sport" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Sky Sport 257
+#EXTINF:-1 group-title="Sky Sport Backup SD" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Sky Sport 257
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.help
 https://skystreaming.help/embed/ri859
-#EXTINF:-1 group-title="Sport" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Sky Sport 258
+#EXTINF:-1 group-title="Sky Sport Backup SD" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Sky Sport 258
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.help
 https://skystreaming.help/embed/UoJuW
-#EXTINF:-1 group-title="Sport" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Sky Sport 259
+#EXTINF:-1 group-title="Sky Sport Backup SD" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Sky Sport 259
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.help
 https://skystreaming.help/embed/squCy
-#EXTINF:-1 group-title="Sport" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Sky Sport 260
+#EXTINF:-1 group-title="Sky Sport Backup SD" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Sky Sport 260
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.help
 https://skystreaming.help/embed/Z5h2e
-#EXTINF:-1 group-title="Sport" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Sky Sport 261
+#EXTINF:-1 group-title="Sky Sport Backup SD" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Sky Sport 261
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.help
 https://skystreaming.help/embed/Hz9FW
-#EXTINF:-1 group-title="Sport" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Sky Sport Arena
+#EXTINF:-1 group-title="Sky Sport Backup SD" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Sky Sport Arena
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.help
 https://skystreaming.help/embed/NkEda
-#EXTINF:-1 group-title="Sport" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Sky Sport Calcio
+#EXTINF:-1 group-title="Sky Sport Backup SD" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Sky Sport Calcio
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.help
 https://skystreaming.help/embed/STOZT
-#EXTINF:-1 group-title="Sport" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Sky Sport F1
+#EXTINF:-1 group-title="Sky Sport Backup SD" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Sky Sport F1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.help
 https://skystreaming.help/embed/MLkym
-#EXTINF:-1 group-title="Sport" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Sky Sport Golf
+#EXTINF:-1 group-title="Sky Sport Backup SD" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Sky Sport Golf
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.help
 https://skystreaming.help/embed/s9L5f
-#EXTINF:-1 group-title="Sport" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Sky Sport Max
+#EXTINF:-1 group-title="Sky Sport Backup SD" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Sky Sport Max
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.help
 https://skystreaming.help/embed/4QzWz
-#EXTINF:-1 group-title="Sport" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Sky Sport Motogp
+#EXTINF:-1 group-title="Sky Sport Backup SD" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Sky Sport Motogp
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.help
 https://skystreaming.help/embed/ARFFv
-#EXTINF:-1 group-title="Sport" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Sky Sport Nba
+#EXTINF:-1 group-title="Sky Sport Backup SD" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Sky Sport Nba
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.help
 https://skystreaming.help/embed/saR8j
-#EXTINF:-1 group-title="Sport" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Sky Sport Tennis
+#EXTINF:-1 group-title="Sky Sport Backup SD" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Sky Sport Tennis
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.help
 https://skystreaming.help/embed/MKCKP
-#EXTINF:-1 group-title="Sport" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Sky Sport Uno
+#EXTINF:-1 group-title="Sky Sport Backup SD" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Sky Sport Uno
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.help
 https://skystreaming.help/embed/tb1np
