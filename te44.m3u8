@@ -1,0 +1,53 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="SkySportSerieA.it" tvg-name="Sky Sport Serie A" tvg-logo="https://example.com/skysportseriea.png",Sky Sport Serie A
+#EXTHTTP:{"Authorization":"Bearer MDAzNjJmOTVkYjYxZWJhMGU2ZjE0YWNlZTNmNzFlMDE6ZmI3NGNkODRiNTNjNzU1N2UxODQyNGEzMzU2YzQ2NjU="}
+https://linear302-it-dash1-prd.selector.skycdn.it/016a/31209/FHD/skysportseriea/master_stereo.mpd?ck=MDAzNjJmOTVkYjYxZWJhMGU2ZjE0YWNlZTNmNzFlMDE6ZmI3NGNkODRiNTNjNzU1N2UxODQyNGEzMzU2YzQ2NjU=
+
+#EXTINF:-1 tvg-id="SkySportSerieA.it" tvg-name="Sky Sport Serie A" tvg-logo="https://example.com/skysportseriea.png",Sky Sport Serie A (Cookie)
+#EXTVLCOPT:http-header-fields=Cookie=ck=MDAzNjJmOTVkYjYxZWJhMGU2ZjE0YWNlZTNmNzFlMDE6ZmI3NGNkODRiNTNjNzU1N2UxODQyNGEzMzU2YzQ2NjU=
+https://linear302-it-dash1-prd.selector.skycdn.it/016a/31209/FHD/skysportseriea/master_stereo.mpd?ck=MDAzNjJmOTVkYjYxZWJhMGU2ZjE0YWNlZTNmNzFlMDE6ZmI3NGNkODRiNTNjNzU1N2UxODQyNGEzMzU2YzQ2NjU=
+
+#EXTINF:-1 tvg-id="SkySportSerieA.it" tvg-name="Sky Sport Serie A" tvg-logo="https://example.com/skysportseriea.png",Sky Sport Serie A (User-Agent + Bearer)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+#EXTVLCOPT:http-header-fields=Authorization=Bearer%20MDAzNjJmOTVkYjYxZWJhMGU2ZjE0YWNlZTNmNzFlMDE6ZmI3NGNkODRiNTNjNzU1N2UxODQyNGEzMzU2YzQ2NjU=
+https://linear302-it-dash1-prd.selector.skycdn.it/016a/31209/FHD/skysportseriea/master_stereo.mpd?ck=MDAzNjJmOTVkYjYxZWJhMGU2ZjE0YWNlZTNmNzFlMDE6ZmI3NGNkODRiNTNjNzU1N2UxODQyNGEzMzU2YzQ2NjU=
+
+#EXTINF:-1 tvg-id="SkySportSerieA.it" tvg-name="Sky Sport Serie A" tvg-logo="https://example.com/skysportseriea.png",Sky Sport Serie A (User-Agent + Cookie)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+#EXTVLCOPT:http-header-fields=Cookie=ck%3DMDAzNjJmOTVkYjYxZWJhMGU2ZjE0YWNlZTNmNzFlMDE6ZmI3NGNkODRiNTNjNzU1N2UxODQyNGEzMzU2YzQ2NjU%3D
+https://linear302-it-dash1-prd.selector.skycdn.it/016a/31209/FHD/skysportseriea/master_stereo.mpd?ck=MDAzNjJmOTVkYjYxZWJhMGU2ZjE0YWNlZTNmNzFlMDE6ZmI3NGNkODRiNTNjNzU1N2UxODQyNGEzMzU2YzQ2NjU=
+
+#EXTINF:-1 tvg-id="SkySportSerieA.it" tvg-name="Sky Sport Serie A" tvg-logo="https://example.com/skysportseriea.png",Sky Sport Serie A (Origin+Referer+Bearer)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+#EXTVLCOPT:http-header-fields=Origin=https://thisnot.business/\r\nReferer=https://thisnot.business/\r\nAuthorization=Bearer MDAzNjJmOTVkYjYxZWJhMGU2ZjE0YWNlZTNmNzFlMDE6ZmI3NGNkODRiNTNjNzU1N2UxODQyNGEzMzU2YzQ2NjU=
+https://linear302-it-dash1-prd.selector.skycdn.it/016a/31209/FHD/skysportseriea/master_stereo.mpd?ck=MDAzNjJmOTVkYjYxZWJhMGU2ZjE0YWNlZTNmNzFlMDE6ZmI3NGNkODRiNTNjNzU1N2UxODQyNGEzMzU2YzQ2NjU=
+
+#EXTM3U
+#EXTINF:-1 tvg-id="SkySportSerieA.it" tvg-name="Sky Sport Serie A" tvg-logo="https://example.com/skysportseriea.png",Sky Sport Serie A (Origin+Referer+Cookie)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+#EXTVLCOPT:http-header-fields=Origin=https://thisnot.business/\r\nReferer=https://thisnot.business/\r\nCookie=ck=MDAzNjJmOTVkYjYxZWJhMGU2ZjE0YWNlZTNmNzFlMDE6ZmI3NGNkODRiNTNjNzU1N2UxODQyNGEzMzU2YzQ2NjU=
+https://linear302-it-dash1-prd.selector.skycdn.it/016a/31209/FHD/skysportseriea/master_stereo.mpd?ck=MDAzNjJmOTVkYjYxZWJhMGU2ZjE0YWNlZTNmNzFlMDE6ZmI3NGNkODRiNTNjNzU1N2UxODQyNGEzMzU2YzQ2NjU=
+
+#EXTM3U
+#EXTINF:-1 tvg-id="SkySportSerieA.it" tvg-name="Sky Sport Serie A" tvg-logo="https://example.com/skysportseriea.png",Sky Sport Serie A (Origin+Referer+Cookie)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+#EXTVLCOPT:http-header-fields=Origin=https://thisnot.business/\r\nReferer=https://thisnot.business/\r\nCookie=ck=MDAzNjJmOTVkYjYxZWJhMGU2ZjE0YWNlZTNmNzFlMDE6ZmI3NGNkODRiNTNjNzU1N2UxODQyNGEzMzU2YzQ2NjU=
+https://linear302-it-dash1-prd.selector.skycdn.it/016a/31209/FHD/skysportseriea/master_stereo.mpd?ck=MDAzNjJmOTVkYjYxZWJhMGU2ZjE0YWNlZTNmNzFlMDE6ZmI3NGNkODRiNTNjNzU1N2UxODQyNGEzMzU2YzQ2NjU=
+
+#EXTM3U
+#EXTINF:-1 tvg-id="SkySportSerieA.it" tvg-name="Sky Sport Serie A" tvg-logo="https://example.com/skysportseriea.png",Sky Sport Serie A (Origin+Referer+Bearer Encoded)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+#EXTVLCOPT:http-header-fields=Origin=https://thisnot.business/\r\nReferer=https://thisnot.business/\r\nAuthorization=Bearer%20MDAzNjJmOTVkYjYxZWJhMGU2ZjE0YWNlZTNmNzFlMDE6ZmI3NGNkODRiNTNjNzU1N2UxODQyNGEzMzU2YzQ2NjU=
+https://linear302-it-dash1-prd.selector.skycdn.it/016a/31209/FHD/skysportseriea/master_stereo.mpd?ck=MDAzNjJmOTVkYjYxZWJhMGU2ZjE0YWNlZTNmNzFlMDE6ZmI3NGNkODRiNTNjNzU1N2UxODQyNGEzMzU2YzQ2NjU=
+
+#EXTM3U
+#EXTINF:-1 tvg-id="SkySportSerieA.it" tvg-name="Sky Sport Serie A" tvg-logo="https://example.com/skysportseriea.png",Sky Sport Serie A (No Equal + Bearer)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+#EXTVLCOPT:http-header-fields=Authorization=Bearer MDAzNjJmOTVkYjYxZWJhMGU2ZjE0YWNlZTNmNzFlMDE6ZmI3NGNkODRiNTNjNzU1N2UxODQyNGEzMzU2YzQ2NjU
+https://linear302-it-dash1-prd.selector.skycdn.it/016a/31209/FHD/skysportseriea/master_stereo.mpd?ck=MDAzNjJmOTVkYjYxZWJhMGU2ZjE0YWNlZTNmNzFlMDE6ZmI3NGNkODRiNTNjNzU1N2UxODQyNGEzMzU2YzQ2NjU
+
+#EXTM3U
+#EXTINF:-1 tvg-id="SkySportSerieA.it" tvg-name="Sky Sport Serie A" tvg-logo="https://example.com/skysportseriea.png",Sky Sport Serie A (No Equal + Cookie)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+#EXTVLCOPT:http-header-fields=Cookie=ck=MDAzNjJmOTVkYjYxZWJhMGU2ZjE0YWNlZTNmNzFlMDE6ZmI3NGNkODRiNTNjNzU1N2UxODQyNGEzMzU2YzQ2NjU
+https://linear302-it-dash1-prd.selector.skycdn.it/016a/31209/FHD/skysportseriea/master_stereo.mpd?ck=MDAzNjJmOTVkYjYxZWJhMGU2ZjE0YWNlZTNmNzFlMDE6ZmI3NGNkODRiNTNjNzU1N2UxODQyNGEzMzU2YzQ2NjU
