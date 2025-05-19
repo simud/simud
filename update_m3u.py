@@ -19,12 +19,10 @@ def find_skystreaming_domain():
         response.raise_for_status()
         soup = BeautifulSoup(response.text, 'html.parser')
 
-        # Cerca link che contengono "Skystreaming" nel testo o nell'URL
         for a in soup.find_all('a', href=True):
             href = a['href']
             text = a.text.lower()
             if 'skystreaming' in text or 'skystreaming' in href.lower():
-                # Estrai il dominio base (es. https://skystreaming.example)
                 domain_match = re.match(r'(https?://[^/]+)', href)
                 if domain_match:
                     return domain_match.group(1) + "/"
@@ -77,7 +75,7 @@ def read_existing_streams(m3u_file="skystreaming_playlist.m3u8"):
     print(f"Trovati {len(existing_streams)} flussi esistenti nel file M3U8.")
     return existing_streams
 
-# Funzione per trovare le sottocategorie (es. /channel/video/serie-a)
+# Funzione per trovare le sottocategorie
 def find_subcategories():
     try:
         response = requests.get(SITE_URL, headers=headers, timeout=10)
@@ -98,7 +96,7 @@ def find_subcategories():
         print(f"Errore durante la ricerca delle sottocategorie: {e}")
         return []
 
-# Funzione per trovare i link alle pagine evento da una sottocategoria
+# Funzione per trovare i link alle pagine evento
 def find_event_pages(subcategory_url):
     try:
         response = requests.get(subcategory_url, headers=headers, timeout=10)
@@ -113,14 +111,14 @@ def find_event_pages(subcategory_url):
                 re.match(r'.*/view/[^/]+/[A-Za-z0-9]+$', full_url)) and SITE_URL in full_url:
                 event_links.add(full_url)
 
-        print(f"Trovati {len(event_links)} eventi nella sottocategoria {subcategory_url}: {list(event_links)}")
+        print(f"Trovati {len(event_links)} eventi nella sottocategoria {subcategory_url}")
         return list(event_links)
 
     except requests.RequestException as e:
         print(f"Errore durante l'accesso a {subcategory_url}: {e}")
         return []
 
-# Funzione per estrarre il flusso video dalla pagina evento
+# Funzione per estrarre il flusso video
 def get_video_stream(event_url):
     try:
         response = requests.get(event_url, headers=headers, timeout=10)
@@ -168,7 +166,7 @@ def extract_channel_name(event_url, element):
 
     return "Unknown Channel"
 
-# Funzione per rimuovere i canali "clone" dal file M3U8
+# Funzione per rimuovere i canali "clone"
 def remove_clone_channels(m3u_file="skystreaming_playlist.m3u8"):
     REPO_PATH = os.getenv('GITHUB_WORKSPACE', '.')
     file_path = os.path.join(REPO_PATH, m3u_file)
@@ -177,7 +175,6 @@ def remove_clone_channels(m3u_file="skystreaming_playlist.m3u8"):
         print(f"File M3U8 non trovato: {file_path}")
         return
 
-    # Leggi il file M3U8
     streams = []
     current_group = "Eventi"
     current_channel = None
@@ -193,21 +190,18 @@ def remove_clone_channels(m3u_file="skystreaming_playlist.m3u8"):
                     streams.append((current_channel, line, current_group))
                 current_channel = None
 
-    # Rimuovi duplicati, mantenendo l'ultima istanza
     unique_streams = {}
     for channel_name, stream_url, group in streams:
         unique_streams[stream_url] = (channel_name, stream_url, group)
 
     print(f"Trovati {len(unique_streams)} flussi unici dopo la rimozione dei cloni.")
 
-    # Organizza i flussi per gruppo
     groups = {}
     for channel_name, stream_url, group in unique_streams.values():
         if group not in groups:
             groups[group] = []
         groups[group].append((channel_name, stream_url))
 
-    # Sovrascrivi il file M3U8
     with open(file_path, "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
         for group, channels in sorted(groups.items()):
@@ -231,13 +225,16 @@ def update_m3u_file(video_streams, existing_streams, m3u_file="skystreaming_play
     for event_url, stream_url, element in video_streams:
         if stream_url:
             channel_name = extract_channel_name(event_url, element)
-            group = "Eventi Sky Streaming"
-            if "sport" in channel_name.lower():
+            # Assegna il gruppo in base a parole chiave nel nome del canale
+            channel_name_lower = channel_name.lower()
+            if "serie" in channel_name_lower or "diretta goal" in channel_name_lower:
+                group = "Diretta Goal"
+            elif "sport" in channel_name_lower:
                 group = "Sky Sport Backup SD"
-            elif "serie" in channel_name.lower():
-                group = "Dirette Goal"
-            elif "film" in channel_name.lower():
+            elif "film" in channel_name_lower or "cinema" in channel_name_lower:
                 group = "Sky Cinema Backup SD"
+            else:
+                group = "Eventi Sky Streaming"  # Gruppo di default
             all_streams.append((channel_name, stream_url, group))
 
     # Organizza i flussi per gruppo
@@ -250,14 +247,23 @@ def update_m3u_file(video_streams, existing_streams, m3u_file="skystreaming_play
     # Scrivi il file M3U8
     with open(file_path, "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
-        for group, channels in sorted(groups.items()):
-            channels.sort(key=lambda x: x[0].lower())
-            f.write(f"#EXTGRP:{group} tvg-logo=\"{DEFAULT_IMAGE_URL}\"\n")
-            for channel_name, link in channels:
-                f.write(f"#EXTINF:-1 group-title=\"{group}\" tvg-logo=\"{DEFAULT_IMAGE_URL}\", {channel_name}\n")
-                f.write(f"#EXTVLCOPT:http-user-agent={headers['User-Agent']}\n")
-                f.write(f"#EXTVLCOPT:http-referrer={headers['Referer']}\n")
-                f.write(f"{link}\n")
+        # Ordina i gruppi in un ordine specifico
+        group_order = [
+            "Diretta Goal",
+            "Eventi Sky Streaming",
+            "Sky Sport Backup SD",
+            "Sky Cinema Backup SD"
+        ]
+        for group in group_order:
+            if group in groups:
+                channels = groups[group]
+                channels.sort(key=lambda x: x[0].lower())
+                f.write(f"#EXTGRP:{group} tvg-logo=\"{DEFAULT_IMAGE_URL}\"\n")
+                for channel_name, link in channels:
+                    f.write(f"#EXTINF:-1 group-title=\"{group}\" tvg-logo=\"{DEFAULT_IMAGE_URL}\", {channel_name}\n")
+                    f.write(f"#EXTVLCOPT:http-user-agent={headers['User-Agent']}\n")
+                    f.write(f"#EXTVLCOPT:http-referrer={headers['Referer']}\n")
+                    f.write(f"{link}\n")
 
     print(f"File M3U8 generato con successo: {file_path}")
 
@@ -266,16 +272,12 @@ def update_m3u_file(video_streams, existing_streams, m3u_file="skystreaming_play
 
 # Esegui lo script
 if __name__ == "__main__":
-    # Leggi i flussi esistenti
     existing_streams = read_existing_streams()
-
-    # Trova tutte le sottocategorie
     subcategories = find_subcategories()
     if not subcategories:
         print("Nessuna sottocategoria trovata.")
         exit()
 
-    # Trova gli eventi in tutte le sottocategorie
     all_event_pages = []
     for subcategory in subcategories:
         print(f"Analizzo sottocategoria: {subcategory}")
