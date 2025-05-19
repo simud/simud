@@ -1,12 +1,18 @@
 import requests
 import re
 import os
-from urllib.parse import urljoin
 
 # URL della playlist originale
 playlist_url = "https://raw.githubusercontent.com/simud/simud/refs/heads/main/skystreaming_playlist.m3u8"
 # Base URL per gli embed
-embed_base_url = "view-source:https://skystreaming.help/embed/"
+embed_base_url = "https://skystreaming.help/embed/"
+
+# Configurazioni per EXTVLCOPT
+user_agent = "Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1"
+referrer = "https://skystreaming.help"
+origin = "https://skystreaming.help"
+logo_url = "https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png"
+group_title = "Eventi"
 
 # Funzione per scaricare il contenuto di una URL
 def fetch_url(url):
@@ -27,6 +33,12 @@ def extract_m3u8_stream(embed_page):
     match = re.search(m3u8_pattern, embed_page)
     return match.group(0) if match else None
 
+# Funzione per estrarre il nome del canale dalla riga EXTINF
+def extract_channel_name(extinf_line):
+    # Estrae il nome del canale dopo la virgola in EXTINF
+    match = re.search(r',(.+)$', extinf_line)
+    return match.group(1).strip() if match else "Canale Sconosciuto"
+
 # Funzione principale
 def create_new_m3u8():
     # Scarica la playlist originale
@@ -35,8 +47,8 @@ def create_new_m3u8():
         print("Impossibile scaricare la playlist originale.")
         return
 
-    # Percorso per il file di output sul desktop
-    desktop_path = os.path.join(os.path.expanduser("~"), "Desktop", "new_playlist.m3u8")
+    # Percorso per il file di output
+    output_path = "skystream.m3u8"
     new_playlist_lines = ["#EXTM3U"]  # Inizia con l'intestazione M3U
 
     # Variabili per processare la playlist
@@ -50,7 +62,7 @@ def create_new_m3u8():
         elif line.startswith("http") and "skystreaming.help/embed/" in line:
             # Trovato un embed
             embed_match = re.search(embed_pattern, line)
-            if embed_match:
+            if embed_match and current_info:
                 embed_code = embed_match.group(1)
                 embed_url = f"https://skystreaming.help/embed/{embed_code}"
                 print(f"Processo embed: {embed_url}")
@@ -61,26 +73,32 @@ def create_new_m3u8():
                     # Estrai il flusso m3u8
                     m3u8_url = extract_m3u8_stream(embed_page)
                     if m3u8_url:
-                        # Aggiungi alla nuova playlist
-                        new_playlist_lines.append(current_info)
+                        # Estrai il nome del canale
+                        channel_name = extract_channel_name(current_info)
+                        # Crea la struttura richiesta
+                        new_playlist_lines.append(
+                            f'#EXTINF:-1 group-title="{group_title}" tvg-logo="{logo_url}",{channel_name}'
+                        )
+                        new_playlist_lines.append(f'#EXTVLCOPT:http-user-agent={user_agent}')
+                        new_playlist_lines.append(f'#EXTVLCOPT:http-referrer={referrer}')
+                        new_playlist_lines.append(f'#EXTVLCOPT:http-origin={origin}')
                         new_playlist_lines.append(m3u8_url)
-                        print(f"Flusso trovato: {m3u8_url}")
+                        print(f"Flusso trovato per {channel_name}: {m3u8_url}")
                     else:
                         print(f"Nessun flusso m3u8 trovato per {embed_url}")
                 else:
                     print(f"Impossibile accedere a {embed_url}")
             else:
-                print(f"Embed non valido: {line}")
+                print(f"Embed non valido o EXTINF mancante: {line}")
         else:
-            # Mantieni le righe non embed (es. commenti o altro)
-            if line and not line.startswith("#EXTINF:"):
-                new_playlist_lines.append(line)
+            # Ignora altre righe non rilevanti
+            continue
 
-    # Scrivi la nuova playlist sul desktop
+    # Scrivi la nuova playlist
     try:
-        with open(desktop_path, "w", encoding="utf-8") as f:
+        with open(output_path, "w", encoding="utf-8") as f:
             f.write("\n".join(new_playlist_lines) + "\n")
-        print(f"Nuova playlist creata: {desktop_path}")
+        print(f"Nuova playlist creata: {output_path}")
     except Exception as e:
         print(f"Errore nella scrittura del file: {e}")
 
