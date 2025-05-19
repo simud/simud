@@ -11,7 +11,7 @@ embed_base_url = "https://skystreaming.help/embed/"
 user_agent = "Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1"
 referrer = "https://skystreaming.help"
 origin = "https://skystreaming.help"
-logo_url = "https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png"
+logo_url = "https://www.davidemaggio.it/app/uploads/2021/08/business.jpg"
 
 # Funzione per scaricare il contenuto di una URL
 def fetch_url(url):
