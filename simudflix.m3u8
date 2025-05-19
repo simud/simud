@@ -21,7 +21,7 @@ https://dproxy-o.hf.space/stream/aHR0cHM6Ly9kZHk2bmV3Lm5ld2tzby5ydS9kZHk2L3ByZW1
 #EXTINF:-1 tvg-id="rai 3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Rai_3_logo.svg/2560px-Rai_3_logo.svg.png" group-title="Rai", Rai 3
 https://viamotionhsi.netplus.ch/live/eds/rai3/browser-dash/rai3.mpd
 
-#EXTINF:-1tvg-id="rai 4" tvg-logo="hhttps://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Rete_4_-_Logo_2018.svg/1200px-Rete_4_-_Logo_2018.svg.png" group-title="Rai", Rete 4
+#EXTINF:-1tvg-id="rai 4" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Rete_4_-_Logo_2018.svg/1200px-Rete_4_-_Logo_2018.svg.png" group-title="Rai", Rete 4
 https://viamotionhsi.netplus.ch/live/eds/rete4/browser-dash/rete4.mpd
 
 #EXTINF:-1 tvg-id="canale 5" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Canale_5_-_2018_logo.svg/1222px-Canale_5_-_2018_logo.svg.png" group-title="Rai", Canale 5
