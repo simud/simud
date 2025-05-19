@@ -265,7 +265,7 @@ https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://vav
 https://exemple.m3u8
 #EXTINF:-1 tvg-id="23" tvg-name="Italy - Serie B : Salernitana Vs Frosinone (20:30)" tvg-logo="https://d5rzfs5ck83rq.cloudfront.net/legab.it/img/club/loghi/salernitana.png" group-title="Eventi Sportivi",Italy - Serie B : Salernitana Vs Frosinone (20:30)
 https://tvproxy.nzo66.com//proxy/m3u?url=https://nfsnew.newkso.ru/nfs/premium23/mono.m3u8
-#EXTINF:-1 tvg-id="870" tvg-name="England - Premier League : Brighton & Hove Albion Vs Liverpool (21:00)" tvg-logo="https://www.betsignals365.com/img/blog/li.png" group-title="Eventi Sportivi",England - Premier League : Brighton & Hove Albion Vs Liverpool (21:00)
+#EXTINF:-1 tvg-id="870" tvg-name="England - Premier League : Brighton & Hove Albion Vs Liverpool (21:00)" tvg-logo="https://1000logos.net/wp-content/uploads/2018/06/Brighton-Hove-Albion-Logo.png" group-title="Eventi Sportivi",England - Premier League : Brighton & Hove Albion Vs Liverpool (21:00)
 https://tvproxy.nzo66.com//proxy/m3u?url=https://windnew.newkso.ru/wind/premium870/mono.m3u8
 #EXTINF:-1 tvg-name="Basketball" group-title="Eventi Sportivi" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-uno-it.png",Basketball
 https://exemple.m3u8
