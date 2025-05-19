@@ -7,12 +7,11 @@ playlist_url = "https://raw.githubusercontent.com/simud/simud/refs/heads/main/sk
 # Base URL per gli embed
 embed_base_url = "https://skystreaming.help/embed/"
 
-# Configurazioni per EXTVLCOPT
+# Configurazioni per EXTVLCOPT e logo
 user_agent = "Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1"
 referrer = "https://skystreaming.help"
 origin = "https://skystreaming.help"
 logo_url = "https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png"
-group_title = "Eventi"
 
 # Funzione per scaricare il contenuto di una URL
 def fetch_url(url):
@@ -33,11 +32,15 @@ def extract_m3u8_stream(embed_page):
     match = re.search(m3u8_pattern, embed_page)
     return match.group(0) if match else None
 
-# Funzione per estrarre il nome del canale dalla riga EXTINF
-def extract_channel_name(extinf_line):
-    # Estrae il nome del canale dopo la virgola in EXTINF
-    match = re.search(r',(.+)$', extinf_line)
-    return match.group(1).strip() if match else "Canale Sconosciuto"
+# Funzione per estrarre il nome del canale e il group-title dalla riga EXTINF
+def extract_channel_info(extinf_line):
+    # Estrae il group-title
+    group_match = re.search(r'group-title="([^"]+)"', extinf_line)
+    group_title = group_match.group(1) if group_match else "Senza Gruppo"
+    # Estrae il nome del canale dopo la virgola
+    name_match = re.search(r',(.+)$', extinf_line)
+    channel_name = name_match.group(1).strip() if name_match else "Canale Sconosciuto"
+    return group_title, channel_name
 
 # Funzione principale
 def create_new_m3u8():
@@ -73,8 +76,8 @@ def create_new_m3u8():
                     # Estrai il flusso m3u8
                     m3u8_url = extract_m3u8_stream(embed_page)
                     if m3u8_url:
-                        # Estrai il nome del canale
-                        channel_name = extract_channel_name(current_info)
+                        # Estrai group-title e nome del canale
+                        group_title, channel_name = extract_channel_info(current_info)
                         # Crea la struttura richiesta
                         new_playlist_lines.append(
                             f'#EXTINF:-1 group-title="{group_title}" tvg-logo="{logo_url}",{channel_name}'
@@ -83,7 +86,7 @@ def create_new_m3u8():
                         new_playlist_lines.append(f'#EXTVLCOPT:http-referrer={referrer}')
                         new_playlist_lines.append(f'#EXTVLCOPT:http-origin={origin}')
                         new_playlist_lines.append(m3u8_url)
-                        print(f"Flusso trovato per {channel_name}: {m3u8_url}")
+                        print(f"Flusso trovato per {channel_name} (Gruppo: {group_title}): {m3u8_url}")
                     else:
                         print(f"Nessun flusso m3u8 trovato per {embed_url}")
                 else:
