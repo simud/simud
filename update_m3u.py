@@ -5,8 +5,45 @@ from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 import time
 
-# Single URL variable to control base_url, Origin, and Referer
-SITE_URL = "https://skystreaming.help/"
+# Prefisso del sito definito direttamente nello script
+SITE_PREFIX = "Skystreaming"
+
+# Funzione per trovare il dominio di Skystreaming dal sito giardiniblog.it
+def find_skystreaming_domain():
+    target_url = "https://www.giardiniblog.it/migliori-siti-streaming-calcio/"
+    headers = {
+        "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1"
+    }
+    try:
+        response = requests.get(target_url, headers=headers, timeout=10)
+        response.raise_for_status()
+        soup = BeautifulSoup(response.text, 'html.parser')
+
+        # Cerca link che contengono "Skystreaming" nel testo o nell'URL
+        for a in soup.find_all('a', href=True):
+            href = a['href']
+            text = a.text.lower()
+            if 'skystreaming' in text or 'skystreaming' in href.lower():
+                # Estrai il dominio base (es. https://skystreaming.example)
+                domain_match = re.match(r'(https?://[^/]+)', href)
+                if domain_match:
+                    return domain_match.group(1) + "/"
+        print("Nessun dominio Skystreaming trovato su giardiniblog.it")
+        return None
+    except requests.RequestException as e:
+        print(f"Errore durante lo scraping di {target_url}: {e}")
+        return None
+
+# Trova il dominio di Skystreaming
+new_domain = find_skystreaming_domain()
+if new_domain:
+    SITE_URL = new_domain
+    print(f"Dominio Skystreaming trovato: {SITE_URL}")
+else:
+    SITE_URL = "https://skystreaming.help/"  # Fallback se non trovato
+    print(f"Dominio Skystreaming non trovato, utilizzato il dominio di fallback: {SITE_URL}")
+
+# Aggiorna gli headers con il nuovo SITE_URL
 headers = {
     "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1",
     "Origin": SITE_URL.rstrip('/'),
@@ -14,7 +51,7 @@ headers = {
 }
 
 # Immagine fissa da usare per tutti i canali e gruppi
-DEFAULT_IMAGE_URL = "https://i.postimg.cc/kXbk78v9/Picsart-25-04-01-23-37-12-396.png"
+DEFAULT_IMAGE_URL = "https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png"
 
 # Funzione per leggere i flussi esistenti dal file M3U8
 def read_existing_streams(m3u_file="skystreaming_playlist.m3u8"):
