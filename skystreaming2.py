@@ -4,13 +4,9 @@ import os
 
 # URL della playlist originale
 playlist_url = "https://raw.githubusercontent.com/simud/simud/refs/heads/main/skystreaming_playlist.m3u8"
-# Base URL per gli embed
-embed_base_url = "https://skystreaming.help/embed/"
 
 # Configurazioni per EXTVLCOPT e logo
 user_agent = "Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1"
-referrer = "https://skystreaming.help"
-origin = "https://skystreaming.help"
 logo_url = "https://www.davidemaggio.it/app/uploads/2021/08/business.jpg"
 
 # Funzione per scaricare il contenuto di una URL
@@ -27,20 +23,40 @@ def fetch_url(url):
 def extract_m3u8_stream(embed_page):
     if not embed_page:
         return None
-    # Cerca un URL m3u8 nel testo della pagina
     m3u8_pattern = r'https?://[^\s"]+\.m3u8'
     match = re.search(m3u8_pattern, embed_page)
     return match.group(0) if match else None
 
 # Funzione per estrarre il nome del canale e il group-title dalla riga EXTINF
 def extract_channel_info(extinf_line):
-    # Estrae il group-title
     group_match = re.search(r'group-title="([^"]+)"', extinf_line)
     group_title = group_match.group(1) if group_match else "Senza Gruppo"
-    # Estrae il nome del canale dopo la virgola
     name_match = re.search(r',(.+)$', extinf_line)
     channel_name = name_match.group(1).strip() if name_match else "Canale Sconosciuto"
     return group_title, channel_name
+
+# Funzione per estrarre dinamicamente embed_base_url, referrer e origin dalla playlist
+def extract_dynamic_urls(playlist_content):
+    # Cerca un URL di embed per dedurre il dominio
+    embed_pattern = r'(https?://[^\s/]+/embed/[^\s]+)'
+    embed_match = re.search(embed_pattern, playlist_content)
+    
+    if embed_match:
+        embed_url = embed_match.group(1)
+        # Estrai il dominio base (es. https://skystreaming.help)
+        base_domain = re.match(r'(https?://[^\s/]+)', embed_url).group(1)
+        embed_base_url = f"{base_domain}/embed/"
+        referrer = base_domain
+        origin = base_domain
+        return embed_base_url, referrer, origin
+    
+    # Valori di fallback se non trovati
+    print("Impossibile estrarre URLs dinamici, utilizzo valori di fallback.")
+    return (
+        "https://skystreaming.help/embed/",
+        "https://skystreaming.help",
+        "https://skystreaming.help"
+    )
 
 # Funzione principale
 def create_new_m3u8():
@@ -50,35 +66,34 @@ def create_new_m3u8():
         print("Impossibile scaricare la playlist originale.")
         return
 
+    # Estrai dinamicamente embed_base_url, referrer e origin
+    embed_base_url, referrer, origin = extract_dynamic_urls(playlist_content)
+    print(f"Utilizzo: embed_base_url={embed_base_url}, referrer={referrer}, origin={origin}")
+
     # Percorso per il file di output
     output_path = "skystream.m3u8"
-    new_playlist_lines = ["#EXTM3U"]  # Inizia con l'intestazione M3U
+    new_playlist_lines = ["#EXTM3U"]
 
     # Variabili per processare la playlist
     current_info = None
-    embed_pattern = r'https?://skystreaming\.help/embed/([^\s]+)'
+    embed_pattern = r'https?://[^\s/]+/embed/([^\s]+)'
 
     # Processa la playlist riga per riga
     for line in playlist_content.splitlines():
         if line.startswith("#EXTINF:"):
-            current_info = line  # Salva la riga EXTINF
-        elif line.startswith("http") and "skystreaming.help/embed/" in line:
-            # Trovato un embed
+            current_info = line
+        elif line.startswith("http") and "/embed/" in line:
             embed_match = re.search(embed_pattern, line)
             if embed_match and current_info:
                 embed_code = embed_match.group(1)
-                embed_url = f"https://skystreaming.help/embed/{embed_code}"
+                embed_url = f"{embed_base_url}{embed_code}"
                 print(f"Processo embed: {embed_url}")
                 
-                # Accedi alla pagina embed
                 embed_page = fetch_url(embed_url)
                 if embed_page:
-                    # Estrai il flusso m3u8
                     m3u8_url = extract_m3u8_stream(embed_page)
                     if m3u8_url:
-                        # Estrai group-title e nome del canale
                         group_title, channel_name = extract_channel_info(current_info)
-                        # Crea la struttura richiesta
                         new_playlist_lines.append(
                             f'#EXTINF:-1 group-title="{group_title}" tvg-logo="{logo_url}",{channel_name}'
                         )
@@ -92,9 +107,8 @@ def create_new_m3u8():
                 else:
                     print(f"Impossibile accedere a {embed_url}")
             else:
-                print(f"Embed non valido o EXTINF mancante: {line}")
+                print(f"Embed non valido mặcEXTINF mancante: {line}")
         else:
-            # Ignora altre righe non rilevanti
             continue
 
     # Scrivi la nuova playlist
