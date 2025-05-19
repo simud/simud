@@ -179,7 +179,7 @@ def remove_clone_channels(m3u_file="skystreaming_playlist.m3u8"):
 
     # Leggi il file M3U8
     streams = []
-    current_group = "Eventi"
+    current_group = "Eventi Sky Streaming"
     current_channel = None
     with open(file_path, "r", encoding="utf-8") as f:
         for line in f:
