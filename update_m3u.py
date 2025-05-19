@@ -231,13 +231,13 @@ def update_m3u_file(video_streams, existing_streams, m3u_file="skystreaming_play
     for event_url, stream_url, element in video_streams:
         if stream_url:
             channel_name = extract_channel_name(event_url, element)
-            group = "Eventi"
+            group = "Eventi Sky Streaming"
             if "sport" in channel_name.lower():
-                group = "Sport"
+                group = "Sky Sport Backup SD"
             elif "serie" in channel_name.lower():
                 group = "Dirette Goal"
             elif "film" in channel_name.lower():
-                group = "Cinema"
+                group = "Sky Cinema Backup SD"
             all_streams.append((channel_name, stream_url, group))
 
     # Organizza i flussi per gruppo
