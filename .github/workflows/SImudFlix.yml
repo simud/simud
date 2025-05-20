@@ -24,7 +24,7 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install requests beautifulsoup4
-          pip install cloudscraper
+          pip install selenium
 
       - name: Run Simud scraper
         env:
