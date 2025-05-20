@@ -29,11 +29,6 @@ https://xuione.sportstreaming.net/SportStreaming/SportStreaming/49.m3u8
 https://xuione.sportstreaming.net/SportStreaming/SportStreaming/55.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Eventi", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
-#EXTINF:-1 group-title="Eventi Sky Streaming" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Brighton Vs Liverpool
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://skystreaming.help
-#EXTVLCOPT:http-origin=https://skystreaming.help
-https://hls.kangal.icu/hls/calcio/index.m3u8
 #EXTINF:-1 group-title="Sky Sport Backup SD" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Eurosport 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.help
@@ -153,7 +148,7 @@ https://hls.kangal.icu/hls/skyuno/index.m3u8
 #EXTVLCOPT:http-referrer=https://www.twitch.tv/grenbaud
 #EXTVLCOPT:http-origin=https://www.twitch.tv/grenbaud
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://usw22-0.playlist.ttvnw.net/v1/playlist/Ct4EZIxAOeZdvOSPCOAQa0Q8SAZV4t3IQdtyIL1Msft-XigtLIMEbZdygQD8fjSWUqHPKQWoECkBIY3umqlKYgVySRmeAK47Tdmnq8HeAg2lFSMoavqvTHc8c6pd72zm4qK3uTwcPQsuUfj0JeXNOXku2XIRUDPckv1-07SRHztsbFLTBoy7i4nkofO8euvXa9k7DzWpnVAFE9_KUBAahzJ0WV9HDHUzfRVpYATQPB3qvN7xoziijHOTzKtct4fOZ3jI8PUya4tZVdciqO1j9B3hUQjNCehAWPHjVGdn-Wxksrz8qPc43FVUcvF0_gkI6z7aOrOVmDoslq1z6sQhxCo8OwguCr8I3sOLdEMV9SnXrWjw_JUiNGDtKtVvMx3ALFCKQ-6v_yjVayAtTRn7FpKZmtlMi9qTU2KIBvPN2xHjvIDEOP3yZ3SAbcup4LrjmMAjK4qWutNE_RrEJn3-bhM_uQVeViYAB19dQ1RSVYdT111Ekt21l_KiGM4p7inMiyOicWlFdY-SnWxqjVwH_HXpSgixo00S7tA9CTGQtn8rL6LJBQiix5_vPenCDx2c2SB_tUQoek5PmEexkfk8HuCSObK5PTX8Dthm4-aXYY2sVOUuYAZ4tRD95RGwuPGGwgb_wpGFEfU0tCOH0tuC1wdb-R0IDZR_qt9Q29xPp5PHCVjCXu4bc2X1X7qePc44z6trVXsuLwjasmVgiUMoR_EjnH6IDv0eWrhUkzbZDK6rkHDQeVdCACsVmnlH814i6zwkZBiIWAgWYugNODX7SR6uPP4SeHrOFy7KGVqh7XajGgwA98n1L9Ue23_S0kEgASoJdXMtZWFzdC0yMKcM.m3u8
+https://usw22-0.playlist.ttvnw.net/v1/playlist/Ct4EKYeOUZnRCpvmYuuCIUtMGPlXl3r4oDMXHn9hT0tW53gQDKd6oU12XjWHb5awgvD97atXlxX76pl9JCvdJPPUntLntTsh7NoZChMOGEoQeP3A7pldZ6R55bZ3BPw_YpREBIuQxAqVpmfv7AFNmuOG4YMPrTCb2aNCfAqKwj6d-yYwMV-QoaHWzxObsUGumbb5XZ9Z0zHsywENysPc9Q9sfQS9rIwVqM4h71_XLenq29OqTQBG0t5V5yePjeXMAVjmZ3Mo8dG6L2ocC-NnCOQppwJC-wJUVqHq7KMsaVtu6kdTge1B7rj12AIVH0a9Y7UJ-uDgoOP8-rcs8AnJL301ckis_I_rk7OCWbm0r1KDUr696zrFEYAfJqHmxN06PbNVedY3icBuE3nZc2vdaQylLBk21NoSmzMQDqBNacO9ZFJtAzZxBjADRKx8bvFPqLCQpvqnAUbHgIV7axZ6AX_FQ807WnwtET6evpMQWBCKC9KqP_8YLzd1OmSf-nMHj1W99FcevoDWXD551kbw4qRRTDtRvvcbACNJdZ1FMpZDpk7z94oBeI8tCMBfAk13kCh23lD09DHEEnvs9HjK3OHw0ObEH1RkaWVAesYkVAmgM_8sasIVCIksXo6RW940ouUl_yVcvGR_hxL-AOrrLfVWN39xXlCe9DcvOISRSJuS_FXwlrvZWPPrsJKNuesC1FsZ0lp95in2el_cvs0PwiR0jIHGmYkIqxrWz7tFAkpjrR838H49uCZM4Sxl7kcONNiIXsiifXNLILmZVWsNDBVyh8O_5dOXb-LODKa2yM0lGgyX5mJLav8hhUMaLIYgASoJdXMtZWFzdC0yMKcM.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Kings League", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 #EXTM3U  url-tvg="http://www.epgitalia.tv/gzip,http://epg-guide.com/it.gz,https://raw.github.com/matthuisman/i.mjh.nz/master/PlutoTV/us.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/PlutoTV/it.xml.gz,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-events-epg.xml,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-channels-epg.xml,https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/it.xml.gz"
