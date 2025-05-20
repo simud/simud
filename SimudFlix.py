@@ -1,4 +1,4 @@
-import requests
+import cloudscraper
 from bs4 import BeautifulSoup
 import re
 import os
@@ -6,7 +6,7 @@ from urllib.parse import urljoin, urlparse, quote
 from collections import defaultdict
 
 # Configura il file M3U8
-output_path = os.path.join(os.getcwd(), "films.m3u8")
+output_path = os.path.join(os.path.dirname(__file__), "films.m3u8")
 user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
 url = "https://altadefinizione.taipei/"
 providers = ['supervideo', 'dropload', 'mixdrop', 'doodstream']
@@ -40,14 +40,18 @@ headers = {
     'Origin': url
 }
 
+scraper = cloudscraper.create_scraper(browser={'custom': 'ScraperBot/1.0'})
+
+# Funzione per estrarre il dominio dall'URL
 def get_domain(url):
     parsed = urlparse(url)
     return f"{parsed.scheme}://{parsed.netloc}/"
 
+# Funzione per cercare un titolo sul sito
 def search_title(title):
     search_url = f"{url}?s={quote(title)}"
     try:
-        response = requests.get(search_url, headers=headers, timeout=10)
+        response = scraper.get(search_url, headers=headers, timeout=10)
         response.raise_for_status()
         soup = BeautifulSoup(response.text, 'html.parser')
         film_elements = soup.find_all('a', href=re.compile(r'/[a-zA-Z0-9-]+/[0-9]+-[a-zA-Z0-9-]+\.html'))
@@ -63,6 +67,7 @@ def search_title(title):
         print(f" - Errore nella ricerca di {title}: {e}")
         return None
 
+# Inizializza il file M3U8
 with open(output_path, 'w', encoding='utf-8') as m3u8_file:
     m3u8_file.write('#EXTM3U\n')
 
@@ -85,10 +90,10 @@ try:
             continue
 
         try:
-            film_response = requests.get(base_href, headers=headers, timeout=10)
+            film_response = scraper.get(base_href, headers=headers, timeout=10)
             film_response.raise_for_status()
-        except requests.exceptions.RequestException as e:
-            print(f" - Errore con l'URL diretto per {title} ({base_href}): {e}")
+        except Exception as e:
+            print(f" - Errore con l'URL diretto per {title}: {e}")
             base_href = search_title(title)
             if not base_href:
                 print(f" - Nessun risultato trovato per {title} tramite ricerca")
@@ -98,7 +103,7 @@ try:
         processed_urls.add(base_href)
 
         try:
-            film_response = requests.get(base_href, headers=headers, timeout=10)
+            film_response = scraper.get(base_href, headers=headers, timeout=10)
             film_response.raise_for_status()
             film_soup = BeautifulSoup(film_response.text, 'html.parser')
 
@@ -115,10 +120,10 @@ try:
                             break
 
             if not mostraguarda_link:
-                print(f" - Nessun link mostraguarda.stream trovato per {title} ({base_href})")
+                print(f" - Nessun link mostraguarda.stream trovato per {title}")
                 continue
 
-            mostraguarda_response = requests.get(mostraguarda_link, headers=headers, timeout=10)
+            mostraguarda_response = scraper.get(mostraguarda_link, headers=headers, timeout=10)
             mostraguarda_response.raise_for_status()
             mostraguarda_soup = BeautifulSoup(mostraguarda_response.text, 'html.parser')
 
@@ -134,7 +139,7 @@ try:
                         embed_links.append({'href': data_link, 'text': provider_name})
 
             if not embed_links:
-                print(f" - Nessun embed valido trovato per {title} ({base_href}) in mostraguarda.stream, titolo saltato")
+                print(f" - Nessun embed valido trovato per {title}")
                 continue
 
             embeds_by_provider = defaultdict(list)
@@ -167,7 +172,7 @@ try:
                     m3u8_file.write(f'{embed_url}\n')
 
         except Exception as e:
-            print(f" - Errore nell'elaborazione di {title} ({base_href}): {e}")
+            print(f" - Errore nell'elaborazione di {title}: {e}")
 
 except Exception as e:
     print(f"Errore generale: {e}")
