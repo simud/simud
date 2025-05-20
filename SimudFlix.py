@@ -5,13 +5,13 @@ import os
 from urllib.parse import urljoin, urlparse, quote
 from collections import defaultdict
 
-# Configura il file M3U8
-desktop_path = os.path.join(os.path.expanduser("~"), "Desktop", "films.m3u8")
+# Salva il file nella directory del progetto
+output_path = os.path.join(os.path.dirname(__file__), "films.m3u8")
+
 user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
 url = "https://altadefinizione.taipei/"
 providers = ['supervideo', 'dropload', 'mixdrop', 'doodstream']
 
-# Mappa per formattare i nomi dei provider
 provider_names = {
     'supervideo': 'SuperVideo',
     'dropload': 'Dropload',
@@ -19,7 +19,6 @@ provider_names = {
     'doodstream': 'DoodStream'
 }
 
-# Lista dei 10 titoli Marvel con URL
 marvel_titles = [
     {"title": "Iron Man", "url": "https://altadefinizione.taipei/azione/1752-iron-man-1-streaming.html"},
     {"title": "The Avengers", "url": "https://altadefinizione.taipei/azione/1234-the-avengers-streaming.html"},
@@ -33,19 +32,16 @@ marvel_titles = [
     {"title": "Thunderbolts", "url": "https://altadefinizione.taipei/avventura/24436-thunderbolts-streaming-gratis.html"}
 ]
 
-# Intestazioni per le richieste HTTP
 headers = {
     'User-Agent': user_agent,
     'Referer': url,
     'Origin': url
 }
 
-# Funzione per estrarre il dominio dall'URL
 def get_domain(url):
     parsed = urlparse(url)
     return f"{parsed.scheme}://{parsed.netloc}/"
 
-# Funzione per cercare un titolo sul sito
 def search_title(title):
     search_url = f"{url}?s={quote(title)}"
     try:
@@ -66,7 +62,7 @@ def search_title(title):
         return None
 
 # Inizializza il file M3U8
-with open(desktop_path, 'w', encoding='utf-8') as m3u8_file:
+with open(output_path, 'w', encoding='utf-8') as m3u8_file:
     m3u8_file.write('#EXTM3U\n')
 
 valid_titles_count = 0
@@ -87,13 +83,11 @@ try:
             print(f" - URL già elaborato per {title}")
             continue
 
-        # Prova l'URL diretto
         try:
             film_response = requests.get(base_href, headers=headers, timeout=10)
             film_response.raise_for_status()
         except requests.exceptions.RequestException as e:
             print(f" - Errore con l'URL diretto per {title} ({base_href}): {e}")
-            # Prova il metodo alternativo: ricerca
             base_href = search_title(title)
             if not base_href:
                 print(f" - Nessun risultato trovato per {title} tramite ricerca")
@@ -102,19 +96,16 @@ try:
 
         processed_urls.add(base_href)
 
-        # Cerca il link di mostraguarda.stream
         try:
             film_response = requests.get(base_href, headers=headers, timeout=10)
             film_response.raise_for_status()
             film_soup = BeautifulSoup(film_response.text, 'html.parser')
 
-            # Cerca l'iframe con mostraguarda.stream
             mostraguarda_link = None
             iframe = film_soup.find('iframe', src=re.compile(r'https?://mostraguarda\.stream', re.IGNORECASE))
             if iframe:
                 mostraguarda_link = iframe.get('src')
             else:
-                # Cerca nei tag <script> come fallback
                 for script in film_soup.find_all('script'):
                     if script.string:
                         match = re.search(r'(https?://mostraguarda\.stream/[^\s"\']+)', script.string, re.IGNORECASE)
@@ -126,12 +117,10 @@ try:
                 print(f" - Nessun link mostraguarda.stream trovato per {title} ({base_href})")
                 continue
 
-            # Accedi al codice sorgente di mostraguarda.stream
             mostraguarda_response = requests.get(mostraguarda_link, headers=headers, timeout=10)
             mostraguarda_response.raise_for_status()
             mostraguarda_soup = BeautifulSoup(mostraguarda_response.text, 'html.parser')
 
-            # Cerca gli embed in <ul class="_player-mirrors">
             embed_links = []
             player_mirrors = mostraguarda_soup.find('ul', class_='_player-mirrors')
             if player_mirrors:
@@ -143,33 +132,27 @@ try:
                             data_link = f"https:{data_link}"
                         embed_links.append({'href': data_link, 'text': provider_name})
 
-            # Se non ci sono embed validi, salta il titolo
             if not embed_links:
                 print(f" - Nessun embed valido trovato per {title} ({base_href}) in mostraguarda.stream, titolo saltato")
                 continue
 
-            # Raggruppa gli embed per provider
             embeds_by_provider = defaultdict(list)
             for link in embed_links:
                 embeds_by_provider[link['text']].append(link['href'])
 
-            # Rimuovi duplicati
             embed_links = []
             for provider, urls in embeds_by_provider.items():
                 for j, url in enumerate(urls, 1):
                     embed_links.append({'href': url, 'text': provider})
 
-            # Stampa e salva i link di embed
             valid_titles_count += 1
             print(f"{valid_titles_count}. Titolo: {title}, URL: {base_href}")
-            with open(desktop_path, 'a', encoding='utf-8') as m3u8_file:
+            with open(output_path, 'a', encoding='utf-8') as m3u8_file:
                 for link in embed_links:
                     embed_url = link['href']
                     provider = link['text']
                     group_title = provider_names.get(provider, provider.capitalize())
-                    # Estrai il dominio dell'embed per origin e referrer
                     embed_domain = get_domain(embed_url)
-                    # Usa la numerazione solo se il provider ha più embed
                     if len(embeds_by_provider[provider]) > 1:
                         episode_label = f"{1}.{embeds_by_provider[provider].index(embed_url) + 1:02d}"
                         m3u8_title = f"{title} {episode_label}"
@@ -189,4 +172,4 @@ except Exception as e:
     print(f"Errore generale: {e}")
 
 finally:
-    print(f"\nFile M3U8 salvato in: {desktop_path}")
+    print(f"\nFile M3U8 salvato in: {output_path}")
