@@ -5,13 +5,13 @@ import os
 from urllib.parse import urljoin, urlparse, quote
 from collections import defaultdict
 
-# Salva il file nella directory del progetto
-output_path = os.path.join(os.path.dirname(__file__), "films.m3u8")
-
+# Configura il file M3U8
+output_path = os.path.join(os.getcwd(), "films.m3u8")
 user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
 url = "https://altadefinizione.taipei/"
 providers = ['supervideo', 'dropload', 'mixdrop', 'doodstream']
 
+# Mappa per formattare i nomi dei provider
 provider_names = {
     'supervideo': 'SuperVideo',
     'dropload': 'Dropload',
@@ -19,6 +19,7 @@ provider_names = {
     'doodstream': 'DoodStream'
 }
 
+# Lista dei 10 titoli Marvel con URL
 marvel_titles = [
     {"title": "Iron Man", "url": "https://altadefinizione.taipei/azione/1752-iron-man-1-streaming.html"},
     {"title": "The Avengers", "url": "https://altadefinizione.taipei/azione/1234-the-avengers-streaming.html"},
@@ -32,6 +33,7 @@ marvel_titles = [
     {"title": "Thunderbolts", "url": "https://altadefinizione.taipei/avventura/24436-thunderbolts-streaming-gratis.html"}
 ]
 
+# Intestazioni per le richieste HTTP
 headers = {
     'User-Agent': user_agent,
     'Referer': url,
@@ -61,7 +63,6 @@ def search_title(title):
         print(f" - Errore nella ricerca di {title}: {e}")
         return None
 
-# Inizializza il file M3U8
 with open(output_path, 'w', encoding='utf-8') as m3u8_file:
     m3u8_file.write('#EXTM3U\n')
 
