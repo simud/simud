@@ -263,15 +263,15 @@ https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/1284441949/index.m
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/3470758028/index.m3u8
 #EXTINF:-1 tvg-name="Soccer" group-title="Eventi Sportivi" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-uno-it.png",Soccer
 https://exemple.m3u8
-#EXTINF:-1 tvg-id="870" tvg-name="England - Premier League : Crystal Palace Vs Wolverhampton Wanderers (21:00)" tvg-logo="https://th.bing.com/th/id/OIP.N_9a0nIx6g2-vaSHAafn-QAAAA?w=305&h=180&c=7&r=0&o=5&cb=iwc2&pid=1.7" group-title="Eventi Sportivi",England - Premier League : Crystal Palace Vs Wolverhampton Wanderers (21:00)
+#EXTINF:-1 tvg-id="870" tvg-name="England - Premier League : Crystal Palace Vs Wolverhampton Wanderers (21:00)" tvg-logo="https://th.bing.com/th/id/OIP.BSAMJ1x27pyw9Y79p-_f0gHaEK?w=301&h=180&c=7&r=0&o=5&cb=iwc2&pid=1.7" group-title="Eventi Sportivi",England - Premier League : Crystal Palace Vs Wolverhampton Wanderers (21:00)
 https://tvproxy.nzo66.com/proxy/m3u?url=https://windnew.newkso.ru/wind/premium870/mono.m3u8
-#EXTINF:-1 tvg-id="461" tvg-name="England - Premier League : Manchester City Vs Afc Bournemouth (21:00)" tvg-logo="https://th.bing.com/th/id/OIP.TD7yo2YA_583tdJo961TAwHaEK?w=316&h=180&c=7&r=0&o=5&cb=iwc2&pid=1.7" group-title="Eventi Sportivi",England - Premier League : Manchester City Vs Afc Bournemouth (21:00)
+#EXTINF:-1 tvg-id="461" tvg-name="England - Premier League : Manchester City Vs Afc Bournemouth (21:00)" tvg-logo="https://th.bing.com/th/id/OIP.TD7yo2YA_583tdJo961TAwHaEK?w=321&h=180&c=7&r=0&o=7&cb=iwp2&pid=1.7&rm=3" group-title="Eventi Sportivi",England - Premier League : Manchester City Vs Afc Bournemouth (21:00)
 https://tvproxy.nzo66.com/proxy/m3u?url=https://ddy6new.newkso.ru/ddy6/premium461/mono.m3u8
 #EXTINF:-1 tvg-name="Basketball" group-title="Eventi Sportivi" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-uno-it.png",Basketball
 https://exemple.m3u8
-#EXTINF:-1 tvg-id="882" tvg-name="Lega A : Virtus Bologna Vs. Reyer Venezia (20:30)" tvg-logo="https://th.bing.com/th/id/OIP.NZvDECVmbrxMYgnIV4ZixAHaEK?w=303&h=180&c=7&r=0&o=5&cb=iwc2&pid=1.7" group-title="Eventi Sportivi",Lega A : Virtus Bologna Vs. Reyer Venezia (20:30)
+#EXTINF:-1 tvg-id="882" tvg-name="Lega A : Virtus Bologna Vs. Reyer Venezia (20:30)" tvg-logo="https://th.bing.com/th/id/OIP.NZvDECVmbrxMYgnIV4ZixAHaEK?w=316&h=180&c=7&r=0&o=5&pid=1.7" group-title="Eventi Sportivi",Lega A : Virtus Bologna Vs. Reyer Venezia (20:30)
 https://tvproxy.nzo66.com/proxy/m3u?url=https://ddy6new.newkso.ru/ddy6/premium882/mono.m3u8
-#EXTINF:-1 tvg-id="879" tvg-name="Lega A : Virtus Bologna Vs. Reyer Venezia (20:30)" tvg-logo="https://th.bing.com/th/id/OIP.NZvDECVmbrxMYgnIV4ZixAHaEK?w=316&h=180&c=7&r=0&o=5&pid=1.7" group-title="Eventi Sportivi",Lega A : Virtus Bologna Vs. Reyer Venezia (20:30)
+#EXTINF:-1 tvg-id="879" tvg-name="Lega A : Virtus Bologna Vs. Reyer Venezia (20:30)" tvg-logo="https://th.bing.com/th/id/OIP.NZvDECVmbrxMYgnIV4ZixAHaEK?w=316&h=180&c=7&r=0&o=5&cb=iwc2&pid=1.7" group-title="Eventi Sportivi",Lega A : Virtus Bologna Vs. Reyer Venezia (20:30)
 https://tvproxy.nzo66.com/proxy/m3u?url=https://windnew.newkso.ru/wind/premium879/mono.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Eventi Sportivi",ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
