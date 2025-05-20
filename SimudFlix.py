@@ -4,16 +4,11 @@ import re
 import os
 from urllib.parse import urljoin, urlparse, quote
 from collections import defaultdict
-import time
-import logging
-
-# Configura il logging
-logging.basicConfig(filename='m3u8.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Configura il file M3U8
-output_path = os.path.join("films.m3u8")  # Percorso relativo per GitHub
+desktop_path = os.path.join(os.path.expanduser("~"), "Desktop", "films.m3u8")
 user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-base_url = "https://altadefinizione.taipei/"
+url = "https://altadefinizione.taipei/"
 providers = ['supervideo', 'dropload', 'mixdrop', 'doodstream']
 
 # Mappa per formattare i nomi dei provider
@@ -24,58 +19,25 @@ provider_names = {
     'doodstream': 'DoodStream'
 }
 
-# Lista completa dei film MCU
-mcu_films = [
-    "Iron Man",
-    "The Incredible Hulk",
-    "Iron Man 2",
-    "Thor",
-    "Captain America: The First Avenger",
-    "The Avengers",
-    "Iron Man 3",
-    "Thor: The Dark World",
-    "Captain America: The Winter Soldier",
-    "Guardians of the Galaxy",
-    "Avengers: Age of Ultron",
-    "Ant-Man",
-    "Captain America: Civil War",
-    "Doctor Strange",
-    "Guardians of the Galaxy Vol. 2",
-    "Spider-Man: Homecoming",
-    "Thor: Ragnarok",
-    "Black Panther",
-    "Avengers: Infinity War",
-    "Ant-Man and the Wasp",
-    "Captain Marvel",
-    "Avengers: Endgame",
-    "Spider-Man: Far From Home",
-    "Black Widow",
-    "Shang-Chi and the Legend of the Ten Rings",
-    "Eternals",
-    "Spider-Man: No Way Home",
-    "Doctor Strange in the Multiverse of Madness",
-    "Thor: Love and Thunder",
-    "Black Panther: Wakanda Forever",
-    "Ant-Man and the Wasp: Quantumania",
-    "Guardians of the Galaxy Vol. 3",
-    "The Marvels",
-    "Deadpool & Wolverine",
-    "Captain America: Brave New World",
-    "Thunderbolts",
-    "The Fantastic Four: First Steps"
+# Lista dei 10 titoli Marvel con URL
+marvel_titles = [
+    {"title": "Iron Man", "url": "https://altadefinizione.taipei/azione/1752-iron-man-1-streaming.html"},
+    {"title": "The Avengers", "url": "https://altadefinizione.taipei/azione/1234-the-avengers-streaming.html"},
+    {"title": "Captain America: Civil War", "url": "https://altadefinizione.taipei/azione/5678-captain-america-civil-war-streaming.html"},
+    {"title": "Black Panther", "url": "https://altadefinizione.taipei/azione/9101-black-panther-streaming.html"},
+    {"title": "Thor: Ragnarok", "url": "https://altadefinizione.taipei/avventura/1213-thor-ragnarok-streaming.html"},
+    {"title": "Spider-Man: Homecoming", "url": "https://altadefinizione.taipei/azione/1415-spider-man-homecoming-streaming.html"},
+    {"title": "Doctor Strange", "url": "https://altadefinizione.taipei/fantascienza/1617-doctor-strange-streaming.html"},
+    {"title": "Guardians of the Galaxy", "url": "https://altadefinizione.taipei/fantascienza/1819-guardians-of-the-galaxy-streaming.html"},
+    {"title": "Avengers: Endgame", "url": "https://altadefinizione.taipei/azione/2021-avengers-endgame-streaming.html"},
+    {"title": "Thunderbolts", "url": "https://altadefinizione.taipei/avventura/24436-thunderbolts-streaming-gratis.html"}
 ]
-
-# URL noti come fallback
-known_urls = {
-    "Iron Man": "https://altadefinizione.taipei/azione/1752-iron-man-1-streaming.html",
-    "Thunderbolts": "https://altadefinizione.taipei/avventura/24436-thunderbolts-streaming-gratis.html"
-}
 
 # Intestazioni per le richieste HTTP
 headers = {
     'User-Agent': user_agent,
-    'Referer': base_url,
-    'Origin': base_url
+    'Referer': url,
+    'Origin': url
 }
 
 # Funzione per estrarre il dominio dall'URL
@@ -83,109 +45,61 @@ def get_domain(url):
     parsed = urlparse(url)
     return f"{parsed.scheme}://{parsed.netloc}/"
 
-# Funzione per generare uno slug dal titolo
-def generate_slug(title):
-    slug = title.lower().replace(':', '').replace(' & ', '-and-').replace(' ', '-')
-    slug = re.sub(r'[^a-z0-9-]', '', slug)
-    return slug
-
-# Funzione per generare un URL ipotetico
-def generate_hypothetical_url(title, category='azione', id_guess=1752):
-    slug = generate_slug(title)
-    return f"{base_url}{category}/{id_guess}-{slug}-streaming.html"
-
-# Funzione per verificare la validità di un URL
-def is_valid_url(url, max_retries=3):
-    for attempt in range(max_retries):
-        try:
-            response = requests.get(url, headers=headers, timeout=10)
-            if response.status_code == 200:
-                return True
-            return False
-        except requests.exceptions.RequestException as e:
-            logging.error(f"Errore nella verifica di {url}, tentativo {attempt + 1}: {e}")
-            if attempt < max_retries - 1:
-                time.sleep(2 ** attempt)  # Backoff esponenziale
-    return False
-
-# Funzione per cercare un titolo tramite Search1API
-def search_with_search1api(title, max_retries=3):
-    api_url = "https://api.search1api.com/search"
-    data = {
-        "query": f"site:altadefinizione.taipei {title}",
-        "search_service": "google",
-        "max_results": 5,
-        "language": "it"
-    }
-    headers_api = {
-        "Content-Type": "application/json"
-    }
-    for attempt in range(max_retries):
-        try:
-            response = requests.post(api_url, headers=headers_api, json=data, timeout=10)
-            response.raise_for_status()
-            results = response.json()
-            for result in results.get('results', []):
-                url = result.get('url', '')
-                if 'altadefinizione.taipei' in url and re.match(r'.*/[a-zA-Z0-9-]+/[0-9]+-[a-zA-Z0-9-]+\.html', url):
-                    logging.info(f"Trovato URL per {title} tramite Search1API: {url}")
-                    return url
-            logging.warning(f"Nessun risultato valido trovato per {title} tramite Search1API")
-            return None
-        except requests.exceptions.RequestException as e:
-            logging.error(f"Errore nella ricerca con Search1API per {title}, tentativo {attempt + 1}: {e}")
-            if attempt < max_retries - 1:
-                time.sleep(2 ** attempt)
-            return None
-
-# Funzione per trovare l'URL di un titolo
-def find_film_url(title):
-    # 1. Controlla gli URL noti
-    if title in known_urls:
-        url = known_urls[title]
-        if is_valid_url(url):
-            return url
-        logging.warning(f"URL noto non valido per {title}: {url}")
-
-    # 2. Prova con Search1API
-    api_url = search_with_search1api(title)
-    if api_url and is_valid_url(api_url):
-        return api_url
-
-    # 3. Genera e verifica URL ipotetici
-    categories = ['azione', 'avventura', 'fantascienza']
-    for category in categories:
-        for id_guess in range(1752, 1755):  # Prova alcuni ID vicini a quelli noti
-            url = generate_hypothetical_url(title, category, id_guess)
-            if is_valid_url(url):
-                logging.info(f"Trovato URL ipotetico valido per {title}: {url}")
-                return url
-    logging.warning(f"Nessun URL trovato per {title}")
-    return None
+# Funzione per cercare un titolo sul sito
+def search_title(title):
+    search_url = f"{url}?s={quote(title)}"
+    try:
+        response = requests.get(search_url, headers=headers, timeout=10)
+        response.raise_for_status()
+        soup = BeautifulSoup(response.text, 'html.parser')
+        film_elements = soup.find_all('a', href=re.compile(r'/[a-zA-Z0-9-]+/[0-9]+-[a-zA-Z0-9-]+\.html'))
+        for element in film_elements:
+            title_element = element.find(['h2', 'h3', 'span', 'div'], class_=re.compile(r'title|movie-title|film-title', re.IGNORECASE))
+            if title_element and title.lower() in title_element.get_text(strip=True).lower():
+                film_url = element.get('href')
+                if film_url.startswith('/'):
+                    film_url = urljoin(url, film_url)
+                return film_url
+        return None
+    except Exception as e:
+        print(f" - Errore nella ricerca di {title}: {e}")
+        return None
 
 # Inizializza il file M3U8
-with open(output_path, 'w', encoding='utf-8') as m3u8_file:
+with open(desktop_path, 'w', encoding='utf-8') as m3u8_file:
     m3u8_file.write('#EXTM3U\n')
 
 valid_titles_count = 0
+max_titles = 10
 processed_urls = set()
 
 try:
-    print("Elaborazione dei film MCU:")
-    for i, title in enumerate(mcu_films, 1):
-        print(f"\n{i}. Ricerca per: {title}")
-        logging.info(f"Inizio ricerca per: {title}")
+    print("Elaborazione dei seguenti 10 titoli Marvel:")
+    for i, item in enumerate(marvel_titles, 1):
+        if valid_titles_count >= max_titles:
+            break
 
-        # Trova l'URL del film
-        base_href = find_film_url(title)
-        if not base_href:
-            print(f" - Nessun URL trovato per {title}")
-            continue
+        title = item['title']
+        base_href = item['url']
+        print(f"\n{i}. Titolo: {title} ({base_href})")
 
         if base_href in processed_urls:
-            print(f" - URL già elaborato per {title}: {base_href}")
-            logging.info(f"URL già elaborato per {title}: {base_href}")
+            print(f" - URL già elaborato per {title}")
             continue
+
+        # Prova l'URL diretto
+        try:
+            film_response = requests.get(base_href, headers=headers, timeout=10)
+            film_response.raise_for_status()
+        except requests.exceptions.RequestException as e:
+            print(f" - Errore con l'URL diretto per {title} ({base_href}): {e}")
+            # Prova il metodo alternativo: ricerca
+            base_href = search_title(title)
+            if not base_href:
+                print(f" - Nessun risultato trovato per {title} tramite ricerca")
+                continue
+            print(f" - Trovato URL alternativo per {title}: {base_href}")
+
         processed_urls.add(base_href)
 
         # Cerca il link di mostraguarda.stream
@@ -210,7 +124,6 @@ try:
 
             if not mostraguarda_link:
                 print(f" - Nessun link mostraguarda.stream trovato per {title} ({base_href})")
-                logging.warning(f"Nessun link mostraguarda.stream trovato per {title} ({base_href})")
                 continue
 
             # Accedi al codice sorgente di mostraguarda.stream
@@ -232,8 +145,7 @@ try:
 
             # Se non ci sono embed validi, salta il titolo
             if not embed_links:
-                print(f" - Nessun embed valido trovato per {title} ({base_href}) in mostraguarda.stream")
-                logging.warning(f"Nessun embed valido trovato per {title} ({base_href})")
+                print(f" - Nessun embed valido trovato per {title} ({base_href}) in mostraguarda.stream, titolo saltato")
                 continue
 
             # Raggruppa gli embed per provider
@@ -250,20 +162,20 @@ try:
             # Stampa e salva i link di embed
             valid_titles_count += 1
             print(f"{valid_titles_count}. Titolo: {title}, URL: {base_href}")
-            logging.info(f"Titolo: {title}, URL: {base_href}")
-            with open(output_path, 'a', encoding='utf-8') as m3u8_file:
+            with open(desktop_path, 'a', encoding='utf-8') as m3u8_file:
                 for link in embed_links:
                     embed_url = link['href']
                     provider = link['text']
                     group_title = provider_names.get(provider, provider.capitalize())
+                    # Estrai il dominio dell'embed per origin e referrer
                     embed_domain = get_domain(embed_url)
+                    # Usa la numerazione solo se il provider ha più embed
                     if len(embeds_by_provider[provider]) > 1:
                         episode_label = f"{1}.{embeds_by_provider[provider].index(embed_url) + 1:02d}"
                         m3u8_title = f"{title} {episode_label}"
                     else:
                         m3u8_title = title
                     print(f" - Embed ({provider}): {embed_url} [group-title={group_title}, origin={embed_domain}, referrer={embed_domain}]")
-                    logging.info(f"Embed ({provider}): {embed_url} [group-title={group_title}, origin={embed_domain}, referrer={embed_domain}]")
                     m3u8_file.write(f'#EXTINF:-1 tvg-name="{m3u8_title}" group-title="{group_title}",{m3u8_title}\n')
                     m3u8_file.write(f'#EXTVLCOPT:http-origin={embed_domain}\n')
                     m3u8_file.write(f'#EXTVLCOPT:http-referrer={embed_domain}\n')
@@ -272,12 +184,9 @@ try:
 
         except Exception as e:
             print(f" - Errore nell'elaborazione di {title} ({base_href}): {e}")
-            logging.error(f"Errore nell'elaborazione di {title} ({base_href}): {e}")
 
 except Exception as e:
     print(f"Errore generale: {e}")
-    logging.error(f"Errore generale: {e}")
 
 finally:
-    print(f"\nFile M3U8 salvato in: {output_path}")
-    logging.info(f"File M3U8 salvato in: {output_path}")
+    print(f"\nFile M3U8 salvato in: {desktop_path}")
