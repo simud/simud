@@ -25,11 +25,11 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests beautifulsoup4
 
-      - name: Run SkyStreaming scraper
+      - name: Run Hattrick Scraper
         env:
           GITHUB_WORKSPACE: ${{ github.workspace }}
         run: |
-          python update_m3u.py
+          python hattrickfunzionante.py
 
       - name: Commit and push updated M3U8 file
         run: |
