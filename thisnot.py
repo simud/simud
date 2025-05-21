@@ -82,7 +82,6 @@ def decrypt_token(encoded_keys):
         decoded = base64.b64decode(encoded_keys).decode('utf-8')
         if ':' in decoded:
             key_id, key = decoded.split(':', 1)
-            # TODO: Aggiungere logica di decriptazione se necessaria (es. AES)
             print(f"[SUCCESSO] Token decodificato: key_id={key_id}, key={key}")
             logging.debug(f"Token decodificato: key_id={key_id}, key={key}")
             return key_id, key
@@ -201,26 +200,34 @@ def create_m3u8_list():
         logging.error(f"Errore nell'accesso a {url}: {e}")
         return
     
-    events = soup.find_all('h5', class_='card-title')
-    if not events:
-        print("[AVVISO] Nessun evento trovato nella pagina!")
-        logging.warning("Nessun evento trovato nella pagina!")
+    # Trova tutti i contenitori degli eventi (assumendo che siano <div class="card-body">)
+    event_containers = soup.find_all('div', class_='card-body')
+    if not event_containers:
+        print("[AVVISO] Nessun contenitore di eventi trovato nella pagina!")
+        logging.warning("Nessun contenitore di eventi trovato nella pagina!")
         logging.debug(f"Contenuto pagina (primi 4000 caratteri): {response.text[:4000]}")
         return
     
-    print(f"[SUCCESSO] Trovati {len(events)} eventi")
-    logging.info(f"Trovati {len(events)} eventi")
+    print(f"[SUCCESSO] Trovati {len(event_containers)} contenitori di eventi")
+    logging.info(f"Trovati {len(event_containers)} contenitori di eventi")
     channels = []
     
     with open("debug_links.txt", 'w', encoding='utf-8') as f:
         f.write("Link trovati nella pagina eventi:\n")
     
-    for event in events:
-        group_title_elem = event.find('b', class_='title')
-        group_title = group_title_elem.text.strip() if group_title_elem else "Sport"
+    for idx, container in enumerate(event_containers):
+        # Estrai il group-title
+        group_title_elem = container.find('h5', class_='card-title').find('b', class_='title') if container.find('h5', class_='card-title') else None
+        group_title = group_title_elem.text.strip() if group_title_elem else f"Sport_{idx}"
         print(f"[INFO] Elaborazione evento: {group_title}")
         
-        links = event.find_all_next('a', href=re.compile(r'player\.php\?id=\w+'))[:5]
+        # Salva il contenitore per debug
+        with open(f"debug_event_container_{idx}.html", 'w', encoding='utf-8') as f:
+            f.write(str(container))
+        print(f"[DEBUG] Contenitore evento salvato in debug_event_container_{idx}.html")
+        
+        # Trova tutti i link all'interno del contenitore
+        links = container.find_all('a', href=re.compile(r'player\.php\?id=\w+'))[:5]
         print(f"[DEBUG] Trovati {len(links)} link ai player per l'evento {group_title}")
         logging.debug(f"Trovati {len(links)} link ai player per l'evento {group_title}")
         
@@ -248,15 +255,15 @@ def create_m3u8_list():
             else:
                 channel_name = url_id  # Fallback all'ID del link
             
-            print(f"[INFO] Elaborazione link: {stream_url}, Nome canale: {channel_name}")
-            logging.debug(f"Elaborazione link: {stream_url}, Nome canale: {channel_name}")
+            print(f"[INFO] Elaborazione link: {stream_url}, Nome canale: {channel_name}, Group-title: {group_title}")
+            logging.debug(f"Elaborazione link: {stream_url}, Nome canale: {channel_name}, Group-title: {group_title}")
             
             stream, key_id, key = get_stream_and_key(scraper, stream_url, channel_name)
             if stream:
                 entry = create_m3u_entry(channel_name, url_id, stream, key_id, key, group_title)
                 channels.append(entry)
                 print(f"[SUCCESSO] Canale aggiunto: {channel_name}, Flusso: {stream}, Group-title: {group_title}")
-                logging.debug(f"Canale aggiunto: {channel_name}, Flusso: {stream}")
+                logging.debug(f"Canale aggiunto: {channel_name}, Flusso: {stream}, Group-title: {group_title}")
             else:
                 print(f"[AVVISO] Nessun flusso valido trovato per il link: {stream_url}")
                 logging.warning(f"Nessun flusso valido trovato per il link: {stream_url}")
