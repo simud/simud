@@ -29,7 +29,9 @@ channel_associations = {
     "Sport255_IT": "Sky Sport 255",
     "Eurosport1_IT": "EuroSport 1",
     "SportMotoGP_IT": "Sky Sport MotoGP",
-    "SportNBA_IT": "Sky Sport NBA"
+    "SportNBA_IT": "Sky Sport NBA",
+    "TNTSP1": "TNT Sports 1",
+    "Bundesliga1": "Sky Sport Bundesliga"
 }
 
 tvg_id_associations = {
@@ -45,7 +47,9 @@ tvg_id_associations = {
     "Sky Sport 255": "skysport255.it",
     "EuroSport 1": "eurosport1.it",
     "Sky Sport MotoGP": "skysportmotogp.it",
-    "Sky Sport NBA": "skysportnba.it"
+    "Sky Sport NBA": "skysportnba.it",
+    "TNT Sports 1": "tntsports1.uk",
+    "Sky Sport Bundesliga": "skysportbundesliga.de"
 }
 
 logo_associations = {
@@ -61,7 +65,9 @@ logo_associations = {
     "Sky Sport 255": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-255-it.png",
     "EuroSport 1": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/eurosport-1-es.png",
     "Sky Sport MotoGP": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-motogp-it.png",
-    "Sky Sport NBA": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-nba-it.png"
+    "Sky Sport NBA": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-nba-it.png",
+    "TNT Sports 1": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/TNT_Sports_Logo_2023.svg/800px-TNT_Sports_Logo_2023.svg.png",
+    "Sky Sport Bundesliga": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/germany/sky-sport-bundesliga-de.png"
 }
 
 # Funzione per autenticarsi
@@ -125,7 +131,7 @@ def get_stream_and_key(scraper, url, channel_name):
             logging.warning(f"Nessun flusso MPD/M3U8 trovato in {url}")
             return None, None, None
 
-        # Prendi il primo flusso valido
+        # Prendi il primo flusso valido e la sua chiave (se presente)
         stream_url, encoded_keys = stream_matches[0]
         stream_url = html.unescape(stream_url)
         print(f"[SUCCESSO] Flusso trovato: {stream_url}")
@@ -203,64 +209,76 @@ def create_m3u8_list():
         logging.error(f"Errore nell'accesso a {url}: {e}")
         return
 
-    # Trova tutti i link nella pagina
-    links = soup.find_all('a', href=re.compile(r'player\.php\?id=\w+'))
-    if not links:
-        print("[AVVISO] Nessun link ai player trovato nella pagina!")
-        logging.warning("Nessun link ai player trovato nella pagina!")
+    # Trova tutti i contenitori degli eventi
+    event_containers = soup.find_all('div', class_='card-body')
+    if not event_containers:
+        print("[AVVISO] Nessun contenitore di eventi trovato nella pagina!")
+        logging.warning("Nessun contenitore di eventi trovato nella pagina!")
         logging.debug(f"Contenuto pagina (primi 4000 caratteri): {response.text[:4000]}")
         return
 
-    print(f"[SUCCESSO] Trovati {len(links)} link ai player")
-    logging.info(f"Trovati {len(links)} link ai player")
+    print(f"[SUCCESSO] Trovati {len(event_containers)} contenitori di eventi")
+    logging.info(f"Trovati {len(event_containers)} contenitori di eventi")
     channels = []
 
     with open("debug_links.txt", 'w', encoding='utf-8') as f:
         f.write("Link trovati nella pagina eventi:\n")
 
-    for idx, link in enumerate(links):
-        stream_url = urljoin(url, link['href'])
-        url_id = stream_url.split('id=')[-1] if 'id=' in stream_url else f"unknown_{idx}"
+    for idx, container in enumerate(event_containers):
+        # Estrai il group-title
+        group_title_elem = container.find('h5', class_='card-title').find('b', class_='title') if container.find('h5', class_='card-title') else None
+        group_title = group_title_elem.text.strip() if group_title_elem else f"Sport_{idx}"
+        print(f"[INFO] Elaborazione evento: {group_title}")
 
-        # Cerca il tag <b> immediatamente precedente al link per il nome del canale
-        channel_name = None
-        prev_b = link.find_previous('b')
-        if prev_b and prev_b.text.strip() and not prev_b.get('class', ['']).count('date') and not prev_b.get('class', ['']).count('title'):
-            channel_name = prev_b.text.strip()
-        else:
-            # Fallback: usa l'url_id se non c'è un nome evento valido
-            channel_name = url_id
-            print(f"[AVVISO] Nome canale non trovato per {stream_url}, usato url_id: {channel_name}")
-            logging.warning(f"Nome canale non trovato per {stream_url}, usato url_id: {channel_name}")
+        # Salva il contenitore per debug
+        with open(f"debug_event_container_{idx}.html", 'w', encoding='utf-8') as f:
+            f.write(str(container))
+        print(f"[DEBUG] Contenitore evento salvato in debug_event_container_{idx}.html")
 
-        # Cerca il group-title più vicino (tag <b class="title">)
-        group_title = "Sport"
-        parent = link.parent
-        while parent and parent.name != 'html':
-            title_elem = parent.find_previous('b', class_='title')
-            if title_elem and title_elem.text.strip():
-                group_title = title_elem.text.strip()
-                break
-            parent = parent.parent
+        # Trova tutti i link all'interno del contenitore
+        links = container.find_all('a', href=re.compile(r'player\.php\?id=\w+'))
+        print(f"[DEBUG] Trovati {len(links)} link ai player per l'evento {group_title}")
+        logging.debug(f"Trovati {len(links)} link ai player per l'evento {group_title}")
 
-        print(f"[INFO] Elaborazione link: {stream_url}, Nome canale: {channel_name}, Group-title: {group_title}")
-        logging.debug(f"Elaborazione link: {stream_url}, Nome canale: {channel_name}, Group-title: {group_title}")
+        if not links:
+            print(f"[AVVISO] Nessun link ai player trovato per l'evento: {group_title}")
+            logging.warning(f"Nessun link ai player trovato per l'evento: {group_title}")
+            continue
 
-        # Salva il link per debug
         with open("debug_links.txt", 'a', encoding='utf-8') as f:
-            f.write(f"Link {idx}: {stream_url}, Canale: {channel_name}, Gruppo: {group_title}\n")
+            f.write(f"\nEvento: {group_title}\n")
+            for link in links:
+                f.write(f"{link['href']}\n")
 
-        stream, key_id, key = get_stream_and_key(scraper, stream_url, channel_name)
-        if stream:
-            entry = create_m3u_entry(channel_name, url_id, stream, key_id, key, group_title)
-            channels.append(entry)
-            print(f"[SUCCESSO] Canale aggiunto: {channel_name}, Flusso: {stream}, Group-title: {group_title}")
-            logging.debug(f"Canale aggiunto: {channel_name}, Flusso: {stream}, Group-title: {group_title}")
-        else:
-            print(f"[AVVISO] Nessun flusso valido trovato per il link: {stream_url}")
-            logging.warning(f"Nessun flusso valido trovato per il link: {stream_url}")
+        for link in links:
+            stream_url = urljoin(url, link['href'])
+            url_id = stream_url.split('id=')[-1] if 'id=' in stream_url else group_title.replace(' ', '_')
 
-        time.sleep(0.5)
+            # Cerca il tag <b> immediatamente precedente al link per il nome del canale
+            channel_name = None
+            prev_b = link.find_previous('b')
+            if prev_b and prev_b.text.strip() and not prev_b.get('class', ['']).count('date') and not prev_b.get('class', ['']).count('title'):
+                channel_name = prev_b.text.strip()
+            else:
+                # Fallback: usa l'url_id se non c'è un nome evento valido
+                channel_name = url_id
+                print(f"[AVVISO] Nome canale non trovato per {stream_url}, usato url_id: {channel_name}")
+                logging.warning(f"Nome canale non trovato per {stream_url}, usato url_id: {channel_name}")
+
+            print(f"[INFO] Elaborazione link: {stream_url}, Nome canale: {channel_name}, Group-title: {group_title}")
+            logging.debug(f"Elaborazione link: {stream_url}, Nome canale: {channel_name}, Group-title: {group_title}")
+
+            stream, key_id, key = get_stream_and_key(scraper, stream_url, channel_name)
+            if stream:
+                entry = create_m3u_entry(channel_name, url_id, stream, key_id, key, group_title)
+                channels.append(entry)
+                print(f"[SUCCESSO] Canale aggiunto: {channel_name}, Flusso: {stream}, Group-title: {group_title}")
+                logging.debug(f"Canale aggiunto: {channel_name}, Flusso: {stream}, Group-title: {group_title}")
+            else:
+                print(f"[AVVISO] Nessun flusso valido trovato per il link: {stream_url}")
+                logging.warning(f"Nessun flusso valido trovato per il link: {stream_url}")
+
+            time.sleep(0.5)
 
     m3u_file = "thisnot.m3u8"
     with open(m3u_file, 'w', encoding='utf-8') as f:
