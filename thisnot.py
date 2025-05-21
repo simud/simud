@@ -116,7 +116,7 @@ def get_stream_and_key(scraper, url, channel_name):
             re.IGNORECASE
         )
         stream_matches = stream_pattern.findall(page_source)
-        
+
         if not stream_matches:
             print(f"[AVVISO] Nessun flusso MPD/M3U8 trovato in {url}")
             logging.warning(f"Nessun flusso MPD/M3U8 trovato in {url}")
@@ -149,7 +149,7 @@ def get_channel_info(url_id, group_title):
     tvg_id = tvg_id_associations.get(tvg_name, "")
     logo = logo_associations.get(tvg_name, "")
     suffix = "(HD)" if "hd" in url_id.lower() else ""
-    
+
     return {
         "tvg_id": tvg_id,
         "tvg_name": tvg_name,
@@ -161,7 +161,7 @@ def get_channel_info(url_id, group_title):
 # Funzione per creare una voce M3U
 def create_m3u_entry(channel_name, url_id, stream_url, key_id, key, group_title):
     info = get_channel_info(url_id, group_title)
-    
+
     extinf = f'#EXTINF:-1 tvg-id="{info["tvg_id"]}" tvg-logo="{info["tvg_logo"]}" group-title="{info["group_title"]}",{channel_name} {info["suffix"]}'
     if key_id and key:
         kodiprop_license_type = '#KODIPROP:inputstream.adaptive.license_type=clearkey'
@@ -174,16 +174,16 @@ def create_m3u8_list():
     url = "https://thisnot.business/eventi.php"
     login_url = "https://thisnot.business/index.php"
     password = "2025"
-    
+
     print(f"[INFO] Inizio elaborazione. URL eventi: {url}")
     scraper = cloudscraper.create_scraper()
-    
+
     auth_response = authenticate(scraper, login_url, password)
     if not auth_response:
         print("[ERRORE] Autenticazione fallita. Impossibile proseguire.")
         logging.error("Autenticazione fallita. Impossibile proseguire.")
         return
-    
+
     print(f"[INFO] Accesso alla pagina eventi: {url}")
     try:
         response = scraper.get(url, timeout=5, allow_redirects=True)
@@ -191,7 +191,7 @@ def create_m3u8_list():
         print(f"[SUCCESSO] URL finale dopo reindirizzamenti: {response.url}")
         logging.debug(f"URL finale dopo reindirizzamenti: {response.url}")
         soup = BeautifulSoup(response.text, 'html.parser')
-        
+
         with open("debug_eventi.html", 'w', encoding='utf-8') as f:
             f.write(response.text)
         print("[DEBUG] Codice sorgente della pagina eventi salvato in debug_eventi.html")
@@ -199,7 +199,7 @@ def create_m3u8_list():
         print(f"[ERRORE] Errore nell'accesso a {url}: {e}")
         logging.error(f"Errore nell'accesso a {url}: {e}")
         return
-    
+
     # Trova tutti i contenitori degli eventi (assumendo che siano <div class="card-body">)
     event_containers = soup.find_all('div', class_='card-body')
     if not event_containers:
@@ -207,45 +207,45 @@ def create_m3u8_list():
         logging.warning("Nessun contenitore di eventi trovato nella pagina!")
         logging.debug(f"Contenuto pagina (primi 4000 caratteri): {response.text[:4000]}")
         return
-    
+
     print(f"[SUCCESSO] Trovati {len(event_containers)} contenitori di eventi")
     logging.info(f"Trovati {len(event_containers)} contenitori di eventi")
     channels = []
-    
+
     with open("debug_links.txt", 'w', encoding='utf-8') as f:
         f.write("Link trovati nella pagina eventi:\n")
-    
+
     for idx, container in enumerate(event_containers):
         # Estrai il group-title
         group_title_elem = container.find('h5', class_='card-title').find('b', class_='title') if container.find('h5', class_='card-title') else None
         group_title = group_title_elem.text.strip() if group_title_elem else f"Sport_{idx}"
         print(f"[INFO] Elaborazione evento: {group_title}")
-        
+
         # Salva il contenitore per debug
         with open(f"debug_event_container_{idx}.html", 'w', encoding='utf-8') as f:
             f.write(str(container))
         print(f"[DEBUG] Contenitore evento salvato in debug_event_container_{idx}.html")
-        
+
         # Trova tutti i link all'interno del contenitore
         links = container.find_all('a', href=re.compile(r'player\.php\?id=\w+'))[:5]
         print(f"[DEBUG] Trovati {len(links)} link ai player per l'evento {group_title}")
         logging.debug(f"Trovati {len(links)} link ai player per l'evento {group_title}")
-        
+
         if not links:
             print(f"[AVVISO] Nessun link ai player trovato per l'evento: {group_title}")
             logging.warning(f"Nessun link ai player trovato per l'evento: {group_title}")
             continue
-        
+
         with open("debug_links.txt", 'a', encoding='utf-8') as f:
             f.write(f"\nEvento: {group_title}\n")
             for link in links:
                 f.write(f"{link['href']}\n")
-        
+
         for link in links:
             stream_url = urljoin(url, link['href'])
             url_id = stream_url.split('id=')[-1] if 'id=' in stream_url else group_title.replace(' ', '_')
-            
-            # Cerca il tag <b> precedente al link
+
+            # Cerca il tag <b> immediatamente precedente al link per ottenere il nome dell'evento
             channel_name = None
             prev_b = link.find_previous('b')
             if prev_b and prev_b.text.strip():
@@ -253,11 +253,14 @@ def create_m3u8_list():
                 # Rimuovi l'orario (es. "21:00 ") se presente
                 channel_name = re.sub(r'^\d{2}:\d{2}\s*', '', channel_name).strip()
             else:
-                channel_name = url_id  # Fallback all'ID del link
-            
+                # Fallback: usa l'url_id se non c'è un nome evento valido
+                channel_name = url_id
+                print(f"[AVVISO] Nome canale non trovato per {stream_url}, usato url_id: {channel_name}")
+                logging.warning(f"Nome canale non trovato per {stream_url}, usato url_id: {channel_name}")
+
             print(f"[INFO] Elaborazione link: {stream_url}, Nome canale: {channel_name}, Group-title: {group_title}")
             logging.debug(f"Elaborazione link: {stream_url}, Nome canale: {channel_name}, Group-title: {group_title}")
-            
+
             stream, key_id, key = get_stream_and_key(scraper, stream_url, channel_name)
             if stream:
                 entry = create_m3u_entry(channel_name, url_id, stream, key_id, key, group_title)
@@ -267,18 +270,18 @@ def create_m3u8_list():
             else:
                 print(f"[AVVISO] Nessun flusso valido trovato per il link: {stream_url}")
                 logging.warning(f"Nessun flusso valido trovato per il link: {stream_url}")
-            
+
             time.sleep(0.5)
-    
+
     m3u_file = "thisnot.m3u8"
     with open(m3u_file, 'w', encoding='utf-8') as f:
         f.write("#EXTM3U\n")
         for entry in channels:
             f.write(entry)
-    
+
     print(f"[SUCCESSO] File M3U generato: {m3u_file}")
     logging.info(f"Lista M3U creata con successo: {m3u_file}")
-    
+
     if not channels:
         print("[AVVISO] La lista M3U è vuota! Nessun canale valido trovato.")
         logging.warning("La lista M3U è vuota! Nessun canale valido trovato.")
