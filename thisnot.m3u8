@@ -7,6 +7,14 @@ https://linear311-it-dash1-prd.selector.skycdn.it/016a/31917/FHD/skysport251/mas
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=b770d5b4bb6b594daf985845aae9aa5f:b0cb46d2d31cf044bc73db71e9865f6f,ae26845bd33038a9c0774a0981007294:63ac662dde310cfb4cc6f9b43b34196d
 https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/wf8usag51e/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd
+#EXTINF:-1 tvg-id="dazn1.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/DAZN_1_Logo.svg/774px-DAZN_1_Logo.svg.png" group-title="CALCIO",20:30 Juve Stabia - Cremonese 
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=eb937ee30acd5c16823820662377b16d:e22557ad4f055837f236f308e6053cc3
+https://dcd-ak-livedazn.akamaized.net/1n9vvvo9n8sz71hjiorvt10ll5/web/stream.mpd
+#EXTINF:-1 tvg-id="dazn2.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/DAZN_1_Logo.svg/774px-DAZN_1_Logo.svg.png" group-title="CALCIO",20:30 Catanzaro - Spezia 
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=fb6e41731558533bbba9b1e37db26b14:a5c2bba2f24c3f7f6aa3842b73763e06
+https://dcd-ak-livedazn.akamaized.net/r29p9hnsj3qq1158qyc7d34sp/web/stream.mpd
 #EXTINF:-1 tvg-id="skysport252.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-252-it.png" group-title="CALCIO",20:00 Vicenza - Crotone 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=003610b4ce44ba838c199b6636cf7431:8369cbbccf0c1ff6bdbacbdae9252a04
