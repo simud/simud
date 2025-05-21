@@ -1172,9 +1172,9 @@ https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://vav
 #EXTINF:-1 tvg-id="skysportarena.it" tvg-name="Sky Sport Arena FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-arena-it.png" group-title="Sky Sport FHD Backup",Sky Sport Arena FHD
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://vavoo.to/play/2555960713/index.m3u8
 #EXTINF:-1 tvg-id="skysportcalcio.it" tvg-name="Sky Sport Calcio FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-calcio-it.png" group-title="Sky Sport FHD Backup",Sky Sport Calcio FHD
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://vavoo.to/play/1665920101/index.m3u8
-#EXTINF:-1 tvg-id="skysportcalcio.it" tvg-name="Sky Sport Calcio FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-calcio-it.png" group-title="Sky Sport FHD Backup",Sky Sport Calcio FHD
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://vavoo.to/play/449990998/index.m3u8
+#EXTINF:-1 tvg-id="skysportcalcio.it" tvg-name="Sky Sport Calcio FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-calcio-it.png" group-title="Sky Sport FHD Backup",Sky Sport Calcio FHD
+https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://vavoo.to/play/1665920101/index.m3u8
 #EXTINF:-1 tvg-id="skysportf1.it" tvg-name="Sky Sport F1 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-f1-it.png" group-title="Sky Sport FHD Backup",Sky Sport F1 FHD
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://vavoo.to/play/4246774056/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Sky Sport Football FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-football-it.png" group-title="Sky Sport FHD Backup",Sky Sport Football FHD
@@ -1236,17 +1236,17 @@ https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://vav
 #EXTINF:-1 tvg-id="skyatlantic.it" tvg-name="Sky Atlantic FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-atlantic-it.png" group-title="Sky Cinema FHD Backup",Sky Atlantic FHD
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://vavoo.to/play/1482866609/index.m3u8
 #EXTINF:-1 tvg-id="skycinemaaction.it" tvg-name="Sky Cinema Action FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-action-it.png" group-title="Sky Cinema FHD Backup",Sky Cinema Action FHD
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://vavoo.to/play/3812796171/index.m3u8
-#EXTINF:-1 tvg-id="skycinemaaction.it" tvg-name="Sky Cinema Action FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-action-it.png" group-title="Sky Cinema FHD Backup",Sky Cinema Action FHD
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://vavoo.to/play/1144128726/index.m3u8
+#EXTINF:-1 tvg-id="skycinemaaction.it" tvg-name="Sky Cinema Action FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-action-it.png" group-title="Sky Cinema FHD Backup",Sky Cinema Action FHD
+https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://vavoo.to/play/3812796171/index.m3u8
 #EXTINF:-1 tvg-id="skycinemaaction.it" tvg-name="Sky Cinema Action FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-action-it.png" group-title="Sky Cinema FHD Backup",Sky Cinema Action FHD
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://vavoo.to/play/2242741766/index.m3u8
 #EXTINF:-1 tvg-id="skycinemacollectionhd.it" tvg-name="Sky Cinema Collection FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-collection-it.png" group-title="Sky Cinema FHD Backup",Sky Cinema Collection FHD
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://vavoo.to/play/3525837057/index.m3u8
 #EXTINF:-1 tvg-id="skycinemacomedy.it" tvg-name="Sky Cinema Comedy FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-comedy-it.png" group-title="Sky Cinema FHD Backup",Sky Cinema Comedy FHD
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://vavoo.to/play/500203271/index.m3u8
-#EXTINF:-1 tvg-id="skycinemacomedy.it" tvg-name="Sky Cinema Comedy FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-comedy-it.png" group-title="Sky Cinema FHD Backup",Sky Cinema Comedy FHD
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://vavoo.to/play/3131104474/index.m3u8
+#EXTINF:-1 tvg-id="skycinemacomedy.it" tvg-name="Sky Cinema Comedy FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-comedy-it.png" group-title="Sky Cinema FHD Backup",Sky Cinema Comedy FHD
+https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://vavoo.to/play/500203271/index.m3u8
 #EXTINF:-1 tvg-id="skycinemadrama.it" tvg-name="Sky Cinema Drama FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-drama-it.png" group-title="Sky Cinema FHD Backup",Sky Cinema Drama FHD
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://vavoo.to/play/1235530177/index.m3u8
 #EXTINF:-1 tvg-id="skycinemadue.it" tvg-name="Sky Cinema Due FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-due-it.png" group-title="Sky Cinema FHD Backup",Sky Cinema Due FHD
@@ -1264,9 +1264,9 @@ https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://vav
 #EXTINF:-1 tvg-id="skycinemaromance.it" tvg-name="Sky Cinema Romance FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-romance-it.png" group-title="Sky Cinema FHD Backup",Sky Cinema Romance FHD
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://vavoo.to/play/1281264885/index.m3u8
 #EXTINF:-1 tvg-id="skycinemasuspense.it" tvg-name="Sky Cinema Suspense FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-suspense-it.png" group-title="Sky Cinema FHD Backup",Sky Cinema Suspense FHD
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://vavoo.to/play/3060043751/index.m3u8
-#EXTINF:-1 tvg-id="skycinemasuspense.it" tvg-name="Sky Cinema Suspense FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-suspense-it.png" group-title="Sky Cinema FHD Backup",Sky Cinema Suspense FHD
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://vavoo.to/play/1820997555/index.m3u8
+#EXTINF:-1 tvg-id="skycinemasuspense.it" tvg-name="Sky Cinema Suspense FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-suspense-it.png" group-title="Sky Cinema FHD Backup",Sky Cinema Suspense FHD
+https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://vavoo.to/play/3060043751/index.m3u8
 #EXTINF:-1 tvg-id="skycinemauno.it" tvg-name="Sky Cinema Uno FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-uno-it.png" group-title="Sky Cinema FHD Backup",Sky Cinema Uno FHD
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://vavoo.to/play/1759625738/index.m3u8
 #EXTINF:-1 tvg-id="skycinemauno.it" tvg-name="Sky Cinema Uno FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-uno-it.png" group-title="Sky Cinema FHD Backup",Sky Cinema Uno FHD
@@ -1276,9 +1276,9 @@ https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://vav
 #EXTINF:-1 tvg-id="skyserie.it" tvg-name="Sky Serie FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-serie-it.png" group-title="Sky Sport FHD Backup",Sky Serie FHD
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://vavoo.to/play/836680112/index.m3u8
 #EXTINF:-1 tvg-id="babytv.it" tvg-name="Baby Tv FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/baby-tv-es.png?raw=true" group-title="Bambini",Baby Tv FHD
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://vavoo.to/play/2265727942/index.m3u8
-#EXTINF:-1 tvg-id="babytv.it" tvg-name="Baby Tv FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/baby-tv-es.png?raw=true" group-title="Bambini",Baby Tv FHD
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://vavoo.to/play/3938501125/index.m3u8
+#EXTINF:-1 tvg-id="babytv.it" tvg-name="Baby Tv FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/baby-tv-es.png?raw=true" group-title="Bambini",Baby Tv FHD
+https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://vavoo.to/play/2265727942/index.m3u8
 #EXTINF:-1 tvg-id="boing.it" tvg-name="Boing FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/boing-it.png" group-title="Bambini",Boing FHD
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://vavoo.to/play/3022771961/index.m3u8
 #EXTINF:-1 tvg-id="boing.it" tvg-name="Boing FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/boing-it.png" group-title="Bambini",Boing FHD
@@ -1322,13 +1322,13 @@ https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://vav
 #EXTINF:-1 tvg-id="" tvg-name="Discovery Focus FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/focus-it.png" group-title="Documentari",Discovery Focus FHD
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://vavoo.to/play/2113273064/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Discovery Nove FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/nove-it.png" group-title="Documentari",Discovery Nove FHD
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://vavoo.to/play/2651461317/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Discovery Nove FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/nove-it.png" group-title="Documentari",Discovery Nove FHD
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://vavoo.to/play/1574591400/index.m3u8
-#EXTINF:-1 tvg-id="historyhd.it" tvg-name="History FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/history-channel-it.png" group-title="Documentari",History FHD
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://vavoo.to/play/2134724757/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Discovery Nove FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/nove-it.png" group-title="Documentari",Discovery Nove FHD
+https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://vavoo.to/play/2651461317/index.m3u8
 #EXTINF:-1 tvg-id="historyhd.it" tvg-name="History FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/history-channel-it.png" group-title="Documentari",History FHD
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://vavoo.to/play/317837654/index.m3u8
+#EXTINF:-1 tvg-id="historyhd.it" tvg-name="History FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/history-channel-it.png" group-title="Documentari",History FHD
+https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://vavoo.to/play/2134724757/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Nat Geo FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/national-geographic-it.png" group-title="Documentari",Nat Geo FHD
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://vavoo.to/play/179844839/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Nat Geo FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/national-geographic-it.png" group-title="Documentari",Nat Geo FHD
@@ -1348,9 +1348,9 @@ https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://vav
 #EXTINF:-1 tvg-id="" tvg-name="Telearte FHD" tvg-logo="https://www.teleartetv.it/web/wp-content/uploads/2023/04/logo_TA.jpg" group-title="Documentari",Telearte FHD
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://vavoo.to/play/2586615238/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 1 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 1 FHD
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://vavoo.to/play/1944682394/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 1 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 1 FHD
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://vavoo.to/play/1492183364/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 1 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 1 FHD
+https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://vavoo.to/play/1944682394/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 2 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 2 FHD
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://vavoo.to/play/877200714/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 2 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 2 FHD
@@ -1364,17 +1364,17 @@ https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://vav
 #EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 4 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 4 FHD
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://vavoo.to/play/3137990890/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 5 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 5 FHD
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://vavoo.to/play/2909818756/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 5 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 5 FHD
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://vavoo.to/play/2255083866/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 5 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 5 FHD
+https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://vavoo.to/play/2909818756/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 6 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 6 FHD
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://vavoo.to/play/3251217290/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 6 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 6 FHD
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://vavoo.to/play/3939513684/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 7 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 7 FHD
-https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://vavoo.to/play/4238969402/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 7 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 7 FHD
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://vavoo.to/play/3618643172/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 7 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 7 FHD
+https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://vavoo.to/play/4238969402/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 8 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 8 FHD
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://vavoo.to/play/1440779061/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 8 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 8 FHD
@@ -1401,31 +1401,31 @@ https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://vav
 https://mfp2.nzo66.com/proxy/hls/manifest.m3u8?api_password=mfp123&d=https://vavoo.to/play/3470758028/index.m3u8
 #EXTINF:-1 tvg-name="Soccer" group-title="Eventi Sportivi" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-uno-it.png",Soccer
 https://example.m3u8
-#EXTINF:-1 tvg-id="4" tvg-name="Italy - Serie C : Vicenza Vs Crotone (20:00)" tvg-logo="https://th.bing.com/th/id/OIP.SyTZkwe-MZ6QAt0f0oPLrAHaEe?w=262&h=180&c=7&r=0&o=5&cb=iwc2&pid=1.7" group-title="Eventi Sportivi",Italy - Serie C : Vicenza Vs Crotone (20:00)
+#EXTINF:-1 tvg-id="4" tvg-name="Italy - Serie C : Vicenza Vs Crotone (20:00)" tvg-logo="https://th.bing.com/th/id/OIP.SyTZkwe-MZ6QAt0f0oPLrAHaEe?w=296&h=180&c=7&r=0&o=7&cb=iwp2&pid=1.7&rm=3" group-title="Eventi Sportivi",Italy - Serie C : Vicenza Vs Crotone (20:00)
 https://mfp2.nzo66.com/extractor/video?host=DLHD&d=https://thedaddy.to/embed/stream-4.php&redirect_stream=true&api_password=mfp123
 #EXTINF:-1 tvg-id="5" tvg-name="Italy - Serie C : Ternana Vs Giana Erminio (20:00)" tvg-logo="https://th.bing.com/th/id/OIF.pdjeFKSnAj0L4LQLKfhPnA?w=100&h=100&c=7&r=0&o=5&pid=1.7" group-title="Eventi Sportivi",Italy - Serie C : Ternana Vs Giana Erminio (20:00)
 https://mfp2.nzo66.com/extractor/video?host=DLHD&d=https://thedaddy.to/embed/stream-5.php&redirect_stream=true&api_password=mfp123
-#EXTINF:-1 tvg-id="6" tvg-name="Italy - Serie C : Audace Cerignola Vs Atalanta Ii (20:00)" tvg-logo="https://th.bing.com/th/id/OIP.cKShJxf-Y0kHLva66WJLtwHaIp?w=138&h=180&c=7&r=0&o=5&pid=1.7" group-title="Eventi Sportivi",Italy - Serie C : Audace Cerignola Vs Atalanta Ii (20:00)
+#EXTINF:-1 tvg-id="6" tvg-name="Italy - Serie C : Audace Cerignola Vs Atalanta Ii (20:00)" tvg-logo="https://th.bing.com/th/id/OIP.cKShJxf-Y0kHLva66WJLtwHaIp?w=152&h=180&c=7&r=0&o=7&cb=iwp2&pid=1.7&rm=3" group-title="Eventi Sportivi",Italy - Serie C : Audace Cerignola Vs Atalanta Ii (20:00)
 https://mfp2.nzo66.com/extractor/video?host=DLHD&d=https://thedaddy.to/embed/stream-6.php&redirect_stream=true&api_password=mfp123
-#EXTINF:-1 tvg-id="7" tvg-name="Italy - Serie C : Pescara Vs Vis Pesaro (20:00)" tvg-logo="https://th.bing.com/th/id/OIP.gi5VZxMH8JnvPYE0vKJ47gHaEK?w=296&h=180&c=7&r=0&o=5&pid=1.7" group-title="Eventi Sportivi",Italy - Serie C : Pescara Vs Vis Pesaro (20:00)
+#EXTINF:-1 tvg-id="7" tvg-name="Italy - Serie C : Pescara Vs Vis Pesaro (20:00)" tvg-logo="https://th.bing.com/th/id/OIP.gi5VZxMH8JnvPYE0vKJ47gHaEK?w=310&h=180&c=7&r=0&o=7&cb=iwp2&pid=1.7&rm=3" group-title="Eventi Sportivi",Italy - Serie C : Pescara Vs Vis Pesaro (20:00)
 https://mfp2.nzo66.com/extractor/video?host=DLHD&d=https://thedaddy.to/embed/stream-7.php&redirect_stream=true&api_password=mfp123
-#EXTINF:-1 tvg-id="77" tvg-name="Italy - Serie B : Juve Stabia Vs Cremonese (20:30)" tvg-logo="https://th.bing.com/th/id/OIP.aeM_8zKH04R6qtUuF1GQ0QHaE7?w=234&h=180&c=7&r=0&o=5&cb=iwc2&pid=1.7" group-title="Eventi Sportivi",Italy - Serie B : Juve Stabia Vs Cremonese (20:30)
+#EXTINF:-1 tvg-id="77" tvg-name="Italy - Serie B : Juve Stabia Vs Cremonese (20:30)" tvg-logo="https://th.bing.com/th/id/OIP.aeM_8zKH04R6qtUuF1GQ0QHaE7?w=251&h=180&c=7&r=0&o=7&cb=iwp2&pid=1.7&rm=3" group-title="Eventi Sportivi",Italy - Serie B : Juve Stabia Vs Cremonese (20:30)
 https://mfp2.nzo66.com/extractor/video?host=DLHD&d=https://thedaddy.to/embed/stream-77.php&redirect_stream=true&api_password=mfp123
-#EXTINF:-1 tvg-id="86" tvg-name="Italy - Serie B : Catanzaro Vs Spezia (20:30)" tvg-logo="https://th.bing.com/th/id/OIP.KZ1oNdU35Fw9dmIu37DihgHaE6?w=266&h=180&c=7&r=0&o=7&cb=iwp2&pid=1.7&rm=3" group-title="Eventi Sportivi",Italy - Serie B : Catanzaro Vs Spezia (20:30)
+#EXTINF:-1 tvg-id="86" tvg-name="Italy - Serie B : Catanzaro Vs Spezia (20:30)" tvg-logo="https://th.bing.com/th/id/OIP.8snTUrQ3sJ9xJZtcngm8DAHaEK?w=285&h=180&c=7&r=0&o=5&cb=iwc2&pid=1.7" group-title="Eventi Sportivi",Italy - Serie B : Catanzaro Vs Spezia (20:30)
 https://mfp2.nzo66.com/extractor/video?host=DLHD&d=https://thedaddy.to/embed/stream-86.php&redirect_stream=true&api_password=mfp123
 #EXTINF:-1 tvg-id="10" tvg-name="Uefa Europa League Final : Tottenham Hotspur Vs Manchester United (21:00)" tvg-logo="https://th.bing.com/th/id/OIP.G_9nZOYMKMyRDV5TKB1tlgHaEK?w=306&h=180&c=7&r=0&o=5&pid=1.7" group-title="Eventi Sportivi",Uefa Europa League Final : Tottenham Hotspur Vs Manchester United (21:00)
 https://mfp2.nzo66.com/extractor/video?host=DLHD&d=https://thedaddy.to/embed/stream-10.php&redirect_stream=true&api_password=mfp123
-#EXTINF:-1 tvg-id="12" tvg-name="Uefa Europa League Final : Tottenham Hotspur Vs Manchester United (21:00)" tvg-logo="https://th.bing.com/th/id/OIP.G_9nZOYMKMyRDV5TKB1tlgHaEK?w=306&h=180&c=7&r=0&o=5&pid=1.7" group-title="Eventi Sportivi",Uefa Europa League Final : Tottenham Hotspur Vs Manchester United (21:00)
+#EXTINF:-1 tvg-id="12" tvg-name="Uefa Europa League Final : Tottenham Hotspur Vs Manchester United (21:00)" tvg-logo="https://th.bing.com/th/id/OIP.WAjzJwjmoz3s0ve2VFyL5QHaEK?w=305&h=180&c=7&r=0&o=7&cb=iwp2&pid=1.7&rm=3" group-title="Eventi Sportivi",Uefa Europa League Final : Tottenham Hotspur Vs Manchester United (21:00)
 https://mfp2.nzo66.com/extractor/video?host=DLHD&d=https://thedaddy.to/embed/stream-12.php&redirect_stream=true&api_password=mfp123
-#EXTINF:-1 tvg-id="870" tvg-name="Uefa Europa League Final : Tottenham Hotspur Vs Manchester United (21:00)" tvg-logo="https://th.bing.com/th/id/OIP.G_9nZOYMKMyRDV5TKB1tlgHaEK?w=306&h=180&c=7&r=0&o=5&cb=iwc2&pid=1.7" group-title="Eventi Sportivi",Uefa Europa League Final : Tottenham Hotspur Vs Manchester United (21:00)
+#EXTINF:-1 tvg-id="870" tvg-name="Uefa Europa League Final : Tottenham Hotspur Vs Manchester United (21:00)" tvg-logo="https://th.bing.com/th/id/OIP.G_9nZOYMKMyRDV5TKB1tlgHaEK?w=306&h=180&c=7&r=0&o=5&pid=1.7" group-title="Eventi Sportivi",Uefa Europa League Final : Tottenham Hotspur Vs Manchester United (21:00)
 https://mfp2.nzo66.com/extractor/video?host=DLHD&d=https://thedaddy.to/embed/stream-870.php&redirect_stream=true&api_password=mfp123
-#EXTINF:-1 tvg-id="461" tvg-name="Uefa Europa League Final : Tottenham Hotspur Vs Manchester United (21:00)" tvg-logo="https://th.bing.com/th/id/OIP.G_9nZOYMKMyRDV5TKB1tlgHaEK?w=318&h=180&c=7&r=0&o=7&cb=iwp2&pid=1.7&rm=3" group-title="Eventi Sportivi",Uefa Europa League Final : Tottenham Hotspur Vs Manchester United (21:00)
+#EXTINF:-1 tvg-id="461" tvg-name="Uefa Europa League Final : Tottenham Hotspur Vs Manchester United (21:00)" tvg-logo="https://th.bing.com/th/id/OIP.WAjzJwjmoz3s0ve2VFyL5QHaEK?w=305&h=180&c=7&r=0&o=7&cb=iwp2&pid=1.7&rm=3" group-title="Eventi Sportivi",Uefa Europa League Final : Tottenham Hotspur Vs Manchester United (21:00)
 https://mfp2.nzo66.com/extractor/video?host=DLHD&d=https://thedaddy.to/embed/stream-461.php&redirect_stream=true&api_password=mfp123
 #EXTINF:-1 tvg-name="Cycling" group-title="Eventi Sportivi" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-uno-it.png",Cycling
 https://example.m3u8
-#EXTINF:-1 tvg-id="851" tvg-name="Giro D'italia | Stage 11 | Multi-screen Men | Viareggio – Castelnovo Ne’ Monti (185km) (14:00)" tvg-logo="https://th.bing.com/th/id/OIP.7jazO9-LtCB5Vr7VJC-yDwHaE7?w=250&h=180&c=7&r=0&o=7&cb=iwp2&pid=1.7&rm=3" group-title="Eventi Sportivi",Giro D'italia | Stage 11 | Multi-screen Men | Viareggio – Castelnovo Ne’ Monti (185km) (14:00)
+#EXTINF:-1 tvg-id="851" tvg-name="Giro D'italia | Stage 11 | Multi-screen Men | Viareggio – Castelnovo Ne’ Monti (185km) (14:00)" tvg-logo="https://th.bing.com/th/id/OIP.7jazO9-LtCB5Vr7VJC-yDwHaE7?w=270&h=180&c=7&r=0&o=7&cb=iwp2&pid=1.7&rm=3" group-title="Eventi Sportivi",Giro D'italia | Stage 11 | Multi-screen Men | Viareggio – Castelnovo Ne’ Monti (185km) (14:00)
 https://mfp2.nzo66.com/extractor/video?host=DLHD&d=https://thedaddy.to/embed/stream-851.php&redirect_stream=true&api_password=mfp123
-#EXTINF:-1 tvg-id="878" tvg-name="Giro D'italia | Stage 11 | Multi-screen Men | Viareggio – Castelnovo Ne’ Monti (185km) (14:00)" tvg-logo="https://th.bing.com/th/id/OIP.7jazO9-LtCB5Vr7VJC-yDwHaE7?w=270&h=180&c=7&r=0&o=5&pid=1.7" group-title="Eventi Sportivi",Giro D'italia | Stage 11 | Multi-screen Men | Viareggio – Castelnovo Ne’ Monti (185km) (14:00)
+#EXTINF:-1 tvg-id="878" tvg-name="Giro D'italia | Stage 11 | Multi-screen Men | Viareggio – Castelnovo Ne’ Monti (185km) (14:00)" tvg-logo="https://th.bing.com/th/id/OIP.ulHz-yNJBxxb9mvh7bdM1gHaE8?w=227&h=180&c=7&r=0&o=7&cb=iwp2&pid=1.7&rm=3" group-title="Eventi Sportivi",Giro D'italia | Stage 11 | Multi-screen Men | Viareggio – Castelnovo Ne’ Monti (185km) (14:00)
 https://mfp2.nzo66.com/extractor/video?host=DLHD&d=https://thedaddy.to/embed/stream-878.php&redirect_stream=true&api_password=mfp123
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Eventi Sportivi",ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
