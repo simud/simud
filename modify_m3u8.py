@@ -1,9 +1,9 @@
 import requests
 import re
 
-# URL del file M3U8
+# URL del file M3U8 da scaricare
 input_url = "https://raw.githubusercontent.com/ciccioxm3/ddprx/refs/heads/main/onlyevents.m3u8"
-# Prefisso da aggiungere ai flussi
+# Nuovo prefisso proxy
 prefix = "https://nzo66-tvproxy.hf.space/proxy/m3u?url="
 
 # Scarica il file M3U8
@@ -30,8 +30,11 @@ for line in lines:
         current_channel = [line]
         is_channel = True
     elif is_channel and line.strip() and line.startswith("http"):
-        # Modifica l'URL del flusso
-        modified_url = prefix + line
+        # Rimuove eventuali proxy già presenti
+        original_url = re.sub(r'^.*?/proxy/m3u\?url=', '', line)
+        # Applica il nuovo prefisso proxy
+        modified_url = prefix + original_url
+
         # Modifica il nome del canale nella riga EXTINF
         extinf_line = current_channel[0]
         tvg_name_match = re.search(r'tvg-name="([^"]+)"', extinf_line)
@@ -46,6 +49,7 @@ for line in lines:
                 print(f"Errore nella riga EXTINF: {extinf_line}")
         else:
             print(f"tvg-name non trovato in: {extinf_line}")
+
         # Aggiungi l'URL modificato
         current_channel.append(modified_url)
         # Scrivi il canale completo e resetta
