@@ -5,7 +5,7 @@ import re
 import logging
 import time
 import html
-from urllib.parse import urljoin
+from urllib.parse import urljoin, unquote
 import json
 
 # Configura il logging
@@ -110,10 +110,21 @@ def fix_base64_padding(encoded_keys):
 # Funzione per decriptare il token
 def decrypt_token(encoded_keys):
     try:
+        # Decodifica URL (es. %3D → =)
+        encoded_keys = unquote(encoded_keys)
+        print(f"[DEBUG] Stringa base64 dopo decodifica URL: {encoded_keys}")
+        logging.debug(f"Stringa base64 dopo decodifica URL: {encoded_keys}")
+
         # Correggi il padding base64
         encoded_keys = fix_base64_padding(encoded_keys)
         print(f"[DEBUG] Stringa base64 dopo correzione padding: {encoded_keys}")
         logging.debug(f"Stringa base64 dopo correzione padding: {encoded_keys}")
+
+        # Verifica che la lunghezza sia valida per base64
+        if len(encoded_keys) % 4 != 0:
+            print(f"[ERRORE] Lunghezza stringa base64 non valida: {len(encoded_keys)}")
+            logging.error(f"Lunghezza stringa base64 non valida: {len(encoded_keys)}")
+            return None, None
 
         # Decodifica base64
         decoded = base64.b64decode(encoded_keys).decode('utf-8')
