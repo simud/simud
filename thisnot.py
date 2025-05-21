@@ -121,7 +121,7 @@ def get_stream_and_key(scraper, url, channel_name):
 
         # Cerca flussi MPD/M3U8
         stream_pattern = re.compile(
-            r'(?:chrome-extension://[^\s]+?)?(?:player\.html#)?(https?://.+?\.(?:mpd|m3u8))(?:[?&]ck=([^\s&]+))?(?="|\'|\s|$)',
+            r'(?:chrome-extension://[^\s]+?)?(?:player\.html#)?(https?://.+?\.(?:mpd|m3u8))\?(?:[^&]*&)*ck=([^\s&]+)(?="|\'|\s|$)',
             re.IGNORECASE
         )
         stream_matches = stream_pattern.findall(page_source)
@@ -131,7 +131,7 @@ def get_stream_and_key(scraper, url, channel_name):
             logging.warning(f"Nessun flusso MPD/M3U8 trovato in {url}")
             return None, None, None
 
-        # Prendi il primo flusso valido e la sua chiave (se presente)
+        # Prendi il primo flusso valido e la sua chiave
         stream_url, encoded_keys = stream_matches[0]
         stream_url = html.unescape(stream_url)
         print(f"[SUCCESSO] Flusso trovato: {stream_url}")
@@ -140,6 +140,11 @@ def get_stream_and_key(scraper, url, channel_name):
 
         # Gestione del token
         if encoded_keys:
+            # Assicurati che encoded_keys contenga una sola chiave
+            if ',' in encoded_keys:
+                encoded_keys = encoded_keys.split(',')[0]
+                print(f"[AVVISO] Trovate multiple chiavi, usata solo la prima: {encoded_keys}")
+                logging.warning(f"Trovate multiple chiavi, usata solo la prima: {encoded_keys}")
             key_id, key = decrypt_token(encoded_keys)
             return stream_url, key_id, key
         else:
