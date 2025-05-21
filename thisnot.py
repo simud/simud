@@ -127,7 +127,8 @@ def get_stream_and_key(scraper, url, channel_name):
         stream_url, encoded_keys = stream_matches[0]
         stream_url = html.unescape(stream_url)
         print(f"[SUCCESSO] Flusso trovato: {stream_url}")
-        logging.debug(f"Flusso trovato: {stream_url}")
+        print(f"[DEBUG] Flusso {stream_url} associato al canale: {channel_name}")
+        logging.debug(f"Flusso trovato: {stream_url}, associato al canale: {channel_name}")
 
         # Gestione del token
         if encoded_keys:
