@@ -3,8 +3,8 @@ import re
 
 # URL del file M3U8 da scaricare
 input_url = "https://raw.githubusercontent.com/ciccioxm3/ddprx/refs/heads/main/onlyevents.m3u8"
-# Nuovo prefisso proxy
-prefix = "https://nzo66-tvproxy.hf.space/proxy/m3u?url="
+# Prefisso proxy da applicare a ogni flusso
+proxy_prefix = "https://nzo66-tvproxy.hf.space/proxy/m3u?url="
 
 # Scarica il file M3U8
 try:
@@ -14,28 +14,33 @@ except requests.RequestException as e:
     print(f"Errore nel download del file M3U8: {e}")
     exit()
 
-# Leggi il contenuto
+# Leggi le righe del file
 lines = response.text.splitlines()
 
-# Lista per il nuovo contenuto
+# Nuove righe da scrivere
 new_lines = []
 current_channel = []
 is_channel = False
 
 for line in lines:
     if line.startswith("#EXTINF"):
-        # Inizio di un nuovo canale
+        # Nuovo canale
         if current_channel:
             new_lines.extend(current_channel)
         current_channel = [line]
         is_channel = True
     elif is_channel and line.strip() and line.startswith("http"):
-        # Rimuove eventuali proxy già presenti
-        original_url = re.sub(r'^.*?/proxy/m3u\?url=', '', line)
-        # Applica il nuovo prefisso proxy
-        modified_url = prefix + original_url
+        # Estrai solo l'URL originale, rimuovendo eventuali proxy precedenti
+        match = re.search(r'url=(https?://.+)', line)
+        if match:
+            original_url = match.group(1)
+        else:
+            original_url = line  # Se non c'è proxy precedente, usa l'URL intero
 
-        # Modifica il nome del canale nella riga EXTINF
+        # Applica il nuovo proxy
+        modified_url = proxy_prefix + original_url
+
+        # Modifica il nome del canale
         extinf_line = current_channel[0]
         tvg_name_match = re.search(r'tvg-name="([^"]+)"', extinf_line)
         if tvg_name_match:
@@ -52,26 +57,26 @@ for line in lines:
 
         # Aggiungi l'URL modificato
         current_channel.append(modified_url)
-        # Scrivi il canale completo e resetta
+        # Scrivi blocco canale e resetta
         new_lines.extend(current_channel)
         current_channel = []
         is_channel = False
     elif is_channel and line.strip():
-        # Aggiungi righe intermedie (es. #EXTVLCOPT)
+        # Altre righe intermedie (#EXTVLCOPT ecc.)
         current_channel.append(line)
     else:
-        # Righe fuori da un canale (es. #EXTM3U)
+        # Righe fuori dai blocchi canale
         if current_channel:
             new_lines.extend(current_channel)
             current_channel = []
             is_channel = False
         new_lines.append(line)
 
-# Aggiungi l'ultimo canale, se presente
+# Aggiungi eventuale ultimo canale
 if current_channel:
     new_lines.extend(current_channel)
 
-# Salva il nuovo file M3U8
+# Salva nuovo file M3U8
 output_file = "itaevents3.m3u8"
 try:
     with open(output_file, "w", encoding="utf-8") as f:
