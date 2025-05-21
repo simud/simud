@@ -4,7 +4,9 @@ import re
 # URL del file M3U8 da scaricare
 input_url = "https://raw.githubusercontent.com/ciccioxm3/ddprx/refs/heads/main/onlyevents.m3u8"
 # Prefisso proxy da applicare a ogni flusso
-proxy_prefix = "https://nzo66-tvproxy.hf.space/proxy/m3u?url="
+proxy_prefix = "https://mfp2.nzo66.com/extractor/video?host=DLHD&d="
+# Suffisso da aggiungere alla fine di ogni flusso
+proxy_suffix = "&redirect_stream=true&api_password=mfp123"
 
 # Scarica il file M3U8
 try:
@@ -37,8 +39,8 @@ for line in lines:
         else:
             original_url = line  # Se non c'è proxy precedente, usa l'URL intero
 
-        # Applica il nuovo proxy
-        modified_url = proxy_prefix + original_url
+        # Applica il nuovo proxy e il suffisso
+        modified_url = proxy_prefix + original_url + proxy_suffix
 
         # Modifica il nome del canale
         extinf_line = current_channel[0]
