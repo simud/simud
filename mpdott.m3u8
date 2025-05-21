@@ -1,4 +1,74 @@
 #EXTM3U url-tvg="http://www.epgitalia.tv/gzip,http://epg-guide.com/it.gz,https://raw.github.com/matthuisman/i.mjh.nz/master/PlutoTV/us.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/PlutoTV/it.xml.gz,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-events-epg.xml,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-channels-epg.xml,https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/it.xml.gz"
+#EXTINF:-1 tvg-id="skysportcalcio.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-calcio-it.png" group-title="PREMIER LEAGUE - INGHILTERRA",Crystal Palace - Wolverhampton
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=00362f95db61eba0e6f14acee3f71e01:fb74cd84b53c7557e18424a3356c4665
+https://linear302-it-dash1-prd.selector.skycdn.it/016a/31209/FHD/skysportseriea/master_stereo.mpd
+#EXTINF:-1 tvg-id="usa.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/usa/usa-network-us.png" group-title="PREMIER LEAGUE - INGHILTERRA",Manchester City - Bournemouth
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=78ab64fa90f137a697743b5dc27b2f96:de4d31c7fc6005ede28abab2a0720a9f
+https://fsly.stream.peacocktv.com/Content/CMAF_OL1-CTR-4s/Live/channel(usa-east)/master.mpd
+#EXTINF:-1 tvg-id="skysport251.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-251-it.png" group-title="PREMIER LEAGUE - INGHILTERRA",Tottenham - Manchester United
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0036384f59a2b80ed142f82250c79f77:2e6507cb779a28739b0bb1564f418823
+https://linear311-it-dash1-prd.selector.skycdn.it/016a/31917/FHD/skysport251/master.mpd
+#EXTINF:-1 tvg-id="skysport251.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-251-it.png" group-title="EUROPA LEAGUE - FINALE",Tottenham - Manchester United
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0036384f59a2b80ed142f82250c79f77:2e6507cb779a28739b0bb1564f418823
+https://linear311-it-dash1-prd.selector.skycdn.it/016a/31917/FHD/skysport251/master.mpd
+#EXTINF:-1 tvg-id="skysport252.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-252-it.png" group-title="EUROPA LEAGUE - FINALE",Vicenza - Crotone
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=003610b4ce44ba838c199b6636cf7431:8369cbbccf0c1ff6bdbacbdae9252a04
+https://linear312-it-dash1-prd.selector.skycdn.it/016a/32951/FHD/skysport252/master.mpd
+#EXTINF:-1 tvg-id="skysport253.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-253-it.png" group-title="EUROPA LEAGUE - FINALE",Audace Cerignola - Atalanta II
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0036d3b63b421abd69d9f0d3b6bdcf19:0725c3162d5aefbf9c6d144f06ea0c92
+https://linear311-it-dash1-prd.selector.skycdn.it/016a/32233/FHD/skysport253/master_stereo.mpd
+#EXTINF:-1 tvg-id="skysport252.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-252-it.png" group-title="SERIE B PLAYOFF (ANDATA) - ITALIA",Vicenza - Crotone
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=003610b4ce44ba838c199b6636cf7431:8369cbbccf0c1ff6bdbacbdae9252a04
+https://linear312-it-dash1-prd.selector.skycdn.it/016a/32951/FHD/skysport252/master.mpd
+#EXTINF:-1 tvg-id="skysport253.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-253-it.png" group-title="SERIE B PLAYOFF (ANDATA) - ITALIA",Audace Cerignola - Atalanta II
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0036d3b63b421abd69d9f0d3b6bdcf19:0725c3162d5aefbf9c6d144f06ea0c92
+https://linear311-it-dash1-prd.selector.skycdn.it/016a/32233/FHD/skysport253/master_stereo.mpd
+#EXTINF:-1 tvg-id="skysport252.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-252-it.png" group-title="SERIE C PLAYOFF (RITORNO)",Vicenza - Crotone
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=003610b4ce44ba838c199b6636cf7431:8369cbbccf0c1ff6bdbacbdae9252a04
+https://linear312-it-dash1-prd.selector.skycdn.it/016a/32951/FHD/skysport252/master.mpd
+#EXTINF:-1 tvg-id="skysport253.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-253-it.png" group-title="SERIE C PLAYOFF (RITORNO)",Audace Cerignola - Atalanta II
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0036d3b63b421abd69d9f0d3b6bdcf19:0725c3162d5aefbf9c6d144f06ea0c92
+https://linear311-it-dash1-prd.selector.skycdn.it/016a/32233/FHD/skysport253/master_stereo.mpd
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="NBA PLAYOFF - USA",Minnesota Timberwolves v Oklahoma City Thunder (G.1 Finale W.C.)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=00364eac2ffee337640e39682439b540:0960172d9000c470ade0658bd36c1d53
+https://linear308-it-dash1-prd.selector.skycdn.it/016a/31764/FHD/skysportnba/master_stereo.mpd
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="NBA PLAYOFF - USA",Indiana Pacers v New York Knicks (G.1 Finale E.C.)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=00364eac2ffee337640e39682439b540:0960172d9000c470ade0658bd36c1d53
+https://linear308-it-dash1-prd.selector.skycdn.it/016a/31764/FHD/skysportnba/master_stereo.mpd
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="NBA PLAYOFF - USA",Minnesota Timberwolves v Oklahoma City Thunder (G.2 Finale W.C.)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=00364eac2ffee337640e39682439b540:0960172d9000c470ade0658bd36c1d53
+https://linear308-it-dash1-prd.selector.skycdn.it/016a/31764/FHD/skysportnba/master_stereo.mpd
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="NBA PLAYOFF - USA",Indiana Pacers v New York Knicks (G.2 Finale E.C.)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=00364eac2ffee337640e39682439b540:0960172d9000c470ade0658bd36c1d53
+https://linear308-it-dash1-prd.selector.skycdn.it/016a/31764/FHD/skysportnba/master_stereo.mpd
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="LBA SERIE A, QUARTI - ITALIA",Germani Brescia - Pallacanestro Trieste (Gara 3)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8272bf6ba46f23f9da5270057b6e028a:74ae70dd10b4bb38ed6ffe843f3e2ccd
+https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="LBA SERIE A, QUARTI - ITALIA",Dolomiti Energia Trentino - EA7 Olimpia Milano (Gara 3)
+https://amg16146-wbdi-amg16146c8-samsung-it-1841.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-dmax-samsungit/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="LBA SERIE A, QUARTI - ITALIA",Virtus Bologna - Reyer Venezia (Gara 3)
+https://amg16146-wbdi-amg16146c8-samsung-it-1841.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-dmax-samsungit/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CANALI SPORTIVI",Live
+https://di-kzbhv8pw.vo.lswcdn.net/sportitalia/sihd/chunklist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CANALI SPORTIVI",Live
+https://di-kzbhv8pw.vo.lswcdn.net/sportitalia/sisolocalcio/chunklist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CANALI SPORTIVI",Live
+https://di-kzbhv8pw.vo.lswcdn.net/sportitalia/silive24/chunklist.m3u8
 #EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/perma/live1.png", Sport 24Diretta sempre attiva
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
@@ -263,7 +333,7 @@ https://hls.kangal.icu/hls/skyuno/index.m3u8
 #EXTVLCOPT:http-referrer=https://www.twitch.tv/grenbaud
 #EXTVLCOPT:http-origin=https://www.twitch.tv/grenbaud
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://usw22.playlist.ttvnw.net/v1/playlist/Ct0EXkJZPzKKw9zAQ76fOucoAjb29hMwAqy70ssrZ3cNU6h98_j0ATDKwuXIDKYKZubDC6Eiki4KqCM2BJw3nPRgcjKJ9FZ_NCloLBsUpOrMDzuMvWxmlWnBn8_ypIAATZzMvZLYtQCOhFTgADDF9-dfjrZJ75g0NzzxqP863eevHWGZsU2lGG_YJKJAd8Ou9qEd-dzE270YKEa0rGjWPoDm7-faTPVxkgRVVZPOIbO2utbznyo6M7VzgfetgdRw9RG9poserITdvB0rxK9T1_IAKX2GFHTwiq3mVy9C8djqGmw2oA-Uwa65ZHDsygcGXIjYgscblb1hcqLOSdlVJ280OiF0xVik36WybKZwRTyVhhoQky6Qqaz2F5QHumldUTk4y29Gcm1YYsraNZ_4lj3CwPVWtvLRTEyQzkeR8Qz82CPiDXHPo4ghQNWvLs8j9ixFOtL_og7XGf5w4XbZfk2IoimScsWlhBi20a_jcwSirxcfhjadQDeooP3sOE3VnBy_DxNfPmQW5iFkJzL7zGj670Dk8O2x2maao8s9X4gX9Ai8cYjx4X66Zw0UvxlYetD0NXQaL--A1U3qg8nlYtI5ArMsml6vdLchKkrTpJLbpMsbn6iUsVDTEvtnk1EKiGHFYzympGxiV_f0rIGI17Np-QeuaEpOz8eRM2YhQF8AUK39nsjQbDG7IRD4jsKLZPInUY3NX87fIhW8s8Fs7g3qkFwXcFoBHWoJRiXW9dlsK7RFjiyunaF6-eQ5Tg2Hyj-EMLrote3PZkx6wVpMWuJHVVvs5KxSBUhuoK-YtAsaDMRsqfm-G_CS3xgDnyABKgl1cy13ZXN0LTIwqQw.m3u8
+https://use22.playlist.ttvnw.net/v1/playlist/Ct0Ee9-ptG9AdiHylo65V6m18kO8RZGjrciI7flj7XhodPj3nGKOqnWc6Bq13AdV7naYIz-VtepR02K1OIN660y7ZYivuHH9kictJYOg8v20MfAkAy_M74BXFGYsvXek2vOZWFEQTAmUIv9GZsNhAA06qRAjSn8-QcwlQFWwR9tTSX4mWXF8jhCHSLjhLXIILt_5Ab7jy7KAtqueOrdZuK4BESf0VV0wmXZKtJkHDmLUfmjdfwUbK7nMwY2L6btfbb0G_n5tFiSyqbI5xSbmLmzHTJnLc4Vqj26U_qF89680nWjuLxjpb14kl-IwAevLZ9BqAsfQFlVdgqusyqE2i-Wv1aYKFAkDRVqqI3l4yvTCIFkoiyL_1mwQaRlmC8-t-c4qXwcgcwtZCoUKFwjON4R4SYcRGRCIznNuj1FFCtqjk-9FcUVNjDrDGBHmYaxvNPe35KZ76TnJ-stJo1eeXUvCcjHktMYfc5RWoCVcHfWFkE3YK_uzcbwJf0W08q_x49ZAI6Q6stqXnHVwjTVldaG1ecl2-CoMrWzPtRMlnY9yurMvLbuCBTflvNQeLER8J7xrwnxnw8ZmXynjyavkDyUemHZ555X5A_vFkbGblduRM178f_EPdTdPihEQtdRiEPczDz6rh3wrLGiiObYPhvQpYWsO6iIQuSTYvVhSVTUr68R3cQH7q7bbmi6hRVt-P-hTvKIYBQ5HwVgGUPQYFyy_HC6vGFcsM_6HfbuO6BonU9CBo__lAPrxvP0ez8ly3RPNgWPZaWfmYdhU9u2vn8Qh_Bbqxso2dxhRao0NPyUaDGKde2i0z-ThXCHb3iABKgl1cy13ZXN0LTIwqQw.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Kings League", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 #EXTINF:-1 tvg-id="skysportuno.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-uno-it.png" group-title="Dazn MPD",Sky Sport UNO (H)
@@ -314,6 +384,26 @@ https://linear313-it-dash1-prd.selector.skycdn.it/016a/32477/FHD/skyuno/master_s
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=0036bb3fa7e6f2c334d7cba5c28b6caf:217fa35739cd68e90b2cd23322c01312
 https://linear311-it-dash1-prd.selector.skycdn.it/016a/313073/FHD/eurosport/master_stereo.mpd
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Altro",live12hd (Hd)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=003610b4ce44ba838c199b6636cf7431:8369cbbccf0c1ff6bdbacbdae9252a04
+https://linear312-it-dash1-prd.selector.skycdn.it/016a/32951/FHD/skysport252/master.mpd
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Altro",live12 (H)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=003610b4ce44ba838c199b6636cf7431:8369cbbccf0c1ff6bdbacbdae9252a04
+https://linear312-it-dash1-prd.selector.skycdn.it/016a/32951/FHD/skysport252/master_stereo.mpd
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Altro",live13hd (Hd)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0036d3b63b421abd69d9f0d3b6bdcf19:0725c3162d5aefbf9c6d144f06ea0c92
+https://linear311-it-dash1-prd.selector.skycdn.it/016a/32233/FHD/skysport253/master_stereo.mpd
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Altro",live14 (H)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=00369c14c20b78aadb1ec0e3c0e74979:e768767e2c7238d8069887bb36aed7fa
+https://linear312-it-dash1-prd.selector.skycdn.it/016a/31234/FHD/skysport254/master_stereo.mpd
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Altro",live15 (H)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0036b781a22ebb0c20c16ac27d5d1448:f309b94acfda720bf1ed5741489f8967
+https://linear311-it-dash1-prd.selector.skycdn.it/016a/32910/FHD/skysport255/master_stereo.mpd
 #EXTM3U  url-tvg="http://www.epgitalia.tv/gzip,http://epg-guide.com/it.gz,https://raw.github.com/matthuisman/i.mjh.nz/master/PlutoTV/us.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/PlutoTV/it.xml.gz,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-events-epg.xml,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-channels-epg.xml,https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/it.xml.gz"
 #EXTINF:-1 tvg-id="Sky.Sport24.it" tvg-logo="https://i.postimg.cc/d3fXKnGj/sky-condivisione.png" group-title="Sky Sport",Sky Sport 24
 #KODIPROP:inputstream.adaptive.license_type=clearkey
