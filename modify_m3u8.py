@@ -31,41 +31,44 @@ for line in lines:
             new_lines.extend(current_channel)
         current_channel = [line]
         is_channel = True
-    elif is_channel and line.strip() and line.startswith("http"):
-        # Estrai l'URL originale, rimuovendo eventuali proxy precedenti
-        match = re.search(r'url=(https?://[^&]+)', line)
-        if match:
-            original_url = match.group(1)
-        else:
-            original_url = line  # Se non c'è "url=", usa l'URL intero
-
-        # Applica il nuovo proxy e il suffisso
-        modified_url = proxy_prefix + original_url + proxy_suffix
-
-        # Modifica il nome del canale
-        extinf_line = current_channel[0]
-        tvg_name_match = re.search(r'tvg-name="([^"]+)"', extinf_line)
-        if tvg_name_match:
-            tvg_name = tvg_name_match.group(1)
-            try:
-                original_channel_name = extinf_line.split(",")[-1].strip()
-                new_channel_name = f"{tvg_name} ({original_channel_name})"
-                new_extinf = ",".join(extinf_line.split(",")[:-1] + [new_channel_name])
-                current_channel[0] = new_extinf
-            except IndexError:
-                print(f"Errore nella riga EXTINF: {extinf_line}")
-        else:
-            print(f"tvg-name non trovato in: {extinf_line}")
-
-        # Aggiungi l'URL modificato
-        current_channel.append(modified_url)
-        # Scrivi blocco canale e resetta
-        new_lines.extend(current_channel)
-        current_channel = []
-        is_channel = False
     elif is_channel and line.strip():
-        # Altre righe intermedie (#EXTVLCOPT ecc.)
-        current_channel.append(line)
+        # Controlla se la riga è un URL (relativo o assoluto)
+        if line.startswith("/proxy/m3u?url=") or line.startswith("http"):
+            # Estrai l'URL originale
+            match = re.search(r'url=(https?://[^&]+)', line)
+            if match:
+                original_url = match.group(1)
+            else:
+                # Se non c'è "url=", considera l'intera riga come URL
+                original_url = line.replace("/proxy/m3u?url=", "") if line.startswith("/proxy/m3u?url=") else line
+
+            # Applica il nuovo proxy e il suffisso
+            modified_url = proxy_prefix + original_url + proxy_suffix
+
+            # Modifica il nome del canale
+            extinf_line = current_channel[0]
+            tvg_name_match = re.search(r'tvg-name="([^"]+)"', extinf_line)
+            if tvg_name_match:
+                tvg_name = tvg_name_match.group(1)
+                try:
+                    original_channel_name = extinf_line.split(",")[-1].strip()
+                    new_channel_name = f"{tvg_name} ({original_channel_name})"
+                    new_extinf = ",".join(extinf_line.split(",")[:-1] + [new_channel_name])
+                    current_channel[0] = new_extinf
+                except IndexError:
+                    print(f"Errore nella riga EXTINF: {extinf_line}")
+            else:
+                print(f"tvg-name non trovato in: {extinf_line}")
+
+            # Aggiungi l'URL modificato
+            current_channel.append(modified_url)
+            # Scrivi blocco canale e resetta
+            new_lines.extend(current_channel)
+            current_channel = []
+            is_channel = False
+        else:
+            # Altre righe intermedie (#EXTVLCOPT ecc.)
+            current_channel.append(line)
     else:
         # Righe fuori dai blocchi canale
         if current_channel:
