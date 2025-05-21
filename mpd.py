@@ -10,8 +10,7 @@ def concatenate_m3u8():
         "https://raw.githubusercontent.com/simud/simud/refs/heads/main/Skympd.m3u8",
         "https://raw.githubusercontent.com/simud/simud/refs/heads/main/simudflix2.m3u8",
         "https://raw.githubusercontent.com/simud/simud/refs/heads/main/vavoofunzionante.m3u8",
-        "https://raw.githubusercontent.com/Brenders/Pluto-TV-Italia-M3U/refs/heads/main/PlutoItaly.m3u",
-        "https://raw.githubusercontent.com/simud/simud/refs/heads/main/itaevents3.m3u8"
+        "https://raw.githubusercontent.com/Brenders/Pluto-TV-Italia-M3U/refs/heads/main/PlutoItaly.m3u"
     ]
     
     # Verifica il limite di 10 URL
