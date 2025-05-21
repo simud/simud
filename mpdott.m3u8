@@ -89,6 +89,61 @@ https://xuione.sportstreaming.net/SportStreaming/SportStreaming/43.m3u8
 https://xuione.sportstreaming.net/SportStreaming/SportStreaming/44.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Eventi", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
+#EXTINF:-1 group-title="Diretta Goal" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Diretta Gol Vs Serie C
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://skystreaming.help
+#EXTVLCOPT:http-origin=https://skystreaming.help
+https://hls.kangal.icu/hls/calcio/index.m3u8
+#EXTINF:-1 group-title="Eventi Sky Streaming" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Al Nassr Fc Vs Al Khaleej
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://skystreaming.help
+#EXTVLCOPT:http-origin=https://skystreaming.help
+https://hls.kangal.icu/hls/saudi/index.m3u8
+#EXTINF:-1 group-title="Eventi Sky Streaming" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Al Wehda Vs Al Hilal
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://skystreaming.help
+#EXTVLCOPT:http-origin=https://skystreaming.help
+https://hls.kangal.icu/hls/hilal/index.m3u8
+#EXTINF:-1 group-title="Eventi Sky Streaming" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Audace Cerignola Vs Atalanta U23
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://skystreaming.help
+#EXTVLCOPT:http-origin=https://skystreaming.help
+https://hls.kangal.icu/hls/sky253/index.m3u8
+#EXTINF:-1 group-title="Eventi Sky Streaming" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Catanzaro Vs Spezia
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://skystreaming.help
+#EXTVLCOPT:http-origin=https://skystreaming.help
+https://hls.kangal.icu/hls/spezia/index.m3u8
+#EXTINF:-1 group-title="Eventi Sky Streaming" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Juve Stabia Vs Cremonese
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://skystreaming.help
+#EXTVLCOPT:http-origin=https://skystreaming.help
+https://hls.kangal.icu/hls/juve/index.m3u8
+#EXTINF:-1 group-title="Eventi Sky Streaming" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",L R Vicenza Vs Crotone
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://skystreaming.help
+#EXTVLCOPT:http-origin=https://skystreaming.help
+https://hls.kangal.icu/hls/sky252/index.m3u8
+#EXTINF:-1 group-title="Eventi Sky Streaming" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Metz Vs Reims
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://skystreaming.help
+#EXTVLCOPT:http-origin=https://skystreaming.help
+https://hls.kangal.icu/hls/ligue1/index.m3u8
+#EXTINF:-1 group-title="Eventi Sky Streaming" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Pescara Vs Vis Pesaro
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://skystreaming.help
+#EXTVLCOPT:http-origin=https://skystreaming.help
+https://hls.kangal.icu/hls/sky254/index.m3u8
+#EXTINF:-1 group-title="Eventi Sky Streaming" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Ternana Vs Giana Erminio
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://skystreaming.help
+#EXTVLCOPT:http-origin=https://skystreaming.help
+https://hls.kangal.icu/hls/sky255/index.m3u8
+#EXTINF:-1 group-title="Eventi Sky Streaming" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Tottenham Vs Manchester Utd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://skystreaming.help
+#EXTVLCOPT:http-origin=https://skystreaming.help
+https://hls.kangal.icu/hls/sky251/index.m3u8
 #EXTINF:-1 group-title="Sky Sport Backup SD" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Eurosport 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.help
@@ -208,7 +263,7 @@ https://hls.kangal.icu/hls/skyuno/index.m3u8
 #EXTVLCOPT:http-referrer=https://www.twitch.tv/grenbaud
 #EXTVLCOPT:http-origin=https://www.twitch.tv/grenbaud
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://use16.playlist.ttvnw.net/v1/playlist/CtwEP6VBTwzjjxq07Fw_hz2ocwzvIUpQEzio7VSTe42tMl4AAQg_k4HM9Vd_3LOcWWwysgxRQ7iTFh-Z2eSRrTpqnQneayV50TfpYUDC_H0SBHW2ycIKlGd3DznNhpUapQQD0CHg2OEM_8Sib7gu5N77PKtiI6Vk0doM5HF9_ka8i7tQ_W_bjs-DZZ8xXGjaQp2DniLXgN9CX6utc2eUjGFVrRyKjqQrhgWBeWNXJ_o-c2wzuOXu3T2KzpAfHWUCJWYtonaD5Boq78yr5Odsh0ZGhHsxHaiLX5Il0_tO1xOGsXmAY0mpWDjyTpuHGQoq8ENFCBARjT3U31V_7GcQAXUelcSnw7RrjDz6uIKpFbh8G1M65gsJEX0ZaMaUy8xVAOToMOTXFUZgswcolmHjSxL73S74uDkzBm1pCBTjWSnOAKJ-psyLV96-QSOfJeG4pCIW5AHH4zuc44Kiwb9-iFg7GEBFyv2wNA2rcP5iJGrUlr9JvTcbA-cr5aK9drKRQA-CygZEemuIX9XMh23YHtOjt4k2Ei4XaGkgc_QLoW4J-27zdF-w88Y477T83vG9xS-9t0H3R4Spf4wDHePSw0lvKeYOV9hmw19M-5VfAzWm-ENct0gZuq2w87tmZ_lOuZl0MzsfPUcJtde5k6HIYwlnptt6C0iTBfCZUwa2lPVX1VhSNZ2MNUmDkIChOXbg61eMOTZX3zUuFXOyy26N_Mo5IWJTAwWtb7PTv-E7OVw86vhKFok4740E9m6ijStvlMZcQimb2RpH4LwASFa4nL5tx8zJIEhU9Vlgn63dWhoMQoXC4FyG7278TxySIAEqCXVzLWVhc3QtMjCoDA.m3u8
+https://usw22.playlist.ttvnw.net/v1/playlist/Ct0EXkJZPzKKw9zAQ76fOucoAjb29hMwAqy70ssrZ3cNU6h98_j0ATDKwuXIDKYKZubDC6Eiki4KqCM2BJw3nPRgcjKJ9FZ_NCloLBsUpOrMDzuMvWxmlWnBn8_ypIAATZzMvZLYtQCOhFTgADDF9-dfjrZJ75g0NzzxqP863eevHWGZsU2lGG_YJKJAd8Ou9qEd-dzE270YKEa0rGjWPoDm7-faTPVxkgRVVZPOIbO2utbznyo6M7VzgfetgdRw9RG9poserITdvB0rxK9T1_IAKX2GFHTwiq3mVy9C8djqGmw2oA-Uwa65ZHDsygcGXIjYgscblb1hcqLOSdlVJ280OiF0xVik36WybKZwRTyVhhoQky6Qqaz2F5QHumldUTk4y29Gcm1YYsraNZ_4lj3CwPVWtvLRTEyQzkeR8Qz82CPiDXHPo4ghQNWvLs8j9ixFOtL_og7XGf5w4XbZfk2IoimScsWlhBi20a_jcwSirxcfhjadQDeooP3sOE3VnBy_DxNfPmQW5iFkJzL7zGj670Dk8O2x2maao8s9X4gX9Ai8cYjx4X66Zw0UvxlYetD0NXQaL--A1U3qg8nlYtI5ArMsml6vdLchKkrTpJLbpMsbn6iUsVDTEvtnk1EKiGHFYzympGxiV_f0rIGI17Np-QeuaEpOz8eRM2YhQF8AUK39nsjQbDG7IRD4jsKLZPInUY3NX87fIhW8s8Fs7g3qkFwXcFoBHWoJRiXW9dlsK7RFjiyunaF6-eQ5Tg2Hyj-EMLrote3PZkx6wVpMWuJHVVvs5KxSBUhuoK-YtAsaDMRsqfm-G_CS3xgDnyABKgl1cy13ZXN0LTIwqQw.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Kings League", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 #EXTINF:-1 tvg-id="skysportuno.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-uno-it.png" group-title="Dazn MPD",Sky Sport UNO (H)
