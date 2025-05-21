@@ -15,7 +15,7 @@ logging.basicConfig(
     filemode='w'
 )
 
-# Associazioni aggiornate
+# Associazioni
 channel_associations = {
     "SportCalcio_IT": "Sky Sport Calcio",
     "SportUno_IT": "Sky Sport UNO",
@@ -115,7 +115,7 @@ def decrypt_token(encoded_keys):
         logging.error(f"Errore nella decodifica del token: {e}")
         return None, None
 
-# Funzione per estrarre il flusso MPD/M3U8 e la chiave
+# Funzione per estrarre il flusso MPD/M3U8 e le chiavi
 def get_stream_and_key(scraper, url, channel_name):
     print(f"[INFO] Accesso al codice sorgente: {url}")
     try:
@@ -131,9 +131,9 @@ def get_stream_and_key(scraper, url, channel_name):
             f.write(page_source)
         print(f"[DEBUG] Codice sorgente salvato in debug_source_{debug_id}.html")
 
-        # Cerca flussi MPD/M3U8 con una sola chiave
+        # Cerca flussi MPD/M3U8
         stream_pattern = re.compile(
-            r'(?:chrome-extension://[^\s]+?)?(?:player\.html#)?(https?://.+?\.(?:mpd|m3u8))(?:\?(?:[^&]*&)*ck=([^\s,&]+))?(?="|\'|\s|$)',
+            r'(?:chrome-extension://[^\s]+?)?(?:player\.html#)?(https?://.+?\.(?:mpd|m3u8))(?:\?(?:[^&]*&)*ck=([^\s"]+))?(?="|\'|\s|$)',
             re.IGNORECASE
         )
         stream_matches = stream_pattern.findall(page_source)
@@ -141,33 +141,38 @@ def get_stream_and_key(scraper, url, channel_name):
         if not stream_matches:
             print(f"[AVVISO] Nessun flusso MPD/M3U8 trovato in {url}")
             logging.warning(f"Nessun flusso MPD/M3U8 trovato in {url}")
-            return None, None, None
+            return []
 
-        # Prendi il primo flusso valido e la sua chiave
-        stream_url, encoded_keys = stream_matches[0]
-        stream_url = html.unescape(stream_url)
-        print(f"[SUCCESSO] Flusso trovato: {stream_url}")
-        print(f"[DEBUG] Flusso {stream_url} associato al canale: {channel_name}")
-        logging.debug(f"Flusso trovato: {stream_url}, associato al canale: {channel_name}")
+        results = []
+        for stream_url, encoded_keys in stream_matches:
+            stream_url = html.unescape(stream_url)
+            print(f"[SUCCESSO] Flusso trovato: {stream_url}")
+            print(f"[DEBUG] Flusso {stream_url} associato al canale: {channel_name}")
+            logging.debug(f"Flusso trovato: {stream_url}, associato al canale: {channel_name}")
 
-        # Gestione del token
-        if encoded_keys:
-            # Assicurati che venga presa solo la prima chiave
-            if ',' in encoded_keys:
-                encoded_keys = encoded_keys.split(',')[0]
-                print(f"[AVVISO] Trovate multiple chiavi, usata solo la prima: {encoded_keys}")
-                logging.warning(f"Trovate multiple chiavi, usata solo la prima: {encoded_keys}")
-            key_id, key = decrypt_token(encoded_keys)
-            return stream_url, key_id, key
-        else:
-            print(f"[AVVISO] Nessun parametro ck= trovato in {url}")
-            logging.warning(f"Nessun parametro ck= trovato in {url}")
-            return stream_url, None, None
+            if encoded_keys:
+                # Separa le chiavi multiple
+                key_list = encoded_keys.split(',')
+                for key in key_list:
+                    key_id, key_value = decrypt_token(key)
+                    if key_id and key_value:
+                        results.append((stream_url, key_id, key_value))
+                        print(f"[INFO] Aggiunta chiave: {key_id}:{key_value}")
+                        logging.debug(f"Aggiunta chiave: {key_id}:{key_value}")
+                    else:
+                        print(f"[AVVISO] Chiave non valida: {key}")
+                        logging.warning(f"Chiave non valida: {key}")
+            else:
+                results.append((stream_url, None, None))
+                print(f"[AVVISO] Nessun parametro ck= trovato per {stream_url}")
+                logging.warning(f"Nessun parametro ck= trovato per {stream_url}")
+
+        return results
 
     except Exception as e:
         print(f"[ERRORE] Errore nel processamento di {url}: {e}")
         logging.error(f"Errore nel processamento di {url}: {e}")
-        return None, None, None
+        return []
 
 # Funzione per ottenere le informazioni del canale
 def get_channel_info(url_id, group_title):
@@ -227,7 +232,7 @@ def create_m3u8_list():
         return
 
     # Trova tutti i contenitori principali
-    main_cards = soup.find_all('div', class_='card')
+    main_cards = soup.find_all('div', class_='card text-white mb-5')
     if not main_cards:
         print("[AVVISO] Nessun contenitore principale trovato nella pagina!")
         logging.warning("Nessun contenitore principale trovato nella pagina!")
@@ -246,66 +251,56 @@ def create_m3u8_list():
         group_title = header.text.strip() if header else f"Sport_{idx}"
         print(f"[INFO] Elaborazione categoria: {group_title}")
 
-        # Trova tutti i contenitori card-body all'interno del main_card
-        event_containers = main_card.find_all('div', class_='card-body')
-        if not event_containers:
-            print(f"[AVVISO] Nessun contenitore card-body trovato per la categoria: {group_title}")
-            logging.warning(f"Nessun contenitore card-body trovato per la categoria: {group_title}")
-            continue
-
-        print(f"[SUCCESSO] Trovati {len(event_containers)} contenitori card-body per la categoria {group_title}")
-        logging.info(f"Trovati {len(event_containers)} contenitori card-body per la categoria {group_title}")
-
         # Salva il contenitore principale per debug
         with open(f"debug_main_card_{idx}.html", 'w', encoding='utf-8') as f:
             f.write(str(main_card))
         print(f"[DEBUG] Contenitore principale salvato in debug_main_card_{idx}.html")
 
-        for container_idx, container in enumerate(event_containers):
-            # Trova tutti i link all'interno del contenitore
-            links = container.find_all('a', href=re.compile(r'player\.php\?id=\w+'))
-            print(f"[DEBUG] Trovati {len(links)} link ai player per il contenitore {container_idx} nella categoria {group_title}")
-            logging.debug(f"Trovati {len(links)} link ai player per il contenitore {container_idx} nella categoria {group_title}")
+        # Trova tutti i link all'interno del main_card
+        links = main_card.find_all('a', href=re.compile(r'player\.php\?id=\w+'))
+        print(f"[DEBUG] Trovati {len(links)} link ai player per la categoria {group_title}")
+        logging.debug(f"Trovati {len(links)} link ai player per la categoria {group_title}")
 
-            if not links:
-                print(f"[AVVISO] Nessun link ai player trovato nel contenitore {container_idx} della categoria: {group_title}")
-                logging.warning(f"Nessun link ai player trovato nel contenitore {container_idx} della categoria: {group_title}")
-                continue
+        if not links:
+            print(f"[AVVISO] Nessun link ai player trovato per la categoria: {group_title}")
+            logging.warning(f"Nessun link ai player trovato per la categoria: {group_title}")
+            continue
 
-            with open("debug_links.txt", 'a', encoding='utf-8') as f:
-                f.write(f"\nCategoria: {group_title}, Contenitore: {container_idx}\n")
-                for link in links:
-                    f.write(f"{link['href']}\n")
-
+        with open("debug_links.txt", 'a', encoding='utf-8') as f:
+            f.write(f"\nCategoria: {group_title}\n")
             for link in links:
-                stream_url = urljoin(url, link['href'])
-                url_id = stream_url.split('id=')[-1] if 'id=' in stream_url else group_title.replace(' ', '_')
+                f.write(f"{link['href']}\n")
 
-                # Cerca il tag <b> immediatamente precedente al link per il nome del canale
-                channel_name = None
-                prev_b = link.find_previous('b')
-                if prev_b and prev_b.text.strip() and not prev_b.get('class', ['']).count('date') and not prev_b.get('class', ['']).count('title'):
-                    channel_name = prev_b.text.strip()
-                else:
-                    # Fallback: usa l'url_id se non c'è un nome evento valido
-                    channel_name = url_id
-                    print(f"[AVVISO] Nome canale non trovato per {stream_url}, usato url_id: {channel_name}")
-                    logging.warning(f"Nome canale non trovato per {stream_url}, usato url_id: {channel_name}")
+        for link in links:
+            stream_url = urljoin(url, link['href'])
+            url_id = stream_url.split('id=')[-1] if 'id=' in stream_url else group_title.replace(' ', '_')
 
-                print(f"[INFO] Elaborazione link: {stream_url}, Nome canale: {channel_name}, Group-title: {group_title}")
-                logging.debug(f"Elaborazione link: {stream_url}, Nome canale: {channel_name}, Group-title: {group_title}")
+            # Cerca il tag <b> immediatamente precedente al link per il nome del canale
+            channel_name = None
+            prev_b = link.find_previous('b')
+            if prev_b and prev_b.text.strip() and not prev_b.get('class', ['']).count('date') and not prev_b.get('class', ['']).count('title'):
+                channel_name = prev_b.text.strip()
+            else:
+                # Fallback: usa l'url_id se non c'è un nome evento valido
+                channel_name = url_id
+                print(f"[AVVISO] Nome canale non trovato per {stream_url}, usato url_id: {channel_name}")
+                logging.warning(f"Nome canale non trovato per {stream_url}, usato url_id: {channel_name}")
 
-                stream, key_id, key = get_stream_and_key(scraper, stream_url, channel_name)
-                if stream:
+            print(f"[INFO] Elaborazione link: {stream_url}, Nome canale: {channel_name}, Group-title: {group_title}")
+            logging.debug(f"Elaborazione link: {stream_url}, Nome canale: {channel_name}, Group-title: {group_title}")
+
+            stream_results = get_stream_and_key(scraper, stream_url, channel_name)
+            if stream_results:
+                for stream, key_id, key in stream_results:
                     entry = create_m3u_entry(channel_name, url_id, stream, key_id, key, group_title)
                     channels.append(entry)
                     print(f"[SUCCESSO] Canale aggiunto: {channel_name}, Flusso: {stream}, Group-title: {group_title}")
                     logging.debug(f"Canale aggiunto: {channel_name}, Flusso: {stream}, Group-title: {group_title}")
-                else:
-                    print(f"[AVVISO] Nessun flusso valido trovato per il link: {stream_url}")
-                    logging.warning(f"Nessun flusso valido trovato per il link: {stream_url}")
+            else:
+                print(f"[AVVISO] Nessun flusso valido trovato per il link: {stream_url}")
+                logging.warning(f"Nessun flusso valido trovato per il link: {stream_url}")
 
-                time.sleep(0.5)
+            time.sleep(0.5)
 
     m3u_file = "thisnot.m3u8"
     with open(m3u_file, 'w', encoding='utf-8') as f:
