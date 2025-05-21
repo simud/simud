@@ -2,7 +2,7 @@ import requests
 import re
 
 # URL del file M3U8
-input_url = "https://raw.githubusercontent.com/ciccioxm3/omg/72596e5e7142f99b2a70191101f8983ece1e92f9/onlyevents.m3u8"
+input_url = "https://raw.githubusercontent.com/ciccioxm3/ddprx/refs/heads/main/onlyevents.m3u8"
 # Prefisso da aggiungere ai flussi
 prefix = "https://nzo66-tvproxy.hf.space/proxy/m3u?url="
 
