@@ -17,11 +17,11 @@ https://linear312-it-dash1-prd.selector.skycdn.it/016a/32951/FHD/skysport252/mas
 https://linear311-it-dash1-prd.selector.skycdn.it/016a/32233/FHD/skysport253/master_stereo.mpd
 #EXTINF:-1 tvg-id="skysport254.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-254-it.png" group-title="CALCIO",20:00 Pescara - Vis Pesaro 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"ADacFMILeKrbHsDjwOdJeQ","k":"52h2fixyONgGmIe7Nq7X-g"}]}
+#KODIPROP:inputstream.adaptive.license_key=keys:[{'kty': 'oct', 'kid': 'ADacFMILeKrbHsDjwOdJeQ', 'k': '52h2fixyONgGmIe7Nq7X-g'}]
 https://linear312-it-dash1-prd.selector.skycdn.it/016a/31234/FHD/skysport254/master.mpd
 #EXTINF:-1 tvg-id="skysport255.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-255-it.png" group-title="CALCIO",20:00 Ternana - Giana Erminio 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"ADa3gaIuuwwgwWrCfV0USA","k":"8wm5Ss_acgvx7VdBSJ-JZw"}]}
+#KODIPROP:inputstream.adaptive.license_key=keys:[{'kty': 'oct', 'kid': 'ADa3gaIuuwwgwWrCfV0USA', 'k': '8wm5Ss_acgvx7VdBSJ-JZw'}]
 https://linear311-it-dash1-prd.selector.skycdn.it/016a/32910/FHD/skysport255/master.mpd
 #EXTINF:-1 tvg-id="skysportcalcio.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-calcio-it.png" group-title="CALCIO",20:30 Heidenheim - Elversberg 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
