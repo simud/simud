@@ -98,13 +98,27 @@ def authenticate(scraper, login_url, password):
         logging.error(f"Errore durante l'autenticazione: {e}")
         return None
 
+# Funzione per correggere il padding base64
+def fix_base64_padding(encoded_keys):
+    # Rimuovi spazi o caratteri non validi
+    encoded_keys = encoded_keys.strip()
+    # Aggiungi padding con '=' se necessario
+    padding_needed = (4 - (len(encoded_keys) % 4)) % 4
+    encoded_keys += '=' * padding_needed
+    return encoded_keys
+
 # Funzione per decriptare il token
 def decrypt_token(encoded_keys):
     try:
+        # Correggi il padding base64
+        encoded_keys = fix_base64_padding(encoded_keys)
+        print(f"[DEBUG] Stringa base64 dopo correzione padding: {encoded_keys}")
+        logging.debug(f"Stringa base64 dopo correzione padding: {encoded_keys}")
+
         # Decodifica base64
         decoded = base64.b64decode(encoded_keys).decode('utf-8')
         
-        # Controlla se è un JSON (nuovo formato)
+        # Controlla se è un JSON
         try:
             json_data = json.loads(decoded)
             if isinstance(json_data, dict):
@@ -177,8 +191,9 @@ def get_stream_and_key(scraper, url, channel_name):
                         print(f"[INFO] Aggiunta chiave: {key_id}:{key_value}")
                         logging.debug(f"Aggiunta chiave: {key_id}:{key_value}")
                     else:
-                        print(f"[AVVISO] Chiave non valida: {key}")
-                        logging.warning(f"Chiave non valida: {key}")
+                        print(f"[AVVISO] Chiave non valida: {key}, flusso mantenuto senza chiave")
+                        logging.warning(f"Chiave non valida: {key}, flusso mantenuto senza chiave")
+                        results.append((stream_url, None, None))
             else:
                 results.append((stream_url, None, None))
                 print(f"[AVVISO] Nessun parametro ck= trovato per {stream_url}")
