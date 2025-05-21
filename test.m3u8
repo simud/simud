@@ -8,15 +8,14 @@
 https://dcd-ak-livedazn.akamaized.net/1n9vvvo9n8sz71hjiorvt10ll5/web/stream.mpd?channel=2656&outlet=dazn-italy&ck=eyJlYjkzN2VlMzBhY2Q1YzE2ODIzODIwNjYyMzc3YjE2ZCI6ImUyMjU1N2FkNGYwNTU4MzdmMjM2ZjMwOGU2MDUzY2MzIn0=
 
 #EXTINF:-1 tvg-id="dazn1.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/DAZN_1_Logo.svg/774px-DAZN_1_Logo.svg.png" group-title="CALCIO",20:30 Juve Stabia - Cremonese 2
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=eb937ee30acd5c16823820662377b16d:e22557ad4f055837f236f308e6053cc3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
 #EXTVLCOPT:http-header-fields=dazn-token=st=1747852100~exp=1747938500~acl=/*~id=3542e12cea7d~data=country=it#hashua=544610c250911ce605588efb3a938aed644580fc9b9d1bbc52b9800db189ef69#wm=0~hmac=02d89c7bb585eb64e7bf9d7759709c26c4d2201d8030ccb97792524fa76d36d9
 https://dcd-ak-livedazn.akamaized.net/1n9vvvo9n8sz71hjiorvt10ll5/web/stream.mpd
 
 
-#EXTINF:-1 tvg-id="dazn1.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/DAZN_1_Logo.svg/774px-DAZN_1_Logo.svg.png" group-title="CALCIO",20:30 Juve Stabia - Cremonese 3
+#EXTINF:-1 tvg-id="dazn1.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/DAZN_1_Logo.svg/774px-DAZN_1_Logo.svg.png" group-title="CALCIO",20:30 Juve Stabia - Cremonese 1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=eb937ee30acd5c16823820662377b16d:e22557ad4f055837f236f308e6053cc3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+#EXTVLCOPT:http-header-fields=dazn-token=st=1747852100~exp=1747938500~acl=/*~id=3542e12cea7d~data=country=it#hashua=544610c250911ce605588efb3a938aed644580fc9b9d1bbc52b9800db189ef69#wm=0~hmac=02d89c7bb585eb64e7bf9d7759709c26c4d2201d8030ccb97792524fa76d36d9|Origin=https://www.dazn.com|Referer=https://www.dazn.com/
 https://dcd-ak-livedazn.akamaized.net/1n9vvvo9n8sz71hjiorvt10ll5/web/stream.mpd
