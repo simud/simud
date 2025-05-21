@@ -32,12 +32,12 @@ for line in lines:
         current_channel = [line]
         is_channel = True
     elif is_channel and line.strip() and line.startswith("http"):
-        # Estrai solo l'URL originale, rimuovendo eventuali proxy precedenti
-        match = re.search(r'url=(https?://.+)', line)
+        # Estrai l'URL originale, rimuovendo eventuali proxy precedenti
+        match = re.search(r'url=(https?://[^&]+)', line)
         if match:
             original_url = match.group(1)
         else:
-            original_url = line  # Se non c'è proxy precedente, usa l'URL intero
+            original_url = line  # Se non c'è "url=", usa l'URL intero
 
         # Applica il nuovo proxy e il suffisso
         modified_url = proxy_prefix + original_url + proxy_suffix
