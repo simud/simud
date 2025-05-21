@@ -6,6 +6,7 @@ import logging
 import time
 import html
 from urllib.parse import urljoin
+import json
 
 # Configura il logging
 logging.basicConfig(
@@ -100,16 +101,32 @@ def authenticate(scraper, login_url, password):
 # Funzione per decriptare il token
 def decrypt_token(encoded_keys):
     try:
+        # Decodifica base64
         decoded = base64.b64decode(encoded_keys).decode('utf-8')
-        if ':' in decoded:
-            key_id, key = decoded.split(':', 1)
-            print(f"[SUCCESSO] Token decodificato: key_id={key_id}, key={key}")
-            logging.debug(f"Token decodificato: key_id={key_id}, key={key}")
-            return key_id, key
-        else:
-            print(f"[AVVISO] La stringa decodificata non contiene il separatore ':'")
-            logging.warning("La stringa decodificata non contiene il separatore ':'")
-            return None, None
+        
+        # Controlla se è un JSON (nuovo formato)
+        try:
+            json_data = json.loads(decoded)
+            if isinstance(json_data, dict):
+                # Estrai la prima coppia key_id:key dal dizionario
+                for key_id, key in json_data.items():
+                    print(f"[SUCCESSO] Token JSON decodificato: key_id={key_id}, key={key}")
+                    logging.debug(f"Token JSON decodificato: key_id={key_id}, key={key}")
+                    return key_id, key
+                print(f"[AVVISO] Nessuna coppia key_id:key trovata nel JSON: {decoded}")
+                logging.warning(f"Nessuna coppia key_id:key trovata nel JSON: {decoded}")
+                return None, None
+        except json.JSONDecodeError:
+            # Prova il formato standard (key_id:key)
+            if ':' in decoded:
+                key_id, key = decoded.split(':', 1)
+                print(f"[SUCCESSO] Token standard decodificato: key_id={key_id}, key={key}")
+                logging.debug(f"Token standard decodificato: key_id={key_id}, key={key}")
+                return key_id, key
+            else:
+                print(f"[AVVISO] La stringa decodificata non contiene il separatore ':' né è un JSON valido: {decoded}")
+                logging.warning(f"La stringa decodificata non contiene il separatore ':' né è un JSON valido: {decoded}")
+                return None, None
     except Exception as e:
         print(f"[ERRORE] Errore nella decodifica del token: {e}")
         logging.error(f"Errore nella decodifica del token: {e}")
@@ -131,9 +148,9 @@ def get_stream_and_key(scraper, url, channel_name):
             f.write(page_source)
         print(f"[DEBUG] Codice sorgente salvato in debug_source_{debug_id}.html")
 
-        # Cerca flussi MPD/M3U8
+        # Cerca flussi MPD/M3U8, inclusi quelli con chrome-extension
         stream_pattern = re.compile(
-            r'(?:chrome-extension://[^\s]+?)?(?:player\.html#)?(https?://.+?\.(?:mpd|m3u8))(?:\?(?:[^&]*&)*ck=([^\s"]+))?(?="|\'|\s|$)',
+            r'(?:(?:chrome-extension://[^\s]+?/pages/player\.html#)?)(https?://.+?\.(?:mpd|m3u8))(?:\?(?:[^&]*&)*ck=([^\s"]+))?(?="|\'|\s|$)',
             re.IGNORECASE
         )
         stream_matches = stream_pattern.findall(page_source)
