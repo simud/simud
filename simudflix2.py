@@ -2,11 +2,12 @@ import requests
 import re
 
 # URL della playlist originale
-playlist_url = "https://raw.githubusercontent.com/ciccioxm3/omg/refs/heads/main/247ita.m3u8"
+playlist_url = "https://raw.githubusercontent.com/ciccioxm3/ddprx/refs/heads/main/247ita.m3u8"
 # URL della playlist da concatenare
 simudflix_url = "https://raw.githubusercontent.com/simud/simud/refs/heads/main/simudflix.m3u8"
-# Base URL del proxy
-proxy_base = "https://nzo66-tvproxy.hf.space/proxy/m3u?url="
+# Base URL del nuovo formato per il proxy
+proxy_base = "https://mfp2.nzo66.com/extractor/video?host=DLHD&d="
+proxy_suffix = "&redirect_stream=true&api_password=mfp123"
 # Nuovo logo per Canale 5
 canale_5_logo = "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Canale_5_-_2018_logo.svg/1222px-Canale_5_-_2018_logo.svg.png"
 
@@ -117,9 +118,9 @@ def transform_m3u8():
                     # Aggiungi FHD al nome del canale per 247ita, se non presente
                     new_channel_name = channel_name if has_fhd(channel_name) else f"{channel_name} FHD"
 
-                    # Salva il canale trasformato
+                    # Trasforma l'URL del flusso per 247ita
                     cleaned_name = clean_channel_name(channel_name)
-                    transformed_url = proxy_base + stream_url if stream_url else None
+                    transformed_url = f"{proxy_base}{stream_url}{proxy_suffix}" if stream_url else None
                     original_channels[cleaned_name] = (extinf_lines, transformed_url, new_channel_name)
 
                     i = j + 1 if stream_url else j
