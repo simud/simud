@@ -213,21 +213,20 @@ def get_channel_info(channel_name):
     tvg_id = tvg_id_associations.get(tvg_name, "")
     group_title = group_title_associations.get(tvg_name, "Altro")
     logo = logo_associations.get(tvg_name, "")
-    suffix = "(Hd)" if "hd" in channel_name.lower() else "(H)"
     
     return {
         "tvg_id": tvg_id,
         "tvg_name": tvg_name,
         "tvg_logo": logo,
         "group_title": group_title,
-        "suffix": suffix
+        "suffix": ""  # Imposta il suffisso come vuoto per rimuovere (H) o (Hd)
     }
 
 def create_m3u_entry(channel_name, mpd_url, key_id, key):
     """Crea una voce M3U per il canale nel formato richiesto"""
     info = get_channel_info(channel_name)
     
-    extinf = f'#EXTINF:-1 tvg-id="{info["tvg_id"]}" tvg-logo="{info["tvg_logo"]}" group-title="{info["group_title"]}",{info["tvg_name"]} {info["suffix"]}'
+    extinf = f'#EXTINF:-1 tvg-id="{info["tvg_id"]}" tvg-logo="{info["tvg_logo"]}" group-title="{info["group_title"]}",{info["tvg_name"]}'
     kodiprop_license_type = '#KODIPROP:inputstream.adaptive.license_type=clearkey'
     kodiprop_license_key = f'#KODIPROP:inputstream.adaptive.license_key={key_id}:{key}'
     
