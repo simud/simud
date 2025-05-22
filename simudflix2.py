@@ -2,7 +2,7 @@ import requests
 import re
 
 # URL della playlist originale
-playlist_url = "https://raw.githubusercontent.com/ciccioxm3/ddprx/refs/heads/main/247ita.m3u8"
+playlist_url = "https://raw.githubusercontent.com/ciccioxm3/omg/refs/heads/main/247ita.m3u8"
 # URL della playlist da concatenare
 simudflix_url = "https://raw.githubusercontent.com/simud/simud/refs/heads/main/simudflix.m3u8"
 # Base URL del proxy
