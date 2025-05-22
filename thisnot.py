@@ -175,7 +175,7 @@ def get_stream_and_key(scraper, url, channel_name):
 
         # Cerca flussi MPD/M3U8, inclusi quelli con chrome-extension
         stream_pattern = re.compile(
-            r'(?:(?:chrome-extension://[^\s]+?/pages/player\.html#)?)(https?://.+?\.mpd\?[^&]*)(?:&[^"\s]*?)?(ck=[^\s"]+)?(?="|\'|\s|$)',
+            r'(?:(?:chrome-extension://[^\s]+?/pages/player\.html#)?)(https?://.+?\.mpd(?:\?[^&]*)?)(?:(?:&[^"\s]*?)?(?:ck=([^\s"&]+))?(?="|\'|\s|$|>|</))',
             re.IGNORECASE
         )
         stream_matches = stream_pattern.findall(page_source)
