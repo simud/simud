@@ -128,6 +128,8 @@ def decrypt_token(encoded_keys):
 
         # Decodifica base64
         decoded = base64.b64decode(encoded_keys).decode('utf-8')
+        print(f"[DEBUG] Stringa decodificata: {decoded}")
+        logging.debug(f"Stringa decodificata: {decoded}")
 
         # Controlla se è un JSON
         try:
@@ -175,7 +177,7 @@ def get_stream_and_key(scraper, url, channel_name):
 
         # Cerca flussi MPD/M3U8, inclusi quelli con chrome-extension
         stream_pattern = re.compile(
-            r'(?:(?:chrome-extension://[^\s]+?/pages/player\.html#)?)(https?://.+?\.(?:mpd|m3u8))(?:\?(?:[^&]*&)*ck=([^\s"]+))?(?="|\'|\s|$)',
+            r'(?:(?:chrome-extension://[^\s]+?/pages/player\.html#)?)(https?://.+?\.mpd(?:\?[^"\s&]*(?:&[^"\s&]*)*)?)(?:(?:\?|&)?ck=([^\s"&]+))?(?="|\'|\s|$|>|</)',
             re.IGNORECASE
         )
         stream_matches = stream_pattern.findall(page_source)
@@ -190,7 +192,8 @@ def get_stream_and_key(scraper, url, channel_name):
             stream_url = html.unescape(stream_url)
             print(f"[SUCCESSO] Flusso trovato: {stream_url}")
             print(f"[DEBUG] Flusso {stream_url} associato al canale: {channel_name}")
-            logging.debug(f"Flusso trovato: {stream_url}, associato al canale: {channel_name}")
+            print(f"[DEBUG] Chiave ck= trovata: {encoded_keys}")
+            logging.debug(f"Flusso trovato: {stream_url}, associato al canale: {channel_name}, ck=: {encoded_keys}")
 
             if encoded_keys:
                 # Separa le chiavi multiple
