@@ -1,61 +1,6 @@
 #EXTM3U url-tvg="http://www.epgitalia.tv/gzip,http://epg-guide.com/it.gz,https://raw.github.com/matthuisman/i.mjh.nz/master/PlutoTV/us.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/PlutoTV/it.xml.gz,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-events-epg.xml,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-channels-epg.xml,https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/it.xml.gz"
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Eventi Sportivi", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
-#EXTINF:-1 group-title="Diretta Goal" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Diretta Gol Vs Serie C
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://skystreaming.help
-#EXTVLCOPT:http-origin=https://skystreaming.help
-https://hls.kangal.icu/hls/calcio/index.m3u8
-#EXTINF:-1 group-title="Eventi Sky Streaming" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Al Nassr Fc Vs Al Khaleej
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://skystreaming.help
-#EXTVLCOPT:http-origin=https://skystreaming.help
-https://hls.kangal.icu/hls/saudi/index.m3u8
-#EXTINF:-1 group-title="Eventi Sky Streaming" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Al Wehda Vs Al Hilal
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://skystreaming.help
-#EXTVLCOPT:http-origin=https://skystreaming.help
-https://hls.kangal.icu/hls/hilal/index.m3u8
-#EXTINF:-1 group-title="Eventi Sky Streaming" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Audace Cerignola Vs Atalanta U23
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://skystreaming.help
-#EXTVLCOPT:http-origin=https://skystreaming.help
-https://hls.kangal.icu/hls/sky253/index.m3u8
-#EXTINF:-1 group-title="Eventi Sky Streaming" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Catanzaro Vs Spezia
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://skystreaming.help
-#EXTVLCOPT:http-origin=https://skystreaming.help
-https://hls.kangal.icu/hls/spezia/index.m3u8
-#EXTINF:-1 group-title="Eventi Sky Streaming" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Juve Stabia Vs Cremonese
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://skystreaming.help
-#EXTVLCOPT:http-origin=https://skystreaming.help
-https://hls.kangal.icu/hls/juve/index.m3u8
-#EXTINF:-1 group-title="Eventi Sky Streaming" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",L R Vicenza Vs Crotone
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://skystreaming.help
-#EXTVLCOPT:http-origin=https://skystreaming.help
-https://hls.kangal.icu/hls/sky252/index.m3u8
-#EXTINF:-1 group-title="Eventi Sky Streaming" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Metz Vs Reims
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://skystreaming.help
-#EXTVLCOPT:http-origin=https://skystreaming.help
-https://hls.kangal.icu/hls/ligue1/index.m3u8
-#EXTINF:-1 group-title="Eventi Sky Streaming" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Pescara Vs Vis Pesaro
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://skystreaming.help
-#EXTVLCOPT:http-origin=https://skystreaming.help
-https://hls.kangal.icu/hls/sky254/index.m3u8
-#EXTINF:-1 group-title="Eventi Sky Streaming" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Ternana Vs Giana Erminio
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://skystreaming.help
-#EXTVLCOPT:http-origin=https://skystreaming.help
-https://hls.kangal.icu/hls/sky255/index.m3u8
-#EXTINF:-1 group-title="Eventi Sky Streaming" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Tottenham Vs Manchester Utd
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://skystreaming.help
-#EXTVLCOPT:http-origin=https://skystreaming.help
-https://hls.kangal.icu/hls/sky251/index.m3u8
 #EXTINF:-1 group-title="Sky Sport Backup SD" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Eurosport 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.help
@@ -191,18 +136,6 @@ https://xuione.sportstreaming.net/SportStreaming/SportStreaming/9.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
 https://xuione.sportstreaming.net/SportStreaming/SportStreaming/8.m3u8
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live1.png", Catanzaro   SpeziaSerie B   Play Off Semifinale AndataMercoledì 21 Maggio ore 20:30
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
-https://xuione.sportstreaming.net/SportStreaming/SportStreaming/49.m3u8
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live2.png", Juve Stabia   CremoneseSerie B   Play Off Semifinale AndataMercoledì 21 Maggio ore 20:30
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
-https://xuione.sportstreaming.net/SportStreaming/SportStreaming/55.m3u8
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live3.png", Tottenham   Manchester UnitedEuropa League   FinaleMercoledì 21 Maggio ore 21:00
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
-https://xuione.sportstreaming.net/SportStreaming/SportStreaming/3.m3u8
 #EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live4.png", Como   InterSerie A   38° GiornataVenerdì 23 Maggio ore 20:45
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
