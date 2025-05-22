@@ -1,963 +1,189 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="skysportcalcio.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-calcio-it.png" group-title="CALCIO",20:30 Heidenheim - Elversberg 
-https://linear302-it-dash1-prd.selector.skycdn.it/016a/31209/FHD/skysportseriea/master_stereo.mpd?ck=MDAzNjJmOTVkYjYxZWJhMGU2ZjE0YWNlZTNmNzFlMDE6ZmI3NGNkODRiNTNjNzU1N2UxODQyNGEzMzU2YzQ2NjU="></iframe>
- </div>
-  </div>
-</div></div></div>
-</div>
-
-</br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<small class="d-block text-right mt-3" style="background: #262728;padding: 20px;border-radius: 10px;margin: 30 10 20 10;">
-<center>
-<form name="logout" action="index.php" method="post" style="max-width: 400px;">
-<div class="form-group">
-<input type="hidden" name="logout" value="esci">
-<button type="submit" class="btn btn-block btn-default" value="Logout" style="color: white;font-weight: bold;background: #2b373d;"> Logout </button>
-</div>
-</form>
-</center>
-</small>
-
-
-</main>
-
-
-
-<div style="display:none;"><img id="vw24" src="//whos.amung.us/cwidget/l4ttszqxx0/000000ffffff.png"></div>
-<script type="297b724b79d52b5fba06d5b4-text/javascript">var vw24 = document.getElementById("vw24");setInterval(function(){vw24.src="//whos.amung.us/cwidget/l4ttszqxx0/000000ffffff.png?"+new Date().getTime()},300000);</script>
-
-
-<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="297b724b79d52b5fba06d5b4-|49" defer></script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"943c2c321f54f20a","version":"2025.4.0-1-g37f21b1","r":1,"token":"c346fd407ee74065bc1092679f73657a","serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}}}' crossorigin="anonymous"></script>
-</html>
-
-
-
-
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=00362f95db61eba0e6f14acee3f71e01:fb74cd84b53c7557e18424a3356c4665
+https://linear302-it-dash1-prd.selector.skycdn.it/016a/31209/FHD/skysportseriea/master_stereo.mpd
 #EXTINF:-1 tvg-id="skysportbundesliga.de" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/germany/sky-sport-bundesliga-de.png" group-title="CALCIO",20:30 Heidenheim - Elversberg 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=000b0e3422812fcf3d1eb8cdf7511193:1fe928a3793feb3739f293b0b1b81d1d
-https://linear205-de-dash1-prd-ak.cdn12.skycdp.com/031122-50/index_stereo.mpd?
+https://linear205-de-dash1-prd-ak.cdn12.skycdp.com/031122-50/index_stereo.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",20:45 Napoli - Cagliari 
-https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd?ck=ODI3MmJmNmJhNDZmMjNmOWRhNTI3MDA1N2I2ZTAyOGE6NzRhZTcwZGQxMGI0YmIzOGVkNmZmZTg0M2YzZTJjY2Q="></iframe>
- </div>
-  </div>
-</div></div></div>
-</div>
-
-</br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<small class="d-block text-right mt-3" style="background: #262728;padding: 20px;border-radius: 10px;margin: 30 10 20 10;">
-<center>
-<form name="logout" action="index.php" method="post" style="max-width: 400px;">
-<div class="form-group">
-<input type="hidden" name="logout" value="esci">
-<button type="submit" class="btn btn-block btn-default" value="Logout" style="color: white;font-weight: bold;background: #2b373d;"> Logout </button>
-</div>
-</form>
-</center>
-</small>
-
-
-</main>
-
-
-
-<div style="display:none;"><img id="vw24" src="//whos.amung.us/cwidget/l4ttszqxx0/000000ffffff.png"></div>
-<script type="aa12c07961bdaacc0f328ebe-text/javascript">var vw24 = document.getElementById("vw24");setInterval(function(){vw24.src="//whos.amung.us/cwidget/l4ttszqxx0/000000ffffff.png?"+new Date().getTime()},300000);</script>
-
-
-<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="aa12c07961bdaacc0f328ebe-|49" defer></script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"943c2c3dba99f20a","version":"2025.4.0-1-g37f21b1","r":1,"token":"c346fd407ee74065bc1092679f73657a","serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}}}' crossorigin="anonymous"></script>
-</html>
-
-
-
-
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8272bf6ba46f23f9da5270057b6e028a:74ae70dd10b4bb38ed6ffe843f3e2ccd
+https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",20:45 Napoli - Cagliari 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=3cfa8625f650406ebf6a4d1ea737f572:0534e747c70b364aa7210e1bf3191df0
-https://mag04.tvx.prd.tv.odido.nl/wh7f454c46tw266117884_-1972819316/PLTV/86/224/3221241560/3221241560.mpd?zoneoffset=0
+https://mag04.tvx.prd.tv.odido.nl/wh7f454c46tw266117884_-1972819316/PLTV/86/224/3221241560/3221241560.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",20:45 Como - Inter 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=4dbea4b5713a4aa1ae3a2544cd522fc7:a8323ea99b2d6200a48e1bc27322d548
-https://mag01.tvx.prd.tv.odido.nl/wh7f454c46tw407556707_-381738111/PLTV/86/224/3221241511/3221241511.mpd?zoneoffset=0
+https://mag01.tvx.prd.tv.odido.nl/wh7f454c46tw407556707_-381738111/PLTV/86/224/3221241511/3221241511.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",20:45 Real Betis - Valencia 
-https://ottb.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/k0duzgfejg/out/v1/70a50b1bda944628b8e7e66ab4069419/cenc.mpd?ck=Yjc3MGQ1YjRiYjZiNTk0ZGFmOTg1ODQ1YWFlOWFhNWY6YjBjYjQ2ZDJkMzFjZjA0NGJjNzNkYjcxZTk4NjVmNmYsNjIwZTUxYjgyNTk2NDc1NTE3YTI3YWE0MjVjNTIyODA6MmI5YmE4MTFlOWM1YWVhZmM4YWUxYjcxY2RjYTRkNmE="></iframe>
- </div>
-  </div>
-</div></div></div>
-</div>
-
-</br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<small class="d-block text-right mt-3" style="background: #262728;padding: 20px;border-radius: 10px;margin: 30 10 20 10;">
-<center>
-<form name="logout" action="index.php" method="post" style="max-width: 400px;">
-<div class="form-group">
-<input type="hidden" name="logout" value="esci">
-<button type="submit" class="btn btn-block btn-default" value="Logout" style="color: white;font-weight: bold;background: #2b373d;"> Logout </button>
-</div>
-</form>
-</center>
-</small>
-
-
-</main>
-
-
-
-<div style="display:none;"><img id="vw24" src="//whos.amung.us/cwidget/l4ttszqxx0/000000ffffff.png"></div>
-<script type="cb42e5d3ed4c80a5b63bb1ad-text/javascript">var vw24 = document.getElementById("vw24");setInterval(function(){vw24.src="//whos.amung.us/cwidget/l4ttszqxx0/000000ffffff.png?"+new Date().getTime()},300000);</script>
-
-
-<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="cb42e5d3ed4c80a5b63bb1ad-|49" defer></script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"943c2c4ee828f20a","version":"2025.4.0-1-g37f21b1","r":1,"serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"token":"c346fd407ee74065bc1092679f73657a","b":1}' crossorigin="anonymous"></script>
-</html>
-
-
-
-
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=b770d5b4bb6b594daf985845aae9aa5f:b0cb46d2d31cf044bc73db71e9865f6f,620e51b82596475517a27aa425c52280:2b9ba811e9c5aeafc8ae1b71cdca4d6a
+https://ottb.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/k0duzgfejg/out/v1/70a50b1bda944628b8e7e66ab4069419/cenc.mpd
 #EXTINF:-1 tvg-id="skysportnba.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-nba-it.png" group-title="BASKET",02:00 Indiana Pacers v New York Knicks (G.1 Finale E.C.) 
-https://linear308-it-dash1-prd.selector.skycdn.it/016a/31764/FHD/skysportnba/master_stereo.mpd?ck=MDAzNjRlYWMyZmZlZTMzNzY0MGUzOTY4MjQzOWI1NDA6MDk2MDE3MmQ5MDAwYzQ3MGFkZTA2NThiZDM2YzFkNTM="></iframe>
- </div>
-  </div>
-</div></div></div>
-</div>
-
-</br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<small class="d-block text-right mt-3" style="background: #262728;padding: 20px;border-radius: 10px;margin: 30 10 20 10;">
-<center>
-<form name="logout" action="index.php" method="post" style="max-width: 400px;">
-<div class="form-group">
-<input type="hidden" name="logout" value="esci">
-<button type="submit" class="btn btn-block btn-default" value="Logout" style="color: white;font-weight: bold;background: #2b373d;"> Logout </button>
-</div>
-</form>
-</center>
-</small>
-
-
-</main>
-
-
-
-<div style="display:none;"><img id="vw24" src="//whos.amung.us/cwidget/l4ttszqxx0/000000ffffff.png"></div>
-<script type="506c1919dcecb09169312d86-text/javascript">var vw24 = document.getElementById("vw24");setInterval(function(){vw24.src="//whos.amung.us/cwidget/l4ttszqxx0/000000ffffff.png?"+new Date().getTime()},300000);</script>
-
-
-<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="506c1919dcecb09169312d86-|49" defer></script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"943c2c54c9acf20a","version":"2025.4.0-1-g37f21b1","r":1,"serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"token":"c346fd407ee74065bc1092679f73657a","b":1}' crossorigin="anonymous"></script>
-</html>
-
-
-
-
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=00364eac2ffee337640e39682439b540:0960172d9000c470ade0658bd36c1d53
+https://linear308-it-dash1-prd.selector.skycdn.it/016a/31764/FHD/skysportnba/master_stereo.mpd
 #EXTINF:-1 tvg-id="skysportnba.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-nba-it.png" group-title="BASKET",02:30 Minnesota Timberwolves v Oklahoma City Thunder (G.2 Finale W.C.) 
-https://linear308-it-dash1-prd.selector.skycdn.it/016a/31764/FHD/skysportnba/master_stereo.mpd?ck=MDAzNjRlYWMyZmZlZTMzNzY0MGUzOTY4MjQzOWI1NDA6MDk2MDE3MmQ5MDAwYzQ3MGFkZTA2NThiZDM2YzFkNTM="></iframe>
- </div>
-  </div>
-</div></div></div>
-</div>
-
-</br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<small class="d-block text-right mt-3" style="background: #262728;padding: 20px;border-radius: 10px;margin: 30 10 20 10;">
-<center>
-<form name="logout" action="index.php" method="post" style="max-width: 400px;">
-<div class="form-group">
-<input type="hidden" name="logout" value="esci">
-<button type="submit" class="btn btn-block btn-default" value="Logout" style="color: white;font-weight: bold;background: #2b373d;"> Logout </button>
-</div>
-</form>
-</center>
-</small>
-
-
-</main>
-
-
-
-<div style="display:none;"><img id="vw24" src="//whos.amung.us/cwidget/l4ttszqxx0/000000ffffff.png"></div>
-<script type="52eb4085ca30ebd11a87e9b1-text/javascript">var vw24 = document.getElementById("vw24");setInterval(function(){vw24.src="//whos.amung.us/cwidget/l4ttszqxx0/000000ffffff.png?"+new Date().getTime()},300000);</script>
-
-
-<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="52eb4085ca30ebd11a87e9b1-|49" defer></script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"943c2c5a8a8df20a","version":"2025.4.0-1-g37f21b1","r":1,"serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"token":"c346fd407ee74065bc1092679f73657a","b":1}' crossorigin="anonymous"></script>
-</html>
-
-
-
-
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=00364eac2ffee337640e39682439b540:0960172d9000c470ade0658bd36c1d53
+https://linear308-it-dash1-prd.selector.skycdn.it/016a/31764/FHD/skysportnba/master_stereo.mpd
 #EXTINF:-1 tvg-id="skysportnba.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-nba-it.png" group-title="BASKET",02:00 Indiana Pacers v New York Knicks (G.2 Finale E.C.) 
-https://linear308-it-dash1-prd.selector.skycdn.it/016a/31764/FHD/skysportnba/master_stereo.mpd?ck=MDAzNjRlYWMyZmZlZTMzNzY0MGUzOTY4MjQzOWI1NDA6MDk2MDE3MmQ5MDAwYzQ3MGFkZTA2NThiZDM2YzFkNTM="></iframe>
- </div>
-  </div>
-</div></div></div>
-</div>
-
-</br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<small class="d-block text-right mt-3" style="background: #262728;padding: 20px;border-radius: 10px;margin: 30 10 20 10;">
-<center>
-<form name="logout" action="index.php" method="post" style="max-width: 400px;">
-<div class="form-group">
-<input type="hidden" name="logout" value="esci">
-<button type="submit" class="btn btn-block btn-default" value="Logout" style="color: white;font-weight: bold;background: #2b373d;"> Logout </button>
-</div>
-</form>
-</center>
-</small>
-
-
-</main>
-
-
-
-<div style="display:none;"><img id="vw24" src="//whos.amung.us/cwidget/l4ttszqxx0/000000ffffff.png"></div>
-<script type="7efb6430643e6154c8edd949-text/javascript">var vw24 = document.getElementById("vw24");setInterval(function(){vw24.src="//whos.amung.us/cwidget/l4ttszqxx0/000000ffffff.png?"+new Date().getTime()},300000);</script>
-
-
-<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="7efb6430643e6154c8edd949-|49" defer></script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"943c2c604bcdf20a","version":"2025.4.0-1-g37f21b1","r":1,"serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"token":"c346fd407ee74065bc1092679f73657a","b":1}' crossorigin="anonymous"></script>
-</html>
-
-
-
-
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=00364eac2ffee337640e39682439b540:0960172d9000c470ade0658bd36c1d53
+https://linear308-it-dash1-prd.selector.skycdn.it/016a/31764/FHD/skysportnba/master_stereo.mpd
 #EXTINF:-1 tvg-id="skysportnba.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-nba-it.png" group-title="BASKET",02:30 Minnesota Timberwolves v Oklahoma City Thunder (G.3 Finale W.C.) 
-https://linear308-it-dash1-prd.selector.skycdn.it/016a/31764/FHD/skysportnba/master_stereo.mpd?ck=MDAzNjRlYWMyZmZlZTMzNzY0MGUzOTY4MjQzOWI1NDA6MDk2MDE3MmQ5MDAwYzQ3MGFkZTA2NThiZDM2YzFkNTM="></iframe>
- </div>
-  </div>
-</div></div></div>
-</div>
-
-</br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<small class="d-block text-right mt-3" style="background: #262728;padding: 20px;border-radius: 10px;margin: 30 10 20 10;">
-<center>
-<form name="logout" action="index.php" method="post" style="max-width: 400px;">
-<div class="form-group">
-<input type="hidden" name="logout" value="esci">
-<button type="submit" class="btn btn-block btn-default" value="Logout" style="color: white;font-weight: bold;background: #2b373d;"> Logout </button>
-</div>
-</form>
-</center>
-</small>
-
-
-</main>
-
-
-
-<div style="display:none;"><img id="vw24" src="//whos.amung.us/cwidget/l4ttszqxx0/000000ffffff.png"></div>
-<script type="d1321fa571e3a21065556a42-text/javascript">var vw24 = document.getElementById("vw24");setInterval(function(){vw24.src="//whos.amung.us/cwidget/l4ttszqxx0/000000ffffff.png?"+new Date().getTime()},300000);</script>
-
-
-<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="d1321fa571e3a21065556a42-|49" defer></script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"943c2c65fdf8f20a","version":"2025.4.0-1-g37f21b1","r":1,"serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"token":"c346fd407ee74065bc1092679f73657a","b":1}' crossorigin="anonymous"></script>
-</html>
-
-
-
-
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=00364eac2ffee337640e39682439b540:0960172d9000c470ade0658bd36c1d53
+https://linear308-it-dash1-prd.selector.skycdn.it/016a/31764/FHD/skysportnba/master_stereo.mpd
 #EXTINF:-1 tvg-id="skysportnba.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-nba-it.png" group-title="BASKET",02:00 Indiana Pacers v New York Knicks (G.3 Finale E.C.) 
-https://linear308-it-dash1-prd.selector.skycdn.it/016a/31764/FHD/skysportnba/master_stereo.mpd?ck=MDAzNjRlYWMyZmZlZTMzNzY0MGUzOTY4MjQzOWI1NDA6MDk2MDE3MmQ5MDAwYzQ3MGFkZTA2NThiZDM2YzFkNTM="></iframe>
- </div>
-  </div>
-</div></div></div>
-</div>
-
-</br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<small class="d-block text-right mt-3" style="background: #262728;padding: 20px;border-radius: 10px;margin: 30 10 20 10;">
-<center>
-<form name="logout" action="index.php" method="post" style="max-width: 400px;">
-<div class="form-group">
-<input type="hidden" name="logout" value="esci">
-<button type="submit" class="btn btn-block btn-default" value="Logout" style="color: white;font-weight: bold;background: #2b373d;"> Logout </button>
-</div>
-</form>
-</center>
-</small>
-
-
-</main>
-
-
-
-<div style="display:none;"><img id="vw24" src="//whos.amung.us/cwidget/l4ttszqxx0/000000ffffff.png"></div>
-<script type="9c9e595c143ed53bedaabffb-text/javascript">var vw24 = document.getElementById("vw24");setInterval(function(){vw24.src="//whos.amung.us/cwidget/l4ttszqxx0/000000ffffff.png?"+new Date().getTime()},300000);</script>
-
-
-<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="9c9e595c143ed53bedaabffb-|49" defer></script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"943c2c6bb861f20a","version":"2025.4.0-1-g37f21b1","r":1,"serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"token":"c346fd407ee74065bc1092679f73657a","b":1}' crossorigin="anonymous"></script>
-</html>
-
-
-
-
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=00364eac2ffee337640e39682439b540:0960172d9000c470ade0658bd36c1d53
+https://linear308-it-dash1-prd.selector.skycdn.it/016a/31764/FHD/skysportnba/master_stereo.mpd
 #EXTINF:-1 tvg-id="skysportnba.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-nba-it.png" group-title="BASKET",02:30 Minnesota Timberwolves v Oklahoma City Thunder (G.4 Finale W.C.) 
-https://linear308-it-dash1-prd.selector.skycdn.it/016a/31764/FHD/skysportnba/master_stereo.mpd?ck=MDAzNjRlYWMyZmZlZTMzNzY0MGUzOTY4MjQzOWI1NDA6MDk2MDE3MmQ5MDAwYzQ3MGFkZTA2NThiZDM2YzFkNTM="></iframe>
- </div>
-  </div>
-</div></div></div>
-</div>
-
-</br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<small class="d-block text-right mt-3" style="background: #262728;padding: 20px;border-radius: 10px;margin: 30 10 20 10;">
-<center>
-<form name="logout" action="index.php" method="post" style="max-width: 400px;">
-<div class="form-group">
-<input type="hidden" name="logout" value="esci">
-<button type="submit" class="btn btn-block btn-default" value="Logout" style="color: white;font-weight: bold;background: #2b373d;"> Logout </button>
-</div>
-</form>
-</center>
-</small>
-
-
-</main>
-
-
-
-<div style="display:none;"><img id="vw24" src="//whos.amung.us/cwidget/l4ttszqxx0/000000ffffff.png"></div>
-<script type="d3311a90137e24dfd2fbfdfc-text/javascript">var vw24 = document.getElementById("vw24");setInterval(function(){vw24.src="//whos.amung.us/cwidget/l4ttszqxx0/000000ffffff.png?"+new Date().getTime()},300000);</script>
-
-
-<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="d3311a90137e24dfd2fbfdfc-|49" defer></script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"943c2c717ad3f20a","version":"2025.4.0-1-g37f21b1","r":1,"serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"token":"c346fd407ee74065bc1092679f73657a","b":1}' crossorigin="anonymous"></script>
-</html>
-
-
-
-
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=00364eac2ffee337640e39682439b540:0960172d9000c470ade0658bd36c1d53
+https://linear308-it-dash1-prd.selector.skycdn.it/016a/31764/FHD/skysportnba/master_stereo.mpd
 #EXTINF:-1 tvg-id="skysportnba.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-nba-it.png" group-title="BASKET",02:00 Indiana Pacers v New York Knicks (G.4 Finale E.C.) 
-https://linear308-it-dash1-prd.selector.skycdn.it/016a/31764/FHD/skysportnba/master_stereo.mpd?ck=MDAzNjRlYWMyZmZlZTMzNzY0MGUzOTY4MjQzOWI1NDA6MDk2MDE3MmQ5MDAwYzQ3MGFkZTA2NThiZDM2YzFkNTM="></iframe>
- </div>
-  </div>
-</div></div></div>
-</div>
-
-</br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<small class="d-block text-right mt-3" style="background: #262728;padding: 20px;border-radius: 10px;margin: 30 10 20 10;">
-<center>
-<form name="logout" action="index.php" method="post" style="max-width: 400px;">
-<div class="form-group">
-<input type="hidden" name="logout" value="esci">
-<button type="submit" class="btn btn-block btn-default" value="Logout" style="color: white;font-weight: bold;background: #2b373d;"> Logout </button>
-</div>
-</form>
-</center>
-</small>
-
-
-</main>
-
-
-
-<div style="display:none;"><img id="vw24" src="//whos.amung.us/cwidget/l4ttszqxx0/000000ffffff.png"></div>
-<script type="f356c5d1d2b4d49db9de1205-text/javascript">var vw24 = document.getElementById("vw24");setInterval(function(){vw24.src="//whos.amung.us/cwidget/l4ttszqxx0/000000ffffff.png?"+new Date().getTime()},300000);</script>
-
-
-<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="f356c5d1d2b4d49db9de1205-|49" defer></script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"943c2c773b22f20a","version":"2025.4.0-1-g37f21b1","r":1,"serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"token":"c346fd407ee74065bc1092679f73657a","b":1}' crossorigin="anonymous"></script>
-</html>
-
-
-
-
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=00364eac2ffee337640e39682439b540:0960172d9000c470ade0658bd36c1d53
+https://linear308-it-dash1-prd.selector.skycdn.it/016a/31764/FHD/skysportnba/master_stereo.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="BASKET",19:30 Germani Brescia - Pallacanestro Trieste (Gara 3) 
-https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd?ck=ODI3MmJmNmJhNDZmMjNmOWRhNTI3MDA1N2I2ZTAyOGE6NzRhZTcwZGQxMGI0YmIzOGVkNmZmZTg0M2YzZTJjY2Q="></iframe>
- </div>
-  </div>
-</div></div></div>
-</div>
-
-</br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<small class="d-block text-right mt-3" style="background: #262728;padding: 20px;border-radius: 10px;margin: 30 10 20 10;">
-<center>
-<form name="logout" action="index.php" method="post" style="max-width: 400px;">
-<div class="form-group">
-<input type="hidden" name="logout" value="esci">
-<button type="submit" class="btn btn-block btn-default" value="Logout" style="color: white;font-weight: bold;background: #2b373d;"> Logout </button>
-</div>
-</form>
-</center>
-</small>
-
-
-</main>
-
-
-
-<div style="display:none;"><img id="vw24" src="//whos.amung.us/cwidget/l4ttszqxx0/000000ffffff.png"></div>
-<script type="5af5ba8d1fc0eb22f8489628-text/javascript">var vw24 = document.getElementById("vw24");setInterval(function(){vw24.src="//whos.amung.us/cwidget/l4ttszqxx0/000000ffffff.png?"+new Date().getTime()},300000);</script>
-
-
-<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="5af5ba8d1fc0eb22f8489628-|49" defer></script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"943c2c7d1cb9f20a","version":"2025.4.0-1-g37f21b1","r":1,"serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"token":"c346fd407ee74065bc1092679f73657a","b":1}' crossorigin="anonymous"></script>
-</html>
-
-
-
-
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8272bf6ba46f23f9da5270057b6e028a:74ae70dd10b4bb38ed6ffe843f3e2ccd
+https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd
 #EXTINF:-1 tvg-id="eurosport2.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/eurosport-2-es.png" group-title="BASKET",20:00 Trapani Shark - UNAHOTELS Reggio Emilia (Gara 3) 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=003670a7034342a4a07c91173818c61c:7b90055c1a1ea34d9090e9ebf6c4db8a
-https://linear312-it-dash1-prd.selector.skycdn.it/016a/31150/FHD/eurosport2/master_stereo.mpd?
+https://linear312-it-dash1-prd.selector.skycdn.it/016a/31150/FHD/eurosport2/master_stereo.mpd
 #EXTINF:-1 tvg-id="skysportmotogp.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-motogp-it.png" group-title="MOTOMONDIALE",11:00 Moto3 - Libere 1 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=00362e9181eaa0c5f91761ade3515eb8:52cf3c27885d58ad76aaf36d4217a984
-https://linear306-it-dash1-prd.selector.skycdn.it/016a/31483/FHD/skysportmotogp/master_stereo.mpd?
+https://linear306-it-dash1-prd.selector.skycdn.it/016a/31483/FHD/skysportmotogp/master_stereo.mpd
 #EXTINF:-1 tvg-id="skysportmotogp.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-motogp-it.png" group-title="MOTOMONDIALE",11:50 Moto2 - Libere 1 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=00362e9181eaa0c5f91761ade3515eb8:52cf3c27885d58ad76aaf36d4217a984
-https://linear306-it-dash1-prd.selector.skycdn.it/016a/31483/FHD/skysportmotogp/master_stereo.mpd?
+https://linear306-it-dash1-prd.selector.skycdn.it/016a/31483/FHD/skysportmotogp/master_stereo.mpd
 #EXTINF:-1 tvg-id="skysportmotogp.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-motogp-it.png" group-title="MOTOMONDIALE",12:45 MotoGP - Libere 1 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=00362e9181eaa0c5f91761ade3515eb8:52cf3c27885d58ad76aaf36d4217a984
-https://linear306-it-dash1-prd.selector.skycdn.it/016a/31483/FHD/skysportmotogp/master_stereo.mpd?
+https://linear306-it-dash1-prd.selector.skycdn.it/016a/31483/FHD/skysportmotogp/master_stereo.mpd
 #EXTINF:-1 tvg-id="skysportmotogp.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-motogp-it.png" group-title="MOTOMONDIALE",15:15 Moto3 - Prove 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=00362e9181eaa0c5f91761ade3515eb8:52cf3c27885d58ad76aaf36d4217a984
-https://linear306-it-dash1-prd.selector.skycdn.it/016a/31483/FHD/skysportmotogp/master_stereo.mpd?
+https://linear306-it-dash1-prd.selector.skycdn.it/016a/31483/FHD/skysportmotogp/master_stereo.mpd
 #EXTINF:-1 tvg-id="skysportmotogp.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-motogp-it.png" group-title="MOTOMONDIALE",16:05 Moto2 - Prove 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=00362e9181eaa0c5f91761ade3515eb8:52cf3c27885d58ad76aaf36d4217a984
-https://linear306-it-dash1-prd.selector.skycdn.it/016a/31483/FHD/skysportmotogp/master_stereo.mpd?
+https://linear306-it-dash1-prd.selector.skycdn.it/016a/31483/FHD/skysportmotogp/master_stereo.mpd
 #EXTINF:-1 tvg-id="skysportmotogp.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-motogp-it.png" group-title="MOTOMONDIALE",17:00 MotoGP - Prove 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=00362e9181eaa0c5f91761ade3515eb8:52cf3c27885d58ad76aaf36d4217a984
-https://linear306-it-dash1-prd.selector.skycdn.it/016a/31483/FHD/skysportmotogp/master_stereo.mpd?
+https://linear306-it-dash1-prd.selector.skycdn.it/016a/31483/FHD/skysportmotogp/master_stereo.mpd
 #EXTINF:-1 tvg-id="skysportmotogp.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-motogp-it.png" group-title="MOTOMONDIALE",10:40 Moto3 - Libere 2 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=00362e9181eaa0c5f91761ade3515eb8:52cf3c27885d58ad76aaf36d4217a984
-https://linear306-it-dash1-prd.selector.skycdn.it/016a/31483/FHD/skysportmotogp/master_stereo.mpd?
+https://linear306-it-dash1-prd.selector.skycdn.it/016a/31483/FHD/skysportmotogp/master_stereo.mpd
 #EXTINF:-1 tvg-id="skysportmotogp.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-motogp-it.png" group-title="MOTOMONDIALE",11:25 Moto2 - Libere 2 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=00362e9181eaa0c5f91761ade3515eb8:52cf3c27885d58ad76aaf36d4217a984
-https://linear306-it-dash1-prd.selector.skycdn.it/016a/31483/FHD/skysportmotogp/master_stereo.mpd?
+https://linear306-it-dash1-prd.selector.skycdn.it/016a/31483/FHD/skysportmotogp/master_stereo.mpd
 #EXTINF:-1 tvg-id="skysportmotogp.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-motogp-it.png" group-title="MOTOMONDIALE",12:10 MotoGP - Libere 2 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=00362e9181eaa0c5f91761ade3515eb8:52cf3c27885d58ad76aaf36d4217a984
-https://linear306-it-dash1-prd.selector.skycdn.it/016a/31483/FHD/skysportmotogp/master_stereo.mpd?
+https://linear306-it-dash1-prd.selector.skycdn.it/016a/31483/FHD/skysportmotogp/master_stereo.mpd
 #EXTINF:-1 tvg-id="skysportmotogp.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-motogp-it.png" group-title="MOTOMONDIALE",12:50 MotoGP - Qualifiche (Q1-Q2) 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=00362e9181eaa0c5f91761ade3515eb8:52cf3c27885d58ad76aaf36d4217a984
-https://linear306-it-dash1-prd.selector.skycdn.it/016a/31483/FHD/skysportmotogp/master_stereo.mpd?
+https://linear306-it-dash1-prd.selector.skycdn.it/016a/31483/FHD/skysportmotogp/master_stereo.mpd
 #EXTINF:-1 tvg-id="skysportmotogp.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-motogp-it.png" group-title="MOTOMONDIALE",14:50 Moto3 - Qualifiche (Q1-Q2) 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=00362e9181eaa0c5f91761ade3515eb8:52cf3c27885d58ad76aaf36d4217a984
-https://linear306-it-dash1-prd.selector.skycdn.it/016a/31483/FHD/skysportmotogp/master_stereo.mpd?
+https://linear306-it-dash1-prd.selector.skycdn.it/016a/31483/FHD/skysportmotogp/master_stereo.mpd
 #EXTINF:-1 tvg-id="skysportmotogp.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-motogp-it.png" group-title="MOTOMONDIALE",15:45 Moto2 - Qualifiche (Q1-Q2) 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=00362e9181eaa0c5f91761ade3515eb8:52cf3c27885d58ad76aaf36d4217a984
-https://linear306-it-dash1-prd.selector.skycdn.it/016a/31483/FHD/skysportmotogp/master_stereo.mpd?
+https://linear306-it-dash1-prd.selector.skycdn.it/016a/31483/FHD/skysportmotogp/master_stereo.mpd
 #EXTINF:-1 tvg-id="skysportmotogp.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-motogp-it.png" group-title="MOTOMONDIALE",17:00 MotoGP - Sprint Race 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=00362e9181eaa0c5f91761ade3515eb8:52cf3c27885d58ad76aaf36d4217a984
-https://linear306-it-dash1-prd.selector.skycdn.it/016a/31483/FHD/skysportmotogp/master_stereo.mpd?
+https://linear306-it-dash1-prd.selector.skycdn.it/016a/31483/FHD/skysportmotogp/master_stereo.mpd
 #EXTINF:-1 tvg-id="skysportmotogp.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-motogp-it.png" group-title="MOTOMONDIALE",12:15 Moto2 - Gara 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=00362e9181eaa0c5f91761ade3515eb8:52cf3c27885d58ad76aaf36d4217a984
-https://linear306-it-dash1-prd.selector.skycdn.it/016a/31483/FHD/skysportmotogp/master_stereo.mpd?
+https://linear306-it-dash1-prd.selector.skycdn.it/016a/31483/FHD/skysportmotogp/master_stereo.mpd
 #EXTINF:-1 tvg-id="skysportmotogp.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-motogp-it.png" group-title="MOTOMONDIALE",14:00 MotoGP - Gara 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=00362e9181eaa0c5f91761ade3515eb8:52cf3c27885d58ad76aaf36d4217a984
-https://linear306-it-dash1-prd.selector.skycdn.it/016a/31483/FHD/skysportmotogp/master_stereo.mpd?
+https://linear306-it-dash1-prd.selector.skycdn.it/016a/31483/FHD/skysportmotogp/master_stereo.mpd
 #EXTINF:-1 tvg-id="skysportmotogp.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-motogp-it.png" group-title="MOTOMONDIALE",15:30 Moto3 - Gara 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=00362e9181eaa0c5f91761ade3515eb8:52cf3c27885d58ad76aaf36d4217a984
-https://linear306-it-dash1-prd.selector.skycdn.it/016a/31483/FHD/skysportmotogp/master_stereo.mpd?
+https://linear306-it-dash1-prd.selector.skycdn.it/016a/31483/FHD/skysportmotogp/master_stereo.mpd
 #EXTINF:-1 tvg-id="skysportf1.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-f1-it.png" group-title="FORMULA 1",13:30 Prove Libere 1 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=0036a96b6bbbf1828488f90e6b2ca1f4:d24e6ae926e88f8303b6926271ff8155
-https://linear307-it-dash1-prd.selector.skycdn.it/016a/31478/FHD/skysportf1/master_stereo.mpd?
+https://linear307-it-dash1-prd.selector.skycdn.it/016a/31478/FHD/skysportf1/master_stereo.mpd
 #EXTINF:-1 tvg-id="skysportf1.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-f1-it.png" group-title="FORMULA 1",17:00 Prove Libere 1 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=0036a96b6bbbf1828488f90e6b2ca1f4:d24e6ae926e88f8303b6926271ff8155
-https://linear307-it-dash1-prd.selector.skycdn.it/016a/31478/FHD/skysportf1/master_stereo.mpd?
+https://linear307-it-dash1-prd.selector.skycdn.it/016a/31478/FHD/skysportf1/master_stereo.mpd
 #EXTINF:-1 tvg-id="skysportf1.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-f1-it.png" group-title="FORMULA 1",12:30 Prove Libere 3 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=0036a96b6bbbf1828488f90e6b2ca1f4:d24e6ae926e88f8303b6926271ff8155
-https://linear307-it-dash1-prd.selector.skycdn.it/016a/31478/FHD/skysportf1/master_stereo.mpd?
+https://linear307-it-dash1-prd.selector.skycdn.it/016a/31478/FHD/skysportf1/master_stereo.mpd
 #EXTINF:-1 tvg-id="skysportf1.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-f1-it.png" group-title="FORMULA 1",16:00 Qualifiche 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=0036a96b6bbbf1828488f90e6b2ca1f4:d24e6ae926e88f8303b6926271ff8155
-https://linear307-it-dash1-prd.selector.skycdn.it/016a/31478/FHD/skysportf1/master_stereo.mpd?
+https://linear307-it-dash1-prd.selector.skycdn.it/016a/31478/FHD/skysportf1/master_stereo.mpd
 #EXTINF:-1 tvg-id="skysportf1.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-f1-it.png" group-title="FORMULA 1",15:00 Gara 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=0036a96b6bbbf1828488f90e6b2ca1f4:d24e6ae926e88f8303b6926271ff8155
-https://linear307-it-dash1-prd.selector.skycdn.it/016a/31478/FHD/skysportf1/master_stereo.mpd?
+https://linear307-it-dash1-prd.selector.skycdn.it/016a/31478/FHD/skysportf1/master_stereo.mpd
 #EXTINF:-1 tvg-id="tsn5.ca" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/7/7d/TSN5_logo.svg/1200px-TSN5_logo.svg.png" group-title="FORMULA 1",15:00 Gara 
-https://live-cito.9c9media.ca/5d56690552e77e26848799912ac055919f78d5e71725017868382/f/tsn5/manifest.mpd?ck=ZjQ2MDhkYzliNjE2NGNkN2I5Njc5MWFmOTFjYzMzNGM6OGQ0YmM2NTM3NjI5ZDNmN2FkNWFhNGU3NTUxNmY2ZGE="></iframe>
- </div>
-  </div>
-</div></div></div>
-</div>
-
-</br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<small class="d-block text-right mt-3" style="background: #262728;padding: 20px;border-radius: 10px;margin: 30 10 20 10;">
-<center>
-<form name="logout" action="index.php" method="post" style="max-width: 400px;">
-<div class="form-group">
-<input type="hidden" name="logout" value="esci">
-<button type="submit" class="btn btn-block btn-default" value="Logout" style="color: white;font-weight: bold;background: #2b373d;"> Logout </button>
-</div>
-</form>
-</center>
-</small>
-
-
-</main>
-
-
-
-<div style="display:none;"><img id="vw24" src="//whos.amung.us/cwidget/l4ttszqxx0/000000ffffff.png"></div>
-<script type="2d941fa5283e9c72bd9fc5ae-text/javascript">var vw24 = document.getElementById("vw24");setInterval(function(){vw24.src="//whos.amung.us/cwidget/l4ttszqxx0/000000ffffff.png?"+new Date().getTime()},300000);</script>
-
-
-<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="2d941fa5283e9c72bd9fc5ae-|49" defer></script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"943c2d01cf94f20a","version":"2025.4.0-1-g37f21b1","r":1,"serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"token":"c346fd407ee74065bc1092679f73657a","b":1}' crossorigin="anonymous"></script>
-</html>
-
-
-
-
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=f4608dc9b6164cd7b96791af91cc334c:8d4bc6537629d3f7ad5aa4e75516f6da
+https://live-cito.9c9media.ca/5d56690552e77e26848799912ac055919f78d5e71725017868382/f/tsn5/manifest.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="TENNIS",11:00 Live 
-https://timlivetu0.cb.ticdn.it/Content/DASH/Live/channel(eurosport1)/manifest.mpd?ck=NDZlNTU5YzJmOWY2NDVjZThkODBjN2ZhMjA0NDZiZGI6NTk3ZDIxNGQ2NjM0MmVlMDQyYmNjZmZlYjE2NWU3NTA="></iframe>
- </div>
-  </div>
-</div></div></div>
-</div>
-
-</br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<small class="d-block text-right mt-3" style="background: #262728;padding: 20px;border-radius: 10px;margin: 30 10 20 10;">
-<center>
-<form name="logout" action="index.php" method="post" style="max-width: 400px;">
-<div class="form-group">
-<input type="hidden" name="logout" value="esci">
-<button type="submit" class="btn btn-block btn-default" value="Logout" style="color: white;font-weight: bold;background: #2b373d;"> Logout </button>
-</div>
-</form>
-</center>
-</small>
-
-
-</main>
-
-
-
-<div style="display:none;"><img id="vw24" src="//whos.amung.us/cwidget/l4ttszqxx0/000000ffffff.png"></div>
-<script type="ea0abd260940a45748553668-text/javascript">var vw24 = document.getElementById("vw24");setInterval(function(){vw24.src="//whos.amung.us/cwidget/l4ttszqxx0/000000ffffff.png?"+new Date().getTime()},300000);</script>
-
-
-<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="ea0abd260940a45748553668-|49" defer></script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"943c2d078fd3f20a","version":"2025.4.0-1-g37f21b1","r":1,"serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"token":"c346fd407ee74065bc1092679f73657a","b":1}' crossorigin="anonymous"></script>
-</html>
-
-
-
-
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=46e559c2f9f645ce8d80c7fa20446bdb:597d214d66342ee042bccffeb165e750
+https://timlivetu0.cb.ticdn.it/Content/DASH/Live/channel(eurosport1)/manifest.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="TENNIS",11:00 Live 
-https://timlivetu0.cb.ticdn.it/Content/DASH/Live/channel(eurosport2)/manifest.mpd?ck=ZTgzNzIyODNhNTIzNDQ0Yzg0NjQ2YzQxNzJiMWJjMGY6OTY5YTkwZTFhMWE2NDI0YTY4ZmU0YjVkNzc2MzY4ZWM="></iframe>
- </div>
-  </div>
-</div></div></div>
-</div>
-
-</br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<small class="d-block text-right mt-3" style="background: #262728;padding: 20px;border-radius: 10px;margin: 30 10 20 10;">
-<center>
-<form name="logout" action="index.php" method="post" style="max-width: 400px;">
-<div class="form-group">
-<input type="hidden" name="logout" value="esci">
-<button type="submit" class="btn btn-block btn-default" value="Logout" style="color: white;font-weight: bold;background: #2b373d;"> Logout </button>
-</div>
-</form>
-</center>
-</small>
-
-
-</main>
-
-
-
-<div style="display:none;"><img id="vw24" src="//whos.amung.us/cwidget/l4ttszqxx0/000000ffffff.png"></div>
-<script type="1b969118c49da75ba8ab5883-text/javascript">var vw24 = document.getElementById("vw24");setInterval(function(){vw24.src="//whos.amung.us/cwidget/l4ttszqxx0/000000ffffff.png?"+new Date().getTime()},300000);</script>
-
-
-<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="1b969118c49da75ba8ab5883-|49" defer></script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"943c2d0d3896f20a","version":"2025.4.0-1-g37f21b1","r":1,"serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"token":"c346fd407ee74065bc1092679f73657a","b":1}' crossorigin="anonymous"></script>
-</html>
-
-
-
-
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=e8372283a523444c84646c4172b1bc0f:969a90e1a1a6424a68fe4b5d776368ec
+https://timlivetu0.cb.ticdn.it/Content/DASH/Live/channel(eurosport2)/manifest.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="TENNIS",11:00 Live 
-https://timlivetu0.cb.ticdn.it/Content/DASH/Live/channel(eurosport3)/manifest.mpd?ck=MWUyMzk4YjBlZWIwNDgyOWI0NzExZTE0YjRhOTEyNDQ6MTFlMjY2NTllYmZlY2Y2YTIyZWQ1NmRhMzQwNDQ4Y2Q="></iframe>
- </div>
-  </div>
-</div></div></div>
-</div>
-
-</br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<small class="d-block text-right mt-3" style="background: #262728;padding: 20px;border-radius: 10px;margin: 30 10 20 10;">
-<center>
-<form name="logout" action="index.php" method="post" style="max-width: 400px;">
-<div class="form-group">
-<input type="hidden" name="logout" value="esci">
-<button type="submit" class="btn btn-block btn-default" value="Logout" style="color: white;font-weight: bold;background: #2b373d;"> Logout </button>
-</div>
-</form>
-</center>
-</small>
-
-
-</main>
-
-
-
-<div style="display:none;"><img id="vw24" src="//whos.amung.us/cwidget/l4ttszqxx0/000000ffffff.png"></div>
-<script type="42e4a269e8d7d0edb56528d9-text/javascript">var vw24 = document.getElementById("vw24");setInterval(function(){vw24.src="//whos.amung.us/cwidget/l4ttszqxx0/000000ffffff.png?"+new Date().getTime()},300000);</script>
-
-
-<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="42e4a269e8d7d0edb56528d9-|49" defer></script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"943c2d1309b2f20a","version":"2025.4.0-1-g37f21b1","r":1,"serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"token":"c346fd407ee74065bc1092679f73657a","b":1}' crossorigin="anonymous"></script>
-</html>
-
-
-
-
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=1e2398b0eeb04829b4711e14b4a91244:11e26659ebfecf6a22ed56da340448cd
+https://timlivetu0.cb.ticdn.it/Content/DASH/Live/channel(eurosport3)/manifest.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="TENNIS",11:00 Live 
-https://timlivetu0.cb.ticdn.it/Content/DASH/Live/channel(eurosport4)/manifest.mpd?ck=OWRkN2JlNzllNDRmNGQwOGE5MWVjNWQxNTUzZjE3Yjg6OGE2MjM2OWY4MWE0YjZlNWYyZDQ4NDZmN2JkNWU3ZDE="></iframe>
- </div>
-  </div>
-</div></div></div>
-</div>
-
-</br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<small class="d-block text-right mt-3" style="background: #262728;padding: 20px;border-radius: 10px;margin: 30 10 20 10;">
-<center>
-<form name="logout" action="index.php" method="post" style="max-width: 400px;">
-<div class="form-group">
-<input type="hidden" name="logout" value="esci">
-<button type="submit" class="btn btn-block btn-default" value="Logout" style="color: white;font-weight: bold;background: #2b373d;"> Logout </button>
-</div>
-</form>
-</center>
-</small>
-
-
-</main>
-
-
-
-<div style="display:none;"><img id="vw24" src="//whos.amung.us/cwidget/l4ttszqxx0/000000ffffff.png"></div>
-<script type="b629eeabee71e7541f9ed4c9-text/javascript">var vw24 = document.getElementById("vw24");setInterval(function(){vw24.src="//whos.amung.us/cwidget/l4ttszqxx0/000000ffffff.png?"+new Date().getTime()},300000);</script>
-
-
-<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="b629eeabee71e7541f9ed4c9-|49" defer></script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"943c2d18baecf20a","version":"2025.4.0-1-g37f21b1","r":1,"serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"token":"c346fd407ee74065bc1092679f73657a","b":1}' crossorigin="anonymous"></script>
-</html>
-
-
-
-
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=9dd7be79e44f4d08a91ec5d1553f17b8:8a62369f81a4b6e5f2d4846f7bd5e7d1
+https://timlivetu0.cb.ticdn.it/Content/DASH/Live/channel(eurosport4)/manifest.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="TENNIS",11:00 Live 
-https://timlivetu0.cb.ticdn.it/Content/DASH/Live/channel(eurosport5)/manifest.mpd?ck=YjQ4ZTdlNmQ5NmRhNDc5ZGE2NWU0MzVjZTY1ZmFlYjE6NDhjNzAzODc5Y2U0ZGVlZGI1YTIxMjRhMzBhMTNiYzQ="></iframe>
- </div>
-  </div>
-</div></div></div>
-</div>
-
-</br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<small class="d-block text-right mt-3" style="background: #262728;padding: 20px;border-radius: 10px;margin: 30 10 20 10;">
-<center>
-<form name="logout" action="index.php" method="post" style="max-width: 400px;">
-<div class="form-group">
-<input type="hidden" name="logout" value="esci">
-<button type="submit" class="btn btn-block btn-default" value="Logout" style="color: white;font-weight: bold;background: #2b373d;"> Logout </button>
-</div>
-</form>
-</center>
-</small>
-
-
-</main>
-
-
-
-<div style="display:none;"><img id="vw24" src="//whos.amung.us/cwidget/l4ttszqxx0/000000ffffff.png"></div>
-<script type="aae5cc7eba78b899cc2f56f0-text/javascript">var vw24 = document.getElementById("vw24");setInterval(function(){vw24.src="//whos.amung.us/cwidget/l4ttszqxx0/000000ffffff.png?"+new Date().getTime()},300000);</script>
-
-
-<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="aae5cc7eba78b899cc2f56f0-|49" defer></script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"943c2d1e8c1af20a","version":"2025.4.0-1-g37f21b1","r":1,"serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"token":"c346fd407ee74065bc1092679f73657a","b":1}' crossorigin="anonymous"></script>
-</html>
-
-
-
-
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=b48e7e6d96da479da65e435ce65faeb1:48c703879ce4deedb5a2124a30a13bc4
+https://timlivetu0.cb.ticdn.it/Content/DASH/Live/channel(eurosport5)/manifest.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="TENNIS",11:00 Live 
-https://timlivetu0.cb.ticdn.it/Content/DASH/Live/channel(eurosport6)/manifest.mpd?ck=ZWFkMWM1NjdhM2RmNDg2MTk3OTliMmU3OGIxOGZkZmE6MWRlOWQ5YWY1NjUxMjk2YWE2NzkxMzk3OWFkOGM2OTQ="></iframe>
- </div>
-  </div>
-</div></div></div>
-</div>
-
-</br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<small class="d-block text-right mt-3" style="background: #262728;padding: 20px;border-radius: 10px;margin: 30 10 20 10;">
-<center>
-<form name="logout" action="index.php" method="post" style="max-width: 400px;">
-<div class="form-group">
-<input type="hidden" name="logout" value="esci">
-<button type="submit" class="btn btn-block btn-default" value="Logout" style="color: white;font-weight: bold;background: #2b373d;"> Logout </button>
-</div>
-</form>
-</center>
-</small>
-
-
-</main>
-
-
-
-<div style="display:none;"><img id="vw24" src="//whos.amung.us/cwidget/l4ttszqxx0/000000ffffff.png"></div>
-<script type="f0d33ca1225ade0a8c9c8e13-text/javascript">var vw24 = document.getElementById("vw24");setInterval(function(){vw24.src="//whos.amung.us/cwidget/l4ttszqxx0/000000ffffff.png?"+new Date().getTime()},300000);</script>
-
-
-<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="f0d33ca1225ade0a8c9c8e13-|49" defer></script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"943c2d243c9af20a","version":"2025.4.0-1-g37f21b1","r":1,"serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"token":"c346fd407ee74065bc1092679f73657a","b":1}' crossorigin="anonymous"></script>
-</html>
-
-
-
-
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=ead1c567a3df48619799b2e78b18fdfa:1de9d9af5651296aa67913979ad8c694
+https://timlivetu0.cb.ticdn.it/Content/DASH/Live/channel(eurosport6)/manifest.mpd
 #EXTINF:-1 tvg-id="eurosport1.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/eurosport-1-es.png" group-title="CICLISMO",11:00 Live 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=0036bb3fa7e6f2c334d7cba5c28b6caf:217fa35739cd68e90b2cd23322c01312
-https://linear311-it-dash1-prd.selector.skycdn.it/016a/313073/FHD/eurosport/master_stereo.mpd?
+https://linear311-it-dash1-prd.selector.skycdn.it/016a/313073/FHD/eurosport/master_stereo.mpd
 #EXTINF:-1 tvg-id="skysport24.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-24-it.png" group-title="EXTRA",Live 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=003663ddf1acb25ea88a7cf973afc0d5:35ea91b4151d6975007998c328daee6c
-https://linear303-it-dash1-prd.selector.skycdn.it/016a/31035/FHD/skysport24/master_stereo.mpd?
+https://linear303-it-dash1-prd.selector.skycdn.it/016a/31035/FHD/skysport24/master_stereo.mpd
 #EXTINF:-1 tvg-id="eurosport1.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/eurosport-1-es.png" group-title="EXTRA",Live 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=0036bb3fa7e6f2c334d7cba5c28b6caf:217fa35739cd68e90b2cd23322c01312
-https://linear311-it-dash1-prd.selector.skycdn.it/016a/313073/FHD/eurosport/master_stereo.mpd?
+https://linear311-it-dash1-prd.selector.skycdn.it/016a/313073/FHD/eurosport/master_stereo.mpd
 #EXTINF:-1 tvg-id="eurosport2.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/eurosport-2-es.png" group-title="EXTRA",Live 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=003670a7034342a4a07c91173818c61c:7b90055c1a1ea34d9090e9ebf6c4db8a
-https://linear312-it-dash1-prd.selector.skycdn.it/016a/31150/FHD/eurosport2/master_stereo.mpd?
+https://linear312-it-dash1-prd.selector.skycdn.it/016a/31150/FHD/eurosport2/master_stereo.mpd
