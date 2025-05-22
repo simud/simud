@@ -4,20 +4,14 @@
 #EXTINF:-1 tvg-id="rai 1" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/rai-1-it.png" group-title="Rai",Rai 1
 https://viamotionhsi.netplus.ch/live/eds/rai1/browser-dash/rai1.mpd
 
-#EXTINF:-1 tvg-id="rai 1" tvg-name="Rai 1 " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-1-it.png" group-title="Rai",Rai 1 FHD
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://ddy6new.newkso.ru/ddy6/premium850/mono.m3u8
+#EXTINF:-1 tvg-id="rai1.it" tvg-name="Rai 1 " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-1-it.png" group-title="Rai",Rai 1 FHD
+https://mfp2.nzo66.com/extractor/video?host=DLHD&d=/proxy/m3u?url=https://daddylive.dad/embed/stream-850.php&redirect_stream=true&api_password=mfp123
 
 #EXTINF:-1 tvg-id="rai 2" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/rai-2-it.png" group-title="Rai",Rai 2
 https://viamotionhsi.netplus.ch/live/eds/rai2/browser-dash/rai2.mpd
 
-#EXTINF:-1 tvg-id="rai 2" tvg-name="Rai 2 " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-2-it.png" group-title="Rai",Rai 2 FHD
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://ddy6new.newkso.ru/ddy6/premium851/mono.m3u8
+#EXTINF:-1 tvg-id="rai2.it" tvg-name="Rai 2 " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-2-it.png" group-title="Rai",Rai 2 FHD
+https://mfp2.nzo66.com/extractor/video?host=DLHD&d=/proxy/m3u?url=https://daddylive.dad/embed/stream-851.php&redirect_stream=true&api_password=mfp123
 
 #EXTINF:-1 tvg-id="rai 3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Rai_3_logo.svg/2560px-Rai_3_logo.svg.png" group-title="Rai",Rai 3
 https://viamotionhsi.netplus.ch/live/eds/rai3/browser-dash/rai3.mpd
@@ -28,20 +22,14 @@ https://viamotionhsi.netplus.ch/live/eds/rete4/browser-dash/rete4.mpd
 #EXTINF:-1 tvg-id="canale 5" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Canale_5_-_2018_logo.svg/1222px-Canale_5_-_2018_logo.svg.png" group-title="Rai",Canale 5
 https://viamotionhsi.netplus.ch/live/eds/canale5/browser-dash/canale5.mpd
 
-#EXTINF:-1 tvg-id="rai 3" tvg-name="Rai 3 " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-3-it.png" group-title="Rai",Canale 5 FHD
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://windnew.newkso.ru/wind/premium853/mono.m3u8
+#EXTINF:-1 tvg-id="rai3.it" tvg-name="Rai 3 " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-3-it.png" group-title="Rai",Canale 5 FHD
+https://mfp2.nzo66.com/extractor/video?host=DLHD&d=/proxy/m3u?url=https://daddylive.dad/embed/stream-853.php&redirect_stream=true&api_password=mfp123
 
 #EXTINF:-1 tvg-id="italia 1" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/italia-1-it.png" group-title="Rai",Italia 1
 https://viamotionhsi.netplus.ch/live/eds/italia1/browser-dash/italia1.mpd
 
-#EXTINF:-1 tvg-id="italia 1" tvg-name="Italia 1 " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/italia1-it.png" group-title="Rai",Italia 1 FHD
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://windnew.newkso.ru/wind/premium854/mono.m3u8
+#EXTINF:-1 tvg-id="italia1.it" tvg-name="Italia 1 " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/italia1-it.png" group-title="Rai",Italia 1 FHD
+https://mfp2.nzo66.com/extractor/video?host=DLHD&d=/proxy/m3u?url=https://daddylive.dad/embed/stream-854.php&redirect_stream=true&api_password=mfp123
 
 #EXTINF:-1 tvg-id="rai gulp" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Rai_Gulp_-_Logo_2017.svg/1200px-Rai_Gulp_-_Logo_2017.svg.png" group-title="Rai",Rai Gulp
 https://viamotionhsi.netplus.ch/live/eds/raigulp/browser-dash/raigulp.mpd
@@ -58,11 +46,8 @@ https://viamotionhsi.netplus.ch/live/eds/raiscuola/browser-dash/raiscuola.mpd
 #EXTINF:-1 tvg-id="rai sport" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/rai-sport-it.png" group-title="Rai",Rai Sport
 https://viamotionhsi.netplus.ch/live/eds/raisport1/browser-dash/raisport1.mpd
 
-#EXTINF:-1 tvg-id="rai sport" tvg-name="Rai Sport " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-sport-it.png" group-title="Rai",Rai Sport FHD
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://ddy6new.newkso.ru/ddy6/premium882/mono.m3u8
+#EXTINF:-1 tvg-id="raisport.it" tvg-name="Rai Sport " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-sport-it.png" group-title="Rai",Rai Sport FHD
+https://mfp2.nzo66.com/extractor/video?host=DLHD&d=/proxy/m3u?url=https://daddylive.dad/embed/stream-882.php&redirect_stream=true&api_password=mfp123
 
 #EXTINF:-1 tvg-id="la 7" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/la-7-italy.png" group-title="Rai",La7
 https://viamotionhsi.netplus.ch/live/eds/la7/browser-dash/la7.mpd
@@ -71,7 +56,7 @@ https://viamotionhsi.netplus.ch/live/eds/la7/browser-dash/la7.mpd
 #EXTVLCOPT:http-referrer=https://dokoplay.xyz/
 #EXTVLCOPT:http-origin=https://dokoplay.xyz
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://windnew.newkso.ru/wind/premium855/mono.m3u8
+https://mfp2.nzo66.com/extractor/video?host=DLHD&d=/proxy/m3u?url=https://daddylive.dad/embed/stream-855.php&redirect_stream=true&api_password=mfp123
 
 #EXTINF:-1 tvg-chno="8" tvg-id="tv8" tvg-name="Tv8" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShn5Y04DpzcEigc4jZsRpv_c9i0ZRVjczemQ&s" group-title="Rai",Tv8
 https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/11223/tv8web/master.m3u8?hdnea=st=1701861650~exp=1765449000~acl=/*~hmac=84c9f3f71e57b13c3a67afa8b29a8591ea9ed84bf786524399545d94be1ec04d
@@ -82,11 +67,8 @@ https://amg16146-wbdi-amg16146c1-samsung-it-1831.playouts.now.amagi.tv/playlist/
 #EXTINF:0 group-title="",tvg-id="la 7d" tvg-logo="https://i.postimg.cc/j5d5bSGp/photo-2025-03-13-12-56-42.png" group-title="Rai", La7d
 https://viamotionhsi.netplus.ch/live/eds/la7d/browser-dash/la7d.mpd
 
-#EXTINF:-1 tvg-id="Mediaset 20" tvg-name="20 Mediaset " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/20-it.png" group-title="Rai",20 Mediaset FHD
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://windnew.newkso.ru/wind/premium857/mono.m3u8
+#EXTINF:-1 tvg-id="20mediasethd.it" tvg-name="20 Mediaset " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/20-it.png" group-title="Rai",20 Mediaset FHD
+https://mfp2.nzo66.com/extractor/video?host=DLHD&d=/proxy/m3u?url=https://daddylive.dad/embed/stream-857.php&redirect_stream=true&api_password=mfp123
 
 #EXTINF:-1 tvg-chno="13" tvg-id="Rai 4K" tvg-name="rai 4k" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Rai_4K_-_Logo_2017.svg/330px-Rai_4K_-_Logo_2017.svg.png" group-title="Rai",Rai 4K
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
@@ -150,53 +132,29 @@ https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-c
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 
 # Sky Cinema FHD
-#EXTINF:-1 tvg-id="sky cinema uno" tvg-name="Sky Cinema Uno " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-uno-it.png" group-title="Sky Cinema FHD",Sky Cinema Uno FHD
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://windnew.newkso.ru/wind/premium860/mono.m3u8
+#EXTINF:-1 tvg-id="skycinemauno.it" tvg-name="Sky Cinema Uno " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-uno-it.png" group-title="Sky Cinema FHD",Sky Cinema Uno FHD
+https://mfp2.nzo66.com/extractor/video?host=DLHD&d=/proxy/m3u?url=https://daddylive.dad/embed/stream-860.php&redirect_stream=true&api_password=mfp123
 
-#EXTINF:-1 tvg-id="sky cinema collection" tvg-name="Sky Cinema Collection " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-collection-it.png" group-title="Sky Cinema FHD",Sky Cinema Collection FHD
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://windnew.newkso.ru/wind/premium859/mono.m3u8
+#EXTINF:-1 tvg-id="skycinemacollectionhd.it" tvg-name="Sky Cinema Collection " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-collection-it.png" group-title="Sky Cinema FHD",Sky Cinema Collection FHD
+https://mfp2.nzo66.com/extractor/video?host=DLHD&d=/proxy/m3u?url=https://daddylive.dad/embed/stream-859.php&redirect_stream=true&api_password=mfp123
 
-#EXTINF:-1 tvg-id="sky cinema action" tvg-name="Sky Cinema Action " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-action-it.png" group-title="Sky Cinema FHD",Sky Cinema Action FHD
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://windnew.newkso.ru/wind/premium861/mono.m3u8
+#EXTINF:-1 tvg-id="skycinemaaction.it" tvg-name="Sky Cinema Action " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-action-it.png" group-title="Sky Cinema FHD",Sky Cinema Action FHD
+https://mfp2.nzo66.com/extractor/video?host=DLHD&d=/proxy/m3u?url=https://daddylive.dad/embed/stream-861.php&redirect_stream=true&api_password=mfp123
 
-#EXTINF:-1 tvg-id="sky cinema comedy" tvg-name="Sky Cinema Comedy " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-comedy-it.png" group-title="Sky Cinema FHD",Sky Cinema Comedy FHD
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://windnew.newkso.ru/wind/premium862/mono.m3u8
+#EXTINF:-1 tvg-id="skycinemacomedy.it" tvg-name="Sky Cinema Comedy " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-comedy-it.png" group-title="Sky Cinema FHD",Sky Cinema Comedy FHD
+https://mfp2.nzo66.com/extractor/video?host=DLHD&d=/proxy/m3u?url=https://daddylive.dad/embed/stream-862.php&redirect_stream=true&api_password=mfp123
 
-#EXTINF:-1 tvg-id="sky cinema family" tvg-name="Sky Cinema Family " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-family-it.png" group-title="Sky Cinema FHD",Sky Cinema Family FHD
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://windnew.newkso.ru/wind/premium865/mono.m3u8
+#EXTINF:-1 tvg-id="skycinemafamily.it" tvg-name="Sky Cinema Family " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-family-it.png" group-title="Sky Cinema FHD",Sky Cinema Family FHD
+https://mfp2.nzo66.com/extractor/video?host=DLHD&d=/proxy/m3u?url=https://daddylive.dad/embed/stream-865.php&redirect_stream=true&api_password=mfp123
 
-#EXTINF:-1 tvg-id="sky cinema suspense" tvg-name="Sky Cinema Suspense " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-suspense-it.png" group-title="Sky Cinema FHD",Sky Cinema Suspense FHD
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://ddy6new.newkso.ru/ddy6/premium868/mono.m3u8
+#EXTINF:-1 tvg-id="skycinemasuspense.it" tvg-name="Sky Cinema Suspense " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-suspense-it.png" group-title="Sky Cinema FHD",Sky Cinema Suspense FHD
+https://mfp2.nzo66.com/extractor/video?host=DLHD&d=/proxy/m3u?url=https://daddylive.dad/embed/stream-868.php&redirect_stream=true&api_password=mfp123
 
-#EXTINF:-1 tvg-id="sky cinema drama" tvg-name="Sky Cinema Drama " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-drama-it.png" group-title="Sky Cinema FHD",Sky Cinema Drama FHD
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://windnew.newkso.ru/wind/premium867/mono.m3u8
+#EXTINF:-1 tvg-id="skycinemadrama.it" tvg-name="Sky Cinema Drama " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-drama-it.png" group-title="Sky Cinema FHD",Sky Cinema Drama FHD
+https://mfp2.nzo66.com/extractor/video?host=DLHD&d=/proxy/m3u?url=https://daddylive.dad/embed/stream-867.php&redirect_stream=true&api_password=mfp123
 
-#EXTINF:-1 tvg-id="sky cinemar omance" tvg-name="Sky Cinema Romance " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-romance-it.png" group-title="Sky Cinema FHD",Sky Cinema Romance FHD
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://windnew.newkso.ru/wind/premium864/mono.m3u8
+#EXTINF:-1 tvg-id="skycinemaromance.it" tvg-name="Sky Cinema Romance " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-romance-it.png" group-title="Sky Cinema FHD",Sky Cinema Romance FHD
+https://mfp2.nzo66.com/extractor/video?host=DLHD&d=/proxy/m3u?url=https://daddylive.dad/embed/stream-864.php&redirect_stream=true&api_password=mfp123
 
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Sky Cinema FHD",ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
@@ -207,29 +165,20 @@ https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-c
 
 # Sky Sport FHD
 
-#EXTINF:-1 tvg-id="sky sport 24" tvg-name="Sky Sport 24 " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-24-it.png" group-title="Sky Sport FHD",Sky Sport 24 FHD
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://windnew.newkso.ru/wind/premium869/mono.m3u8
+#EXTINF:-1 tvg-id="skysport24.it" tvg-name="Sky Sport 24 " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-24-it.png" group-title="Sky Sport FHD",Sky Sport 24 FHD
+https://mfp2.nzo66.com/extractor/video?host=DLHD&d=/proxy/m3u?url=https://daddylive.dad/embed/stream-869.php&redirect_stream=true&api_password=mfp123
 
 #EXTINF:-1 tvg-id="Sky.Sport.Uno.it" group-title="Sky Sport FHD" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-sport-uno-it.png",Sky Sport UNO FHD
 #EXTVLCOPT:http-referrer=https://dokoplay.xyz/
 #EXTVLCOPT:http-origin=https://dokoplay.xyz
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://ddy6new.newkso.ru/ddy6/premium461/mono.m3u8
+https://mfp2.nzo66.com/extractor/video?host=DLHD&d=/proxy/m3u?url=https://daddylive.dad/embed/stream-461.php&redirect_stream=true&api_password=mfp123
 
-#EXTINF:-1 tvg-id="Sky Sport Calcio" tvg-name="Sky Sport Calcio " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-calcio-it.png" group-title="Sky Sport FHD",Sky Sport Calcio FHD
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://windnew.newkso.ru/wind/premium870/mono.m3u8
+#EXTINF:-1 tvg-id="skysportcalcio.it" tvg-name="Sky Sport Calcio " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-calcio-it.png" group-title="Sky Sport FHD",Sky Sport Calcio FHD
+https://mfp2.nzo66.com/extractor/video?host=DLHD&d=/proxy/m3u?url=https://daddylive.dad/embed/stream-870.php&redirect_stream=true&api_password=mfp123
 
-#EXTINF:-1 tvg-id="sky sport f1" tvg-name="Sky Sport F1 " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-f1-it.png" group-title="Sky Sport FHD",Sky Sport F1 FHD
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://nfsnew.newkso.ru/nfs/premium577/mono.m3u8
+#EXTINF:-1 tvg-id="skysportf1.it" tvg-name="Sky Sport F1 " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-f1-it.png" group-title="Sky Sport FHD",Sky Sport F1 FHD
+https://mfp2.nzo66.com/extractor/video?host=DLHD&d=/proxy/m3u?url=https://daddylive.dad/embed/stream-577.php&redirect_stream=true&api_password=mfp123
 
 #EXTINF:-1 tvg-id="sky sport nba" group-title="Sky Sport FHD" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/Sky_Sport_NBA.png",Sky Sport NBA FHD
 #EXTVLCOPT:http-referrer=https://dokoplay.xyz/
@@ -237,35 +186,26 @@ https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://nfsnew.newkso.ru/nfs/premiu
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://windnew.newkso.ru/wind/premium875/mono.m3u8
 
-#EXTINF:-1 tvg-id="sky sport arena" tvg-name="Sky Sport Arena " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-arena-it.png" group-title="Sky Sport FHD",Sky Sport Arena FHD
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://ddy6new.newkso.ru/ddy6/premium462/mono.m3u8
+#EXTINF:-1 tvg-id="skysportarena.it" tvg-name="Sky Sport Arena " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-arena-it.png" group-title="Sky Sport FHD",Sky Sport Arena FHD
+https://mfp2.nzo66.com/extractor/video?host=DLHD&d=/proxy/m3u?url=https://daddylive.dad/embed/stream-462.php&redirect_stream=true&api_password=mfp123
 
-#EXTINF:-1 tvg-id="sky sport tennis" tvg-name="Sky Sport Tennis " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-tennis-it.png" group-title="Sky Sport FHD",Sky Sport Tennis FHD
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://ddy6new.newkso.ru/ddy6/premium576/mono.m3u8
+#EXTINF:-1 tvg-id="skysporttennis.it" tvg-name="Sky Sport Tennis " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-tennis-it.png" group-title="Sky Sport FHD",Sky Sport Tennis FHD
+https://mfp2.nzo66.com/extractor/video?host=DLHD&d=/proxy/m3u?url=https://daddylive.dad/embed/stream-576.php&redirect_stream=true&api_password=mfp123
 
-#EXTINF:-1 tvg-id="sky sport motogp" tvg-name="Sky Sport MotoGP " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-motogp-it.png" group-title="Sky Sport FHD",Sky Sport MotoGP FHD
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://nfsnew.newkso.ru/nfs/premium575/mono.m3u8
+#EXTINF:-1 tvg-id="skysportmotogp.it" tvg-name="Sky Sport MotoGP " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-motogp-it.png" group-title="Sky Sport FHD",Sky Sport MotoGP FHD
+https://mfp2.nzo66.com/extractor/video?host=DLHD&d=/proxy/m3u?url=https://daddylive.dad/embed/stream-575.php&redirect_stream=true&api_password=mfp123
 
 #EXTINF:-1 tvg-id="Sky.Sport.Max.it" group-title="Sky Sport FHD" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-sport-football-it.png",Sky Sport Football FHD
 #EXTVLCOPT:http-referrer=https://dokoplay.xyz/
 #EXTVLCOPT:http-origin=https://dokoplay.xyz
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://dokko1new.newkso.ru/dokko1/premium460/mono.m3u8
+https://mfp2.nzo66.com/extractor/video?host=DLHD&d=/proxy/m3u?url=https://daddylive.dad/embed/stream-460.php&redirect_stream=true&api_password=mfp123
 
 #EXTINF:-1 tvg-id="Sky.Sport.Golf.it" group-title="Sky Sport FHD" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-sport-golf-it.png",Sky Sports Golf FHD
 #EXTVLCOPT:http-referrer=https://dokoplay.xyz/
 #EXTVLCOPT:http-origin=https://dokoplay.xyz
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://ddy6new.newkso.ru/ddy6/premium574/mono.m3u8
+https://mfp2.nzo66.com/extractor/video?host=DLHD&d=/proxy/m3u?url=https://daddylive.dad/embed/stream-574.php&redirect_stream=true&api_password=mfp123
 
 #EXTINF:-1 channel-id="pluto-63a0e33a45264d000850ed7e" tvg-id="63a0e33a45264d000850ed7e" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/91/Golazo_Network_logo.png/revision/latest/scale-to-width-down/1200?cb=20230502042859" group-title="Sky Sport FHD",Golazo (SerieA)
 http://stitcher.pluto.tv/v1/stitch/embed/hls/channel/63a0e33a45264d000850ed7e/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
@@ -280,25 +220,25 @@ https://viamotionhsi.netplus.ch/live/eds/rsila2hd/browser-dash/rsila2hd.mpd
 #EXTVLCOPT:http-referrer=https://dokoplay.xyz/
 #EXTVLCOPT:http-origin=https://dokoplay.xyz
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://zekonew.newkso.ru/zeko/premium871/mono.m3u8
+https://mfp2.nzo66.com/extractor/video?host=DLHD&d=/proxy/m3u?url=https://daddylive.dad/embed/stream-871.php&redirect_stream=true&api_password=mfp123
 
 #EXTINF:-1 tvg-id="Sky.Sport..252.it" group-title="Sky Sport FHD" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-calcio-2.png",Sky Calcio 2 FHD
 #EXTVLCOPT:http-referrer=https://dokoplay.xyz/
 #EXTVLCOPT:http-origin=https://dokoplay.xyz
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://windnew.newkso.ru/wind/premium872/mono.m3u8
+https://mfp2.nzo66.com/extractor/video?host=DLHD&d=/proxy/m3u?url=https://daddylive.dad/embed/stream-872.php&redirect_stream=true&api_password=mfp123
 
 #EXTINF:-1 tvg-id="Sky.Sport..253.it" group-title="Sky Sport FHD" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-calcio-3.png",Sky Calcio 3 FHD
 #EXTVLCOPT:http-referrer=https://dokoplay.xyz/
 #EXTVLCOPT:http-origin=https://dokoplay.xyz
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://windnew.newkso.ru/wind/premium873/mono.m3u8
+https://mfp2.nzo66.com/extractor/video?host=DLHD&d=/proxy/m3u?url=https://daddylive.dad/embed/stream-873.php&redirect_stream=true&api_password=mfp123
 
 #EXTINF:-1 tvg-id="Sky.Sport..254.it" group-title="Sky Sport FHD" tvg-logo="https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/logos/sky-calcio-4.png",Sky Calcio 4 FHD
 #EXTVLCOPT:http-referrer=https://dokoplay.xyz/
 #EXTVLCOPT:http-origin=https://dokoplay.xyz
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://windnew.newkso.ru/wind/premium874/mono.m3u8
+https://mfp2.nzo66.com/extractor/video?host=DLHD&d=/proxy/m3u?url=https://daddylive.dad/embed/stream-874.php&redirect_stream=true&api_password=mfp123
 
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Sky Sport FHD",ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
@@ -310,11 +250,8 @@ https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-c
 
 # DAZN Serie A
 
-#EXTINF:-1 tvg-id="DAZN 1" tvg-name="DAZN 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/DAZN_1_Logo.svg/774px-DAZN_1_Logo.svg.png" group-title="DAZN Serie A",DAZN 1 FHD
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://nfsnew.newkso.ru/nfs/premium877/mono.m3u8
+#EXTINF:-1 tvg-id="dazn1.it" tvg-name="DAZN 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/DAZN_1_Logo.svg/774px-DAZN_1_Logo.svg.png" group-title="DAZN Serie A",DAZN 1 FHD
+https://mfp2.nzo66.com/extractor/video?host=DLHD&d=/proxy/m3u?url=https://daddylive.dad/embed/stream-877.php&redirect_stream=true&api_password=mfp123
 
 #EXTINF:-1 tvg-id="DAZN.2.de" tvg-name="DAZN 1 HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e3/Tv-channel-%E2%94%82-dazn-1.png" group-title="DAZN Serie A",DAZN 1 FHD 2
 #EXTVLCOPT:http-referrer=https://dokoplay.xyz/
@@ -322,17 +259,11 @@ https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://nfsnew.newkso.ru/nfs/premiu
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://nfsnew.newkso.ru/nfs/premium877/mono.m3u8
 
-#EXTINF:-1 tvg-id="eurosport 1" tvg-name="EuroSport 1 " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/eurosport-1-es.png" group-title="Sky Sport FHD",EuroSport 1 FHD
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://windnew.newkso.ru/wind/premium878/mono.m3u8
+#EXTINF:-1 tvg-id="eurosport1.it" tvg-name="EuroSport 1 " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/eurosport-1-es.png" group-title="Sky Sport FHD",EuroSport 1 FHD
+https://mfp2.nzo66.com/extractor/video?host=DLHD&d=/proxy/m3u?url=https://daddylive.dad/embed/stream-878.php&redirect_stream=true&api_password=mfp123
 
-#EXTINF:-1 tvg-id="eurosport 2" tvg-name="EuroSport 2 " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/eurosport-2-es.png" group-title="Sky Sport FHD",EuroSport 2 FHD
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://windnew.newkso.ru/wind/premium879/mono.m3u8
+#EXTINF:-1 tvg-id="eurosport2.it" tvg-name="EuroSport 2 " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/eurosport-2-es.png" group-title="Sky Sport FHD",EuroSport 2 FHD
+https://mfp2.nzo66.com/extractor/video?host=DLHD&d=/proxy/m3u?url=https://daddylive.dad/embed/stream-879.php&redirect_stream=true&api_password=mfp123
 
 #EXTINF:-1 tvg-id="sportitalia.it" tvg-logo="https://upload.wikimedia.org/wikipedia/it/c/c0/Sportitalia_Logo.JPG" tvg-name="Sportitalia solo calcio FHD" group-title="DAZN Serie A",Sportitalia solo calcio FHD
 https://di-kzbhv8pw.vo.lswcdn.net/sportitalia/sisolocalcio/chunklist.m3u8
@@ -361,13 +292,10 @@ https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-c
 #EXTVLCOPT:http-origin=https://chimeracuddleplay.cfd
 #EXTVLCOPT:http-referrer=https://chimeracuddleplay.cfd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://windnew.newkso.ru/wind/premium881/mono.m3u8
+https://mfp2.nzo66.com/extractor/video?host=DLHD&d=/proxy/m3u?url=https://daddylive.dad/embed/stream-881.php&redirect_stream=true&api_password=mfp123
 
-#EXTINF:-1 tvg-id="sky serie" tvg-name="Sky Serie " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-serie-it.png" group-title="Sky Cinema FHD",Sky Serie FHD
-#EXTVLCOPT:http-referrer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://windnew.newkso.ru/wind/premium880/mono.m3u8
+#EXTINF:-1 tvg-id="skyserie.it" tvg-name="Sky Serie " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-serie-it.png" group-title="Sky Cinema FHD",Sky Serie FHD
+https://mfp2.nzo66.com/extractor/video?host=DLHD&d=/proxy/m3u?url=https://daddylive.dad/embed/stream-880.php&redirect_stream=true&api_password=mfp123
 
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Intrattenimento",ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
@@ -1384,3 +1312,61 @@ https://bbrwebradio.radioca.st/stream?type=http&amp;nocache=6552&1684428942562
 
 #EXTINF:-1 tvg-logo="https://static.mytuner.mobi/media/tvos_radios/j6by3cev9rkb.png" group-title="Radio Web/Fm",Jolly Fm
 http://nr4.newradio.it:9422/;?1571411143501
+#EXTINF:-1 tvg-id="skysport255.it" tvg-name="Sky Calcio 5  " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/germany/sky-select-5-alt-de.png" group-title="Sky Sport FHD",Sky Calcio 5 FHD
+https://mfp2.nzo66.com/extractor/video?host=DLHD&d=/proxy/m3u?url=https://daddylive.dad/embed/stream-875.php&redirect_stream=true&api_password=mfp123
+#EXTINF:-1 tvg-id="skysport24.it" tvg-name="Sky Sport 24 " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-24-it.png" group-title="Sky Sport FHD",Sky Sport 24 (Hd) FHD
+https://mfp2.nzo66.com/extractor/video?host=DLHD&d=LINKMFP/proxy/mpd/manifest.m3u8?d=https%3A//linear303-it-dash1-prd.selector.skycdn.it/016a/31035/FHD/skysport24/master_stereo.mpd%3F%26ck%3DMDAzNjYzZGRmMWFjYjI1ZWE4OGE3Y2Y5NzNhZmMwZDU6MzVlYTkxYjQxNTFkNjk3NTAwNzk5OGMzMjhkYWVlNmM%3D&key_id=003663ddf1acb25ea88a7cf973afc0d5&key=35ea91b4151d6975007998c328daee6c&api_password=mfp&redirect_stream=true&api_password=mfp123
+#EXTINF:-1 tvg-id="skysportuno.it" tvg-name="Sky Sport UNO " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-uno-it.png" group-title="Sky Sport FHD",Sky Sport UNO (Hd) FHD
+https://mfp2.nzo66.com/extractor/video?host=DLHD&d=LINKMFP/proxy/mpd/manifest.m3u8?d=https%3A//linear301-it-dash1-prd.selector.skycdn.it/016a/31023/FHD/skysportuno/master_stereo.mpd%3F%26ck%3DMDAzNmFhYTFkNjhjNmI0ODdlMjlhNWNiMDgwYThhMjg6YTNlOGRiM2ZmM2M4NzZmN2I0M2E5NjFiNjRhNjM0NzQ%3D&key_id=0036aaa1d68c6b487e29a5cb080a8a28&key=a3e8db3ff3c876f7b43a961b64a63474&api_password=mfp&redirect_stream=true&api_password=mfp123
+#EXTINF:-1 tvg-id="skysportuno.it" tvg-name="Sky Sport UNO " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-uno-it.png" group-title="Sky Sport FHD",Sky Sport UNO (H) FHD
+https://mfp2.nzo66.com/extractor/video?host=DLHD&d=LINKMFP/proxy/mpd/manifest.m3u8?d=https%3A//linear301-it-dash1-prd.selector.skycdn.it/016a/31023/FHD/skysportuno/master_stereo.mpd&key_id=0036aaa1d68c6b487e29a5cb080a8a28&key=a3e8db3ff3c876f7b43a961b64a63474&api_password=mfp&redirect_stream=true&api_password=mfp123
+#EXTINF:-1 tvg-id="skysportcalcio.it" tvg-name="Sky Sport Calcio " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-calcio-it.png" group-title="Sky Sport FHD",Sky Sport Calcio (Hd) FHD
+https://mfp2.nzo66.com/extractor/video?host=DLHD&d=LINKMFP/proxy/mpd/manifest.m3u8?d=https%3A//linear302-it-dash1-prd.selector.skycdn.it/016a/31209/FHD/skysportseriea/master_stereo.mpd&key_id=00362f95db61eba0e6f14acee3f71e01&key=fb74cd84b53c7557e18424a3356c4665&api_password=mfp&redirect_stream=true&api_password=mfp123
+#EXTINF:-1 tvg-id="skysportcalcio.it" tvg-name="Sky Sport Calcio " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-calcio-it.png" group-title="Sky Sport FHD",Sky Sport Calcio (H) FHD
+https://mfp2.nzo66.com/extractor/video?host=DLHD&d=LINKMFP/proxy/mpd/manifest.m3u8?d=https%3A//linear303-it-dash1-prd.selector.skycdn.it//016a/31209/FHD/skysportseriea/master_stereo.mpd&key_id=00362f95db61eba0e6f14acee3f71e01&key=fb74cd84b53c7557e18424a3356c4665&api_password=mfp&redirect_stream=true&api_password=mfp123
+#EXTINF:-1 tvg-id="skysportarena.it" tvg-name="Sky Sport Arena " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-arena-it.png" group-title="Sky Sport FHD",Sky Sport Arena (Hd) FHD
+https://mfp2.nzo66.com/extractor/video?host=DLHD&d=LINKMFP/proxy/mpd/manifest.m3u8?d=https%3A//linear304-it-dash1-prd.selector.skycdn.it/016a/31024/FHD/skysportarena/master_stereo.mpd%3F%26ck%3DMDAzNjhmMmJmMTA3MzZjOWMyYzAyYWIwZmE2OTRkMDA6OTJlZWM5ZDg0MWFjMGMxZmYxNmI5MGEwZGI4MmM3OTI%3D&key_id=00368f2bf10736c9c2c02ab0fa694d00&key=92eec9d841ac0c1ff16b90a0db82c792&api_password=mfp&redirect_stream=true&api_password=mfp123
+#EXTINF:-1 tvg-id="skysportarena.it" tvg-name="Sky Sport Arena " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-arena-it.png" group-title="Sky Sport FHD",Sky Sport Arena (H) FHD
+https://mfp2.nzo66.com/extractor/video?host=DLHD&d=LINKMFP/proxy/mpd/manifest.m3u8?d=https%3A//linear304-it-dash1-prd.selector.skycdn.it/016a/31024/FHD/skysportarena/master_stereo.mpd&key_id=00368f2bf10736c9c2c02ab0fa694d00&key=92eec9d841ac0c1ff16b90a0db82c792&api_password=mfp&redirect_stream=true&api_password=mfp123
+#EXTINF:-1 tvg-id="skysportmax.it" tvg-name="Sky Sport Football " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-football-it.png" group-title="Sky Sport FHD",Sky Sport Football (Hd) FHD
+https://mfp2.nzo66.com/extractor/video?host=DLHD&d=LINKMFP/proxy/mpd/manifest.m3u8?d=https%3A//linear305-it-dash1-prd.selector.skycdn.it/016a/31248/FHD/skysportmax/master_stereo.mpd%3F%26ck%3DMDAzNmYxM2JjYTFjNTYwM2I5ZjNiYjI4ZWMyOGZhODA6ZjAxNDAzYmNiNWEwMmM2MTE1M2QyOTdmYjBjNDM5NWY%3D&key_id=0036f13bca1c5603b9f3bb28ec28fa80&key=f01403bcb5a02c61153d297fb0c4395f&api_password=mfp&redirect_stream=true&api_password=mfp123
+#EXTINF:-1 tvg-id="skysportmax.it" tvg-name="Sky Sport Football " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-football-it.png" group-title="Sky Sport FHD",Sky Sport Football (H) FHD
+https://mfp2.nzo66.com/extractor/video?host=DLHD&d=LINKMFP/proxy/mpd/manifest.m3u8?d=https%3A//linear305-it-dash1-prd.selector.skycdn.it/016a/31248/FHD/skysportmax/master_stereo.mpd&key_id=0036f13bca1c5603b9f3bb28ec28fa80&key=f01403bcb5a02c61153d297fb0c4395f&api_password=mfp&redirect_stream=true&api_password=mfp123
+#EXTINF:-1 tvg-id="skysportf1.it" tvg-name="Sky Sport F1 " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-f1-it.png" group-title="Sky Sport FHD",Sky Sport F1 (Hd) FHD
+https://mfp2.nzo66.com/extractor/video?host=DLHD&d=LINKMFP/proxy/mpd/manifest.m3u8?d=https%3A//linear307-it-dash1-prd.selector.skycdn.it/016a/31478/FHD/skysportf1/master_stereo.mpd%3F%26ck%3DMDAzNmE5NmI2YmJiZjE4Mjg0ODhmOTBlNmIyY2ExZjQ6ZDI0ZTZhZTkyNmU4OGY4MzAzYjY5MjYyNzFmZjgxNTU%3D&key_id=0036a96b6bbbf1828488f90e6b2ca1f4&key=d24e6ae926e88f8303b6926271ff8155&api_password=mfp&redirect_stream=true&api_password=mfp123
+#EXTINF:-1 tvg-id="skysportf1.it" tvg-name="Sky Sport F1 " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-f1-it.png" group-title="Sky Sport FHD",Sky Sport F1 (H) FHD
+https://mfp2.nzo66.com/extractor/video?host=DLHD&d=LINKMFP/proxy/mpd/manifest.m3u8?d=https%3A//linear307-it-dash1-prd.selector.skycdn.it/016a/31478/FHD/skysportf1/master_stereo.mpd&key_id=0036a96b6bbbf1828488f90e6b2ca1f4&key=d24e6ae926e88f8303b6926271ff8155&api_password=mfp&redirect_stream=true&api_password=mfp123
+#EXTINF:-1 tvg-id="skysportmotogp.it" tvg-name="Sky Sport MotoGP " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-motogp-it.png" group-title="Sky Sport FHD",Sky Sport MotoGP (Hd) FHD
+https://mfp2.nzo66.com/extractor/video?host=DLHD&d=LINKMFP/proxy/mpd/manifest.m3u8?d=https%3A//linear306-it-dash1-prd.selector.skycdn.it/016a/31483/FHD/skysportmotogp/master_stereo.mpd%3F%26ck%3DMDAzNjJlOTE4MWVhYTBjNWY5MTc2MWFkZTM1MTVlYjg6NTJjZjNjMjc4ODVkNThhZDc2YWFmMzZkNDIxN2E5ODQ%3D&key_id=00362e9181eaa0c5f91761ade3515eb8&key=52cf3c27885d58ad76aaf36d4217a984&api_password=mfp&redirect_stream=true&api_password=mfp123
+#EXTINF:-1 tvg-id="skysportmotogp.it" tvg-name="Sky Sport MotoGP " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-motogp-it.png" group-title="Sky Sport FHD",Sky Sport MotoGP (H) FHD
+https://mfp2.nzo66.com/extractor/video?host=DLHD&d=LINKMFP/proxy/mpd/manifest.m3u8?d=https%3A//linear306-it-dash1-prd.selector.skycdn.it/016a/31483/FHD/skysportmotogp/master_stereo.mpd&key_id=00362e9181eaa0c5f91761ade3515eb8&key=52cf3c27885d58ad76aaf36d4217a984&api_password=mfp&redirect_stream=true&api_password=mfp123
+#EXTINF:-1 tvg-id="dazn1.it" tvg-name="DAZN 1 " tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/DAZN_1_Logo.svg/774px-DAZN_1_Logo.svg.png" group-title="Sky Sport FHD",DAZN 1 (Hd) FHD
+https://mfp2.nzo66.com/extractor/video?host=DLHD&d=LINKMFP/proxy/mpd/manifest.m3u8?d=https%3A//abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd&key_id=8272bf6ba46f23f9da5270057b6e028a&key=74ae70dd10b4bb38ed6ffe843f3e2ccd&api_password=mfp&redirect_stream=true&api_password=mfp123
+#EXTINF:-1 tvg-id="skysporttennis.it" tvg-name="Sky Sport Tennis " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-tennis-it.png" group-title="Sky Sport FHD",Sky Sport Tennis (Hd) FHD
+https://mfp2.nzo66.com/extractor/video?host=DLHD&d=LINKMFP/proxy/mpd/manifest.m3u8?d=https%3A//linear310-it-dash1-prd.selector.skycdn.it/016a/32559/FHD/skysporttennis/master.mpd%3F%26ck%3DMDAzNmZiN2M1NjRjNGViOTllMzEwZjVmYTgyYWIyZjI6NjQ3ZjA3YjY4NThhNjY5NDU2ZTczY2ExMDNiNGMyYzA%3D&key_id=0036fb7c564c4eb99e310f5fa82ab2f2&key=647f07b6858a669456e73ca103b4c2c0&api_password=mfp&redirect_stream=true&api_password=mfp123
+#EXTINF:-1 tvg-id="skysporttennis.it" tvg-name="Sky Sport Tennis " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-tennis-it.png" group-title="Sky Sport FHD",Sky Sport Tennis (H) FHD
+https://mfp2.nzo66.com/extractor/video?host=DLHD&d=LINKMFP/proxy/mpd/manifest.m3u8?d=https%3A//linear310-it-dash1-prd.selector.skycdn.it/016a/32559/FHD/skysporttennis/master_stereo.mpd&key_id=0036fb7c564c4eb99e310f5fa82ab2f2&key=647f07b6858a669456e73ca103b4c2c0&api_password=mfp&redirect_stream=true&api_password=mfp123
+#EXTINF:-1 tvg-id="" tvg-name="nbahd " tvg-logo="" group-title="Altro",nbahd (Hd) FHD
+https://mfp2.nzo66.com/extractor/video?host=DLHD&d=LINKMFP/proxy/mpd/manifest.m3u8?d=https%3A//linear308-it-dash1-prd.selector.skycdn.it/016a/31764/FHD/skysportnba/master_stereo.mpd&key_id=00364eac2ffee337640e39682439b540&key=0960172d9000c470ade0658bd36c1d53&api_password=mfp&redirect_stream=true&api_password=mfp123
+#EXTINF:-1 tvg-id="skyuno.it" tvg-name="Sky UNO " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-uno-it.png" group-title="Sky Cinema FHD",Sky UNO (Hd) FHD
+https://mfp2.nzo66.com/extractor/video?host=DLHD&d=LINKMFP/proxy/mpd/manifest.m3u8?d=https%3A//linear313-it-dash1-prd.selector.skycdn.it/016a/32477/FHD/skyuno/master_stereo.mpd&key_id=003610b8556000936e48061cdb4ee11a&key=2cd6bcc2160aa6ec048e5a5f7a0f73c8&api_password=mfp&redirect_stream=true&api_password=mfp123
+#EXTINF:-1 tvg-id="skyuno.it" tvg-name="Sky UNO " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-uno-it.png" group-title="Sky Cinema FHD",Sky UNO (H) FHD
+https://mfp2.nzo66.com/extractor/video?host=DLHD&d=LINKMFP/proxy/mpd/manifest.m3u8?d=https%3A//linear313-it-dash1-prd.selector.skycdn.it/016a/32477/FHD/skyuno/master_stereo.mpd&key_id=003610b8556000936e48061cdb4ee11a&key=2cd6bcc2160aa6ec048e5a5f7a0f73c8&api_password=mfp&redirect_stream=true&api_password=mfp123
+#EXTINF:-1 tvg-id="eurosport1.it" tvg-name="EuroSport 1 " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/eurosport-1-es.png" group-title="Sky Sport FHD",EuroSport 1 (H) FHD
+https://mfp2.nzo66.com/extractor/video?host=DLHD&d=LINKMFP/proxy/mpd/manifest.m3u8?d=https%3A//linear311-it-dash1-prd.selector.skycdn.it/016a/313073/FHD/eurosport/master_stereo.mpd&key_id=0036bb3fa7e6f2c334d7cba5c28b6caf&key=217fa35739cd68e90b2cd23322c01312&api_password=mfp&redirect_stream=true&api_password=mfp123
+#EXTINF:-1 tvg-id="" tvg-name="live12hd " tvg-logo="" group-title="Altro",live12hd (Hd) FHD
+https://mfp2.nzo66.com/extractor/video?host=DLHD&d=LINKMFP/proxy/mpd/manifest.m3u8?d=https%3A//linear312-it-dash1-prd.selector.skycdn.it/016a/32951/FHD/skysport252/master.mpd&key_id=003610b4ce44ba838c199b6636cf7431&key=8369cbbccf0c1ff6bdbacbdae9252a04&api_password=mfp&redirect_stream=true&api_password=mfp123
+#EXTINF:-1 tvg-id="" tvg-name="live12 " tvg-logo="" group-title="Altro",live12 (H) FHD
+https://mfp2.nzo66.com/extractor/video?host=DLHD&d=LINKMFP/proxy/mpd/manifest.m3u8?d=https%3A//linear312-it-dash1-prd.selector.skycdn.it/016a/32951/FHD/skysport252/master_stereo.mpd&key_id=003610b4ce44ba838c199b6636cf7431&key=8369cbbccf0c1ff6bdbacbdae9252a04&api_password=mfp&redirect_stream=true&api_password=mfp123
+#EXTINF:-1 tvg-id="" tvg-name="live13hd " tvg-logo="" group-title="Altro",live13hd (Hd) FHD
+https://mfp2.nzo66.com/extractor/video?host=DLHD&d=LINKMFP/proxy/mpd/manifest.m3u8?d=https%3A//linear311-it-dash1-prd.selector.skycdn.it/016a/32233/FHD/skysport253/master_stereo.mpd&key_id=0036d3b63b421abd69d9f0d3b6bdcf19&key=0725c3162d5aefbf9c6d144f06ea0c92&api_password=mfp&redirect_stream=true&api_password=mfp123
+#EXTINF:-1 tvg-id="" tvg-name="live13 " tvg-logo="" group-title="Altro",live13 (H) FHD
+https://mfp2.nzo66.com/extractor/video?host=DLHD&d=LINKMFP/proxy/mpd/manifest.m3u8?d=https%3A//linear311-it-dash1-prd.selector.skycdn.it/016a/32233/FHD/skysport253/master_stereo.mpd&key_id=0036d3b63b421abd69d9f0d3b6bdcf19&key=0725c3162d5aefbf9c6d144f06ea0c92&api_password=mfp&redirect_stream=true&api_password=mfp123
+#EXTINF:-1 tvg-id="" tvg-name="live14hd " tvg-logo="" group-title="Altro",live14hd (Hd) FHD
+https://mfp2.nzo66.com/extractor/video?host=DLHD&d=LINKMFP/proxy/mpd/manifest.m3u8?d=https%3A//linear312-it-dash1-prd.selector.skycdn.it/016a/31234/FHD/skysport254/master.mpd%3F%26ck%3DeyJrZXlzIjpbeyJrdHkiOiJvY3QiLCJraWQiOiJBRGFjRk1JTGVLcmJIc0Rqd09kSmVRIiwiayI6IjUyaDJmaXh5T05nR21JZTdOcTdYLWcifV19&key_id={"keys"&key=[{"kty":"oct","kid":"ADacFMILeKrbHsDjwOdJeQ","k":"52h2fixyONgGmIe7Nq7X-g"}]}&api_password=mfp&redirect_stream=true&api_password=mfp123
+#EXTINF:-1 tvg-id="" tvg-name="live14 " tvg-logo="" group-title="Altro",live14 (H) FHD
+https://mfp2.nzo66.com/extractor/video?host=DLHD&d=LINKMFP/proxy/mpd/manifest.m3u8?d=https%3A//linear312-it-dash1-prd.selector.skycdn.it/016a/31234/FHD/skysport254/master_stereo.mpd&key_id=00369c14c20b78aadb1ec0e3c0e74979&key=e768767e2c7238d8069887bb36aed7fa&api_password=mfp&redirect_stream=true&api_password=mfp123
+#EXTINF:-1 tvg-id="" tvg-name="live15hd " tvg-logo="" group-title="Altro",live15hd (Hd) FHD
+https://mfp2.nzo66.com/extractor/video?host=DLHD&d=LINKMFP/proxy/mpd/manifest.m3u8?d=https%3A//linear311-it-dash1-prd.selector.skycdn.it/016a/32910/FHD/skysport255/master.mpd%3F%26ck%3DeyJrZXlzIjpbeyJrdHkiOiJvY3QiLCJraWQiOiJBRGEzZ2FJdXV3d2d3V3JDZlYwVVNBIiwiayI6Ijh3bTVTc19hY2d2eDdWZEJTSi1KWncifV19&key_id={"keys"&key=[{"kty":"oct","kid":"ADa3gaIuuwwgwWrCfV0USA","k":"8wm5Ss_acgvx7VdBSJ-JZw"}]}&api_password=mfp&redirect_stream=true&api_password=mfp123
+#EXTINF:-1 tvg-id="" tvg-name="live15 " tvg-logo="" group-title="Altro",live15 (H) FHD
+https://mfp2.nzo66.com/extractor/video?host=DLHD&d=LINKMFP/proxy/mpd/manifest.m3u8?d=https%3A//linear311-it-dash1-prd.selector.skycdn.it/016a/32910/FHD/skysport255/master_stereo.mpd&key_id=0036b781a22ebb0c20c16ac27d5d1448&key=f309b94acfda720bf1ed5741489f8967&api_password=mfp&redirect_stream=true&api_password=mfp123
