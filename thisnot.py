@@ -128,7 +128,7 @@ def decrypt_token(encoded_keys):
 
         # Decodifica base64
         decoded = base64.b64decode(encoded_keys).decode('utf-8')
-        
+
         # Controlla se è un JSON
         try:
             json_data = json.loads(decoded)
@@ -236,7 +236,10 @@ def get_channel_info(url_id, group_title):
 def create_m3u_entry(channel_name, url_id, stream_url, key_id, key, group_title):
     info = get_channel_info(url_id, group_title)
 
-    extinf = f'#EXTINF:-1 tvg-id="{info["tvg_id"]}" tvg-logo="{info["tvg_logo"]}" group-title="{info["group_title"]}",{channel_name} {info["suffix"]}'
+    # Converti il group_title in maiuscolo
+    group_title_upper = info["group_title"].upper()
+
+    extinf = f'#EXTINF:-1 tvg-id="{info["tvg_id"]}" tvg-logo="{info["tvg_logo"]}" group-title="{group_title_upper}",{channel_name} {info["suffix"]}'
     if key_id and key:
         kodiprop_license_type = '#KODIPROP:inputstream.adaptive.license_type=clearkey'
         kodiprop_license_key = f'#KODIPROP:inputstream.adaptive.license_key={key_id}:{key}'
