@@ -1,0 +1,41 @@
+name: SkyStreaming Scraper
+
+on:
+  workflow_dispatch:  # Permette l'esecuzione manuale
+  schedule:
+    - cron: '*/15 * * * *'  # Esegue ogni 15 minuti
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository with custom token
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.ACTIONS_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4
+
+      - name: Run SkyStreaming scraper
+        env:
+          GITHUB_WORKSPACE: ${{ github.workspace }}
+        run: |
+          python SkyStreaming\ Scraper/update_m3u.py
+
+      - name: Commit and push updated M3U8 file
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          git add SkyStreaming\ Scraper/skystreaming_playlist.m3u8
+          git commit -m "Aggiornato file M3U8 con nuovi flussi" || echo "Nessun cambiamento da committare"
+          git push
+        continue-on-error: true
