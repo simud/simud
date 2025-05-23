@@ -1,4 +1,19 @@
 #EXTM3U
+#EXTINF:-1 group-title="Diretta Goal" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Zona Gol Vs Serie A
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://skystreaming.help
+#EXTVLCOPT:http-origin=https://skystreaming.help
+https://hls.kangal.icu/hls/zona/index.m3u8
+#EXTINF:-1 group-title="Eventi Sky Streaming" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Betis Vs Valencia
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://skystreaming.help
+#EXTVLCOPT:http-origin=https://skystreaming.help
+https://hls.kangal.icu/hls/laliga/index.m3u8
+#EXTINF:-1 group-title="Eventi Sky Streaming" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Como Vs Inter
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://skystreaming.help
+#EXTVLCOPT:http-origin=https://skystreaming.help
+https://hls.kangal.icu/hls/serie1/index.m3u8
 #EXTINF:-1 group-title="Eventi Sky Streaming" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Formula 1 Vs Gp Monaco
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.help
@@ -9,6 +24,11 @@ https://hls.kangal.icu/hls/formula/index.m3u8
 #EXTVLCOPT:http-referrer=https://skystreaming.help
 #EXTVLCOPT:http-origin=https://skystreaming.help
 https://hls.kangal.icu/hls/moto/index.m3u8
+#EXTINF:-1 group-title="Eventi Sky Streaming" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Napoli Vs Cagliari
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://skystreaming.help
+#EXTVLCOPT:http-origin=https://skystreaming.help
+https://hls.kangal.icu/hls/serie/index.m3u8
 #EXTINF:-1 group-title="Sky Sport Backup SD" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Eurosport 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.help
