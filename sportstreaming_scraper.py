@@ -15,7 +15,7 @@ headers = {
 ADMIN_CHANNEL = '''#EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Eventi", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4'''
 
-# Funzione per trovare i link alle pagine evento
+# Funzione per trovare i link alle pagine evento e le immagini associate
 def find_event_pages():
     try:
         response = requests.get(base_url, headers=headers)
@@ -26,14 +26,29 @@ def find_event_pages():
         seen_links = set()
         for a in soup.find_all('a', href=True):
             href = a['href']
+            # Cerca link eventi (es. /live-16 o /live-perma-3)
             if re.match(r'/live-(perma-)?\d+', href):
                 full_url = base_url + href.lstrip('/')
                 if full_url not in seen_links:
-                    event_links.append(full_url)
+                    # Cerca l'immagine associata nel div genitore
+                    parent_div = a.find_parent('div', class_='uk-card')
+                    img_url = None
+                    if parent_div:
+                        img_tag = parent_div.find('img', src=re.compile(r'/assets/img/live/(standard|perma)/live\d+\.png'))
+                        if img_tag:
+                            img_url = base_url + img_tag['src'].lstrip('/')
+                    event_links.append((full_url, img_url))
                     seen_links.add(full_url)
             elif re.match(r'https://www\.sportstreaming\.net/live-(perma-)?\d+', href):
                 if href not in seen_links:
-                    event_links.append(href)
+                    # Cerca l'immagine associata nel div genitore
+                    parent_div = a.find_parent('div', class_='uk-card')
+                    img_url = None
+                    if parent_div:
+                        img_tag = parent_div.find('img', src=re.compile(r'/assets/img/live/(standard|perma)/live\d+\.png'))
+                        if img_tag:
+                            img_url = img_tag['src']
+                    event_links.append((href, img_url))
                     seen_links.add(href)
 
         return event_links
@@ -105,33 +120,32 @@ def update_m3u_file(video_streams, m3u_file="sportstreaming_playlist.m3u8"):
 
     with open(file_path, "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
-        
-        perma_count = 1
 
-        for event_url, stream_url, element, channel_name in video_streams:
+        for event_url, stream_url, element, channel_name, img_url in video_streams:
             if not stream_url:
                 continue
-            
-            # Determina se è un canale permanente o standard
-            is_perma = "perma" in event_url.lower()
-            if is_perma:
-                image_url = f"https://sportstreaming.net/assets/img/live/perma/live{perma_count}.png"
-                perma_count += 1
+
+            # Usa l'immagine trovata, altrimenti fallback
+            if img_url:
+                image_url = img_url
             else:
-                # Estrai il numero dall'URL per i canali standard (es. live-3 -> 3)
-                match = re.search(r'live-(\d+)', event_url)
-                if match:
-                    live_number = match.group(1)
-                    image_url = f"https://sportstreaming.net/assets/img/live/standard/live{live_number}.png"
+                # Logica di fallback per immagine
+                is_perma = "perma" in event_url.lower()
+                if is_perma:
+                    match = re.search(r'live-perma-(\d+)', event_url)
+                    perma_number = match.group(1) if match else "1"
+                    image_url = f"https://sportstreaming.net/assets/img/live/perma/live{perma_number}.png"
                 else:
-                    image_url = "https://sportstreaming.net/assets/img/live/standard/live1.png"  # Fallback
+                    match = re.search(r'live-(\d+)', event_url)
+                    live_number = match.group(1) if match else "1"
+                    image_url = f"https://sportstreaming.net/assets/img/live/standard/live{live_number}.png"
 
             group = "Eventi"
             f.write(f"#EXTINF:-1 group-title=\"{group}\" tvg-logo=\"{image_url}\", {channel_name}\n")
             f.write(f"#EXTVLCOPT:http-user-agent={headers['User-Agent']}\n")
             f.write(f"#EXTVLCOPT:http-referrer={headers['Referer']}\n")
             f.write(f"{stream_url}\n")
-        
+
         # Aggiungi il canale ADMIN alla fine
         f.write("\n")  # Riga vuota per separazione
         f.write(ADMIN_CHANNEL)
@@ -145,11 +159,11 @@ if __name__ == "__main__":
         print("Nessuna pagina evento trovata.")
     else:
         video_streams = []
-        for event_url in event_pages:
+        for event_url, img_url in event_pages:
             print(f"Analizzo: {event_url}")
             stream_url, element, channel_name = get_video_stream_and_description(event_url)
             if stream_url:
-                video_streams.append((event_url, stream_url, element, channel_name))
+                video_streams.append((event_url, stream_url, element, channel_name, img_url))
             else:
                 print(f"Nessun flusso trovato per {event_url}")
 
