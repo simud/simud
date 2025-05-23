@@ -3,39 +3,55 @@ name: SportZone Scraper
 on:
   workflow_dispatch:  # Permette l'esecuzione manuale
   schedule:
-    - cron: '*/15 * * * *'  # Esegue ogni 3 ore: 0:00, 3:00, 6:00, 9:00, 12:00, 15:00, 18:00, 21:00 UTC
+    - cron: '*/15 * * * *'  # Esegue ogni 15 minuti
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository with custom token
-        uses: actions/checkout@v3
+      # Clona il repository con token personalizzato
+      - name: Clona il repository
+        uses: actions/checkout@v4
         with:
           token: ${{ secrets.ACTIONS_TOKEN }}
+          fetch-depth: 0  # Recupera la storia completa per il rebase
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
+      # Configura Python
+      - name: Configura Python
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.9'
+          python-version: '3.11'
 
-      - name: Install dependencies
+      # Installa Google Chrome per Selenium
+      - name: Installa Google Chrome
+        run: |
+          wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+          echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee /etc/apt/sources.list.d/google-chrome.list
+          sudo apt-get update
+          sudo apt-get install -y google-chrome-stable
+
+      # Installa dipendenze Python
+      - name: Installa dipendenze
         run: |
           python -m pip install --upgrade pip
           pip install requests cloudscraper beautifulsoup4 urllib3 selenium webdriver-manager
 
-      - name: Run CACCA
+      # Esegui lo script Python
+      - name: Esegui script SportZone
         env:
           GITHUB_WORKSPACE: ${{ github.workspace }}
         run: |
           python sportzone.py
 
-      - name: Commit and push updated M3U8 file
+      # Esegui git pull --rebase, commit e push
+      - name: Commit e push del file M3U8 aggiornato
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
+          git pull --rebase origin main
           git add sportzone.m3u8
           git commit -m "Aggiornato file M3U8 con nuovi flussi" || echo "Nessun cambiamento da committare"
           git push
-        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.ACTIONS_TOKEN }}
