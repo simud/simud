@@ -2,9 +2,9 @@
 #EXTINF:-1 tvg-id="acisporttv.it" tvg-name="Aci Sport Tv FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/italy/aci-sport-tv-it.png" group-title="Sky Sport FHD Backup",Aci Sport Tv FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/1351631603/index.m3u8
 #EXTINF:-1 tvg-id="dazn2.it" tvg-name="Dazn2 FHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d6/Dazn-logo.png" group-title="Sky Sport FHD Backup",Dazn2 FHD
-https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/2911178456/index.m3u8
-#EXTINF:-1 tvg-id="dazn2.it" tvg-name="Dazn2 FHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d6/Dazn-logo.png" group-title="Sky Sport FHD Backup",Dazn2 FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/1376440573/index.m3u8
+#EXTINF:-1 tvg-id="dazn2.it" tvg-name="Dazn2 FHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d6/Dazn-logo.png" group-title="Sky Sport FHD Backup",Dazn2 FHD
+https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/2911178456/index.m3u8
 #EXTINF:-1 tvg-id="eurosport1.it" tvg-name="Eurosport 1 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/eurosport-1-es.png" group-title="Sky Sport FHD Backup",Eurosport 1 FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/3481346857/index.m3u8
 #EXTINF:-1 tvg-id="eurosport1.it" tvg-name="Eurosport 1 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/eurosport-1-es.png" group-title="Sky Sport FHD Backup",Eurosport 1 FHD
@@ -34,9 +34,9 @@ https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/3007400791/index.m
 #EXTINF:-1 tvg-id="skysportarena.it" tvg-name="Sky Sport Arena FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-arena-it.png" group-title="Sky Sport FHD Backup",Sky Sport Arena FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/2555960713/index.m3u8
 #EXTINF:-1 tvg-id="skysportcalcio.it" tvg-name="Sky Sport Calcio FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-calcio-it.png" group-title="Sky Sport FHD Backup",Sky Sport Calcio FHD
-https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/449990998/index.m3u8
-#EXTINF:-1 tvg-id="skysportcalcio.it" tvg-name="Sky Sport Calcio FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-calcio-it.png" group-title="Sky Sport FHD Backup",Sky Sport Calcio FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/1665920101/index.m3u8
+#EXTINF:-1 tvg-id="skysportcalcio.it" tvg-name="Sky Sport Calcio FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-calcio-it.png" group-title="Sky Sport FHD Backup",Sky Sport Calcio FHD
+https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/449990998/index.m3u8
 #EXTINF:-1 tvg-id="skysportf1.it" tvg-name="Sky Sport F1 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-f1-it.png" group-title="Sky Sport FHD Backup",Sky Sport F1 FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/4246774056/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Sky Sport Football FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-football-it.png" group-title="Sky Sport FHD Backup",Sky Sport Football FHD
@@ -60,9 +60,9 @@ https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/326825326/index.m3
 #EXTINF:-1 tvg-id="" tvg-name="Sky Sport Serie A FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-serie-a-it.png" group-title="Sky Sport FHD Backup",Sky Sport Serie A FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/2077387085/index.m3u8
 #EXTINF:-1 tvg-id="skysporttennis.it" tvg-name="Sky Sport Tennis FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-tennis-it.png" group-title="Sky Sport FHD Backup",Sky Sport Tennis FHD
-https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/78546677/index.m3u8
-#EXTINF:-1 tvg-id="skysporttennis.it" tvg-name="Sky Sport Tennis FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-tennis-it.png" group-title="Sky Sport FHD Backup",Sky Sport Tennis FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/2100771782/index.m3u8
+#EXTINF:-1 tvg-id="skysporttennis.it" tvg-name="Sky Sport Tennis FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-tennis-it.png" group-title="Sky Sport FHD Backup",Sky Sport Tennis FHD
+https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/78546677/index.m3u8
 #EXTINF:-1 tvg-id="skysportuno.it" tvg-name="Sky Sport Uno FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-uno-it.png" group-title="Sky Sport FHD Backup",Sky Sport Uno FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/210669162/index.m3u8
 #EXTINF:-1 tvg-id="skysportuno.it" tvg-name="Sky Sport Uno FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-uno-it.png" group-title="Sky Sport FHD Backup",Sky Sport Uno FHD
@@ -94,13 +94,13 @@ https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/361314062/index.m3
 #EXTINF:-1 tvg-id="" tvg-name="Disney+ Film FHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Disney%2B_logo.svg/2560px-Disney%2B_logo.svg.png" group-title="Sky Cinema FHD Backup",Disney+ Film FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/1264775727/index.m3u8
 #EXTINF:-1 tvg-id="skyatlantic.it" tvg-name="Sky Atlantic FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-atlantic-it.png" group-title="Sky Cinema FHD Backup",Sky Atlantic FHD
-https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/1421393119/index.m3u8
-#EXTINF:-1 tvg-id="skyatlantic.it" tvg-name="Sky Atlantic FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-atlantic-it.png" group-title="Sky Cinema FHD Backup",Sky Atlantic FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/1482866609/index.m3u8
-#EXTINF:-1 tvg-id="skycinemaaction.it" tvg-name="Sky Cinema Action FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-action-it.png" group-title="Sky Cinema FHD Backup",Sky Cinema Action FHD
-https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/1144128726/index.m3u8
+#EXTINF:-1 tvg-id="skyatlantic.it" tvg-name="Sky Atlantic FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-atlantic-it.png" group-title="Sky Cinema FHD Backup",Sky Atlantic FHD
+https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/1421393119/index.m3u8
 #EXTINF:-1 tvg-id="skycinemaaction.it" tvg-name="Sky Cinema Action FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-action-it.png" group-title="Sky Cinema FHD Backup",Sky Cinema Action FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/3812796171/index.m3u8
+#EXTINF:-1 tvg-id="skycinemaaction.it" tvg-name="Sky Cinema Action FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-action-it.png" group-title="Sky Cinema FHD Backup",Sky Cinema Action FHD
+https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/1144128726/index.m3u8
 #EXTINF:-1 tvg-id="skycinemaaction.it" tvg-name="Sky Cinema Action FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-action-it.png" group-title="Sky Cinema FHD Backup",Sky Cinema Action FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/2242741766/index.m3u8
 #EXTINF:-1 tvg-id="skycinemacollectionhd.it" tvg-name="Sky Cinema Collection FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-collection-it.png" group-title="Sky Cinema FHD Backup",Sky Cinema Collection FHD
@@ -130,9 +130,9 @@ https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/1820997555/index.m
 #EXTINF:-1 tvg-id="skycinemasuspense.it" tvg-name="Sky Cinema Suspense FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-suspense-it.png" group-title="Sky Cinema FHD Backup",Sky Cinema Suspense FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/3060043751/index.m3u8
 #EXTINF:-1 tvg-id="skycinemauno.it" tvg-name="Sky Cinema Uno FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-uno-it.png" group-title="Sky Cinema FHD Backup",Sky Cinema Uno FHD
-https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/1759625738/index.m3u8
-#EXTINF:-1 tvg-id="skycinemauno.it" tvg-name="Sky Cinema Uno FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-uno-it.png" group-title="Sky Cinema FHD Backup",Sky Cinema Uno FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/2872151911/index.m3u8
+#EXTINF:-1 tvg-id="skycinemauno.it" tvg-name="Sky Cinema Uno FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-uno-it.png" group-title="Sky Cinema FHD Backup",Sky Cinema Uno FHD
+https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/1759625738/index.m3u8
 #EXTINF:-1 tvg-id="skycinemauno+24.it" tvg-name="Sky Cinema Uno +24 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-uno-plus24-it.png" group-title="Sky Cinema FHD Backup",Sky Cinema Uno +24 FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/1699876530/index.m3u8
 #EXTINF:-1 tvg-id="skyserie.it" tvg-name="Sky Serie FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-serie-it.png" group-title="Sky Sport FHD Backup",Sky Serie FHD
@@ -222,9 +222,9 @@ https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/573618724/index.m3
 #EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 3 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 3 FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/153693434/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 4 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 4 FHD
-https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/3137990890/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 4 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 4 FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/2416993844/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 4 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 4 FHD
+https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/3137990890/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 5 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 5 FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/2909818756/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 5 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 5 FHD
@@ -234,13 +234,13 @@ https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/3251217290/index.m
 #EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 6 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 6 FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/3939513684/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 7 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 7 FHD
-https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/3618643172/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 7 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 7 FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/4238969402/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 8 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 8 FHD
-https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/2130255339/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 7 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 7 FHD
+https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/3618643172/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 8 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 8 FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/1440779061/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 8 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 8 FHD
+https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/2130255339/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 9 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 9 FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/1753260677/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 9 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 9 FHD
@@ -269,15 +269,15 @@ https://tvproxy.nzo66.com/proxy/m3u?url=https://daddylive.dad/embed/stream-55.ph
 https://tvproxy.nzo66.com/proxy/m3u?url=https://daddylive.dad/embed/stream-59.php
 #EXTINF:-1 tvg-name="Motorsport" group-title="Eventi Sportivi" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-uno-it.png",Motorsport
 https://example.m3u8
-#EXTINF:-1 tvg-id="575" tvg-name="Moto3 : Storbritanniens Grand Prixx Free Practice 1 (10:55)" tvg-logo="https://i.redd.it/h6somccxjyab1.png" group-title="Eventi Sportivi",Moto3 : Storbritanniens Grand Prixx Free Practice 1 (10:55)
+#EXTINF:-1 tvg-id="575" tvg-name="Moto3 : Storbritanniens Grand Prixx Free Practice 1 (10:55)" tvg-logo="https://www.thesportsdb.com/images/media/league/badge/g8cofl1513623681.png/medium" group-title="Eventi Sportivi",Moto3 : Storbritanniens Grand Prixx Free Practice 1 (10:55)
 https://tvproxy.nzo66.com/proxy/m3u?url=https://daddylive.dad/embed/stream-575.php
-#EXTINF:-1 tvg-id="575" tvg-name="Motogp : Storbritanniens Grand Prix Free Practice 1 (11:00)" tvg-logo="https://www.thesportsdb.com/images/media/league/badge/g8cofl1513623681.png/medium" group-title="Eventi Sportivi",Motogp : Storbritanniens Grand Prix Free Practice 1 (11:00)
+#EXTINF:-1 tvg-id="575" tvg-name="Motogp : Storbritanniens Grand Prix Free Practice 1 (11:00)" tvg-logo="https://i.redd.it/h6somccxjyab1.png" group-title="Eventi Sportivi",Motogp : Storbritanniens Grand Prix Free Practice 1 (11:00)
 https://tvproxy.nzo66.com/proxy/m3u?url=https://daddylive.dad/embed/stream-575.php
 #EXTINF:-1 tvg-id="577" tvg-name="Formula 3 : Tag Heuer Monaco Grand Prix - Practice (11:00)" tvg-logo="https://s-media-cache-ak0.pinimg.com/originals/6d/f1/69/6df169a34a04347c2fa6deb2ea003d07.png" group-title="Eventi Sportivi",Formula 3 : Tag Heuer Monaco Grand Prix - Practice (11:00)
 https://tvproxy.nzo66.com/proxy/m3u?url=https://daddylive.dad/embed/stream-577.php
 #EXTINF:-1 tvg-id="577" tvg-name="Formula 2 : Tag Heuer Monaco Grand Prix - Free Practice (11:05)" tvg-logo="https://s-media-cache-ak0.pinimg.com/originals/6d/f1/69/6df169a34a04347c2fa6deb2ea003d07.png" group-title="Eventi Sportivi",Formula 2 : Tag Heuer Monaco Grand Prix - Free Practice (11:05)
 https://tvproxy.nzo66.com/proxy/m3u?url=https://daddylive.dad/embed/stream-577.php
-#EXTINF:-1 tvg-id="575" tvg-name="Moto2 : Storbritanniens Grand Prixx Free Practice 1 (12:00)" tvg-logo="https://i.redd.it/h6somccxjyab1.png" group-title="Eventi Sportivi",Moto2 : Storbritanniens Grand Prixx Free Practice 1 (12:00)
+#EXTINF:-1 tvg-id="575" tvg-name="Moto2 : Storbritanniens Grand Prixx Free Practice 1 (12:00)" tvg-logo="https://www.thesportsdb.com/images/media/league/badge/g8cofl1513623681.png/medium" group-title="Eventi Sportivi",Moto2 : Storbritanniens Grand Prixx Free Practice 1 (12:00)
 https://tvproxy.nzo66.com/proxy/m3u?url=https://daddylive.dad/embed/stream-575.php
 #EXTINF:-1 tvg-id="577" tvg-name="Formula 1 : Tag Heuer Monaco Grand Prix - Practice 1 (13:30)" tvg-logo="https://s-media-cache-ak0.pinimg.com/originals/6d/f1/69/6df169a34a04347c2fa6deb2ea003d07.png" group-title="Eventi Sportivi",Formula 1 : Tag Heuer Monaco Grand Prix - Practice 1 (13:30)
 https://tvproxy.nzo66.com/proxy/m3u?url=https://daddylive.dad/embed/stream-577.php
@@ -285,11 +285,11 @@ https://tvproxy.nzo66.com/proxy/m3u?url=https://daddylive.dad/embed/stream-577.p
 https://tvproxy.nzo66.com/proxy/m3u?url=https://daddylive.dad/embed/stream-577.php
 #EXTINF:-1 tvg-id="575" tvg-name="Moto3 : Storbritanniens Grand Prixx Practice 1 (15:10)" tvg-logo="https://static-cdn.esmg.se/fm/files/8/images/2022-09/mclaren_formula_1_team-logo-brandlogos_net_.png" group-title="Eventi Sportivi",Moto3 : Storbritanniens Grand Prixx Practice 1 (15:10)
 https://tvproxy.nzo66.com/proxy/m3u?url=https://daddylive.dad/embed/stream-575.php
-#EXTINF:-1 tvg-id="575" tvg-name="Motogp : Storbritanniens Grand Prix Practice 1 (15:15)" tvg-logo="https://i.redd.it/h6somccxjyab1.png" group-title="Eventi Sportivi",Motogp : Storbritanniens Grand Prix Practice 1 (15:15)
+#EXTINF:-1 tvg-id="575" tvg-name="Motogp : Storbritanniens Grand Prix Practice 1 (15:15)" tvg-logo="https://static-cdn.esmg.se/fm/files/8/images/2022-09/mclaren_formula_1_team-logo-brandlogos_net_.png" group-title="Eventi Sportivi",Motogp : Storbritanniens Grand Prix Practice 1 (15:15)
 https://tvproxy.nzo66.com/proxy/m3u?url=https://daddylive.dad/embed/stream-575.php
 #EXTINF:-1 tvg-id="577" tvg-name="Formula 2 : Tag Heuer Monaco Grand Prix - Qualifying (16:00)" tvg-logo="https://s-media-cache-ak0.pinimg.com/originals/6d/f1/69/6df169a34a04347c2fa6deb2ea003d07.png" group-title="Eventi Sportivi",Formula 2 : Tag Heuer Monaco Grand Prix - Qualifying (16:00)
 https://tvproxy.nzo66.com/proxy/m3u?url=https://daddylive.dad/embed/stream-577.php
-#EXTINF:-1 tvg-id="575" tvg-name="Moto2 : Storbritanniens Grand Prix Practice 1 (16:00)" tvg-logo="https://i.redd.it/h6somccxjyab1.png" group-title="Eventi Sportivi",Moto2 : Storbritanniens Grand Prix Practice 1 (16:00)
+#EXTINF:-1 tvg-id="575" tvg-name="Moto2 : Storbritanniens Grand Prix Practice 1 (16:00)" tvg-logo="https://static-cdn.esmg.se/fm/files/8/images/2022-09/mclaren_formula_1_team-logo-brandlogos_net_.png" group-title="Eventi Sportivi",Moto2 : Storbritanniens Grand Prix Practice 1 (16:00)
 https://tvproxy.nzo66.com/proxy/m3u?url=https://daddylive.dad/embed/stream-575.php
 #EXTINF:-1 tvg-id="577" tvg-name="Formula 1 : Tag Heuer Monaco Grand Prix - Practice 2 (17:00)" tvg-logo="https://s-media-cache-ak0.pinimg.com/originals/6d/f1/69/6df169a34a04347c2fa6deb2ea003d07.png" group-title="Eventi Sportivi",Formula 1 : Tag Heuer Monaco Grand Prix - Practice 2 (17:00)
 https://tvproxy.nzo66.com/proxy/m3u?url=https://daddylive.dad/embed/stream-577.php
