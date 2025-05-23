@@ -26,7 +26,7 @@ session.mount('https://', SSLAdapter())
 giardiniblog_url = "https://www.giardiniblog.it/migliori-siti-streaming-calcio/"
 
 # Default fallback base URL
-default_base_url = "https://sportzone.hel"
+default_base_url = "https://sportzone.help"
 
 # Output M3U8 file
 m3u8_file = "sportzone.m3u8"
@@ -254,6 +254,74 @@ def get_stream_and_image(event_url, base_url):
     print(f"No stream found for {event_url}")
     return None, image_url
 
+# Function to deduplicate M3U8 playlist
+def deduplicate_m3u8():
+    print("Checking for duplicate channels in M3U8 playlist...")
+    try:
+        with open(m3u8_file, 'r', encoding='utf-8') as f:
+            lines = f.readlines()
+
+        # Store unique channels based on tvg-logo, group-title, title, and stream
+        channels = []
+        seen = set()
+        current_channel = {}
+        current_lines = []
+        header_lines = []
+
+        for line in lines:
+            line = line.strip()
+            if not line or line.startswith('#EXTM3U') or line.startswith('#EXTINF:-1 info canali'):
+                header_lines.append(line + '\n')
+                continue
+
+            current_lines.append(line + '\n')
+            if line.startswith('#EXTINF:'):
+                # Extract tvg-logo, group-title, and title
+                tvg_logo_match = re.search(r'tvg-logo="([^"]*)"', line)
+                group_title_match = re.search(r'group-title="([^"]*)"', line)
+                title_match = re.search(r',(.+)$', line)
+                current_channel['tvg-logo'] = tvg_logo_match.group(1) if tvg_logo_match else ''
+                current_channel['group-title'] = group_title_match.group(1) if group_title_match else ''
+                current_channel['title'] = title_match.group(1) if title_match else ''
+            elif line.startswith('#EXTVLCOPT:'):
+                # Collect headers
+                if 'headers' not in current_channel:
+                    current_channel['headers'] = []
+                current_channel['headers'].append(line)
+            elif not line.startswith('#'):
+                # Stream URL
+                current_channel['stream'] = line
+                # Create a tuple for uniqueness check
+                channel_key = (
+                    current_channel['tvg-logo'],
+                    current_channel['group-title'],
+                    current_channel['title'],
+                    current_channel['stream']
+                )
+                if channel_key not in seen:
+                    seen.add(channel_key)
+                    channels.append({
+                        'lines': current_lines.copy(),
+                        'key': channel_key
+                    })
+                else:
+                    print(f"Removed duplicate channel: {current_channel['title']} (stream: {current_channel['stream']})")
+                # Reset for next channel
+                current_channel = {}
+                current_lines = []
+
+        # Write deduplicated playlist
+        with open(m3u8_file, 'w', encoding='utf-8') as f:
+            f.writelines(header_lines)
+            for channel in channels:
+                f.writelines(channel['lines'])
+        
+        print(f"Deduplication complete. {len(lines) - len(header_lines) - sum(len(c['lines']) for c in channels)} duplicate lines removed.")
+        return True
+    except Exception as e:
+        print(f"Error during deduplication: {e}")
+        return False
+
 # Function to create M3U8 playlist with custom headers and tvg-logo
 def create_m3u8_playlist(events, base_url):
     print("Creating M3U8 playlist...")
@@ -274,6 +342,9 @@ def create_m3u8_playlist(events, base_url):
             else:
                 print(f"Skipping {event['title']} (no stream found)")
             time.sleep(1)  # Add delay to avoid rate limiting
+
+    # Deduplicate the playlist
+    deduplicate_m3u8()
 
 # Main execution
 def main():
@@ -297,7 +368,7 @@ def main():
         print("No events found. Exiting.")
         return
 
-    # Step 3: Create M3U8 playlist
+    # Step 3: Create and deduplicate M3U8 playlist
     create_m3u8_playlist(all_events, base_url)
     print(f"M3U8 playlist saved to {m3u8_file}")
 
