@@ -10,12 +10,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Clona il repository con token personalizzato
+      # Clona il repository
       - name: Clona il repository
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.ACTIONS_TOKEN }}
           fetch-depth: 0  # Recupera la storia completa per il rebase
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       # Configura Python
       - name: Configura Python
@@ -53,5 +53,3 @@ jobs:
           git add sportzone.m3u8
           git commit -m "Aggiornato file M3U8 con nuovi flussi" || echo "Nessun cambiamento da committare"
           git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.ACTIONS_TOKEN }}
