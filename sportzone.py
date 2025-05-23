@@ -2,32 +2,109 @@ import cloudscraper
 from bs4 import BeautifulSoup
 import re
 import time
+import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.ssl_ import create_urllib3_context
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.chrome.options import Options
 
-# Initialize cloudscraper with a user-agent
+# Custom SSL Adapter to handle SSL issues
+class SSLAdapter(HTTPAdapter):
+    def init_poolmanager(self, *args, **kwargs):
+        context = create_urllib3_context(ciphers="DEFAULT@SECLEVEL=1")
+        kwargs['ssl_context'] = context
+        return super(SSLAdapter, self).init_poolmanager(*args, **kwargs)
+
+# Initialize cloudscraper and requests session with custom SSL adapter
 scraper = cloudscraper.create_scraper()
+session = requests.Session()
+session.mount('https://', SSLAdapter())
 
-# Base URL (single variable for the site)
-base_url = "https://sportzone.help"
+# URL to fetch the sportzone domain
+giardiniblog_url = "https://www.giardiniblog.it/migliori-siti-streaming-calcio/"
+
+# Default fallback base URL
+default_base_url = "https://sportzone.hel"
 
 # Output M3U8 file
 m3u8_file = "sportzone.m3u8"
 
-# User-agent for M3U8 headers
+# User-agent for both fetching and M3U8 headers
 user_agent = "Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1"
 
-# Function to fetch page source with cloudscraper
-def fetch_page(url):
-    print(f"Fetching page: {url}")
+# Function to fetch page source with cloudscraper, requests, or selenium
+def fetch_page(url, verify_ssl=True):
+    print(f"Fetching page: {url} (SSL verification: {verify_ssl})")
+    headers = {"User-Agent": user_agent}
+    
+    # Try cloudscraper first
     try:
-        response = scraper.get(url)
+        response = scraper.get(url, headers=headers)
         response.raise_for_status()
+        print(f"Successfully fetched {url} with cloudscraper")
         return response.text
     except Exception as e:
-        print(f"Error fetching {url}: {e}")
+        print(f"Cloudscraper failed for {url}: {e}")
+    
+    # Fallback to requests with custom SSL adapter
+    try:
+        response = session.get(url, headers=headers, timeout=10, verify=verify_ssl)
+        response.raise_for_status()
+        print(f"Successfully fetched {url} with requests")
+        return response.text
+    except Exception as e:
+        print(f"Requests failed for {url}: {e}")
+    
+    # Fallback to selenium
+    print(f"Attempting to fetch {url} with selenium...")
+    try:
+        chrome_options = Options()
+        chrome_options.add_argument("--headless")
+        chrome_options.add_argument(f"user-agent={user_agent}")
+        driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
+        driver.get(url)
+        html = driver.page_source
+        driver.quit()
+        if html:
+            print(f"Successfully fetched {url} with selenium")
+            return html
+        else:
+            print(f"Selenium returned empty content for {url}")
+            return None
+    except Exception as e:
+        print(f"Selenium failed for {url}: {e}")
         return None
 
+# Function to extract the sportzone domain from giardiniblog
+def get_sportzone_domain():
+    print(f"Fetching sportzone domain from: {giardiniblog_url}")
+    html = fetch_page(giardiniblog_url, verify_ssl=True)
+    if not html:
+        print("Retrying without SSL verification due to previous failure...")
+        html = fetch_page(giardiniblog_url, verify_ssl=False)
+    
+    if not html:
+        print(f"Failed to fetch {giardiniblog_url}. Using default domain: {default_base_url}")
+        return default_base_url
+
+    # Search for sportzone domain in <a> tags (href or text)
+    soup = BeautifulSoup(html, 'html.parser')
+    for a in soup.find_all('a', href=True):
+        href = a['href']
+        text = a.text.lower()
+        if 'sportzone' in text or 'sportzone' in href.lower():
+            domain_match = re.match(r'(https?://[^/]+)', href)
+            if domain_match:
+                domain = domain_match.group(1) + "/"
+                print(f"Found sportzone domain: {domain}")
+                return domain
+    print(f"No sportzone domain found in {giardiniblog_url}. Using default domain: {default_base_url}")
+    return default_base_url
+
 # Function to extract categories and handle pagination
-def get_categories():
+def get_categories(base_url):
     print("Fetching categories from main page...")
     html = fetch_page(base_url)
     if not html:
@@ -37,7 +114,7 @@ def get_categories():
     category_links = set()  # Use set to avoid duplicates
 
     # Find all category links (e.g., /category/Calcio, /category/FORMULA1/1)
-    for a in soup.find_all('a', href=re.compile(r'(?:https?://sportzone\.help)?/category/[^/]+(?:/\d+)?')):
+    for a in soup.find_all('a', href=re.compile(r'(?:https?://sportzone\.[a-zA-Z0-9]+)?/category/[^/]+(?:/\d+)?')):
         href = a.get('href')
         # Handle both relative and absolute URLs
         if href.startswith('http'):
@@ -48,7 +125,7 @@ def get_categories():
         print(f"Found category: {full_url}")
 
     # Check for pagination links (e.g., /category/Calcio/2, /category/FORMULA1/2)
-    for a in soup.find_all('a', href=re.compile(r'(?:https?://sportzone\.help)?/category/[^/]+/\d+')):
+    for a in soup.find_all('a', href=re.compile(r'(?:https?://sportzone\.[a-zA-Z0-9]+)?/category/[^/]+/\d+')):
         href = a.get('href')
         if href.startswith('http'):
             full_url = href
@@ -61,7 +138,7 @@ def get_categories():
     return list(category_links)
 
 # Function to extract event links from a category page
-def get_event_links(category_url):
+def get_event_links(category_url, base_url):
     print(f"Fetching events from category: {category_url}")
     html = fetch_page(category_url)
     if not html:
@@ -70,7 +147,7 @@ def get_event_links(category_url):
     soup = BeautifulSoup(html, 'html.parser')
     event_links = []
     # Find all event links
-    for a in soup.find_all('a', href=re.compile(r'(?:https?://sportzone\.help)?/event/')):
+    for a in soup.find_all('a', href=re.compile(r'(?:https?://sportzone\.[a-zA-Z0-9]+)?/event/')):
         href = a.get('href')
         # Handle both relative and absolute URLs
         if href.startswith('http'):
@@ -91,7 +168,7 @@ def get_event_links(category_url):
 
     # Check for pagination within the category
     pagination_links = []
-    for a in soup.find_all('a', href=re.compile(r'(?:https?://sportzone\.help)?/category/[^/]+/\d+')):
+    for a in soup.find_all('a', href=re.compile(r'(?:https?://sportzone\.[a-zA-Z0-9]+)?/category/[^/]+/\d+')):
         href = a.get('href')
         if href.startswith('http'):
             full_url = href
@@ -107,7 +184,7 @@ def get_event_links(category_url):
         html = fetch_page(page_url)
         if html:
             soup = BeautifulSoup(html, 'html.parser')
-            for a in soup.find_all('a', href=re.compile(r'(?:https?://sportzone\.help)?/event/')):
+            for a in soup.find_all('a', href=re.compile(r'(?:https?://sportzone\.[a-zA-Z0-9]+)?/event/')):
                 href = a.get('href')
                 if href.startswith('http'):
                     full_url = href
@@ -127,7 +204,7 @@ def get_event_links(category_url):
     return event_links
 
 # Function to extract M3U8 stream and image from event page
-def get_stream_and_image(event_url):
+def get_stream_and_image(event_url, base_url):
     print(f"Fetching stream and image from event page: {event_url}")
     html = fetch_page(event_url)
     if not html:
@@ -178,13 +255,13 @@ def get_stream_and_image(event_url):
     return None, image_url
 
 # Function to create M3U8 playlist with custom headers and tvg-logo
-def create_m3u8_playlist(events):
+def create_m3u8_playlist(events, base_url):
     print("Creating M3U8 playlist...")
     with open(m3u8_file, 'w', encoding='utf-8') as f:
         f.write("#EXTM3U\n")
         f.write("#EXTINF:-1 info canali\n")
         for event in events:
-            stream_url, image_url = get_stream_and_image(event['url'])
+            stream_url, image_url = get_stream_and_image(event['url'], base_url)
             if stream_url:
                 # Add tvg-logo if image_url exists, otherwise omit it
                 tvg_logo = f' tvg-logo="{image_url}"' if image_url else ''
@@ -200,8 +277,12 @@ def create_m3u8_playlist(events):
 
 # Main execution
 def main():
+    # Step 0: Determine the sportzone domain
+    base_url = get_sportzone_domain()
+    print(f"Using base URL: {base_url}")
+
     # Step 1: Get all category pages
-    categories = get_categories()
+    categories = get_categories(base_url)
     if not categories:
         print("No categories found. Exiting.")
         return
@@ -209,7 +290,7 @@ def main():
     # Step 2: Get all event links from all categories
     all_events = []
     for category in categories:
-        events = get_event_links(category)
+        events = get_event_links(category, base_url)
         all_events.extend(events)
 
     if not all_events:
@@ -217,7 +298,7 @@ def main():
         return
 
     # Step 3: Create M3U8 playlist
-    create_m3u8_playlist(all_events)
+    create_m3u8_playlist(all_events, base_url)
     print(f"M3U8 playlist saved to {m3u8_file}")
 
 if __name__ == "__main__":
