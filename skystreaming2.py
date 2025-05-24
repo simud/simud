@@ -35,12 +35,26 @@ def extract_channel_info(extinf_line):
     channel_name = name_match.group(1).strip() if name_match else "Canale Sconosciuto"
     return group_title, channel_name
 
-# Funzione per estrarre dinamicamente embed_base_url, referrer e origin
-def extract_dynamic_urls(playlist_content, playlist_url):
-    # Estrai il dominio base dalla playlist_url
-    base_domain = re.match(r'(https?://[^\s/]+)', playlist_url).group(1)
-    referrer = base_domain
-    origin = base_domain
+# Funzione per estrarre dinamicamente embed_base_url, referrer e origin dalla playlist
+def extract_dynamic_urls(playlist_content):
+    # Cerca un URL nella playlist per dedurre referrer e origin (es. https://skystreaming.stream)
+    url_pattern = r'(https?://[^\s/]+)'
+    url_matches = re.findall(url_pattern, playlist_content)
+    
+    # Cerca un dominio che contenga "skystreaming.stream" o simile
+    target_domain = None
+    for url in url_matches:
+        if "skystreaming.stream" in url:
+            target_domain = url
+            break
+    
+    if target_domain:
+        referrer = target_domain
+        origin = target_domain
+    else:
+        print("Dominio skystreaming.stream non trovato nella playlist, utilizzo fallback.")
+        referrer = "https://skystreaming.stream"
+        origin = "https://skystreaming.stream"
 
     # Cerca un URL di embed per dedurre embed_base_url
     embed_pattern = r'(https?://[^\s/]+/embed/[^\s]+)'
@@ -52,7 +66,7 @@ def extract_dynamic_urls(playlist_content, playlist_url):
         embed_base_url = f"{embed_base_domain}/embed/"
     else:
         print("Impossibile estrarre embed_base_url, utilizzo valore di fallback.")
-        embed_base_url = f"{base_domain}/embed/"
+        embed_base_url = f"{referrer}/embed/"
 
     return embed_base_url, referrer, origin
 
@@ -65,7 +79,7 @@ def create_new_m3u8():
         return
 
     # Estrai dinamicamente embed_base_url, referrer e origin
-    embed_base_url, referrer, origin = extract_dynamic_urls(playlist_content, playlist_url)
+    embed_base_url, referrer, origin = extract_dynamic_urls(playlist_content)
     print(f"Utilizzo: embed_base_url={embed_base_url}, referrer={referrer}, origin={origin}")
 
     # Percorso per il file di output
