@@ -16,7 +16,7 @@ logging.basicConfig(
     filemode='w'
 )
 
-# Associazioni
+# Associazioni (invariate)
 channel_associations = {
     "SportCalcio_IT": "Sky Sport Calcio",
     "SportUno_IT": "Sky Sport UNO",
@@ -83,7 +83,7 @@ logo_associations = {
     "TSN 5": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7d/TSN5_logo.svg/1200px-TSN5_logo.svg.png"
 }
 
-# Funzione per autenticarsi
+# Funzione per autenticarsi (invariata)
 def authenticate(scraper, login_url, password):
     print(f"[INFO] Tentativo di autenticazione su {login_url}")
     try:
@@ -98,66 +98,59 @@ def authenticate(scraper, login_url, password):
         logging.error(f"Errore durante l'autenticazione: {e}")
         return None
 
-# Funzione per correggere il padding base64
+# Funzione per correggere il padding base64 (invariata)
 def fix_base64_padding(encoded_keys):
-    # Rimuovi spazi o caratteri non validi
     encoded_keys = encoded_keys.strip()
-    # Aggiungi padding con '=' se necessario
     padding_needed = (4 - (len(encoded_keys) % 4)) % 4
     encoded_keys += '=' * padding_needed
     return encoded_keys
 
-# Funzione per decriptare il token
+# Funzione per decriptare il token (modificata per gestire chiavi multiple)
 def decrypt_token(encoded_keys):
     try:
-        # Decodifica URL (es. %3D → =)
         encoded_keys = unquote(encoded_keys)
         print(f"[DEBUG] Stringa base64 dopo decodifica URL: {encoded_keys}")
         logging.debug(f"Stringa base64 dopo decodifica URL: {encoded_keys}")
 
-        # Correggi il padding base64
         encoded_keys = fix_base64_padding(encoded_keys)
         print(f"[DEBUG] Stringa base64 dopo correzione padding: {encoded_keys}")
         logging.debug(f"Stringa base64 dopo correzione padding: {encoded_keys}")
 
-        # Verifica che la lunghezza sia valida per base64
         if len(encoded_keys) % 4 != 0:
             print(f"[ERRORE] Lunghezza stringa base64 non valida: {len(encoded_keys)}")
             logging.error(f"Lunghezza stringa base64 non valida: {len(encoded_keys)}")
-            return None, None
+            return []
 
-        # Decodifica base64
         decoded = base64.b64decode(encoded_keys).decode('utf-8')
 
-        # Controlla se è un JSON
         try:
             json_data = json.loads(decoded)
             if isinstance(json_data, dict):
-                # Estrai la prima coppia key_id:key dal dizionario
-                for key_id, key in json_data.items():
-                    print(f"[SUCCESSO] Token JSON decodificato: key_id={key_id}, key={key}")
-                    logging.debug(f"Token JSON decodificato: key_id={key_id}, key={key}")
-                    return key_id, key
-                print(f"[AVVISO] Nessuna coppia key_id:key trovata nel JSON: {decoded}")
-                logging.warning(f"Nessuna coppia key_id:key trovata nel JSON: {decoded}")
-                return None, None
+                keys = [(key_id, key) for key_id, key in json_data.items()]
+                print(f"[SUCCESSO] Token JSON decodificato: {keys}")
+                logging.debug(f"Token JSON decodificato: {keys}")
+                return keys
         except json.JSONDecodeError:
-            # Prova il formato standard (key_id:key)
             if ':' in decoded:
-                key_id, key = decoded.split(':', 1)
-                print(f"[SUCCESSO] Token standard decodificato: key_id={key_id}, key={key}")
-                logging.debug(f"Token standard decodificato: key_id={key_id}, key={key}")
-                return key_id, key
+                key_pairs = decoded.split(',')
+                keys = []
+                for pair in key_pairs:
+                    if ':' in pair:
+                        key_id, key = pair.split(':', 1)
+                        keys.append((key_id, key))
+                        print(f"[SUCCESSO] Token standard decodificato: key_id={key_id}, key={key}")
+                        logging.debug(f"Token standard decodificato: key_id={key_id}, key={key}")
+                return keys
             else:
                 print(f"[AVVISO] La stringa decodificata non contiene il separatore ':' né è un JSON valido: {decoded}")
                 logging.warning(f"La stringa decodificata non contiene il separatore ':' né è un JSON valido: {decoded}")
-                return None, None
+                return []
     except Exception as e:
         print(f"[ERRORE] Errore nella decodifica del token: {e}")
         logging.error(f"Errore nella decodifica del token: {e}")
-        return None, None
+        return []
 
-# Funzione per estrarre il flusso MPD/M3U8 e le chiavi
+# Funzione modificata per estrarre il flusso MPD/M3U8 e le chiavi
 def get_stream_and_key(scraper, url, channel_name):
     print(f"[INFO] Accesso al codice sorgente: {url}")
     try:
@@ -167,13 +160,11 @@ def get_stream_and_key(scraper, url, channel_name):
         logging.debug(f"URL finale dopo reindirizzamenti: {response.url}")
         page_source = response.text
 
-        # Salva il codice sorgente per debug
         debug_id = url.split('id=')[-1] if 'id=' in url else channel_name.replace(' ', '_')
         with open(f"debug_source_{debug_id}.html", 'w', encoding='utf-8') as f:
             f.write(page_source)
         print(f"[DEBUG] Codice sorgente salvato in debug_source_{debug_id}.html")
 
-        # Cerca flussi MPD/M3U8, inclusi quelli con chrome-extension
         stream_pattern = re.compile(
             r'(?:(?:chrome-extension://[^\s]+?/pages/player\.html#)?)(https?://.+?\.(?:mpd|m3u8))(?:\?(?:[^&]*&)*ck=([^\s"]+))?(?="|\'|\s|$)',
             re.IGNORECASE
@@ -193,20 +184,19 @@ def get_stream_and_key(scraper, url, channel_name):
             logging.debug(f"Flusso trovato: {stream_url}, associato al canale: {channel_name}")
 
             if encoded_keys:
-                # Separa le chiavi multiple
                 key_list = encoded_keys.split(',')
-                for key in key_list:
-                    key_id, key_value = decrypt_token(key)
-                    if key_id and key_value:
-                        results.append((stream_url, key_id, key_value))
-                        print(f"[INFO] Aggiunta chiave: {key_id}:{key_value}")
-                        logging.debug(f"Aggiunta chiave: {key_id}:{key_value}")
+                for idx, key in enumerate(key_list, 1):
+                    keys = decrypt_token(key)
+                    if keys:
+                        for key_id, key_value in keys:
+                            results.append((stream_url, key_id, key_value, idx))
+                            print(f"[INFO] Aggiunta chiave {idx}: {key_id}:{key_value}")
+                            logging.debug(f"Aggiunta chiave {idx}: {key_id}:{key_value}")
                     else:
-                        print(f"[AVVISO] Chiave non valida: {key}, flusso mantenuto senza chiave")
-                        logging.warning(f"Chiave non valida: {key}, flusso mantenuto senza chiave")
-                        results.append((stream_url, None, None))
+                        print(f"[AVVISO] Chiave non valida: {key}, salto questa chiave")
+                        logging.warning(f"Chiave non valida: {key}, salto questa chiave")
             else:
-                results.append((stream_url, None, None))
+                results.append((stream_url, None, None, 1))
                 print(f"[AVVISO] Nessun parametro ck= trovato per {stream_url}")
                 logging.warning(f"Nessun parametro ck= trovato per {stream_url}")
 
@@ -217,7 +207,7 @@ def get_stream_and_key(scraper, url, channel_name):
         logging.error(f"Errore nel processamento di {url}: {e}")
         return []
 
-# Funzione per ottenere le informazioni del canale
+# Funzione per ottenere le informazioni del canale (invariata)
 def get_channel_info(url_id, group_title):
     tvg_name = channel_associations.get(url_id, url_id)
     tvg_id = tvg_id_associations.get(tvg_name, "")
@@ -232,21 +222,21 @@ def get_channel_info(url_id, group_title):
         "suffix": suffix
     }
 
-# Funzione per creare una voce M3U
-def create_m3u_entry(channel_name, url_id, stream_url, key_id, key, group_title):
+# Funzione modificata per creare una voce M3U
+def create_m3u_entry(channel_name, url_id, stream_url, key_id, key, group_title, key_index):
     info = get_channel_info(url_id, group_title)
-
-    # Converti il group_title in maiuscolo
     group_title_upper = info["group_title"].upper()
 
-    extinf = f'#EXTINF:-1 tvg-id="{info["tvg_id"]}" tvg-logo="{info["tvg_logo"]}" group-title="{group_title_upper}",{channel_name} {info["suffix"]}'
+    # Aggiungi un suffisso per distinguere i canali clonati
+    clone_suffix = f" (Key {key_index})" if key_index > 1 else ""
+    extinf = f'#EXTINF:-1 tvg-id="{info["tvg_id"]}" tvg-logo="{info["tvg_logo"]}" group-title="{group_title_upper}",{channel_name} {info["suffix"]}{clone_suffix}'
     if key_id and key:
         kodiprop_license_type = '#KODIPROP:inputstream.adaptive.license_type=clearkey'
         kodiprop_license_key = f'#KODIPROP:inputstream.adaptive.license_key={key_id}:{key}'
         return f"{extinf}\n{kodiprop_license_type}\n{kodiprop_license_key}\n{stream_url}\n"
     return f"{extinf}\n{stream_url}\n"
 
-# Funzione principale
+# Funzione principale modificata
 def create_m3u8_list():
     url = "https://thisnot.business/eventi.php"
     login_url = "https://thisnot.business/index.php"
@@ -277,7 +267,6 @@ def create_m3u8_list():
         logging.error(f"Errore nell'accesso a {url}: {e}")
         return
 
-    # Trova tutti i contenitori principali
     main_cards = soup.find_all('div', class_='card text-white mb-5')
     if not main_cards:
         print("[AVVISO] Nessun contenitore principale trovato nella pagina!")
@@ -292,17 +281,14 @@ def create_m3u8_list():
         f.write("Link trovati nella pagina eventi:\n")
 
     for idx, main_card in enumerate(main_cards):
-        # Estrai il group-title dal card-header
         header = main_card.find('div', class_='card-header')
         group_title = header.text.strip() if header else f"Sport_{idx}"
         print(f"[INFO] Elaborazione categoria: {group_title}")
 
-        # Salva il contenitore principale per debug
         with open(f"debug_main_card_{idx}.html", 'w', encoding='utf-8') as f:
             f.write(str(main_card))
         print(f"[DEBUG] Contenitore principale salvato in debug_main_card_{idx}.html")
 
-        # Trova tutti i link all'interno del main_card
         links = main_card.find_all('a', href=re.compile(r'player\.php\?id=\w+'))
         print(f"[DEBUG] Trovati {len(links)} link ai player per la categoria {group_title}")
         logging.debug(f"Trovati {len(links)} link ai player per la categoria {group_title}")
@@ -321,13 +307,10 @@ def create_m3u8_list():
             stream_url = urljoin(url, link['href'])
             url_id = stream_url.split('id=')[-1] if 'id=' in stream_url else group_title.replace(' ', '_')
 
-            # Cerca il tag <b> immediatamente precedente al link per il nome del canale
-            channel_name = None
             prev_b = link.find_previous('b')
             if prev_b and prev_b.text.strip() and not prev_b.get('class', ['']).count('date') and not prev_b.get('class', ['']).count('title'):
                 channel_name = prev_b.text.strip()
             else:
-                # Fallback: usa l'url_id se non c'è un nome evento valido
                 channel_name = url_id
                 print(f"[AVVISO] Nome canale non trovato per {stream_url}, usato url_id: {channel_name}")
                 logging.warning(f"Nome canale non trovato per {stream_url}, usato url_id: {channel_name}")
@@ -337,11 +320,11 @@ def create_m3u8_list():
 
             stream_results = get_stream_and_key(scraper, stream_url, channel_name)
             if stream_results:
-                for stream, key_id, key in stream_results:
-                    entry = create_m3u_entry(channel_name, url_id, stream, key_id, key, group_title)
+                for stream, key_id, key, key_index in stream_results:
+                    entry = create_m3u_entry(channel_name, url_id, stream, key_id, key, group_title, key_index)
                     channels.append(entry)
-                    print(f"[SUCCESSO] Canale aggiunto: {channel_name}, Flusso: {stream}, Group-title: {group_title}")
-                    logging.debug(f"Canale aggiunto: {channel_name}, Flusso: {stream}, Group-title: {group_title}")
+                    print(f"[SUCCESSO] Canale aggiunto: {channel_name} (Key {key_index}), Flusso: {stream}, Group-title: {group_title}")
+                    logging.debug(f"Canale aggiunto: {channel_name} (Key {key_index}), Flusso: {stream}, Group-title: {group_title}")
             else:
                 print(f"[AVVISO] Nessun flusso valido trovato per il link: {stream_url}")
                 logging.warning(f"Nessun flusso valido trovato per il link: {stream_url}")
