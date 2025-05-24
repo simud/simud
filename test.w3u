@@ -1,0 +1,76 @@
+
+[
+  {
+    "name": "Skymud",
+    "author": "Simud",
+    "image": "https://i.postimg.cc/4y3wNDMQ/Picsart-25-04-12-19-08-51-665.png",
+    "info": "Skymud si sta evolvendo ",
+    "url": "https://raw.githubusercontent.com/simud/simud/refs/heads/main/Skymud.w3u",
+    "groups": [
+      {
+        "name": "Eventi SportZone",
+        "author": "Simud",
+        "image": "https://media.itsnicethat.com/original_images/596cda7b7fa44c57af003229.gif",
+        "url": "https://raw.githubusercontent.com/simud/simud/refs/heads/main/sportzone.m3u8",
+        "import": true
+      },
+      {
+        "name": "Eventi SportStreaming",
+        "author": "Simud",
+        "image": "https://media.tenor.com/wU-hCae1a8sAAAAM/live.gif",
+        "url": "https://raw.githubusercontent.com/simud/simud/refs/heads/main/sportstreaming_playlist.m3u8",
+        "import": true
+      },
+      {
+        "name": "Eventi SkyStreaming",
+        "author": "Simud",
+        "image": "https://media.itsnicethat.com/original_images/596cdb667fa44c57af00322a.gif",
+        "url": "https://raw.githubusercontent.com/simud/simud/refs/heads/main/skystream.m3u8",
+        "import": true
+      },
+      {
+        "name": "Eventi DaddyLive",
+        "author": "Simud",
+        "image": "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWl0cjE5MWZnMTlycHM2NXk5azh6NG9mbzl3MWZ1ZnU4ejUwMXd6cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VEphJLw0f242ObxJaj/giphy.gif",
+        "url": "https://raw.githubusercontent.com/simud/simud/refs/heads/main/itaevents3.m3u8",
+        "import": true
+      }
+    ]
+  },
+  {
+    "name": "Live TV",
+    "author": "Simud",
+    "image": "https://i.pinimg.com/originals/bb/cb/17/bbcb17db81a9720520f4bd4d3271022f.gif",
+    "url": "https://raw.githubusercontent.com/simud/simud/refs/heads/main/Skymud.w3u",
+    "groups": [
+      {
+        "name": "Eventi SportZone",
+        "author": "Simud",
+        "image": "https://media.itsnicethat.com/original_images/596cda7b7fa44c57af003229.gif",
+        "url": "https://raw.githubusercontent.com/simud/simud/refs/heads/main/sportzone.m3u8",
+        "import": true
+      },
+      {
+        "name": "Eventi SportStreaming",
+        "author": "Simud",
+        "image": "https://media.tenor.com/wU-hCae1a8sAAAAM/live.gif",
+        "url": "https://raw.githubusercontent.com/simud/simud/refs/heads/main/sportstreaming_playlist.m3u8",
+        "import": true
+      },
+      {
+        "name": "Eventi SkyStreaming",
+        "author": "Simud",
+        "image": "https://media.itsnicethat.com/original_images/596cdb667fa44c57af00322a.gif",
+        "url": "https://raw.githubusercontent.com/simud/simud/refs/heads/main/skystream.m3u8",
+        "import": true
+      },
+      {
+        "name": "Eventi DaddyLive",
+        "author": "Simud",
+        "image": "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWl0cjE5MWZnMTlycHM2NXk5azh6NG9mbzl3MWZ1ZnU4ejUwMXd6cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VEphJLw0f242ObxJaj/giphy.gif",
+        "url": "https://raw.githubusercontent.com/simud/simud/refs/heads/main/itaevents3.m3u8",
+        "import": true
+      }
+    ]
+  }
+]
