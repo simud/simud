@@ -1,221 +1,221 @@
 #EXTM3U
 #EXTINF:-1 info canali
-#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.help//images/68300388c99be.png",Bologna vs Genoa
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.help/
-#EXTVLCOPT:http-origin=https://sportzone.help/
-https://hls.kangal.icu/hls/serie/index.m3u8
-#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.help//images/68300541609d7.png",Milan vs Monza
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.help/
-#EXTVLCOPT:http-origin=https://sportzone.help/
-https://hls.kangal.icu/hls/serie/index.m3u8
-#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.help//images/683003655936e.png",Real Madrid vs Real Sociedad
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.help/
-#EXTVLCOPT:http-origin=https://sportzone.help/
-https://hls.kangal.icu/hls/laliga/index.m3u8
-#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.help//images/68300491bde51.png",Espanyol vs Las Palmas
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.help/
-#EXTVLCOPT:http-origin=https://sportzone.help/
-https://hls.kangal.icu/hls/laliga/index.m3u8
-#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.help//images/683004ae89227.jpg",Leganes vs Valladolid
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.help/
-#EXTVLCOPT:http-origin=https://sportzone.help/
-https://hls.kangal.icu/hls/laliga1/index.m3u8
-#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.help//images/6830058986078.png",Alaves vs Osasuna
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.help/
-#EXTVLCOPT:http-origin=https://sportzone.help/
-https://hls.kangal.icu/hls/laliga/index.m3u8
-#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.help//images/683005c982b9e.jpg",Getafe vs Celta Vigo
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.help/
-#EXTVLCOPT:http-origin=https://sportzone.help/
-https://hls.kangal.icu/hls/laliga1/index.m3u8
-#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.help//images/683005e6873cd.png",Vallecano vs Maiorca
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.help/
-#EXTVLCOPT:http-origin=https://sportzone.help/
-https://hls.kangal.icu/hls/laliga2/index.m3u8
-#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.help//images/68300523e35ff.jpg",AFS vs Vizela
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.help/
-#EXTVLCOPT:http-origin=https://sportzone.help/
-https://hls.kangal.icu/hls/portugal/index.m3u8
-#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.help//images/68300629bd731.png",Independiente vs Huracan
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.help/
-#EXTVLCOPT:http-origin=https://sportzone.help/
-https://hls.kangal.icu/hls/sportitalia/index.m3u8
-#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.help//images/68300504300b2.png",Bielefeld vs Stoccarda
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.help/
-#EXTVLCOPT:http-origin=https://sportzone.help/
-https://hls.kangal.icu/hls/calcio/index.m3u8
-#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.help//images/6830060ad1c9b.jpg",PSG vs Reims
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.help/
-#EXTVLCOPT:http-origin=https://sportzone.help/
-https://hls.kangal.icu/hls/ligue1/index.m3u8
-#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.help//images/6830034596782.png",Sheffield Utd vs Sunderland
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.help/
-#EXTVLCOPT:http-origin=https://sportzone.help/
-https://hls.kangal.icu/hls/champ/index.m3u8
-#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.help//images/6830043f7e3f7.png",Arsenal D vs Barcellona D
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.help/
-#EXTVLCOPT:http-origin=https://sportzone.help/
-https://hls.kangal.icu/hls/donne/index.m3u8
-#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.help//images/683008360b622.jpg",Zona vs Serie A
+#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.hair//images/683008360b622.jpg",Zona vs Serie A
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://sportzone.help/
 #EXTVLCOPT:http-origin=https://sportzone.help/
 https://hls.kangal.icu/hls/zona/index.m3u8
-#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.help//images/6830087bb5a11.jpg",Diretta Gol vs Serie A
+#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.hair//images/6830087bb5a11.jpg",Diretta Gol vs Serie A
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://sportzone.help/
 #EXTVLCOPT:http-origin=https://sportzone.help/
 https://hls.kangal.icu/hls/diretta/index.m3u8
-#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.help//images/683008b906e17.png",Venezia vs Juventus
+#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.hair//images/683008b906e17.png",Venezia vs Juventus
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://sportzone.help/
 #EXTVLCOPT:http-origin=https://sportzone.help/
 https://hls.kangal.icu/hls/serie/index.m3u8
-#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.help//images/683008ee6d905.png",Torino vs Roma
+#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.hair//images/683008ee6d905.png",Torino vs Roma
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://sportzone.help/
 #EXTVLCOPT:http-origin=https://sportzone.help/
 https://hls.kangal.icu/hls/serie1/index.m3u8
-#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.help//images/68300925bf9e7.png",Lazio vs Lecce
+#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.hair//images/68300925bf9e7.png",Lazio vs Lecce
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://sportzone.help/
 #EXTVLCOPT:http-origin=https://sportzone.help/
 https://hls.kangal.icu/hls/lazio/index.m3u8
-#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.help//images/6830095c11ec8.png",Udinese vs Fiorentina
+#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.hair//images/6830095c11ec8.png",Udinese vs Fiorentina
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://sportzone.help/
 #EXTVLCOPT:http-origin=https://sportzone.help/
 https://hls.kangal.icu/hls/fiore/index.m3u8
-#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.help//images/6830099d02e31.png",Atalanta vs Parma
+#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.hair//images/6830099d02e31.png",Atalanta vs Parma
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://sportzone.help/
 #EXTVLCOPT:http-origin=https://sportzone.help/
 https://hls.kangal.icu/hls/atalan/index.m3u8
-#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.help//images/683009d8889cc.jpg",Empoli vs Verona
+#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.hair//images/683009d8889cc.jpg",Empoli vs Verona
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://sportzone.help/
 #EXTVLCOPT:http-origin=https://sportzone.help/
 https://hls.kangal.icu/hls/verona/index.m3u8
-#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.help//images/683007dadb38b.png",Cremonese vs Juve Stabia
+#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.hair//images/683007dadb38b.png",Cremonese vs Juve Stabia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://sportzone.help/
 #EXTVLCOPT:http-origin=https://sportzone.help/
 https://hls.kangal.icu/hls/serieb/index.m3u8
-#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.help//images/68300816a3323.png",Spezia vs Catanzaro
+#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.hair//images/68300816a3323.png",Spezia vs Catanzaro
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://sportzone.help/
 #EXTVLCOPT:http-origin=https://sportzone.help/
 https://hls.kangal.icu/hls/serieb/index.m3u8
-#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.help//images/6830067335ae3.png",L.R. Vicenza vs Ternana
+#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.hair//images/6830067335ae3.png",L.R. Vicenza vs Ternana
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://sportzone.help/
 #EXTVLCOPT:http-origin=https://sportzone.help/
 https://hls.kangal.icu/hls/sky/index.m3u8
-#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.help//images/683006928ca90.png",Audace Cerignola vs Pescara
+#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.hair//images/683006928ca90.png",Audace Cerignola vs Pescara
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://sportzone.help/
 #EXTVLCOPT:http-origin=https://sportzone.help/
 https://hls.kangal.icu/hls/sky/index.m3u8
-#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.help//images/683007768074b.jpg",Diretta Gol vs Premier League
+#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.hair//images/683007768074b.jpg",Diretta Gol vs Premier League
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://sportzone.help/
 #EXTVLCOPT:http-origin=https://sportzone.help/
 https://hls.kangal.icu/hls/calcio/index.m3u8
-#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.help//images/6830079b3e9f8.png",Liverpool vs Crystal Palace
+#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.hair//images/6830079b3e9f8.png",Liverpool vs Crystal Palace
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://sportzone.help/
 #EXTVLCOPT:http-origin=https://sportzone.help/
 https://hls.kangal.icu/hls/sky252/index.m3u8
-#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.help//images/683007b7aecaf.png",Nottingham vs Chelsea
+#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.hair//images/683007b7aecaf.png",Nottingham vs Chelsea
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://sportzone.help/
 #EXTVLCOPT:http-origin=https://sportzone.help/
 https://hls.kangal.icu/hls/sky253/index.m3u8
-#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.help//images/6830064d99316.png",Girona vs Atl. Madrid
+#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.hair//images/6830064d99316.png",Girona vs Atl. Madrid
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://sportzone.help/
 #EXTVLCOPT:http-origin=https://sportzone.help/
 https://hls.kangal.icu/hls/laliga/index.m3u8
-#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.help//images/683006b66a71c.png",Villarreal vs Siviglia
+#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.hair//images/683006b66a71c.png",Villarreal vs Siviglia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://sportzone.help/
 #EXTVLCOPT:http-origin=https://sportzone.help/
 https://hls.kangal.icu/hls/laliga/index.m3u8
-#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.help//images/68300a11d5e05.png",Ath. Bilbao vs Barcellona
+#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.hair//images/68300a11d5e05.png",Ath. Bilbao vs Barcellona
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://sportzone.help/
 #EXTVLCOPT:http-origin=https://sportzone.help/
 https://hls.kangal.icu/hls/laliga/index.m3u8
-#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.help//images/68300a2f6f36d.png",San Lorenzo vs Platense
+#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.hair//images/68300a2f6f36d.png",San Lorenzo vs Platense
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://sportzone.help/
 #EXTVLCOPT:http-origin=https://sportzone.help/
 https://hls.kangal.icu/hls/sportitalia/index.m3u8
-#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.help//images/683007f6ab213.png",Benfica vs Sporting
+#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.hair//images/683007f6ab213.png",Benfica vs Sporting
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://sportzone.help/
 #EXTVLCOPT:http-origin=https://sportzone.help/
 https://hls.kangal.icu/hls/portugal/index.m3u8
-#EXTINF:-1 group-title="FORMULA 1" tvg-logo="https://sportzone.help//images/683000ace1973.jpg",Prove Libere 3 vs GP Monaco
+#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.hair//images/68300388c99be.png",Bologna vs Genoa
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://sportzone.help/
 #EXTVLCOPT:http-origin=https://sportzone.help/
-https://hls.kangal.icu/hls/formula/index.m3u8
-#EXTINF:-1 group-title="FORMULA 1" tvg-logo="https://sportzone.help//images/683000cde836f.jpg",Qualifiche vs GP Monaco
+https://hls.kangal.icu/hls/serie/index.m3u8
+#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.hair//images/68300541609d7.png",Milan vs Monza
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://sportzone.help/
 #EXTVLCOPT:http-origin=https://sportzone.help/
-https://hls.kangal.icu/hls/formula/index.m3u8
-#EXTINF:-1 group-title="FORMULA 1" tvg-logo="https://sportzone.help//images/6830010a23270.jpg",Gara vs GP Monaco
+https://hls.kangal.icu/hls/serie/index.m3u8
+#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.hair//images/683003655936e.png",Real Madrid vs Real Sociedad
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://sportzone.help/
 #EXTVLCOPT:http-origin=https://sportzone.help/
-https://hls.kangal.icu/hls/formula/index.m3u8
-#EXTINF:-1 group-title="Tennis" tvg-logo="https://sportzone.help//images/6683b5fc5db3b.jpg",ATP & WTA vs Sky Sport Tennis
+https://hls.kangal.icu/hls/laliga/index.m3u8
+#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.hair//images/68300491bde51.png",Espanyol vs Las Palmas
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://sportzone.help/
 #EXTVLCOPT:http-origin=https://sportzone.help/
-https://hls.kangal.icu/hls/tennis/index.m3u8
-#EXTINF:-1 group-title="Basket" tvg-logo="https://sportzone.help//images/67039b55acd48.png",Sky Sport vs NBA
+https://hls.kangal.icu/hls/laliga/index.m3u8
+#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.hair//images/683004ae89227.jpg",Leganes vs Valladolid
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.help/
+#EXTVLCOPT:http-origin=https://sportzone.help/
+https://hls.kangal.icu/hls/laliga1/index.m3u8
+#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.hair//images/6830058986078.png",Alaves vs Osasuna
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.help/
+#EXTVLCOPT:http-origin=https://sportzone.help/
+https://hls.kangal.icu/hls/laliga/index.m3u8
+#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.hair//images/683005c982b9e.jpg",Getafe vs Celta Vigo
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.help/
+#EXTVLCOPT:http-origin=https://sportzone.help/
+https://hls.kangal.icu/hls/laliga1/index.m3u8
+#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.hair//images/683005e6873cd.png",Vallecano vs Maiorca
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.help/
+#EXTVLCOPT:http-origin=https://sportzone.help/
+https://hls.kangal.icu/hls/laliga2/index.m3u8
+#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.hair//images/68300523e35ff.jpg",AFS vs Vizela
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.help/
+#EXTVLCOPT:http-origin=https://sportzone.help/
+https://hls.kangal.icu/hls/portugal/index.m3u8
+#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.hair//images/68300629bd731.png",Independiente vs Huracan
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.help/
+#EXTVLCOPT:http-origin=https://sportzone.help/
+https://hls.kangal.icu/hls/sportitalia/index.m3u8
+#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.hair//images/68300504300b2.png",Bielefeld vs Stoccarda
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.help/
+#EXTVLCOPT:http-origin=https://sportzone.help/
+https://hls.kangal.icu/hls/calcio/index.m3u8
+#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.hair//images/6830060ad1c9b.jpg",PSG vs Reims
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.help/
+#EXTVLCOPT:http-origin=https://sportzone.help/
+https://hls.kangal.icu/hls/ligue1/index.m3u8
+#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.hair//images/6830034596782.png",Sheffield Utd vs Sunderland
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.help/
+#EXTVLCOPT:http-origin=https://sportzone.help/
+https://hls.kangal.icu/hls/champ/index.m3u8
+#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.hair//images/6830043f7e3f7.png",Arsenal D vs Barcellona D
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.help/
+#EXTVLCOPT:http-origin=https://sportzone.help/
+https://hls.kangal.icu/hls/donne/index.m3u8
+#EXTINF:-1 group-title="Basket" tvg-logo="https://sportzone.hair//images/67039b55acd48.png",Sky Sport vs NBA
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://sportzone.help/
 #EXTVLCOPT:http-origin=https://sportzone.help/
 https://hls.kangal.icu/hls/skynba/index.m3u8
-#EXTINF:-1 group-title="MotoGP" tvg-logo="https://sportzone.help//images/68300215cde1b.jpg",Warm Up vs Silverstone (Regno Unito)
+#EXTINF:-1 group-title="Tennis" tvg-logo="https://sportzone.hair//images/6683b5fc5db3b.jpg",ATP & WTA vs Sky Sport Tennis
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.help/
+#EXTVLCOPT:http-origin=https://sportzone.help/
+https://hls.kangal.icu/hls/tennis/index.m3u8
+#EXTINF:-1 group-title="FORMULA 1" tvg-logo="https://sportzone.hair//images/683000ace1973.jpg",Prove Libere 3 vs GP Monaco
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.help/
+#EXTVLCOPT:http-origin=https://sportzone.help/
+https://hls.kangal.icu/hls/formula/index.m3u8
+#EXTINF:-1 group-title="FORMULA 1" tvg-logo="https://sportzone.hair//images/683000cde836f.jpg",Qualifiche vs GP Monaco
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.help/
+#EXTVLCOPT:http-origin=https://sportzone.help/
+https://hls.kangal.icu/hls/formula/index.m3u8
+#EXTINF:-1 group-title="FORMULA 1" tvg-logo="https://sportzone.hair//images/6830010a23270.jpg",Gara vs GP Monaco
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.help/
+#EXTVLCOPT:http-origin=https://sportzone.help/
+https://hls.kangal.icu/hls/formula/index.m3u8
+#EXTINF:-1 group-title="MotoGP" tvg-logo="https://sportzone.hair//images/68300215cde1b.jpg",Warm Up vs Silverstone (Regno Unito)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://sportzone.help/
 #EXTVLCOPT:http-origin=https://sportzone.help/
 https://hls.kangal.icu/hls/moto/index.m3u8
-#EXTINF:-1 group-title="MotoGP" tvg-logo="https://sportzone.help//images/6830019dcff8c.jpg",Prove Libere 3 vs Silverstone (Regno Unito)
+#EXTINF:-1 group-title="MotoGP" tvg-logo="https://sportzone.hair//images/6830019dcff8c.jpg",Prove Libere 3 vs Silverstone (Regno Unito)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://sportzone.help/
 #EXTVLCOPT:http-origin=https://sportzone.help/
 https://hls.kangal.icu/hls/moto/index.m3u8
-#EXTINF:-1 group-title="MotoGP" tvg-logo="https://sportzone.help//images/683001bd3308c.jpg",Qualifiche vs Silverstone (Regno Unito)
+#EXTINF:-1 group-title="MotoGP" tvg-logo="https://sportzone.hair//images/683001bd3308c.jpg",Qualifiche vs Silverstone (Regno Unito)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://sportzone.help/
 #EXTVLCOPT:http-origin=https://sportzone.help/
 https://hls.kangal.icu/hls/moto/index.m3u8
-#EXTINF:-1 group-title="MotoGP" tvg-logo="https://sportzone.help//images/683001db39cc8.jpg",Gara 1 vs Silverstone (Regno Unito)
+#EXTINF:-1 group-title="MotoGP" tvg-logo="https://sportzone.hair//images/683001db39cc8.jpg",Gara 1 vs Silverstone (Regno Unito)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://sportzone.help/
 #EXTVLCOPT:http-origin=https://sportzone.help/
 https://hls.kangal.icu/hls/moto/index.m3u8
-#EXTINF:-1 group-title="MotoGP" tvg-logo="https://sportzone.help//images/6830023ad12c7.jpg",Gara 2 vs Silverstone (Regno Unito)
+#EXTINF:-1 group-title="MotoGP" tvg-logo="https://sportzone.hair//images/6830023ad12c7.jpg",Gara 2 vs Silverstone (Regno Unito)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://sportzone.help/
 #EXTVLCOPT:http-origin=https://sportzone.help/
