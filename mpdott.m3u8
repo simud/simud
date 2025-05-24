@@ -352,76 +352,36 @@ https://xuione.sportstreaming.net/SportStreaming/SportStreaming/44.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Eventi", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 #EXTINF:-1 info canali
-#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.hair//images/68300388c99be.png",Bologna vs Genoa
+#EXTINF:-1 group-title="MotoGP" tvg-logo="https://sportzone.hair//images/68300215cde1b.jpg",Warm Up vs Silverstone (Regno Unito)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://sportzone.hair/
 #EXTVLCOPT:http-origin=https://sportzone.hair/
-https://hls.kangal.icu/hls/serie/index.m3u8
-#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.hair//images/68300541609d7.png",Milan vs Monza
+https://hls.kangal.icu/hls/moto/index.m3u8
+#EXTINF:-1 group-title="MotoGP" tvg-logo="https://sportzone.hair//images/6830019dcff8c.jpg",Prove Libere 3 vs Silverstone (Regno Unito)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://sportzone.hair/
 #EXTVLCOPT:http-origin=https://sportzone.hair/
-https://hls.kangal.icu/hls/serie/index.m3u8
-#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.hair//images/683003655936e.png",Real Madrid vs Real Sociedad
+https://hls.kangal.icu/hls/moto/index.m3u8
+#EXTINF:-1 group-title="MotoGP" tvg-logo="https://sportzone.hair//images/683001bd3308c.jpg",Qualifiche vs Silverstone (Regno Unito)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://sportzone.hair/
 #EXTVLCOPT:http-origin=https://sportzone.hair/
-https://hls.kangal.icu/hls/laliga/index.m3u8
-#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.hair//images/68300491bde51.png",Espanyol vs Las Palmas
+https://hls.kangal.icu/hls/moto/index.m3u8
+#EXTINF:-1 group-title="MotoGP" tvg-logo="https://sportzone.hair//images/683001db39cc8.jpg",Gara 1 vs Silverstone (Regno Unito)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://sportzone.hair/
 #EXTVLCOPT:http-origin=https://sportzone.hair/
-https://hls.kangal.icu/hls/laliga/index.m3u8
-#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.hair//images/683004ae89227.jpg",Leganes vs Valladolid
+https://hls.kangal.icu/hls/moto/index.m3u8
+#EXTINF:-1 group-title="MotoGP" tvg-logo="https://sportzone.hair//images/6830023ad12c7.jpg",Gara 2 vs Silverstone (Regno Unito)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://sportzone.hair/
 #EXTVLCOPT:http-origin=https://sportzone.hair/
-https://hls.kangal.icu/hls/laliga1/index.m3u8
-#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.hair//images/6830058986078.png",Alaves vs Osasuna
+https://hls.kangal.icu/hls/moto/index.m3u8
+#EXTINF:-1 group-title="Tennis" tvg-logo="https://sportzone.hair//images/6683b5fc5db3b.jpg",ATP & WTA vs Sky Sport Tennis
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://sportzone.hair/
 #EXTVLCOPT:http-origin=https://sportzone.hair/
-https://hls.kangal.icu/hls/laliga/index.m3u8
-#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.hair//images/683005c982b9e.jpg",Getafe vs Celta Vigo
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.hair/
-#EXTVLCOPT:http-origin=https://sportzone.hair/
-https://hls.kangal.icu/hls/laliga1/index.m3u8
-#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.hair//images/683005e6873cd.png",Vallecano vs Maiorca
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.hair/
-#EXTVLCOPT:http-origin=https://sportzone.hair/
-https://hls.kangal.icu/hls/laliga2/index.m3u8
-#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.hair//images/68300523e35ff.jpg",AFS vs Vizela
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.hair/
-#EXTVLCOPT:http-origin=https://sportzone.hair/
-https://hls.kangal.icu/hls/portugal/index.m3u8
-#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.hair//images/68300629bd731.png",Independiente vs Huracan
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.hair/
-#EXTVLCOPT:http-origin=https://sportzone.hair/
-https://hls.kangal.icu/hls/sportitalia/index.m3u8
-#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.hair//images/68300504300b2.png",Bielefeld vs Stoccarda
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.hair/
-#EXTVLCOPT:http-origin=https://sportzone.hair/
-https://hls.kangal.icu/hls/calcio/index.m3u8
-#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.hair//images/6830060ad1c9b.jpg",PSG vs Reims
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.hair/
-#EXTVLCOPT:http-origin=https://sportzone.hair/
-https://hls.kangal.icu/hls/ligue1/index.m3u8
-#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.hair//images/6830034596782.png",Sheffield Utd vs Sunderland
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.hair/
-#EXTVLCOPT:http-origin=https://sportzone.hair/
-https://hls.kangal.icu/hls/champ/index.m3u8
-#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.hair//images/6830043f7e3f7.png",Arsenal D vs Barcellona D
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.hair/
-#EXTVLCOPT:http-origin=https://sportzone.hair/
-https://hls.kangal.icu/hls/donne/index.m3u8
+https://hls.kangal.icu/hls/tennis/index.m3u8
 #EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.hair//images/683008360b622.jpg",Zona vs Serie A
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://sportzone.hair/
@@ -522,6 +482,81 @@ https://hls.kangal.icu/hls/sportitalia/index.m3u8
 #EXTVLCOPT:http-referrer=https://sportzone.hair/
 #EXTVLCOPT:http-origin=https://sportzone.hair/
 https://hls.kangal.icu/hls/portugal/index.m3u8
+#EXTINF:-1 group-title="Basket" tvg-logo="https://sportzone.hair//images/67039b55acd48.png",Sky Sport vs NBA
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.hair/
+#EXTVLCOPT:http-origin=https://sportzone.hair/
+https://hls.kangal.icu/hls/skynba/index.m3u8
+#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.hair//images/68300388c99be.png",Bologna vs Genoa
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.hair/
+#EXTVLCOPT:http-origin=https://sportzone.hair/
+https://hls.kangal.icu/hls/serie/index.m3u8
+#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.hair//images/68300541609d7.png",Milan vs Monza
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.hair/
+#EXTVLCOPT:http-origin=https://sportzone.hair/
+https://hls.kangal.icu/hls/serie/index.m3u8
+#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.hair//images/683003655936e.png",Real Madrid vs Real Sociedad
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.hair/
+#EXTVLCOPT:http-origin=https://sportzone.hair/
+https://hls.kangal.icu/hls/laliga/index.m3u8
+#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.hair//images/68300491bde51.png",Espanyol vs Las Palmas
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.hair/
+#EXTVLCOPT:http-origin=https://sportzone.hair/
+https://hls.kangal.icu/hls/laliga/index.m3u8
+#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.hair//images/683004ae89227.jpg",Leganes vs Valladolid
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.hair/
+#EXTVLCOPT:http-origin=https://sportzone.hair/
+https://hls.kangal.icu/hls/laliga1/index.m3u8
+#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.hair//images/6830058986078.png",Alaves vs Osasuna
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.hair/
+#EXTVLCOPT:http-origin=https://sportzone.hair/
+https://hls.kangal.icu/hls/laliga/index.m3u8
+#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.hair//images/683005c982b9e.jpg",Getafe vs Celta Vigo
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.hair/
+#EXTVLCOPT:http-origin=https://sportzone.hair/
+https://hls.kangal.icu/hls/laliga1/index.m3u8
+#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.hair//images/683005e6873cd.png",Vallecano vs Maiorca
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.hair/
+#EXTVLCOPT:http-origin=https://sportzone.hair/
+https://hls.kangal.icu/hls/laliga2/index.m3u8
+#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.hair//images/68300523e35ff.jpg",AFS vs Vizela
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.hair/
+#EXTVLCOPT:http-origin=https://sportzone.hair/
+https://hls.kangal.icu/hls/portugal/index.m3u8
+#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.hair//images/68300629bd731.png",Independiente vs Huracan
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.hair/
+#EXTVLCOPT:http-origin=https://sportzone.hair/
+https://hls.kangal.icu/hls/sportitalia/index.m3u8
+#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.hair//images/68300504300b2.png",Bielefeld vs Stoccarda
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.hair/
+#EXTVLCOPT:http-origin=https://sportzone.hair/
+https://hls.kangal.icu/hls/calcio/index.m3u8
+#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.hair//images/6830060ad1c9b.jpg",PSG vs Reims
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.hair/
+#EXTVLCOPT:http-origin=https://sportzone.hair/
+https://hls.kangal.icu/hls/ligue1/index.m3u8
+#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.hair//images/6830034596782.png",Sheffield Utd vs Sunderland
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.hair/
+#EXTVLCOPT:http-origin=https://sportzone.hair/
+https://hls.kangal.icu/hls/champ/index.m3u8
+#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.hair//images/6830043f7e3f7.png",Arsenal D vs Barcellona D
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.hair/
+#EXTVLCOPT:http-origin=https://sportzone.hair/
+https://hls.kangal.icu/hls/donne/index.m3u8
 #EXTINF:-1 group-title="FORMULA 1" tvg-logo="https://sportzone.hair//images/683000ace1973.jpg",Prove Libere 3 vs GP Monaco
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://sportzone.hair/
@@ -537,46 +572,11 @@ https://hls.kangal.icu/hls/formula/index.m3u8
 #EXTVLCOPT:http-referrer=https://sportzone.hair/
 #EXTVLCOPT:http-origin=https://sportzone.hair/
 https://hls.kangal.icu/hls/formula/index.m3u8
-#EXTINF:-1 group-title="Basket" tvg-logo="https://sportzone.hair//images/67039b55acd48.png",Sky Sport vs NBA
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.hair/
-#EXTVLCOPT:http-origin=https://sportzone.hair/
-https://hls.kangal.icu/hls/skynba/index.m3u8
-#EXTINF:-1 group-title="Tennis" tvg-logo="https://sportzone.hair//images/6683b5fc5db3b.jpg",ATP & WTA vs Sky Sport Tennis
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.hair/
-#EXTVLCOPT:http-origin=https://sportzone.hair/
-https://hls.kangal.icu/hls/tennis/index.m3u8
-#EXTINF:-1 group-title="MotoGP" tvg-logo="https://sportzone.hair//images/68300215cde1b.jpg",Warm Up vs Silverstone (Regno Unito)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.hair/
-#EXTVLCOPT:http-origin=https://sportzone.hair/
-https://hls.kangal.icu/hls/moto/index.m3u8
-#EXTINF:-1 group-title="MotoGP" tvg-logo="https://sportzone.hair//images/6830019dcff8c.jpg",Prove Libere 3 vs Silverstone (Regno Unito)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.hair/
-#EXTVLCOPT:http-origin=https://sportzone.hair/
-https://hls.kangal.icu/hls/moto/index.m3u8
-#EXTINF:-1 group-title="MotoGP" tvg-logo="https://sportzone.hair//images/683001bd3308c.jpg",Qualifiche vs Silverstone (Regno Unito)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.hair/
-#EXTVLCOPT:http-origin=https://sportzone.hair/
-https://hls.kangal.icu/hls/moto/index.m3u8
-#EXTINF:-1 group-title="MotoGP" tvg-logo="https://sportzone.hair//images/683001db39cc8.jpg",Gara 1 vs Silverstone (Regno Unito)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.hair/
-#EXTVLCOPT:http-origin=https://sportzone.hair/
-https://hls.kangal.icu/hls/moto/index.m3u8
-#EXTINF:-1 group-title="MotoGP" tvg-logo="https://sportzone.hair//images/6830023ad12c7.jpg",Gara 2 vs Silverstone (Regno Unito)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.hair/
-#EXTVLCOPT:http-origin=https://sportzone.hair/
-https://hls.kangal.icu/hls/moto/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/mZ6gwjBg/kings-league.png" group-title="Kings League", controcalcio__
 #EXTVLCOPT:http-referrer=https://www.twitch.tv/controcalcio__
 #EXTVLCOPT:http-origin=https://www.twitch.tv/controcalcio__
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://use13-0.playlist.ttvnw.net/v1/playlist/Cu8Es1iTnL_QPtPsYY7qh7_mySSiHnXAJ8Yp_CrfWXqzGRXL3woYN87najW4QDCdxvSYIub6r1ZK_2ip5qjyAESmXnMlx_RmxJ2y4WJzpjym0IMjUYOsde8iz9aQtoC2MNNz2E_dBmE6ifpdpWWRKoEdFKoZkKfFU3ZGWLAxuOLxVwdPEq7qTQBerinKhrk-VOhAyii3mXHVjwro5_JV-earRjOvHUPH2dL8mT5goljMLVHXpc7nvXqlFHDRuwhv2mTAIGYyYm_gB6ap8z6Ixs-NFqSyLehRiWpFSbS218RHQWcdv7AeW9jnBtpnhipE8nXSBED93Rkg65ZWfg2TkkIoYCLP-FDGMVoC1oElZJ5fBQWjTQrkr94HsTMSNYkFmX81iuS3jWgOHfmjZaWjIez5MqDS3e3WM7-JuExKwPdk-fSwgNVJ4z-2CPfbhnfsBd4YumzcGTBz3PpB0y3mcu0QUEKcOcEH8_JDHbXKoaX8R8rk2nVRKDRO2tgu5IcBpwjt910h8zZRa0Nbox4QwvUnVVg4TkTbsBcJwh7Mb3PXsvuJC3o8_Pe6bbZ89s9Qal2Xgo6h9bxHVwK5bT17_Le32VOn7glq6X2o2Ag0I1Xb6vbpZz3c3Q-wUodMqiNQmAV4GpitRtNIpISMjixbospu-twC4J6L_Is211kofN-1T4c-huMyhHOeyo-c2eoXUHNYKJ2KbQAfha4nFsRGF_qpGFFWd8FONACKBWywAPepAnF59IlMZplHDgWsfDIk3gYs9GnUMB3KIWJm5L3kCTES4mHJQnnRt7058POeGEqMzJn13fFnGcj4AkATn6M4o60aDIKrsj7mhsNjwDADeiABKgl1cy13ZXN0LTIwrAw.m3u8
+https://use11.playlist.ttvnw.net/v1/playlist/Cu8EyEbc4CUFNFXNR7syv19zutfWUfS1AQG6GjDkClgdrrjpGozQemk2N7S7dWPYI97EUhqGYBYQmlvX1rnUxu1_Tn2oj2p02pBii-gMj68WNptoLRt2EuqtSreNg-hWXgdvK_l3J04v89Bpoj5MxFRS9IyLSSXsdFUS_-JnLZQ3wwqqfENkNSg0yrUeYK2N91PBqsNcEfC87lw2PcjJN-NmBtjkzKu6StQCA4wdABZNv8Rvwu6suEKki5d4ddkSjYIAyG0Wl-ep7y8xfi9ZfxRuW9VTIZqTQiTB_qCWgRHjQ7uyVOZLH52ZPvblkvXrZMLtJ-eotybgJN88aXT7LvNX8k0LkQrgVEO58QBJov9go3fJ65ZXeGS2m79PqwkLz8npWZdivzArDoWCMkwYFg1F-p2ExPeJsT1qh6bSQ2nSDyXbiD4-g6ddN5c74sn5xcRUg-h7E_vZHG_2ns_ZqSH3p84d1y4i7CLu-__exX-j7U0bNMAdE_6KjE9q5GZuNadE1xTjE77MxgFoioVVkFrhKS_VwR4lZG09VRydcCaBJqNNJgAXaZ4hE3Z3TaQF747Dnghikh7tETUSpEvRFRq6Hs7JUk0uaysVyui6LyvzHZnVDd1Ba8X7gcoF4-P57CohKPN15Rgv0_S8XAMi5lzW5xR6KpxkTJX9ezigttwz6Qb1JO1bhqrn9AE6Wt0UcJ1OCdMVHZiIKvCCYdHE_7wTDarOlWLA35yOjrXV7v6ijx800mtaak66QRyfJu6RxmZXRFCjnM1Bp_6ucPHhWDAQJVEDwQjfP2BNJSKNIGBXv1xWdsp9AOUW2Dz2jcJ__78aDFsCC4T45U9vrFqTziABKgl1cy1lYXN0LTIwqww.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Kings League", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 #EXTINF:-1 tvg-id="skysportuno.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-uno-it.png" group-title="Dazn MPD",Sky Sport UNO
