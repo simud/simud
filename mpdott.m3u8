@@ -288,36 +288,6 @@ https://xuione.sportstreaming.net/SportStreaming/SportStreaming/44.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Eventi", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 #EXTINF:-1 info canali
-#EXTINF:-1 group-title="Tennis" tvg-logo="https://sportzone.hair//images/6683b5fc5db3b.jpg",ATP & WTA vs Sky Sport Tennis
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.hair/
-#EXTVLCOPT:http-origin=https://sportzone.hair/
-https://hls.kangal.icu/hls/tennis/index.m3u8
-#EXTINF:-1 group-title="MotoGP" tvg-logo="https://sportzone.hair//images/68300215cde1b.jpg",Warm Up vs Silverstone (Regno Unito)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.hair/
-#EXTVLCOPT:http-origin=https://sportzone.hair/
-https://hls.kangal.icu/hls/moto/index.m3u8
-#EXTINF:-1 group-title="MotoGP" tvg-logo="https://sportzone.hair//images/6830019dcff8c.jpg",Prove Libere 3 vs Silverstone (Regno Unito)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.hair/
-#EXTVLCOPT:http-origin=https://sportzone.hair/
-https://hls.kangal.icu/hls/moto/index.m3u8
-#EXTINF:-1 group-title="MotoGP" tvg-logo="https://sportzone.hair//images/683001bd3308c.jpg",Qualifiche vs Silverstone (Regno Unito)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.hair/
-#EXTVLCOPT:http-origin=https://sportzone.hair/
-https://hls.kangal.icu/hls/moto/index.m3u8
-#EXTINF:-1 group-title="MotoGP" tvg-logo="https://sportzone.hair//images/683001db39cc8.jpg",Gara 1 vs Silverstone (Regno Unito)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.hair/
-#EXTVLCOPT:http-origin=https://sportzone.hair/
-https://hls.kangal.icu/hls/moto/index.m3u8
-#EXTINF:-1 group-title="MotoGP" tvg-logo="https://sportzone.hair//images/6830023ad12c7.jpg",Gara 2 vs Silverstone (Regno Unito)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.hair/
-#EXTVLCOPT:http-origin=https://sportzone.hair/
-https://hls.kangal.icu/hls/moto/index.m3u8
 #EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.hair//images/68300388c99be.png",Bologna vs Genoa
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://sportzone.hair/
@@ -388,6 +358,11 @@ https://hls.kangal.icu/hls/champ/index.m3u8
 #EXTVLCOPT:http-referrer=https://sportzone.hair/
 #EXTVLCOPT:http-origin=https://sportzone.hair/
 https://hls.kangal.icu/hls/donne/index.m3u8
+#EXTINF:-1 group-title="Tennis" tvg-logo="https://sportzone.hair//images/6683b5fc5db3b.jpg",ATP & WTA vs Sky Sport Tennis
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.hair/
+#EXTVLCOPT:http-origin=https://sportzone.hair/
+https://hls.kangal.icu/hls/tennis/index.m3u8
 #EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.hair//images/683008360b622.jpg",Zona vs Serie A
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://sportzone.hair/
@@ -493,6 +468,31 @@ https://hls.kangal.icu/hls/portugal/index.m3u8
 #EXTVLCOPT:http-referrer=https://sportzone.hair/
 #EXTVLCOPT:http-origin=https://sportzone.hair/
 https://hls.kangal.icu/hls/skynba/index.m3u8
+#EXTINF:-1 group-title="MotoGP" tvg-logo="https://sportzone.hair//images/68300215cde1b.jpg",Warm Up vs Silverstone (Regno Unito)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.hair/
+#EXTVLCOPT:http-origin=https://sportzone.hair/
+https://hls.kangal.icu/hls/moto/index.m3u8
+#EXTINF:-1 group-title="MotoGP" tvg-logo="https://sportzone.hair//images/6830019dcff8c.jpg",Prove Libere 3 vs Silverstone (Regno Unito)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.hair/
+#EXTVLCOPT:http-origin=https://sportzone.hair/
+https://hls.kangal.icu/hls/moto/index.m3u8
+#EXTINF:-1 group-title="MotoGP" tvg-logo="https://sportzone.hair//images/683001bd3308c.jpg",Qualifiche vs Silverstone (Regno Unito)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.hair/
+#EXTVLCOPT:http-origin=https://sportzone.hair/
+https://hls.kangal.icu/hls/moto/index.m3u8
+#EXTINF:-1 group-title="MotoGP" tvg-logo="https://sportzone.hair//images/683001db39cc8.jpg",Gara 1 vs Silverstone (Regno Unito)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.hair/
+#EXTVLCOPT:http-origin=https://sportzone.hair/
+https://hls.kangal.icu/hls/moto/index.m3u8
+#EXTINF:-1 group-title="MotoGP" tvg-logo="https://sportzone.hair//images/6830023ad12c7.jpg",Gara 2 vs Silverstone (Regno Unito)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.hair/
+#EXTVLCOPT:http-origin=https://sportzone.hair/
+https://hls.kangal.icu/hls/moto/index.m3u8
 #EXTINF:-1 group-title="FORMULA 1" tvg-logo="https://sportzone.hair//images/683000ace1973.jpg",Prove Libere 3 vs GP Monaco
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://sportzone.hair/
@@ -512,7 +512,7 @@ https://hls.kangal.icu/hls/formula/index.m3u8
 #EXTVLCOPT:http-referrer=https://www.twitch.tv/therealmarzaa
 #EXTVLCOPT:http-origin=https://www.twitch.tv/therealmarzaa
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://use14.playlist.ttvnw.net/v1/playlist/CugEk9wQk0hJ2clVCGP8cvfgnem2kZtvgIHtzJz6uviDuUjZS0MUqdoIXVB54BS6sFpcgRF17xP2pV_mYnER7_rcQevLf4BdKNTqhVrGMrRcZ4OKMoJaxIvYjSKUGFUsI4MNQmQdlScf2-ZSMDSrmbhoAfHExe1LuM23beo7Zx7s5THgD3BOItI_8nG0KfHn2ezzznvU5xfqwW9s_8werwP-LglOQzxNefheUUPvOHgr3Vq-b87HDWsp8VfgTIQAw19t_tpglqY_A6gT6coa7gxqbXgHY_a0Z8eXsZuxEDfs0A8WEEOmrdg2IiHtNz01tZgE361xZ9hgNkoEAXnmFeofBXWlek7InvT8pAwIJ1tYSQQcAg0eA2KU6HtMC-eQCgoLqt96SeggeOSC6sFHuwcbAo6EMPqrW-bml3zYyR3Byn0be110fID-h2CTX0fKqZu_SfRV2H9rKXoA9q2arnupE-8O_JX3E6jEn_UmevF6ssloKCN9OLkT30j5ZczntIHZ_g7AB3_0aonT6G5purZYCJeLODlrMJz_0UzPbAvb7YismPseyZ2FRF9hDGBoM85iBXjggb95gVDIZKlDxLOvmbzU6F8p-TDyygqONI_b70FGjQd6KjF9901plO5pbqnOurZ-1BSe0KXlOCZHfhnDmooAH7bqSun7s5HlYkVKQg7oA4PyeLuQFG6K-NTY5xSSOBCEpw5vRQmCEQrfc9EWdL_JY7cU-ziYhHZM3nBX4UgwlUf1SkKfm6qjS2Icato5Wgab2EhmEMeVvZsIX5925oOcnBwaI7OpyM8tsWzHen0BPkMLxj5-DBoMX9bK4B4-UgYZVy3jIAEqCXVzLWVhc3QtMjCrDA.m3u8
+https://use12-0.playlist.ttvnw.net/v1/playlist/CuoEn8Lim7Zf9bbE1J1rEyTrcoRHwowuOO8QYffqOPbnPsdsJ5crEwuNcj6cc9gH-E9M-lO2ThSXtLxzIAkhP0IGz0vv-clHu94r0GIaYZX1JmorhM3mB_y1sUw7SnJENoxe30XZBjaP6sYK_QfhT0wu5s6LxPcRISVCWaKo0OoroGZspXq5jW5nTMysaZv6F796snQ8OktGVL_JjE4ltBS-ShPAspIqsoAME3X9KDhB3QxXjjKDriaXtLUKpakd_k1eL0DJ5YwGsYeE1hibmsARzaMtxMPsDJQASl6HquLeET35rEXpUDZclc7U_hPpX8fL3io4wj4vgEJAbMEtUBp9lCmuok80CtAJ7m_1VFlEVKg-ZAl6_RNf9pPEt6ewSc7p7cLNJ8kik7tm40E2txTtatdBySjJcCOnXeAPGxhfsu-DVgDfA35n4cCDwAr5AYcrm9Jmj2MdpaFr0Y_6HXPdaU54snojgwqgD-U9sMKtjwqCD8AHsTZxfV5YHSW6MU64a3RP2mzfCcRBry2tCOkbMd3a0_4fVFLbkidKZYUH7-3LinTlj0UqLw4Uo_Fozp_LzBeMayNq7ZzNnbHPooHfH8XZqPdLvQiMdf7S5bbpLQmsBQNsRmfHBDnub_TG4sfSIaO2zGrvXg8jAJV9zL6ZnZ08vht4-0wf9yZcGViJ5Ey-km0W8qGgWRgnqWWbUWX0XKVJH4k8q_5ZMHbAG_HmlM3kTzaQRGcGIhjZZm4ajzjMstK5U9nx5pCTwchtINt0xlBThxWjDUW_BvFUREURQBZaYm9tvYwtrfrEKj_M-m9Tyd_7REKPwRCpGgyQJdb6H2GrWgynI3ggASoJdXMtZWFzdC0yMKsM.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Kings League", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 #EXTINF:-1 tvg-id="skysportuno.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-uno-it.png" group-title="Dazn MPD",Sky Sport UNO
