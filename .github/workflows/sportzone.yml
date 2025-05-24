@@ -42,7 +42,7 @@ jobs:
         env:
           GITHUB_WORKSPACE: ${{ github.workspace }}
         run: |
-          python sportzone.py
+          python SportZone\ Scraper/sportzone.py
 
       # Esegui commit delle modifiche locali, pull --rebase e push
       - name: Commit e push del file M3U8 aggiornato
@@ -52,6 +52,6 @@ jobs:
           git add sportzone.m3u8
           git commit -m "Aggiornamento temporaneo di sportzone.m3u8" || echo "Nessun cambiamento locale da committare"
           git pull --rebase origin main
-          git add sportzone.m3u8
+          git add SportZone\ Scraper/sportzone.m3u8
           git commit -m "Aggiornato file M3U8 con nuovi flussi" || echo "Nessun cambiamento da committare dopo il rebase"
           git push
