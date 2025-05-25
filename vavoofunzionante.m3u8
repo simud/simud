@@ -10,9 +10,9 @@ https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/3481346857/index.m
 #EXTINF:-1 tvg-id="eurosport1.it" tvg-name="Eurosport 1 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/eurosport-1-es.png" group-title="Sky Sport FHD Backup",Eurosport 1 FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/3448075317/index.m3u8
 #EXTINF:-1 tvg-id="eurosport2.it" tvg-name="Eurosport 2 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/eurosport-2-es.png" group-title="Sky Sport FHD Backup",Eurosport 2 FHD
-https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/2317684453/index.m3u8
-#EXTINF:-1 tvg-id="eurosport2.it" tvg-name="Eurosport 2 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/eurosport-2-es.png" group-title="Sky Sport FHD Backup",Eurosport 2 FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/2283887097/index.m3u8
+#EXTINF:-1 tvg-id="eurosport2.it" tvg-name="Eurosport 2 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/eurosport-2-es.png" group-title="Sky Sport FHD Backup",Eurosport 2 FHD
+https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/2317684453/index.m3u8
 #EXTINF:-1 tvg-id="intertv.it" tvg-name="Inter Tv FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/italy/inter-tv-it.png?raw=true" group-title="Sky Sport FHD Backup",Inter Tv FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/2973773076/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Lazio Tv FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/italy/lazio-style-channel-it.png?raw=true" group-title="Sky Sport FHD Backup",Lazio Tv FHD
@@ -30,9 +30,9 @@ https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/2775802255/index.m
 #EXTINF:-1 tvg-id="" tvg-name="Sky Sport 24 [live During Events Only] FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-24-it.png" group-title="Sky Sport FHD Backup",Sky Sport 24 [live During Events Only] FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/3445562519/index.m3u8
 #EXTINF:-1 tvg-id="skysportarena.it" tvg-name="Sky Sport Arena FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-arena-it.png" group-title="Sky Sport FHD Backup",Sky Sport Arena FHD
-https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/2555960713/index.m3u8
-#EXTINF:-1 tvg-id="skysportarena.it" tvg-name="Sky Sport Arena FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-arena-it.png" group-title="Sky Sport FHD Backup",Sky Sport Arena FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/3007400791/index.m3u8
+#EXTINF:-1 tvg-id="skysportarena.it" tvg-name="Sky Sport Arena FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-arena-it.png" group-title="Sky Sport FHD Backup",Sky Sport Arena FHD
+https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/2555960713/index.m3u8
 #EXTINF:-1 tvg-id="skysportcalcio.it" tvg-name="Sky Sport Calcio FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-calcio-it.png" group-title="Sky Sport FHD Backup",Sky Sport Calcio FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/449990998/index.m3u8
 #EXTINF:-1 tvg-id="skysportcalcio.it" tvg-name="Sky Sport Calcio FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-calcio-it.png" group-title="Sky Sport FHD Backup",Sky Sport Calcio FHD
@@ -44,9 +44,9 @@ https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/3093535330/index.m
 #EXTINF:-1 tvg-id="" tvg-name="Sky Sport Football [live During Events Only] FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-football-it.png" group-title="Sky Sport FHD Backup",Sky Sport Football [live During Events Only] FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/1989309231/index.m3u8
 #EXTINF:-1 tvg-id="skysportgolf.it" tvg-name="Sky Sport Golf FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-golf-it.png" group-title="Sky Sport FHD Backup",Sky Sport Golf FHD
-https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/3897711086/index.m3u8
-#EXTINF:-1 tvg-id="skysportgolf.it" tvg-name="Sky Sport Golf FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-golf-it.png" group-title="Sky Sport FHD Backup",Sky Sport Golf FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/729945219/index.m3u8
+#EXTINF:-1 tvg-id="skysportgolf.it" tvg-name="Sky Sport Golf FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-golf-it.png" group-title="Sky Sport FHD Backup",Sky Sport Golf FHD
+https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/3897711086/index.m3u8
 #EXTINF:-1 tvg-id="skysportmax.it" tvg-name="Sky Sport Max FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-max-it.png" group-title="Sky Sport FHD Backup",Sky Sport Max FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/2066326916/index.m3u8
 #EXTINF:-1 tvg-id="skysportmotogp.it" tvg-name="Sky Sport Moto Gp FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-motogp-it.png" group-title="Sky Sport FHD Backup",Sky Sport Moto Gp FHD
@@ -64,9 +64,9 @@ https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/2100771782/index.m
 #EXTINF:-1 tvg-id="skysporttennis.it" tvg-name="Sky Sport Tennis FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-tennis-it.png" group-title="Sky Sport FHD Backup",Sky Sport Tennis FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/78546677/index.m3u8
 #EXTINF:-1 tvg-id="skysportuno.it" tvg-name="Sky Sport Uno FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-uno-it.png" group-title="Sky Sport FHD Backup",Sky Sport Uno FHD
-https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/3192996672/index.m3u8
-#EXTINF:-1 tvg-id="skysportuno.it" tvg-name="Sky Sport Uno FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-uno-it.png" group-title="Sky Sport FHD Backup",Sky Sport Uno FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/210669162/index.m3u8
+#EXTINF:-1 tvg-id="skysportuno.it" tvg-name="Sky Sport Uno FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-uno-it.png" group-title="Sky Sport FHD Backup",Sky Sport Uno FHD
+https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/3192996672/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Sky Sports F1 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-f1-it.png" group-title="Sky Sport FHD Backup",Sky Sports F1 FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/2289038972/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Sky Super Tennis FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-tennis-it.png" group-title="Sky Sport FHD Backup",Sky Super Tennis FHD
@@ -100,27 +100,27 @@ https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/1421393119/index.m
 #EXTINF:-1 tvg-id="skycinemaaction.it" tvg-name="Sky Cinema Action FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-action-it.png" group-title="Sky Cinema FHD Backup",Sky Cinema Action FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/3812796171/index.m3u8
 #EXTINF:-1 tvg-id="skycinemaaction.it" tvg-name="Sky Cinema Action FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-action-it.png" group-title="Sky Cinema FHD Backup",Sky Cinema Action FHD
-https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/2242741766/index.m3u8
-#EXTINF:-1 tvg-id="skycinemaaction.it" tvg-name="Sky Cinema Action FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-action-it.png" group-title="Sky Cinema FHD Backup",Sky Cinema Action FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/1144128726/index.m3u8
+#EXTINF:-1 tvg-id="skycinemaaction.it" tvg-name="Sky Cinema Action FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-action-it.png" group-title="Sky Cinema FHD Backup",Sky Cinema Action FHD
+https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/2242741766/index.m3u8
 #EXTINF:-1 tvg-id="skycinemacollectionhd.it" tvg-name="Sky Cinema Collection FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-collection-it.png" group-title="Sky Cinema FHD Backup",Sky Cinema Collection FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/3525837057/index.m3u8
 #EXTINF:-1 tvg-id="skycinemacomedy.it" tvg-name="Sky Cinema Comedy FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-comedy-it.png" group-title="Sky Cinema FHD Backup",Sky Cinema Comedy FHD
-https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/500203271/index.m3u8
-#EXTINF:-1 tvg-id="skycinemacomedy.it" tvg-name="Sky Cinema Comedy FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-comedy-it.png" group-title="Sky Cinema FHD Backup",Sky Cinema Comedy FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/3131104474/index.m3u8
+#EXTINF:-1 tvg-id="skycinemacomedy.it" tvg-name="Sky Cinema Comedy FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-comedy-it.png" group-title="Sky Cinema FHD Backup",Sky Cinema Comedy FHD
+https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/500203271/index.m3u8
 #EXTINF:-1 tvg-id="skycinemadrama.it" tvg-name="Sky Cinema Drama FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-drama-it.png" group-title="Sky Cinema FHD Backup",Sky Cinema Drama FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/1235530177/index.m3u8
 #EXTINF:-1 tvg-id="skycinemadue.it" tvg-name="Sky Cinema Due FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-due-it.png" group-title="Sky Cinema FHD Backup",Sky Cinema Due FHD
-https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/2330574729/index.m3u8
-#EXTINF:-1 tvg-id="skycinemadue.it" tvg-name="Sky Cinema Due FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-due-it.png" group-title="Sky Cinema FHD Backup",Sky Cinema Due FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/1228534500/index.m3u8
+#EXTINF:-1 tvg-id="skycinemadue.it" tvg-name="Sky Cinema Due FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-due-it.png" group-title="Sky Cinema FHD Backup",Sky Cinema Due FHD
+https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/2330574729/index.m3u8
 #EXTINF:-1 tvg-id="skycinemadue+24.it" tvg-name="Sky Cinema Due +24 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-due-plus24-it.png" group-title="Sky Cinema FHD Backup",Sky Cinema Due +24 FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/1078650168/index.m3u8
 #EXTINF:-1 tvg-id="skycinemafamily.it" tvg-name="Sky Cinema Family FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-family-it.png" group-title="Sky Cinema FHD Backup",Sky Cinema Family FHD
-https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/415795144/index.m3u8
-#EXTINF:-1 tvg-id="skycinemafamily.it" tvg-name="Sky Cinema Family FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-family-it.png" group-title="Sky Cinema FHD Backup",Sky Cinema Family FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/3216516117/index.m3u8
+#EXTINF:-1 tvg-id="skycinemafamily.it" tvg-name="Sky Cinema Family FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-family-it.png" group-title="Sky Cinema FHD Backup",Sky Cinema Family FHD
+https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/415795144/index.m3u8
 #EXTINF:-1 tvg-id="skycinemaromance.it" tvg-name="Sky Cinema Romance FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-romance-it.png" group-title="Sky Cinema FHD Backup",Sky Cinema Romance FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/2890008905/index.m3u8
 #EXTINF:-1 tvg-id="skycinemaromance.it" tvg-name="Sky Cinema Romance FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-romance-it.png" group-title="Sky Cinema FHD Backup",Sky Cinema Romance FHD
@@ -142,9 +142,9 @@ https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/3938501125/index.m
 #EXTINF:-1 tvg-id="babytv.it" tvg-name="Baby Tv FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/baby-tv-es.png?raw=true" group-title="Bambini",Baby Tv FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/2265727942/index.m3u8
 #EXTINF:-1 tvg-id="boing.it" tvg-name="Boing FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/boing-it.png" group-title="Bambini",Boing FHD
-https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/3373510242/index.m3u8
-#EXTINF:-1 tvg-id="boing.it" tvg-name="Boing FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/boing-it.png" group-title="Bambini",Boing FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/3022771961/index.m3u8
+#EXTINF:-1 tvg-id="boing.it" tvg-name="Boing FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/boing-it.png" group-title="Bambini",Boing FHD
+https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/3373510242/index.m3u8
 #EXTINF:-1 tvg-id="boingplus.it" tvg-name="Boing Plus FHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Boing_Plus_logo_2020.svg/1200px-Boing_Plus_logo_2020.svg.png" group-title="Bambini",Boing Plus FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/3841982646/index.m3u8
 #EXTINF:-1 tvg-id="cartoonnetwork.it" tvg-name="Cartoon Network FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/cartoon-network-it.png" group-title="Bambini",Cartoon Network FHD
@@ -152,19 +152,19 @@ https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/1289777017/index.m
 #EXTINF:-1 tvg-id="cartoonnetwork.it" tvg-name="Cartoon Network FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/cartoon-network-it.png" group-title="Bambini",Cartoon Network FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/1744435623/index.m3u8
 #EXTINF:-1 tvg-id="cartoonito.it" tvg-name="Cartoonito FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/cartoonito-it.png" group-title="Bambini",Cartoonito FHD
-https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/1987220436/index.m3u8
-#EXTINF:-1 tvg-id="cartoonito.it" tvg-name="Cartoonito FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/cartoonito-it.png" group-title="Bambini",Cartoonito FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/2178717282/index.m3u8
 #EXTINF:-1 tvg-id="cartoonito.it" tvg-name="Cartoonito FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/cartoonito-it.png" group-title="Bambini",Cartoonito FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/1907000512/index.m3u8
+#EXTINF:-1 tvg-id="cartoonito.it" tvg-name="Cartoonito FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/cartoonito-it.png" group-title="Bambini",Cartoonito FHD
+https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/1987220436/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Discovery K2 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/k2-it.png" group-title="Bambini",Discovery K2 FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/3037871903/index.m3u8
 #EXTINF:-1 tvg-id="frisbee.it" tvg-name="Frisbee FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/frisbee-it.png" group-title="Bambini",Frisbee FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/1995860185/index.m3u8
 #EXTINF:-1 tvg-id="k2.it" tvg-name="K2 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/k2-it.png" group-title="Bambini",K2 FHD
-https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/2255724318/index.m3u8
-#EXTINF:-1 tvg-id="k2.it" tvg-name="K2 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/k2-it.png" group-title="Bambini",K2 FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/11090349/index.m3u8
+#EXTINF:-1 tvg-id="k2.it" tvg-name="K2 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/k2-it.png" group-title="Bambini",K2 FHD
+https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/2255724318/index.m3u8
 #EXTINF:-1 tvg-id="nickjr.it" tvg-name="Nick Jr FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/nick-jr-it.png" group-title="Bambini",Nick Jr FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/380958472/index.m3u8
 #EXTINF:-1 tvg-id="nickelodeon.it" tvg-name="Nickelodeon FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/nickelodeon-it.png" group-title="Bambini",Nickelodeon FHD
@@ -178,15 +178,15 @@ https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/430570853/index.m3
 #EXTINF:-1 tvg-id="" tvg-name="Aurora Arte FHD" tvg-logo="https://www.auroraarte.it/wp-content/uploads/2023/11/AURORA-ARTE-brand.png" group-title="Documentari",Aurora Arte FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/3267376899/index.m3u8
 #EXTINF:-1 tvg-id="discoverychannel.it" tvg-name="Discovery Channel FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/discovery-channel-it.png" group-title="Documentari",Discovery Channel FHD
-https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/1955739367/index.m3u8
-#EXTINF:-1 tvg-id="discoverychannel.it" tvg-name="Discovery Channel FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/discovery-channel-it.png" group-title="Documentari",Discovery Channel FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/3554841914/index.m3u8
+#EXTINF:-1 tvg-id="discoverychannel.it" tvg-name="Discovery Channel FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/discovery-channel-it.png" group-title="Documentari",Discovery Channel FHD
+https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/1955739367/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Discovery Focus FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/focus-it.png" group-title="Documentari",Discovery Focus FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/2113273064/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Discovery Nove FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/nove-it.png" group-title="Documentari",Discovery Nove FHD
-https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/1574591400/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Discovery Nove FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/nove-it.png" group-title="Documentari",Discovery Nove FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/2651461317/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Discovery Nove FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/nove-it.png" group-title="Documentari",Discovery Nove FHD
+https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/1574591400/index.m3u8
 #EXTINF:-1 tvg-id="historyhd.it" tvg-name="History FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/history-channel-it.png" group-title="Documentari",History FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/317837654/index.m3u8
 #EXTINF:-1 tvg-id="historyhd.it" tvg-name="History FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/history-channel-it.png" group-title="Documentari",History FHD
@@ -200,9 +200,9 @@ https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/3428501495/index.m
 #EXTINF:-1 tvg-id="" tvg-name="Nat Geo Wild FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/national-geographic-wild-it.png" group-title="Documentari",Nat Geo Wild FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/3229664409/index.m3u8
 #EXTINF:-1 tvg-id="skyarte.it" tvg-name="Sky Arte FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-arte-it.png" group-title="Documentari",Sky Arte FHD
-https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/1806815496/index.m3u8
-#EXTINF:-1 tvg-id="skyarte.it" tvg-name="Sky Arte FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-arte-it.png" group-title="Documentari",Sky Arte FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/1902695925/index.m3u8
+#EXTINF:-1 tvg-id="skyarte.it" tvg-name="Sky Arte FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-arte-it.png" group-title="Documentari",Sky Arte FHD
+https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/1806815496/index.m3u8
 #EXTINF:-1 tvg-id="skydocumentaries.it" tvg-name="Sky Documentaries FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-documentaries-it.png" group-title="Documentari",Sky Documentaries FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/464281981/index.m3u8
 #EXTINF:-1 tvg-id="skynature.it" tvg-name="Sky Nature FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-nature-it.png" group-title="Documentari",Sky Nature FHD
@@ -214,21 +214,21 @@ https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/1492183364/index.m
 #EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 1 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 1 FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/1944682394/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 2 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 2 FHD
-https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/877200714/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 2 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 2 FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/525374356/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 2 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 2 FHD
+https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/877200714/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 3 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 3 FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/573618724/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 3 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 3 FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/153693434/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 4 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 4 FHD
-https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/2416993844/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 4 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 4 FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/3137990890/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 5 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 5 FHD
-https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/2255083866/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 4 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 4 FHD
+https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/2416993844/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 5 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 5 FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/2909818756/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 5 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 5 FHD
+https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/2255083866/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 6 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 6 FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/3251217290/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 6 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 6 FHD
@@ -246,9 +246,9 @@ https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/1753260677/index.m
 #EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 9 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 9 FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/1134113883/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 10 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 10 FHD
-https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/4272937805/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 10 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 10 FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/2268489342/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 10 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 10 FHD
+https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/4272937805/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 12 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 12 FHD
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/2221901869/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 14 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 14 FHD
@@ -263,11 +263,95 @@ https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/1284441949/index.m
 https://tvproxy.nzo66.com/proxy/m3u?url=https://vavoo.to/play/3470758028/index.m3u8
 #EXTINF:-1 tvg-name="Soccer" group-title="Eventi Sportivi" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-uno-it.png",Soccer
 https://example.m3u8
-#EXTINF:-1 tvg-id="877" tvg-name="Italy - Serie A : Milan Vs Monza (20:45)" tvg-logo="https://raw.githubusercontent.com/realbestia/itatv/main/logos/Milan_vs_Monza.png" group-title="Eventi Sportivi",Italy - Serie A : Milan Vs Monza (20:45)
-https://tvproxy.nzo66.com/proxy/m3u?url=https://daddylive.dad/embed/stream-877.php
+#EXTINF:-1 tvg-id="19" tvg-name="England - Premier League : Liverpool Vs Crystal Palace (17:00)" tvg-logo="https://raw.githubusercontent.com/realbestia/itatv/main/logos/Liverpool_vs_Crystal Palace.png" group-title="Eventi Sportivi",England - Premier League : Liverpool Vs Crystal Palace (17:00)
+https://tvproxy.nzo66.com/proxy/m3u?url=https://daddylive.dad/embed/stream-19.php
+#EXTINF:-1 tvg-id="22" tvg-name="England - Premier League : Nottingham Forest Vs Chelsea (17:00)" tvg-logo="https://raw.githubusercontent.com/realbestia/itatv/main/logos/Nottingham Forest_vs_Chelsea.png" group-title="Eventi Sportivi",England - Premier League : Nottingham Forest Vs Chelsea (17:00)
+https://tvproxy.nzo66.com/proxy/m3u?url=https://daddylive.dad/embed/stream-22.php
+#EXTINF:-1 tvg-id="169" tvg-name="Italy - Serie B : Cremonese Vs Juve Stabia (17:15)" tvg-logo="https://raw.githubusercontent.com/realbestia/itatv/main/logos/Cremonese_vs_Juve Stabia.png" group-title="Eventi Sportivi",Italy - Serie B : Cremonese Vs Juve Stabia (17:15)
+https://tvproxy.nzo66.com/proxy/m3u?url=https://daddylive.dad/embed/stream-169.php
+#EXTINF:-1 tvg-id="55" tvg-name="Italy - Serie B : Spezia Vs Catanzaro (19:30)" tvg-logo="https://raw.githubusercontent.com/realbestia/itatv/main/logos/Spezia_vs_Catanzaro.png" group-title="Eventi Sportivi",Italy - Serie B : Spezia Vs Catanzaro (19:30)
+https://tvproxy.nzo66.com/proxy/m3u?url=https://daddylive.dad/embed/stream-55.php
+#EXTINF:-1 tvg-id="77" tvg-name="Italian Serie C Divisional Play-offs : Audace Cerignola Vs Pescara (20:00)" tvg-logo="https://www.tuttocampo.it/Web/Images/Teams/Original/720350.png?v9" group-title="Eventi Sportivi",Italian Serie C Divisional Play-offs : Audace Cerignola Vs Pescara (20:00)
+https://tvproxy.nzo66.com/proxy/m3u?url=https://daddylive.dad/embed/stream-77.php
+#EXTINF:-1 tvg-id="86" tvg-name="Italian Serie C Divisional Play-offs : Vicenza V Ternana (20:00)" tvg-logo="https://sortitoutsi.b-cdn.net/uploads/comp/43127174.png" group-title="Eventi Sportivi",Italian Serie C Divisional Play-offs : Vicenza V Ternana (20:00)
+https://tvproxy.nzo66.com/proxy/m3u?url=https://daddylive.dad/embed/stream-86.php
+#EXTINF:-1 tvg-id="59" tvg-name="Italy - Serie A : Atalanta Vs Parma (20:45)" tvg-logo="https://raw.githubusercontent.com/realbestia/itatv/main/logos/Atalanta_vs_Parma.png" group-title="Eventi Sportivi",Italy - Serie A : Atalanta Vs Parma (20:45)
+https://tvproxy.nzo66.com/proxy/m3u?url=https://daddylive.dad/embed/stream-59.php
+#EXTINF:-1 tvg-id="22" tvg-name="Italy - Serie A : Empoli Vs Hellas Verona (20:45)" tvg-logo="https://raw.githubusercontent.com/realbestia/itatv/main/logos/Empoli_vs_Hellas Verona.png" group-title="Eventi Sportivi",Italy - Serie A : Empoli Vs Hellas Verona (20:45)
+https://tvproxy.nzo66.com/proxy/m3u?url=https://daddylive.dad/embed/stream-22.php
+#EXTINF:-1 tvg-id="19" tvg-name="Italy - Serie A : Lazio Vs Lecce (20:45)" tvg-logo="https://raw.githubusercontent.com/realbestia/itatv/main/logos/Lazio_vs_Lecce.png" group-title="Eventi Sportivi",Italy - Serie A : Lazio Vs Lecce (20:45)
+https://tvproxy.nzo66.com/proxy/m3u?url=https://daddylive.dad/embed/stream-19.php
+#EXTINF:-1 tvg-id="108" tvg-name="Italy - Serie A : Torino Vs Roma (20:45)" tvg-logo="https://raw.githubusercontent.com/realbestia/itatv/main/logos/Torino_vs_Roma.png" group-title="Eventi Sportivi",Italy - Serie A : Torino Vs Roma (20:45)
+https://tvproxy.nzo66.com/proxy/m3u?url=https://daddylive.dad/embed/stream-108.php
+#EXTINF:-1 tvg-id="68" tvg-name="Italy - Serie A : Udinese Vs Fiorentina (20:45)" tvg-logo="https://raw.githubusercontent.com/realbestia/itatv/main/logos/Udinese_vs_Fiorentina.png" group-title="Eventi Sportivi",Italy - Serie A : Udinese Vs Fiorentina (20:45)
+https://tvproxy.nzo66.com/proxy/m3u?url=https://daddylive.dad/embed/stream-68.php
+#EXTINF:-1 tvg-id="8" tvg-name="Italy - Serie A : Venezia Vs Juventus (20:45)" tvg-logo="https://i.imgur.com/DLWjqV2.png" group-title="Eventi Sportivi",Italy - Serie A : Venezia Vs Juventus (20:45)
+https://tvproxy.nzo66.com/proxy/m3u?url=https://daddylive.dad/embed/stream-8.php
+#EXTINF:-1 tvg-id="461" tvg-name="Italy - Serie A : Venezia Vs Juventus (20:45)" tvg-logo="https://images.seeklogo.com/logo-png/57/3/venezia-fc-logo-png_seeklogo-571234.png?v=1957817653180670544" group-title="Eventi Sportivi",Italy - Serie A : Venezia Vs Juventus (20:45)
+https://tvproxy.nzo66.com/proxy/m3u?url=https://daddylive.dad/embed/stream-461.php
+#EXTINF:-1 tvg-name="Tennis" group-title="Eventi Sportivi" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-uno-it.png",Tennis
+https://example.m3u8
+#EXTINF:-1 tvg-id="879" tvg-name="Roland-garros Tennis Men's And Women's Singles | Round 1 | Day 1 (11:00)" tvg-logo="http://www.bing.com/sa/simg/facebook_sharing_5.png" group-title="Eventi Sportivi",Roland-garros Tennis Men's And Women's Singles | Round 1 | Day 1 (11:00)
+https://tvproxy.nzo66.com/proxy/m3u?url=https://daddylive.dad/embed/stream-879.php
+#EXTINF:-1 tvg-name="Motorsport" group-title="Eventi Sportivi" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-uno-it.png",Motorsport
+https://example.m3u8
+#EXTINF:-1 tvg-id="577" tvg-name="Formula 3 : Tag Heuer Monaco Grand Prix Race (08:00)" tvg-logo="https://images.seeklogo.com/logo-png/5/2/formula-3-euro-series-logo-png_seeklogo-56757.png" group-title="Eventi Sportivi",Formula 3 : Tag Heuer Monaco Grand Prix Race (08:00)
+https://tvproxy.nzo66.com/proxy/m3u?url=https://daddylive.dad/embed/stream-577.php
+#EXTINF:-1 tvg-id="577" tvg-name="Formula 2 : Tag Heuer Monaco Grand Prix Feature Race (09:40)" tvg-logo="https://www.thesportsdb.com/images/media/league/badge/3iwfjg1536242234.png" group-title="Eventi Sportivi",Formula 2 : Tag Heuer Monaco Grand Prix Feature Race (09:40)
+https://tvproxy.nzo66.com/proxy/m3u?url=https://daddylive.dad/embed/stream-577.php
+#EXTINF:-1 tvg-id="575" tvg-name="Motogp | Round 7 | Great Britain Warm Up (10:30)" tvg-logo="https://www.pngarts.com/files/9/MotoGP-Racing-Bike-PNG-Background-Image.png" group-title="Eventi Sportivi",Motogp | Round 7 | Great Britain Warm Up (10:30)
+https://tvproxy.nzo66.com/proxy/m3u?url=https://daddylive.dad/embed/stream-575.php
+#EXTINF:-1 tvg-id="575" tvg-name="Moto2 | Round 7 | Great Britain Race (11:00)" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixlEc3yNhAqVUG90nx-GnON0rFRTgmSECv2n8rGOJIkKtWbLKhVv5tEoOXj8LGjrR9WHteoFJHYdPy7VY-0zUNbk6LvXMxNzGPAH_hh6CJQ9mt3pq1hHpdTdiIeeVmKgAtzUrn0kPKR-I/s0/Moto2.png" group-title="Eventi Sportivi",Moto2 | Round 7 | Great Britain Race (11:00)
+https://tvproxy.nzo66.com/proxy/m3u?url=https://daddylive.dad/embed/stream-575.php
+#EXTINF:-1 tvg-id="575" tvg-name="Motogp | Round 7 | Great Britain Race (13:15)" tvg-logo="https://www.pngarts.com/files/9/MotoGP-Racing-Bike-PNG-Background-Image.png" group-title="Eventi Sportivi",Motogp | Round 7 | Great Britain Race (13:15)
+https://tvproxy.nzo66.com/proxy/m3u?url=https://daddylive.dad/embed/stream-575.php
+#EXTINF:-1 tvg-id="879" tvg-name="France | Mxgp | World Championship Race 1 (14:00)" tvg-logo="http://fc01.deviantart.net/fs71/f/2014/080/d/3/mxgp___the_official_motocross_videogame_by_pooterman-d7b25ld.png" group-title="Eventi Sportivi",France | Mxgp | World Championship Race 1 (14:00)
+https://tvproxy.nzo66.com/proxy/m3u?url=https://daddylive.dad/embed/stream-879.php
+#EXTINF:-1 tvg-id="577" tvg-name="Formula 1 : Tag Heuer Monaco Grand Prix - Grand Prix Sunday (14:00)" tvg-logo="https://logospng.org/download/formula-1/formula-1-4096.png" group-title="Eventi Sportivi",Formula 1 : Tag Heuer Monaco Grand Prix - Grand Prix Sunday (14:00)
+https://tvproxy.nzo66.com/proxy/m3u?url=https://daddylive.dad/embed/stream-577.php
+#EXTINF:-1 tvg-id="577" tvg-name="Formula 1 : Tag Heuer Monaco Grand Prix - Grand Prix - Race (15:00)" tvg-logo="https://logospng.org/download/formula-1/formula-1-4096.png" group-title="Eventi Sportivi",Formula 1 : Tag Heuer Monaco Grand Prix - Grand Prix - Race (15:00)
+https://tvproxy.nzo66.com/proxy/m3u?url=https://daddylive.dad/embed/stream-577.php
+#EXTINF:-1 tvg-id="575" tvg-name="Moto3 | Round 7 | Great Britain Race (15:15)" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAGSHlm3CAxV7f-kkxUmigIISN1FuFYPcrN7yJl7hztlDd34Opm2_Ao2QhD8Hp3dAwW_3wudRuHLUqhnowlqO4PCgjdFIPLsO16UzIF0RDzPsXCHHp1icCt_sED0ibcSDatya4BkFwsPoWtEOQGAoViICeHBN0x_uLsMVwvpFKN_Rj1ILo5FtQFgkIhq0/s600/Moto3_logo.png" group-title="Eventi Sportivi",Moto3 | Round 7 | Great Britain Race (15:15)
+https://tvproxy.nzo66.com/proxy/m3u?url=https://daddylive.dad/embed/stream-575.php
+#EXTINF:-1 tvg-id="879" tvg-name="World Championship France | Mx2 | Race 2 (16:00)" tvg-logo="https://www.ieiworld.com.cn/_attach_file/product/photo/658_1565246260_Mustang-MPCIE-MX2-VPU-accelerator-600.png" group-title="Eventi Sportivi",World Championship France | Mx2 | Race 2 (16:00)
+https://tvproxy.nzo66.com/proxy/m3u?url=https://daddylive.dad/embed/stream-879.php
+#EXTINF:-1 tvg-id="879" tvg-name="France | Mxgp | World Championship Race 2 (17:00)" tvg-logo="https://static.vecteezy.com/system/resources/previews/022/110/404/large_2x/france-flag-icon-free-png.png" group-title="Eventi Sportivi",France | Mxgp | World Championship Race 2 (17:00)
+https://tvproxy.nzo66.com/proxy/m3u?url=https://daddylive.dad/embed/stream-879.php
+#EXTINF:-1 tvg-name="Athletics" group-title="Eventi Sportivi" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-uno-it.png",Athletics
+https://example.m3u8
+#EXTINF:-1 tvg-id="882" tvg-name="Diamond League (t2025): Rabat (20:00)" tvg-logo="https://images.seeklogo.com/logo-png/49/2/diamond-league-logo-png_seeklogo-490221.png" group-title="Eventi Sportivi",Diamond League (t2025): Rabat (20:00)
+https://tvproxy.nzo66.com/proxy/m3u?url=https://daddylive.dad/embed/stream-882.php
+#EXTINF:-1 tvg-id="462" tvg-name="Diamond League (t2025): Rabat (20:00)" tvg-logo="https://images.seeklogo.com/logo-png/49/2/diamond-league-logo-png_seeklogo-490221.png" group-title="Eventi Sportivi",Diamond League (t2025): Rabat (20:00)
+https://tvproxy.nzo66.com/proxy/m3u?url=https://daddylive.dad/embed/stream-462.php
 #EXTINF:-1 tvg-name="Basketball" group-title="Eventi Sportivi" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-uno-it.png",Basketball
 https://example.m3u8
-#EXTINF:-1 tvg-id="879" tvg-name="Italy Lega A : Btrieste Vs Brescia (20:40)" tvg-logo="https://raw.githubusercontent.com/realbestia/itatv/main/logos/BTrieste_vs_Brescia.png" group-title="Eventi Sportivi",Italy Lega A : Btrieste Vs Brescia (20:40)
+#EXTINF:-1 tvg-id="879" tvg-name="Basket : Serie A Playoffs | Quarterfinals | Game 4 (17:55)" tvg-logo="https://png.pngtree.com/png-clipart/20230527/original/pngtree-basketball-logo-png-image_9171255.png" group-title="Eventi Sportivi",Basket : Serie A Playoffs | Quarterfinals | Game 4 (17:55)
 https://tvproxy.nzo66.com/proxy/m3u?url=https://daddylive.dad/embed/stream-879.php
+#EXTINF:-1 tvg-id="882" tvg-name="Italy Serie A2 Gold : Rinascita Basket Rimini Vs. Pallacanestro 2.015 Forli (18:00)" tvg-logo="https://www.rinascitabasketrimini.it/source/logo_mobi.png" group-title="Eventi Sportivi",Italy Serie A2 Gold : Rinascita Basket Rimini Vs. Pallacanestro 2.015 Forli (18:00)
+https://tvproxy.nzo66.com/proxy/m3u?url=https://daddylive.dad/embed/stream-882.php
+#EXTINF:-1 tvg-id="879" tvg-name="Basket : Serie A Playoffs | Quarterfinals | Game 4 (20:40)" tvg-logo="https://png.pngtree.com/png-clipart/20230527/original/pngtree-basketball-logo-png-image_9171255.png" group-title="Eventi Sportivi",Basket : Serie A Playoffs | Quarterfinals | Game 4 (20:40)
+https://tvproxy.nzo66.com/proxy/m3u?url=https://daddylive.dad/embed/stream-879.php
+#EXTINF:-1 tvg-name="Climbing" group-title="Eventi Sportivi" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-uno-it.png",Climbing
+https://example.m3u8
+#EXTINF:-1 tvg-id="878" tvg-name="World Cup | Men Salt Lake City | Bouldering | Final (01:00)" tvg-logo="https://png.pngtree.com/png-clipart/20221224/original/pngtree-world-cup-trophy-png-image_8804429.png" group-title="Eventi Sportivi",World Cup | Men Salt Lake City | Bouldering | Final (01:00)
+https://tvproxy.nzo66.com/proxy/m3u?url=https://daddylive.dad/embed/stream-878.php
+#EXTINF:-1 tvg-name="Cycling" group-title="Eventi Sportivi" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-uno-it.png",Cycling
+https://example.m3u8
+#EXTINF:-1 tvg-id="851" tvg-name="Giro D'italia | Stage 15 | Multi-screen Men | Fiume Veneto – Asiago (214km) (11:20)" tvg-logo="https://dgalywyr863hv.cloudfront.net/challenges/4d951c9d-aa81-43ea-aaf4-4b86588668b9.png" group-title="Eventi Sportivi",Giro D'italia | Stage 15 | Multi-screen Men | Fiume Veneto – Asiago (214km) (11:20)
+https://tvproxy.nzo66.com/proxy/m3u?url=https://daddylive.dad/embed/stream-851.php
+#EXTINF:-1 tvg-id="878" tvg-name="Giro D'italia | Stage 15 | Multi-screen Men | Fiume Veneto – Asiago (214km) (11:20)" tvg-logo="https://dgalywyr863hv.cloudfront.net/challenges/4d951c9d-aa81-43ea-aaf4-4b86588668b9.png" group-title="Eventi Sportivi",Giro D'italia | Stage 15 | Multi-screen Men | Fiume Veneto – Asiago (214km) (11:20)
+https://tvproxy.nzo66.com/proxy/m3u?url=https://daddylive.dad/embed/stream-878.php
+#EXTINF:-1 tvg-id="851" tvg-name="Giro De Italia | Etapa 15 Masculino | Fiume Veneto > Asiago (219 Km) (15:00)" tvg-logo="https://seeklogo.com/images/G/giro-de-italia-logo-5D385FA68B-seeklogo.com.png" group-title="Eventi Sportivi",Giro De Italia | Etapa 15 Masculino | Fiume Veneto > Asiago (219 Km) (15:00)
+https://tvproxy.nzo66.com/proxy/m3u?url=https://daddylive.dad/embed/stream-851.php
+#EXTINF:-1 tvg-id="878" tvg-name="Giro De Italia | Etapa 15 Masculino | Fiume Veneto > Asiago (219 Km) (15:00)" tvg-logo="https://seeklogo.com/images/G/giro-de-italia-logo-5D385FA68B-seeklogo.com.png" group-title="Eventi Sportivi",Giro De Italia | Etapa 15 Masculino | Fiume Veneto > Asiago (219 Km) (15:00)
+https://tvproxy.nzo66.com/proxy/m3u?url=https://daddylive.dad/embed/stream-878.php
+#EXTINF:-1 tvg-name="Equestrian" group-title="Eventi Sportivi" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-uno-it.png",Equestrian
+https://example.m3u8
+#EXTINF:-1 tvg-id="882" tvg-name="Piazza Di Siena 2025-six Barriers Award (09:45)" tvg-logo="https://www.sienasalute.it/sito1/wp-content/uploads/2019/09/oxford-600x600.png" group-title="Eventi Sportivi",Piazza Di Siena 2025-six Barriers Award (09:45)
+https://tvproxy.nzo66.com/proxy/m3u?url=https://daddylive.dad/embed/stream-882.php
+#EXTINF:-1 tvg-id="882" tvg-name="Piazza Di Siena 2025-grand Prix Rome (14:00)" tvg-logo="https://www.pngall.com/wp-content/uploads/10/Grand-Prix-Logo-PNG-Pic.png" group-title="Eventi Sportivi",Piazza Di Siena 2025-grand Prix Rome (14:00)
+https://tvproxy.nzo66.com/proxy/m3u?url=https://daddylive.dad/embed/stream-882.php
+#EXTINF:-1 tvg-id="851" tvg-name="Piazza Di Siena 2025-grand Prix Rome (19:00)" tvg-logo="https://www.pngall.com/wp-content/uploads/10/Grand-Prix-Logo-PNG-Pic.png" group-title="Eventi Sportivi",Piazza Di Siena 2025-grand Prix Rome (19:00)
+https://tvproxy.nzo66.com/proxy/m3u?url=https://daddylive.dad/embed/stream-851.php
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Eventi Sportivi",ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
