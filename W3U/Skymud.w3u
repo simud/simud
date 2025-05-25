@@ -1,21 +1,21 @@
 {
   "name": "Skymud",
   "author": "Simud",
-  "image": "https://www.ragucommunication.com/site/assets/files/1672/logo_1280.1280x0p50x50.gif",
+  "image": "https://media0.giphy.com/media/Q2uk5XNnlATqumoDF7/200w.gif?cid=6c09b9527ye9agpzw5eroab1islf6rfc1kiweuec63nhb1jc&ep=v1_stickers_search&rid=200w.gif&ct=s",
   "info": "Skymud si sta evolvendo ",
   "url": "https://raw.githubusercontent.com/simud/simud/refs/heads/main/W3U/Skymud.w3u",
   "groups": [
     {
       "name": "Eventi Sportivi",
       "author": "Simud",
-      "image": "https://www.ragucommunication.com/site/assets/files/1672/logo_1280.1280x0p50x50.gif",
+      "image": "https://media0.giphy.com/media/Q2uk5XNnlATqumoDF7/200w.gif?cid=6c09b9527ye9agpzw5eroab1islf6rfc1kiweuec63nhb1jc&ep=v1_stickers_search&rid=200w.gif&ct=s",
       "url": "https://raw.githubusercontent.com/simud/simud/refs/heads/main/W3U/Events.w3u",
       "import": true
     },
     {
       "name": "Canali Live",
       "author": "Simud",
-      "image": "https://www.ragucommunication.com/site/assets/files/1672/logo_1280.1280x0p50x50.gif",
+      "image": "https://media0.giphy.com/media/Q2uk5XNnlATqumoDF7/200w.gif?cid=6c09b9527ye9agpzw5eroab1islf6rfc1kiweuec63nhb1jc&ep=v1_stickers_search&rid=200w.gif&ct=s",
       "url": "https://raw.githubusercontent.com/simud/simud/refs/heads/main/W3U/LiveTV.w3u",
       "import": true
     }
