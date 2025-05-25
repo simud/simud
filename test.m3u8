@@ -1,103 +1,101 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",23:00 Napoli Campione D'Italia 
-https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd?ck=ODI3MmJmNmJhNDZmMjNmOWRhNTI3MDA1N2I2ZTAyOGE6NzRhZTcwZGQxMGI0YmIzOGVkNmZmZTg0M2YzZTJjY2Q=
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",23:00 Napoli Campione D'Italia 
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.dazn.com
-https://dcg-fs-live-dazn-cdn.dazn.com/1s4zvqicct9dq18aau25ygwgaz/web/stream.mpd?channel=1352&outlet=dazn-italy&plang=it&ck=eyJjZmI1ZTJiNzNiZWY0ZjNjODc4ZjI1YWI4NmE3NDUxZiI6IjBkNjcxMmJmMmE4NGVkY2M5M2QwMDFhOTYxM2Y2ZmVjIn0%3D
-#EXTINF:-1 tvg-id="skysport24.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-24-it.png" group-title="CALCIO",23:00 Napoli Campione D'Italia 
-https://linear303-it-dash1-prd.selector.skycdn.it/016a/31035/FHD/skysport24/master_stereo.mpd?&ck=MDAzNjYzZGRmMWFjYjI1ZWE4OGE3Y2Y5NzNhZmMwZDU6MzVlYTkxYjQxNTFkNjk3NTAwNzk5OGMzMjhkYWVlNmM=
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",18:00 Bologna - Genoa 
-https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd?ck=ODI3MmJmNmJhNDZmMjNmOWRhNTI3MDA1N2I2ZTAyOGE6NzRhZTcwZGQxMGI0YmIzOGVkNmZmZTg0M2YzZTJjY2Q=
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",20:45 Milan - Monza 
-https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd?ck=ODI3MmJmNmJhNDZmMjNmOWRhNTI3MDA1N2I2ZTAyOGE6NzRhZTcwZGQxMGI0YmIzOGVkNmZmZTg0M2YzZTJjY2Q=
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",16:15 Real Madrid - Real Sociedad 
-https://ottb.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/k0duzgfejg/out/v1/70a50b1bda944628b8e7e66ab4069419/cenc.mpd?ck=Yjc3MGQ1YjRiYjZiNTk0ZGFmOTg1ODQ1YWFlOWFhNWY6YjBjYjQ2ZDJkMzFjZjA0NGJjNzNkYjcxZTk4NjVmNmYsNjIwZTUxYjgyNTk2NDc1NTE3YTI3YWE0MjVjNTIyODA6MmI5YmE4MTFlOWM1YWVhZmM4YWUxYjcxY2RjYTRkNmE=
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",18:30 Multigol 
-https://ottb.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/k0duzgfejg/out/v1/70a50b1bda944628b8e7e66ab4069419/cenc.mpd?ck=Yjc3MGQ1YjRiYjZiNTk0ZGFmOTg1ODQ1YWFlOWFhNWY6YjBjYjQ2ZDJkMzFjZjA0NGJjNzNkYjcxZTk4NjVmNmYsNjIwZTUxYjgyNTk2NDc1NTE3YTI3YWE0MjVjNTIyODA6MmI5YmE4MTFlOWM1YWVhZmM4YWUxYjcxY2RjYTRkNmE=
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",21:00 Multigol 
-https://ottb.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/k0duzgfejg/out/v1/70a50b1bda944628b8e7e66ab4069419/cenc.mpd?ck=Yjc3MGQ1YjRiYjZiNTk0ZGFmOTg1ODQ1YWFlOWFhNWY6YjBjYjQ2ZDJkMzFjZjA0NGJjNzNkYjcxZTk4NjVmNmYsNjIwZTUxYjgyNTk2NDc1NTE3YTI3YWE0MjVjNTIyODA6MmI5YmE4MTFlOWM1YWVhZmM4YWUxYjcxY2RjYTRkNmE=
-#EXTINF:-1 tvg-id="skysportcalcio.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-calcio-it.png" group-title="CALCIO",20:00 Arminia Bielefeld - Stuttgart 
-https://linear302-it-dash1-prd.selector.skycdn.it/016a/31209/FHD/skysportseriea/master_stereo.mpd?ck=MDAzNjJmOTVkYjYxZWJhMGU2ZjE0YWNlZTNmNzFlMDE6ZmI3NGNkODRiNTNjNzU1N2UxODQyNGEzMzU2YzQ2NjU=
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",20:00 Arminia Bielefeld - Stuttgart 
-https://fl-009.live.p7s1video.net/45371d5a/t_009/zdf-de-hd/cenc-default.mpd?ck=N2ZjMzUyZmE1NDY4M2FjY2YyMGIxMmY2NzkwMjc2NjE6OTkzNDAwYzRiNWFkODUxYzhkNjM2ODQxN2Q2YTNiNGM=
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",21:00 PSG - Reims 
-https://viamotionhsi.netplus.ch/live/eds/france2hd/browser-dash/france2hd.mpd
-#EXTINF:-1 tvg-id="tntsports1.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/TNT_Sports_Logo_2023.svg/800px-TNT_Sports_Logo_2023.svg.png" group-title="CALCIO",18:00 Arsenal - Barcelona 
-https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/wf8usag51e/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd?ck=Yjc3MGQ1YjRiYjZiNTk0ZGFmOTg1ODQ1YWFlOWFhNWY6YjBjYjQ2ZDJkMzFjZjA0NGJjNzNkYjcxZTk4NjVmNmYsYWUyNjg0NWJkMzMwMzhhOWMwNzc0YTA5ODEwMDcyOTQ6NjNhYzY2MmRkZTMxMGNmYjRjYzZmOWI0M2IzNDE5NmQ=
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",18:00 Arsenal - Barcelona 
-https://tvup01.edge.milloh-cs.com/tv3esp/tv3esp.mpd?ck=MzI1ZGFmOWFlMzZkNTUwZGExYTQyYzY0NWRjMTEwZGQ6MDg1YTVhMWI1NTk1Zjc0OTJkODA0ZGFiMmM0MDYyODcsNDdlM2Q3NjllY2M2NTAwOWIzMTI2MDU3OWEyZjMzNjI6MDU3N2IzMTM5OGM0NTcyNzBiYTlhOGFmMjE2YzdiMGMsMDA0NGRhNzI2NmRhNTQ3NGE3ZGRjNjNiODE3ZWMzYWY6MDEyZWJjOWQ1NDk5MDM4NTgzYjUxMTQ1OTE1MTQzNWU=
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",18:00 Arsenal - Barcelona 
-https://tvup01.edge.milloh-cs.com/la1-neutra/la1-neutra.mpd?ck=YmQwZmMzNDFkNDRiNWNjZGFhMmQwM2YwYmVkYjVkZGI6OTcyNGYwOWVhZDUxMGRlODI5MDhkOWI0NGMyZDg1MDQsMjVjMzI2M2YyNTJkNTRkZWFkMmFjZTMzMWI5YzcyYzk6MjdiMWUwYzNmNWQzMzk4ZDIyODMyMTliYjE5OTRmNDgsYzA5MjBlN2NlN2Y0NTNkOGFkMDAxZTY4Y2ViMDY0NWQ6MTU4MGQ2NjNiYzA2MjgzMzdmNTk3ZmUxMzU2NDNiNTE=
-#EXTINF:-1 tvg-id="skysportnba.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-nba-it.png" group-title="BASKET",02:30 Minnesota Timberwolves v Oklahoma City Thunder (G.3 Finale W.C.) 
-https://linear308-it-dash1-prd.selector.skycdn.it/016a/31764/FHD/skysportnba/master_stereo.mpd?ck=MDAzNjRlYWMyZmZlZTMzNzY0MGUzOTY4MjQzOWI1NDA6MDk2MDE3MmQ5MDAwYzQ3MGFkZTA2NThiZDM2YzFkNTM=
-#EXTINF:-1 tvg-id="skysportnba.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-nba-it.png" group-title="BASKET",02:00 Indiana Pacers v New York Knicks (G.3 Finale E.C.) 
-https://linear308-it-dash1-prd.selector.skycdn.it/016a/31764/FHD/skysportnba/master_stereo.mpd?ck=MDAzNjRlYWMyZmZlZTMzNzY0MGUzOTY4MjQzOWI1NDA6MDk2MDE3MmQ5MDAwYzQ3MGFkZTA2NThiZDM2YzFkNTM=
-#EXTINF:-1 tvg-id="skysportnba.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-nba-it.png" group-title="BASKET",02:30 Minnesota Timberwolves v Oklahoma City Thunder (G.4 Finale W.C.) 
-https://linear308-it-dash1-prd.selector.skycdn.it/016a/31764/FHD/skysportnba/master_stereo.mpd?ck=MDAzNjRlYWMyZmZlZTMzNzY0MGUzOTY4MjQzOWI1NDA6MDk2MDE3MmQ5MDAwYzQ3MGFkZTA2NThiZDM2YzFkNTM=
-#EXTINF:-1 tvg-id="skysportnba.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-nba-it.png" group-title="BASKET",02:00 Indiana Pacers v New York Knicks (G.4 Finale E.C.) 
-https://linear308-it-dash1-prd.selector.skycdn.it/016a/31764/FHD/skysportnba/master_stereo.mpd?ck=MDAzNjRlYWMyZmZlZTMzNzY0MGUzOTY4MjQzOWI1NDA6MDk2MDE3MmQ5MDAwYzQ3MGFkZTA2NThiZDM2YzFkNTM=
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="BASKET",18:00 Dolomiti Energia Trentino - EA7 Olimpia Milano (Gara 4) 
-https://amg16146-wbdi-amg16146c8-samsung-it-1841.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-dmax-samsungit/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="BASKET",20:45 Germani Brescia - Pallacanestro Trieste (Gara 4) 
-https://amg16146-wbdi-amg16146c8-samsung-it-1841.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-dmax-samsungit/playlist.m3u8
-#EXTINF:-1 tvg-id="skysportuno.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-uno-it.png" group-title="BASKET",19:00 Fenerbahce v Monaco 
-https://linear301-it-dash1-prd.selector.skycdn.it/016a/31023/FHD/skysportuno/master_stereo.mpd?&ck=MDAzNmFhYTFkNjhjNmI0ODdlMjlhNWNiMDgwYThhMjg6YTNlOGRiM2ZmM2M4NzZmN2I0M2E5NjFiNjRhNjM0NzQ=
-#EXTINF:-1 tvg-id="skysportmotogp.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-motogp-it.png" group-title="MOTOMONDIALE",10:40 Moto3 - Libere 2 
-https://linear306-it-dash1-prd.selector.skycdn.it/016a/31483/FHD/skysportmotogp/master_stereo.mpd?&ck=MDAzNjJlOTE4MWVhYTBjNWY5MTc2MWFkZTM1MTVlYjg6NTJjZjNjMjc4ODVkNThhZDc2YWFmMzZkNDIxN2E5ODQ=
-#EXTINF:-1 tvg-id="skysportmotogp.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-motogp-it.png" group-title="MOTOMONDIALE",11:25 Moto2 - Libere 2 
-https://linear306-it-dash1-prd.selector.skycdn.it/016a/31483/FHD/skysportmotogp/master_stereo.mpd?&ck=MDAzNjJlOTE4MWVhYTBjNWY5MTc2MWFkZTM1MTVlYjg6NTJjZjNjMjc4ODVkNThhZDc2YWFmMzZkNDIxN2E5ODQ=
-#EXTINF:-1 tvg-id="skysportmotogp.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-motogp-it.png" group-title="MOTOMONDIALE",12:10 MotoGP - Libere 2 
-https://linear306-it-dash1-prd.selector.skycdn.it/016a/31483/FHD/skysportmotogp/master_stereo.mpd?&ck=MDAzNjJlOTE4MWVhYTBjNWY5MTc2MWFkZTM1MTVlYjg6NTJjZjNjMjc4ODVkNThhZDc2YWFmMzZkNDIxN2E5ODQ=
-#EXTINF:-1 tvg-id="skysportmotogp.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-motogp-it.png" group-title="MOTOMONDIALE",12:50 MotoGP - Qualifiche (Q1-Q2) 
-https://linear306-it-dash1-prd.selector.skycdn.it/016a/31483/FHD/skysportmotogp/master_stereo.mpd?&ck=MDAzNjJlOTE4MWVhYTBjNWY5MTc2MWFkZTM1MTVlYjg6NTJjZjNjMjc4ODVkNThhZDc2YWFmMzZkNDIxN2E5ODQ=
-#EXTINF:-1 tvg-id="skysportmotogp.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-motogp-it.png" group-title="MOTOMONDIALE",14:50 Moto3 - Qualifiche (Q1-Q2) 
-https://linear306-it-dash1-prd.selector.skycdn.it/016a/31483/FHD/skysportmotogp/master_stereo.mpd?&ck=MDAzNjJlOTE4MWVhYTBjNWY5MTc2MWFkZTM1MTVlYjg6NTJjZjNjMjc4ODVkNThhZDc2YWFmMzZkNDIxN2E5ODQ=
-#EXTINF:-1 tvg-id="skysportmotogp.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-motogp-it.png" group-title="MOTOMONDIALE",15:45 Moto2 - Qualifiche (Q1-Q2) 
-https://linear306-it-dash1-prd.selector.skycdn.it/016a/31483/FHD/skysportmotogp/master_stereo.mpd?&ck=MDAzNjJlOTE4MWVhYTBjNWY5MTc2MWFkZTM1MTVlYjg6NTJjZjNjMjc4ODVkNThhZDc2YWFmMzZkNDIxN2E5ODQ=
-#EXTINF:-1 tvg-id="skysportmotogp.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-motogp-it.png" group-title="MOTOMONDIALE",17:00 MotoGP - Sprint Race 
-https://linear306-it-dash1-prd.selector.skycdn.it/016a/31483/FHD/skysportmotogp/master_stereo.mpd?&ck=MDAzNjJlOTE4MWVhYTBjNWY5MTc2MWFkZTM1MTVlYjg6NTJjZjNjMjc4ODVkNThhZDc2YWFmMzZkNDIxN2E5ODQ=
-#EXTINF:-1 tvg-id="skysportmotogp.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-motogp-it.png" group-title="MOTOMONDIALE",12:15 Moto2 - Gara 
-https://linear306-it-dash1-prd.selector.skycdn.it/016a/31483/FHD/skysportmotogp/master_stereo.mpd?&ck=MDAzNjJlOTE4MWVhYTBjNWY5MTc2MWFkZTM1MTVlYjg6NTJjZjNjMjc4ODVkNThhZDc2YWFmMzZkNDIxN2E5ODQ=
-#EXTINF:-1 tvg-id="skysportmotogp.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-motogp-it.png" group-title="MOTOMONDIALE",14:00 MotoGP - Gara 
-https://linear306-it-dash1-prd.selector.skycdn.it/016a/31483/FHD/skysportmotogp/master_stereo.mpd?&ck=MDAzNjJlOTE4MWVhYTBjNWY5MTc2MWFkZTM1MTVlYjg6NTJjZjNjMjc4ODVkNThhZDc2YWFmMzZkNDIxN2E5ODQ=
-#EXTINF:-1 tvg-id="skysportmotogp.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-motogp-it.png" group-title="MOTOMONDIALE",15:30 Moto3 - Gara 
-https://linear306-it-dash1-prd.selector.skycdn.it/016a/31483/FHD/skysportmotogp/master_stereo.mpd?&ck=MDAzNjJlOTE4MWVhYTBjNWY5MTc2MWFkZTM1MTVlYjg6NTJjZjNjMjc4ODVkNThhZDc2YWFmMzZkNDIxN2E5ODQ=
-#EXTINF:-1 tvg-id="skysportf1.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-f1-it.png" group-title="FORMULA 1",12:30 Prove Libere 3 
-https://linear307-it-dash1-prd.selector.skycdn.it/016a/31478/FHD/skysportf1/master_stereo.mpd?&ck=MDAzNmE5NmI2YmJiZjE4Mjg0ODhmOTBlNmIyY2ExZjQ6ZDI0ZTZhZTkyNmU4OGY4MzAzYjY5MjYyNzFmZjgxNTU=
-#EXTINF:-1 tvg-id="skysportf1.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-f1-it.png" group-title="FORMULA 1",16:00 Qualifiche 
-https://linear307-it-dash1-prd.selector.skycdn.it/016a/31478/FHD/skysportf1/master_stereo.mpd?&ck=MDAzNmE5NmI2YmJiZjE4Mjg0ODhmOTBlNmIyY2ExZjQ6ZDI0ZTZhZTkyNmU4OGY4MzAzYjY5MjYyNzFmZjgxNTU=
-#EXTINF:-1 tvg-id="skysportf1.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-f1-it.png" group-title="FORMULA 1",15:00 Gara 
-https://linear307-it-dash1-prd.selector.skycdn.it/016a/31478/FHD/skysportf1/master_stereo.mpd?&ck=MDAzNmE5NmI2YmJiZjE4Mjg0ODhmOTBlNmIyY2ExZjQ6ZDI0ZTZhZTkyNmU4OGY4MzAzYjY5MjYyNzFmZjgxNTU=
-#EXTINF:-1 tvg-id="tsn5.ca" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/7/7d/TSN5_logo.svg/1200px-TSN5_logo.svg.png" group-title="FORMULA 1",15:00 Gara 
-https://live-cito.9c9media.ca/5d56690552e77e26848799912ac055919f78d5e71725017868382/f/tsn5/manifest.mpd?ck=ZjQ2MDhkYzliNjE2NGNkN2I5Njc5MWFmOTFjYzMzNGM6OGQ0YmM2NTM3NjI5ZDNmN2FkNWFhNGU3NTUxNmY2ZGE=
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="INDYCAR",18:20 Gara 
-https://linear311-it-dash1-prd.selector.skycdn.it/016a/31775/FHD/skysport257/master.mpd?&ck=eyIwMDM2ZmFlYWNlOTg3MmQzY2VlYjhiMWI2M2YwYmFhMyI6ImRiZDQxZWU5NDQyNDMzMDdkMzliN2IyN2YxNjYxNWE4In0%3D
-#EXTINF:-1 tvg-id="skysportf1.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-f1-it.png" group-title="INDYCAR",18:45 Gara 
-https://linear307-it-dash1-prd.selector.skycdn.it/016a/31478/FHD/skysportf1/master_stereo.mpd?&ck=MDAzNmE5NmI2YmJiZjE4Mjg0ODhmOTBlNmIyY2ExZjQ6ZDI0ZTZhZTkyNmU4OGY4MzAzYjY5MjYyNzFmZjgxNTU=
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TENNIS",11:00 Live 
-https://timlivetu0.cb.ticdn.it/Content/DASH/Live/channel(eurosport1)/manifest.mpd?ck=NDZlNTU5YzJmOWY2NDVjZThkODBjN2ZhMjA0NDZiZGI6NTk3ZDIxNGQ2NjM0MmVlMDQyYmNjZmZlYjE2NWU3NTA=
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TENNIS",11:00 Live 
-https://timlivetu0.cb.ticdn.it/Content/DASH/Live/channel(eurosport2)/manifest.mpd?ck=ZTgzNzIyODNhNTIzNDQ0Yzg0NjQ2YzQxNzJiMWJjMGY6OTY5YTkwZTFhMWE2NDI0YTY4ZmU0YjVkNzc2MzY4ZWM=
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TENNIS",11:00 Live 
-https://timlivetu0.cb.ticdn.it/Content/DASH/Live/channel(eurosport3)/manifest.mpd?ck=MWUyMzk4YjBlZWIwNDgyOWI0NzExZTE0YjRhOTEyNDQ6MTFlMjY2NTllYmZlY2Y2YTIyZWQ1NmRhMzQwNDQ4Y2Q=
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TENNIS",11:00 Live 
-https://timlivetu0.cb.ticdn.it/Content/DASH/Live/channel(eurosport4)/manifest.mpd?ck=OWRkN2JlNzllNDRmNGQwOGE5MWVjNWQxNTUzZjE3Yjg6OGE2MjM2OWY4MWE0YjZlNWYyZDQ4NDZmN2JkNWU3ZDE=
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TENNIS",11:00 Live 
-https://timlivetu0.cb.ticdn.it/Content/DASH/Live/channel(eurosport5)/manifest.mpd?ck=YjQ4ZTdlNmQ5NmRhNDc5ZGE2NWU0MzVjZTY1ZmFlYjE6NDhjNzAzODc5Y2U0ZGVlZGI1YTIxMjRhMzBhMTNiYzQ=
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TENNIS",11:00 Live 
-https://timlivetu0.cb.ticdn.it/Content/DASH/Live/channel(eurosport6)/manifest.mpd?ck=ZWFkMWM1NjdhM2RmNDg2MTk3OTliMmU3OGIxOGZkZmE6MWRlOWQ5YWY1NjUxMjk2YWE2NzkxMzk3OWFkOGM2OTQ=
-#EXTINF:-1 tvg-id="eurosport1.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/eurosport-1-es.png" group-title="CICLISMO",11:00 Live 
-https://linear311-it-dash1-prd.selector.skycdn.it/016a/313073/FHD/eurosport/master_stereo.mpd?&ck=eyIwMDM2YmIzZmE3ZTZmMmMzMzRkN2NiYTVjMjhiNmNhZiI6IjIxN2ZhMzU3MzljZDY4ZTkwYjJjZDIzMzIyYzAxMzEyIn0%3D
-#EXTINF:-1 tvg-id="skysport24.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-24-it.png" group-title="EXTRA",Live 
-https://linear303-it-dash1-prd.selector.skycdn.it/016a/31035/FHD/skysport24/master_stereo.mpd?&ck=MDAzNjYzZGRmMWFjYjI1ZWE4OGE3Y2Y5NzNhZmMwZDU6MzVlYTkxYjQxNTFkNjk3NTAwNzk5OGMzMjhkYWVlNmM=
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="EXTRA",Live 
-https://di-kzbhv8pw.vo.lswcdn.net/sportitalia/sihd/chunklist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="EXTRA",Live 
-https://di-kzbhv8pw.vo.lswcdn.net/sportitalia/sisolocalcio/chunklist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="EXTRA",Live 
-https://di-kzbhv8pw.vo.lswcdn.net/sportitalia/silive24/chunklist.m3u8
-#EXTINF:-1 tvg-id="eurosport1.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/eurosport-1-es.png" group-title="EXTRA",Live 
-https://linear311-it-dash1-prd.selector.skycdn.it/016a/313073/FHD/eurosport/master_stereo.mpd?&ck=eyIwMDM2YmIzZmE3ZTZmMmMzMzRkN2NiYTVjMjhiNmNhZiI6IjIxN2ZhMzU3MzljZDY4ZTkwYjJjZDIzMzIyYzAxMzEyIn0%3D
-#EXTINF:-1 tvg-id="eurosport2.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/eurosport-2-es.png" group-title="EXTRA",Live 
-https://linear312-it-dash1-prd.selector.skycdn.it/016a/31150/FHD/eurosport2/master_stereo.mpd?&ck=eyIwMDM2NzBhNzAzNDM0MmE0YTA3YzkxMTczODE4YzYxYyI6IjdiOTAwNTVjMWExZWEzNGQ5MDkwZTllYmY2YzRkYjhhIn0%3D
+#EXTINF:-1,1711 Guarda Vedi Harry Potter E La Pietra Filosofale Film Streaming1
+#EXTVLCOPT:http-referrer=https://streaming-community.prof
+#EXTVLCOPT:http-origin=https://streaming-community.prof
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+https://mostraguarda.stream/set-movie-a/tt0241527
+#EXTINF:-1,7254 Guarda Vedi Movie Avengers Tre Infinity War Streaming
+#EXTVLCOPT:http-referrer=https://streaming-community.prof
+#EXTVLCOPT:http-origin=https://streaming-community.prof
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+https://mostraguarda.stream/set-movie-a/tt4154756
+#EXTINF:-1,1717 Guarda Harry Potter E Il Principe Mezzosangue Streaming
+#EXTVLCOPT:http-referrer=https://streaming-community.prof
+#EXTVLCOPT:http-origin=https://streaming-community.prof
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+https://mostraguarda.stream/set-movie-a/tt0417741
+#EXTINF:-1,1404 Guarda Cinquanta Sfumature Di Nero Streaming 4K
+#EXTVLCOPT:http-referrer=https://streaming-community.prof
+#EXTVLCOPT:http-origin=https://streaming-community.prof
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+https://mostraguarda.stream/set-movie-a/tt4465564
+#EXTINF:-1,1712 Guarda Saga Harry Potter E La Camera Dei Segreti Streaming 1
+#EXTVLCOPT:http-referrer=https://streaming-community.prof
+#EXTVLCOPT:http-origin=https://streaming-community.prof
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+https://mostraguarda.stream/set-movie-a/tt0295297
+#EXTINF:-1,7265 Guarda Deadpool 2 Streaming Gratis
+#EXTVLCOPT:http-referrer=https://streaming-community.prof
+#EXTVLCOPT:http-origin=https://streaming-community.prof
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+https://mostraguarda.stream/set-movie-a/tt5463162
+#EXTINF:-1,1265 Guarda Harry Potter E I Doni Della Morte Parte 1 Streaming
+#EXTVLCOPT:http-referrer=https://streaming-community.prof
+#EXTVLCOPT:http-origin=https://streaming-community.prof
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+https://mostraguarda.stream/set-movie-a/tt0926084
+#EXTINF:-1,1714 Guarda Harry Potter E Il Prigioniero Di Azkaban Streaming
+#EXTVLCOPT:http-referrer=https://streaming-community.prof
+#EXTVLCOPT:http-origin=https://streaming-community.prof
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+https://mostraguarda.stream/set-movie-a/tt0304141
+#EXTINF:-1,3060 Guarda Visualizza Thor Ragnarok Online Italiano
+#EXTVLCOPT:http-referrer=https://streaming-community.prof
+#EXTVLCOPT:http-origin=https://streaming-community.prof
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+https://mostraguarda.stream/set-movie-a/tt3501632
+#EXTINF:-1,1715 Guarda Harry Potter E Il Calice Di Fuoco Streaming
+#EXTVLCOPT:http-referrer=https://streaming-community.prof
+#EXTVLCOPT:http-origin=https://streaming-community.prof
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+https://mostraguarda.stream/set-movie-a/tt0330373
+#EXTINF:-1,6357 Guarda 50 Sfumature Di Rosso Streaming
+#EXTVLCOPT:http-referrer=https://streaming-community.prof
+#EXTVLCOPT:http-origin=https://streaming-community.prof
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+https://mostraguarda.stream/set-movie-a/tt4477536
+#EXTINF:-1,1716 Guarda Harry Potter E Lordine Della Fenice Streaming
+#EXTVLCOPT:http-referrer=https://streaming-community.prof
+#EXTVLCOPT:http-origin=https://streaming-community.prof
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+https://mostraguarda.stream/set-movie-a/tt0373889
+#EXTINF:-1,1266 Guarda Harry Potter E I Doni Della Morte Parte 2 Streaming
+#EXTVLCOPT:http-referrer=https://streaming-community.prof
+#EXTVLCOPT:http-origin=https://streaming-community.prof
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+https://mostraguarda.stream/set-movie-a/tt1201607
+#EXTINF:-1,380 Guarda Justice League
+#EXTVLCOPT:http-referrer=https://streaming-community.prof
+#EXTVLCOPT:http-origin=https://streaming-community.prof
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+https://mostraguarda.stream/set-movie-a/tt0974015
+#EXTINF:-1,1403 Guarda Guarda 50 Sfumature Di Grigio Streaming 4K Completo
+#EXTVLCOPT:http-referrer=https://streaming-community.prof
+#EXTVLCOPT:http-origin=https://streaming-community.prof
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+https://mostraguarda.stream/set-movie-a/tt2322441
+#EXTINF:-1,5973 Guarda Il Sole A Mezzanotte
+#EXTVLCOPT:http-referrer=https://streaming-community.prof
+#EXTVLCOPT:http-origin=https://streaming-community.prof
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+https://mostraguarda.stream/set-movie-a/tt4799066
+#EXTINF:-1,1489 Guarda Fast And Furious 1 2001 Streaming
+#EXTVLCOPT:http-referrer=https://streaming-community.prof
+#EXTVLCOPT:http-origin=https://streaming-community.prof
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+https://mostraguarda.stream/set-movie-a/tt0232500
+#EXTINF:-1,1349 Guarda Il Signore Degli Anelli La Compagnia Dell Anello
+#EXTVLCOPT:http-referrer=https://streaming-community.prof
+#EXTVLCOPT:http-origin=https://streaming-community.prof
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+https://mostraguarda.stream/set-movie-a/tt0120737
+#EXTINF:-1,1750 Guarda Film The Avengers Streaming Completo
+#EXTVLCOPT:http-referrer=https://streaming-community.prof
+#EXTVLCOPT:http-origin=https://streaming-community.prof
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+https://mostraguarda.stream/set-movie-a/tt0848228
+#EXTINF:-1,6362 Guarda Black Panther 1 Streaming Gratis
+#EXTVLCOPT:http-referrer=https://streaming-community.prof
+#EXTVLCOPT:http-origin=https://streaming-community.prof
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+https://mostraguarda.stream/set-movie-a/tt1825683
