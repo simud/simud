@@ -1,48 +1,12 @@
 #EXTM3U url-tvg="http://www.epgitalia.tv/gzip,http://epg-guide.com/it.gz,https://raw.github.com/matthuisman/i.mjh.nz/master/PlutoTV/us.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/PlutoTV/it.xml.gz,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-events-epg.xml,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-channels-epg.xml,https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/it.xml.gz"
-#EXTINF:-1 tvg-id="skysportmotogp.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-motogp-it.png" group-title="MOTOMONDIALE",14:00 MotoGP - Gara
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",20:45 Diretta Gol
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=00362e9181eaa0c5f91761ade3515eb8:52cf3c27885d58ad76aaf36d4217a984
-https://linear306-it-dash1-prd.selector.skycdn.it/016a/31483/FHD/skysportmotogp/master_stereo.mpd
-#EXTINF:-1 tvg-id="skysportmotogp.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-motogp-it.png" group-title="MOTOMONDIALE",15:30 Moto3 - Gara
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=00362e9181eaa0c5f91761ade3515eb8:52cf3c27885d58ad76aaf36d4217a984
-https://linear306-it-dash1-prd.selector.skycdn.it/016a/31483/FHD/skysportmotogp/master_stereo.mpd
-#EXTINF:-1 tvg-id="skysportf1.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-f1-it.png" group-title="FORMULA 1",15:00 Gara
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0036a96b6bbbf1828488f90e6b2ca1f4:d24e6ae926e88f8303b6926271ff8155
-https://linear307-it-dash1-prd.selector.skycdn.it/016a/31478/FHD/skysportf1/master_stereo.mpd
-#EXTINF:-1 tvg-id="tsn5.ca" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/7/7d/TSN5_logo.svg/1200px-TSN5_logo.svg.png" group-title="FORMULA 1",15:00 Gara
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=f4608dc9b6164cd7b96791af91cc334c:8d4bc6537629d3f7ad5aa4e75516f6da
-https://live-cito.9c9media.ca/5d56690552e77e26848799912ac055919f78d5e71725017868382/f/tsn5/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_key=cfb5e2b73bef4f3c878f25ab86a7451f:0d6712bf2a84edcc93d001a9613f6fec
+https://dca-fs-live-dazn-cdn.dazn.com/1c1jda4uwucx211omt2ngmslyk/web/stream.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",20:45 Torino - Roma
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=8272bf6ba46f23f9da5270057b6e028a:74ae70dd10b4bb38ed6ffe843f3e2ccd
 https://abe6fjxaaaaaaaamc4pg55ekcyqz4.otte.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/lgk8kppclc/out/v1/f51173b6b0624a4386358ab8dfee257f/cenc.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",20:45 Udinese - Fiorentina
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=d1520e24803351a5bc943ffd1f1454fa:7f6e46a065b9b5e2e8ce1ecd5211d3b4
-https://bpkcdn.telekom.me/bpk-tv/arenasport_9/default/index.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",20:45 Udinese - Fiorentina
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=726dde62b9215a10bc81ec2dd7405ff1:3277540ba4de3dd477e9058a32153098
-https://bpkcdn.telekom.me/bpk-tv/arenasport_9/default/index.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",20:45 Udinese - Fiorentina
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=03b34fed16da58448bd6cb72f251a3df:0a61e7516e978815639d4d2d672ac5dc
-https://bpkcdn.telekom.me/bpk-tv/arenasport_9/default/index.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",20:45 Atalanta - Parma
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=83bbb54e895350c8b0a427fd37708c2d:6b8697bea26aeea2295f958893b5ae15
-https://bpkcdn.telekom.me/bpk-tv/arenasport_4/default/index.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",20:45 Atalanta - Parma
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=7e6b68480d655385925932de025210c9:ca2b051c5333722a1af9bf3815bcc76c
-https://bpkcdn.telekom.me/bpk-tv/arenasport_4/default/index.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",20:45 Atalanta - Parma
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0208912a7ff35a8faec820a2e7ce1a27:fdd2b16fdbf20b29c161008b71c4f7c8
-https://bpkcdn.telekom.me/bpk-tv/arenasport_4/default/index.mpd
 #EXTINF:-1 tvg-id="skysport251.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-251-it.png" group-title="CALCIO",20:45 Venezia - Juventus
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=0036384f59a2b80ed142f82250c79f77:2e6507cb779a28739b0bb1564f418823
@@ -67,22 +31,6 @@ https://linear311-it-dash1-prd.selector.skycdn.it/016a/32910/FHD/skysport255/mas
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=keys:[{'kty': 'oct', 'kid': 'ADZvJjhZ_BzILSxNpqZu9g', 'k': 'dUrpItETxUNJACzZqIaUpA'}]
 https://linear312-it-dash1-prd.selector.skycdn.it/016a/31912/FHD/skysport256/master.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",14:00 Girona - Atletico Madrid
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=b770d5b4bb6b594daf985845aae9aa5f:b0cb46d2d31cf044bc73db71e9865f6f
-https://ottb.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/k0duzgfejg/out/v1/70a50b1bda944628b8e7e66ab4069419/cenc.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",14:00 Girona - Atletico Madrid
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=620e51b82596475517a27aa425c52280:2b9ba811e9c5aeafc8ae1b71cdca4d6a
-https://ottb.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/k0duzgfejg/out/v1/70a50b1bda944628b8e7e66ab4069419/cenc.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",16:15 Villarreal - Sevilla
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=b770d5b4bb6b594daf985845aae9aa5f:b0cb46d2d31cf044bc73db71e9865f6f
-https://ottb.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/k0duzgfejg/out/v1/70a50b1bda944628b8e7e66ab4069419/cenc.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",16:15 Villarreal - Sevilla
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=620e51b82596475517a27aa425c52280:2b9ba811e9c5aeafc8ae1b71cdca4d6a
-https://ottb.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/k0duzgfejg/out/v1/70a50b1bda944628b8e7e66ab4069419/cenc.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",21:00 Athletic Bilbao - Barcelona
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=b770d5b4bb6b594daf985845aae9aa5f:b0cb46d2d31cf044bc73db71e9865f6f
@@ -91,24 +39,8 @@ https://ottb.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/k0duzgfejg/o
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=620e51b82596475517a27aa425c52280:2b9ba811e9c5aeafc8ae1b71cdca4d6a
 https://ottb.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/k0duzgfejg/out/v1/70a50b1bda944628b8e7e66ab4069419/cenc.mpd
-#EXTINF:-1 tvg-id="skysportcalcio.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-calcio-it.png" group-title="CALCIO",17:00 Diretta Gol
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=00362f95db61eba0e6f14acee3f71e01:fb74cd84b53c7557e18424a3356c4665
-https://linear302-it-dash1-prd.selector.skycdn.it/016a/31209/FHD/skysportseriea/master_stereo.mpd
-#EXTINF:-1 tvg-id="skysport252.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-252-it.png" group-title="CALCIO",17:00 Liverpool - Crystal Palace
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=003610b4ce44ba838c199b6636cf7431:8369cbbccf0c1ff6bdbacbdae9252a04
-https://linear312-it-dash1-prd.selector.skycdn.it/016a/32951/FHD/skysport252/master.mpd
-#EXTINF:-1 tvg-id="skysport253.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-253-it.png" group-title="CALCIO",17:00 Nottingham Forest - Chelsea
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0036d3b63b421abd69d9f0d3b6bdcf19:0725c3162d5aefbf9c6d144f06ea0c92
-https://linear311-it-dash1-prd.selector.skycdn.it/016a/32233/FHD/skysport253/master_stereo.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",18:15 Benfica - Sporting Lisbona
 https://viamotionhsi.netplus.ch/live/eds/rtpi/browser-dash/rtpi.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",16:00 Gremio - Bahia
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=d98239180d8380b3a1bb28d875b1ddf2:cf836ced579257d1c76ae8809818e6c4
-https://otte.live.fly.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/4zkafrcxji/out/v1/810ebca1aff0443da717da4acdeda158/cenc.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",21:00 Palmeiras - Flamengo
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=d98239180d8380b3a1bb28d875b1ddf2:cf836ced579257d1c76ae8809818e6c4
@@ -254,41 +186,6 @@ https://xuione.sportstreaming.net/SportStreaming/SportStreaming/44.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Eventi", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 #EXTINF:-1 info canali
-#EXTINF:-1 group-title="MotoGP" tvg-logo="https://sportzone.hair//images/6830023ad12c7.jpg",Gara 2 vs Silverstone (Regno Unito)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.hair/
-#EXTVLCOPT:http-origin=https://sportzone.hair/
-https://hls.kangal.icu/hls/moto/index.m3u8
-#EXTINF:-1 group-title="Tennis" tvg-logo="https://sportzone.hair//images/6683b5df0dd12.jpg",ATP & WTA vs Sky Sport Tennis
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.hair/
-#EXTVLCOPT:http-origin=https://sportzone.hair/
-https://hls.kangal.icu/hls/tennis/index.m3u8
-#EXTINF:-1 group-title="Tennis" tvg-logo="https://sportzone.hair//images/683314ac39657.png",ATP - SINGOLARE - Open di Francia vs ES1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.hair/
-#EXTVLCOPT:http-origin=https://sportzone.hair/
-https://hls.kangal.icu/hls/eurosport1/index.m3u8
-#EXTINF:-1 group-title="Tennis" tvg-logo="https://sportzone.hair//images/683314eb927b2.png",ATP - SINGOLARE - Open di Francia vs ES2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.hair/
-#EXTVLCOPT:http-origin=https://sportzone.hair/
-https://hls.kangal.icu/hls/eurosport2/index.m3u8
-#EXTINF:-1 group-title="Tennis" tvg-logo="https://sportzone.hair//images/6683b5fc5db3b.jpg",ATP & WTA vs Sky Sport Tennis
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.hair/
-#EXTVLCOPT:http-origin=https://sportzone.hair/
-https://hls.kangal.icu/hls/tennis/index.m3u8
-#EXTINF:-1 group-title="Tennis" tvg-logo="https://sportzone.hair//images/683314cb4347a.png",ATP - SINGOLARE - Open di Francia vs ES1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.hair/
-#EXTVLCOPT:http-origin=https://sportzone.hair/
-https://hls.kangal.icu/hls/eurosport1/index.m3u8
-#EXTINF:-1 group-title="Tennis" tvg-logo="https://sportzone.hair//images/6833150a6f561.png",ATP - SINGOLARE - Open di Francia vs ES2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.hair/
-#EXTVLCOPT:http-origin=https://sportzone.hair/
-https://hls.kangal.icu/hls/eurosport2/index.m3u8
 #EXTINF:-1 group-title="Basket" tvg-logo="https://sportzone.hair//images/67039b6f4b47a.png",Sky Sport vs NBA
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://sportzone.hair/
@@ -299,11 +196,6 @@ https://hls.kangal.icu/hls/skynba/index.m3u8
 #EXTVLCOPT:http-referrer=https://sportzone.hair/
 #EXTVLCOPT:http-origin=https://sportzone.hair/
 https://hls.kangal.icu/hls/skynba/index.m3u8
-#EXTINF:-1 group-title="FORMULA 1" tvg-logo="https://sportzone.hair//images/6830010a23270.jpg",Gara vs GP Monaco
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.hair/
-#EXTVLCOPT:http-origin=https://sportzone.hair/
-https://hls.kangal.icu/hls/formula/index.m3u8
 #EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.hair//images/683008360b622.jpg",Zona vs Serie A
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://sportzone.hair/
@@ -374,16 +266,56 @@ https://hls.kangal.icu/hls/sportitalia/index.m3u8
 #EXTVLCOPT:http-referrer=https://sportzone.hair/
 #EXTVLCOPT:http-origin=https://sportzone.hair/
 https://hls.kangal.icu/hls/portugal/index.m3u8
+#EXTINF:-1 group-title="Tennis" tvg-logo="https://sportzone.hair//images/6683b5df0dd12.jpg",ATP & WTA vs Sky Sport Tennis
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.hair/
+#EXTVLCOPT:http-origin=https://sportzone.hair/
+https://hls.kangal.icu/hls/tennis/index.m3u8
+#EXTINF:-1 group-title="Tennis" tvg-logo="https://sportzone.hair//images/683314ac39657.png",ATP - SINGOLARE - Open di Francia vs ES1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.hair/
+#EXTVLCOPT:http-origin=https://sportzone.hair/
+https://hls.kangal.icu/hls/eurosport1/index.m3u8
+#EXTINF:-1 group-title="Tennis" tvg-logo="https://sportzone.hair//images/683314eb927b2.png",ATP - SINGOLARE - Open di Francia vs ES2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.hair/
+#EXTVLCOPT:http-origin=https://sportzone.hair/
+https://hls.kangal.icu/hls/eurosport2/index.m3u8
+#EXTINF:-1 group-title="Tennis" tvg-logo="https://sportzone.hair//images/6683b5fc5db3b.jpg",ATP & WTA vs Sky Sport Tennis
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.hair/
+#EXTVLCOPT:http-origin=https://sportzone.hair/
+https://hls.kangal.icu/hls/tennis/index.m3u8
+#EXTINF:-1 group-title="Tennis" tvg-logo="https://sportzone.hair//images/683314cb4347a.png",ATP - SINGOLARE - Open di Francia vs ES1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.hair/
+#EXTVLCOPT:http-origin=https://sportzone.hair/
+https://hls.kangal.icu/hls/eurosport1/index.m3u8
+#EXTINF:-1 group-title="Tennis" tvg-logo="https://sportzone.hair//images/6833150a6f561.png",ATP - SINGOLARE - Open di Francia vs ES2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.hair/
+#EXTVLCOPT:http-origin=https://sportzone.hair/
+https://hls.kangal.icu/hls/eurosport2/index.m3u8
+#EXTINF:-1 group-title="FORMULA 1" tvg-logo="https://sportzone.hair//images/6830010a23270.jpg",Gara vs GP Monaco
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.hair/
+#EXTVLCOPT:http-origin=https://sportzone.hair/
+https://hls.kangal.icu/hls/formula/index.m3u8
+#EXTINF:-1 group-title="MotoGP" tvg-logo="https://sportzone.hair//images/6830023ad12c7.jpg",Gara 2 vs Silverstone (Regno Unito)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.hair/
+#EXTVLCOPT:http-origin=https://sportzone.hair/
+https://hls.kangal.icu/hls/moto/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/mZ6gwjBg/kings-league.png" group-title="Kings League", therealmarzaa
 #EXTVLCOPT:http-referrer=https://www.twitch.tv/therealmarzaa
 #EXTVLCOPT:http-origin=https://www.twitch.tv/therealmarzaa
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://usw22.playlist.ttvnw.net/v1/playlist/CuoEP5XYOxDbjbTF68cDPC6Fs9TDP0NF3m75bOUsHPyedNiCJLY3sPji2_asaJumwPzuw7f6W70CAvruIS2unPweipH6JM_W2RcAJrP_AVmyatlggjOOD_UOAyYJOMZcOfTHo6H7LD95My-dRG_FpoT_CkT54KkoLnCBip2VaRHHC5vlGG0g8QE2XPSZ5zl5pVUa2TBzskT9dvaxY9_kU1VmA9O1LI1rP0zQpE6Mc5a4Gnfjf5DLG924nrUWsP_89_n_cDo9IwsXVd3Ip3mSh-Cxb5LipXRxNcnAlre5MN_Qm2aJbZKtdqkRTf9LVIJ9bn3Oj1SZwhJkgKiXCvImnXNqY6hE0SeERkFe-dRGeqWASjVWWjDEUW1EjJD3H4UGaeIj3n0rkWJD6gYdjfxrbfpqWq8LHvB2tNVNny1_iKC1wMB_PLDzYOwL8UiTFdTE95Zs_TsbKvhbPvJN5qSw4NiXtmo4bgGIqsBz5eTlTT-n68ZlpVhiVDCC2ExC7zqIYjwKLQ9Mu1jqv7an7eFrxYdTAsJxbZUpQnOUlVgFQESreh_ziID-I4agJwEy7as2NJPtTRC5lAzKxuqXI_4ZLQuKKh6V_L9La0gdFrnrAcs7bOSWExVoATfFz0P3Bv8CiiYknBOxBlwHeYIDxAgZCCUpZXj99d-OjSGCTBps9ux--V81LZ8-c4EVzJrWwjfrKIVgkXBuPPGVpfJEM8etNCAErFJq4zjRlKt388jeOASrUW8zbiXVPPdQMrTeXHiLWWmHDVPLqDbZh475AbdbQI2MO4prowtBoa9az9ACuKK9dK56f3iAZ1h4W8iRGgzuU36wit7KsK-TP9EgASoJdXMtd2VzdC0yMK0M.m3u8
+https://use11-0.playlist.ttvnw.net/v1/playlist/Cu0ECvZ3-ASLAAi5cNqByVGBpaPhtpqutAZziosTtVppaHfOk58xAvm9oUweNRvCDRxhB_eegWMWq23v1lSZMyrUIdtSnPI9c5cHsKJmlNeMgFUBRZlLP1mqWj_4kHCaZ62dxtd9nP-qMdeCN63u39ni6OIq7a44xMMIJgF1I8EKlXt7VoCpu7UUJJ2uVPT2TiROSZtG2X4zv42ybpdqsFOEyQfI7OItmwhB20AX3FEkcm_Y6ym3LsXX2PAZGPboH8oMDsHWEkIYABh7txHIgHufAr_fcWGYVWdVtGYZUz99FEV96mpt9gpXEpFfD6ROYaGHtSpsOBP6hMOVep1NcCifpgzSN360udG9OZQzkYcxn6RWegYih40bavwXOcgyHqlNv8G-QcDwzFTc92fa7U3-23ybGqMO0rdOp88Z8Hav_kKcu4txZrQ34-LKNhEvHqQIIRf6aC4q2J4KF42Gy_zafPgrA3dTrINenBP_qIFEQKDfTfcJ9Je-qwR0JH0mw1yMbZI5f5PoVKxpL8chXU3C5C85ZBQP7PJ5MS_Y0V9TCfnrx5-Vsuz-duQR1wmuhpiC2e5XtdHKZVcu-EWrWs9OrLyxfOuky4yM-sQBcswxeMcM4v-J8w6Z3PCT6MCrW5cJhqSdEfMEbE1WircTt-7MPAHj_JIO1E8vmLvuarDRHQtxc59Go1awfjh-yK0JdfRvook-UPJrS_sKRFnrmdI8DczNGAUqbfgtx26ISEME28jKT9y68RxwlTqyL4kMYKlSsC7GihDHXm-XTTblfBfIloReGBMUReru0eR7wUC8TPYo3WLOQSwyzS4SAV5hGgzia6Fs8BvNdnlThu0gASoJdXMtZWFzdC0yMKwM.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/mZ6gwjBg/kings-league.png" group-title="Kings League", freneh
 #EXTVLCOPT:http-referrer=https://www.twitch.tv/freneh
 #EXTVLCOPT:http-origin=https://www.twitch.tv/freneh
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://use13-0.playlist.ttvnw.net/v1/playlist/Ct8EKa_er0BxcY1259-SQTKNJNbiTDNxgRCDgBtmVuTTn568pyrpDZvd9lLfYyCzy5Zvi3pFIx24bDr_V7LLga51Yj2qQSBpda-4DnOnvG2OhGYPIuFW86EuOv6-SBDV-wmJyBqMlbL0CRnPFytya64zRVfTuFr7E__a6jkhccXtGPxHRAoLXsvyzLjDVcTSx5guR2B9ycNV7NMGP4O56OH8Gd20T6x9l-VNfgaqTHzUVoXjdMOOrxSejxDybBVz2z84lyXrYr-lu405csXu7h3H_02ShONaLYzJCuxPdGp6NKnYcU6fASL486VWxKtLOEGJkZDloQCvIUAtVyx87KNLQWS56N75ZzW4y8tKPOBDL_t_Fd11QPmnpW4-yWubznjhSRDlMdiupw1_D0WPrvJzB3TLol_BBrAII0F8wiAHGuvacxAMd_VfDoo7CGXhvWu6EJMhupE1KMruwFGzFJvpkBx40QlGIF9dHaX4kBIiHJNr0HqOVX9V79qqeczNgnX4GIjWownhJLr1eCH1KXFShmZGBUuXdA347faCM2GRj-UUNNbzN8agLU_YFkQ4-uTCgijPOyG-CwRFgxG3yOEWnh5q3eMpT294EkV-RwfnPk_QeTVsvFz5GFJDBbp-vbYBwcMSYPZcS06nYl8DuzLUGXGSdbnMoOTkpjAG9fEoed0lFFBKXtLuDovX6q24P7RCOJ-Epd7h1_fiyI2dm9ulL3-QJ0RB124OMy5W5CtwuYdxswEi2haxDk5QkJSpJt9iyoL9pYecLWQNVfgo5toQimLlpUp9ICd1q0UR7qpozBoMxyfWw38n6eRbPFpJIAEqCXVzLXdlc3QtMjCtDA.m3u8
+https://use12-0.playlist.ttvnw.net/v1/playlist/CuEEP9bphQJUk48UPN7Rpz-QHn0SBrDmT7xELOjLkCTscActZXaKQAMD_u_S09KSqJB-T40iEsslGw_h1t8eU1uZa6C22dAEsvyn6_tC4dBz9_kKMHvV3Qzf7udb5K13icy2bDb8FZ1fGs9NsMfn-rJwwwPS_4MtQv49Lfdj5EhhMkiqfDufv79_-__8iOj0XfHfg4L016ktQ9L4shIHe3gT66_2jfDsiA2tr2_wRkgvppfcVHnVT6yhWKWB0I_OVdwNADyYFrtSZGz_UgDHgU7U3AbRLLol92P_lFR7oT1GCrZ7etJPNabLEPaL1A-jJwwVoN5UVGpSVPsTXwBMVEctW7jKuzT4JWUQItcS29uSvxcgeuQPDM_GzXyhccsmtkGycG5PjDkoKRqbZNX7ZzK-qdcfVtPIldjzf7ZdRZmg9AR1VhjAjOnuKDthyK19nuFvsVzf1sPY7zhplX2pi2jVL7FTf7WEVJmI9PJyv4dScEzDP865OB1mixu-0eEOWZEyQW4NhdDmkABNaP6qrlWPan6Jmk6sZJxuN6iUBoJJpRkf_VooQDogdr5I9Rjrpz6jkG3DadD24dO4e_ahW5r6sRm96JVVv18F-lyCJEPoOO3MfMxtc9lM6M4UURSRyuAH9DrfmuM5sGPZ2rEKzDWjS8yfrTXe6468o-C5HBh_Bk1TVnAkvG73QSwLwPbo9qzzEMWBXbMTE1OSnHhGEjCEYaJYU4ak6C5j815nsqOzkLKE3_vByC_48S_oEGCnk8jdnYUOcTmCLlIeq462YDPnzCa_NrSZTz5nGnTtEW2pgMolGgyTLX7Mhv35t4n3TOQgASoJdXMtZWFzdC0yMKwM.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Kings League", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 #EXTINF:-1 tvg-id="skysportuno.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-uno-it.png" group-title="Dazn MPD",Sky Sport UNO
