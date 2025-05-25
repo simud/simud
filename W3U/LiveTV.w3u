@@ -1,0 +1,37 @@
+{
+  "name": "Live TV",
+  "author": "Simud",
+  "image": "https://i.makeagif.com/media/9-18-2015/ZcZY-F.gif",
+  "info": "Skymud si sta evolvendo ",
+  "url": "https://raw.githubusercontent.com/simud/simud/refs/heads/main/W3U/LiveTV.w3u",
+  "groups": [
+    {
+      "name": "Canali Vavoo",
+      "author": "Simud",
+      "image": "https://www.gbnews.com/media-library/animated-gif-showing-playlist-on-an-ocean-blue-sky-glass-tv.gif?id=53569922&width=800&quality=90",
+      "url": "https://raw.githubusercontent.com/simud/simud/refs/heads/main/vavoofunzionante.m3u8",
+      "import": true
+    },
+    {
+      "name": "Canali Daddy",
+      "author": "Simud",
+      "image": "https://www.walter.bz/wp-images/uploads/2017/10/skyfall.gif",
+      "url": "https://raw.githubusercontent.com/simud/simud/refs/heads/main/simudflix2.m3u8",
+      "import": true
+    },
+    {
+      "name": "Canali SkyStreaming (SD)",
+      "author": "Simud",
+      "image": "https://www.digital-news.it/img/primo_piano/foto_grandi/2016/03/1458339135-sky-earthhour.gif",
+      "url": "https://raw.githubusercontent.com/simud/simud/refs/heads/main/skystream.m3u8",
+      "import": true
+    },
+    {
+      "name": "Canali Twitch (Kings League)",
+      "author": "Simud",
+      "image": "https://static.wixstatic.com/media/11e745_9470427ae0384dcb8bb8d2f9a39bac6e~mv2.gif",
+      "url": "https://raw.githubusercontent.com/simud/simud/refs/heads/main/twitch_streams.m3u8",
+      "import": true
+    }
+  ]
+}
