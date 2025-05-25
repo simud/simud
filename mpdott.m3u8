@@ -136,11 +136,6 @@ https://xuione.sportstreaming.net/SportStreaming/SportStreaming/44.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Eventi", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 #EXTINF:-1 info canali
-#EXTINF:-1 group-title="MotoGP" tvg-logo="https://sportzone.hair//images/6830023ad12c7.jpg",Gara 2 vs Silverstone (Regno Unito)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.hair/
-#EXTVLCOPT:http-origin=https://sportzone.hair/
-https://hls.kangal.icu/hls/moto/index.m3u8
 #EXTINF:-1 group-title="FORMULA 1" tvg-logo="https://sportzone.hair//images/6830010a23270.jpg",Gara vs GP Monaco
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://sportzone.hair/
@@ -156,36 +151,6 @@ https://hls.kangal.icu/hls/skynba/index.m3u8
 #EXTVLCOPT:http-referrer=https://sportzone.hair/
 #EXTVLCOPT:http-origin=https://sportzone.hair/
 https://hls.kangal.icu/hls/skynba/index.m3u8
-#EXTINF:-1 group-title="Tennis" tvg-logo="https://sportzone.hair//images/6683b5df0dd12.jpg",ATP & WTA vs Sky Sport Tennis
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.hair/
-#EXTVLCOPT:http-origin=https://sportzone.hair/
-https://hls.kangal.icu/hls/tennis/index.m3u8
-#EXTINF:-1 group-title="Tennis" tvg-logo="https://sportzone.hair//images/683314ac39657.png",ATP - SINGOLARE - Open di Francia vs ES1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.hair/
-#EXTVLCOPT:http-origin=https://sportzone.hair/
-https://hls.kangal.icu/hls/eurosport1/index.m3u8
-#EXTINF:-1 group-title="Tennis" tvg-logo="https://sportzone.hair//images/683314eb927b2.png",ATP - SINGOLARE - Open di Francia vs ES2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.hair/
-#EXTVLCOPT:http-origin=https://sportzone.hair/
-https://hls.kangal.icu/hls/eurosport2/index.m3u8
-#EXTINF:-1 group-title="Tennis" tvg-logo="https://sportzone.hair//images/6683b5fc5db3b.jpg",ATP & WTA vs Sky Sport Tennis
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.hair/
-#EXTVLCOPT:http-origin=https://sportzone.hair/
-https://hls.kangal.icu/hls/tennis/index.m3u8
-#EXTINF:-1 group-title="Tennis" tvg-logo="https://sportzone.hair//images/683314cb4347a.png",ATP - SINGOLARE - Open di Francia vs ES1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.hair/
-#EXTVLCOPT:http-origin=https://sportzone.hair/
-https://hls.kangal.icu/hls/eurosport1/index.m3u8
-#EXTINF:-1 group-title="Tennis" tvg-logo="https://sportzone.hair//images/6833150a6f561.png",ATP - SINGOLARE - Open di Francia vs ES2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.hair/
-#EXTVLCOPT:http-origin=https://sportzone.hair/
-https://hls.kangal.icu/hls/eurosport2/index.m3u8
 #EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.hair//images/683008360b622.jpg",Zona vs Serie A
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://sportzone.hair/
@@ -256,16 +221,46 @@ https://hls.kangal.icu/hls/sportitalia/index.m3u8
 #EXTVLCOPT:http-referrer=https://sportzone.hair/
 #EXTVLCOPT:http-origin=https://sportzone.hair/
 https://hls.kangal.icu/hls/portugal/index.m3u8
+#EXTINF:-1 group-title="MotoGP" tvg-logo="https://sportzone.hair//images/6830023ad12c7.jpg",Gara 2 vs Silverstone (Regno Unito)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.hair/
+#EXTVLCOPT:http-origin=https://sportzone.hair/
+https://hls.kangal.icu/hls/moto/index.m3u8
+#EXTINF:-1 group-title="Tennis" tvg-logo="https://sportzone.hair//images/6683b5df0dd12.jpg",ATP & WTA vs Sky Sport Tennis
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.hair/
+#EXTVLCOPT:http-origin=https://sportzone.hair/
+https://hls.kangal.icu/hls/tennis/index.m3u8
+#EXTINF:-1 group-title="Tennis" tvg-logo="https://sportzone.hair//images/683314ac39657.png",ATP - SINGOLARE - Open di Francia vs ES1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.hair/
+#EXTVLCOPT:http-origin=https://sportzone.hair/
+https://hls.kangal.icu/hls/eurosport1/index.m3u8
+#EXTINF:-1 group-title="Tennis" tvg-logo="https://sportzone.hair//images/683314eb927b2.png",ATP - SINGOLARE - Open di Francia vs ES2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.hair/
+#EXTVLCOPT:http-origin=https://sportzone.hair/
+https://hls.kangal.icu/hls/eurosport2/index.m3u8
+#EXTINF:-1 group-title="Tennis" tvg-logo="https://sportzone.hair//images/6683b5fc5db3b.jpg",ATP & WTA vs Sky Sport Tennis
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.hair/
+#EXTVLCOPT:http-origin=https://sportzone.hair/
+https://hls.kangal.icu/hls/tennis/index.m3u8
+#EXTINF:-1 group-title="Tennis" tvg-logo="https://sportzone.hair//images/683314cb4347a.png",ATP - SINGOLARE - Open di Francia vs ES1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.hair/
+#EXTVLCOPT:http-origin=https://sportzone.hair/
+https://hls.kangal.icu/hls/eurosport1/index.m3u8
+#EXTINF:-1 group-title="Tennis" tvg-logo="https://sportzone.hair//images/6833150a6f561.png",ATP - SINGOLARE - Open di Francia vs ES2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.hair/
+#EXTVLCOPT:http-origin=https://sportzone.hair/
+https://hls.kangal.icu/hls/eurosport2/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/mZ6gwjBg/kings-league.png" group-title="Kings League", therealmarzaa
 #EXTVLCOPT:http-referrer=https://www.twitch.tv/therealmarzaa
 #EXTVLCOPT:http-origin=https://www.twitch.tv/therealmarzaa
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://use21-0.playlist.ttvnw.net/v1/playlist/Cu0EO0xFhGndgzGf-NFJsXMpZlS-aliv-5Lwx44BrG8LijVJaRB0IWROKZb_JxGPrQawwHS-fPY0igpU_c8gjzDmilGKlHdDF_c00RsmHc710hXKQSCKp5US2OHqoKGtYBbp7uInkQbDQ2XxQPncnfmMXLIY2PEED1WZDSkJHjwcC7UzqBjIujvupF82ZvSNyeno5mKH19e8kgZTFyq6gmRs5ujO8soZjnFRFBeiuY7IJvrKKnAy4m4O26eMQlQUeRXSkxcAuQ2bMvTIXxVkVLelqj-ZCSOv2r1r1kkohQWWHmiJ5EP1oLHscHP51bOpanvVsTe0nuKVhzsqMM54mJD51riTwlDVyXkgjAHpyCs3xrI0I8cjPk6iYXdC5MvgPB9od6zZRXleFJCYRJKhxSKJKwHWuRhFBavK1uWaVojiehdd2lTqeCczlr8DYK0VX_HvVt8Ys0FI4yv7nd337OGJosnJ7PJLLg7RTmBWKs5g4Fpf8omc9ZWg-7LU2LAtk_sWiku3qyRqtueP0zR_r4eEFeNnVXrfxdFyLH3zXMxGO6AnKx30MRUGxNe_BO_jgypJlYNB6zhD_6O4NWqmRg6D-hRAZHJkU2c4aw-74PTQ4Uc0gv7sXEsbh19k7I5misde_pO6wEnlXqszgJawMc7dRhm6zqlcmNuTC7LwFd6HlrcG48fSZN0EIpvvKnXLj4D7vdx_IG1SF1Vz7XxKr2i3mjopvEpjFEqU_kJOspueEYd4PY7mdoBsM0f7zr6p_mR7X_QY1xAqkfKfSH6D0OlQ_ppZHB9E1FWO3k4T24jT1UrBptZQtC7oRY3qclivGgyFCPRasT5nLInB1wcgASoJdXMtd2VzdC0yMK4M.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/mZ6gwjBg/kings-league.png" group-title="Kings League", grenbaud
-#EXTVLCOPT:http-referrer=https://www.twitch.tv/grenbaud
-#EXTVLCOPT:http-origin=https://www.twitch.tv/grenbaud
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://use15.playlist.ttvnw.net/v1/playlist/Ct4Eked2w0LrpmCEZQJX2r4fKPFKa7Tsj-nvxhRWWvVb7D9f4juqoPFTG6V_my1iS_2Ci-BZXrbPMmB_IOvtjitx01z-r7AJv1np1pAerknNJYLb6wuKmZIE7OxI--Tk7Ets6myhvSHNv8C07pl7epwDyMa6z4_XQldrPfCEhgXNMtaC2cGhzi7LyKrytKbjVm0mewBO4pGfMuD9SwrwroIMe_STnIFRp7OmHuhjgOYPK5kjRG-coi0F8Y_8mKhk2RVEPrrhsgkBbRpuBwiR4_2sJjn4HQ1SyQ0iN3er442JTbhkafqd91sL1fHdFPFj_n_IBfZI8_AuQcvpmvT3ZCTpWf2pD8TkNpdTFbsK4ZBzNYLY97h28nAWBx6R4ME2DfqYpZLLkLgLNKaFRi9M4viv31WiKsNnKmmUoQewGQhS1A0-pL5wb3VO7f_7DAdIVzXXEBRmP2OydlJx0-7U_w0atID16LNTWLtEsjgXG2RO3KkYHqwAvxoQWbVFTqR8ruMrc4Vw4uuUZ5Ya_-eUhPK_pJSfzmYm1fVMl_5vOAvsX3xuSX0zEAM_NKG55FaZSdDwk2IUMkDY4-0Txkqhv-gVwVMRDIcSO9dHeXnCiNUw63gYNa8d6f98XgB0V728_eAagHffzIxbyHn0MrhrNfHXjoHgAlJ7GtmOhW9Uhs-OpOWzZwytDS4Zp0MY3JTgvho63H-Z93zIrx6pn5EYAMWdaLqnNcTmD5IZI8oV6-48IAuekNww2bzIwNWIyqppyv251QWb24xzSGbRBkAf8qpxJ3KUMh98XqdWJCbBXtsUGgxqKOC7ecuRH6h52owgASoJdXMtd2VzdC0yMK4M.m3u8
+https://usw24.playlist.ttvnw.net/v1/playlist/CuQEvr7SRR2nmChK6SWN3LNC_4IpbNXtmlKYVryYvurmhE5tjn7d6UqcRRlOu0dJJjmYIUVgh4szwQ2G_xNNmvMHPHOTPcLRYQKSgoDyTkUhz4LH_V_3HG6PJHZtVBjqEq4aFeicH_AX-uO9zc70bf2-p-s-ma_0Dh4RBSDAUjO5DtwtP1AqacFjomE5G-iTeXXO-Y8sZbQMfsYD_3_mK8AfgUmdr0-iGpTGeJDYBV5vDr9tbGjboX8JDvkB5Y_1wKZavRdNIobVEMTtJt4nR23sHZPBde4YVWbm6V-oaxdusFvN_AJ-r2OnZ2abY14WCVh3k--CycpbsdjcBd8LOQB6qh2KX5rAu2qqOxe3ouMbA9waWPQJFi9Umj0arpEVHnXcBe4Ku6NIe22abk07PVQO2vrYVRJ6gx1teJzyHp_XBG1sSLtTkdJJOUQKAy8H1Jc8mj6_LKbgVMKJuEV-VS0sMLShk9TAz2zzO2u78JwS65AYFjDZa8biRs1j5ZmU3iqrixmb7BwMKxZv4zmldoK1FxVE01HjDWH0_2E1YR5a9icuOioH2LItkF1l-yCVvosrI3ZbMURyavFjfgbpQilIvBNTO_xbkD6pvC0IjJrpBkmgG3ySy0TcelJ60R2P3aimnkWaT5lFslslvYQBL6dyZG1L0_IXX_NeiFiBRuAzxfxKPvv_ozMRckSw4R1MibSPyXPFFfzWzipoN2TWoWzmDqTLXftbAeYMNSdMtb7AMt5CbnXiFD2IqqN588gP7faVDv1OwNshqq1cX38MvGLEgJNpcbuyvI23w8KN2UziiiCiI5ZEGgxFSjv0XPZGDCKeiJ4gASoJdXMtZWFzdC0yMK0M.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Kings League", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 #EXTINF:-1 tvg-id="skysportuno.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-uno-it.png" group-title="Dazn MPD",Sky Sport UNO
