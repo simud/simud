@@ -9,14 +9,14 @@
       "name": "Eventi Sportivi",
       "author": "Simud",
       "image": "https://media0.giphy.com/media/Q2uk5XNnlATqumoDF7/200w.gif?cid=6c09b9527ye9agpzw5eroab1islf6rfc1kiweuec63nhb1jc&ep=v1_stickers_search&rid=200w.gif&ct=s",
-      "url": "https://raw.githubusercontent.com/simud/simud/refs/heads/main/Events.w3u",
+      "url": "https://raw.githubusercontent.com/simud/simud/refs/heads/main/W3U/Events.w3u",
       "import": true
     },
     {
       "name": "Canali Live",
       "author": "Simud",
       "image": "https://www.tuttomille.eu/wp-content/uploads/2019/06/skyq.gif",
-      "url": "https://raw.githubusercontent.com/simud/simud/refs/heads/main/LiveTV.w3u",
+      "url": "https://raw.githubusercontent.com/simud/simud/refs/heads/main/W3U/LiveTV.w3u",
       "import": true
     }
   ]
