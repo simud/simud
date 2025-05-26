@@ -1,72 +1,229 @@
+import cloudscraper
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
-from selenium.common.exceptions import TimeoutException, WebDriverException
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from bs4 import BeautifulSoup
+import re
 import time
+import logging
 
-# Lista dei titoli Marvel da elaborare
-marvel_links = [
-    ("Iron Man", "https://altadefinizione.taipei/azione/1752-iron-man-1-streaming.html"),
-    ("The Avengers", "https://altadefinizione.taipei/azione/1234-the-avengers-streaming.html"),
-    ("Captain America: Civil War", "https://altadefinizione.taipei/azione/5678-captain-america-civil-war-streaming.html"),
-    ("Black Panther", "https://altadefinizione.taipei/azione/9101-black-panther-streaming.html"),
-    ("Thor: Ragnarok", "https://altadefinizione.taipei/avventura/1213-thor-ragnarok-streaming.html"),
-    ("Spider-Man: Homecoming", "https://altadefinizione.taipei/azione/1415-spider-man-homecoming-streaming.html"),
-    ("Doctor Strange", "https://altadefinizione.taipei/fantascienza/1617-doctor-strange-streaming.html"),
-    ("Guardians of the Galaxy", "https://altadefinizione.taipei/fantascienza/1819-guardians-of-the-galaxy-streaming.html"),
-    ("Avengers: Endgame", "https://altadefinizione.taipei/azione/2021-avengers-endgame-streaming.html"),
-    ("Thunderbolts", "https://altadefinizione.taipei/avventura/24436-thunderbolts-streaming-gratis.html")
-]
+# Configurazione del logging
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-# Configura il browser headless
+# Configurazione del browser Selenium
 chrome_options = Options()
-chrome_options.add_argument("--headless=new")  # Usa new headless se supportato
-chrome_options.add_argument("--disable-blink-features=AutomationControlled")
-chrome_options.add_argument("--no-sandbox")
-chrome_options.add_argument("--disable-dev-shm-usage")
-chrome_options.add_argument("--window-size=1920,1080")
-
+chrome_options.add_argument("--headless")  # Esecuzione in modalità headless
+chrome_options.add_argument("user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1")
 driver = webdriver.Chrome(options=chrome_options)
-m3u8_links = []
 
-print("Elaborazione dei seguenti 10 titoli Marvel:\n")
+# Inizializzazione di Cloudscraper
+scraper = cloudscraper.create_scraper()
 
-for idx, (title, url) in enumerate(marvel_links, 1):
-    print(f"{idx}. Titolo: {title} ({url})")
+# URL di partenza
+base_url = "https://altadefinizionegratis.icu/cinema/"
+m3u8_content = "#EXTM3U\n"
+
+# Funzione per ottenere i link dei film/serie da una singola pagina
+def get_movie_links_from_page(page_url):
     try:
-        driver.get(url)
-        time.sleep(5)
+        movie_links = set()
 
-        # Switcha all’iframe se presente
-        iframes = driver.find_elements(By.TAG_NAME, "iframe")
-        if iframes:
-            driver.switch_to.frame(iframes[0])
-            time.sleep(3)
+        # Estrazione con Cloudscraper
+        logging.info(f"Caricamento della pagina con Cloudscraper: {page_url}")
+        response = scraper.get(page_url)
+        soup = BeautifulSoup(response.text, 'html.parser')
+        dle_content = soup.find('div', id='dle-content')
+        if dle_content:
+            for link in dle_content.find_all('a', href=True):
+                href = link['href']
+                # Filtro per link che contengono un ID numerico e sembrano film/serie
+                if re.search(r'/\d+-', href) and any(
+                    ending in href for ending in [
+                        '-streaming-gratis.html',
+                        '-streaming-ita.html',
+                        '-gratis.html',
+                        '-hd.html',
+                        '-streaming-community-hd.html',
+                        '-streaming.html',
+                        '-ita.html'
+                    ]
+                ):
+                    if not href.startswith('http'):
+                        href = 'https://altadefinizionegratis.icu' + href
+                    movie_links.add(href)
+                    logging.info(f"Trovato link (Cloudscraper): {href}")
 
-        # Trova eventuali link m3u8 nelle sorgenti della pagina
-        sources = driver.page_source
-        if ".m3u8" in sources:
-            start = sources.find("https://")
-            end = sources.find(".m3u8", start) + 5
-            m3u8_url = sources[start:end]
-            m3u8_links.append(f"#EXTINF:-1,{title}\n{m3u8_url}")
-            print(f" - Trovato link M3U8: {m3u8_url}\n")
-        else:
-            print(f" - Nessun link M3U8 trovato.\n")
-        
-        driver.switch_to.default_content()
+        # Estrazione con Selenium per contenuti dinamici
+        logging.info(f"Caricamento della pagina con Selenium: {page_url}")
+        driver.get(page_url)
+        # Scroll per caricare contenuti dinamici
+        last_height = driver.execute_script("return document.body.scrollHeight")
+        while True:
+            driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+            time.sleep(2)
+            new_height = driver.execute_script("return document.body.scrollHeight")
+            if new_height == last_height:
+                break
+            last_height = new_height
+        WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.ID, "dle-content")))
+        source = driver.page_source
+        soup = BeautifulSoup(source, 'html.parser')
+        dle_content = soup.find('div', id='dle-content')
+        if dle_content:
+            for link in dle_content.find_all('a', href=True):
+                href = link['href']
+                if re.search(r'/\d+-', href) and any(
+                    ending in href for ending in [
+                        '-streaming-gratis.html',
+                        '-streaming-ita.html',
+                        '-gratis.html',
+                        '-hd.html',
+                        '-streaming-community-hd.html',
+                        '-streaming.html',
+                        '-ita.html'
+                    ]
+                ):
+                    if not href.startswith('http'):
+                        href = 'https://altadefinizionegratis.icu' + href
+                    movie_links.add(href)
+                    logging.info(f"Trovato link (Selenium): {href}")
 
-    except TimeoutException:
-        print(f" - Timeout nell'elaborazione di {title}\n")
-    except WebDriverException as e:
-        print(f" - Errore WebDriver per {title}: {e}\n")
+        logging.info(f"Trovati {len(movie_links)} link di film/serie nella pagina {page_url}")
+        return movie_links
+    except Exception as e:
+        logging.error(f"Errore nel recupero dei link dalla pagina {page_url}: {e}")
+        return set()
 
-# Scrivi l'M3U8 finale
-output_path = "films.m3u8"
-with open(output_path, "w") as f:
-    f.write("#EXTM3U\n")
-    for line in m3u8_links:
-        f.write(line + "\n")
+# Funzione per ottenere i link dei film/serie da tutte le pagine
+def get_movie_links():
+    movie_links = set()
+    # Prima pagina: /cinema/
+    movie_links.update(get_movie_links_from_page(base_url))
+    # Pagine da 2 a 10: /cinema/page/2/, /cinema/page/3/, ecc.
+    for page_num in range(2, 11):
+        page_url = f"{base_url}page/{page_num}/"
+        movie_links.update(get_movie_links_from_page(page_url))
+    logging.info(f"Trovati {len(movie_links)} link di film/serie in totale")
+    return list(movie_links)
 
-print(f"File M3U8 salvato in: {output_path}")
-driver.quit()
+# Funzione per ottenere i provider da una pagina di film con Selenium
+def get_providers(movie_url):
+    try:
+        logging.info(f"Caricamento della pagina del film: {movie_url}")
+        driver.get(movie_url)
+        WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.TAG_NAME, "iframe")))
+        source = driver.page_source
+        soup = BeautifulSoup(source, 'html.parser')
+        iframe = soup.find('iframe', src=True)
+        if iframe:
+            iframe_url = iframe['src']
+            if not iframe_url.startswith('http'):
+                iframe_url = 'https:' + iframe_url
+            logging.info(f"Trovato iframe: {iframe_url}")
+            return get_provider_links(iframe_url)
+        logging.warning(f"Nessun iframe trovato per {movie_url}")
+        return []
+    except Exception as e:
+        logging.error(f"Errore nel recupero dell'iframe per {movie_url}: {e}")
+        return []
+
+# Funzione per ottenere i link dei provider con Selenium
+def get_provider_links(iframe_url):
+    try:
+        logging.info(f"Caricamento della pagina iframe: {iframe_url}")
+        driver.get(iframe_url)
+        WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CLASS_NAME, "_player-mirrors")))
+        source = driver.page_source
+        soup = BeautifulSoup(source, 'html.parser')
+        providers = []
+        valid_providers = ['supervideo', 'dropload', 'mixdrop', 'doodstream']
+        for li in soup.find_all('li', {'data-link': True}):
+            provider_url = li['data-link']
+            if not provider_url.startswith('http'):
+                provider_url = 'https:' + provider_url
+            provider_name = li.text.strip().lower()
+            if provider_name in valid_providers:
+                providers.append((provider_name, provider_url))
+                logging.info(f"Trovato provider: {provider_name} - {provider_url}")
+        logging.info(f"Trovati {len(providers)} provider validi per {iframe_url}")
+        return providers
+    except Exception as e:
+        logging.error(f"Errore nel recupero dei provider per {iframe_url}: {e}")
+        return []
+
+# Funzione per ottenere il flusso diretto (se disponibile) o usare l'embed con Cloudscraper
+def get_stream_url(provider_name, provider_url):
+    try:
+        logging.info(f"Recupero flusso per {provider_name}: {provider_url}")
+        response = scraper.get(provider_url, headers={
+            'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1',
+            'Referer': provider_url,
+            'Origin': provider_url
+        })
+        soup = BeautifulSoup(response.text, 'html.parser')
+        video_source = soup.find('source', src=re.compile(r'\.m3u8$'))
+        if video_source:
+            logging.info(f"Trovato flusso diretto: {video_source['src']}")
+            return video_source['src']
+        logging.info(f"Nessun flusso diretto trovato, utilizzo embed: {provider_url}")
+        return provider_url
+    except Exception as e:
+        logging.error(f"Errore nel recupero del flusso per {provider_url}: {e}")
+        return provider_url
+
+# Funzione per generare la voce M3U8
+def generate_m3u8_entry(title, provider_name, stream_url):
+    provider_domain = provider_name
+    return f"""#EXTINF:-1 group-title="{provider_name}" tvg-name="{title}",{title}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://{provider_domain}
+#EXTVLCOPT:http-origin=https://{provider_domain}
+{stream_url}\n"""
+
+# Funzione principale
+def main():
+    global m3u8_content
+    movie_links = get_movie_links()
+    logging.info(f"Elaborazione di {len(movie_links)} film/serie")
+
+    for movie_url in movie_links:
+        try:
+            # Estrai il titolo dal link
+            title = movie_url.split('/')[-1]
+            # Rimuovi i suffissi
+            for ending in [
+                '-streaming-gratis.html',
+                '-streaming-ita.html',
+                '-gratis.html',
+                '-hd.html',
+                '-streaming-community-hd.html',
+                '-streaming.html',
+                '-ita.html'
+            ]:
+                title = title.replace(ending, '')
+            # Rimuovi l'ID numerico iniziale (es. "28473-")
+            title = re.sub(r'^\d+-', '', title)
+            # Formatta il titolo
+            title = title.replace('-', ' ').title()
+            logging.info(f"Titolo pulito: {title}")
+            providers = get_providers(movie_url)
+            for provider_name, provider_url in providers:
+                stream_url = get_stream_url(provider_name, provider_url)
+                m3u8_content += generate_m3u8_entry(title, provider_name, stream_url)
+            time.sleep(1)  # Pausa per evitare sovraccarico
+        except Exception as e:
+            logging.error(f"Errore durante l'elaborazione di {movie_url}: {e}")
+
+    # Salva il file M3U8
+    with open('films.m3u8', 'w', encoding='utf-8') as f:
+        f.write(m3u8_content)
+    logging.info("File M3U8 generato con successo: films.m3u8")
+
+# Esecuzione
+if __name__ == "__main__":
+    try:
+        main()
+    finally:
+        driver.quit()
