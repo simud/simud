@@ -158,21 +158,6 @@ https://xuione.sportstreaming.net/SportStreaming/SportStreaming/8.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Eventi", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 #EXTINF:-1 info canali
-#EXTINF:-1 group-title="Basket" tvg-logo="https://sportzone.hair//images/67039b55acd48.png",Sky Sport vs NBA
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.hair/
-#EXTVLCOPT:http-origin=https://sportzone.hair/
-https://hls.kangal.icu/hls/skynba/index.m3u8
-#EXTINF:-1 group-title="Basket" tvg-logo="https://sportzone.hair//images/67039b6f4b47a.png",Sky Sport vs NBA
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.hair/
-#EXTVLCOPT:http-origin=https://sportzone.hair/
-https://hls.kangal.icu/hls/skynba/index.m3u8
-#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.hair//images/68343d4c2c2c6.png",Wydad (Mar) vs Siviglia (Esp)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.hair/
-#EXTVLCOPT:http-origin=https://sportzone.hair/
-https://hls.kangal.icu/hls/siviglia/index.m3u8
 #EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.hair//images/68343d11cf510.png",Elversberg vs Heidenheim
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://sportzone.hair/
@@ -193,6 +178,21 @@ https://hls.kangal.icu/hls/damac/index.m3u8
 #EXTVLCOPT:http-referrer=https://sportzone.hair/
 #EXTVLCOPT:http-origin=https://sportzone.hair/
 https://hls.kangal.icu/hls/fateh/index.m3u8
+#EXTINF:-1 group-title="Basket" tvg-logo="https://sportzone.hair//images/67039b55acd48.png",Sky Sport vs NBA
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.hair/
+#EXTVLCOPT:http-origin=https://sportzone.hair/
+https://hls.kangal.icu/hls/skynba/index.m3u8
+#EXTINF:-1 group-title="Basket" tvg-logo="https://sportzone.hair//images/67039b6f4b47a.png",Sky Sport vs NBA
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.hair/
+#EXTVLCOPT:http-origin=https://sportzone.hair/
+https://hls.kangal.icu/hls/skynba/index.m3u8
+#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.hair//images/68343d4c2c2c6.png",Wydad (Mar) vs Siviglia (Esp)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.hair/
+#EXTVLCOPT:http-origin=https://sportzone.hair/
+https://hls.kangal.icu/hls/siviglia/index.m3u8
 #EXTINF:-1 group-title="Tennis" tvg-logo="https://sportzone.hair//images/6683b5fc5db3b.jpg",ATP & WTA vs Sky Sport Tennis
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://sportzone.hair/
@@ -227,7 +227,7 @@ https://hls.kangal.icu/hls/eurosport2/index.m3u8
 #EXTVLCOPT:http-referrer=https://www.twitch.tv/controcalcio__
 #EXTVLCOPT:http-origin=https://www.twitch.tv/controcalcio__
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://use22.playlist.ttvnw.net/v1/playlist/CvIEdcv5oUgCWNBfvSR9fW2phjY-ncE_ZoSKCs-WujDx_yjejoYL6NUUOdsmn0Fa_IMKsH7CFJeMkFvt1GvMZQYjLdVBwkRmcaN9v9EunoGEUR-o5uZVo4qGJZn9aqBcIxPm-zykWJELGSR2uuC9XKktF2iJp2ugN_NWJc1iZ78JkFifiHy8Cf18N1A_M4P09IqRiPPiqFmPtze2OET44r-br6AackazgGdrNXx1bf-QAz4hat-J-XRupZtuXp-ETQlNNh-fOhoqZ2zRmkPcTVeYkWzhr9kBu4-0eCN_I3hlZAPbi1Ef2ZSL5QXvBOSwU_TSSlZ7zVr6gMbka3rrkxOjQx5qFNDE8dx7wP1BMCMfukMaxX_WMC-iXecH_rd3gmTrL170VdMwPevoLgv1E4uBJqWSzW092nKTN9I5Lto9CK2Cv-wIP3GANAYtGfJktJl_olYM-MhTLlLApAHp28NKYCJvi3t3sr9cQlzL-XiiPqb6qjCRgkgdK1SiXpnXX4x_n3wBIe_B9-GOcSF5Hf2NZ-_azWzatDge5SHTeqp8fAxDmOo_mPj4YmUTBMNYxijHbNdXqjFvPbdFOyqXEO49Xj1ze0LOoy4ab0vroNFUkY5JJYR-rEPWo2yRkZquoCMwekm1xyGqUmoFqJxrhJzfNGVWF44jdGEM9D3eJkowNyFePJsjnljV8cDwOuH8V89KcdGzNSY7lBSfRRINKMkaz60RMdbpCeJD_TeGRLswTuNoGshLnCj6NsoQ4xIZ85HY2P_gfJnPquOL_VeTTq9pCvn0JYILvTL0xduQmV1YFrfUkYkC1Xe-EkNxq3z72uGEg7saDLW_DHqf-AJToOdw8SABKgl1cy1lYXN0LTIwrQw.m3u8
+https://use22.playlist.ttvnw.net/v1/playlist/CvEEwIlrOmDGybVQJqpsUZkhI_Oe9oeuTQE4EUTW1M5XOePdxvA2eKXgbHap7459wwJ8EH3vv03Q2Pj12UzQWJjkBmU4yZCXZLq_g4V5o_k9Xuov6m6brXqcgFZaiZOZU0jObe4lTxwWAQebHQQAEEaQPYEtMPsHZ9Vm2mBQ_W3DAdokSXqAJ95RpN3k1rmmpfrRep_jiFEDEg0i3nQFnnlVW6zBuRjJUUl9It9oj_0q1r8e_GnroZP1NURbbZvDgU10bQBAxaVL7WK327XuAttySOWU2gIo6zKURbArweMdx9VCv2bbzQf8XzHUQ8mGIsOGngZuXBe4-5y7IeqphC3mjAoyxi066lputyd6pg7QVwWisgU_h8nkCVuqp9vYrhA6QIsR5CG5vyT0MsYOyff7vmJhhhI8UYHn_eWpjSTAne3d6QsOChncCHoVUpVHE6_Frhi4x1phP5AHmPJw7OO06pm_hfG5GTSbVUsi244Lh0rgL8gg7GcS322oFVvA7DVkHKj-w5sh2MyhbeXLNaE5sF-rGoK-j8coYPTlEgQ1I9xqeJqZFRBGn8MtOwE2Zxkbn4U6LJTG7xGVTYKRO_PoDebaB13Y9K2h3N4YDPXcJEbIpEK-TKXgjE-EqiJsbOaLFPnZXx6-YRTVRbYmcFhVomtKLHISIatAmZkmX8s9eV8veQUWzQ_VllvVndyC3PzgC4IgAGa-A57c1_Z3Vxbu3nIVqHHWpCHVy65V861n75ztMwfdMtlLbeBXSU2qe_L-GxnUHOIh0IgxIvLtyi7vo5bdEaGEXSxTCiFdDzqueFhunUuqP6uPFp_A_Ru2qY1XehoMfvTaBOSV7K0RSPi-IAEqCXVzLWVhc3QtMjCtDA.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Kings League", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 #EXTINF:-1 tvg-id="skysportuno.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-uno-it.png" group-title="Dazn MPD",Sky Sport UNO
