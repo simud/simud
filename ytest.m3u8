@@ -1,25 +1,25 @@
 #EXTM3U
-#EXTINF:-1 group-title="supervideo" tvg-name="24436 Thunderbolts"
+#EXTINF:-1 group-title="supervideo" tvg-name="24436 Thunderbolts",24436 Thunderbolts
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://supervideo
 #EXTVLCOPT:http-origin=https://supervideo
 https://supervideo.cc/e/32f5926qn3r4
-#EXTINF:-1 group-title="dropload" tvg-name="24436 Thunderbolts"
+#EXTINF:-1 group-title="dropload" tvg-name="24436 Thunderbolts",24436 Thunderbolts
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://dropload
 #EXTVLCOPT:http-origin=https://dropload
 https://dropload.io/embed-kdnfk92b5eu0.html
-#EXTINF:-1 group-title="player 4k" tvg-name="24436 Thunderbolts"
+#EXTINF:-1 group-title="player 4k" tvg-name="24436 Thunderbolts",24436 Thunderbolts
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://mostraguarda.stream
 #EXTVLCOPT:http-origin=https://mostraguarda.stream
 https://mostraguarda.stream/fullhd/index.php?code=tt20969586
-#EXTINF:-1 group-title="mixdrop" tvg-name="24436 Thunderbolts"
+#EXTINF:-1 group-title="mixdrop" tvg-name="24436 Thunderbolts",24436 Thunderbolts
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://mixdrop
 #EXTVLCOPT:http-origin=https://mixdrop
 https://mixdrop.ag/e/dk131gk9ix670v
-#EXTINF:-1 group-title="doodstream" tvg-name="24436 Thunderbolts"
+#EXTINF:-1 group-title="doodstream" tvg-name="24436 Thunderbolts",24436 Thunderbolts
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://doodstream
 #EXTVLCOPT:http-origin=https://doodstream
