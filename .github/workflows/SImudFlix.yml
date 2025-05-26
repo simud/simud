@@ -1,7 +1,7 @@
 name: Altadefinizione Scraper
 
 on:
-  workflow_dispatch:  # Esecuzione manuale
+  workflow_dispatch:
   schedule:
     - cron: '0 */3 * * *'  # Ogni 3 ore
 
@@ -10,10 +10,22 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository with custom token
+      - name: Checkout repository
         uses: actions/checkout@v3
         with:
           token: ${{ secrets.ACTIONS_TOKEN }}
+
+      - name: Install Chrome & ChromeDriver
+        run: |
+          sudo apt update
+          sudo apt install -y wget unzip
+          wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+          sudo apt install -y ./google-chrome-stable_current_amd64.deb
+          CHROME_VERSION=$(google-chrome --version | grep -oP '\d+\.\d+\.\d+\.\d+')
+          wget -q "https://storage.googleapis.com/chrome-for-testing-public/$CHROME_VERSION/linux64/chromedriver-linux64.zip"
+          unzip chromedriver-linux64.zip
+          sudo mv chromedriver-linux64/chromedriver /usr/local/bin/chromedriver
+          sudo chmod +x /usr/local/bin/chromedriver
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -23,32 +35,10 @@ jobs:
       - name: Install Python dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests beautifulsoup4 selenium cloudscraper
+          pip install selenium cloudscraper beautifulsoup4
 
-      - name: Install Google Chrome and ChromeDriver
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y wget unzip jq
-
-          # Install Google Chrome
-          wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-          sudo apt-get install -y ./google-chrome-stable_current_amd64.deb
-
-          # Get Chrome major version and matching ChromeDriver
-          CHROME_VERSION=$(google-chrome --version | grep -oP '\d+\.\d+\.\d+')
-          DRIVER_VERSION=$(curl -s "https://googlechromelabs.github.io/chrome-for-testing/last-known-good-versions-with-downloads.json" | jq -r '.channels.Stable.version')
-
-          # Download and install ChromeDriver
-          wget -O chromedriver.zip "https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/${DRIVER_VERSION}/linux64/chromedriver-linux64.zip"
-          unzip chromedriver.zip
-          sudo mv chromedriver-linux64/chromedriver /usr/local/bin/chromedriver
-          sudo chmod +x /usr/local/bin/chromedriver
-
-      - name: Run Simud scraper
-        env:
-          GITHUB_WORKSPACE: ${{ github.workspace }}
-        run: |
-          python SimudFlix.py
+      - name: Run SimudFlix scraper
+        run: python SimudFlix.py
 
       - name: Commit and push updated M3U8 file
         run: |
