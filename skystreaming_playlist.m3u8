@@ -321,6 +321,10 @@ https://skystreaming.stream/embed/GDdCS
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.stream
 https://skystreaming.stream/embed/gU17V
+#EXTINF:-1 group-title="Eventi Sky Streaming" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Wydad Mar Vs Siviglia Esp
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://skystreaming.stream
+https://skystreaming.stream/embed/gX2pS
 #EXTGRP:Sky Sport Backup SD tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png"
 #EXTINF:-1 group-title="Sky Sport Backup SD" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-for-business-vector-logo-2021.png", Benfica Vs Sporting
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
