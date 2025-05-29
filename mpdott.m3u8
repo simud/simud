@@ -415,7 +415,7 @@ https://hls.kangal.icu/hls/skyuno/index.m3u8
 #EXTVLCOPT:http-referrer=https://www.twitch.tv/freneh
 #EXTVLCOPT:http-origin=https://www.twitch.tv/freneh
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://usw22-0.playlist.ttvnw.net/v1/playlist/CtcE24lMqmBcdVhjmNux9t7gvncCDphYFrOtKoE4d9zDYB1FD6UwubHMW3mQRHX-SFxmYQ0OKpIL2PtgEbB3Xzdk0maPTcWKX7HwUXN7nRsaTHcz2IqTEYfY2BVyHrwxFDN0Pj-UgBugJHau_iokFZqfXykPatd8ywAdkvcpqEDx7r5wW976cvnIuvlVi3VPkwNAg1NyPepWe-8loLL55hGX-pAJggX55VhMo1jZS4VFBKzFXwycZMcWl0gUomxt720UeUHEzDCFdYxkoz4HFyuN9zdagyYTpZE-x9FvPzU-bO2UhxkZFNWZeqczqZiQCrmW6i1vJyCVRw9QxJzONQRwwINdSVRsiJK5NNqLkU24TepAabPovy32HRBcxD25Ih0x80S4jkQXfnKnhXmdA8xdO-FlFgbr-6Jed75tYTg_AxTrDcrSeml_Dpe8h5F8HWji2wefrPVtuw8sJYk0BOJLmKR39iGhf3Kw_-1qMNYzRLWNftOUX6rkm9JW2T-Ok9DuU7gu1KSOWHWDPWfZfmZWfC15dcyGSHaFilYbzQQlu2h-B1gsRjoslvyvGPDOKizX1rLs9JOE8_-FVCe2cbNkUDYqTYVFksTcvgUDouGToSNPm8GsO-jJ62DjS31FGFi4_zEO4MvjTYnslFnLFwZbmWemb0DcDaEMqJU_3N4zL6Y67UvvSZIMuQnKvYt7ap_JeOd-fD23ck7P68Ft_NwoDxmgAafWp1ZoQIgPeS30sY0tcW6jeRMcSw8YElEpb-Xb-jyTifbtknCSDElXnnUNqVQBv9jMt5MaDOIbhpcwgxwm8o6Q9iABKgl1cy13ZXN0LTIwsQw.m3u8
+https://usw23.playlist.ttvnw.net/v1/playlist/CtUEiE8iMUMf_LYc4_U_qCW6UbSi7sxe-9U16K8CkjO1_7i4lAR1ScOwvZYk7JoH0zdT96j9fecJc-J2dHb9fRdYQ-qAGsAcavsT3ijmqHDsdVVwVL44SYiBdpXySbH9Dt0mbfI9Q2M_70nqOdIzSAkIEumZL835CDSBijBEvhiC2QS4G73Z0dMZwDPltqQotRusBJIg-tmI0mlc_L2QOe_7sccA3HBiCIJek6Nlus-p6bdXE0JUxEPcNTQb7ePvlJn28p5Pwcovqjh3p-qsBAR_N0Kl_CzSvkE2QwoNdSqnBlfAgPtMTpFaM5BuQuawNKRIjbJPE2obe2igfyDdtKKCAmA2as1tMgcqYXIhdEiTTun1YJOqOnaApC7hwfxXO4GkfKpPavpTlwptI6O2ydBvl1aVsi_CtpeBUUXm7RRGZubNx60AwgqeHxBhedVdT9SDAorj4hEoGC05aEqYie1ogVtlPEy2CXBJVAb046k_uY7xe9hN_ehXzw1RNE9SXMGppTkgtCR6AXXnK7JErYRCN7osfXZoalP_LJjbQ_hQsPP6WSxEHJj438qxaSBq_xPv6ZHRG1OT1n2R7aWGET1bNsXp2p0hLx5VkPpNB-bKpXYYbNoNOGRLpl8QfrIEXsoQrrmxO9E3-YdanHxdhx3ZEdhZkooGc5C1rTdPdSjHXyASOnUbDYswy3HTSC9V4NH9_9J_2UDVLxD1PLhMMzQ1YNXcrY47oZLFJ1BBrycIMYPpMRYXWt-9F9Fnpe20soEjvjF2AIdjwArCYhdmzRYIBluYK1M-GgxQOIuz5fE6lB_J5j4gASoJdXMtd2VzdC0yMLEM.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Kings League", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 #EXTINF:-1 tvg-id="skysportuno.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-uno-it.png" group-title="Dazn MPD",Sky Sport UNO
@@ -466,18 +466,6 @@ https://linear313-it-dash1-prd.selector.skycdn.it/016a/32477/FHD/skyuno/master_s
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=0036bb3fa7e6f2c334d7cba5c28b6caf:217fa35739cd68e90b2cd23322c01312
 https://linear311-it-dash1-prd.selector.skycdn.it/016a/313073/FHD/eurosport/master_stereo.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Altro",live12hd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=003610b4ce44ba838c199b6636cf7431:8369cbbccf0c1ff6bdbacbdae9252a04
-https://linear312-it-dash1-prd.selector.skycdn.it/016a/32951/FHD/skysport252/master.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Altro",live12
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=003610b4ce44ba838c199b6636cf7431:8369cbbccf0c1ff6bdbacbdae9252a04
-https://linear312-it-dash1-prd.selector.skycdn.it/016a/32951/FHD/skysport252/master_stereo.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Altro",live13hd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0036d3b63b421abd69d9f0d3b6bdcf19:0725c3162d5aefbf9c6d144f06ea0c92
-https://linear311-it-dash1-prd.selector.skycdn.it/016a/32233/FHD/skysport253/master_stereo.mpd
 #EXTM3U  url-tvg="http://www.epgitalia.tv/gzip,http://epg-guide.com/it.gz,https://raw.github.com/matthuisman/i.mjh.nz/master/PlutoTV/us.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/PlutoTV/it.xml.gz,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-events-epg.xml,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-channels-epg.xml,https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/it.xml.gz"
 #EXTINF:-1 tvg-id="Sky.Sport24.it" tvg-logo="https://i.postimg.cc/d3fXKnGj/sky-condivisione.png" group-title="Sky Sport",Sky Sport 24
 #KODIPROP:inputstream.adaptive.license_type=clearkey
