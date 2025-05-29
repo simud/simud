@@ -1,11 +1,6 @@
 #EXTM3U url-tvg="http://www.epgitalia.tv/gzip,http://epg-guide.com/it.gz,https://raw.github.com/matthuisman/i.mjh.nz/master/PlutoTV/us.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/PlutoTV/it.xml.gz,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-events-epg.xml,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-channels-epg.xml,https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/it.xml.gz"
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Eventi Sportivi", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
-#EXTINF:-1 group-title="Eventi Sky Streaming" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Asean A Asi Vs Manchester Utd Eng
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://skystreaming.stream
-#EXTVLCOPT:http-origin=https://skystreaming.stream
-https://hls.kangal.icu/hls/united/index.m3u8
 #EXTINF:-1 group-title="Eventi Sky Streaming" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Atp Singolare Vs Open Di Francia Es1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.stream
@@ -16,26 +11,6 @@ https://hls.kangal.icu/hls/eurosport1/index.m3u8
 #EXTVLCOPT:http-referrer=https://skystreaming.stream
 #EXTVLCOPT:http-origin=https://skystreaming.stream
 https://hls.kangal.icu/hls/eurosport2/index.m3u8
-#EXTINF:-1 group-title="Eventi Sky Streaming" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Betis Vs Chelsea
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://skystreaming.stream
-#EXTVLCOPT:http-origin=https://skystreaming.stream
-https://hls.kangal.icu/hls/sky251/index.m3u8
-#EXTINF:-1 group-title="Eventi Sky Streaming" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Pescara Vs Audace Cerignola
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://skystreaming.stream
-#EXTVLCOPT:http-origin=https://skystreaming.stream
-https://hls.kangal.icu/hls/sky253/index.m3u8
-#EXTINF:-1 group-title="Eventi Sky Streaming" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Santos Bra Vs Rb Lipsia Ger
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://skystreaming.stream
-#EXTVLCOPT:http-origin=https://skystreaming.stream
-https://hls.kangal.icu/hls/santos/index.m3u8
-#EXTINF:-1 group-title="Eventi Sky Streaming" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Ternana Vs L R Vicenza
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://skystreaming.stream
-#EXTVLCOPT:http-origin=https://skystreaming.stream
-https://hls.kangal.icu/hls/sky252/index.m3u8
 #EXTINF:-1 group-title="Sky Sport Backup SD" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Eurosport 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.stream
