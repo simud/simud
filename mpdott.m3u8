@@ -539,6 +539,11 @@ https://hls.kangal.icu/hls/skyuno/index.m3u8
 #EXTVLCOPT:http-referrer=https://skystreaming.stream
 #EXTVLCOPT:http-origin=https://skystreaming.stream
 https://hls.kangal.icu/hls/skyuno/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/mZ6gwjBg/kings-league.png" group-title="Kings League", manuuxo
+#EXTVLCOPT:http-referrer=https://www.twitch.tv/manuuxo
+#EXTVLCOPT:http-origin=https://www.twitch.tv/manuuxo
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://use16.playlist.ttvnw.net/v1/playlist/Ct0EO3JdlO-YfpEwn5LMPGDDipO3P6YJKMq8qEefm3UD0_4p17fk3kmdWoJxYlLsU1wn97n783EIumBu394JgObiQrH9f3CGWU2-51UVRP4qpOGK2BaGE3rpcIQaH-6YmkFmpd3APv0hLibR9-1Gd4a38R1ayNLRU-_qPOZnE1nQs4BQG2ljt25s3wpN9V0sa43zrD2GhYZLpDNa1SFuvYJGGabYsX1iTzZ44mBSO26jRc1ujlevtYN3lCHfNS6E09p4g1K6CdypwbYX8pXf2bL33-t3LSZi6eh0lSBfXhTk_1RvDdklf-sVSPg-pKDFmgXUhBd9sxXWouLYyJ_OlanlgopAq5izkmuO5b7QeHeh735g5eQ0TkV6vu2Dh1Ir9T85jdW3fzulC1k2cozXsN-USFGquPbKWO1eH-X9yT7F9P9vidR3UkFt1GqZCPmtOW_ReuPRmxoTfUk5s_mHze7ojIJeQgjNa2TdonojWJeF_8toNNFaAHoeGwBwY31KfiPVOc1ZeXnXxJemcD0IPlWiM9-Ryo19nkP_zvdCpfljcZ9K3apDB6DfpCXTOWnRJxkdMHD1M4kkW209W6wmU7cRi19trBYwhPH7SYVtNpgQ1EeT68Wg_nSWhWZmkzmS1F0eKj8QawbtEUqi-SYJR9gBvhKlPLc0oPxIOB3k6CT0yncN-rEPGhC4pR9KyO3M-6liQnZC3TrQIEhHJzVoVtD05RHDzxHHDTDAn9I5o4VCVsnxkrNsPhCF9JMg9Lkhyol29oRl3JLu29JrcgK_ZP4iIzPoQCUMnEv-I9NzGIIaDBLEF-wTGLIUOEX7HyABKgl1cy1lYXN0LTIwsgw.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Kings League", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 #EXTINF:-1 tvg-id="skysportuno.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-uno-it.png" group-title="Dazn MPD",Sky Sport UNO
