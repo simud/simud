@@ -1,34 +1,4 @@
 #EXTM3U url-tvg="http://www.epgitalia.tv/gzip,http://epg-guide.com/it.gz,https://raw.github.com/matthuisman/i.mjh.nz/master/PlutoTV/us.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/PlutoTV/it.xml.gz,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-events-epg.xml,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-channels-epg.xml,https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/it.xml.gz"
-#EXTINF:-1 tvg-id="skysport251.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-251-it.png" group-title="CALCIO",21:00 Paris Saint-Germain - Inter
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0036384f59a2b80ed142f82250c79f77:2e6507cb779a28739b0bb1564f418823
-https://linear311-it-dash1-prd.selector.skycdn.it/016a/31917/FHD/skysport251/master.mpd
-#EXTINF:-1 tvg-id="skysportuno.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-uno-it.png" group-title="CALCIO",21:00 Paris Saint-Germain - Inter
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0036aaa1d68c6b487e29a5cb080a8a28:a3e8db3ff3c876f7b43a961b64a63474
-https://linear301-it-dash1-prd.selector.skycdn.it/016a/31023/FHD/skysportuno/master_stereo.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",21:00 Paris Saint-Germain - Inter
-https://viamotionhsi.netplus.ch/live/eds/m6hd/browser-dash/m6hd.mpd
-#EXTINF:-1 tvg-id="tntsports1.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/TNT_Sports_Logo_2023.svg/800px-TNT_Sports_Logo_2023.svg.png" group-title="CALCIO",21:00 Paris Saint-Germain - Inter
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=b770d5b4bb6b594daf985845aae9aa5f:b0cb46d2d31cf044bc73db71e9865f6f
-https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/wf8usag51e/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd
-#EXTINF:-1 tvg-id="tntsports1.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/TNT_Sports_Logo_2023.svg/800px-TNT_Sports_Logo_2023.svg.png" group-title="CALCIO",21:00 Paris Saint-Germain - Inter
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=ae26845bd33038a9c0774a0981007294:63ac662dde310cfb4cc6f9b43b34196d
-https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/wf8usag51e/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",21:00 Paris Saint-Germain - Inter
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=7fc352fa54683accf20b12f679027661:993400c4b5ad851c8d6368417d6a3b4c
-https://fl-009.live.p7s1video.net/45371d5a/t_009/zdf-de-hd/cenc-default.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",21:00 Paris Saint-Germain - Inter
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=ef34ae91b4f2415e8439b2ad105e7488:243248d8de1ff8c7c587ee2057317523
-https://mag03.tvx.prd.tv.odido.nl/wh7f454c46tw75168188_-627298088/PLTV/86/224/3221241590/3221241590.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",21:00 Paris Saint-Germain - Inter
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=d816287e21496989eae1312925a423c5:00da00f13180e7e6cd5ce87d1c974e8d
-https://live.rte.ie/live/a/vc12/vc12.isml/manifest.mpd
 #EXTINF:-1 tvg-id="skysportcalcio.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-calcio-it.png" group-title="CALCIO",21:15 Ternana - Pescara
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=00362f95db61eba0e6f14acee3f71e01:fb74cd84b53c7557e18424a3356c4665
@@ -81,10 +51,6 @@ https://linear308-it-dash1-prd.selector.skycdn.it/016a/31764/FHD/skysportnba/mas
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=00364eac2ffee337640e39682439b540:0960172d9000c470ade0658bd36c1d53
 https://linear308-it-dash1-prd.selector.skycdn.it/016a/31764/FHD/skysportnba/master_stereo.mpd
-#EXTINF:-1 tvg-id="eurosport2.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/eurosport-2-es.png" group-title="BASKET",19:00 Virtus Bologna v EA7 Milano (Gara 1)
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=003670a7034342a4a07c91173818c61c:7b90055c1a1ea34d9090e9ebf6c4db8a
-https://linear312-it-dash1-prd.selector.skycdn.it/016a/31150/FHD/eurosport2/master_stereo.mpd
 #EXTINF:-1 tvg-id="eurosport2.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/eurosport-2-es.png" group-title="BASKET",20:45 Trapani Shark v Germani Brescia (Gara 2)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=003670a7034342a4a07c91173818c61c:7b90055c1a1ea34d9090e9ebf6c4db8a
@@ -531,11 +497,6 @@ https://hls.kangal.icu/hls/skyuno/index.m3u8
 #EXTVLCOPT:http-referrer=https://skystreaming.stream
 #EXTVLCOPT:http-origin=https://skystreaming.stream
 https://hls.kangal.icu/hls/skyuno/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/mZ6gwjBg/kings-league.png" group-title="Kings League", freneh
-#EXTVLCOPT:http-referrer=https://www.twitch.tv/freneh
-#EXTVLCOPT:http-origin=https://www.twitch.tv/freneh
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://use14.playlist.ttvnw.net/v1/playlist/CtIE-4Jm1uoQVM3HOtCfqnMnBHtr3nPYXObkU_bSlTKC4qfetWHyrvjEcIlpDkJPvckL9RRRSpAqn-XhV0ywLeK1VqZt4JVSALXcGkGM9MNfvcPDRvenT-cN0HRCnBxlgO58of71RwOgBOS1i2MeGPR-0el_UcoLbE99FBNrgKIRdux8QliDglJTCb5p5mw-jAJRDw3r9qiCuuzk72BdY65yZfsZJ6sx6pld3KlMQGuCdQGwxpIBFfIPzrWBAF_NxS93_KkfJzpLRhY_PHxXmtJl5pbu_I2SguqvhY53auvnZn_8-TB-cNezNFLLPRywdKt1ewWHKB-vS1EFF6eUXeMbdg50wGeitl2IzBAfA5fbCz-OJDOzbzHyZlyoN-Qj1IxvcWdXD7pDb1z40W5dIGBLX89d4TwX5YrsJ2yyskfshV-mJS5A-QnARrfrLidfBbJK2fp9C3iWgi6ALJ9np64TA3XPiF5fGrh5JWGnGkczp0F7e-0gDTRVbDKBbU411eIU8e3X7uK07VAdhg6IBCIi_MwhKiPLBEsmxZ4V9Mc948bP-LfELjuRdEKkpLnKzDq-Gov7Ys57--xC98ZebY6MvIU2NLIF9OR1V9Xz4KajnoE0B3aszN9cpTqA_0YSLRzyEHeSQpXTKtlfX_smvyOJ2SY2CAzrtZ2BW9sCKGGZBumBAxbjw-7fgYsgnV7ACIiYRA4ptDfvZzyXZjW1sl7zMqUDPsIZwLc_KdK_qdLLjDdkq2-Sk5jfv3ZzHa29HH9XYYjvjXitEfWDjHoWnZuiwaYoGgysiqGxGAF38rAmPZkgASoJdXMtd2VzdC0yMLQM.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Kings League", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 #EXTINF:-1 tvg-id="skysportuno.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-uno-it.png" group-title="Dazn MPD",Sky Sport UNO
