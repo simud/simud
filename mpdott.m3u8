@@ -109,10 +109,6 @@ https://xuione.sportstreaming.net/SportStreaming/SportStreaming/9.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
 https://xuione.sportstreaming.net/SportStreaming/SportStreaming/8.m3u8
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live3.png", PSG   InterChampions League   FinaleSabato 31 Maggio ore 21:00
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
-https://xuione.sportstreaming.net/SportStreaming/SportStreaming/3.m3u8
 #EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live4.png", Spezia   CremoneseSerie B   Play Off Finale RitornoDomenica 01 Giugno ore 20:30
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
@@ -149,17 +145,22 @@ https://hls.kangal.icu/hls/formula/index.m3u8
 #EXTVLCOPT:http-referrer=https://skystreaming.stream
 #EXTVLCOPT:http-origin=https://skystreaming.stream
 https://hls.kangal.icu/hls/formula/index.m3u8
-#EXTINF:-1 group-title="Eventi Sky Streaming" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Los Angeles Fc Vs Club America
+#EXTINF:-1 group-title="Eventi Sky Streaming" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Huracan Vs Platense
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.stream
 #EXTVLCOPT:http-origin=https://skystreaming.stream
-https://hls.kangal.icu/hls/fifaclub/index.m3u8
-#EXTINF:-1 group-title="Eventi Sky Streaming" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Psg Vs Inter
+https://hls.kangal.icu/hls/sportitalia/index.m3u8
+#EXTINF:-1 group-title="Eventi Sky Streaming" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Spezia Vs Cremonese
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.stream
 #EXTVLCOPT:http-origin=https://skystreaming.stream
-https://hls.kangal.icu/hls/serie/index.m3u8
-#EXTINF:-1 group-title="Eventi Sky Streaming" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Wydad Mar Vs Fc Porto Por
+https://hls.kangal.icu/hls/serieb/index.m3u8
+#EXTINF:-1 group-title="Eventi Sky Streaming" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Ternana Vs Pescara
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://skystreaming.stream
+#EXTVLCOPT:http-origin=https://skystreaming.stream
+https://hls.kangal.icu/hls/sky251/index.m3u8
+#EXTINF:-1 group-title="Eventi Sky Streaming" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Vizela Vs Afs
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.stream
 #EXTVLCOPT:http-origin=https://skystreaming.stream
@@ -509,6 +510,21 @@ https://hls.kangal.icu/hls/skyuno/index.m3u8
 #EXTVLCOPT:http-referrer=https://skystreaming.stream
 #EXTVLCOPT:http-origin=https://skystreaming.stream
 https://hls.kangal.icu/hls/skyuno/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/mZ6gwjBg/kings-league.png" group-title="Kings League", kingsleague_it
+#EXTVLCOPT:http-referrer=https://www.twitch.tv/kingsleague_it
+#EXTVLCOPT:http-origin=https://www.twitch.tv/kingsleague_it
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://use12.playlist.ttvnw.net/v1/playlist/Cv0EYQcUamKztaje5BLkY-nLa0mhClp35MvtnKEU3l6nsehNhWdkKIRqO9ZDrsuRwALg86G0vfi_D4WXpqQda0n-ouhoCev50bSTioIAx-q2IRcHo3OZ-Ow-7yEygLhKh0r7v1gdI08sWb8-h6pm-2_7Whj2WOzzGUPM1-mpL-ooF-I3h8jgjqc1pA8zncbCo3ZSD4jO_kDFyifs8JDZ2KLND_ezOxjTo5aDCfaS3bl9WjErsYklfOcsZWpnnbyal3AwNb7DoS7zYpIZ9ETMg1MIWwU2F8GdQgiklcHaXvG-3zVdZ-Wdj7gfnPF4BWnk54GA9iHe9xWkCiLCNv20uBiuMdikQNUsoD9YLFSjHXENj_rLZn5DqTAcKseg0_8j2EVRbRXkRHL_OenJQX1MG_n0Clevv8gSRhskyzClCPA9pZ9yvtmngKdoXCtR-IemTCW929NTGpQ6WzY8lcI8TDg0U_2e3LBquW8lmdZHfWk09b2MdIU4L50Tllo_XCSIeuQysmuMAXOT5TNZEqlzmDd93m-SXf6IUiLEO7bh0uAw_XI2kRzzPgoaKVbXj0F1dDNu-0j5xnu2LafcktqxGVIu4NEPhnc0utOJ68XftQPHKNU_JUkihS6eQRVgqeqWhuKKeR1yFiFidHgEdj0FA94YqABjUpvm1QGbgWKKQLeqU3kYyOYJD033PxfV0h8OUn4c6PHJTykJkt8s157XfDtrH_e9dTHePze9Kabkll_HWUbzHRLyhTeFH9g9n8FmBYhC9MKUtH_jzdi7cJLTtcQJaAM1hhQVp-LMFmiE57HNnkRB-7cQvMDVD5qzetzm5Hj2L7bmKd-qMpj9yX5NWRoMkC5KdyZd3EcT-g-vIAEqCXVzLWVhc3QtMjCzDA.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/mZ6gwjBg/kings-league.png" group-title="Kings League", kingsleague
+#EXTVLCOPT:http-referrer=https://www.twitch.tv/kingsleague
+#EXTVLCOPT:http-origin=https://www.twitch.tv/kingsleague
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://use22.playlist.ttvnw.net/v1/playlist/Cu4EXXOygM1eoj1UG9FG9SQjHfacnVx_ZErtMGyd0DkWjBItxuYC6ssldUMvXm97JcwGtGQifHLXNigSQy_i_cpER_HbxZ0PvCl7b2I8JvqAUHbpf4Qy-TfAeVzxh0khN___skORSuZDyOsPzD_EAgj5BalO_Gyz9KeOrtU-nz_5CQpY4EJlLO9i2bLkbdfWYShJGzgHqpAgOqjO_3NBpKpI_WW5Ijsld7OhxfjmSMe-_eWNnMXM11qIz1kfwK4IRmt-9fKaVTU9vGk6uU3Jd8U5ZEzoVYbzm3DLHgtq_SXH5uuoTAiJOkVDydP4B9tJzsosLfrXMzZlTrug-dT9gumiX9ZAzXaYS2EfP1iv5F9O2gCOhCFYe6xGflAsHWt6_f6JkbSwe9OnFIuelU0AGZxoHEWwqoCksXASNHAEZSF2KsOfuZrR4qzIVActkB2ueYkeykxirrpqGatPgsaxGT5k2UKgklDczaC4M3uoQS43DoKmKTfaXYUGvu7GrV9bGJK8ZUjKzXLF-X_f-nhDWdtUyZlAKEFqZKBRv_ek4S2Dej6pkAhmd4ixNcT4mVPEl3-aNz20HHRz52G7UZnd7VZXosqosIgNCEvTw8FQWsCfgpp8GZjhOPq_d6eRiOin1TQcwIp5EzC_Q-mvNZQ2BbkLP3GVemiHk7WNOvL-zMahM2-UHW2VP8IeeLlBi55bJ8jU0zjBVmjdhnHB9dXTk61rHlCZxpjsBNIrM3VHxyEcivpHvqrf2gaob-fidjN0EkRMJLc1zezc3RBxt_C6s-VRmIh9vWmQ2vAgZVnhrHNSvfJ3PdcfMSR58eH9bXZrVxoMKhHAq8KJy03kiyciIAEqCXVzLWVhc3QtMjCzDA.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/mZ6gwjBg/kings-league.png" group-title="Kings League", freneh
+#EXTVLCOPT:http-referrer=https://www.twitch.tv/freneh
+#EXTVLCOPT:http-origin=https://www.twitch.tv/freneh
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://use15.playlist.ttvnw.net/v1/playlist/CuAEiuzsmfT3vzHfLvUq-kEzgnra7-UPE3fF9_eilw_XvsM8jUpoI1A1Qb3XVh_3e7upXjh5VpT1UzfcXpFw0HpZrBtEVxZ9FgUTcHMPyZzPJOmVMmoOSJbMmlRavBRfWyLXqHb984uq5qwWH75edX6emuWMOHGkysG3ODeqVaTHNgIahnCpRYxDR0cx-t1BsMfoff_5lfr8s---FmHJlcJUcePo49-xhhlUNeVxwHa2-05M5pH8v7u5FN2StFS0GAvpyB9OcaoncgYJqETifV16jVKbKNCV_fHYT5r-NjHL6Q2HS79BE5LAq4rI3qHJwjrZlhcEvCEO_Sm02AWAJtf6MdZJt2hn3Hzss-Q55H-KuRW9-Am32iZBSL_Yg9n0B9w_To98721HWNuW2WZRJS6nsclFFLr80y0XLB17jZNpo7bhPvJpVoyLwPt4pd_wz6zWOGRyWysEIASAgq_qQjaQdll7jnj7ZlB4VlW5UpMyElD_QQwWkSFkQEA8J0YH-LYUzjqqACkiED1L_fcctEKNJzE7M__g0baKMWD47RXdo7mSCJYgpxgbk4FWOv1jEIwJl-RtXSskqrx68dZLU796IAUpZ58Eras46waKmt72xe8RSPky-hVRtX0Y_IKJgmKdy2sKNN0HYhjSwvq0Y5DNx2mCAPSqpWGZ7JbMTXH8XXM6kbg-wBQNEPz9RrYdhm0im6GR0uBK7AFEf_NmuQAaJ5vwMLSd365e7VT9aPp87-FVuhdeRFuxL_hx2htFJrFBPBQusejH5NckJ1jmUDVb0KKPn9rT3ieO6KqZtsyzVnAaDMmhv0kUb2WtgLPB6SABKgl1cy1lYXN0LTIwsww.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Kings League", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 #EXTINF:-1 tvg-id="skysportuno.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-uno-it.png" group-title="Dazn MPD",Sky Sport UNO
