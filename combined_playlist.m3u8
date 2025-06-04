@@ -2,6 +2,11 @@
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Eventi Sportivi", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 #EXTINF:-1 info canali
+#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.yoga//images/684004f2db88a.jpg",Germania vs Portogallo
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.yoga/
+#EXTVLCOPT:http-origin=https://sportzone.yoga/
+https://hls.kangal.icu/hls/calcio/index.m3u8
 #EXTINF:-1 group-title="Basket" tvg-logo="https://sportzone.yoga//images/67039b6f4b47a.png",Sky Sport vs NBA
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://sportzone.yoga/
@@ -42,11 +47,6 @@ https://hls.kangal.icu/hls/eurosport1/index.m3u8
 #EXTVLCOPT:http-referrer=https://sportzone.yoga/
 #EXTVLCOPT:http-origin=https://sportzone.yoga/
 https://hls.kangal.icu/hls/eurosport2/index.m3u8
-#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.yoga//images/684004f2db88a.jpg",Germania vs Portogallo
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.yoga/
-#EXTVLCOPT:http-origin=https://sportzone.yoga/
-https://hls.kangal.icu/hls/calcio/index.m3u8
 #EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/perma/live1.png", Sport 24Diretta sempre attiva
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
@@ -69,6 +69,11 @@ https://xuione.sportstreaming.net/SportStreaming/SportStreaming/9.m3u8
 https://xuione.sportstreaming.net/SportStreaming/SportStreaming/8.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Eventi", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/mZ6gwjBg/kings-league.png" group-title="Kings League", freneh
+#EXTVLCOPT:http-referrer=https://www.twitch.tv/freneh
+#EXTVLCOPT:http-origin=https://www.twitch.tv/freneh
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://use23.playlist.ttvnw.net/v1/playlist/CtIEQrZIcgiKvyjmaITHnFmlyHyo9uu_Vj2rfPeYXgE1-04ayIhCwGGt8rDDNOjytWHE02pk8mVFt8Im-tVPg2mmOP85Om2cMpTINxb4m8j2hqGYepPKDtBwwz6auegaUHDPFSnHMMzf9ThLO7MZ4pHtAE5HDxmVpA6UckiJMKccqA8Deh4raxDUYmKib-Lfl8jjTVPd9dIr3H1hHS9jnsoRO-hckpFryAO5avtqthbn4NfGSJDfxkug8mKEJ1_zfan0IZkt2a9YStNIx7WCVN5W-KaFitD64PUyZeNKh81BS__tqQtqStTtR6LX6Bw2eGzCE_ayaQIi6uoY7VPiPp8zutNJXVHyyagjxKM1LW6vUUmGJDfOFTgsPwVdOMmmdKE7qBd5f6zbCcX0czj33FWPzkSjywQjaPuJ57uD8lst2cxEhhE4w1uzZiXWEw-eg3sZ_hd0S_TXWihcVooN0ajNusjggl43ofplWaxA27-eW4LAW5_0mArBtOEmm9d6d7ncWS_R6k2tVg2S5WdbTbtu_XH6e4-0JAM34sJiFCrBmR_b-4cHjXauZCgrKqactBTUANNMEigcFkFg3oqu-tOqLJ398BGMa3vuE8ax0YqCsKrhBv2QI8QNtCybzdMHMwEsu1fsGR6V59q8Im-Qo91UIhGsH0_nQjcSKxBSNfpkeLpwk0_ly8SFq2-sofo9y4UWaK0tzeNViqWZK9lD55NiFQkUFUyPE_QTPpzIwlM4kGgeZWS5HQUfTN7C7OGW_CUoMgbVRU84cKQs2o0VfMNNgALpGgxTGqccOdO--aRjc0MgASoJdXMtd2VzdC0yMLcM.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Kings League", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 #EXTM3U  url-tvg="http://www.epgitalia.tv/gzip,http://epg-guide.com/it.gz,https://raw.github.com/matthuisman/i.mjh.nz/master/PlutoTV/us.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/PlutoTV/it.xml.gz,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-events-epg.xml,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-channels-epg.xml,https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/it.xml.gz"
