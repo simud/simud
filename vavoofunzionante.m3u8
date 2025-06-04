@@ -78,9 +78,9 @@ https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://vavoo.to/play/2555960713/in
 #EXTINF:-1 tvg-id="sky.sport.arena.it" tvg-name="Sky Sport Arena FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-arena-it.png" group-title="Sky Sport FHD Backup",Sky Sport Arena FHD
 https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://new.newkso.ru/ddy6/premium462/mono.m3u8&h_User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36&h_Referer=https://alldownplay.xyz/&h_Origin=https://alldownplay.xyz
 #EXTINF:-1 tvg-id="sky.sport.calcio.it" tvg-name="Sky Sport Calcio FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-calcio-it.png" group-title="Sky Sport FHD Backup",Sky Sport Calcio FHD
-https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://vavoo.to/play/1665920101/index.m3u8&h_User-Agent=VAVOO2/6&h_Referer=https://vavoo.to/&h_Origin=https://vavoo.to
-#EXTINF:-1 tvg-id="sky.sport.calcio.it" tvg-name="Sky Sport Calcio FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-calcio-it.png" group-title="Sky Sport FHD Backup",Sky Sport Calcio FHD
 https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://vavoo.to/play/449990998/index.m3u8&h_User-Agent=VAVOO2/6&h_Referer=https://vavoo.to/&h_Origin=https://vavoo.to
+#EXTINF:-1 tvg-id="sky.sport.calcio.it" tvg-name="Sky Sport Calcio FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-calcio-it.png" group-title="Sky Sport FHD Backup",Sky Sport Calcio FHD
+https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://vavoo.to/play/1665920101/index.m3u8&h_User-Agent=VAVOO2/6&h_Referer=https://vavoo.to/&h_Origin=https://vavoo.to
 #EXTINF:-1 tvg-id="sky.sport.calcio.it" tvg-name="Sky Sport Calcio FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-calcio-it.png" group-title="Sky Sport FHD Backup",Sky Sport Calcio FHD
 https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://new.newkso.ru/wind/premium870/mono.m3u8&h_User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36&h_Referer=https://alldownplay.xyz/&h_Origin=https://alldownplay.xyz
 #EXTINF:-1 tvg-id="sky.sport.f1.it" tvg-name="Sky Sport F1 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-f1-it.png" group-title="Sky Sport FHD Backup",Sky Sport F1 FHD
@@ -106,15 +106,15 @@ https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://vavoo.to/play/2090703806/in
 #EXTINF:-1 tvg-id="sky.sport.motogp.it" tvg-name="Sky Sport Motogp FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/italy/hd/sky-sport-motogp-hd-it.png" group-title="Sky Sport FHD Backup",Sky Sport Motogp FHD
 https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://new.newkso.ru/nfs/premium575/mono.m3u8&h_User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36&h_Referer=https://alldownplay.xyz/&h_Origin=https://alldownplay.xyz
 #EXTINF:-1 tvg-id="sky.sport.nba.it" tvg-name="Sky Sport Nba FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-nba-it.png" group-title="Sky Sport FHD Backup",Sky Sport Nba FHD
-https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://vavoo.to/play/2711959620/index.m3u8&h_User-Agent=VAVOO2/6&h_Referer=https://vavoo.to/&h_Origin=https://vavoo.to
-#EXTINF:-1 tvg-id="sky.sport.nba.it" tvg-name="Sky Sport Nba FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-nba-it.png" group-title="Sky Sport FHD Backup",Sky Sport Nba FHD
 https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://vavoo.to/play/326825326/index.m3u8&h_User-Agent=VAVOO2/6&h_Referer=https://vavoo.to/&h_Origin=https://vavoo.to
+#EXTINF:-1 tvg-id="sky.sport.nba.it" tvg-name="Sky Sport Nba FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-nba-it.png" group-title="Sky Sport FHD Backup",Sky Sport Nba FHD
+https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://vavoo.to/play/2711959620/index.m3u8&h_User-Agent=VAVOO2/6&h_Referer=https://vavoo.to/&h_Origin=https://vavoo.to
 #EXTINF:-1 tvg-id="" tvg-name="Sky Sport Serie A FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-serie-a-it.png" group-title="Sky Sport FHD Backup",Sky Sport Serie A FHD
 https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://vavoo.to/play/2077387085/index.m3u8&h_User-Agent=VAVOO2/6&h_Referer=https://vavoo.to/&h_Origin=https://vavoo.to
 #EXTINF:-1 tvg-id="sky.sport.tennis.it" tvg-name="Sky Sport Tennis FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-tennis-it.png" group-title="Sky Sport FHD Backup",Sky Sport Tennis FHD
-https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://vavoo.to/play/2100771782/index.m3u8&h_User-Agent=VAVOO2/6&h_Referer=https://vavoo.to/&h_Origin=https://vavoo.to
-#EXTINF:-1 tvg-id="sky.sport.tennis.it" tvg-name="Sky Sport Tennis FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-tennis-it.png" group-title="Sky Sport FHD Backup",Sky Sport Tennis FHD
 https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://vavoo.to/play/78546677/index.m3u8&h_User-Agent=VAVOO2/6&h_Referer=https://vavoo.to/&h_Origin=https://vavoo.to
+#EXTINF:-1 tvg-id="sky.sport.tennis.it" tvg-name="Sky Sport Tennis FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-tennis-it.png" group-title="Sky Sport FHD Backup",Sky Sport Tennis FHD
+https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://vavoo.to/play/2100771782/index.m3u8&h_User-Agent=VAVOO2/6&h_Referer=https://vavoo.to/&h_Origin=https://vavoo.to
 #EXTINF:-1 tvg-id="sky.sport.tennis.it" tvg-name="Sky Sport Tennis FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-tennis-it.png" group-title="Sky Sport FHD Backup",Sky Sport Tennis FHD
 https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://new.newkso.ru/ddy6/premium576/mono.m3u8&h_User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36&h_Referer=https://alldownplay.xyz/&h_Origin=https://alldownplay.xyz
 #EXTINF:-1 tvg-id="sky.sport.uno.it" tvg-name="Sky Sport Uno FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-uno-it.png" group-title="Sky Sport FHD Backup",Sky Sport Uno FHD
@@ -194,9 +194,9 @@ https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://vavoo.to/play/3216516117/in
 #EXTINF:-1 tvg-id="sky.cinema.family.it" tvg-name="Sky Cinema Family FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-family-it.png" group-title="Sky Cinema FHD Backup",Sky Cinema Family FHD
 https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://new.newkso.ru/wind/premium865/mono.m3u8&h_User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36&h_Referer=https://alldownplay.xyz/&h_Origin=https://alldownplay.xyz
 #EXTINF:-1 tvg-id="sky.cinema.romance.it" tvg-name="Sky Cinema Romance FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-romance-it.png" group-title="Sky Cinema FHD Backup",Sky Cinema Romance FHD
-https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://vavoo.to/play/1281264885/index.m3u8&h_User-Agent=VAVOO2/6&h_Referer=https://vavoo.to/&h_Origin=https://vavoo.to
-#EXTINF:-1 tvg-id="sky.cinema.romance.it" tvg-name="Sky Cinema Romance FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-romance-it.png" group-title="Sky Cinema FHD Backup",Sky Cinema Romance FHD
 https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://vavoo.to/play/2890008905/index.m3u8&h_User-Agent=VAVOO2/6&h_Referer=https://vavoo.to/&h_Origin=https://vavoo.to
+#EXTINF:-1 tvg-id="sky.cinema.romance.it" tvg-name="Sky Cinema Romance FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-romance-it.png" group-title="Sky Cinema FHD Backup",Sky Cinema Romance FHD
+https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://vavoo.to/play/1281264885/index.m3u8&h_User-Agent=VAVOO2/6&h_Referer=https://vavoo.to/&h_Origin=https://vavoo.to
 #EXTINF:-1 tvg-id="sky.cinema.romance.it" tvg-name="Sky Cinema Romance FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-romance-it.png" group-title="Sky Cinema FHD Backup",Sky Cinema Romance FHD
 https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://new.newkso.ru/wind/premium864/mono.m3u8&h_User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36&h_Referer=https://alldownplay.xyz/&h_Origin=https://alldownplay.xyz
 #EXTINF:-1 tvg-id="sky.cinema.suspense.it" tvg-name="Sky Cinema Suspense FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-suspense-it.png" group-title="Sky Cinema FHD Backup",Sky Cinema Suspense FHD
@@ -264,25 +264,25 @@ https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://vavoo.to/play/1955739367/in
 #EXTINF:-1 tvg-id="" tvg-name="Discovery Focus FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/focus-it.png" group-title="Documentari",Discovery Focus FHD
 https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://vavoo.to/play/2113273064/index.m3u8&h_User-Agent=VAVOO2/6&h_Referer=https://vavoo.to/&h_Origin=https://vavoo.to
 #EXTINF:-1 tvg-id="" tvg-name="Discovery Nove FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/nove-it.png" group-title="Documentari",Discovery Nove FHD
-https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://vavoo.to/play/1574591400/index.m3u8&h_User-Agent=VAVOO2/6&h_Referer=https://vavoo.to/&h_Origin=https://vavoo.to
-#EXTINF:-1 tvg-id="" tvg-name="Discovery Nove FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/nove-it.png" group-title="Documentari",Discovery Nove FHD
 https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://vavoo.to/play/2651461317/index.m3u8&h_User-Agent=VAVOO2/6&h_Referer=https://vavoo.to/&h_Origin=https://vavoo.to
-#EXTINF:-1 tvg-id="history.it" tvg-name="History FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/history-channel-it.png" group-title="Documentari",History FHD
-https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://vavoo.to/play/2134724757/index.m3u8&h_User-Agent=VAVOO2/6&h_Referer=https://vavoo.to/&h_Origin=https://vavoo.to
+#EXTINF:-1 tvg-id="" tvg-name="Discovery Nove FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/nove-it.png" group-title="Documentari",Discovery Nove FHD
+https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://vavoo.to/play/1574591400/index.m3u8&h_User-Agent=VAVOO2/6&h_Referer=https://vavoo.to/&h_Origin=https://vavoo.to
 #EXTINF:-1 tvg-id="history.it" tvg-name="History FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/history-channel-it.png" group-title="Documentari",History FHD
 https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://vavoo.to/play/317837654/index.m3u8&h_User-Agent=VAVOO2/6&h_Referer=https://vavoo.to/&h_Origin=https://vavoo.to
+#EXTINF:-1 tvg-id="history.it" tvg-name="History FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/history-channel-it.png" group-title="Documentari",History FHD
+https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://vavoo.to/play/2134724757/index.m3u8&h_User-Agent=VAVOO2/6&h_Referer=https://vavoo.to/&h_Origin=https://vavoo.to
 #EXTINF:-1 tvg-id="" tvg-name="Nat Geo FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/national-geographic-it.png" group-title="Documentari",Nat Geo FHD
 https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://vavoo.to/play/179844839/index.m3u8&h_User-Agent=VAVOO2/6&h_Referer=https://vavoo.to/&h_Origin=https://vavoo.to
 #EXTINF:-1 tvg-id="" tvg-name="Nat Geo FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/national-geographic-it.png" group-title="Documentari",Nat Geo FHD
 https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://vavoo.to/play/1735702308/index.m3u8&h_User-Agent=VAVOO2/6&h_Referer=https://vavoo.to/&h_Origin=https://vavoo.to
 #EXTINF:-1 tvg-id="" tvg-name="Nat Geo Wild FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/national-geographic-wild-it.png" group-title="Documentari",Nat Geo Wild FHD
-https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://vavoo.to/play/3428501495/index.m3u8&h_User-Agent=VAVOO2/6&h_Referer=https://vavoo.to/&h_Origin=https://vavoo.to
-#EXTINF:-1 tvg-id="" tvg-name="Nat Geo Wild FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/national-geographic-wild-it.png" group-title="Documentari",Nat Geo Wild FHD
 https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://vavoo.to/play/3229664409/index.m3u8&h_User-Agent=VAVOO2/6&h_Referer=https://vavoo.to/&h_Origin=https://vavoo.to
-#EXTINF:-1 tvg-id="sky.arte.it" tvg-name="Sky Arte FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-arte-it.png" group-title="Documentari",Sky Arte FHD
-https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://vavoo.to/play/1806815496/index.m3u8&h_User-Agent=VAVOO2/6&h_Referer=https://vavoo.to/&h_Origin=https://vavoo.to
+#EXTINF:-1 tvg-id="" tvg-name="Nat Geo Wild FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/national-geographic-wild-it.png" group-title="Documentari",Nat Geo Wild FHD
+https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://vavoo.to/play/3428501495/index.m3u8&h_User-Agent=VAVOO2/6&h_Referer=https://vavoo.to/&h_Origin=https://vavoo.to
 #EXTINF:-1 tvg-id="sky.arte.it" tvg-name="Sky Arte FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-arte-it.png" group-title="Documentari",Sky Arte FHD
 https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://vavoo.to/play/1902695925/index.m3u8&h_User-Agent=VAVOO2/6&h_Referer=https://vavoo.to/&h_Origin=https://vavoo.to
+#EXTINF:-1 tvg-id="sky.arte.it" tvg-name="Sky Arte FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-arte-it.png" group-title="Documentari",Sky Arte FHD
+https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://vavoo.to/play/1806815496/index.m3u8&h_User-Agent=VAVOO2/6&h_Referer=https://vavoo.to/&h_Origin=https://vavoo.to
 #EXTINF:-1 tvg-id="sky.documentaries.it" tvg-name="Sky Documentaries FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-documentaries-it.png" group-title="Documentari",Sky Documentaries FHD
 https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://vavoo.to/play/464281981/index.m3u8&h_User-Agent=VAVOO2/6&h_Referer=https://vavoo.to/&h_Origin=https://vavoo.to
 #EXTINF:-1 tvg-id="sky.nature.it" tvg-name="Sky Nature FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-nature-it.png" group-title="Documentari",Sky Nature FHD
@@ -290,9 +290,9 @@ https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://vavoo.to/play/3810188456/in
 #EXTINF:-1 tvg-id="" tvg-name="Telearte FHD" tvg-logo="https://www.teleartetv.it/web/wp-content/uploads/2023/04/logo_TA.jpg" group-title="Documentari",Telearte FHD
 https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://vavoo.to/play/2586615238/index.m3u8&h_User-Agent=VAVOO2/6&h_Referer=https://vavoo.to/&h_Origin=https://vavoo.to
 #EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 1 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 1 FHD
-https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://vavoo.to/play/1492183364/index.m3u8&h_User-Agent=VAVOO2/6&h_Referer=https://vavoo.to/&h_Origin=https://vavoo.to
-#EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 1 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 1 FHD
 https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://vavoo.to/play/1944682394/index.m3u8&h_User-Agent=VAVOO2/6&h_Referer=https://vavoo.to/&h_Origin=https://vavoo.to
+#EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 1 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 1 FHD
+https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://vavoo.to/play/1492183364/index.m3u8&h_User-Agent=VAVOO2/6&h_Referer=https://vavoo.to/&h_Origin=https://vavoo.to
 #EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 2 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 2 FHD
 https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://vavoo.to/play/525374356/index.m3u8&h_User-Agent=VAVOO2/6&h_Referer=https://vavoo.to/&h_Origin=https://vavoo.to
 #EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 2 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 2 FHD
@@ -306,13 +306,13 @@ https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://vavoo.to/play/3137990890/in
 #EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 4 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 4 FHD
 https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://vavoo.to/play/2416993844/index.m3u8&h_User-Agent=VAVOO2/6&h_Referer=https://vavoo.to/&h_Origin=https://vavoo.to
 #EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 5 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 5 FHD
-https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://vavoo.to/play/2909818756/index.m3u8&h_User-Agent=VAVOO2/6&h_Referer=https://vavoo.to/&h_Origin=https://vavoo.to
-#EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 5 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 5 FHD
 https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://vavoo.to/play/2255083866/index.m3u8&h_User-Agent=VAVOO2/6&h_Referer=https://vavoo.to/&h_Origin=https://vavoo.to
-#EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 6 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 6 FHD
-https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://vavoo.to/play/3939513684/index.m3u8&h_User-Agent=VAVOO2/6&h_Referer=https://vavoo.to/&h_Origin=https://vavoo.to
+#EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 5 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 5 FHD
+https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://vavoo.to/play/2909818756/index.m3u8&h_User-Agent=VAVOO2/6&h_Referer=https://vavoo.to/&h_Origin=https://vavoo.to
 #EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 6 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 6 FHD
 https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://vavoo.to/play/3251217290/index.m3u8&h_User-Agent=VAVOO2/6&h_Referer=https://vavoo.to/&h_Origin=https://vavoo.to
+#EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 6 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 6 FHD
+https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://vavoo.to/play/3939513684/index.m3u8&h_User-Agent=VAVOO2/6&h_Referer=https://vavoo.to/&h_Origin=https://vavoo.to
 #EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 7 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 7 FHD
 https://nzo66-tvproxy.hf.space/proxy/m3u?url=https://vavoo.to/play/3618643172/index.m3u8&h_User-Agent=VAVOO2/6&h_Referer=https://vavoo.to/&h_Origin=https://vavoo.to
 #EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 7 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 7 FHD
