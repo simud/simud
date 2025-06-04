@@ -38,7 +38,7 @@ if new_domain:
     SITE_URL = new_domain
     print(f"Dominio Skystreaming trovato: {SITE_URL}")
 else:
-    SITE_URL = "https://skystreaming.help/"  # Fallback se non trovato
+    SITE_URL = "https://skystreaming.yoga/"  # Fallback se non trovato
     print(f"Dominio Skystreaming non trovato, utilizzato il dominio di fallback: {SITE_URL}")
 
 # Aggiorna gli headers con il nuovo SITE_URL
