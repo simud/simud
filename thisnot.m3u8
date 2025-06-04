@@ -3,6 +3,10 @@
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=00362f95db61eba0e6f14acee3f71e01:fb74cd84b53c7557e18424a3356c4665
 https://linear302-it-dash1-prd.selector.skycdn.it/016a/31209/FHD/skysportseriea/master_stereo.mpd
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",21:00 Germania - Portogallo 
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=7fc352fa54683accf20b12f679027661:993400c4b5ad851c8d6368417d6a3b4c
+https://fl-009.live.p7s1video.net/45371d5a/t_009/zdf-de-hd/cenc-default.mpd
 #EXTINF:-1 tvg-id="skysportcalcio.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-calcio-it.png" group-title="CALCIO",21:00 Spagna - Francia 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=00362f95db61eba0e6f14acee3f71e01:fb74cd84b53c7557e18424a3356c4665
@@ -27,10 +31,6 @@ https://timlivetu0.cb.ticdn.it/Content/DASH/Live/channel(eurosport3)/manifest.mp
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=9dd7be79e44f4d08a91ec5d1553f17b8:8a62369f81a4b6e5f2d4846f7bd5e7d1
 https://timlivetu0.cb.ticdn.it/Content/DASH/Live/channel(eurosport4)/manifest.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TENNIS",11:00 Live 
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=b48e7e6d96da479da65e435ce65faeb1:48c703879ce4deedb5a2124a30a13bc4
-https://timlivetu0.cb.ticdn.it/Content/DASH/Live/channel(eurosport5)/manifest.mpd
 #EXTINF:-1 tvg-id="eurosport2.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/eurosport-2-es.png" group-title="BASKET",20:45 Trapani Shark v Germani Brescia (Gara 3) 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=003670a7034342a4a07c91173818c61c:7b90055c1a1ea34d9090e9ebf6c4db8a
