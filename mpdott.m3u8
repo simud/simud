@@ -136,6 +136,11 @@ https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-c
 #EXTVLCOPT:http-referrer=https://skystreaming.stream
 #EXTVLCOPT:http-origin=https://skystreaming.stream
 https://hls.kangal.icu/hls/eurosport1/index.m3u8
+#EXTINF:-1 group-title="Eventi Sky Streaming" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Atp Singolare Vs Open Di Francia Es1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://skystreaming.stream
+#EXTVLCOPT:http-origin=https://skystreaming.stream
+https://hls.kangal.icu/hls/eurosport1/index.m3u8
 #EXTINF:-1 group-title="Eventi Sky Streaming" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Atp Singolare Vs Open Di Francia Es2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.stream
@@ -146,6 +151,11 @@ https://hls.kangal.icu/hls/eurosport2/index.m3u8
 #EXTVLCOPT:http-referrer=https://skystreaming.stream
 #EXTVLCOPT:http-origin=https://skystreaming.stream
 https://hls.kangal.icu/hls/eurosport2/index.m3u8
+#EXTINF:-1 group-title="Eventi Sky Streaming" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Australia Vs Giappone
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://skystreaming.stream
+#EXTVLCOPT:http-origin=https://skystreaming.stream
+https://hls.kangal.icu/hls/asia/index.m3u8
 #EXTINF:-1 group-title="Eventi Sky Streaming" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Bahrain Vs Arabia Saudita
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.stream
@@ -446,6 +456,11 @@ https://hls.kangal.icu/hls/golf/index.m3u8
 #EXTVLCOPT:http-referrer=https://skystreaming.stream
 #EXTVLCOPT:http-origin=https://skystreaming.stream
 https://hls.kangal.icu/hls/golf/index.m3u8
+#EXTINF:-1 group-title="Sky Sport Backup SD" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Sky Sport Golf
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://skystreaming.stream
+#EXTVLCOPT:http-origin=https://skystreaming.stream
+https://hls.kangal.icu/hls/golf/index.m3u8
 #EXTINF:-1 group-title="Sky Sport Backup SD" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Sky Sport Max
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.stream
@@ -476,6 +491,11 @@ https://hls.kangal.icu/hls/moto/index.m3u8
 #EXTVLCOPT:http-referrer=https://skystreaming.stream
 #EXTVLCOPT:http-origin=https://skystreaming.stream
 https://hls.kangal.icu/hls/moto/index.m3u8
+#EXTINF:-1 group-title="Sky Sport Backup SD" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Sky Sport Nba
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://skystreaming.stream
+#EXTVLCOPT:http-origin=https://skystreaming.stream
+https://hls.kangal.icu/hls/skynba/index.m3u8
 #EXTINF:-1 group-title="Sky Sport Backup SD" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Sky Sport Nba
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.stream
@@ -520,27 +540,32 @@ https://hls.kangal.icu/hls/skyuno/index.m3u8
 #EXTVLCOPT:http-referrer=https://www.twitch.tv/kingsleague_it
 #EXTVLCOPT:http-origin=https://www.twitch.tv/kingsleague_it
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://use14.playlist.ttvnw.net/v1/playlist/CuIECycfRuiIO0nWcONVpYoCP4g48cJh0qzY37N4ik2puyIxSEGdu7CKRWPO_lKNW9dpvjKXRluPHKWb9X9ifn4HItCvuNAu9Hm_UIDQj5IiT9ULaqOCxmdLUQckj6OlEe5ZSGBi1Zl_uhjy3_DWupSGv7QmYeOm-klIlBsVmxUu-xNSbfRMP1oIlzBmckK6TRElaCoWvX8Nau2prGGiA_wTN4DTVCAYurUcY6TdACFiydVaqdHJcjt1OGGTQEh-H-b_A3Imsp0jQ7sHz-b0rCpQb0XnjxGzJhF5CcchUIpZHMAZ72T3p_825eonEioqSbwHtYISPqVLPUWT4WUQ43a6Ey2EvqQSaCZlPnrvm4I0tCpW-6nk-7m0FAD4KjOykT5E39XpKSu8BjSuHWPfQFDxgDWPo-7EFp0YsgZaIVxCvkhruVIFyRS23cozO_3DJupovaZwWMD3x-1yrcxB1mQhLMnGu-hCGKjLb3itoHivulCL1U_tGaPuwbXgNFBS6jwgStyrTJOrOV6QZVj20MWDTIW5LqkiRfIZLah5z79EOXenTvsadJpZBirHui1uZyJN11GYC1S4jNBzUPLiFGEM8gIrvykWn6LV_UwtcZAs1QPoxd7WD21tuYZ3o5mQiuGOqnc95TwoJjqDr9b3tNMp-lWV2SU_2gXXH-k33-FD7D8dVVwrhXGrViZXTR4mP43XIMArF8NsDPxh8ThA6kLajzm-HvL_RYzbSL6Jietea9qxQhAP0yAFoHMf9sW1gWxzRiTzOg9Q4iyr_0vDDCJO6iB41S9kIZrAvMd-gmIMD6bbShoM6Zp-DevtL5HCAo7tIAEqCXVzLWVhc3QtMjC3DA.m3u8
+https://usw24.playlist.ttvnw.net/v1/playlist/CvMEYMiEc75gxLG1Reqv9MEniztu-1rqrmpu1SUOKs6VoamqIAH9IVvEJloICX85KNxVdX5ps4HbWvGWiZxyJKE_YZE3CPRfHQoEA08p_sCa8iq4h9vJcd7pCVUusPIjcbNZ0-Uh-8F2v8wF4YeMjiN6bOFOpYp-35r5nl9cAVpk3x3bFv_NXYJ62genBoeqg-MmMk74NJjPfS1G7uwWuLK9vX47w9OUfvKoLnoDFVGBRGAaJmovRWud7VWy2_Le6jStcMXhd6PoujsH0p5WfRujySFNICguKlcw5RqtElljJ6CZ21LGX0OI46G1aQKLIS78DoQhLQL9bmCdsox8EV5xAvT7V47o9SJyWaUhWGKMiFfL8ed-0DYND2NADTybfdqRh8v6IbMXzNawgmSDiI2AKNpMEL44JMqR4rOZFKpdkJGNUo-me-drWbenqwR1kRLVBYV8k_K7enBAUht7GP9oUyl_R-dUJ6Jln_Zmj6sIF-LpQQRax4DpjRN6pu56nRb3nbQteRuAVIthSLhP8SOG0mn9sVgbl-IVF8Kt6Hs1rU2rS-4ZLUomv8Z3cZ4a3UBIif3j1SVxyvQGLoeYJmbLW2Wm5o1uOgj9xwPPvEgi68igJm_cjne8pjyVkCzHbEaz8be80sy9YLOHC64EhIqEtdXMs8898P4j0RuX41wdafdHvEQvlQPC61hUZaTEWL7ul4DOYeguXsRv2LO4uh7bPfFJRfMAMQo17p3QGQ9pg6DpjlAWk2IxHQ0wuAZ4X_iD-4BhH1VAu1IPLQavf8krps3av9tBQUHtl5WRTrwyJEvRshV37rm8xxV71srNpXeoGapPGgxV5DBCbpoVegrkyiYgASoJdXMtZWFzdC0yMLcM.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/mZ6gwjBg/kings-league.png" group-title="Kings League", kingsleague
 #EXTVLCOPT:http-referrer=https://www.twitch.tv/kingsleague
 #EXTVLCOPT:http-origin=https://www.twitch.tv/kingsleague
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://use11.playlist.ttvnw.net/v1/playlist/CusE2PR5V-PyoyuC52lRod8PbAkWOZvGzxqXpLgP0yjLI2xitACFitT4hVAgPlO2TO9ONADCl0YCCzuq-RWh-ppbJd83TP7Cl33pcqrs1pjkMEAdUnadOZLI-oyMi326QINRM5OaXDiJ9B6cgqmYyxQsnDCVTgOcm7ZhuEoOk8lktJaPm51EU52doOSijUyT8nXBKsWldjJBUv0uLiGom1w7JYSkA-exySXKZ4spg9noVA2oTB-UFahWe1aHnZBmFDvwlpMiL1rCKrRqV6M-Cy9ZyMvgZzoOVxXxsfrtJgToYmbcVtBdkuVLaCsKZRDsXCuflqdcTxX5Ip8_iCyQySWbsSKCi_jN4rKSe00T_-QrJPIL6OTABIp1dIX35lIxFZRylcfBbvpD_ZXhYeR48ElATzemB4veiXmxvKdRqh0UhR1gGtnawoYATGd_tyLwZCjsj7dD5kI5pQi8PKmT8p0TIk0-m-j6r4uodASxMFzpZxJv1dW8mbSv6PaAMvxCJB5mASvxR8XyenNBdHbixc1q_rk79YycPQ6TRUWR7YU1WFpUdKPyDo1Tfw0m2VUmGlrdcCfTQavHTisw5gsgWjQT2h7quzuZukgPPRJsVudsIgHKt7nnS_DZyhpQhBIwTH6Zk99nHKWj_rKZ_ipiy2H-jghD9hoI6BMb_kFmbyhAcTpTrsoJYX51F1xYibnl5UgrByvRWpfeGOVLggfCvqruHt_2qtqUg7wsXPii9TA__CrStiZ2C_7OH4Lx51WyK9U_DvUX4U7Ny9C9hybjY2lIBGgELbQE7lhxxU3J87_YhbQ5vw1kAmgFlDTZqRoMcRPocMZpc91Dl9WWIAEqCXVzLWVhc3QtMjC3DA.m3u8
+https://use16.playlist.ttvnw.net/v1/playlist/CtMEb_N9iJPyL0qoE5sgo1bMxr-xKzCY4JoRcD5ie4CCvcyu4e5xmuacq7DFxGi53ENmtOTD3YJjMH0sZ7Hv2f3aJ_ItCMuMUQVPyU4kfu5haIJMjfgFB_0HwMqNxxO1yRiZCjhvJe4O4aY04Ux4DvvaFYIxBpjhhXlcNwnFJzTqmufDCn3GpJjbOwLaqvK-BBSGyuf9xFm8wlYh0VmyymN-eP_Ob8nERMR6iKlagG9ButUso9ce0FhxC9TcWIQovqWnS-I7xFZqHNWNd7j7NqNrQdWzrZe2u3SF-2fUtpC2sqD6G940N3a-bVZTEpM7QPPQ6jM-HQ4FxCj3010XqW7O9eDNo8xMXBy6M71YodpxuCEek0IqGqG1P0aTRU7oVMM8qfACludY_lkjjf0tHzj9a-cL-AsSBvKzB3tay5VzESAOaom1hMiEVCkUoebtnmelIHQ2cpuSo0JvwE-ULuhB4YaRXti-ZmS90u-4NPlOZ-bAV_S8y9XxHfuMBOSy9DWHD1LLyi79DaX1q-EM0K8DG9qgoLsolH_HHF0-ecQ8VkEaqPZ4ItIRp5t3PXELBDaD034AqALdjdLIdvONcdjF01cmj1C6NyScf8bKhBc0UPHo48RZK22LwNrNibaVeRn3MvJXuffAQ12dv17mW1u7XXMzZogUM0pBYT84el1dqdG3v-6PvHrQdlZL_BYlP088K7a3Po5MMVM_YhY1zTJiO2NN7K5Sbdw_ft3uOvAHe56z0FZQlzZpU8gGkiqSyBGa8Wy75AcZ_gofT6C3tVmgTrqqMBoMPJFszJbzpO6BsAvbIAEqCXVzLWVhc3QtMjC3DA.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/mZ6gwjBg/kings-league.png" group-title="Kings League", therealmarzaa
 #EXTVLCOPT:http-referrer=https://www.twitch.tv/therealmarzaa
 #EXTVLCOPT:http-origin=https://www.twitch.tv/therealmarzaa
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://use12.playlist.ttvnw.net/v1/playlist/CugESlYf7Z5hxQ0DbCJfxFxEtjunjfCf3G1EGNH_DRECHD-ySDQpnGYY3yk9xjGoxpIoTnJJ0oiWedt4dUYS1w_xZECjIlKIEvoR5aOaQL_DJf2FBzANmUKxr6QJB0BTqv0_YldH2LhRuvf-gD1ph_IwiKBQOO74s6axsNfoqFv_HmrNsaWJkw3uJ1fQjK3M8fo3mU1-Pb6YX4H3shd097QJWBwnafIOgBOUlm34Mv1ppbIrdiLBDhbxkANO1x-uGjXBIhvl-BRmCuLYuB4EM3xUk4wtfEIG-UAUx6-jaYL2om1tN9zzyl4b_-ExnyEzWyG0PB_v7ohXP7dAjyZhScH0wagDxgXA-j7qVAkkfRFtiIjddVGA21KXIGVglkOec0P8fQeielfFhMUTKtwQGNy9MR3bcQ-MkdVH_TUibR4pmuLK-KODu0jy1OEjkikwdIPp_eofrf7yTw3cWESJYCPN4giB8togriLOiH4mFDIzhvkHzlE0X7fERAegdsql0cOpuEzvoOvIdEC-Qe7Fvef8knG9Q-2-_CYQ3aVl4KCD6n2bj9N3IiAxmOhxzfa_Ltch2FUhqtjM049eaS4wbgSmFGxTaahWDmBqP5p1t-vXQzNe_QH6QBMukr-NQ2DUdU5vwH1LY6oqPy57JZLY2SDGQDxzIkV1xBpcnZDj-EV0MD9Zs7md5rrfw-PAUKx_RVR3fy_3SLCQkQGoHrx32ZGCvs7ksaK8Gpzzy7QCv_U3uxl-OxQ5GbuFtfnQYYwPwxHYGPgzv__hGF1GfETqffbQ_v1rJqVe-IE8FN651X7ITDGG24bT6H581hoMxetReOIz1flaVgsYIAEqCXVzLWVhc3QtMjC3DA.m3u8
+https://use23.playlist.ttvnw.net/v1/playlist/CtIE-y1js8Ei_zhtQjCDnGvMk5tDlZ0wZwZUjvkUXjQmzMWIThIojWE07AT0R7k2QUZTAcTKjxu_wgAibGKKcEAjwneYqVv5fFb2jhSZ1mdxRKXSNw7dx1YSoKTnWs6VPh_ZERdWbVpeI6b_49elczF83XRZ06vLbNSroCAxlfsTYurOLvtWLn4CWJSTD58tv1rwJ7BbENtOzl0B1GwAMNeX8oh19LAQlfJOE2NAw0OykGSXAX9mmuR8egSNlx-OJkg0-e3rZ7eiA4VMjXRV6NpaxhjoTSaG8GZUvyirdVtghSQgAEmkPzYB4iDPWR_c90t5NfA5heZi3Xdq0Q5lCgt759CwJsLEwE0gG2JUBKmNadOF8bTHfBiMUWhqNYkjNr4e5eMLLEIwtw3yLMRnWjWZUCJ6V29MTMVrfsIa6bLns4PYKivbZgcG9QwyDByUBtM1n3TBYxwRQdGTK7WgMRPt9subMmaDTK2ItyLfNJ_akroCi1xB8HTNSYba3UBhwCIoJWJiqe10K7LzMTnDYSAFcLHurgJjZlvzM7Br9mgnWKHQ6UPTgZZOPyyH-Vl3Rkb4ZsxPL2tW7nVTjJKDkdQ-e4ydTGI6lHxzdCgVIJPlcmwkSuLEq4mHNWhCIwa2HwzGjKvPkr-ALu2UU67XCdwVXard8cIfPY03w8-_0pLjwf4jYvqMerdAhGakTxDsAmNzsstZMYR7LJt1cca6kdspa9IqyFpkaxKb6I-o44F86VY85pWwbR4FYYI99medDQ3kgQIhxY6P8DIPQb0bzxvfA7YxGgxcfwcGyZM-fkZTgU4gASoJdXMtZWFzdC0yMLcM.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/mZ6gwjBg/kings-league.png" group-title="Kings League", freneh
 #EXTVLCOPT:http-referrer=https://www.twitch.tv/freneh
 #EXTVLCOPT:http-origin=https://www.twitch.tv/freneh
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://use23.playlist.ttvnw.net/v1/playlist/CqcEWlmQ1fFPn5k4JY635GUAI_enSIHelT5FGuK2Us3nLr-pnsRVZ98w9DzKgNjHo7hl7fgjVkD9qzrJZgFkywkq-lZWzbh_FOZQN9MhUr5q4_AYim4WOlmiQLtX-mmgZLV4w7G4b1oafTZTtkSNQ2guiuLrLq2813fER3AvRg-Lz5sAjUScmS99csgARhenxLjDe_ycIcjJuGEjmljhc1Wexky_Aw8xw2vgDxNIUFPnqy0jxAM85-D2o9iaROBphiV2xI4OCkDdRZuFWW180KymodZEB1zsKaclF3omHxhQ6VZcIA2p0IQfeOHVuZh8eKoh-o8KZDPXOhNI3qxtcRwk98RHAB5pzKWCybLhPVy0O_by-6rRYEUZCZ_b-q_SfBYfOfKsBBJKTSSVHa0Yl815FQ-5bFVblu3jHNO9_afcvdePmQskzvukEkuMgF7o_0MCJp6uIk98Tfv3zlbP_ij85KYi3Q84kPrAFLITXPL7mvK5ZUyMEURLdNEAfyDMGYl8FUAnUp1dX3K_qFkbI7aABYArM5COwJ-lqbvvYR5ZFDdd90vU1ZcrqDY6tb1vlWyGnTIMu1XM2F1HzrgMiEtGiN-FDK6mFr9UiZACXS53GkUaaTnvGP-zTg4PJ-HQ_CHF_CvQbUa2D6-gYqfWau5UN5gBYsLOfJ3k7l4OUnEe-S9LGygTVFOOzdwp53alZblOLGfjFf1vJ0inaw7ARYrwZdWu0CoQLEUaDNBztGmFOuaodcaXCSABKgl1cy1lYXN0LTIwtww.m3u8
+https://use21.playlist.ttvnw.net/v1/playlist/CqoElg57yK5seReWvnTBLYY5XKwwqFE6a80H6Z1nnO_ORoRpEb8hvbYmY9ILD2yGELV-97he1Bz9GJblZ9lq5JtM8HP7OW3AE9OdwXw1B6t8WAofs0r6_TTQ4DHekLX3qh8qrGZnX228MnWYSVx8ISfLNLOA-0pnvrcKtlqk1IE7jbXo8QmNi85GHi_6cM4mladkF3-xXdvkPBsekVAx5p8HW3Rq8aiPvnylzmYGs7ZeZbXKgySK9jjA2YnMdqgJk07RLM_-uwqRRz0tAsv77Y-uP6oV6icrD8TQILVvTsEuR9FRLeKZDcm_g8d_bkzsJJSLQDFVinZqSWTYlW0rYAdJf5wZuWlhkyp3Cu8_LyUpdcvzAOrAe8oLJrsXzwgcUGIT9XRarOaXabrNAG7QOie2K9YOzEO6oHOzND6C3jdup3hPI1IIK1SFXeyhLKgKm7VcFZ3C27ON8ykXHkmTsU81Mw_MP_3SrF6r9sc7O94qjj4rm3tBOU6nVAWj6BHDbwAoig8Dqyyhfid-rKQoUWaR_E75anK7TqELhvWzaFJet8wXzrSVgcICS8XMp3OgQy4M2osznhSzG6aSHQNkxbBkTTqr9o2OEt6w-73q3Z0COEkddA0aPTgbUDngESMxqBzQ3u15CGaAesa_5le9GBTWIV84vc3quR3IyR1Whw68mQ7M6wcVDdpXZ2SRywdz-jadtvH6R3dZ9NOMX_SEtd-gtwswh7tGCXYux5YaDCLBDVnfAVbYSzNPkSABKgl1cy1lYXN0LTIwtww.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/mZ6gwjBg/kings-league.png" group-title="Kings League", manuuxo
 #EXTVLCOPT:http-referrer=https://www.twitch.tv/manuuxo
 #EXTVLCOPT:http-origin=https://www.twitch.tv/manuuxo
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://use11.playlist.ttvnw.net/v1/playlist/CtsEb-X7bhMahDQgPo3C52Dh6lF3PUmKhmwt7qWi4i5VXLlgoSkzRYoCdmzMbTQXqsBui3r2_aLqw5W7ABrQjzMh2dgT0m76RjVE8hSwtCXAlmwPIlYvCsnyy1kRb8FXsnah-xijcqhz2a6Te-wqT8O3pNb1jg7MUlPUKrWCBVeoDQ9q5ojrLH9LaCCNPRwev8rzdLmV8G1WU_swOh3E4E20V5yg9EnpxLXjoZ5ZbokDf0AdAXL-uA5lXYsZpry8pHFx2RZdh0-2MGoLJEepXRgKrITxCk0bZ-Nuv1-2k_6Fjt_RteIwiIYjgHRcYaGgTaYjBN8hCwAZCT5DYnpLdlVR7H7Cg7CN8Jez2ijOVwsfArnQQls6HtLNSa2bAWJsuAxoODbqiCRSZTKo4xv2kbPXxWEPtN5nbq0LPSwxJkJd2M7s-kR0HMcaGfZJKdFFbbG8sg02tJaXISMiSDozlHzlSdDHW6ruc08EHlhT4HL8ov4MRn8btmrBV3Lgr-YODGut4YVceu2dPqBViEhmHids4H-j4UyPRgNHh3N2dbandmbKIwYRIk45vJxIrJn4hbmxOeFekwmn4Ckur5GntA-lH9Gudy6QjQjcrRzI0VAjyKI8K61wLHtBXeVNVw7ZwIiLEqyLWs4y-zqYghfcHsdJ2s33_3abbayDR0Vz03SRMNdnFNQu1R2COxqwuAdTMZaZyC_G9cxlkOhup6SjBB4os6hB_HSNUAqrVJATaoMptLdzycH61QoMRjfFH5d3-hejlY430HNz04tpYO56CnGvY-D2Sz_p3Kl1G5NCGgxDSpULEx59HRxmduYgASoJdXMtZWFzdC0yMLcM.m3u8
+https://usw23.playlist.ttvnw.net/v1/playlist/CtwEv0QQ6lz_3I0zBmurne05pTjq69fM0gkdrm3giI8kurUldEmiwa_xuq3EEPA7yGOKsqMlqL6GhAStIWoBhbTO2R6UbgAgTWyvrmOGOURqsf7RyUUbGM8Z4w92umOK8GJfCfVFF9BlnS33V2zbVMyP-ID1p2bM7t16LlQr0a67bJjUNcTBGA3pWrZ4ZZzO2QW2boFf_wddZmWfUb0Z5XKXyVZ6Xg_ZytQRXIeNdjGiNM-iYCsk-hBdNGT7CH1DoiIjePPEVErjiqnq55U8rSfKZ_p5WaYxaFUw80mCfYyxNDtBsD2lZP3KABue8hri707uFplk3W64x0id-ySg8MI4TrFHtpqwGsqxkcYIC1h_ER7Mnd6Axm49GtGcKlSYu4LgayVZhsbgTiotM8zlpG0NKV13C4BTZo87AdVD3istQmjBBbI0gKsy27_TffEejCL36I8yadFjH2wha85YcPaWsv5NJ0x-LquPPhpPnIexz-Be8BMt3lODd2qnLJM6DkuQKDQtWRQ6l1UC9lEqoOQoVkTzhS_icTWHiZbQZibWxAzJrZ5Nvwr1DW-W8R_R_LXHVSYrRt_ZuRqhyi5UcpgsCYX6k-AWUTO7-RKB89D6R97KCfgEO4KNocxGEc2jvrRkc8E__mHKZ4m-Lm2euEXGVaCommLfJwcXTKUDBJ2jxIFOJHhpQWrO3xHJFkdrJ4CsUWXUT-NyfpYR-okUUTrkfXJcA_qmlVir7t1Lf3wMlTB1_et5aUkaPpvkqF_7gqnQU80ZW2bzHckZH0hy41Ss1EBXuasufh6CNknJUxoMitPrGPsvbdvyXtUQIAEqCXVzLWVhc3QtMjC3DA.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/mZ6gwjBg/kings-league.png" group-title="Kings League", zedef
+#EXTVLCOPT:http-referrer=https://www.twitch.tv/zedef
+#EXTVLCOPT:http-origin=https://www.twitch.tv/zedef
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://usw23.playlist.ttvnw.net/v1/playlist/CtwEO1IEdHu-TpYb4YTpjIbG12CFi4tCIwULDMDXVuZVFdQyn7MSQQS6-fr11T48dROWZ5Ro_rJWjMTPH1oD_iPKNhDluEzlIHLFzZtK3ATJWTyKPWp8WmZgGiCa4q7o4xbqEIbj1QEGNcXDjRfgsc2MkWjIHZtZPtgAyFQRuWMyMWDArf7_y5rtdCr5bRk40flp2jNRCLzBndvUjGsmu_A2abAVLwLNUf8n9EU89iHZwMvqUX34fC4DNdfYalko60VHHzMDyHifaHe7oBboQQVKMemliWwJwIA_2OKA0jy0K_iSTtmoQ8aBZnrUHWQTj4RXvJxNfhc2ux2E4OjS4bfBctrZgIXIRLFKpwS0M2Xbm-jky1PCBfRNgqSz_CT0mJQRcL0fGeDbLIBJxsTGiDYZf9UMLLaZ__MtVuYmbUTpWitLG_Bl0QSen4qftogeI6hxsJ6ELcqW7Y6YURJqZWZdEeZRBggKar90rVro28vJN-bZUPxROco479y7oAegLatEcZkTAwk3XuLEM1PXLG27r0BrHAHBUCYsnrWBD9yCnL0P5Dj7bGcnruAECK_gUkJ-9U3lJth5XvHob7a1McwKOOGty4wLsazfUvVXKeHbjaZa1WhmW51UNIBikcp7ATsy89MePj6EW55-LbFDqU861CHhJMFsoAeLAJWR2dpJQTuvUV6AjbuVk0DReiZRGuF7WK2pv5RLWTh3WM034S-_4tHXfmM-Dg0Yixx4ztFgf9xFhPwobK_AqXZnaK9pOSiKs26ksMPWGcJ-fy55q1L2Wxgqbm_gR3WQa_Kk8xoM0LXkrf85k2Oh2QCOIAEqCXVzLWVhc3QtMjC3DA.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Kings League", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 #EXTINF:-1 tvg-id="skysportuno.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-uno-it.png" group-title="Dazn MPD",Sky Sport UNO
