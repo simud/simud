@@ -1,5 +1,60 @@
 #EXTM3U
 #EXTINF:-1 info canali
+#EXTINF:-1 group-title="Basket" tvg-logo="https://sportzone.yoga//images/67039b6f4b47a.png",Sky Sport vs NBA
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.yoga/
+#EXTVLCOPT:http-origin=https://sportzone.yoga/
+https://hls.kangal.icu/hls/skynba/index.m3u8
+#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.yoga//images/68414fe510734.png",Pescara vs Ternana
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.yoga/
+#EXTVLCOPT:http-origin=https://sportzone.yoga/
+https://hls.kangal.icu/hls/sky251/index.m3u8
+#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.yoga//images/68414f3901ade.png",Venezuela vs Bolivia
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.yoga/
+#EXTVLCOPT:http-origin=https://sportzone.yoga/
+https://hls.kangal.icu/hls/argen/index.m3u8
+#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.yoga//images/68414f5fc0d73.png",Bosnia-Erzegovina vs San Marino
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.yoga/
+#EXTVLCOPT:http-origin=https://sportzone.yoga/
+https://hls.kangal.icu/hls/calcio/index.m3u8
+#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.yoga//images/68414f844ae36.png",Andorra vs Inghilterra
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.yoga/
+#EXTVLCOPT:http-origin=https://sportzone.yoga/
+https://hls.kangal.icu/hls/skyuno/index.m3u8
+#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.yoga//images/68414fa64619e.png",Malta vs Lituania
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.yoga/
+#EXTVLCOPT:http-origin=https://sportzone.yoga/
+https://hls.kangal.icu/hls/calcio/index.m3u8
+#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.yoga//images/68414fc35138d.png",Albania vs Serbia
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.yoga/
+#EXTVLCOPT:http-origin=https://sportzone.yoga/
+https://hls.kangal.icu/hls/sky252/index.m3u8
+#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.yoga//images/6841501ad0a69.png",Messico vs Svizzera
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.yoga/
+#EXTVLCOPT:http-origin=https://sportzone.yoga/
+https://hls.kangal.icu/hls/sky253/index.m3u8
+#EXTINF:-1 group-title="Tennis" tvg-logo="https://sportzone.yoga//images/6683b5df0dd12.jpg",ATP & WTA vs Sky Sport Tennis
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.yoga/
+#EXTVLCOPT:http-origin=https://sportzone.yoga/
+https://hls.kangal.icu/hls/tennis/index.m3u8
+#EXTINF:-1 group-title="Tennis" tvg-logo="https://sportzone.yoga//images/683314ac39657.png",ATP - SINGOLARE - Open di Francia vs ES1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.yoga/
+#EXTVLCOPT:http-origin=https://sportzone.yoga/
+https://hls.kangal.icu/hls/eurosport1/index.m3u8
+#EXTINF:-1 group-title="Tennis" tvg-logo="https://sportzone.yoga//images/683314eb927b2.png",ATP - SINGOLARE - Open di Francia vs ES2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.yoga/
+#EXTVLCOPT:http-origin=https://sportzone.yoga/
+https://hls.kangal.icu/hls/eurosport2/index.m3u8
 #EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.yoga//images/68408d662a2a7.png",Ecuador vs Brasile
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://sportzone.yoga/
@@ -40,61 +95,6 @@ https://hls.kangal.icu/hls/brasile/index.m3u8
 #EXTVLCOPT:http-referrer=https://sportzone.yoga/
 #EXTVLCOPT:http-origin=https://sportzone.yoga/
 https://hls.kangal.icu/hls/calcio/index.m3u8
-#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.yoga//images/68414fe510734.png",Pescara vs Ternana
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.yoga/
-#EXTVLCOPT:http-origin=https://sportzone.yoga/
-https://hls.kangal.icu/hls/sky251/index.m3u8
-#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.yoga//images/68414f3901ade.png",Venezuela vs Bolivia
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.yoga/
-#EXTVLCOPT:http-origin=https://sportzone.yoga/
-https://hls.kangal.icu/hls/argen/index.m3u8
-#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.yoga//images/68414f5fc0d73.png",Bosnia-Erzegovina vs San Marino
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.yoga/
-#EXTVLCOPT:http-origin=https://sportzone.yoga/
-https://hls.kangal.icu/hls/calcio/index.m3u8
-#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.yoga//images/68414f844ae36.png",Andorra vs Inghilterra
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.yoga/
-#EXTVLCOPT:http-origin=https://sportzone.yoga/
-https://hls.kangal.icu/hls/skyuno/index.m3u8
-#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.yoga//images/68414fa64619e.png",Malta vs Lituania
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.yoga/
-#EXTVLCOPT:http-origin=https://sportzone.yoga/
-https://hls.kangal.icu/hls/calcio/index.m3u8
-#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.yoga//images/68414fc35138d.png",Albania vs Serbia
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.yoga/
-#EXTVLCOPT:http-origin=https://sportzone.yoga/
-https://hls.kangal.icu/hls/sky252/index.m3u8
-#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.yoga//images/6841501ad0a69.png",Messico vs Svizzera
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.yoga/
-#EXTVLCOPT:http-origin=https://sportzone.yoga/
-https://hls.kangal.icu/hls/sky253/index.m3u8
-#EXTINF:-1 group-title="Basket" tvg-logo="https://sportzone.yoga//images/67039b6f4b47a.png",Sky Sport vs NBA
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.yoga/
-#EXTVLCOPT:http-origin=https://sportzone.yoga/
-https://hls.kangal.icu/hls/skynba/index.m3u8
-#EXTINF:-1 group-title="Tennis" tvg-logo="https://sportzone.yoga//images/6683b5df0dd12.jpg",ATP & WTA vs Sky Sport Tennis
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.yoga/
-#EXTVLCOPT:http-origin=https://sportzone.yoga/
-https://hls.kangal.icu/hls/tennis/index.m3u8
-#EXTINF:-1 group-title="Tennis" tvg-logo="https://sportzone.yoga//images/683314ac39657.png",ATP - SINGOLARE - Open di Francia vs ES1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.yoga/
-#EXTVLCOPT:http-origin=https://sportzone.yoga/
-https://hls.kangal.icu/hls/eurosport1/index.m3u8
-#EXTINF:-1 group-title="Tennis" tvg-logo="https://sportzone.yoga//images/683314eb927b2.png",ATP - SINGOLARE - Open di Francia vs ES2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.yoga/
-#EXTVLCOPT:http-origin=https://sportzone.yoga/
-https://hls.kangal.icu/hls/eurosport2/index.m3u8
 #EXTINF:-1 group-title="MotoGP" tvg-logo="https://sportzone.yoga//images/68414d9dca60e.jpg",Prove Libere 1 vs Aragón (Spagna)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://sportzone.yoga/
