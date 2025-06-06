@@ -563,6 +563,11 @@ https://hls.kangal.icu/hls/skyuno/index.m3u8
 #EXTVLCOPT:http-referrer=https://skystreaming.stream
 #EXTVLCOPT:http-origin=https://skystreaming.stream
 https://hls.kangal.icu/hls/skyuno/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/mZ6gwjBg/kings-league.png" group-title="Kings League", controcalcio__
+#EXTVLCOPT:http-referrer=https://www.twitch.tv/controcalcio__
+#EXTVLCOPT:http-origin=https://www.twitch.tv/controcalcio__
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://use21.playlist.ttvnw.net/v1/playlist/CvAECIing7R3ZL2Jtgt6cV5x4RRTAhYV1VxwBfrzz_VMgNYUhxEgDB_DaXVxz_4OfUMo5gDPX8s-3SOUapNep6oqxkFIrxNs0SUCCGMOtIDGk9BItz5GirpRPamvMiy5-iLUHgC0cwtR40cvWXPxrVuPv9woPurwxutiSTKwWz3Gyi71aekhbKf091tPmQzLQshFFrh2mEQFnAqbs8LlysRu1qy9lOZRECbnKyaXUWHc8l15k6zo1UEateSnDyHJ3gmUG0fNM8_iPqPOz2WyFaKTgBgym9yXB_x6JaC3HyKgM-SXCDRy8EOkNhj-T7X0Rhbjhog-hTHRzl1JKc-NLo8ucJSagAjoBDfTkvJzUlySsQvKvMhcMiqLytkwt0SXA-FKFmkMR8vBdE4m2ErByVjpYBDAWldx9wGLstKp1yC7UD2KIt6tiY7z0Egjw8tYTkmH4t6BeM7cpaCdy7m72U3NqNysopAnQ1BfEKlZBoHjdO3RefDiEWmswaONxeYv0o-H-Kiw3oqR9c9oh3s_PQaDiShtHgV8chHW8Gw_EeVTfVywaRZV62CwZZ_WfMmMmfTBLrEYjIsgQKY6vNeWYfIJc8sfbojT8LzqVeGVbtFioPJDp38AitV3RMKJsTuY2zEB7wVlyTmosqfCQX_EZVnlBb8lj_OX5KDGxKwi5HzNc3w6ECz7NNrDYeCW_YUrEFaDs4tUcv-QJjxAtgDOl_h7TJwmOC2OSHcyagxXBENPkunPI5Ijr89eA7VbwRTy74vHsSCziiKCLC3T3pKnKH_QDP13qfla-2_nBl_jchcCRhLIaHeifMXTQxhEgGTajQAjGgz1AH3yfIh5eqbtVaogASoJdXMtZWFzdC0yMLgM.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Kings League", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 #EXTINF:-1 tvg-id="skysportuno.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-uno-it.png" group-title="Dazn MPD",Sky Sport UNO
