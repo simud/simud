@@ -1,16 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="skysportcalcio.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-calcio-it.png" group-title="CALCIO",15:00 Bosnia ed Erzegovina - San Marino 
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=00362f95db61eba0e6f14acee3f71e01:fb74cd84b53c7557e18424a3356c4665
-https://linear302-it-dash1-prd.selector.skycdn.it/016a/31209/FHD/skysportseriea/master_stereo.mpd
-#EXTINF:-1 tvg-id="skysportcalcio.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-calcio-it.png" group-title="CALCIO",18:00 Malta - Lituania 
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=00362f95db61eba0e6f14acee3f71e01:fb74cd84b53c7557e18424a3356c4665
-https://linear302-it-dash1-prd.selector.skycdn.it/016a/31209/FHD/skysportseriea/master_stereo.mpd
-#EXTINF:-1 tvg-id="skysportuno.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-uno-it.png" group-title="CALCIO",18:00 Andorra - Inghilterra 
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0036aaa1d68c6b487e29a5cb080a8a28:a3e8db3ff3c876f7b43a961b64a63474
-https://linear301-it-dash1-prd.selector.skycdn.it/016a/31023/FHD/skysportuno/master_stereo.mpd
 #EXTINF:-1 tvg-id="skysportcalcio.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-calcio-it.png" group-title="CALCIO",20:45 Diretta Gol 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=00362f95db61eba0e6f14acee3f71e01:fb74cd84b53c7557e18424a3356c4665
@@ -19,6 +7,18 @@ https://linear302-it-dash1-prd.selector.skycdn.it/016a/31209/FHD/skysportseriea/
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=003610b4ce44ba838c199b6636cf7431:8369cbbccf0c1ff6bdbacbdae9252a04
 https://linear312-it-dash1-prd.selector.skycdn.it/016a/32951/FHD/skysport252/master.mpd
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",20:45 Austria - Romania 
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=16c25e879df45ec298524e7d21404a98:80fe93c754faaebc8e8bdbfad7cfc107
+https://bpkcdn.telekom.me/bpk-tv/arenasport_2/default/index.mpd
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",20:45 Austria - Romania 
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=4bd0cff22dc85ea5b225d7f9a952e965:acf2c5ff11f481972e0f5ceb979b25bb
+https://bpkcdn.telekom.me/bpk-tv/arenasport_2/default/index.mpd
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",20:45 Austria - Romania 
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0e496cb5280256678de0ac8c4a3f6eac:b70540aeb2f3609c9c3b69bffed51f50
+https://bpkcdn.telekom.me/bpk-tv/arenasport_2/default/index.mpd
 #EXTINF:-1 tvg-id="skysportuno.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-uno-it.png" group-title="CALCIO",21:15 Ternana - Pescara 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=0036aaa1d68c6b487e29a5cb080a8a28:a3e8db3ff3c876f7b43a961b64a63474
@@ -59,18 +59,6 @@ https://linear308-it-dash1-prd.selector.skycdn.it/016a/31764/FHD/skysportnba/mas
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=00364eac2ffee337640e39682439b540:0960172d9000c470ade0658bd36c1d53
 https://linear308-it-dash1-prd.selector.skycdn.it/016a/31764/FHD/skysportnba/master_stereo.mpd
-#EXTINF:-1 tvg-id="skysportmotogp.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-motogp-it.png" group-title="MOTOMONDIALE",12:50 Moto3 - Qualifiche 
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=00362e9181eaa0c5f91761ade3515eb8:52cf3c27885d58ad76aaf36d4217a984
-https://linear306-it-dash1-prd.selector.skycdn.it/016a/31483/FHD/skysportmotogp/master_stereo.mpd
-#EXTINF:-1 tvg-id="skysportmotogp.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-motogp-it.png" group-title="MOTOMONDIALE",13:45 Moto2 - Qualifiche 
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=00362e9181eaa0c5f91761ade3515eb8:52cf3c27885d58ad76aaf36d4217a984
-https://linear306-it-dash1-prd.selector.skycdn.it/016a/31483/FHD/skysportmotogp/master_stereo.mpd
-#EXTINF:-1 tvg-id="skysportmotogp.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-motogp-it.png" group-title="MOTOMONDIALE",15:00 MotoGP - Sprint Race 
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=00362e9181eaa0c5f91761ade3515eb8:52cf3c27885d58ad76aaf36d4217a984
-https://linear306-it-dash1-prd.selector.skycdn.it/016a/31483/FHD/skysportmotogp/master_stereo.mpd
 #EXTINF:-1 tvg-id="skysportmotogp.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-motogp-it.png" group-title="MOTOMONDIALE",11:00 Moto3 - Gara 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=00362e9181eaa0c5f91761ade3515eb8:52cf3c27885d58ad76aaf36d4217a984
