@@ -1,12 +1,4 @@
 #EXTM3U url-tvg="http://www.epgitalia.tv/gzip,http://epg-guide.com/it.gz,https://raw.github.com/matthuisman/i.mjh.nz/master/PlutoTV/us.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/PlutoTV/it.xml.gz,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-events-epg.xml,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-channels-epg.xml,https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/it.xml.gz"
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TENNIS",15:00 Sinner v Alcaraz
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=46e559c2f9f645ce8d80c7fa20446bdb:597d214d66342ee042bccffeb165e750
-https://timlivetu0.cb.ticdn.it/Content/DASH/Live/channel(eurosport1)/manifest.mpd
-#EXTINF:-1 tvg-id="skysportcalcio.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-calcio-it.png" group-title="CALCIO",15:00 Germania - Francia
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=00362f95db61eba0e6f14acee3f71e01:fb74cd84b53c7557e18424a3356c4665
-https://linear302-it-dash1-prd.selector.skycdn.it/016a/31209/FHD/skysportseriea/master_stereo.mpd
 #EXTINF:-1 tvg-id="skysportcalcio.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-calcio-it.png" group-title="CALCIO",21:00 Portogallo - Spagna
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=00362f95db61eba0e6f14acee3f71e01:fb74cd84b53c7557e18424a3356c4665
@@ -41,6 +33,10 @@ https://bpkcdn.telekom.me/bpk-tv/arenasport_2/default/index.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=0e496cb5280256678de0ac8c4a3f6eac:b70540aeb2f3609c9c3b69bffed51f50
 https://bpkcdn.telekom.me/bpk-tv/arenasport_2/default/index.mpd
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TENNIS",15:00 Sinner v Alcaraz
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=46e559c2f9f645ce8d80c7fa20446bdb:597d214d66342ee042bccffeb165e750
+https://timlivetu0.cb.ticdn.it/Content/DASH/Live/channel(eurosport1)/manifest.mpd
 #EXTINF:-1 tvg-id="skysportnba.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-nba-it.png" group-title="BASKET",02:00 Oklahoma City Thunder v Indiana Pacers
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=00364eac2ffee337640e39682439b540:0960172d9000c470ade0658bd36c1d53
@@ -489,12 +485,12 @@ https://hls.kangal.icu/hls/skyuno/index.m3u8
 #EXTVLCOPT:http-referrer=https://www.twitch.tv/kingsleague_it
 #EXTVLCOPT:http-origin=https://www.twitch.tv/kingsleague_it
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://usw24.playlist.ttvnw.net/v1/playlist/CskEtwUlNPBNpUDBpjlB4kQYABSVsmhyB6CMA6u9k72nFxg-BKmFAn829e019EVz48hDVvcxWdWRMER3zHYV6aDWlEfq7uPIjdErPd9Q27_gFny4v4aPeZmGw86lhUUyB9jJIaM2MMgTGYmFnxDtyXn1F7NoTvA1Lj29R8HmjE4QskPss-YfVc1cDJZXdunaHgyuPPz3qj1yaNx70H0WJzDByz42CBe7whKS3WZG5eUb4lRDe02w-4c46xnl-zJ-XhL8GawKgTMYQNlCQ05CKH3kL-ZmvtqDqgu7eMsim8Km_H3fHfgNN19Jtfs-7Jbat8HZxo5nDtSWYNiG1A9XvwOcC5DX5nC3l0nM64MSjwqMAEWeGbHq5X70ZqXRBudWpyPcN6xPdX06mNmfBdNNJ7pEJGrsn5EfYO51M7-JHUaxVpNoSF_HGdh1-6mgeuT_Gj7QxNm1nUTID3X_5N7XBbY0KLTyENZUWCHc9FsbTjlP5L5PAoAyuj0QUz7X1MfW0pUzxXFemqYOuvBR0AF0KwGgMa0ngs_2rEyNeVjhKwSgZcKt8_caNxhKsDO6DyaJYlDQR0GOSMEmrjAfln5tsmK6kDw39I9mvoTwe9b4ktPudeAE6iTwcRco6gJjl2CB84ZLZFEkrSnfwkuZ2Y-on6GlW_XxeBhg2gK4w7Hk5Pr-Hi4UyEa3ZsmrLkO-LCCUiyPaxpY0t1GIfNMq4bw9oCx4xHRonMVx8oYxX8fzG7VycA1T7dnlohya8vr-pkjZGpFoUn45TbLDodUDGgyvRd4eHaWeoyZOe_YgASoJdXMtZWFzdC0yMLoM.m3u8
+https://use22.playlist.ttvnw.net/v1/playlist/CvwEq--XZsfmcVwJADmxjBcvirQIBSD9lTMGlw09UmglGRDIffQHXEUL0Aef0yKkQ5-hvENHtxFTniNJ3GlaUeNlD4jO72ks5NnPmMgsdm4ivT-4DJ1O7K1pVyDxJBnX-Zlxmb-Cu-vsr0SrgGO9jruSvqleq8rBIGR-wy434YPKcPf2DR0jX6EsBw3CmnaH3NSPnUWUXkWZT58WJxU4NNq6Pp-R1bbNDmhQgw2bAvJDZn5ZwBbsre5o0kTiTI0NhMEZNDdZ6bCb-twLlxpI8-TGAfMt1yCoC425ONc-iqZOM5H-UghIme_iPzFJGJRf1kxgc8aXBY3sCl6wIzJWJ3gucBJT_sjvfm9CoCFA7X5ZUWe6W9UH-zykjdVPchrKGX9Ry62CF4fIu0ilDgbY6mY6b8Mex7Nc-E3372YrU9vLTHU7eJZluUFCibYmXPOTpjLqhQktm3EaDBeKj8wtzR6WAwRspD8h2YSQmlssgi2rjHQ9uXtx-zoA8jtsP7YojpRBUPCtJd2CJigt_IzVv40B08Q4rtx2jE3jsCClvy15AolPomZkJaPYMiVgnMGUMZ7MZ-biJbbI0A1-p6KM1sUhEikT3G_FlV8DvFKv_fPGM3dCkQsX7UGy1lX_5P_YVXINqzmCS7dPWTVtYp0ILE59muuj4LSkYUqTVw65kOyOG_ffotFwx7u3B_-mM6pRmvgli4mj7sHgqr7OSDaRcqFiOME76Upy4E_XOSC9mUnHniO5WxoB9tUQiS8AfkPlW9Wq9DcRzGAIyX2eo56LfD1emyVUveGtoHksROjzN3KcOmXnLt_zj-fv7wmklen4GuuxlblcIZvBTsYso4elGgy8Vovox3f6SXCE04EgASoJdXMtd2VzdC0yMLwM.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/mZ6gwjBg/kings-league.png" group-title="Kings League", kingsleague
 #EXTVLCOPT:http-referrer=https://www.twitch.tv/kingsleague
 #EXTVLCOPT:http-origin=https://www.twitch.tv/kingsleague
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://use21.playlist.ttvnw.net/v1/playlist/Cu0Eg4Nc7NpDI8JP3CBgrnvZi1nspd7-PUDI9t5wXQ5Wzhodg1_QcQLoTNTtQl2O9CVw5mKVh9KA-KkgBbyEl8oP5hOPSGx7h_MsQXYah1_P9n9GT8Njk4p4qJ0hRT6W0VP0pq-S0XAauLBojV-eAU6UWfbOijyAK3fQhaqClQaCIFP5EXRU37ySy_cxm1wiVi02WMgFttT5kl6ezZhhSWwFR_pMw1TJ1732B9fYNVQi0bO247CgpQjeZPVQ-6Eilxkvm7TtM3bGYrBVB6aPVhLJTllAKGLs1RVc-MFWIFqUIp8jFWWlnvy2Hz8bQfY9sNyeu_KLQBPY6HlfxGUYLAKMAgMvM7Bqc3ie7HHAm0ahMBMov5It7TYvpzDjzdTRBlr8dTQkMRRojgPj4n-VBR8HTHH2hkoOK3VKvjWscGMnunfFk7NnroE_m07Jv6LBQmnKe0Rcry0i-7R75s5zffsslnlIGmceboyilmSeUPIziZGNf2n-LVBA4XhNe1fjuXEXKZHZUWLayYWueya3dFzQEIUTm8YZ25yY76bvv3u9s60zWFSRNNrAHK-N0xq2gAyMlgNeMtIs9r8IZn6ddwcEhVjmr1luaG3HQRlhyZl9of4aa8hygEpJj5fHOX9Ic2atnlvwFyW6jmRymfkwHPtnNNObWMhcQ2cXYZjnsVPWnKorq6aQ30yWBsRl9wvLzLaQAflxmjyMzSmwo7YpcWwt4gaVRGb8rKFRpeURlIMkGVJYtOQB6EWecXNVYLPEdRRvfUzb3jD5nBEjfnd1Z34Z8DH7nollq4npplVRu2rq33_77aTLLvKgGg36QmCGGgz6YjtNNp1aNLpjRFMgASoJdXMtZWFzdC0yMLoM.m3u8
+https://use15.playlist.ttvnw.net/v1/playlist/CtQE8wRmsxqh-0I24xoQ_5FjLuNC-rB9gtz-lpP2zxBNo-Um27Ei5AWRU-l0PE-LQN0Ws1oDbf3GlZbgMhLb9HTFrxVpiAz1RDsjqWkSAIUzTu8oPY61evRvCavvfpiqxXq-OM4vQ1ow4YAVAWiWuTnDZ2odGORyE4Q9JOBMcdMLf2sv8XxlmK6mIsDo6YFwyuqw_s_wNlK6bjWn7GP4U2F4VQohOatigu8I-dI2pqp9BcaAUVSUSss99xcL36xKDbfyPAY6vRNHSwEgwubHLofc3cHYViP6TiIEfmlw7ge-8y8y3fhhp89DLbebzZZtaHxFOgFICb7-lfPzO1_RNfTeGGe8gm6QpHprRDlFaty6LNgadNyHR92GqsE6zh1amXHfdBNdqyeerGoCVVmujKfobsGSRRW1Ildj_GGcZcK1E2RbTWfPntXhjpjyXMnv0Cor-vnZvGql78xTva9IjSDGtt0rVKwhZgDPr7d7gxH7iQoJPndFqyoiJFULe80QfhZ_-6UBStgUfPNV4So1ODubH50wulP454ITrDmT38wCPtFfsoS555IPUvvuR3zUiT8VGoKNmvHvccIgYoq0Dxmfv-CX2yL3QLzKgloL3vnDAdne1oLE-q4j2iY09EyJB2EK3ftqg9MmvBU5KqcOXxwPqLme82MDTRuf4Zk8LDn5mJO6e3Pyq5RVczxqNXuhLPkE0YTg2CVvRqk_cx3C856_r2WK-iY18I3KP09RcFpvauOpByu2VV8DM4uBf-QVcEnN-xAOTay51_bWs9jHWVmOD6aU8loaDKhdM20932qe-eITvSABKgl1cy13ZXN0LTIwuww.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Kings League", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 #EXTINF:-1 tvg-id="skysportuno.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-uno-it.png" group-title="Dazn MPD",Sky Sport UNO
