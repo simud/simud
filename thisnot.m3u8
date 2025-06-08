@@ -7,10 +7,6 @@ https://linear306-it-dash1-prd.selector.skycdn.it/016a/31483/FHD/skysportmotogp/
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=46e559c2f9f645ce8d80c7fa20446bdb:597d214d66342ee042bccffeb165e750
 https://timlivetu0.cb.ticdn.it/Content/DASH/Live/channel(eurosport1)/manifest.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TENNIS",15:00 Sinner v Alcaraz 
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=1e2398b0eeb04829b4711e14b4a91244:11e26659ebfecf6a22ed56da340448cd
-https://timlivetu0.cb.ticdn.it/Content/DASH/Live/channel(eurosport3)/manifest.mpd
 #EXTINF:-1 tvg-id="skysportcalcio.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-calcio-it.png" group-title="CALCIO",15:00 Germania - Francia 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=00362f95db61eba0e6f14acee3f71e01:fb74cd84b53c7557e18424a3356c4665
