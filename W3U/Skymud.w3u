@@ -18,6 +18,12 @@
       "image": "https://www.tuttomille.eu/wp-content/uploads/2019/06/skyq.gif",
       "url": "https://raw.githubusercontent.com/simud/simud/refs/heads/main/W3U/LiveTV.w3u",
       "import": true
-    }
+    },
+    {
+      "name": "Canali MPD",
+      "author": "Simud",
+      "image": "https://i.postimg.cc/6QVmW4C9/Chat-GPT-Image-8-giu-2025-17-23-16.png",
+      "url": "https://raw.githubusercontent.com/simud/simud/refs/heads/main/W3U/MPD.w3u",
+      "import": true
   ]
 }
