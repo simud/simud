@@ -1,0 +1,64 @@
+{
+  "name": "Canali MPD",
+  "author": "Simud",
+  "image": "https://i.postimg.cc/6QVmW4C9/Chat-GPT-Image-8-giu-2025-17-23-16.png",
+  "info": "Sky MPD: intrattenimento, serie TV e show esclusivi in alta qualità",
+  "url": "https://raw.githubusercontent.com/simud/simud/refs/heads/main/W3U/MPD.w3u",
+  "stations": [
+    {
+      "name": "Sky Uno MPD",
+      "info": "Canale premium con programmi di intrattenimento, reality show e serie TV esclusive",
+      "online": "true",
+      "image": "https://www.lifestyleblog.it/wp-content/uploads/2022/06/sky_uno.png",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E148 Safari/605.1.15/Clipbox+/2.2.8",
+      "referer": "https://tvonline.great-site.net",
+      "url": "https://tvonline.great-site.net/channel/skyuno.php",
+      "embed": "true",
+      "isHost": ""
+    },
+    {
+      "name": "Sky Sport Uno MPD",
+      "info": "Canale premium con programmi di intrattenimento, reality show e serie TV esclusive",
+      "online": "true",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Sky_Sport_Uno_-_Logo_2020.svg/2560px-Sky_Sport_Uno_-_Logo_2020.svg.png",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E148 Safari/605.1.15/Clipbox+/2.2.8",
+      "referer": "https://tvonline.great-site.net",
+      "url": "https://tvonline.great-site.net/channel/skysportuno.php",
+      "embed": "true",
+      "isHost": ""
+    },
+    {
+      "name": "Sky Sport Tennis MPD",
+      "info": "Canale premium con programmi di intrattenimento, reality show e serie TV esclusive",
+      "online": "true",
+      "image": "https://www.spotandweb.it/wp-content/uploads/2024/04/Schermata-2024-04-29-alle-14.22.56.png",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E148 Safari/605.1.15/Clipbox+/2.2.8",
+      "referer": "https://tvonline.great-site.net",
+      "url": "https://lazzy.live/lv/ck/tennis/tennis.php",
+      "embed": "true",
+      "isHost": ""
+    },
+    {
+      "name": "DAZN MPD",
+      "info": "Canale premium con programmi di intrattenimento, reality show e serie TV esclusive",
+      "online": "true",
+      "image": "https://www.tivu.tv/_common/images/cover-canali/dazn-1.jpg",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E148 Safari/605.1.15/Clipbox+/2.2.8",
+      "referer": "https://tvonline.great-site.net",
+      "url": "https://tvonline.great-site.net/channel/dazn1.php",
+      "embed": "true",
+      "isHost": ""
+    },
+    {
+      "name": "Sky Sport 251 MPD",
+      "info": "Canale premium con programmi di intrattenimento, reality show e serie TV esclusive",
+      "online": "true",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Sky_Sport_-_Logo_2020.svg/1200px-Sky_Sport_-_Logo_2020.svg.png",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E148 Safari/605.1.15/Clipbox+/2.2.8",
+      "referer": "https://tvonline.great-site.net",
+      "url": "https://tvonline.great-site.net/channel/sport251.php",
+      "embed": "true",
+      "isHost": ""
+    }
+  ]
+}
