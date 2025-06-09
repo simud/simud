@@ -20,7 +20,7 @@ try:
         "name": "Film e Serie",
         "author": "Simud",
         "image": "https://media0.giphy.com/media/Q2uk5XNnlATqumoDF7/200w.gif?cid=6c09b9527ye9agpzw5eroab1islf6rfc1kiweuec63nhb1jc&ep=v1_stickers_search&rid=200w.gif&ct=s",
-        "url": "https://example.com/streamingunity.w3u",
+        "url": "https://raw.githubusercontent.com/simud/simud/refs/heads/main/W3U/Film.w3u",
         "stations": []
     }
     
