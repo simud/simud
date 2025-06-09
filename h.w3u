@@ -1,71 +1,85 @@
 {
-  "name": "Film e Serie",
+  "name": "Film e Serie StreamingUnity",
   "author": "Grok",
   "image": "https://media0.giphy.com/media/Q2uk5XNnlATqumoDF7/200w.gif?cid=6c09b9527ye9agpzw5eroab1islf6rfc1kiweuec63nhb1jc&ep=v1_stickers_search&rid=200w.gif&ct=s",
   "url": "https://example.com/streamingunity.w3u",
   "stations": [
     {
-      "name": "streamingunity.art/it",
+      "name": "Streamingunityart",
       "info": "Film e serie streaming",
       "online": "true",
       "image": "https://via.placeholder.com/300x450.png?text=Streaming",
       "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E148 Safari/605.1.15/Clipbox+/2.2.8",
       "referer": "https://streamingunity.art/it",
-      "url": "https://streamingunity.art/it"
+      "url": "https://streamingunity.art/it",
+      "embed": "true",
+      "isHost": ""
     },
     {
-      "name": "cineblog01.delivery/",
+      "name": "Cineblog01delivery",
       "info": "Film e serie streaming",
       "online": "true",
       "image": "https://via.placeholder.com/300x450.png?text=Streaming",
       "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E148 Safari/605.1.15/Clipbox+/2.2.8",
       "referer": "https://cineblog01.delivery/",
-      "url": "https://cineblog01.delivery/"
+      "url": "https://cineblog01.delivery/",
+      "embed": "true",
+      "isHost": ""
     },
     {
-      "name": "altadefinizionegratis.cc/",
+      "name": "Altadefinizionegratiscc",
       "info": "Film e serie streaming",
       "online": "true",
       "image": "https://via.placeholder.com/300x450.png?text=Streaming",
       "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E148 Safari/605.1.15/Clipbox+/2.2.8",
       "referer": "https://altadefinizionegratis.cc/",
-      "url": "https://altadefinizionegratis.cc/"
+      "url": "https://altadefinizionegratis.cc/",
+      "embed": "true",
+      "isHost": ""
     },
     {
-      "name": "eurostreaming.cv/",
+      "name": "Eurostreamingcv",
       "info": "Film e serie streaming",
       "online": "true",
       "image": "https://via.placeholder.com/300x450.png?text=Streaming",
       "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E148 Safari/605.1.15/Clipbox+/2.2.8",
       "referer": "https://eurostreaming.cv/",
-      "url": "https://eurostreaming.cv/"
+      "url": "https://eurostreaming.cv/",
+      "embed": "true",
+      "isHost": ""
     },
     {
-      "name": "filmpertutti.pizza",
+      "name": "Filmpertuttipizza",
       "info": "Film e serie streaming",
       "online": "true",
       "image": "https://via.placeholder.com/300x450.png?text=Streaming",
       "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E148 Safari/605.1.15/Clipbox+/2.2.8",
       "referer": "https://filmpertutti.pizza",
-      "url": "https://filmpertutti.pizza"
+      "url": "https://filmpertutti.pizza",
+      "embed": "true",
+      "isHost": ""
     },
     {
-      "name": "www.animeunity.so",
+      "name": "Wwwanimeunityso",
       "info": "Film e serie streaming",
       "online": "true",
       "image": "https://via.placeholder.com/300x450.png?text=Streaming",
       "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E148 Safari/605.1.15/Clipbox+/2.2.8",
       "referer": "https://www.animeunity.so",
-      "url": "https://www.animeunity.so"
+      "url": "https://www.animeunity.so",
+      "embed": "true",
+      "isHost": ""
     },
     {
-      "name": "www.animeworld.ac",
+      "name": "Wwwanimeworldac",
       "info": "Film e serie streaming",
       "online": "true",
       "image": "https://via.placeholder.com/300x450.png?text=Streaming",
       "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E148 Safari/605.1.15/Clipbox+/2.2.8",
       "referer": "https://www.animeworld.ac",
-      "url": "https://www.animeworld.ac"
+      "url": "https://www.animeworld.ac",
+      "embed": "true",
+      "isHost": ""
     }
   ]
 }
