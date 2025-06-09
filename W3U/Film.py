@@ -5,7 +5,7 @@ import json
 url = "https://webassistance.github.io/lista-veezie/lista_domini.txt"
 
 # Nome del file W3U
-output_file = "Film e Serie TV.w3u"
+output_file = "Film.w3u"
 
 try:
     # Scarica il contenuto del file
@@ -20,7 +20,7 @@ try:
         "name": "Film e Serie",
         "author": "Simud",
         "image": "https://media0.giphy.com/media/Q2uk5XNnlATqumoDF7/200w.gif?cid=6c09b9527ye9agpzw5eroab1islf6rfc1kiweuec63nhb1jc&ep=v1_stickers_search&rid=200w.gif&ct=s",
-        "url": "https://raw.githubusercontent.com/simud/simud/refs/heads/main/W3U/Film.w3u",
+        "url": "https://example.com/streamingunity.w3u",
         "stations": []
     }
     
