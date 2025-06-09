@@ -53,8 +53,8 @@ def extract_dynamic_urls(playlist_content):
         origin = target_domain
     else:
         print("Dominio skystreaming.stream non trovato nella playlist, utilizzo fallback.")
-        referrer = "https://skystreaming.stream"
-        origin = "https://skystreaming.stream"
+        referrer = "https://skystreaming.yoga"
+        origin = "https://skystreaming.yoga"
 
     # Cerca un URL di embed per dedurre embed_base_url
     embed_pattern = r'(https?://[^\s/]+/embed/[^\s]+)'
