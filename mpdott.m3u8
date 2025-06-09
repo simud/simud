@@ -103,6 +103,26 @@ https://xuione.sportstreaming.net/SportStreaming/SportStreaming/9.m3u8
 https://xuione.sportstreaming.net/SportStreaming/SportStreaming/8.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Eventi", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
+#EXTINF:-1 group-title="Eventi Sky Streaming" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Diretta Gol Vs Qualificazioni Mondiali
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://skystreaming.stream
+#EXTVLCOPT:http-origin=https://skystreaming.stream
+https://hls.kangal.icu/hls/calcio/index.m3u8
+#EXTINF:-1 group-title="Eventi Sky Streaming" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Estonia Vs Norvegia
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://skystreaming.stream
+#EXTVLCOPT:http-origin=https://skystreaming.stream
+https://hls.kangal.icu/hls/skyuno/index.m3u8
+#EXTINF:-1 group-title="Eventi Sky Streaming" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Italia Vs Moldavia
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://skystreaming.stream
+#EXTVLCOPT:http-origin=https://skystreaming.stream
+https://hls.kangal.icu/hls/italia/index.m3u8
+#EXTINF:-1 group-title="Eventi Sky Streaming" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Liechtenstein Vs Scozia
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://skystreaming.stream
+#EXTVLCOPT:http-origin=https://skystreaming.stream
+https://hls.kangal.icu/hls/calcio/index.m3u8
 #EXTINF:-1 group-title="Sky Sport Backup SD" tvg-logo="https://www.davidemaggio.it/app/uploads/2021/08/business.jpg",Eurosport 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://skystreaming.stream
@@ -452,12 +472,12 @@ https://hls.kangal.icu/hls/skyuno/index.m3u8
 #EXTVLCOPT:http-referrer=https://www.twitch.tv/freneh
 #EXTVLCOPT:http-origin=https://www.twitch.tv/freneh
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://use12.playlist.ttvnw.net/v1/playlist/Cs0EoxXbpsGpmPCpzOJzdxfqoA4onC0xnYXs15-YQl0P97EXr4acMgF6gXjAL8FK_5DNZ9gVL_02KoR7L9OlFZub-HwwRUkagndaotoMel9dVU3F07hbk085113eCubRb6vDpfxcxcgUbAdVx6B_iAafPHFtXQfNkyee8tOY6zbcdEQmqsoo0nYu8rkI_3Dji_4cr6WefUEQcuRfvcdeI2OZSpwtdalVKv357KgF3R_mLRDI7NNL8NHYqO899k7ARQbc6G1B7jlTlPMXRMNIqDSXYT_27hSmFPLi2y96pGAbK6iiLvoSl73t-qYax39ykxWKQ1X7u25HPwDJvZEvMjKEHLOyNUtTYwbOjysa0Q0VeiyxyvpoDXn5bVZQxDiBuWyRZfZ3HGDhEb1ltjScmdrsZsFlA_HpV7sIfHpwk4iki-88rzueVksTGCIMeyH2NQonHZO-eavD5JQHybyIGQrHA8Eq20SRdZnG9hlRdYV6Ngbc8Bz6QL7EIjv3C-1ynFptXE0VAKS-WSbtrPDAJE2xtmDBfLtuK0l5zn49UwHrWJ9E8AhpuXJe3vg4rIIDUy2Qteqzvc8n4Gu0rou_GGcOm9w9rdnCBAkKFSTSjYsM11VG96HpIYI2UO6xhry7MDDvD3mGlYo7HCXE8tkk0kEAOwhya9sd06HtniWsy_b-maasWWUvThmMB6C47ZXugw1w66m5QQEH6CySZs3mYugavbJKFJh0pnOAeCbnOf_OzDFAnmeIbFGC9ZF7pRF-7F2yYHaQkc7Otab56ciRPhoM7E7j6PHY7TU9o93pIAEqCXVzLWVhc3QtMjC7DA.m3u8
+https://use12.playlist.ttvnw.net/v1/playlist/CrMEF-pmh0bEOB70U6a2P7ELwBV9cJ97r0Z3Zen5NHOEEbovdjwlQ6dcg9IL7pHLuv8CTY3DXrIxeK6iYSdid8QbfWSUGnREBVisAbZ8Z8tTMXexaSHaPhccnk8NUrqZvQruc4dR6ViwNHoomFI81GUQ0sDfIbDZZ3hXsxcNf1X2O2fZVNDUc3r0eVUgC3cVhDVqZ-d1EfhNSdf__gWd0n8FUlh4bpcLXJ1oYQfNqxHr-0ZhEpEblss07WXsUP4Bpgm6FwGLsvb6W8lWuOCL_VkFOLavXwkuRbeCu0vUPuQ2KmgJThocl5vwLp8fn377QGna2mJeeQIr87u3ysFz5ljD-L1j0t55srLGeSS8H6ffacqH6T_AqFYDdVmhdY54ONWCQ-P2O7TUrhgemQuY2HCjMHFqgoE6_4yubhUZWz_P0yOceq-RNAJmiqQRCGO2ASYLkuBpirY28p4abewml-0Dh0vYLNkzHkuBF3VVnC-VJmlUAUwpUaBIrFNPLpNvp7YouDPNDWeaX249MO_AMR_mNI3UVxmlWdnBHsYuNLEx7gGOvFwgeTCqNCvCQlgvGDEvpLhbHAoaVWZMt0SBI7G_0-V9EJ0R7Uy2quJTVk90wWW0GH7e4C_Wj8BRY7Ukjr2UqiTjC7HXydo9koDdBOYiNv0HJo9hKbsBuvLNSLdsYM73uBzYJgAIojxBiVKA-Fw9Wg-8xvUvdVrP1UKkKq3mbkFjXXQyGJGuzbf4u5CjdIfDY_saDMz77SY4rjeJXc0WKyABKgl1cy13ZXN0LTIwvAw.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/mZ6gwjBg/kings-league.png" group-title="Kings League", controcalcio__
 #EXTVLCOPT:http-referrer=https://www.twitch.tv/controcalcio__
 #EXTVLCOPT:http-origin=https://www.twitch.tv/controcalcio__
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://usw21.playlist.ttvnw.net/v1/playlist/CtgEny3n1eK90uy8l0GGL2LPmlmguPHqO8JTEjxcVP434CuN77z3_Km2M-eidm_CbIQfjKj9iiLhrfWom1XZfBtyia7yfiiSSDz75X4CashWabv7zpbUYI_ifah18f4N5JZXsfjTj1Favn-A3Hr1P3wKdiboGr2TbKYyCmkTuNI6WkgtOaAu17IfFl0MmerXk9eQlOjiioinWqQDK9EE42cH8eYbeJPmX8lCretEOfREsyv-nJOD5bbARiPPzagA5wRD6CPmzEYppOh_A-BLxd4eBN2kzEkHK03xTODUAadkKFyNDHMAraZAdWQRGD1cUR_DOuIG1ZTkBXdITqJjW0VYf4Lk5slA0uphjefcn702Jz4CibY0YSuqTXfHT-AOQoPtWJZGU5AJuBbxhNHNUU43rBlei-eY4FO87o4wg5n2Jnlb4IU-SNOplhjvOwaeOootVP5cptI1ujfejXwTEQawN5qWBUDfqNydAlAPd-xih52DXZttv5K2PT9h4Id5ssfEvPKb41RbiArLOcT2iJDXJirOfsSR42eoIBC3k1eDCDn7VRRNCFhItwgKDC_UJUp9pWa0rnONqIkkpWe6Vt2NzcXya1-HSjM2Qub0ZO_BE2ItDCk22cM5-oKvdMOH-HawjiHvb1iCRKe7TTsn0OPr1ZJoNVjUQEyqcLkz1Xw_4k-iLBDe6XsHV9MuIDqXi8I9WFXHdlkjD1exXks_C4ZLlhSp80KlGlxgylaPLGQv-wi3HQiytpWFoOD9g-W_pWigNSMDvo3gENWw2rXtsvWQqjYCFMcNNXgZGgzs88hAXQRIyWMlkWYgASoJdXMtZWFzdC0yMLsM.m3u8
+https://usw23.playlist.ttvnw.net/v1/playlist/Cu8E9g4ZqlRZg7zYFRR3S33w20H9v1V-G7a3cy0ImF0pAP-xZKCBhDFMMVY7B1k2j5V407_qqYqBXT9RcRfiFExYNN_0nvj_KHWlfaMxeAYOM5tt6zTeQLkPF29yiCkS3mgMCHailOcXNpSfvM_vw0XdkPZeDa42zDlPZkMWph28NPVptnD5njb1NIHbS_rBj3m5AA_BAUi1LvqhDifPc6FD1OHDKcST6lZ4rgYfIiIe6WUG84NxAQkaWo_1K89TviLNUrF3Bh2yfC_s-Q09fZydbRXojbwblgYNlCcyQxwlt3ED88L7m6S-TTjp0awf9clli5fy1xgjZRuPOT9oFB8b0b37Xl4kAHcSlRqWaWNTjEMhpgyiUfzwRd0XBqsRTcv08dcoi0KhFg5ORbZpolxY5Q0umsYLyCz4HfzEufnsbfLyukQi4vHcHb2ig03rwD0x9XfsdRXd_sBMlDr4gefBJFRLwtxCnylGHpeNDhNqHbyknNgB4hH2VX2Wpq3JfCQ8ZwrLj0GUj-fWL9YaBRJonL_DDpkPJX6Dp9It_tHgyZTR5HSXrE38zWO5P5w6YfZQXkuv_L3gBOsWSUiaL3EVvsPSNZbzo3Jzj2hz_QK2Fz96If9e239PAoBgCukrHykkPABgAz4eLdOixdNjRFOHTFI_Fd9fTWXhqaAy4n8VbdpEm849Rr638TZ7r_jsrNmSMtw6EZyDRZm1EVsDHzEUTEixaEfz03TRlUM7wYLSCrV9CgQ3kkO7lDGM8IxBwdOQqBLakfI-LWoli2R3oJ_qyvZMb_mvplJC803_S8qSxMc23fOBJw-VWrW0yTLqe9gaDJPYnM8Q59WF5PvtxCABKgl1cy13ZXN0LTIwvAw.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Kings League", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 #EXTINF:-1 tvg-id="skysportuno.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-uno-it.png" group-title="Dazn MPD",Sky Sport UNO
@@ -504,10 +524,6 @@ https://linear308-it-dash1-prd.selector.skycdn.it/016a/31764/FHD/skysportnba/mas
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=003610b8556000936e48061cdb4ee11a:2cd6bcc2160aa6ec048e5a5f7a0f73c8
 https://linear313-it-dash1-prd.selector.skycdn.it/016a/32477/FHD/skyuno/master_stereo.mpd
-#EXTINF:-1 tvg-id="eurosport1.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/eurosport-1-es.png" group-title="Dazn MPD",EuroSport 1
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0036bb3fa7e6f2c334d7cba5c28b6caf:217fa35739cd68e90b2cd23322c01312
-https://linear311-it-dash1-prd.selector.skycdn.it/016a/313073/FHD/eurosport/master_stereo.mpd
 #EXTM3U  url-tvg="http://www.epgitalia.tv/gzip,http://epg-guide.com/it.gz,https://raw.github.com/matthuisman/i.mjh.nz/master/PlutoTV/us.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/PlutoTV/it.xml.gz,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-events-epg.xml,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-channels-epg.xml,https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/it.xml.gz"
 #EXTINF:-1 tvg-id="Sky.Sport24.it" tvg-logo="https://i.postimg.cc/d3fXKnGj/sky-condivisione.png" group-title="Sky Sport",Sky Sport 24
 #KODIPROP:inputstream.adaptive.license_type=clearkey
