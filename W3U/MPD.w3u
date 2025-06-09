@@ -6,7 +6,7 @@
   "stations": [
     {
       "name": "Sky Uno MPD",
-      "info": "Canale premium con programmi di intrattenimento, reality show e serie TV esclusive",
+      "info": "Intrattenimento",
       "online": "true",
       "image": "https://www.lifestyleblog.it/wp-content/uploads/2022/06/sky_uno.png",
       "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E148 Safari/605.1.15/Clipbox+/2.2.8",
@@ -16,30 +16,8 @@
       "isHost": ""
     },
     {
-      "name": "Sky Sport Uno MPD",
-      "info": "Canale premium con programmi di intrattenimento, reality show e serie TV esclusive",
-      "online": "true",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Sky_Sport_Uno_-_Logo_2020.svg/2560px-Sky_Sport_Uno_-_Logo_2020.svg.png",
-      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E148 Safari/605.1.15/Clipbox+/2.2.8",
-      "referer": "https://tvonline.great-site.net",
-      "url": "https://tvonline.great-site.net/channel/skysportuno.php",
-      "embed": "true",
-      "isHost": ""
-    },
-    {
-      "name": "Sky Sport Tennis MPD",
-      "info": "Canale premium con programmi di intrattenimento, reality show e serie TV esclusive",
-      "online": "true",
-      "image": "https://www.spotandweb.it/wp-content/uploads/2024/04/Schermata-2024-04-29-alle-14.22.56.png",
-      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E148 Safari/605.1.15/Clipbox+/2.2.8",
-      "referer": "https://tvonline.great-site.net",
-      "url": "https://lazzy.live/lv/ck/tennis/tennis.php",
-      "embed": "true",
-      "isHost": ""
-    },
-    {
       "name": "DAZN MPD",
-      "info": "Canale premium con programmi di intrattenimento, reality show e serie TV esclusive",
+      "info": "Sport",
       "online": "true",
       "image": "https://www.tivu.tv/_common/images/cover-canali/dazn-1.jpg",
       "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E148 Safari/605.1.15/Clipbox+/2.2.8",
@@ -49,13 +27,189 @@
       "isHost": ""
     },
     {
+      "name": "Eurosport 1 MPD",
+      "info": "Sport",
+      "online": "true",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa02LLWr8M_-Yu6Q6vr_TRHRe6Y-h5vJYj7A&s",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E148 Safari/605.1.15/Clipbox+/2.2.8",
+      "referer": "https://hattrick.ws",
+      "url": "https://hattrick.ws/euro1.htm",
+      "embed": "true",
+      "isHost": ""
+    },
+    {
+      "name": "Eurosport 2 MPD",
+      "info": "Sport",
+      "online": "true",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Eurosport_2_Logo_2015.svg/2560px-Eurosport_2_Logo_2015.svg.png",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E148 Safari/605.1.15/Clipbox+/2.2.8",
+      "referer": "https://hattrick.ws",
+      "url": "https://hattrick.ws/euro2.htm",
+      "embed": "true",
+      "isHost": ""
+    },
+    {
+      "name": "Sky Sport Uno MPD",
+      "info": "Sport",
+      "online": "true",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Sky_Sport_Uno_-_Logo_2020.svg/2560px-Sky_Sport_Uno_-_Logo_2020.svg.png",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E148 Safari/605.1.15/Clipbox+/2.2.8",
+      "referer": "https://tvonline.great-site.net",
+      "url": "https://tvonline.great-site.net/channel/skysportuno.php",
+      "embed": "true",
+      "isHost": ""
+    },
+    {
+      "name": "Sky Sport Calcio MPD",
+      "info": "Sport",
+      "online": "true",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Sky_Sport_Calcio.svg/2560px-Sky_Sport_Calcio.svg.png",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E148 Safari/605.1.15/Clipbox+/2.2.8",
+      "referer": "https://hattrick.ws",
+      "url": "https://hattrick.ws/calcio.htm",
+      "embed": "true",
+      "isHost": ""
+    },
+    {
+      "name": "Sky Sport F1 MPD",
+      "info": "Sport",
+      "online": "true",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Sky_Sport_F1_HD_-_Logo_2020.svg/2560px-Sky_Sport_F1_HD_-_Logo_2020.svg.png",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E148 Safari/605.1.15/Clipbox+/2.2.8",
+      "referer": "https://hattrick.ws",
+      "url": "https://hattrick.ws/f1.htm",
+      "embed": "true",
+      "isHost": ""
+    },
+    {
+      "name": "Sky Sport MotoGP MPD",
+      "info": "Sport",
+      "online": "true",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd9qZaBh-m6iM6DqLtYcGq-fZ6z1uu5e1odg&s",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E148 Safari/605.1.15/Clipbox+/2.2.8",
+      "referer": "https://hattrick.ws",
+      "url": "https://hattrick.ws/motogp.htm",
+      "embed": "true",
+      "isHost": ""
+    },
+    {
+      "name": "Sky Sport Arena MPD",
+      "info": "Sport",
+      "online": "true",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Sky_Sport_Arena_-_Logo_2020.svg/2560px-Sky_Sport_Arena_-_Logo_2020.svg.png",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E148 Safari/605.1.15/Clipbox+/2.2.8",
+      "referer": "https://hattrick.ws",
+      "url": "https://hattrick.ws/arena.htm",
+      "embed": "true",
+      "isHost": ""
+    },
+    {
+      "name": "Sky Sport NBA MPD",
+      "info": "Sport",
+      "online": "true",
+      "image": "https://dietrolanotizia.eu/wp-content/uploads/2021/02/sky-sport-nba-2018-e1530634759970.jpg",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E148 Safari/605.1.15/Clipbox+/2.2.8",
+      "referer": "https://hattrick.ws",
+      "url": "https://hattrick.ws/nba.htm",
+      "embed": "true",
+      "isHost": ""
+    },
+    {
+      "name": "Sky Sport Tennis MPD",
+      "info": "Sport",
+      "online": "true",
+      "image": "https://www.spotandweb.it/wp-content/uploads/2024/04/Schermata-2024-04-29-alle-14.22.56.png",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E148 Safari/605.1.15/Clipbox+/2.2.8",
+      "referer": "https://tvonline.great-site.net",
+      "url": "https://lazzy.live/lv/ck/tennis/tennis.php",
+      "embed": "true",
+      "isHost": ""
+    },
+    {
+      "name": "Sky Sport Max MPD",
+      "info": "Sport",
+      "online": "true",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Sky_Sport_Football_HD_-_Logo_2020.svg/2560px-Sky_Sport_Football_HD_-_Logo_2020.svg.png",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E148 Safari/605.1.15/Clipbox+/2.2.8",
+      "referer": "https://hattrick.ws",
+      "url": "https://hattrick.ws/max.htm",
+      "embed": "true",
+      "isHost": ""
+    },
+    {
       "name": "Sky Sport 251 MPD",
-      "info": "Canale premium con programmi di intrattenimento, reality show e serie TV esclusive",
+      "info": "Sport",
       "online": "true",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Sky_Sport_-_Logo_2020.svg/1200px-Sky_Sport_-_Logo_2020.svg.png",
       "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E148 Safari/605.1.15/Clipbox+/2.2.8",
       "referer": "https://tvonline.great-site.net",
       "url": "https://tvonline.great-site.net/channel/sport251.php",
+      "embed": "true",
+      "isHost": ""
+    },
+    {
+      "name": "Sky Sport 252 MPD",
+      "info": "Sport",
+      "online": "true",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Sky_Sport_-_Logo_2020.svg/1200px-Sky_Sport_-_Logo_2020.svg.png",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E148 Safari/605.1.15/Clipbox+/2.2.8",
+      "referer": "https://tvonline.great-site.net",
+      "url": "https://tvonline.great-site.net/channel/sport252.php",
+      "embed": "true",
+      "isHost": ""
+    },
+    {
+      "name": "Sky Sport 253 MPD",
+      "info": "Sport",
+      "online": "true",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Sky_Sport_-_Logo_2020.svg/1200px-Sky_Sport_-_Logo_2020.svg.png",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E148 Safari/605.1.15/Clipbox+/2.2.8",
+      "referer": "https://tvonline.great-site.net",
+      "url": "https://tvonline.great-site.net/channel/sport253.php",
+      "embed": "true",
+      "isHost": ""
+    },
+    {
+      "name": "Sky Sport 254 MPD",
+      "info": "Sport",
+      "online": "true",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Sky_Sport_-_Logo_2020.svg/1200px-Sky_Sport_-_Logo_2020.svg.png",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E148 Safari/605.1.15/Clipbox+/2.2.8",
+      "referer": "https://tvonline.great-site.net",
+      "url": "https://tvonline.great-site.net/channel/sport254.php",
+      "embed": "true",
+      "isHost": ""
+    },
+    {
+      "name": "Sky Sport 255 MPD",
+      "info": "Sport",
+      "online": "true",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Sky_Sport_-_Logo_2020.svg/1200px-Sky_Sport_-_Logo_2020.svg.png",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E148 Safari/605.1.15/Clipbox+/2.2.8",
+      "referer": "https://tvonline.great-site.net",
+      "url": "https://tvonline.great-site.net/channel/sport255.php",
+      "embed": "true",
+      "isHost": ""
+    },
+    {
+      "name": "Sky Sport 256 MPD",
+      "info": "Sport",
+      "online": "true",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Sky_Sport_-_Logo_2020.svg/1200px-Sky_Sport_-_Logo_2020.svg.png",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E148 Safari/605.1.15/Clipbox+/2.2.8",
+      "referer": "https://tvonline.great-site.net",
+      "url": "https://tvonline.great-site.net/channel/sport256.php",
+      "embed": "true",
+      "isHost": ""
+    },
+    {
+      "name": "Sky Sport 257 MPD",
+      "info": "Sport",
+      "online": "true",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Sky_Sport_-_Logo_2020.svg/1200px-Sky_Sport_-_Logo_2020.svg.png",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E148 Safari/605.1.15/Clipbox+/2.2.8",
+      "referer": "https://tvonline.great-site.net",
+      "url": "https://tvonline.great-site.net/channel/sport257.php",
       "embed": "true",
       "isHost": ""
     }
