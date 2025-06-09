@@ -1,0 +1,85 @@
+{
+  "name": "Film e Serie",
+  "author": "Simud",
+  "image": "https://play-lh.googleusercontent.com/-BHc2mPj6oRWk0cjwMn5oYSd7rYl5RW1xn8BWdizIHBuh4cBQ6ev_EsxmA4Trt0o2jQ",
+  "url": "https://raw.githubusercontent.com/simud/simud/refs/heads/main/W3U/Film.w3u",
+  "stations": [
+    {
+      "name": "Streamingunityart",
+      "info": "Film e serie streaming",
+      "online": "true",
+      "image": "https://play-lh.googleusercontent.com/-BHc2mPj6oRWk0cjwMn5oYSd7rYl5RW1xn8BWdizIHBuh4cBQ6ev_EsxmA4Trt0o2jQ",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E148 Safari/605.1.15/Clipbox+/2.2.8",
+      "referer": "https://streamingunity.art/it",
+      "url": "https://streamingunity.art/it",
+      "embed": "true",
+      "isHost": ""
+    },
+    {
+      "name": "Cineblog01delivery",
+      "info": "Film e serie streaming",
+      "online": "true",
+      "image": "https://play-lh.googleusercontent.com/-BHc2mPj6oRWk0cjwMn5oYSd7rYl5RW1xn8BWdizIHBuh4cBQ6ev_EsxmA4Trt0o2jQ",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E148 Safari/605.1.15/Clipbox+/2.2.8",
+      "referer": "https://cineblog01.delivery/",
+      "url": "https://cineblog01.delivery/",
+      "embed": "true",
+      "isHost": ""
+    },
+    {
+      "name": "Altadefinizionegratiscc",
+      "info": "Film e serie streaming",
+      "online": "true",
+      "image": "https://play-lh.googleusercontent.com/-BHc2mPj6oRWk0cjwMn5oYSd7rYl5RW1xn8BWdizIHBuh4cBQ6ev_EsxmA4Trt0o2jQ",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E148 Safari/605.1.15/Clipbox+/2.2.8",
+      "referer": "https://altadefinizionegratis.cc/",
+      "url": "https://altadefinizionegratis.cc/",
+      "embed": "true",
+      "isHost": ""
+    },
+    {
+      "name": "Eurostreamingcv",
+      "info": "Film e serie streaming",
+      "online": "true",
+      "image": "https://play-lh.googleusercontent.com/-BHc2mPj6oRWk0cjwMn5oYSd7rYl5RW1xn8BWdizIHBuh4cBQ6ev_EsxmA4Trt0o2jQ",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E148 Safari/605.1.15/Clipbox+/2.2.8",
+      "referer": "https://eurostreaming.cv/",
+      "url": "https://eurostreaming.cv/",
+      "embed": "true",
+      "isHost": ""
+    },
+    {
+      "name": "Filmpertuttipizza",
+      "info": "Film e serie streaming",
+      "online": "true",
+      "image": "https://play-lh.googleusercontent.com/-BHc2mPj6oRWk0cjwMn5oYSd7rYl5RW1xn8BWdizIHBuh4cBQ6ev_EsxmA4Trt0o2jQ",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E148 Safari/605.1.15/Clipbox+/2.2.8",
+      "referer": "https://filmpertutti.pizza",
+      "url": "https://filmpertutti.pizza",
+      "embed": "true",
+      "isHost": ""
+    },
+    {
+      "name": "Wwwanimeunityso",
+      "info": "Film e serie streaming",
+      "online": "true",
+      "image": "https://play-lh.googleusercontent.com/-BHc2mPj6oRWk0cjwMn5oYSd7rYl5RW1xn8BWdizIHBuh4cBQ6ev_EsxmA4Trt0o2jQ",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E148 Safari/605.1.15/Clipbox+/2.2.8",
+      "referer": "https://www.animeunity.so",
+      "url": "https://www.animeunity.so",
+      "embed": "true",
+      "isHost": ""
+    },
+    {
+      "name": "Wwwanimeworldac",
+      "info": "Film e serie streaming",
+      "online": "true",
+      "image": "https://play-lh.googleusercontent.com/-BHc2mPj6oRWk0cjwMn5oYSd7rYl5RW1xn8BWdizIHBuh4cBQ6ev_EsxmA4Trt0o2jQ",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E148 Safari/605.1.15/Clipbox+/2.2.8",
+      "referer": "https://www.animeworld.ac",
+      "url": "https://www.animeworld.ac",
+      "embed": "true",
+      "isHost": ""
+    }
+  ]
+}
