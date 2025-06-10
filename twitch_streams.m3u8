@@ -1,3 +1,8 @@
 #EXTM3U
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/mZ6gwjBg/kings-league.png" group-title="Kings League", freneh
+#EXTVLCOPT:http-referrer=https://www.twitch.tv/freneh
+#EXTVLCOPT:http-origin=https://www.twitch.tv/freneh
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://usw23.playlist.ttvnw.net/v1/playlist/CrAEiJFQ9J-Q6usou2kip1x02xmvD0cF6m0USVIJgezFZK5FEb0x358auobm4DIEhJkVjJwkoD-2cA46_RqeotWjy49C2xI0xAjGp7wYtRZRMErp4X7B4YK-Xh0usWx8nOJLkcPy45vQR9sdp_TDHOd-SOBEId8V7N_fz2svzmuea4GcvEE5AYm-B5PJFmPipOvvWP4SWc_rscDGsZDdsxKhwvfwoNAv0DbiGQy1v7xB7iK7aJgn0IrANB5v30WGFQTZ63U2qvS9Vc94_WFUFyxSWYVzbnoKL5U3NgPn6rc1QmL8rTnJQCGWpSCtrQ222VRwXT0PEcMo0D9E5hVJE1q_whPBbGwQIBq-HVVmUbd-d3dq88NWKpy6FgMJCbI8ymfrU9Cgy6ckALMX22ZjP87F_r1qgzXnm1mC5bj7OoK5QwvNpI2vMpRNCZP1l0IJMPiAllRjpMVUcdak6N7AtItyyb408fdxIqVAdU4W1tJEJK7SVQZPjC9p22fRKCHKfUnAHEqhrFEu01Vxm6cLmlE3JdSqGBLp8dDUKdmDRp-IL9mdLxWeg7V-xjtKzGfgMzVQ14Xw3XFE33ZBHaWqIaYAbt69p64zqIyVPOY1lrdXNp_sLZ0t8-AySK6bUsXbD_qR5ISmaSrLTzhPiTsp8Tj-9CCc25VvzIjbFH_PBt0Q8R9_pPtN8AfFjJSW6DPasrwXi8xEEZPvbzeqKf3uMKdxozfX0kpWg9FLQ4PXfPPXhX4aDNP80QXgcHjRgGqhUiABKgl1cy1lYXN0LTIwvAw.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Kings League", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
