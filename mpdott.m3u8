@@ -102,6 +102,46 @@ https://xuione.sportstreaming.net/SportStreaming/SportStreaming/8.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Eventi", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 #EXTINF:-1 info canali
+#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.yoga//images/68482c9e0ac77.jpg",Uzbekistan vs Qatar
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.yoga/
+#EXTVLCOPT:http-origin=https://sportzone.yoga/
+https://hls.kangal.icu/hls/asia/index.m3u8
+#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.yoga//images/68482cddd7b0f.png",Iran vs Corea del Nord
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.yoga/
+#EXTVLCOPT:http-origin=https://sportzone.yoga/
+https://hls.kangal.icu/hls/asia/index.m3u8
+#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.yoga//images/68482cfbbe40e.jpg",Arabia Saudita vs Australia
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.yoga/
+#EXTVLCOPT:http-origin=https://sportzone.yoga/
+https://hls.kangal.icu/hls/asia/index.m3u8
+#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.yoga//images/68414eb21a21e.jpg",Diretta Gol vs Qualificazioni Mondiali
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.yoga/
+#EXTVLCOPT:http-origin=https://sportzone.yoga/
+https://hls.kangal.icu/hls/calcio/index.m3u8
+#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.yoga//images/68482d230ae9b.png",Finlandia vs Polonia
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.yoga/
+#EXTVLCOPT:http-origin=https://sportzone.yoga/
+https://hls.kangal.icu/hls/skyuno/index.m3u8
+#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.yoga//images/68482d6a11f26.png",Bolivia vs Cile
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.yoga/
+#EXTVLCOPT:http-origin=https://sportzone.yoga/
+https://hls.kangal.icu/hls/cile/index.m3u8
+#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.yoga//images/68482cbcde3c7.png",Azerbaigian vs Ungheria
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.yoga/
+#EXTVLCOPT:http-origin=https://sportzone.yoga/
+https://hls.kangal.icu/hls/calcio/index.m3u8
+#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.yoga//images/68482d485128f.png",Inghilterra vs Senegal
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://sportzone.yoga/
+#EXTVLCOPT:http-origin=https://sportzone.yoga/
+https://hls.kangal.icu/hls/sky251/index.m3u8
 #EXTINF:-1 group-title="Basket" tvg-logo="https://sportzone.yoga//images/67039b55acd48.png",Sky Sport vs NBA
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://sportzone.yoga/
@@ -112,16 +152,6 @@ https://hls.kangal.icu/hls/skynba/index.m3u8
 #EXTVLCOPT:http-referrer=https://sportzone.yoga/
 #EXTVLCOPT:http-origin=https://sportzone.yoga/
 https://hls.kangal.icu/hls/skynba/index.m3u8
-#EXTINF:-1 group-title="Tennis" tvg-logo="https://sportzone.yoga//images/6683b5fc5db3b.jpg",ATP & WTA vs Sky Sport Tennis
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.yoga/
-#EXTVLCOPT:http-origin=https://sportzone.yoga/
-https://hls.kangal.icu/hls/tennis/index.m3u8
-#EXTINF:-1 group-title="Tennis" tvg-logo="https://sportzone.yoga//images/6683b5df0dd12.jpg",ATP & WTA vs Sky Sport Tennis
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.yoga/
-#EXTVLCOPT:http-origin=https://sportzone.yoga/
-https://hls.kangal.icu/hls/tennis/index.m3u8
 #EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.yoga//images/68482efe7062c.png",Uruguay vs Venezuela
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://sportzone.yoga/
@@ -167,56 +197,26 @@ https://hls.kangal.icu/hls/francia/index.m3u8
 #EXTVLCOPT:http-referrer=https://sportzone.yoga/
 #EXTVLCOPT:http-origin=https://sportzone.yoga/
 https://hls.kangal.icu/hls/calcio/index.m3u8
-#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.yoga//images/68482c9e0ac77.jpg",Uzbekistan vs Qatar
+#EXTINF:-1 group-title="Tennis" tvg-logo="https://sportzone.yoga//images/6683b5fc5db3b.jpg",ATP & WTA vs Sky Sport Tennis
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://sportzone.yoga/
 #EXTVLCOPT:http-origin=https://sportzone.yoga/
-https://hls.kangal.icu/hls/asia/index.m3u8
-#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.yoga//images/68482cddd7b0f.png",Iran vs Corea del Nord
+https://hls.kangal.icu/hls/tennis/index.m3u8
+#EXTINF:-1 group-title="Tennis" tvg-logo="https://sportzone.yoga//images/6683b5df0dd12.jpg",ATP & WTA vs Sky Sport Tennis
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://sportzone.yoga/
 #EXTVLCOPT:http-origin=https://sportzone.yoga/
-https://hls.kangal.icu/hls/asia/index.m3u8
-#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.yoga//images/68482cfbbe40e.jpg",Arabia Saudita vs Australia
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.yoga/
-#EXTVLCOPT:http-origin=https://sportzone.yoga/
-https://hls.kangal.icu/hls/asia/index.m3u8
-#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.yoga//images/68414eb21a21e.jpg",Diretta Gol vs Qualificazioni Mondiali
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.yoga/
-#EXTVLCOPT:http-origin=https://sportzone.yoga/
-https://hls.kangal.icu/hls/calcio/index.m3u8
-#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.yoga//images/68482d230ae9b.png",Finlandia vs Polonia
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.yoga/
-#EXTVLCOPT:http-origin=https://sportzone.yoga/
-https://hls.kangal.icu/hls/skyuno/index.m3u8
-#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.yoga//images/68482d6a11f26.png",Bolivia vs Cile
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.yoga/
-#EXTVLCOPT:http-origin=https://sportzone.yoga/
-https://hls.kangal.icu/hls/cile/index.m3u8
-#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.yoga//images/68482cbcde3c7.png",Azerbaigian vs Ungheria
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.yoga/
-#EXTVLCOPT:http-origin=https://sportzone.yoga/
-https://hls.kangal.icu/hls/calcio/index.m3u8
-#EXTINF:-1 group-title="Calcio" tvg-logo="https://sportzone.yoga//images/68482d485128f.png",Inghilterra vs Senegal
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://sportzone.yoga/
-#EXTVLCOPT:http-origin=https://sportzone.yoga/
-https://hls.kangal.icu/hls/sky251/index.m3u8
+https://hls.kangal.icu/hls/tennis/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/mZ6gwjBg/kings-league.png" group-title="Kings League", freneh
 #EXTVLCOPT:http-referrer=https://www.twitch.tv/freneh
 #EXTVLCOPT:http-origin=https://www.twitch.tv/freneh
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://use23.playlist.ttvnw.net/v1/playlist/CsoEAd2vp4rvqbEJ2JEYF3IRzxxAV2QezjeL20J__J7a4vzWuunyAHKRs9nEEXOf0p-TxAuzC4jVPudljRDGf52qGd0xFF8yO27wCLIpMu05xJzusOpmEorFcqzEySorYcCcrPYvMKT8yNHQDR2x8uU30UewB5db5HIBguZeYEbBktRNwuxeYqoqQ8Dc7DKz2L407FZGgWXmwpfPeWHHykcGE3BCExkW8_MfKkVDsqLL937hJ93LiLkiP4PNbsKBoKqBXl37gn7mDaGhHRJGUX6SIs6Pn5P-DxO32a44IjmwizO-VjqkgzV88dyJhGxb_zQb6nV1c_eB3o96nkW8Ko7z1nkgESNNmObs0ukSFeeac3w4ZAzUo_GvjzLhns020YNuk8Y7htXdq03mr9ykCSfZ7mnbXkUA8hSCIHBNrdVNMNC_7Ya02d1ATzxyaRqvzD7oVzBsojaPBjYKr4qeSm1imMZoyHW6sLtNBKRgZXDYgGIVpZd5UbdZVYYNhtQRe9hI3-8OIyqAtL5EK_HBkFNwWsWlXsJEk2iSu1dkditUMP0PAhI0vxFc8E2_FOQWKUtCzCnvbVByrSAFnLDYL71qUQLApqR1z76lhfvcU-Z3MIwsaBQ6bBQoM-r-plmTx1YZAdJngmCUq6lzI2y_Q9nDvQ2rsNIREMDIPTCCD1s_j60Epg3uEtVJPRODREubm9V53FQEMOAtgQWJwqBoWYmf3tTxHoP5k1EJRTA53GAp8YFASKX5AN8tUGzo4wT1e8W8_gNZXvi3jHoDAhoMk15Mv1aPKQBJH6V9IAEqCXVzLXdlc3QtMjC9DA.m3u8
+https://use12.playlist.ttvnw.net/v1/playlist/Ct4EvaVzfrtOil9JnubRCj-tnZ9tu6SZbMGoRV9kLmZOQwipI1lnxR7l2QDhAXdPOAk5xFVTxF7yiBoReS6KqOsSuOslfGw_sAisMhZ8zjUhqc0FQRzDKCLhaqEg_b1NgjOIvPZeoT29S52lKSyfNtTxxabqWIlrQYjRoodXOprbFyDNDPZ9iJ2QfsJCIT4uN4gjktB3NkCFFp9JUDtaQ9PkAzoUT-GbqO4c6mwqhA2AUikJbUzn0bB81y6q5Cen8xEr-d-ucOGFiakgDXd6pelr8EdD0kRukk7L9nHM65Pi3xMg2ansGZR1_SLcQZmiJMrnufX3Fz05SXMCWGlKJ8grHuwqJ6CPx-7AqTbVJaZ3iZ_6jawj9bbiE3B9NDxCF7LVNQAcfhrXTUCUfeH8eqB6wdMGQgU3Tczub7tz0fgxWu0Etl-q49kOuUm6ue2EIG8ELyvKVGPuPcWw454wI6sztiy7HFBs7ac8jkdvlBb1ncB1xqDqiOqK5N0FEhp0jZLH1E3DieHGXfyQklGz42PL8II7VySVMpN8HBc7BgK_OmW4RpvuAZmMJnI-vd6m-EcMrEra_Tp7frhTvMV77mgVajWoa6CQBhDLrJqDvgyPTY7wFA1QvnJn1nnMws23sD8JgGyHxjSR_XA4i69IBeOTY5P2zTZ_AWuOAXpHNoiOanns7DYNox7_en4QP9SCl3XC13pFjG1Xb5aA9IRMDQ-r2floir0eNHmzy0WBsG0Ki3lMxXayJqzD_RpBsxclxUjKDmZA1LjgtZMujSOJZilwM7QrpOeSF0GNAVd24Y-lGgx3ph2jHSNXQShtDvAgASoJdXMtZWFzdC0yMLwM.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/mZ6gwjBg/kings-league.png" group-title="Kings League", controcalcio__
 #EXTVLCOPT:http-referrer=https://www.twitch.tv/controcalcio__
 #EXTVLCOPT:http-origin=https://www.twitch.tv/controcalcio__
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://use15.playlist.ttvnw.net/v1/playlist/Cs4EGrB21MXCOx_s7BVEfyuY0x76gqXE3puQOJsuQXr_4_VcecUX8Hcyh6QN8CzXzCImmrVF8ybVHqIC5VdoatykX8t941ddbme5FWyHjwCwVJ0nmYMjU7leuFdqEvUvoZNWlU1o8jV_Mpntr9PYAoqiPEr1rRmXUEG5Yke14L5ZdiA8bMz5Lv3rser8GJBps1Ccpg19iHV_J2O0SpdUM9GRUvLU0HVpW9S4ZedZMv_DDL0XtyNpzlkoZantYqQ9F09OP420ExZhPMhMruU9I6yEVTspCumNIdnyNVPN7ihvai22XYMqWjm8i3DBbSp8FWySF54L6FEeopgOEnj_Zp1OPkfdsmEeiMk5ZMYtHieFFSTNDPFlxWnkokuPvfqhJRra208LtpLzJ5KC1dSlhV4EMiKhNuBJfd47_LGxz9goUDQX9HcMDonlC9y6CeQd2fAjKn64TS6HzQ4ExFcXWDnwEbz4eguUiZBqhR6vAjGyg9frzM7IIZEQwnOGIJ_XYk2OxWH6lcV6UepjXyw0wYpVmqFBd2eZFnJVf6k78UWHrzTJqwv6bgxNw27dZ4P8NmsKZ5zsvocXPtI-__PCqQRak2Jsf34t5yKbezYpHjx0Bz6aU7mmLeBX_305ddh4LppsslaPq4b9-cRW1TMFzaaqXBANix-ATovqE_xiY8VWAw1cuwi2MWtv8MEjMJ9TrVRef_NpfKrG_C22KFHmpoAcQghFJK28YQbE_3IS-bbLNoV-O9y91o-1Mf54ghqorpKzIeCYjXbMaHn68iQGq5UaDMj8kh85h5oLhHY_xyABKgl1cy13ZXN0LTIwvQw.m3u8
+https://use22.playlist.ttvnw.net/v1/playlist/CtIEoilBw3SDTSDnBSiJKlK091yQo1Oe_4ymNMK9BRW0cTirAT8jxyhjTdYnJIrfCb8RHvwbEu8ECWmfHXGtkAdG6sfHKE9wXl5U5nYA573Y2Q6WXdoQFbrAhppToxGc3WoGo5I8f_InCZ5lZpI7hPvLj-_6y05p6TnnflzJJZInm9Xg6f3iQxAs8HqCpkMkKSL_z-84meZ1MinJvgegY1ssTq9PSjNaDVbxqe7KIf9QDXmoS714cQS2GyozQLaX7CXt2kjafgi57TU5zY2blIV3V6emrNS5qqakJ8rwtHWHTcyQUO1S817WOydnIOMgQlOExpakGVenZSKJ2qFZ8nOYlhHzegmyMOs0jhgR1XVf1SJIarjmCYnjg03rONzUftDBjKlObTIbQQdIaOV68DeAeY007B9s82rY6nqJfeR66ot-p6szttTZdVa8nfYkIMhyS_3At0FgRCM6iNS73XCINo4gi5WRJSZYVid4OONrzr7l-wtthNCjqujEaYfSpLxrEUr9kI5-qcAq0kgeoZpxFC28UqgmTg4jz3Hj-GnFqAEl2fIakxPqcjE2NMfCF1H162GgwmHfIinCGTK86nVfL54Wsi22oEZEEv73RlbTNjWopTUZFhKLYwy2ppv5dOVq77S8bJsd3bOyDdlbqm5KnAfSBgIdpVrxRG-P_CsZ39RQwffFIURBdF4lzsbpK2ZrAXHGpagfebzv3h8DoCZhJcqX3k8fCV7dsCPCS91irzMLxzE8LC-SUN_RV94FmARFDdea1JlrCGY0ErAnQrYeA2S0Ggznm1mEhvrTvgDNVSggASoJdXMtZWFzdC0yMLwM.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Kings League", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 #EXTINF:-1 tvg-id="skysportuno.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-uno-it.png" group-title="Dazn MPD",Sky Sport UNO
