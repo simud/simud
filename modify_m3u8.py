@@ -2,7 +2,7 @@ import requests
 import re
 
 # URL del file M3U8 da scaricare
-input_url = "https://raw.githubusercontent.com/ciccioxm3/ddprx/refs/heads/main/onlyevents.m3u8"
+input_url = "https://raw.githubusercontent.com/ciccioxm3/OMGTV/refs/heads/main/onlyevents.m3u8"
 # Prefisso proxy da applicare a ogni flusso
 proxy_prefix = "https://mfp2.nzo66.com/extractor/video?host=DLHD&d="
 # Suffisso da aggiungere alla fine di ogni flusso
