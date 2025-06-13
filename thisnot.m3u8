@@ -1,20 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",18:00 Ucraina U.21 - Danimarca U.21 
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=ef34ae91b4f2415e8439b2ad105e7488:243248d8de1ff8c7c587ee2057317523
-https://mag03.tvx.prd.tv.odido.nl/wh7f454c46tw75168188_-627298088/PLTV/86/224/3221241590/3221241590.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",21:00 Repubblica Ceca U.21 - Inghilterra U.21 
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=3cfa8625f650406ebf6a4d1ea737f572:0534e747c70b364aa7210e1bf3191df0
-https://mag04.tvx.prd.tv.odido.nl/wh7f454c46tw266117884_-1972819316/PLTV/86/224/3221241560/3221241560.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",21:00 Germania U.21 - Slovenia U.21 
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=4dbea4b5713a4aa1ae3a2544cd522fc7:a8323ea99b2d6200a48e1bc27322d548
-https://mag01.tvx.prd.tv.odido.nl/wh7f454c46tw407556707_-381738111/PLTV/86/224/3221241511/3221241511.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",21:00 Finlandia U.21 - Olanda U.21 
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=ef34ae91b4f2415e8439b2ad105e7488:243248d8de1ff8c7c587ee2057317523
-https://mag03.tvx.prd.tv.odido.nl/wh7f454c46tw75168188_-627298088/PLTV/86/224/3221241590/3221241590.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",18:00 Spagna U.21 - Romania U.21 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=ef34ae91b4f2415e8439b2ad105e7488:243248d8de1ff8c7c587ee2057317523
@@ -75,30 +59,8 @@ https://linear308-it-dash1-prd.selector.skycdn.it/016a/31764/FHD/skysportnba/mas
 https://linear308-it-dash1-prd.selector.skycdn.it/016a/31764/FHD/skysportnba/master_stereo.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="BASKET",20:30 Virtus Bologna v Germani Brescia 
 https://amg16146-wbdi-amg16146c8-samsung-it-1841.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-dmax-samsungit/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="BASKET",20:30 Virtus Bologna v Germani Brescia 
-https://amg16146-wbdi-amg16146c8-samsung-it-1841.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-dmax-samsungit/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="BASKET",20:30 Germani Brescia v Virtus Bologna 
 https://amg16146-wbdi-amg16146c8-samsung-it-1841.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-dmax-samsungit/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="PALLAVOLO",22:30 Germania v Italia 
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=3201accccbe9455cbc28dcd4bcdf1509:f4d9a50f98ea833d2e5120d83bd59a23
-https://cdn-s-lb2.pluscdn.pl/ch/1455745/96/dash/3880d03f/live.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="PALLAVOLO",22:30 Brazil v Cuba 
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=590abbe92e6e470a9e355d58ec910709:0af2b5f2450474207f6761adc9dc635e
-https://cdn-s-lb2.pluscdn.pl/ch/1456452/129/dash/ffe2048f/live.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="PALLAVOLO",01:45 Usa v Iran 
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=590abbe92e6e470a9e355d58ec910709:0af2b5f2450474207f6761adc9dc635e
-https://cdn-s-lb2.pluscdn.pl/ch/1456452/129/dash/ffe2048f/live.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="PALLAVOLO",01:45 Argentina v Canada 
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=3201accccbe9455cbc28dcd4bcdf1509:f4d9a50f98ea833d2e5120d83bd59a23
-https://cdn-s-lb2.pluscdn.pl/ch/1455745/96/dash/3880d03f/live.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="PALLAVOLO",11:00 Giappone v Serbia 
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=590abbe92e6e470a9e355d58ec910709:0af2b5f2450474207f6761adc9dc635e
-https://cdn-s-lb2.pluscdn.pl/ch/1456452/129/dash/ffe2048f/live.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="PALLAVOLO",14:30 Olanda v Turchia 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=590abbe92e6e470a9e355d58ec910709:0af2b5f2450474207f6761adc9dc635e
