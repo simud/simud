@@ -106,9 +106,9 @@ https://vavoo.to/play/2090703806/index.m3u8&h_User-Agent=VAVOO2%2F6&h_Referer=ht
 #EXTINF:-1 tvg-id="sky.sport.motogp.it" tvg-name="Sky Sport Motogp FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/italy/hd/sky-sport-motogp-hd-it.png" group-title="Sky Sport FHD Backup",Sky Sport Motogp FHD
 https://daddylive.dad/stream/stream-575.php
 #EXTINF:-1 tvg-id="sky.sport.nba.it" tvg-name="Sky Sport Nba FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-nba-it.png" group-title="Sky Sport FHD Backup",Sky Sport Nba FHD
-https://vavoo.to/play/2711959620/index.m3u8&h_User-Agent=VAVOO2%2F6&h_Referer=https%3A%2F%2Fvavoo.to%2F&h_Origin=https%3A%2F%2Fvavoo.to
-#EXTINF:-1 tvg-id="sky.sport.nba.it" tvg-name="Sky Sport Nba FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-nba-it.png" group-title="Sky Sport FHD Backup",Sky Sport Nba FHD
 https://vavoo.to/play/326825326/index.m3u8&h_User-Agent=VAVOO2%2F6&h_Referer=https%3A%2F%2Fvavoo.to%2F&h_Origin=https%3A%2F%2Fvavoo.to
+#EXTINF:-1 tvg-id="sky.sport.nba.it" tvg-name="Sky Sport Nba FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-nba-it.png" group-title="Sky Sport FHD Backup",Sky Sport Nba FHD
+https://vavoo.to/play/2711959620/index.m3u8&h_User-Agent=VAVOO2%2F6&h_Referer=https%3A%2F%2Fvavoo.to%2F&h_Origin=https%3A%2F%2Fvavoo.to
 #EXTINF:-1 tvg-id="" tvg-name="Sky Sport Serie A FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-serie-a-it.png" group-title="Sky Sport FHD Backup",Sky Sport Serie A FHD
 https://vavoo.to/play/2077387085/index.m3u8&h_User-Agent=VAVOO2%2F6&h_Referer=https%3A%2F%2Fvavoo.to%2F&h_Origin=https%3A%2F%2Fvavoo.to
 #EXTINF:-1 tvg-id="sky.sport.tennis.it" tvg-name="Sky Sport Tennis FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-tennis-it.png" group-title="Sky Sport FHD Backup",Sky Sport Tennis FHD
@@ -140,9 +140,9 @@ https://vavoo.to/play/3342849313/index.m3u8&h_User-Agent=VAVOO2%2F6&h_Referer=ht
 #EXTINF:-1 tvg-id="" tvg-name="Sportitalia Solocalcio FHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/SI_Solo_Calcio_logo_%282019%29.svg/1200px-SI_Solo_Calcio_logo_%282019%29.svg.png" group-title="Sky Sport FHD Backup",Sportitalia Solocalcio FHD
 https://vavoo.to/play/2198410339/index.m3u8&h_User-Agent=VAVOO2%2F6&h_Referer=https%3A%2F%2Fvavoo.to%2F&h_Origin=https%3A%2F%2Fvavoo.to
 #EXTINF:-1 tvg-id="supertennis.it" tvg-name="Super Tennis FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/super-tennis-it.png" group-title="Sky Sport FHD Backup",Super Tennis FHD
-https://vavoo.to/play/3009377513/index.m3u8&h_User-Agent=VAVOO2%2F6&h_Referer=https%3A%2F%2Fvavoo.to%2F&h_Origin=https%3A%2F%2Fvavoo.to
-#EXTINF:-1 tvg-id="supertennis.it" tvg-name="Super Tennis FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/super-tennis-it.png" group-title="Sky Sport FHD Backup",Super Tennis FHD
 https://vavoo.to/play/3213195143/index.m3u8&h_User-Agent=VAVOO2%2F6&h_Referer=https%3A%2F%2Fvavoo.to%2F&h_Origin=https%3A%2F%2Fvavoo.to
+#EXTINF:-1 tvg-id="supertennis.it" tvg-name="Super Tennis FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/super-tennis-it.png" group-title="Sky Sport FHD Backup",Super Tennis FHD
+https://vavoo.to/play/3009377513/index.m3u8&h_User-Agent=VAVOO2%2F6&h_Referer=https%3A%2F%2Fvavoo.to%2F&h_Origin=https%3A%2F%2Fvavoo.to
 #EXTINF:-1 tvg-id="" tvg-name="Tennis Channel FHD" tvg-logo="https://images.tennis.com/image/upload/t_16-9_768/v1620828532/tenniscom-prd/assets/Fallback/Tennis_Fallback_v6_f5tjzv.jpg" group-title="Sky Sport FHD Backup",Tennis Channel FHD
 https://vavoo.to/play/2716316208/index.m3u8&h_User-Agent=VAVOO2%2F6&h_Referer=https%3A%2F%2Fvavoo.to%2F&h_Origin=https%3A%2F%2Fvavoo.to
 #EXTINF:-1 tvg-id="topcalcio24.it" tvg-name="Top Calcio 24 FHD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPHW5VLQDGnNMVZszgWZRqnBSjPUTgAcUltQ&s" group-title="Sky Sport FHD Backup",Top Calcio 24 FHD
@@ -156,9 +156,9 @@ https://daddylive.dad/stream/stream-868.php
 #EXTINF:-1 tvg-id="" tvg-name="Disney+ Film FHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Disney%2B_logo.svg/2560px-Disney%2B_logo.svg.png" group-title="Sky Cinema FHD Backup",Disney+ Film FHD
 https://vavoo.to/play/1264775727/index.m3u8&h_User-Agent=VAVOO2%2F6&h_Referer=https%3A%2F%2Fvavoo.to%2F&h_Origin=https%3A%2F%2Fvavoo.to
 #EXTINF:-1 tvg-id="sky.atlantic.it" tvg-name="Sky Atlantic FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-atlantic-it.png" group-title="Sky Cinema FHD Backup",Sky Atlantic FHD
-https://vavoo.to/play/1482866609/index.m3u8&h_User-Agent=VAVOO2%2F6&h_Referer=https%3A%2F%2Fvavoo.to%2F&h_Origin=https%3A%2F%2Fvavoo.to
-#EXTINF:-1 tvg-id="sky.atlantic.it" tvg-name="Sky Atlantic FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-atlantic-it.png" group-title="Sky Cinema FHD Backup",Sky Atlantic FHD
 https://vavoo.to/play/1421393119/index.m3u8&h_User-Agent=VAVOO2%2F6&h_Referer=https%3A%2F%2Fvavoo.to%2F&h_Origin=https%3A%2F%2Fvavoo.to
+#EXTINF:-1 tvg-id="sky.atlantic.it" tvg-name="Sky Atlantic FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-atlantic-it.png" group-title="Sky Cinema FHD Backup",Sky Atlantic FHD
+https://vavoo.to/play/1482866609/index.m3u8&h_User-Agent=VAVOO2%2F6&h_Referer=https%3A%2F%2Fvavoo.to%2F&h_Origin=https%3A%2F%2Fvavoo.to
 #EXTINF:-1 tvg-id="sky.cinema.action.it" tvg-name="Sky Cinema Action FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-action-it.png" group-title="Sky Cinema FHD Backup",Sky Cinema Action FHD
 https://vavoo.to/play/3812796171/index.m3u8&h_User-Agent=VAVOO2%2F6&h_Referer=https%3A%2F%2Fvavoo.to%2F&h_Origin=https%3A%2F%2Fvavoo.to
 #EXTINF:-1 tvg-id="sky.cinema.action.it" tvg-name="Sky Cinema Action FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-action-it.png" group-title="Sky Cinema FHD Backup",Sky Cinema Action FHD
@@ -180,9 +180,9 @@ https://vavoo.to/play/1235530177/index.m3u8&h_User-Agent=VAVOO2%2F6&h_Referer=ht
 #EXTINF:-1 tvg-id="sky.cinema.drama.it" tvg-name="Sky Cinema Drama FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-drama-it.png" group-title="Sky Cinema FHD Backup",Sky Cinema Drama FHD
 https://daddylive.dad/stream/stream-867.php
 #EXTINF:-1 tvg-id="sky.cinema.due.it" tvg-name="Sky Cinema Due FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-due-it.png" group-title="Sky Cinema FHD Backup",Sky Cinema Due FHD
-https://vavoo.to/play/2330574729/index.m3u8&h_User-Agent=VAVOO2%2F6&h_Referer=https%3A%2F%2Fvavoo.to%2F&h_Origin=https%3A%2F%2Fvavoo.to
-#EXTINF:-1 tvg-id="sky.cinema.due.it" tvg-name="Sky Cinema Due FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-due-it.png" group-title="Sky Cinema FHD Backup",Sky Cinema Due FHD
 https://vavoo.to/play/1228534500/index.m3u8&h_User-Agent=VAVOO2%2F6&h_Referer=https%3A%2F%2Fvavoo.to%2F&h_Origin=https%3A%2F%2Fvavoo.to
+#EXTINF:-1 tvg-id="sky.cinema.due.it" tvg-name="Sky Cinema Due FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-due-it.png" group-title="Sky Cinema FHD Backup",Sky Cinema Due FHD
+https://vavoo.to/play/2330574729/index.m3u8&h_User-Agent=VAVOO2%2F6&h_Referer=https%3A%2F%2Fvavoo.to%2F&h_Origin=https%3A%2F%2Fvavoo.to
 #EXTINF:-1 tvg-id="sky.cinema.due.+24.it" tvg-name="Sky Cinema Due +24 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-due-plus24-it.png" group-title="Sky Cinema FHD Backup",Sky Cinema Due +24 FHD
 https://vavoo.to/play/1078650168/index.m3u8&h_User-Agent=VAVOO2%2F6&h_Referer=https%3A%2F%2Fvavoo.to%2F&h_Origin=https%3A%2F%2Fvavoo.to
 #EXTINF:-1 tvg-id="sky.cinema.due.+24.it" tvg-name="Sky Cinema Due +24 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-due-plus24-it.png" group-title="Sky Cinema FHD Backup",Sky Cinema Due +24 FHD
@@ -258,9 +258,9 @@ https://vavoo.to/play/430570853/index.m3u8&h_User-Agent=VAVOO2%2F6&h_Referer=htt
 #EXTINF:-1 tvg-id="" tvg-name="Aurora Arte FHD" tvg-logo="https://www.auroraarte.it/wp-content/uploads/2023/11/AURORA-ARTE-brand.png" group-title="Documentari",Aurora Arte FHD
 https://vavoo.to/play/3267376899/index.m3u8&h_User-Agent=VAVOO2%2F6&h_Referer=https%3A%2F%2Fvavoo.to%2F&h_Origin=https%3A%2F%2Fvavoo.to
 #EXTINF:-1 tvg-id="discovery.channel.it" tvg-name="Discovery Channel FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/discovery-channel-it.png" group-title="Documentari",Discovery Channel FHD
-https://vavoo.to/play/1955739367/index.m3u8&h_User-Agent=VAVOO2%2F6&h_Referer=https%3A%2F%2Fvavoo.to%2F&h_Origin=https%3A%2F%2Fvavoo.to
-#EXTINF:-1 tvg-id="discovery.channel.it" tvg-name="Discovery Channel FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/discovery-channel-it.png" group-title="Documentari",Discovery Channel FHD
 https://vavoo.to/play/3554841914/index.m3u8&h_User-Agent=VAVOO2%2F6&h_Referer=https%3A%2F%2Fvavoo.to%2F&h_Origin=https%3A%2F%2Fvavoo.to
+#EXTINF:-1 tvg-id="discovery.channel.it" tvg-name="Discovery Channel FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/discovery-channel-it.png" group-title="Documentari",Discovery Channel FHD
+https://vavoo.to/play/1955739367/index.m3u8&h_User-Agent=VAVOO2%2F6&h_Referer=https%3A%2F%2Fvavoo.to%2F&h_Origin=https%3A%2F%2Fvavoo.to
 #EXTINF:-1 tvg-id="" tvg-name="Discovery Focus FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/focus-it.png" group-title="Documentari",Discovery Focus FHD
 https://vavoo.to/play/2113273064/index.m3u8&h_User-Agent=VAVOO2%2F6&h_Referer=https%3A%2F%2Fvavoo.to%2F&h_Origin=https%3A%2F%2Fvavoo.to
 #EXTINF:-1 tvg-id="" tvg-name="Discovery Nove FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/nove-it.png" group-title="Documentari",Discovery Nove FHD
@@ -326,9 +326,9 @@ https://vavoo.to/play/1753260677/index.m3u8&h_User-Agent=VAVOO2%2F6&h_Referer=ht
 #EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 9 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 9 FHD
 https://vavoo.to/play/1134113883/index.m3u8&h_User-Agent=VAVOO2%2F6&h_Referer=https%3A%2F%2Fvavoo.to%2F&h_Origin=https%3A%2F%2Fvavoo.to
 #EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 10 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 10 FHD
-https://vavoo.to/play/2268489342/index.m3u8&h_User-Agent=VAVOO2%2F6&h_Referer=https%3A%2F%2Fvavoo.to%2F&h_Origin=https%3A%2F%2Fvavoo.to
-#EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 10 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 10 FHD
 https://vavoo.to/play/4272937805/index.m3u8&h_User-Agent=VAVOO2%2F6&h_Referer=https%3A%2F%2Fvavoo.to%2F&h_Origin=https%3A%2F%2Fvavoo.to
+#EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 10 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 10 FHD
+https://vavoo.to/play/2268489342/index.m3u8&h_User-Agent=VAVOO2%2F6&h_Referer=https%3A%2F%2Fvavoo.to%2F&h_Origin=https%3A%2F%2Fvavoo.to
 #EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 12 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 12 FHD
 https://vavoo.to/play/2221901869/index.m3u8&h_User-Agent=VAVOO2%2F6&h_Referer=https%3A%2F%2Fvavoo.to%2F&h_Origin=https%3A%2F%2Fvavoo.to
 #EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 14 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 14 FHD
@@ -345,19 +345,15 @@ https://vavoo.to/play/3470758028/index.m3u8&h_User-Agent=VAVOO2%2F6&h_Referer=ht
 https://example.com.m3u8
 #EXTINF:-1 tvg-id="uefaeurou21slovakiau21vsitalyu21" tvg-name="Soccer | Uefa Euro U-21 : Slovakia U21 Vs Italy U21 (21:00)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Slovakia U21_vs_Italy U21.png" group-title="Eventi Sportivi",Soccer | Uefa Euro U-21 : Slovakia U21 Vs Italy U21 (21:00)
 https://daddylive.dad/stream/stream-851.php
-#EXTINF:-1 tvg-id="formula1pirellicanadiangrandprixpractice3" tvg-name="Motorsport | Formula 1 : Pirelli Canadian Grand Prix - Practice 3 (18:30)" tvg-logo="https://logospng.org/download/formula-1/formula-1-4096.png" group-title="Eventi Sportivi",Motorsport | Formula 1 : Pirelli Canadian Grand Prix - Practice 3 (18:30)
+#EXTINF:-1 tvg-id="formula1pirellicanadiangrandprixpractice3" tvg-name="Motorsport | Formula 1 : Pirelli Canadian Grand Prix - Practice 3 (18:30)" tvg-logo="https://logodownload.org/wp-content/uploads/2016/11/formula-1-logo-0.png" group-title="Eventi Sportivi",Motorsport | Formula 1 : Pirelli Canadian Grand Prix - Practice 3 (18:30)
 https://daddylive.dad/stream/stream-577.php
 #EXTINF:-1 tvg-id="formula1pirellicanadiangrandprixqualifying" tvg-name="Motorsport | Formula 1 : Pirelli Canadian Grand Prix - Qualifying (22:00)" tvg-logo="https://logospng.org/download/formula-1/formula-1-4096.png" group-title="Eventi Sportivi",Motorsport | Formula 1 : Pirelli Canadian Grand Prix - Qualifying (22:00)
 https://daddylive.dad/stream/stream-577.php
-#EXTINF:-1 tvg-id="fiawecround424hoursoflemansracepart2" tvg-name="Motorsport | Fia Wec | Round 4 | 24 Hours Of Le Mans Race | Part 2 (23:00)" tvg-logo="https://vectorise.net/logo/wp-content/uploads/2014/02/Logo-FIA-World-Endurance-Championship.png" group-title="Eventi Sportivi",Motorsport | Fia Wec | Round 4 | 24 Hours Of Le Mans Race | Part 2 (23:00)
+#EXTINF:-1 tvg-id="fiawecround424hoursoflemansracepart2" tvg-name="Motorsport | Fia Wec | Round 4 | 24 Hours Of Le Mans Race | Part 2 (23:00)" tvg-logo="https://www.ironlynx.com/wp-content/uploads/2023/01/FIA-WEC-LOGOTYPE-1-CORPORATE-VERSION-black_100x100-1.png" group-title="Eventi Sportivi",Motorsport | Fia Wec | Round 4 | 24 Hours Of Le Mans Race | Part 2 (23:00)
 https://daddylive.dad/stream/stream-878.php
 #EXTINF:-1 tvg-id="italyserieavirtusbolognavspallacanestrobrescia" tvg-name="Basketball | Italy Serie A : Virtus Bologna Vs. Pallacanestro Brescia (20:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Virtus Bologna_vs_Pallacanestro Brescia.png" group-title="Eventi Sportivi",Basketball | Italy Serie A : Virtus Bologna Vs. Pallacanestro Brescia (20:30)
-https://daddylive.dad/stream/stream-879.php
+https://daddylive.dad/stream/stream-878.php
 #EXTINF:-1 tvg-id="europeanchampionships2025day1womensfoilandmenssabrefinalsfromgenoa" tvg-name="Fencing | European Championships 2025 - Day 1: Women's Foil And Men's Sabre Finals (from Genoa) (18:20)" tvg-logo="https://logos-download.com/wp-content/uploads/2017/11/UEFA_full_Logo_2012.png" group-title="Eventi Sportivi",Fencing | European Championships 2025 - Day 1: Women's Foil And Men's Sabre Finals (from Genoa) (18:20)
 https://daddylive.dad/stream/stream-851.php
-#EXTINF:-1 tvg-id="unitedrugbychampionshipfinalleinstervsbulls" tvg-name="Rugby Union | United Rugby Championship Final : Leinster Vs Bulls (18:00)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Leinster_vs_Bulls.png" group-title="Eventi Sportivi",Rugby Union | United Rugby Championship Final : Leinster Vs Bulls (18:00)
-https://daddylive.dad/stream/stream-462.php
-#EXTINF:-1 tvg-id="t100triathlonworldtourvancouvermen" tvg-name="Triathlon | T100 Triathlon World Tour | Vancouver Men (18:15)" tvg-logo="https://content.protriathletes.org/content/images/2024/05/9e4f66d3-1951-404e-ba4f-ae1595e94eae.png" group-title="Eventi Sportivi",Triathlon | T100 Triathlon World Tour | Vancouver Men (18:15)
-https://daddylive.dad/stream/stream-879.php
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Eventi Sportivi",ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
