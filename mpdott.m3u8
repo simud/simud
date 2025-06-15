@@ -245,11 +245,6 @@ https://hls.kangal.icu/hls/tennis/index.m3u8
 #EXTVLCOPT:http-referrer=https://sportzone.yoga/
 #EXTVLCOPT:http-origin=https://sportzone.yoga/
 https://hls.kangal.icu/hls/tennis/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/mZ6gwjBg/kings-league.png" group-title="Kings League", therealmarzaa
-#EXTVLCOPT:http-referrer=https://www.twitch.tv/therealmarzaa
-#EXTVLCOPT:http-origin=https://www.twitch.tv/therealmarzaa
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://use16.playlist.ttvnw.net/v1/playlist/CscEK3ViMcoVxXnSByo2iMII6lqBdszORWkt__AF8-1BV4Ysvsn0xhVUCTrDPKFYbOgEFCx6FouutW8za05PHk575pZ86zdtC3uQJKVAwu8nk0GCFgqQjlzOutsH6psc6cW137pfM5D64AO251Ra9-1mzudbwyebL2dcIprPH9bhvLJVD1EgqedueczXGLaejHQgDN1fy0YqzCVvCL2GEPw58KZp7Ez6GIQtN9mrBHodkGMuZ_1E8odLCt9DRQAdeEd6vBg-Drfk-iZcWRrlnBzMrvPF_jx7MTwF1s5mh99Isu3AX8igtYh-9mgMlOt936u2BC0fpH1ZBKwawE_eU-mYUGnD7ixxtVcNtFHmacsUi8KkxprNFgHrN6PbVmuxFDYN4Fth-EJQBmlJnSv9puEVvfbd4i2lxwjMx8-7F0fvDSZfORVlH4I7O3IcBDXrcUSWUVKoMSkpRessYS53UzfaNoCSuvzBEcpF2BdIQQi24ywL-nVI6CxOv7GaqhPXUHaN7jSJXWPI0HOyLDzxnWDYz58YjJydxH3w9v3zzdmGl8hdWlCWI0gYv6DovQUxR7cA87qyhmKCJzxsJKQtgDu66VUFmDgAaU0lWguFnSa_7iC_0jsmtV0_yERoYGQWqcCUdvewflIWbGcvyKHw7KHa3ESk1SA7J6Nq5QNCxV7U3sQxS8zeBtJ7ccRc-F1yOEn6LTXnN6H0dS1YZ3Y-P_w5676mZ44QUzpnY0lbv-OFX7W3i1Rg3A5A_tdGAcaT07PNkXjrDWZcexoMqQ53yJksagWCPRuVIAEqCXVzLWVhc3QtMjDBDA.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Kings League", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 #EXTINF:-1 tvg-id="skysportuno.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-uno-it.png" group-title="Dazn MPD",Sky Sport UNO
@@ -1627,9 +1622,9 @@ https://daddylive.dad/stream/stream-880.php
 #EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 18 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 18 FHD
 #EXTINF:-1 tvg-name="Daddylive" group-title="Eventi Sportivi" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-uno-it.png",Daddylive
 https://example.com.m3u8
-#EXTINF:-1 tvg-id="formula1pirellicanadiangrandprixqualifying" tvg-name="Motorsport | Formula 1 : Pirelli Canadian Grand Prix - Qualifying (22:00)" tvg-logo="https://logodownload.org/wp-content/uploads/2016/11/formula-1-logo-0.png" group-title="Eventi Sportivi",Motorsport | Formula 1 : Pirelli Canadian Grand Prix - Qualifying (22:00)
+#EXTINF:-1 tvg-id="formula1pirellicanadiangrandprixqualifying" tvg-name="Motorsport | Formula 1 : Pirelli Canadian Grand Prix - Qualifying (22:00)" tvg-logo="https://logospng.org/download/formula-1/formula-1-4096.png" group-title="Eventi Sportivi",Motorsport | Formula 1 : Pirelli Canadian Grand Prix - Qualifying (22:00)
 https://daddylive.dad/stream/stream-577.php
-#EXTINF:-1 tvg-id="fiawecround424hoursoflemansracepart2" tvg-name="Motorsport | Fia Wec | Round 4 | 24 Hours Of Le Mans Race | Part 2 (23:00)" tvg-logo="https://vectorise.net/logo/wp-content/uploads/2014/02/Logo-FIA-World-Endurance-Championship.png" group-title="Eventi Sportivi",Motorsport | Fia Wec | Round 4 | 24 Hours Of Le Mans Race | Part 2 (23:00)
+#EXTINF:-1 tvg-id="fiawecround424hoursoflemansracepart2" tvg-name="Motorsport | Fia Wec | Round 4 | 24 Hours Of Le Mans Race | Part 2 (23:00)" tvg-logo="https://d3ie7ogstrup9y.cloudfront.net/wp-content/uploads/2020/10/27150110/WEC-Logos-2022-01.png" group-title="Eventi Sportivi",Motorsport | Fia Wec | Round 4 | 24 Hours Of Le Mans Race | Part 2 (23:00)
 https://daddylive.dad/stream/stream-878.php
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Eventi Sportivi",ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
