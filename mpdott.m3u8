@@ -3,7 +3,7 @@
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=540313f2e5eda2c17df277afc085f33c:3a2ac903e4299a7815111e256369d9d4
 https://p7s1-live-009-prod.akamaized.net/27a90190/t_009/sat1-de-hd/cenc-default.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",02:00 Bayern Monaco - Auckland City
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",18:00 Bayern Monaco - Auckland City
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=eaea45512d137def15b209a089cafd14:8d42db746ed0c4df61729b0d68d42bd7
 https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/rkhugudynd/out/v1/f7763e695c3b469594ed89fa163ebf0c/cenc-sd.mpd
@@ -1648,11 +1648,11 @@ https://example.com.m3u8
 https://daddylive.dad/stream/stream-9.php
 #EXTINF:-1 tvg-id="formula1pirellicanadiangrandprixgrandprixsunday" tvg-name="Motorsport | Formula 1 : Pirelli Canadian Grand Prix - Grand Prix Sunday (19:00)" tvg-logo="https://logospng.org/download/formula-1/formula-1-4096.png" group-title="Eventi Sportivi",Motorsport | Formula 1 : Pirelli Canadian Grand Prix - Grand Prix Sunday (19:00)
 https://daddylive.dad/stream/stream-577.php
-#EXTINF:-1 tvg-id="formula1pirellicanadiangrandprixrace" tvg-name="Motorsport | Formula 1 : Pirelli Canadian Grand Prix - Race (20:00)" tvg-logo="https://logospng.org/download/formula-1/formula-1-4096.png" group-title="Eventi Sportivi",Motorsport | Formula 1 : Pirelli Canadian Grand Prix - Race (20:00)
+#EXTINF:-1 tvg-id="formula1pirellicanadiangrandprixrace" tvg-name="Motorsport | Formula 1 : Pirelli Canadian Grand Prix - Race (20:00)" tvg-logo="https://logodownload.org/wp-content/uploads/2016/11/formula-1-logo-0.png" group-title="Eventi Sportivi",Motorsport | Formula 1 : Pirelli Canadian Grand Prix - Race (20:00)
 https://daddylive.dad/stream/stream-577.php
-#EXTINF:-1 tvg-id="seriea220242025playofffinalpossiblegame4" tvg-name="Basketball | Serie A2 2024/2025-playoff: Final - Possible Game 4 (20:40)" tvg-logo="https://www.ogol.com.br/img/logos/competicoes/3776_imgbank_a2f_20210720115207.png" group-title="Eventi Sportivi",Basketball | Serie A2 2024/2025-playoff: Final - Possible Game 4 (20:40)
+#EXTINF:-1 tvg-id="seriea220242025playofffinalpossiblegame4" tvg-name="Basketball | Serie A2 2024/2025-playoff: Final - Possible Game 4 (20:40)" tvg-logo="https://www.fifplay.com/img/public/serie-a-logo-transparent.png" group-title="Eventi Sportivi",Basketball | Serie A2 2024/2025-playoff: Final - Possible Game 4 (20:40)
 https://daddylive.dad/stream/stream-882.php
-#EXTINF:-1 tvg-id="worldcupmenbernboulderingfinal" tvg-name="Climbing | World Cup | Men Bern | Bouldering | Final (17:00)" tvg-logo="https://png.pngtree.com/png-clipart/20221026/original/pngtree-qatar-world-cup-germany-icon-png-image_8724047.png" group-title="Eventi Sportivi",Climbing | World Cup | Men Bern | Bouldering | Final (17:00)
+#EXTINF:-1 tvg-id="worldcupmenbernboulderingfinal" tvg-name="Climbing | World Cup | Men Bern | Bouldering | Final (17:00)" tvg-logo="https://png.pngtree.com/png-vector/20240108/ourmid/pngtree-icc-mens-t20-world-cup-2024-logo-vector-png-image_11201318.png" group-title="Eventi Sportivi",Climbing | World Cup | Men Bern | Bouldering | Final (17:00)
 https://daddylive.dad/stream/stream-879.php
 #EXTINF:-1 tvg-id="tourofswitzerlandstage4womenküssnacht1272km" tvg-name="Cycling | Tour Of Switzerland | Stage 4 Women | Küssnacht (127.2km) (11:00)" tvg-logo="https://grandtourofswitzerland.jp/img/logo_bgwhite.png" group-title="Eventi Sportivi",Cycling | Tour Of Switzerland | Stage 4 Women | Küssnacht (127.2km) (11:00)
 https://daddylive.dad/stream/stream-879.php
