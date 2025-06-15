@@ -201,9 +201,19 @@ https://daddylive.dad/stream/stream-880.php
 #EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 18 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 18 FHD
 #EXTINF:-1 tvg-name="Daddylive" group-title="Eventi Sportivi" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-uno-it.png",Daddylive
 https://example.com.m3u8
-#EXTINF:-1 tvg-id="formula1pirellicanadiangrandprixqualifying" tvg-name="Motorsport | Formula 1 : Pirelli Canadian Grand Prix - Qualifying (22:00)" tvg-logo="https://logospng.org/download/formula-1/formula-1-4096.png" group-title="Eventi Sportivi",Motorsport | Formula 1 : Pirelli Canadian Grand Prix - Qualifying (22:00)
+#EXTINF:-1 tvg-id="fifaclubworldcuppsgvsatléticomadrid" tvg-name="Soccer | Fifa Club World Cup : Psg Vs Atlético Madrid (21:00)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/PSG_vs_Atlético Madrid.png" group-title="Eventi Sportivi",Soccer | Fifa Club World Cup : Psg Vs Atlético Madrid (21:00)
+https://daddylive.dad/stream/stream-9.php
+#EXTINF:-1 tvg-id="formula1pirellicanadiangrandprixgrandprixsunday" tvg-name="Motorsport | Formula 1 : Pirelli Canadian Grand Prix - Grand Prix Sunday (19:00)" tvg-logo="https://logodownload.org/wp-content/uploads/2016/11/formula-1-logo-0.png" group-title="Eventi Sportivi",Motorsport | Formula 1 : Pirelli Canadian Grand Prix - Grand Prix Sunday (19:00)
 https://daddylive.dad/stream/stream-577.php
-#EXTINF:-1 tvg-id="fiawecround424hoursoflemansracepart2" tvg-name="Motorsport | Fia Wec | Round 4 | 24 Hours Of Le Mans Race | Part 2 (23:00)" tvg-logo="https://d3ie7ogstrup9y.cloudfront.net/wp-content/uploads/2020/10/27150110/WEC-Logos-2022-01.png" group-title="Eventi Sportivi",Motorsport | Fia Wec | Round 4 | 24 Hours Of Le Mans Race | Part 2 (23:00)
-https://daddylive.dad/stream/stream-878.php
+#EXTINF:-1 tvg-id="formula1pirellicanadiangrandprixrace" tvg-name="Motorsport | Formula 1 : Pirelli Canadian Grand Prix - Race (20:00)" tvg-logo="https://insidersbettingdigest.com/wp-content/uploads/2023/10/formula1-logo.png" group-title="Eventi Sportivi",Motorsport | Formula 1 : Pirelli Canadian Grand Prix - Race (20:00)
+https://daddylive.dad/stream/stream-577.php
+#EXTINF:-1 tvg-id="seriea220242025playofffinalpossiblegame4" tvg-name="Basketball | Serie A2 2024/2025-playoff: Final - Possible Game 4 (20:40)" tvg-logo="https://static.flashscore.com/res/image/data/EgW8iZCO-UVwfrmvp.png" group-title="Eventi Sportivi",Basketball | Serie A2 2024/2025-playoff: Final - Possible Game 4 (20:40)
+https://daddylive.dad/stream/stream-882.php
+#EXTINF:-1 tvg-id="worldcupmenbernboulderingfinal" tvg-name="Climbing | World Cup | Men Bern | Bouldering | Final (17:00)" tvg-logo="https://1000logos.net/wp-content/uploads/2024/03/Qatar-World-Cup-Logo-history.png" group-title="Eventi Sportivi",Climbing | World Cup | Men Bern | Bouldering | Final (17:00)
+https://daddylive.dad/stream/stream-879.php
+#EXTINF:-1 tvg-id="tourofswitzerlandstage4womenküssnacht1272km" tvg-name="Cycling | Tour Of Switzerland | Stage 4 Women | Küssnacht (127.2km) (11:00)" tvg-logo="https://grandtourofswitzerland.jp/img/logo_bgwhite.png" group-title="Eventi Sportivi",Cycling | Tour Of Switzerland | Stage 4 Women | Küssnacht (127.2km) (11:00)
+https://daddylive.dad/stream/stream-879.php
+#EXTINF:-1 tvg-id="criteriumdudauphinestage8menvaldarcvalcenis1333km" tvg-name="Cycling | Criterium Du Dauphine | Stage 8 Men | Val'd Arc - Val Cenis (133.3km) (15:10)" tvg-logo="http://www.bing.com/sa/simg/facebook_sharing_5.png" group-title="Eventi Sportivi",Cycling | Criterium Du Dauphine | Stage 8 Men | Val'd Arc - Val Cenis (133.3km) (15:10)
+https://daddylive.dad/stream/stream-879.php
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Eventi Sportivi",ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
