@@ -1,6 +1,10 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",21:00 PSG - Atletico Madrid 
 https://live03-col.msf.cdn.mediaset.net/live/ch-i1/i1-clr.isml/manifest_hr.mpd
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",21:00 PSG - Atletico Madrid 
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=cfb5e2b73bef4f3c878f25ab86a7451f:0d6712bf2a84edcc93d001a9613f6fec
+https://dca-fs-live-dazn-cdn.dazn.com/ncaeu6yoesdj1pm11v2j1c84w/web/stream.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",00:00 Palmeiras - Porto 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=eaea45512d137def15b209a089cafd14:8d42db746ed0c4df61729b0d68d42bd7
