@@ -1,12 +1,4 @@
 #EXTM3U url-tvg="http://www.epgitalia.tv/gzip,http://epg-guide.com/it.gz,https://raw.github.com/matthuisman/i.mjh.nz/master/PlutoTV/us.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/PlutoTV/it.xml.gz,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-events-epg.xml,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-channels-epg.xml,https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/it.xml.gz"
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",18:00 Bayern Monaco - Auckland City
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=540313f2e5eda2c17df277afc085f33c:3a2ac903e4299a7815111e256369d9d4
-https://p7s1-live-009-prod.akamaized.net/27a90190/t_009/sat1-de-hd/cenc-default.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",18:00 Bayern Monaco - Auckland City
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=eaea45512d137def15b209a089cafd14:8d42db746ed0c4df61729b0d68d42bd7
-https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/rkhugudynd/out/v1/f7763e695c3b469594ed89fa163ebf0c/cenc-sd.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",21:00 PSG - Atletico Madrid
 https://live03-col.msf.cdn.mediaset.net/live/ch-i1/i1-clr.isml/manifest_hr.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",00:00 Palmeiras - Porto
@@ -33,14 +25,14 @@ https://live03-col.msf.cdn.mediaset.net/live/ch-i1/i1-clr.isml/manifest_hr.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=eaea45512d137def15b209a089cafd14:8d42db746ed0c4df61729b0d68d42bd7
 https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/rkhugudynd/out/v1/f7763e695c3b469594ed89fa163ebf0c/cenc-sd.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",18:00 Finlandia U.21 - Ucraina U.21
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",20:30 Sampdoria v Salernitana
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=ef34ae91b4f2415e8439b2ad105e7488:243248d8de1ff8c7c587ee2057317523
-https://mag03.tvx.prd.tv.odido.nl/wh7f454c46tw75168188_-627298088/PLTV/86/224/3221241590/3221241590.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",18:00 Inghilterra U.21 - Slovenia U.21
+#KODIPROP:inputstream.adaptive.license_key=21aab9698f375b1eaebd13fb18f13089:7fe5de23bd04a6690e90da94263ee7bb
+https://dcb-deit-livedazn.daznedge.net/1n2xauxgwjcen13pvzbc0ig5g2/web/stream.mpd
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",20:30 Salernitana v Sampdoria
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=b5c04cfb6da84104ba5bbe51cd065b12:d96561be4819d3ed4e5f4f54015baaca
-https://mag01.tvx.prd.tv.odido.nl/wh7f454c46tw523693457_1808344289/PLTV/86/224/3221241652/3221241652.mpd
+#KODIPROP:inputstream.adaptive.license_key=21aab9698f375b1eaebd13fb18f13089:7fe5de23bd04a6690e90da94263ee7bb
+https://dcb-deit-livedazn.daznedge.net/1n2xauxgwjcen13pvzbc0ig5g2/web/stream.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",21:00 Paesi Bassi U.21 - Danimarca U.21
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=ef34ae91b4f2415e8439b2ad105e7488:243248d8de1ff8c7c587ee2057317523
@@ -71,18 +63,6 @@ https://linear307-it-dash1-prd.selector.skycdn.it/016a/31478/FHD/skysportf1/mast
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=f4608dc9b6164cd7b96791af91cc334c:8d4bc6537629d3f7ad5aa4e75516f6da
 https://live-cito.9c9media.ca/5d56690552e77e26848799912ac055919f78d5e71725017868382/f/tsn5/manifest.mpd
-#EXTINF:-1 tvg-id="eurosport1.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/eurosport-1-es.png" group-title="WEC",16:00 Fine Gara
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0036bb3fa7e6f2c334d7cba5c28b6caf:217fa35739cd68e90b2cd23322c01312
-https://linear311-it-dash1-prd.selector.skycdn.it/016a/313073/FHD/eurosport/master_stereo.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TENNIS",11:00 Live
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0036fb7c564c4eb99e310f5fa82ab2f2:647f07b6858a669456e73ca103b4c2c0
-https://linear310-it-dash1-prd.selector.skycdn.it/016a/32559/FHD/skysporttennis/master.mpd
-#EXTINF:-1 tvg-id="skysportuno.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-uno-it.png" group-title="TENNIS",11:00 Live
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0036aaa1d68c6b487e29a5cb080a8a28:a3e8db3ff3c876f7b43a961b64a63474
-https://linear301-it-dash1-prd.selector.skycdn.it/016a/31023/FHD/skysportuno/master_stereo.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="TENNIS",11:00 Live
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=0036fb7c564c4eb99e310f5fa82ab2f2:647f07b6858a669456e73ca103b4c2c0
@@ -101,18 +81,6 @@ https://linear308-it-dash1-prd.selector.skycdn.it/016a/31764/FHD/skysportnba/mas
 https://linear308-it-dash1-prd.selector.skycdn.it/016a/31764/FHD/skysportnba/master_stereo.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="BASKET",20:30 Germani Brescia v Virtus Bologna
 https://amg16146-wbdi-amg16146c8-samsung-it-1841.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-dmax-samsungit/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="PALLAVOLO",13:00 Polonia v Serbia
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=590abbe92e6e470a9e355d58ec910709:0af2b5f2450474207f6761adc9dc635e
-https://cdn-s-lb2.pluscdn.pl/ch/1456452/129/dash/ffe2048f/live.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="PALLAVOLO",15:00 Brasile v Slovenia
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=590abbe92e6e470a9e355d58ec910709:0af2b5f2450474207f6761adc9dc635e
-https://cdn-s-lb2.pluscdn.pl/ch/1456452/129/dash/ffe2048f/live.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="PALLAVOLO",17:00 Argentina v Italia
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=03ddf71c8dae4e8d8b171fb81ecfe609:fc80cf8969cf1b3c2c061eadb94e1330
-https://cdn-s-lb2.pluscdn.pl/ch/1455832/117/dash/790ff37c/live.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="PALLAVOLO",18:30 Ucraina v Iran
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=3201accccbe9455cbc28dcd4bcdf1509:f4d9a50f98ea833d2e5120d83bd59a23
@@ -271,7 +239,7 @@ https://hls.kangal.icu/hls/tennis/index.m3u8
 #EXTVLCOPT:http-referrer=https://www.twitch.tv/therealmarzaa
 #EXTVLCOPT:http-origin=https://www.twitch.tv/therealmarzaa
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://use12.playlist.ttvnw.net/v1/playlist/CuMEwPiazHXHvCZruU3WWIOX7E0x6ypS4XUxrRBnwUZKPB7reZ8KEhCjKGq26o9FMLD5tr3ZXYblSrCek-Bq-86N_D73zfiVjfPd6ibiW6J9AOZ-lcSrxHaM14TpdMK0udiSeJykmT5pAJMUZ0uBDISangxLKwNj1cvSa5cj0IVn797qF1lIK0Qq_cR5GKS5AJDBBZBmtfEgKEij-Y1ilYFQEOjgiK9Kw0KTdv4W_CtghMF3zZtaF1VQsBcT3yWMoat1EkkLaug5GjEEvQ41xA1aSeKWoRPtlQGBgA-oQpGoi6b7uJPxrHkiUkUB1gRED75uzkOlV7TWwnqtY_QKIeOQC6J6tqlHIQ7Bh0hzHCzE2_0u8nXQTE5lYLt9u0J7-9ildPNclXYl2aEXIq0xg5XtVZ8vQ7GaBYGg6f_lzFPheR5J_adu999W2zLtatIwinPrVG6e27F-bvoudZl4ttDb-2gnMQsi4GxRNX55bmlQHY7OvfZeCiMBdHlwQ8TAGE8NaJ7wJ5lVTDgv7oWyjaCwuARcxz0uFar7_2yUCrVaubtzYRgbGZoBGpff5kAyyVs7s3VUd7Pl4jL1dSOwKfonBYDeYoxenpySXEfoWMzht4dUDpwwTZFGggloyevsrOqwZCrGfvMWZUqSxdTZ0y6wMfSX1p-O15OSss9y-_Rc9RrNVtwfy_fw5l-p-UeNBStex-y0MrBVCctZwPyC2jzIh72bb8yi-9uz9SWQDUS_D_1SeyPJD-D-yNM5T_q88jQEb7tn3BXiO6hfCfOAl_t0jHKWX9-qU7lrIrDze22xpHjK1QYaDMWcbKDfEqplblLgmyABKgl1cy1lYXN0LTIwwQw.m3u8
+https://usw22.playlist.ttvnw.net/v1/playlist/CsoEu1_1WUF-KINtKlvRXLq_Z9iWX9i59Dtl6gZXNrW6wld9NJstVS6u3VERctOG1sQrfM-sUGr5RP2-dsHymtMr0kVuOdwZ6txoDLYpKDYdcbhR0j9AZ0TZPAhEV15IvSTlvKGZuS312kwaonD7bffuAn95muNiueYSLmNLPBo--xL4gxW_ouAMCz9hXO2rXvUeXB2px9sdfobfYgiELUDFIz_68Vvbq5LoYNASZu265bAsnV1bXLNuftr8bTRdEAiprdiugkoTkX6HOso8XWUm1WWAsRtwWQBstL156tLuxdRGOcrLRic9BwQfB1oEbJtLDg-KE_wqMnFkb5Q-F9uImEywYfeWJAAwPtAeZuBHEWdCkkz5S8fJUoeflei5G_fCDWt5CvMuD-dB-D2x2pOSHMgYfPfwg10Ak2oN76UWcrBX1ys3OCj-tK-0TkBQ_mzAo4U-OS-B-yjYwY3Wy5Ci2FiRzTQPDychvydZxz3KBk3yt_u7JdeORkGhXK-Ndt8AWJ9bFl2FVvIvwGspsa3D2QKQOSxwr7_zrFsAjFbvCvLbQDrzrsDedOY35kNVwTKNaLQSjKlbCxskRUsdSpcsI2ZJjzEVASe5RWFVlgl8KAZyg-CzxOaRLFQ7Ly1V2_SITGi4OsHLKsoQzAUZkhiZUwVdx_Ka21m67DM9XJU6u53dtOVMd7ygY_YljbWDA6te6mH8lmCopeAO5grKIAUU_OdnV1JXfqPrPifUZRZAid6crDj-fjei_Hy0_bAdZbAL3wAuyEMy5Ul3axoM3pC1LTH6a2xBVg2PIAEqCXVzLWVhc3QtMjDBDA.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Kings League", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 #EXTINF:-1 tvg-id="skysportuno.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-uno-it.png" group-title="Dazn MPD",Sky Sport UNO
