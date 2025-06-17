@@ -11,7 +11,7 @@ import pickle
 # Configurazioni
 TMDB_API_KEY = "eff30813a2950a33e36b51ff09c71f97"  # Chiave API TMDb
 BASE_URL = "https://api.themoviedb.org/3"
-NUMERO_FILM = 500  # Solo film
+NUMERO_FILM_PER_GRUPPO = 500  # Film per categoria e per "Film al Cinema"
 OUTPUT_FILE = "film.m3u8"  # Nome del file M3U8
 VIX_ORIGIN = "https://vixsrc.to/"  # Origin e Referrer
 IMG_BASE_URL = "https://image.tmdb.org/t/p/w500"  # Base URL per le immagini
@@ -19,13 +19,14 @@ MAX_RETRIES = 3  # Numero massimo di tentativi per richiesta
 RETRY_DELAY = 5  # Secondi di attesa tra i tentativi
 DEBUG_DIR = "debug_pages"  # Directory per salvare le pagine di debug
 CACHE_FILE = "movie_cache.pkl"  # File per la cache
+PROCESSED_IDS_FILE = "processed_ids.pkl"  # File per tracciare gli ID processati
 
 # Crea la directory di debug se non esiste
 if not os.path.exists(DEBUG_DIR):
     os.makedirs(DEBUG_DIR)
 
 # Funzione per ottenere i film più recenti
-def get_recent_movies(limit):
+def get_recent_movies(limit, processed_ids):
     print("Recupero dei film più recenti...")
     movies = []
     page = 1
@@ -38,26 +39,49 @@ def get_recent_movies(limit):
         results = response.json().get("results", [])
         if not results:
             break
-        movies.extend(results[:min(limit - len(movies), len(results))])
+        for movie in results:
+            if movie["id"] not in processed_ids and len(movies) < limit:
+                movies.append(movie)
+                processed_ids.add(movie["id"])
         page += 1
         time.sleep(0.5)  # Evita ban da TMDb
     print(f"Trovati {len(movies)} film recenti")
     return movies
 
-# Funzione per ottenere il genere principale
-def get_main_genre(genre_ids, media_type):
-    print(f"Recupero dei generi per {media_type}...")
-    url = f"{BASE_URL}/genre/{media_type}/list?api_key={TMDB_API_KEY}&language=it-IT"
+# Funzione per ottenere i film per genere
+def get_movies_by_genre(genre_id, limit, processed_ids):
+    print(f"Recupero dei film per il genere ID {genre_id}...")
+    movies = []
+    page = 1
+    while len(movies) < limit:
+        url = f"{BASE_URL}/discover/movie?api_key={TMDB_API_KEY}&language=it-IT&sort_by=popularity.desc&with_genres={genre_id}&page={page}"
+        response = requests.get(url)
+        if response.status_code != 200:
+            print(f"Errore nella richiesta dei film per il genere {genre_id} (pagina {page}): {response.status_code}")
+            break
+        results = response.json().get("results", [])
+        if not results:
+            break
+        for movie in results:
+            if movie["id"] not in processed_ids and len(movies) < limit:
+                movies.append(movie)
+                processed_ids.add(movie["id"])
+        page += 1
+        time.sleep(0.5)  # Evita ban da TMDb
+    print(f"Trovati {len(movies)} film per il genere ID {genre_id}")
+    return movies
+
+# Funzione per ottenere l'elenco dei generi
+def get_genres():
+    print("Recupero dell'elenco dei generi...")
+    url = f"{BASE_URL}/genre/movie/list?api_key={TMDB_API_KEY}&language=it-IT"
     response = requests.get(url)
     if response.status_code != 200:
         print(f"Errore nel recupero dei generi: {response.status_code}")
-        return "Sconosciuto"
-    
+        return []
     genres = response.json().get("genres", [])
-    for genre in genres:
-        if genre["id"] in genre_ids and genre_ids:
-            return genre["name"]
-    return "Sconosciuto"
+    print(f"Trovati {len(genres)} generi")
+    return genres
 
 # Funzione per preprocessare la stringa JSON
 def preprocess_json(json_str):
@@ -90,10 +114,9 @@ def validate_token_and_expires(token, expires):
     return True
 
 # Funzione per cercare un film su vixsrc.to
-def search_vixsrc(title):
+def search_vixsrc(title, scraper):
     print(f"Ricerco '{title}' su vixsrc.to...")
     search_url = f"{VIX_ORIGIN}search?query={urllib.parse.quote(title)}"
-    scraper = cloudscraper.create_scraper(delay=20)
     try:
         response = scraper.get(search_url)
         if response.status_code != 200:
@@ -127,11 +150,9 @@ def test_stream_url(stream_url, scraper):
 
 # Funzione per estrarre il flusso finale
 def get_stream_url(tmdb_id, title, cache, scraper):
-    # Controlla la cache
     if tmdb_id in cache:
         return cache[tmdb_id]
 
-    # Prova con l'ID TMDb
     url = f"{VIX_ORIGIN}movie/{tmdb_id}"
     print(f"Accesso alla pagina {url} con Cloudscraper per {title}...")
     
@@ -145,8 +166,7 @@ def get_stream_url(tmdb_id, title, cache, scraper):
             if response.status_code != 200:
                 print(f"Errore nell'accesso alla pagina {url}: {response.status_code}")
                 if response.status_code == 404:
-                    # Cerca con il titolo
-                    vix_id = search_vixsrc(title)
+                    vix_id = search_vixsrc(title, scraper)
                     if vix_id:
                         url = f"{VIX_ORIGIN}movie/{vix_id}"
                         print(f"Tentativo con ID interno {vix_id}: {url}")
@@ -177,7 +197,6 @@ def get_stream_url(tmdb_id, title, cache, scraper):
             for script in scripts:
                 script_content = script.string
                 if script_content:
-                    # Estrai window.video
                     video_match = re.search(r'window\.video\s*=\s*({.*?});', script_content, re.DOTALL)
                     if video_match:
                         try:
@@ -187,7 +206,6 @@ def get_stream_url(tmdb_id, title, cache, scraper):
                         except json.JSONDecodeError as e:
                             print(f"Errore nel decodificare window.video per {url}: {str(e)}")
 
-                    # Estrai window.streams per parametri alternativi
                     streams_match = re.search(r'window\.streams\s*=\s*(\[.*?\]);', script_content, re.DOTALL)
                     if streams_match:
                         try:
@@ -200,7 +218,6 @@ def get_stream_url(tmdb_id, title, cache, scraper):
                         except json.JSONDecodeError as e:
                             print(f"Errore nel decodificare window.streams per {url}: {str(e)}")
 
-                    # Estrai window.masterPlaylist
                     if 'window.masterPlaylist' in script_content:
                         print(f"Trovato script con window.masterPlaylist:\n{script_content}")
                         match = re.search(r'window\.masterPlaylist\s*=\s*(\{.*?\}(?=\s*window\.canPlayFHD|\s*<\/script>))', script_content, re.DOTALL)
@@ -221,12 +238,11 @@ def get_stream_url(tmdb_id, title, cache, scraper):
                                 expires = params.get('expires', '')
 
                                 if validate_token_and_expires(token, expires):
-                                    # Usa i parametri da window.streams se disponibili
                                     if stream_params:
                                         base_url = stream_params
                                     elif 'b=1' not in base_url:
                                         base_url = base_url + ('?b=1' if '?' not in base_url else '&b=1')
-                                    stream_url = f"{base_url}&token={token}&expires={expires}&h=1&lang=en"
+                                    stream_url = f"{base_url}&token={token}&expires={expires}&h=1&lang=it"
                                     if test_stream_url(stream_url, scraper):
                                         print(f"Flusso finale creato: {stream_url}")
                                         cache[tmdb_id] = (stream_url, None)
@@ -264,7 +280,7 @@ def get_stream_url(tmdb_id, title, cache, scraper):
     return None, "Errore: tentativi massimi raggiunti"
 
 # Funzione per creare il file M3U8
-def create_m3u8_playlist(movies):
+def create_m3u8_playlist(movies_by_group):
     print(f"Creazione del file M3U8: {OUTPUT_FILE}")
     cache = load_cache()
     scraper = cloudscraper.create_scraper(
@@ -275,32 +291,32 @@ def create_m3u8_playlist(movies):
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
 
-        print("Aggiunta dei film alla playlist...")
-        for movie in movies:
-            title = movie.get("title", "Senza Titolo")
-            tmdb_id = movie.get("id", "")
-            poster_path = movie.get("poster_path", "")
-            genre = get_main_genre(movie.get("genre_ids", []), "movie")
-            stream_url, error_message = get_stream_url(tmdb_id, title, cache, scraper)
-            img_url = f"{IMG_BASE_URL}{poster_path}" if poster_path else ""
+        for group_name, movies in movies_by_group.items():
+            print(f"Aggiunta dei film al gruppo '{group_name}'...")
+            for movie in movies:
+                title = movie.get("title", "Senza Titolo")
+                tmdb_id = movie.get("id", "")
+                poster_path = movie.get("poster_path", "")
+                stream_url, error_message = get_stream_url(tmdb_id, title, cache, scraper)
+                img_url = f"{IMG_BASE_URL}{poster_path}" if poster_path else ""
 
-            if stream_url:
-                f.write(f'#EXTINF:-1 tvg-id="{tmdb_id}" tvg-name="{title}" tvg-logo="{img_url}" group-title="{genre}",{title}\n')
-                f.write(f'#EXTVLCOPT:http-referrer={VIX_ORIGIN}\n')
-                f.write(f'#EXTVLCOPT:http-user-agent=Mozilla/5.0\n')
-                f.write(f'#EXTVLCOPT:http-origin={VIX_ORIGIN}\n')
-                f.write(f'{stream_url}\n')
-                print(f"Aggiunto film: {title}")
-            else:
-                print(f"Salta film: {title} ({error_message})")
-                f.write(f'#EXTINF:0 tvg-name="Errore" group-title="Debug",Errore per {title}\n')
-                f.write(f'# {error_message}\n')
-            
-            save_cache(cache)  # Salva la cache dopo ogni film
+                if stream_url:
+                    f.write(f'#EXTINF:-1 tvg-id="{tmdb_id}" tvg-name="{title}" tvg-logo="{img_url}" group-title="{group_name}",{title}\n')
+                    f.write(f'#EXTVLCOPT:http-referrer={VIX_ORIGIN}\n')
+                    f.write(f'#EXTVLCOPT:http-user-agent=Mozilla/5.0\n')
+                    f.write(f'#EXTVLCOPT:http-origin={VIX_ORIGIN}\n')
+                    f.write(f'{stream_url}\n')
+                    print(f"Aggiunto film: {title}")
+                else:
+                    print(f"Salta film: {title} ({error_message})")
+                    f.write(f'#EXTINF:0 tvg-name="Errore" group-title="Debug",Errore per {title}\n')
+                    f.write(f'# {error_message}\n')
+                
+                save_cache(cache)  # Salva la cache dopo ogni film
 
     print(f"Playlist M3U8 creata con successo: {OUTPUT_FILE}")
 
-# Funzioni per gestire la cache
+# Funzioni per gestire la cache e gli ID processati
 def load_cache():
     if os.path.exists(CACHE_FILE):
         with open(CACHE_FILE, 'rb') as f:
@@ -311,11 +327,36 @@ def save_cache(cache):
     with open(CACHE_FILE, 'wb') as f:
         pickle.dump(cache, f)
 
+def load_processed_ids():
+    if os.path.exists(PROCESSED_IDS_FILE):
+        with open(PROCESSED_IDS_FILE, 'rb') as f:
+            return pickle.load(f)
+    return set()
+
+def save_processed_ids(processed_ids):
+    with open(PROCESSED_IDS_FILE, 'wb') as f:
+        pickle.dump(processed_ids, f)
+
 # Funzione principale
 def main():
     print("Avvio dello script per la creazione della playlist M3U8...")
-    movies = get_recent_movies(NUMERO_FILM)
-    create_m3u8_playlist(movies)
+    processed_ids = load_processed_ids()
+    movies_by_group = {}
+
+    # Ottieni i film recenti
+    recent_movies = get_recent_movies(NUMERO_FILM_PER_GRUPPO, processed_ids)
+    movies_by_group["Film al Cinema"] = recent_movies
+
+    # Ottieni i generi e i film per ogni genere
+    genres = get_genres()
+    for genre in genres:
+        genre_name = genre["name"]
+        genre_id = genre["id"]
+        genre_movies = get_movies_by_genre(genre_id, NUMERO_FILM_PER_GRUPPO, processed_ids)
+        movies_by_group[genre_name] = genre_movies
+
+    save_processed_ids(processed_ids)
+    create_m3u8_playlist(movies_by_group)
 
 if __name__ == "__main__":
     main()
