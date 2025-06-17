@@ -1,9 +1,6 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXTINF:-1 tvg-id="574475" tvg-name="Final Destination: Bloodlines" tvg-logo="https://image.tmdb.org/t/p/w500/hzGZDjkGf3kZVztnh1aj2LaO9DX.jpg" group-title="Horror",Final Destination: Bloodlines
-#EXTVLCOPT:http-referrer=https://vixsrc.to/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-origin=https://vixsrc.to/
 https://vixsrc.to/playlist/317542&token=78013419f9399379dc9e8be8ddedd7bc&expires=1755361726&h=1&lang=en
 #EXTINF:-1 tvg-id="1426776" tvg-name="STRAW - Senza uscita" tvg-logo="https://image.tmdb.org/t/p/w500/t3cmnXYtxJb9vVL1ThvT2CWSe1n.jpg" group-title="Crime",STRAW - Senza uscita
 #EXTVLCOPT:http-referrer=https://vixsrc.to/
