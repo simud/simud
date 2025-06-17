@@ -3,7 +3,7 @@ name: SIMUDFLIX
 on:
   workflow_dispatch:  # Permette l'esecuzione manuale
   schedule:
-    - cron: '*/20 * * * *'  # Esegue ogni 3 ore: 0:00, 3:00, 6:00, 9:00, 12:00, 15:00, 18:00, 21:00 UTC
+    - cron: '*/20 * * * *'  # Esegue ogni 20 minuti
 
 jobs:
   scrape:
@@ -37,5 +37,6 @@ jobs:
           git config --global user.email "action@github.com"
           git add film.m3u8
           git commit -m "Aggiornato file M3U8 con nuovi flussi" || echo "Nessun cambiamento da committare"
+          git pull --rebase origin main
           git push
         continue-on-error: true
