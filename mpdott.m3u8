@@ -1,8 +1,4 @@
 #EXTM3U url-tvg="http://www.epgitalia.tv/gzip,http://epg-guide.com/it.gz,https://raw.github.com/matthuisman/i.mjh.nz/master/PlutoTV/us.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/PlutoTV/it.xml.gz,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-events-epg.xml,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-channels-epg.xml,https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/it.xml.gz"
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",21:00 River Plate - Urawa Reds
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=eaea45512d137def15b209a089cafd14:8d42db746ed0c4df61729b0d68d42bd7
-https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/rkhugudynd/out/v1/f7763e695c3b469594ed89fa163ebf0c/cenc-sd.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",00:00 Ulsan - Mamelodi Sundowns
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=eaea45512d137def15b209a089cafd14:8d42db746ed0c4df61729b0d68d42bd7
@@ -31,12 +27,6 @@ https://live03-col.msf.cdn.mediaset.net/live/ch-i1/i1-clr.isml/manifest_hr.mpd
 https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/rkhugudynd/out/v1/f7763e695c3b469594ed89fa163ebf0c/cenc-sd.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",21:00 Inter Miami - Porto
 https://live03-col.msf.cdn.mediaset.net/live/ch-i1/i1-clr.isml/manifest_hr.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",21:00 Romania U.21 - Slovacchia U.21
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=3cfa8625f650406ebf6a4d1ea737f572:0534e747c70b364aa7210e1bf3191df0
-https://mag04.tvx.prd.tv.odido.nl/wh7f454c46tw266117884_-1972819316/PLTV/86/224/3221241560/3221241560.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",21:00 Spagna U.21 - Italia U.21
-https://viamotionhsi.netplus.ch/live/eds/rai2/browser-dash/rai2.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",18:00 Paesi Bassi U.21 - Ucraina U.21
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=ef34ae91b4f2415e8439b2ad105e7488:243248d8de1ff8c7c587ee2057317523
@@ -69,8 +59,6 @@ https://mag01.tvx.prd.tv.odido.nl/wh7f454c46tw523693457_1808344289/PLTV/86/224/3
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=3fb40d85724942f994d86943f48021db:a6da8742502c8a2153067f5f2a70fb02
 https://mag01.tvx.prd.tv.odido.nl/wh7f454c46tw865586829_-819821292/PLTV/86/224/3221241610/3221241610.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="BASKET",20:30 Germani Brescia v Virtus Bologna
-https://amg16146-wbdi-amg16146c8-samsung-it-1841.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-dmax-samsungit/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="EXTRA",Live
 https://di-kzbhv8pw.vo.lswcdn.net/sportitalia/sihd/chunklist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="EXTRA",Live
@@ -209,12 +197,12 @@ https://hls.kangal.icu/hls/tennis/index.m3u8
 #EXTVLCOPT:http-referrer=https://www.twitch.tv/tumblurr
 #EXTVLCOPT:http-origin=https://www.twitch.tv/tumblurr
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://usw21.playlist.ttvnw.net/v1/playlist/CrEECJ1cSXJspva5tQV56Z0sSnPO84XfINS6CyF9cFMq94-R1uV7aTtvbNRj7DMBQxFHGnGqiJJQ086xnRk-WMIf8ION0OWx0G1icovIbPXb6fBHMmWCwGnyXHZ7UrxS7bic_QWiZJ7oi0RIGFibv2vwF8cT7-2XLb4NUK5bit2IiqP1s7TMLwAebYqmxCTWkWNDLuzaqn_lt3AAKfM7WSRiKbnw0jsI2Tk6BHsFsYGNXkKhFcNgUyEU4c69lQOSmT1rOIlnkSMQmfGwyQZObPR5zzVvhiD-eudOV3sfVpbB99XceC6FokWHKwj1AaGl2ZQSDvXEDncbVw5g9ba4XzEwKLd-yXaKzJMSS1qD4No-uZRmX0fDEHeePP4sTJ6ReW3f1PyZlQCS2wAmM8qMZRQWVW2FJwKmqzZ7w_p2WTlkQ03VTN0YVn8n1S9TM7hqFaMeLl9MPfmUTDkfPQNfvMmMkAlPBTdOl-5_YYXJsEd2sjBz1H14ndIoRitScEjl1V_Sxajv1x9F-KDxsdnFu8t0DYRkC-R3cIVUKn3KiJiwOMBGNkZ0Ak12Sih1VuMPag3irYF7f9DtSI1gqrJjxwTm-quE5_K4KaSPF5Aiu5l7vVWeEvmHBoEz4GKN7ssfdjBvE3XsokU_ngrkrSCVG9Q8MJAL-CxU0h-rnN6XA45NGI4lzjBmMd8zJBXUADy282ehHZAadWT3oz2lDKAWZlmgbqhkMggI4_53zb8L90ze6i2sGgxQWDnZf-9aJL-YF2YgASoJdXMtZWFzdC0yMMQM.m3u8
+https://use16.playlist.ttvnw.net/v1/playlist/Ct0ECexEDnMLhhaTjqlBppGrV890zeZW2brmCkzwel0QbWcmgCsr2Pb_hjv8exEBn9IujIkJvIAQ-xQJioAGl0aloP9z8wcbznDYfX8OFws3_kZBwkXXH4oRN2Id6wMD0aRB0dZcmdUWnaYNByCgeMu-MKcyg-XGw-dGnYb4U9GxzQ_eyeKhzBZWT7WvhvtIjSycImI9y0Y44ZuCPhu7McAXfcntREfmhiKkd-yoGZHDAPuOo4yvd3nqsFkP_thyxh0Ys9xAjMGwM6RAn8WGUhmIEte8g5EpkHYCgdPzMH2l1Uxh4hA4h4ZbaVZhVGdtSoJJyYj4NtWeNM4DmF8KeV5wupaeULTknh5WdW0nfEta4FG1Uipq6PwCoZD7FZSun3ZzusEFxlvDPAdAxtiOj9t25NPWXd13bou7svyIca0I3B1objJeDw25Et1bh-LfufbVbzrE42GnkoL26hFT80ZRxJ3aR7eGmpZ55-RjPYqJq1Qcc-yVhxI37mODxX7gWaio3g2zb8x1UTftfq9I9od73jp50Q8u18U3xX6lY_8MOPpcvHVjGIefIsd7I3moI1-lhDy51o4G2_be1yoqJiYx9_5EZ-YHSWBZxWk5qKFQi5LRTpu0_bIBmOElWD9-pTwVNXyNxM5FjXLURdzHwX4Z1Hy91da5QLFR_FVmlLtpiynjq06VeiRHBf9i0Ykix9je1CA704xsuM-oXVH47sVM0IVXzHHXq-fxoUad9Mf4RR3UmjmPKlMG69Gq6pRW0d9DJ28BaommWKHX97v_KZQrzECcr3Vep49Pr4aQtTUaDCV2zZOLZH8almaDsiABKgl1cy1lYXN0LTIwxAw.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/mZ6gwjBg/kings-league.png" group-title="Kings League", grenbaud
 #EXTVLCOPT:http-referrer=https://www.twitch.tv/grenbaud
 #EXTVLCOPT:http-origin=https://www.twitch.tv/grenbaud
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://use11.playlist.ttvnw.net/v1/playlist/CsAEoJvzu3vNU7KuRfdDfcTNUKOpb82cby0OffTLe2RKV5_Sv_rg3tq_cd3EpAIhv_u_k6BJXh9KjV630Fs3X87bS9OoBdkDMR8wh0m7kH8l46xZtlxclRFrqpd_V4ysQ7w1bKxqS91p-B-6TNgF-HZ-KR_BJqQ4yHUsScNlhHyFEmhHqL6S0b9Hv5TAXkFZR5Za6AUna-FadNwO3hJBLG8Ak9zdcedtgV_xDs_jpNINN9gxFeMiOBWy59e-cGZ6tsdqisVmnIXvR5VfdhtyA1H8Wtgjm_SvF2bxXHUpcCn6JcYLcgQrf3PJCL12_TmJYFNx3SydD4uYDEFsMLUPj2wAjC3tDP4sQ3BvdiDoX9j4rzB3FOm3CLt03HvC38pnqjsAC4Gx8_G5gt1cagiM_GFoOGnkdfuj8yWhYg7hUBxVH4FsHDjMyRvjyCf2Va8l40GlRMEt2HmP_BW08-Xj9K0HFI04Ta_8xjbtQUnhPXDaIK9HVyXim-_Ec0k_4ggtuniUECxv-rn1m6UiliD9PzVh_9AsnBDu4LGf6DSaTRr9BQLa0tkCxmkSeIBStUUCqy7Yp96kYI-mKoyEMmxeNYDGGq52HX_z019D8kP4sCzbPvht6wBl80818m3jv123T7ka-_fq_3CixP8bZqamDTrrfBhjJxMuQSNq_Nb_5UNj5IwRPG-TOFyu8z3-PLzMMmScWVlpEuYUYBWq-lOfIBDliZznaqKEgUE5eYyFvzR9C_JyvT80qR4P5EG-3UCdESw1GgzH-i9vSL5Z3vQkUzggASoJdXMtZWFzdC0yMMQM.m3u8
+https://usw23.playlist.ttvnw.net/v1/playlist/CtUEQvBVpSvBFbL_AZ-XPlDrfyvKrP3bV6Fdn5l8cR2MsTAVo5QbSecIAoTfrwY2y-HMm8Do-SWQs8gi8DlwuMQQkFZl0Z4D6TWvpnqzJAmdGD1coQl7ome0t9OF9hp3c2_x0v4FvSrJA-5dq1QXwWg6nJ0PB1X11mM_DtC9Px40xknKo6ftFiP0EaZ8EvypbI_1-PmsW3i16oaWoCMYFHm1mG8VQzYCL41oy012zgjZTszmdodDGxCYn6nY0y3Nk0xzz65lb1-dbkWfKySOiYS5-lpDUUYBTT7c_d41NNteKg6rUAhhc2-Uice84eJk1tEGUFX_sAPdSZS-qPkbgcc1ICkoT9rWIElW2_6R9q4Yb58GSE49oUA8bGknRJ3Hyd6N5mJiyvhCzRbN0AK8U9ysZ1fh1P9ZM5e_p372-q1dOtxGi5wCNn85wKawdFDjX5L6c0o7qEp5Lp3fD_lJwzYfQsYmFTJ1bvP_nm03ASH2PjiwE5Ru-Q_6A7uiG0B1djRGcl3SryYY2E9C7gHV17ThT4B0OdzhGqnK6B36dsExYwmD_M9nOf68rZQGTENYyhlcJkfF3faiYaZ-yppTQU9Mgmjykxn-rRjhzyO5Z7FNz7xn3D4LpAbOkHrz8n5nCM3dUyAFeN3xJfoGOdsUyTZGZ5OD_7NHTBaCNJZkx1Eus8PrLD6pK2YgT9dlEh3ZiASOobjNkUVPoZHYU5uz1i3ao2dusQrrZL9VZJ1UI0H75BgS-ZlQ9c_rXhh4VeSn_KU5RLwh3-F2Ohho9lPJkLFIAkSvA9k2Ggxr7w0IIpWHzShUhr4gASoJdXMtZWFzdC0yMMQM.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Kings League", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 #EXTM3U  url-tvg="http://www.epgitalia.tv/gzip,http://epg-guide.com/it.gz,https://raw.github.com/matthuisman/i.mjh.nz/master/PlutoTV/us.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/PlutoTV/it.xml.gz,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-events-epg.xml,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-channels-epg.xml,https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/it.xml.gz"
