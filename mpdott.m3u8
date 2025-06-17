@@ -219,11 +219,6 @@ https://hls.kangal.icu/hls/tennis/index.m3u8
 #EXTVLCOPT:http-referrer=https://sportzone.yoga/
 #EXTVLCOPT:http-origin=https://sportzone.yoga/
 https://hls.kangal.icu/hls/tennis/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/mZ6gwjBg/kings-league.png" group-title="Kings League", controcalcio__
-#EXTVLCOPT:http-referrer=https://www.twitch.tv/controcalcio__
-#EXTVLCOPT:http-origin=https://www.twitch.tv/controcalcio__
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://use14.playlist.ttvnw.net/v1/playlist/CucEKGbK3EHqgh0WmQGe8ZvFfiYUqWaogBzPuDbDWMzDXJx2P0pDlW33E7JjI76SYVyZogt7j0QGa61H6QL0mhAk6GHkDbrWZcnlB5WcG79K5whqy6xjx31dzeKPjbjP-5glfA_E4MqX3ZM3y8bpy-QCBx4SyUwKPwYBEYibUVYoN_T-BGqwmNdlHxfkHeH2ZQUAA04yZLjM1j7krkEtG-M2YmIMl_TnqTDX6ceJcIeJzkey3IRtQevm1EVT3-DvbTlok_tLvZsvm389vyQvek26mgoZwvOS7DarMBMNBS67n5KH4BssJsMQwcrdRjrdJtpefes8M71KNqjBj9imb3uZGvBc9XpaHqNz3s40lIKNMdqP814_4z7yX-uBNeU45LL-dQY-i1ByKyRzR60zsHxxxneQkNs5pdmwxaajVJ5L6eftjqAeDRNTPM-ssvWwdYIfGV0P6Mor-29O2SoYz2WMsHD6CN0Db6SSihRSlF2QPA4WJ4ZrV7kRdrIEWqkam02Sk-gtFiebwAz2AwMHeh2Sdu9dH9bUC8IOZEUdu816V6i569bVNE5Y2iGdvhh5tPPPp_Z5fIV56_ZqHM5_RFq4amGaEX7A-23bj_krAJ_w7JCPjVmErWlCJ2A5wP7EITDyRKc6I0CHIz_mZXg040QkeGYGMo9wQgU_EmCXnXajubYLm6X8WHJ3Unwrrodxb5G9_umL2Jsxf_Wo8P4PlQCqQra4PxVvo4ujQgcnjkWm5xrJ74hldrvo5hobph5MUGc1CVl7S0GAgxA06aHeO4ZnZl6TY2uzE0A9mDRkWMGESpJMA1MFmqPKGgwMwkyP8854U2deLk8gASoJdXMtZWFzdC0yMMMM.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Kings League", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 #EXTM3U  url-tvg="http://www.epgitalia.tv/gzip,http://epg-guide.com/it.gz,https://raw.github.com/matthuisman/i.mjh.nz/master/PlutoTV/us.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/PlutoTV/it.xml.gz,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-events-epg.xml,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-channels-epg.xml,https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/it.xml.gz"
