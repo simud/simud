@@ -6,8 +6,8 @@ on:
     - cron: '*/20 * * * *'  # Esegue ogni 20 minuti
 
 concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}  # Evita esecuzioni concorrenti
-  cancel-in-progress: true  # Cancella esecuzioni in corso se ne inizia una nuova
+  group: ${{ github.workflow }}-${{ github.ref }}  # Raggruppa i workflow per branch
+  cancel-in-progress: false  # Non cancella i workflow in corso, li mette in coda
 
 jobs:
   scrape:
@@ -36,11 +36,30 @@ jobs:
         run: |
           python vixsrc.py
 
+      - name: Upload M3U8 artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: film-m3u8
+          path: film.m3u8
+          retention-days: 7
+        if: always()  # Esegui anche in caso di errore
+
+      - name: Upload debug files
+        uses: actions/upload-artifact@v4
+        with:
+          name: debug-pages
+          path: debug_pages/
+          retention-days: 7
+        if: always()
+
       - name: Commit and push updated M3U8 file
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
+          git fetch origin main
+          git checkout main
+          git merge origin/main --no-edit || git merge --abort && echo "Conflitto di merge risolto automaticamente"
           git add film.m3u8
-          git commit -m "Aggiornato file M3U8 con nuovi flussi" || echo "Nessun cambiamento da committare"
+          git commit -m "Aggiornato file M3U8 con nuovi flussi [Workflow ${{ github.run_id }}]" || echo "Nessun cambiamento da committare"
           git push --force-with-lease
         continue-on-error: true
