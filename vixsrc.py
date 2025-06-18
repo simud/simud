@@ -11,7 +11,7 @@ import pickle
 # Configurazioni
 TMDB_API_KEY = "eff30813a2950a33e36b51ff09c71f97"  # Chiave API TMDb
 BASE_URL = "https://api.themoviedb.org/3"
-NUMERO_FILM_PER_GRUPPO = 500  # Film per categoria e per "Film al Cinema"
+NUMERO_FILM_PER_GRUPPO = 10  # Film per categoria e per "Film al Cinema"
 OUTPUT_FILE = "film.m3u8"  # Nome del file M3U8
 VIX_ORIGIN = "https://vixsrc.to/"  # Origin e Referrer
 IMG_BASE_URL = "https://image.tmdb.org/t/p/w500"  # Base URL per le immagini
