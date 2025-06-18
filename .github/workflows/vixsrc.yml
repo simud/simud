@@ -5,18 +5,22 @@ on:
   schedule:
     - cron: '*/20 * * * *'  # Esegue ogni 20 minuti
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}  # Evita esecuzioni concorrenti
+  cancel-in-progress: true  # Cancella esecuzioni in corso se ne inizia una nuova
+
 jobs:
   scrape:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository with custom token
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           token: ${{ secrets.ACTIONS_TOKEN }}
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.9'
 
@@ -28,6 +32,7 @@ jobs:
       - name: Run SkyStreaming scraper
         env:
           GITHUB_WORKSPACE: ${{ github.workspace }}
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
         run: |
           python vixsrc.py
 
@@ -37,6 +42,5 @@ jobs:
           git config --global user.email "action@github.com"
           git add film.m3u8
           git commit -m "Aggiornato file M3U8 con nuovi flussi" || echo "Nessun cambiamento da committare"
-          git pull --rebase origin main
-          git push
+          git push --force-with-lease
         continue-on-error: true
