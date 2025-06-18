@@ -1,16 +1,10 @@
 #EXTM3U url-tvg="http://www.epgitalia.tv/gzip,http://epg-guide.com/it.gz,https://raw.github.com/matthuisman/i.mjh.nz/master/PlutoTV/us.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/PlutoTV/it.xml.gz,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-events-epg.xml,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-channels-epg.xml,https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/it.xml.gz"
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",00:00 Ulsan - Mamelodi Sundowns
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=eaea45512d137def15b209a089cafd14:8d42db746ed0c4df61729b0d68d42bd7
-https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/rkhugudynd/out/v1/f7763e695c3b469594ed89fa163ebf0c/cenc-sd.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",03:00 Monterrey - Inter
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=eaea45512d137def15b209a089cafd14:8d42db746ed0c4df61729b0d68d42bd7
-https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/rkhugudynd/out/v1/f7763e695c3b469594ed89fa163ebf0c/cenc-sd.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",18:00 Manchester City - Wydad Casablanca
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=eaea45512d137def15b209a089cafd14:8d42db746ed0c4df61729b0d68d42bd7
 https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/rkhugudynd/out/v1/f7763e695c3b469594ed89fa163ebf0c/cenc-sd.mpd
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",18:00 Manchester City - Wydad Casablanca
+https://cachehsi2b.netplus.ch/live/eds/channel5/browser-dash/channel5.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",21:00 Real Madrid - Al Hilal
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=eaea45512d137def15b209a089cafd14:8d42db746ed0c4df61729b0d68d42bd7
@@ -193,6 +187,11 @@ https://hls.kangal.icu/hls/tennis/index.m3u8
 #EXTVLCOPT:http-referrer=https://sportzone.yoga/
 #EXTVLCOPT:http-origin=https://sportzone.yoga/
 https://hls.kangal.icu/hls/tennis/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/mZ6gwjBg/kings-league.png" group-title="Kings League", freneh
+#EXTVLCOPT:http-referrer=https://www.twitch.tv/freneh
+#EXTVLCOPT:http-origin=https://www.twitch.tv/freneh
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://use15.playlist.ttvnw.net/v1/playlist/CtYE1DVQIPOFMluk9MdN2LExjIwmtSZ4b4BJon7XnMWMGLVrA4nrLAnu7ZBizmb0EUHOKJjCMPuEAb5Tr6P7vTXiioI-P9AMbqXjk_UM4kFPUR-0hnu6Nc98cmppMU6TVc6JFx4p1oYKvyZ2UyTr0xye3CVfRNHYDBKttpf9uQkmvyysnuUvj40UkSpXDNmTqKXfINQpKKanj_P1dS58ttNrM9-59k1r73uU0MrPUMsh6_tKEc4WinozhG0rEZU-MHxGvJVepxHGwvva0pKSa21DEvQYhvn3tfihWb4D414u1FByJr4vOQUBgPDiCHKV4Q6wpoQMkRjiy90pvU99MdUbljnzR37OiN7XNjFEV6Qzjnc6ZKxLCo4fzP1J0xrOi8zcyYqMLgQUDwyucfCxKLxnFrH4PKScdnsMUKkzuE2apmZG7SJDjZrIESl3mnv8sesbz_bBxg9Se5hAyCKbxJ73E-XeQFsEFSLwysRLV7_dEFhgpL5_156tdHISQK-anLL-pPUiuClNY1LksqCDEljcXcNeCnDIVfjwlwtN_nOXPop_eP9bS97idSUrnLnlHup7gpcWFt99EQ44FAZi5Gllg2Q1VbRgpQKpUN1iQJL6bCDW-vnkpJgBPO5Jp991AdchOeS_Y-jFH0q0U_bpbbHozmXW9qQQ2NJwTjLjPsQStB1VIJxe8bh5Mfp9R8u1fTqEq9d-84a4LMBYluokty6Jyw0c9MeLj57DgxqwEvu1UF9LYeGTNhxi_Umo3-bUl3aS8vHQEUmfbl7xbv7f_Ittm06l30eRRhoMYFD3mdjg4egaN5xmIAEqCXVzLWVhc3QtMjDEDA.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Kings League", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 #EXTM3U  url-tvg="http://www.epgitalia.tv/gzip,http://epg-guide.com/it.gz,https://raw.github.com/matthuisman/i.mjh.nz/master/PlutoTV/us.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/PlutoTV/it.xml.gz,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-events-epg.xml,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-channels-epg.xml,https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/it.xml.gz"
