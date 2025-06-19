@@ -199,5 +199,15 @@ https://daddylive.dad/stream/stream-880.php
 #EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 16 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 16 FHD
 #EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 17 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 17 FHD
 #EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 18 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 18 FHD
+#EXTINF:-1 tvg-name="Daddylive" group-title="Eventi Sportivi" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-uno-it.png",Daddylive
+https://example.com.m3u8
+#EXTINF:-1 tvg-id="fifaclubworldcupintermiamivsporto" tvg-name="Soccer | Fifa Club World Cup : Inter Miami Vs Porto (21:00)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Inter Miami_vs_Porto.png" group-title="Eventi Sportivi",Soccer | Fifa Club World Cup : Inter Miami Vs Porto (21:00)
+https://daddylive.dad/stream/stream-5.php
+#EXTINF:-1 tvg-id="legaabresciavsvirtusbologna" tvg-name="Basketball | Lega A : Brescia Vs Virtus Bologna (20:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Brescia_vs_Virtus Bologna.png" group-title="Eventi Sportivi",Basketball | Lega A : Brescia Vs Virtus Bologna (20:30)
+https://daddylive.dad/stream/stream-879.php
+#EXTINF:-1 tvg-id="eurobasketwomenitalywvssloveniaw" tvg-name="Basketball | Eurobasket Women : Italy W Vs Slovenia W (21:00)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Italy W_vs_Slovenia W.png" group-title="Eventi Sportivi",Basketball | Eurobasket Women : Italy W Vs Slovenia W (21:00)
+https://daddylive.dad/stream/stream-882.php
+#EXTINF:-1 tvg-id="tourofswitzerlandstage5menlapuntsantamariaincalanca1867km" tvg-name="Cycling | Tour Of Switzerland | Stage 5 Men | La Punt - Santa Maria In Calanca (186.7 Km) (14:45)" tvg-logo="https://grandtourofswitzerland.jp/img/logo_bgwhite.png" group-title="Eventi Sportivi",Cycling | Tour Of Switzerland | Stage 5 Men | La Punt - Santa Maria In Calanca (186.7 Km) (14:45)
+https://daddylive.dad/stream/stream-879.php
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Eventi Sportivi",ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
