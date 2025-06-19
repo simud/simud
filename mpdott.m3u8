@@ -45,6 +45,14 @@ https://mag03.tvx.prd.tv.odido.nl/wh7f454c46tw75168188_-627298088/PLTV/86/224/32
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=ef34ae91b4f2415e8439b2ad105e7488:243248d8de1ff8c7c587ee2057317523
 https://mag03.tvx.prd.tv.odido.nl/wh7f454c46tw75168188_-627298088/PLTV/86/224/3221241590/3221241590.mpd
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",18:00 Germania U.21 - Italia U.21
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=ef34ae91b4f2415e8439b2ad105e7488:243248d8de1ff8c7c587ee2057317523
+https://mag03.tvx.prd.tv.odido.nl/wh7f454c46tw75168188_-627298088/PLTV/86/224/3221241590/3221241590.mpd
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",21:00 Danimarca U.21 - Francia U.21
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=ef34ae91b4f2415e8439b2ad105e7488:243248d8de1ff8c7c587ee2057317523
+https://mag03.tvx.prd.tv.odido.nl/wh7f454c46tw75168188_-627298088/PLTV/86/224/3221241590/3221241590.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="TENNIS",11:00 Live
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=ef34ae91b4f2415e8439b2ad105e7488:243248d8de1ff8c7c587ee2057317523
@@ -153,7 +161,7 @@ https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-c
 #EXTVLCOPT:http-referrer=https://www.twitch.tv/freneh
 #EXTVLCOPT:http-origin=https://www.twitch.tv/freneh
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://use11.playlist.ttvnw.net/v1/playlist/CqYET9IMqBsLfT2sXLEPXP3mJz6mQnzcMH7sY-KvKtXSxyMcm3hahWCG7LXmkwIfj08tmZexLLwa-rRgA_IvOiFddxgLMOOdDbQG9jip6-f-KLDbuxglBp6p-1oNwqfspg7FwTOU-zm3sodj72CvI1rjV2WpLedqQnfycdXElCOFihp4LM96jZWelXAoU0PSDARznpYvnE0Xb4790KF7LPuOWsvq_d5_GtTSOazHTuODW4_v99jRELfA0WB7bhamQT5xHTMZyaHV1APROWiPutkjmCGhkwv2ORpHZzfLPcla9Z-iZC1BisGo48AY0zwWnQ28TwDsedJfzUEYAz_tITMp42_UMtrMcIoISjvmxdB3ie6iZ_TYVNz4R22NZGjqrtn_Ga_EyM9cATW6jEDPXuOI0IFZz-7Ljf2v1OsKUQbTuEoGr1qgKx6u_mKuRBFmS4ARc0O_tGSGoDqkmyCrB9ZBLu_LpOIPQrOCEAaRz5v6hG7wJzEincZxPIR3iXeOLhidFqrKpy-FP2bQayyxQBMtQpYIkMfqQPstOK4wS-yj1FCS-D_WdEYWBWJnTAJ1aeIQ-DSUuSW65p_rS2bn6z4vDIJWAtEIC1KndVYl6aV4qhkKH1HrR76lRChTps9DiZEOnOzzP0gk4ftdQGSgpTEOv7pSdkSd-RHWlSrirL2QQLSMFrQUbohFb8G9Xy-52fIccj15NudXB-1LDpoO5GdYxXJ8WSoTCRoMsolByuJhuP8_U3-yIAEqCXVzLWVhc3QtMjDFDA.m3u8
+https://use22.playlist.ttvnw.net/v1/playlist/CqcE24-HIvxW9xx6Ukus5b3rqqWvV1nsULMGEq2abMxg6ZlumtaamsE4etpztzN_wp4gKrdwZMmsADu3dT6m5_vk6-w8eMYkKaaWWf2k5AO0F6dRIKgYbzhr7pDEt9RcB_nnaKScYuYdkvSkJt1ofowZ816QOoz0KmNZYMPRnSV3FtXisf-APhqhBXwP1SxSgZ3GKfHMRe4DQDB1So1Q-IqzI6j_TlBqafcHnFv2WARpcMw7ns7J9VBfDcShZKoZNQc0f8ASr3TaYIiYocKjT7tOeO0QLrkl66xCZB8v-SNkYqsXFfq7tsi_KDfwTzzW8y1WpSkQgP8tHt0-rcTivdfX9IjuCpGX9IOKMobPCLcUPJg89_zSB_vbvp_XqDtn77yjr7vzMkimc4JnYEb8ZClEd1jED5F9v5eqaUqH6JW1jkd-uvAbXMpCRS3ly4LfTM6ZaKVY7MIxxsW1hli96mt2redhl0aYL28RqwVBd9DWjCpXvYoAyEBCmQ7NISfvgnPwERaseYWYX0fXUZteiOz0kBTaDFl4I58f_danluqsw0KqwGuQ29oRogInT5TrIdGrfihAuW3H897oqizQ3wEc4FIsmgaeyttOcfgOLsn-MxBmO176kz9fljFzQ4S5PyC6iXesBkKBedvJzIhNePMBnCQTftcGTFsaE-ibGcigr6bIscJQNmpsflTyWVSfVPlqD-SCYJaC61O1dFDvZi_gDbXrmvwbzPYaDKOpwNIzvgoGbEwGmSABKgl1cy1lYXN0LTIwxQw.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Kings League", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 #EXTM3U  url-tvg="http://www.epgitalia.tv/gzip,http://epg-guide.com/it.gz,https://raw.github.com/matthuisman/i.mjh.nz/master/PlutoTV/us.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/PlutoTV/it.xml.gz,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-events-epg.xml,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-channels-epg.xml,https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/it.xml.gz"
