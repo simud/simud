@@ -51,6 +51,18 @@ https://mag01.tvx.prd.tv.odido.nl/wh7f454c46tw523693457_1808344289/PLTV/86/224/3
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=3fb40d85724942f994d86943f48021db:a6da8742502c8a2153067f5f2a70fb02
 https://mag01.tvx.prd.tv.odido.nl/wh7f454c46tw865586829_-819821292/PLTV/86/224/3221241610/3221241610.mpd
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TENNIS",12:40 Cobolli v Zverev
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=111862d27c1073698d6ec5bbc328fc4c:777ec90fc3cdc6cec1b963ef14760ef1
+https://g003-lin-it-cmaf-prd-ak.pcdn07.cssott02.com/nowitlin1/Content/CMAF_CTR_H1/Live/channel(skysporttennis)/master_2hr-aac.mpd
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TENNIS",15:00 Bublik v Machac
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=111862d27c1073698d6ec5bbc328fc4c:777ec90fc3cdc6cec1b963ef14760ef1
+https://g003-lin-it-cmaf-prd-ak.pcdn07.cssott02.com/nowitlin1/Content/CMAF_CTR_H1/Live/channel(skysporttennis)/master_2hr-aac.mpd
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TENNIS",16:10 Etcheverry v Khachanov
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=111862d27c1073698d6ec5bbc328fc4c:777ec90fc3cdc6cec1b963ef14760ef1
+https://g003-lin-it-cmaf-prd-ak.pcdn07.cssott02.com/nowitlin1/Content/CMAF_CTR_H1/Live/channel(skysporttennis)/master_2hr-aac.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="MOTOMONDIALE",13:15 Moto3 - Prove Libere 2
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=1118a7ba746ae114cee71040247fc26b:d67e3a575afe81ab04733890537e8ab9
@@ -131,11 +143,6 @@ https://xuione.sportstreaming.net/SportStreaming/SportStreaming/9.m3u8
 https://xuione.sportstreaming.net/SportStreaming/SportStreaming/8.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Eventi", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/mZ6gwjBg/kings-league.png" group-title="Kings League", mirkociscotv
-#EXTVLCOPT:http-referrer=https://www.twitch.tv/mirkociscotv
-#EXTVLCOPT:http-origin=https://www.twitch.tv/mirkociscotv
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://use16.playlist.ttvnw.net/v1/playlist/Ct0ENV4vI6MWpQtHB86cVhrRRNrblAOvln9I4Bds5xRxC6UB__31h0u7ysyoSx34_zc_lGDpHCa8ZWm9yuEhFyBAw3S6AOBGTYUbmH5U_2Ewzap_b-ZtvSHbxl9xZ-ePKy19bYpWwjldYZ8jVqwitGEv1yGY8cy98xlJavj5Fa07VMqknFnVGUaFctgrjlyL6JLsZjAQM3r7k1_oixhCKkSNxXla1GE7jv1VLC1iZOL2kCQuKmCbC9VRSU-1WyRULgj00hABBRliksSJQ1D6bd8bM2g-S4g4n8hjlTaBNLzk82Oeu-9H8E67XDHrV-6QjBgqRh-1WdaxPE8Q2VIDyqmbQDN0gxAd5jaYGXXQKuIy1ix3WSB_U_PbnlWjUS0ltCNdf70Z66luoIfX6F3joG-ZbWUriDehEATEbYjh2p50IEZPTSNj9cSFN9z41kV2xc3vFOSytaUMKz4dum8t2lpIEAl3tScpaPu8IHbdLrG4ACRegjVVj0NcZAq9EGXPaXs9WsTd3ddAdoZ2cz9h7FPgdejUJ_lyXUujnvNuhbNv-km2Kud-fpYXJOL8qahOWT7ezu3ulf2YlkpgiJAzgj_oE6zdmVsY6sMGWXlxDE8NHCpQOKz52WWXfPwIITcMLy_QyIVI_7WXcEbIKgrqYNd-PzFZbyrWMMUAvjqOYEq0LJ9H5RJDD2e03BU2JxGmybB8j9TGUBUImrZCQgSwR728CP-kXeDNKI0FF4DTAFLn2bgcKWbmu451KYW-Mr3zgdYlp2yDatcJ5rChSnZhzOgEstqbCR3w2vLCr-sq7doaDHQ78ar233JkwZW5liABKgl1cy13ZXN0LTIwxww.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Kings League", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 #EXTM3U  url-tvg="http://www.epgitalia.tv/gzip,http://epg-guide.com/it.gz,https://raw.github.com/matthuisman/i.mjh.nz/master/PlutoTV/us.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/PlutoTV/it.xml.gz,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-events-epg.xml,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-channels-epg.xml,https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/it.xml.gz"
