@@ -1,8 +1,8 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",18:00 Benfica - Auckland City 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=eaea45512d137def15b209a089cafd14:8d42db746ed0c4df61729b0d68d42bd7
-https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/rkhugudynd/out/v1/f7763e695c3b469594ed89fa163ebf0c/cenc-sd.mpd
+#KODIPROP:inputstream.adaptive.license_key=5567531458e9c2e93d22935c45fdef52:f2f613fb2132acd019d2a96bf1be15c1
+https://uselector.cdn.intigral-ott.net/MBAH/MBAH.isml/manifest.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",21:00 Flamengo - Chelsea 
 https://live03-col.msf.cdn.mediaset.net/live/ch-i1/i1-clr.isml/manifest_hr.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",00:00 Los Angeles FC - ES Tunis 
