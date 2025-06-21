@@ -1,10 +1,4 @@
 #EXTM3U url-tvg="http://www.epgitalia.tv/gzip,http://epg-guide.com/it.gz,https://raw.github.com/matthuisman/i.mjh.nz/master/PlutoTV/us.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/PlutoTV/it.xml.gz,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-events-epg.xml,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-channels-epg.xml,https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/it.xml.gz"
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",21:00 Inter - Urawa Reds (HD)
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=cfb5e2b73bef4f3c878f25ab86a7451f:0d6712bf2a84edcc93d001a9613f6fec
-https://dca-ak-livedazn.akamaized.net/gvit4bjig9331xlewbane76bn/web/stream.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",21:00 Inter - Urawa Reds
-https://live03-col.msf.cdn.mediaset.net/live/ch-c5/c5-clr.isml/manifest_hr.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",00:00 Fluminense - Ulsan
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=eaea45512d137def15b209a089cafd14:8d42db746ed0c4df61729b0d68d42bd7
@@ -19,10 +13,6 @@ https://live03-col.msf.cdn.mediaset.net/live/ch-i1/i1-clr.isml/manifest_hr.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=eaea45512d137def15b209a089cafd14:8d42db746ed0c4df61729b0d68d42bd7
 https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/rkhugudynd/out/v1/f7763e695c3b469594ed89fa163ebf0c/cenc-sd.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",21:00 Spagna U.21 - Inghilterra U.21
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=ef34ae91b4f2415e8439b2ad105e7488:243248d8de1ff8c7c587ee2057317523
-https://mag03.tvx.prd.tv.odido.nl/wh7f454c46tw75168188_-627298088/PLTV/86/224/3221241590/3221241590.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",18:00 Germania U.21 - Italia U.21
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=ef34ae91b4f2415e8439b2ad105e7488:243248d8de1ff8c7c587ee2057317523
@@ -95,7 +85,7 @@ https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-c
 #EXTVLCOPT:http-referrer=https://www.twitch.tv/manuuxo
 #EXTVLCOPT:http-origin=https://www.twitch.tv/manuuxo
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://usw22.playlist.ttvnw.net/v1/playlist/CtIEZii5Zsj8DH6AD1ShtwLEA32YEB-u9V-fqJtKXfcdR9s20KrnAfLFBr4soTE86kfqUj7VgtYAebYvE-USBru8STsEBDFBTqdpXHVY0seCz2YVb5uJfNDlDV9uX8NeZmn7S0X6kZEEocokmeYpSpJQo2sD9f0Tt0Sji8GNsJO2Y7Vt3nOtmw8wudo6VxsXx9zyg1SEuiJu_B45Gs14dAGoNe_qihk1qcpUp8bR2k3I0HI4KzyxpkNyTMIuHU8O4OQoiOnAw2J8RaahOrPwCIMmnAt1quosQMj9DTR-yiJxQS0zCDqW9lTTflWulJRcT-FCeUimcwFF0p4W2Dz5AMD_YM_diuwdVclnXRRYke69Rr0m5vOYccInYuMW8pgGnf4oeZ8lla6NHncpIdOgY5cnQ8SQlXku-dVU7aXYKR_2PKlqtLjPtGGFTbVeDCQRpuz3MeLpDKGb-rs5AmlXfz-HmtO3vu5WkgNAYXoPOjrTL3sVc6MSiUNAWRQtIAVPpwYSK_oHpSLX_Mkg18g5ZFSCPddcC2fFU70ZMwJUT4wvWs3OzfCraOzGwnm1DRsNRBi5Gbp_KWTdZ4zvTD3b0mu8oXff1VhoGsnndUnxOTePFSzInARfMlIpoz7XL8aPjI1JS6-12WJNkZthZMLP-7V153eufrY61RUlnA9Y7Ty53p_iV4COV5gy1t1MM6LbRjw5a_VxqCDe_U--wU5bl_cq6lSec_EawrJrQTBWKsnHficcGC8sbFBqwCAI_gUEHDFtgJuKDTogRyLGFKdaQcbgV6smGgwZie8Cx8zRdQMyxAcgASoJdXMtZWFzdC0yMMcM.m3u8
+https://use16.playlist.ttvnw.net/v1/playlist/CrQERmopgq1jg4fYb6GuRN8bqw9dOUuaDiIY8DwBtyMtPX7cF341QPtIzytfXofCdSqgQYBjVzNHaFno7wluJMB_GgQC5I5kXdOB5n7j_LABxlVqDsPi30NP6kqTcLfZEZIgDNbVQJPKyBsr7VXmXyDOCEM5r_hlQuPSCFxV0d6JYtlLWgoZ6CxeOiwH08U85vu89dzftAwUBpSyIIDwUjflXaH6FEAv4K4so7g5yS9DOsfY-CyWHasgSCP5MkL8wrvpEaqWAl9WrbJOybyXR6jdv1RYlgRHn22E6C9hXP5Ng_1gxYZffILtiPb5VnfeWlER0Qwkhvwhd_isFInzFQdTa0c9RVhU5jFzDXh1PHgGYJkkinvbyIfhm-J6O3q_OeshnglMpoWplkH50Ep3lu_MHc8u-I6ysA_cfVQoHmYNNaidVuZBVEOL8Z8WU52fT6-W5UNYGl7x0VjlzygRc4wQrc9YPlnGfIpstWxFGERhYEl5wJkwkI8SefCecAoTe78FP_hUnXys6aX8hdHZMpVp96ic3V1QiNHNbYwl9ynip73fwF4WXzCLa9dSAMoZsBU8Nw5Mmr4qKN96AZtuzkcVvRbKQdzz0SaflISPn3mAtLlYEJTAMFx270bAc-VfupDVWtnhRBwDf618jjVACnrdP3f99wVrq-4XnjTz1bu46kjh9Ir3HT4sbZ7A-Uhl1T-SscfZjFVCKbcdtMAmRPfk6R4dqfdVvmu5LDUMw6CWEybT49qDGgyvDx5dJOeu1XAdQUUgASoJdXMtd2VzdC0yMMkM.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Kings League", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 #EXTM3U  url-tvg="http://www.epgitalia.tv/gzip,http://epg-guide.com/it.gz,https://raw.github.com/matthuisman/i.mjh.nz/master/PlutoTV/us.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/PlutoTV/it.xml.gz,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-events-epg.xml,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-channels-epg.xml,https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/it.xml.gz"
