@@ -18,7 +18,7 @@ https://live03-col.msf.cdn.mediaset.net/live/ch-i1/i1-clr.isml/manifest_hr.mpd
 #KODIPROP:inputstream.adaptive.license_key=eaea45512d137def15b209a089cafd14:8d42db746ed0c4df61729b0d68d42bd7
 https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/rkhugudynd/out/v1/f7763e695c3b469594ed89fa163ebf0c/cenc-sd.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",21:00 Germania U.21 - Italia U.21
-https://viamotionhsi.netplus.ch/live/eds/rai1/browser-dash/rai1.mpd
+https://viamotionhsi.netplus.ch/live/eds/rai2/browser-dash/rai2.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",21:00 Germania U.21 - Italia U.21
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=ef34ae91b4f2415e8439b2ad105e7488:243248d8de1ff8c7c587ee2057317523
@@ -71,6 +71,11 @@ https://xuione.sportstreaming.net/SportStreaming/SportStreaming/9.m3u8
 https://xuione.sportstreaming.net/SportStreaming/SportStreaming/8.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Eventi", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/mZ6gwjBg/kings-league.png" group-title="Kings League", therealmarzaa
+#EXTVLCOPT:http-referrer=https://www.twitch.tv/therealmarzaa
+#EXTVLCOPT:http-origin=https://www.twitch.tv/therealmarzaa
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://use12.playlist.ttvnw.net/v1/playlist/CtwEaSoch4gUbPFD0cs44lVE_JzyJo1ADeJ61fmY_chNIDu82i8XdrK6RqK1BqA2sVcLh8iPLjnDhbIbKvaLrL-Sy62-abxL0CL399nqL4O4W1eZ-G5i7qNxZTZU_sCljI1xUB8mlEPeqg6658zxu9q5MA7f3F8jZgj1A18JSDyt8c-Z4aD86yqfGZ-hKVgz-xmT-3ZO9qYgSrUpce6K0ftITpfSjXjz5D9gKcvE6khQx_P0WtPE1_DKlbjnP88KxteybLJEgaCEMj1_sX0Gs5lyr6048PR2eBx9rC0tdY8dwyompC1dB9wkzczCZAdIMJiiTYNjSJ7cl1vsNGabDEZWKJkWcqrEMW6UODQ2JHmdMbzCvR-hcVN8HkrfBpOCPpi2MYQxXbzSX7l59FW478u7yTItLbNo2H_FcYZI5otJt3maHArZeXF_z_tvGEUEmXABzGLsaAfJ4nO-1xiiawPut4lLQSVsSxub7WJpsJ_mchllb_NP4NWBE4-SrOPHfkWvz3C3tuR6W5UraWazPXjwe2eCsV2Wf5fjqzP1wXThUtxIjRooxK_RxL2uXDCo2Uzw0Bg2dqzi1HPGeMHYo8HGS3sXxVvxphpgGa1JEGpjSJd7t_9ZcyNy5q1PAaG8cwNeyGiafxn1yjk9NAUxCIcrwnzHVvVtNEI5dk25V53_ujwbrw_awpj_PD306W89aOlk7NcUp6eZaHdXk_6OSpua-lN9AL2ZCnlp_L_pIckD8GJoIs72HtVn3EfZ6EPo4kptsAgPfeoXQcIMEcyLaWV30RFg408GkbHUZ8jlMhoMznm_fwAEB1h1gzhdIAEqCXVzLWVhc3QtMjDIDA.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Kings League", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 #EXTM3U  url-tvg="http://www.epgitalia.tv/gzip,http://epg-guide.com/it.gz,https://raw.github.com/matthuisman/i.mjh.nz/master/PlutoTV/us.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/PlutoTV/it.xml.gz,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-events-epg.xml,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-channels-epg.xml,https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/it.xml.gz"
