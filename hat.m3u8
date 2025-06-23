@@ -1,5 +1,1 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Altro",live5
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=b2ac62177a11407290722302e1e3a32c:51a4c173aa6cdf1f169b57602fee1c44
-https://timlivetu0.cb.ticdn.it/Content/DASH/Live/channel(italia1)/manifest.mpd
