@@ -1,12 +1,4 @@
 #EXTM3U url-tvg="http://www.epgitalia.tv/gzip,http://epg-guide.com/it.gz,https://raw.github.com/matthuisman/i.mjh.nz/master/PlutoTV/us.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/PlutoTV/it.xml.gz,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-events-epg.xml,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-channels-epg.xml,https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/it.xml.gz"
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",03:00 ES Tunis - Chelsea
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=9009b7189e3e68cc09d17811f2beb55a:dd3f96a94c909da48ff40c92aabf8cf3
-https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/4yiko4it8k/out/v1/b77dd424c745443aba2f3f88d418f797/cenc-sd.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",03:00 Los Angeles FC - Flamengo
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=eaea45512d137def15b209a089cafd14:8d42db746ed0c4df61729b0d68d42bd7
-https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/rkhugudynd/out/v1/f7763e695c3b469594ed89fa163ebf0c/cenc-sd.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",21:00 Borussia Dortmund - Ulsan
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=9009b7189e3e68cc09d17811f2beb55a:dd3f96a94c909da48ff40c92aabf8cf3
@@ -139,13 +131,12 @@ https://xuione.sportstreaming.net/SportStreaming/SportStreaming/9.m3u8
 https://xuione.sportstreaming.net/SportStreaming/SportStreaming/8.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Eventi", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/mZ6gwjBg/kings-league.png" group-title="Kings League", freneh
-#EXTVLCOPT:http-referrer=https://www.twitch.tv/freneh
-#EXTVLCOPT:http-origin=https://www.twitch.tv/freneh
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://usw21.playlist.ttvnw.net/v1/playlist/CqgEuf5LmqCPJY68CsjbTnOYi5d7aBPI4OEAbli__r_s4TU_AeTBFL7fwLo_WctgebjBzcQG1y1p8W8rYWXB-w2BlhlmdhBDQmaGrAETkrgq6WARugo1FwUE0cJK_I070jJaATqp7iR6Fs39Bu4_QupSEEG6xr7F5bagXWDEWM5lvPIJzGoGE3jiOLQtprwlrXYkQVG3h62Xduqj-4WAAyayDbB1Duw78FKZo3MPDRSAE3-zNWDKHCNO-GPZZIrnk-_pmxmg8WTk9kL2odMWYUK2JYuLyBEKoW_tp0mNy6zFKv65HNS3EFMLgvbZxY84A9CryaHew8iMDkdW1Jexy_my-CWRb-KTzrs9IO1HsY__vvYrFloQ-vlHrJSMR0gniAhwTCd-1V4x39q0a1dqCDiCuHxKjb0sG7KlOnpNmkOGwdpWHlKmE9ZNyHcMfrDZs7510RHDaqnHp_hcLWUtL9NmjFHhqJ9P5JM1wrZcHsVQkIVPdJSS0TgznuQbEoTM-c0GyEWsAtmYazhWl4dBbK07qPthgB5fQA7vpfVs1h8hlRtSw4h7m2LU9Nx1G4erGe8yGhS6htTC6J9Fq8c0vxWNEDHjMFGOjjyaP7FsqkwyL0btnT41giPNOgeCCSxiNV0v-JcW6Bm4KIoZPePcDu0gtw48vDcr4QhjOMJ4En5kYLhf4APVonGNTTdz2bYReamCfgcmI52oTVpHWsnsrje9mrFd4if-5QKsGgx_B-5hF-qHEzx0KBggASoJdXMtd2VzdC0yMMwM.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Kings League", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Altro",live5
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=b2ac62177a11407290722302e1e3a32c:51a4c173aa6cdf1f169b57602fee1c44
+https://timlivetu0.cb.ticdn.it/Content/DASH/Live/channel(italia1)/manifest.mpd
 #EXTINF:-1 tvg-id="Rai1.it" tvg-chno="1" tvg-logo="https://cdn.jsdelivr.net/gh/Tundrak/IPTV-Italia/logos/rai1.png" group-title="In Chiaro",Rai 1
 http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803&output=7&forceUserAgent=raiplayappletv
 #EXTINF:-1 tvg-id="Rai2.it" tvg-chno="2" tvg-logo="https://cdn.jsdelivr.net/gh/Tundrak/IPTV-Italia/logos/rai2.png" group-title="In Chiaro",Rai 2
