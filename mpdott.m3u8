@@ -1,18 +1,4 @@
 #EXTM3U url-tvg="http://www.epgitalia.tv/gzip,http://epg-guide.com/it.gz,https://raw.github.com/matthuisman/i.mjh.nz/master/PlutoTV/us.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/PlutoTV/it.xml.gz,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-events-epg.xml,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-channels-epg.xml,https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/it.xml.gz"
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",03:00 Inter Miami - Palmeiras
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=eaea45512d137def15b209a089cafd14:8d42db746ed0c4df61729b0d68d42bd7
-https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/rkhugudynd/out/v1/f7763e695c3b469594ed89fa163ebf0c/cenc-sd.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",03:00 Porto - Al Ahly
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=9009b7189e3e68cc09d17811f2beb55a:dd3f96a94c909da48ff40c92aabf8cf3
-https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/4yiko4it8k/out/v1/b77dd424c745443aba2f3f88d418f797/cenc-sd.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",21:00 Benfica - Bayern Monaco
-https://live03-col.msf.cdn.mediaset.net/live/ch-i1/i1-clr.isml/manifest_hr.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",21:00 Auckland City - Boca Juniors
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=9009b7189e3e68cc09d17811f2beb55a:dd3f96a94c909da48ff40c92aabf8cf3
-https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/4yiko4it8k/out/v1/b77dd424c745443aba2f3f88d418f797/cenc-sd.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",03:00 ES Tunis - Chelsea
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=9009b7189e3e68cc09d17811f2beb55a:dd3f96a94c909da48ff40c92aabf8cf3
@@ -26,6 +12,26 @@ https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/rkhugudy
 #KODIPROP:inputstream.adaptive.license_key=9009b7189e3e68cc09d17811f2beb55a:dd3f96a94c909da48ff40c92aabf8cf3
 https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/4yiko4it8k/out/v1/b77dd424c745443aba2f3f88d418f797/cenc-sd.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",21:00 Mamelodi Sundowns - Fluminense
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=eaea45512d137def15b209a089cafd14:8d42db746ed0c4df61729b0d68d42bd7
+https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/rkhugudynd/out/v1/f7763e695c3b469594ed89fa163ebf0c/cenc-sd.mpd
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",03:00 Urawa Reds - Monterrey
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=cb705d43ec369891b851a078cabfac5c:fdfefad94eac611692a9e790f266ae4d
+https://otte-azion.live.pv-cdn.net/gru-nitro/live/clients/dash-sd/enc/d3a1ynfuue/out/v1/957ce3c7a9f149968f91068db92e637b/cenc-sd.mpd
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",03:00 Inter - River Plate
+https://live03-col.msf.cdn.mediaset.net/live/ch-i1/i1-clr.isml/manifest_hr.mpd
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",21:00 Juventus - Manchester City
+https://live03-col.msf.cdn.mediaset.net/live/ch-c5/c5-clr.isml/manifest_hr.mpd
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",21:00 Wydad Casablanca - Al Ain
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=9009b7189e3e68cc09d17811f2beb55a:dd3f96a94c909da48ff40c92aabf8cf3
+https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/4yiko4it8k/out/v1/b77dd424c745443aba2f3f88d418f797/cenc-sd.mpd
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",03:00 Al Hilal - Pachuca
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=cb705d43ec369891b851a078cabfac5c:fdfefad94eac611692a9e790f266ae4d
+https://otte-azion.live.pv-cdn.net/gru-nitro/live/clients/dash-sd/enc/d3a1ynfuue/out/v1/957ce3c7a9f149968f91068db92e637b/cenc-sd.mpd
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",03:00 Salzburg - Real Madrid
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=eaea45512d137def15b209a089cafd14:8d42db746ed0c4df61729b0d68d42bd7
 https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/rkhugudynd/out/v1/f7763e695c3b469594ed89fa163ebf0c/cenc-sd.mpd
@@ -137,7 +143,7 @@ https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-c
 #EXTVLCOPT:http-referrer=https://www.twitch.tv/freneh
 #EXTVLCOPT:http-origin=https://www.twitch.tv/freneh
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://usw24.playlist.ttvnw.net/v1/playlist/CroEc1B3nuK7Wbi3ix9Ff9R0zc0pFPnt-CE7fsjLbggwW8ua_JzE9Xjvy239vmnuiCsVOo5XfTXYFJS4tDi0Zfjk4tX0RnywujmRgXbRaWBIlCKlCoR9tKV75jFRRs68QZXzpb6W8c8t1EoMwBzxVO9PDzvVlaDFURMNdhjQj_96rU8L5i0SvFVtY9kSnKHmho6XfBulvLviIxpp7JVEwvEL1dzHYGOvC8xTvuQnAs6RGWkdBZGh0Mbl6UFymR_OsFoxI_sv7Zfbv8PyySipGuPZK40DUhB2jgc04rvY1Z4QsI2KPv6SHm-wsptPfJ1A3NldvEO19V6dscWmCCcYgR9wn1drhNih4ykbHKpNE_yBsO8zJjeQwNIfpIS1XrreWRH66wDadSub9zhCSCe0ECGKa2WNF0j3iUz6WxBB_-BU0f5OnE8VYMKYsbrK1q77jGNmzFCTCDERs_gs05pRKkwB4ZJsymdcRtzh8TwJyBWNSpNW0br0uyXGH7_3pzYpKTeHYF6_t_IcyhHGu1E0Xn6u19GcZN1XxHQ21hNYtmBo3EMUMv3bY-9jf5EE4P8Gq4LtbT6zRgnLf0m0QPF6QeS04oGmGeAVOVyqO10t3jMGIhrgWr2YB67kJ_DrfjcdvfbJj0W4q0s-ts9goIofjDQAPrbtNMfulpLPHX_D3rwdTweaQjqTqlmZkN_65ZxeiCx4PKWkfUWf-qcLc1jsxYCfAo5tPUH03weIlYFFPbv32ty13EAIrcI1CUtDGgzUbYeG1vfFLKbJGt8gASoJdXMtZWFzdC0yMMsM.m3u8
+https://usw23.playlist.ttvnw.net/v1/playlist/CswE6YvKiYC-zPHzk2Ro0vtvzSWKmho6md5rA532tb_UNszWssgaj1LIY6D3_UjX3cSvOjir4117TLXdkAiecvavH2cf9YGB16iza-fOKXqQ3XGTXvkku3FJGIBn_R6zSkUnnZHMf82ZSXv2X3QBEQlkoxrn5j0yyrdl0T-wWpWyVJcI0xIR-zD6stS0ihzivL77nk_eZX7Tmfeb5-UglaxEY1z9wWwa_y4_rp34GEcPMNdBQL85BQmrNhRDblG6zgP0eU566xYHbEwPQ5Lg1itOpOIo7YuEZp4eoapOlj3eSJbfmnj5RNMLp3Volp1C8CPPqU2ezN2EsLyRdtye5O2J4-Vt9TRRS9Cmd32XSB1Hvb8FDG35v_PXIK7PJSlUBce6jdwAUJLydT_v8_gW0N_oeVdzz3zPCm7RKYtOcO9HMLPl2QsfJCOPIgRWCanCohP18dAM6UI_upDu7cr2WYReRIDm-T6kEw9-SZ-64u-WNzLcMtKEL9zcMM-ldZq-dcjjN1m_d-oO77FuL3UFYlEE4_VJvj7j1DRmcfLXMDl7FX_2IxqN7zDDm8AQtxrWNZQCcGp7EJjm2zVqjz-u-BF_ClhGZwsf8lJWbXqya-EtDtCCf7OZXg5hl_VEEaIbFBnS6iUyMdzPF4OJh_rL8f5D-hpD-RoQQHDm_Ag_rd2sZqTq7lBK2cEkiIiGThscrOHWPAES_TY0LZAR-0_rWWabi1bMlVPSd0HfJ6QsIpHRco5772Bxj7KI0N3tRKnjw1OJGa37ZcWxINReOzkrGgza1VC0rjEesYZDaoYgASoJdXMtd2VzdC0yMMwM.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Kings League", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Altro",live5
