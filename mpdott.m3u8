@@ -133,6 +133,11 @@ https://xuione.sportstreaming.net/SportStreaming/SportStreaming/9.m3u8
 https://xuione.sportstreaming.net/SportStreaming/SportStreaming/8.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Eventi", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/mZ6gwjBg/kings-league.png" group-title="Kings League", freneh
+#EXTVLCOPT:http-referrer=https://www.twitch.tv/freneh
+#EXTVLCOPT:http-origin=https://www.twitch.tv/freneh
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://usw24.playlist.ttvnw.net/v1/playlist/CroEc1B3nuK7Wbi3ix9Ff9R0zc0pFPnt-CE7fsjLbggwW8ua_JzE9Xjvy239vmnuiCsVOo5XfTXYFJS4tDi0Zfjk4tX0RnywujmRgXbRaWBIlCKlCoR9tKV75jFRRs68QZXzpb6W8c8t1EoMwBzxVO9PDzvVlaDFURMNdhjQj_96rU8L5i0SvFVtY9kSnKHmho6XfBulvLviIxpp7JVEwvEL1dzHYGOvC8xTvuQnAs6RGWkdBZGh0Mbl6UFymR_OsFoxI_sv7Zfbv8PyySipGuPZK40DUhB2jgc04rvY1Z4QsI2KPv6SHm-wsptPfJ1A3NldvEO19V6dscWmCCcYgR9wn1drhNih4ykbHKpNE_yBsO8zJjeQwNIfpIS1XrreWRH66wDadSub9zhCSCe0ECGKa2WNF0j3iUz6WxBB_-BU0f5OnE8VYMKYsbrK1q77jGNmzFCTCDERs_gs05pRKkwB4ZJsymdcRtzh8TwJyBWNSpNW0br0uyXGH7_3pzYpKTeHYF6_t_IcyhHGu1E0Xn6u19GcZN1XxHQ21hNYtmBo3EMUMv3bY-9jf5EE4P8Gq4LtbT6zRgnLf0m0QPF6QeS04oGmGeAVOVyqO10t3jMGIhrgWr2YB67kJ_DrfjcdvfbJj0W4q0s-ts9goIofjDQAPrbtNMfulpLPHX_D3rwdTweaQjqTqlmZkN_65ZxeiCx4PKWkfUWf-qcLc1jsxYCfAo5tPUH03weIlYFFPbv32ty13EAIrcI1CUtDGgzUbYeG1vfFLKbJGt8gASoJdXMtZWFzdC0yMMsM.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Kings League", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Altro",live5
