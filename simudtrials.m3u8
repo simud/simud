@@ -263,7 +263,7 @@ https://g003-lin-it-cmaf-prd-ak.pcdn07.cssott02.com/nowitlin1/Content/CMAF_CTR_S
 
 #EXTINF:-1 tvg-id="dazn1.it" tvg-chno="214" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/dazn-1-es.png" group-title="Sky",DAZN 1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
+#KODIPROP:inputstream.adaptive.license_key=8272bf6ba46f23f9da5270057b6e028a:74ae70dd10b4bb38ed6ffe843f3e2ccd
 https://dcf-fs-live-dazn-cdn.dazn.com/dash/dazn-linear-024/stream.mpd
 
 #EXTINF:-1 tvg-id="skysport251.it" tvg-chno="251" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-it.png" group-title="Sky",Sky Sport 251
