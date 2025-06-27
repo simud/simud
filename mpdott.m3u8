@@ -1,19 +1,21 @@
 #EXTM3U url-tvg="http://www.epgitalia.tv/gzip,http://epg-guide.com/it.gz,https://raw.github.com/matthuisman/i.mjh.nz/master/PlutoTV/us.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/PlutoTV/it.xml.gz,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-events-epg.xml,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-channels-epg.xml,https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/it.xml.gz"
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",21:00 Juventus - Manchester City (HD)
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",18:00 Palmeiras - Botafogo
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=cfb5e2b73bef4f3c878f25ab86a7451f:0d6712bf2a84edcc93d001a9613f6fec
-https://dca-ak-livedazn.akamaized.net/16mxblv51t3uo1iibr8ojegolz/web/stream.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",21:00 Juventus - Manchester City
+#KODIPROP:inputstream.adaptive.license_key=eaea45512d137def15b209a089cafd14:8d42db746ed0c4df61729b0d68d42bd7
+https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/rkhugudynd/out/v1/f7763e695c3b469594ed89fa163ebf0c/cenc-sd.mpd
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",22:00 Benfica - Chelsea
 https://live03-col.msf.cdn.mediaset.net/live/ch-c5/c5-clr.isml/manifest_hr.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",21:00 Wydad Casablanca - Al Ain
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",22:00 Benfica - Chelsea
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=9009b7189e3e68cc09d17811f2beb55a:dd3f96a94c909da48ff40c92aabf8cf3
-https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/4yiko4it8k/out/v1/b77dd424c745443aba2f3f88d418f797/cenc-sd.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",03:00 Al Hilal - Pachuca
+#KODIPROP:inputstream.adaptive.license_key=eaea45512d137def15b209a089cafd14:8d42db746ed0c4df61729b0d68d42bd7
+https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/rkhugudynd/out/v1/f7763e695c3b469594ed89fa163ebf0c/cenc-sd.mpd
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",18:00 PSG - Inter Miami
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=cb705d43ec369891b851a078cabfac5c:fdfefad94eac611692a9e790f266ae4d
-https://otte-azion.live.pv-cdn.net/gru-nitro/live/clients/dash-sd/enc/d3a1ynfuue/out/v1/957ce3c7a9f149968f91068db92e637b/cenc-sd.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",03:00 Salzburg - Real Madrid
+#KODIPROP:inputstream.adaptive.license_key=eaea45512d137def15b209a089cafd14:8d42db746ed0c4df61729b0d68d42bd7
+https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/rkhugudynd/out/v1/f7763e695c3b469594ed89fa163ebf0c/cenc-sd.mpd
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",22:00 Flamengo - Bayern Monaco
+https://live03-col.msf.cdn.mediaset.net/live/ch-i1/i1-clr.isml/manifest_hr.mpd
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",22:00 Flamengo - Bayern Monaco
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=eaea45512d137def15b209a089cafd14:8d42db746ed0c4df61729b0d68d42bd7
 https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/rkhugudynd/out/v1/f7763e695c3b469594ed89fa163ebf0c/cenc-sd.mpd
@@ -41,6 +43,22 @@ https://mag01.tvx.prd.tv.odido.nl/wh7f454c46tw523693457_1808344289/PLTV/86/224/3
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=3fb40d85724942f994d86943f48021db:a6da8742502c8a2153067f5f2a70fb02
 https://mag01.tvx.prd.tv.odido.nl/wh7f454c46tw865586829_-819821292/PLTV/86/224/3221241610/3221241610.mpd
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TENNIS",11:00 Live
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=111862d27c1073698d6ec5bbc328fc4c:777ec90fc3cdc6cec1b963ef14760ef1
+https://g003-lin-it-cmaf-prd-ak.pcdn07.cssott02.com/nowitlin1/Content/CMAF_CTR_H1/Live/channel(skysporttennis)/master_2hr-aac.mpd
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TENNIS",11:00 Live
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=111894dfaecfc64acf114b026b1b06ff:d1a149879a17f13f2d58b7ade5d8a066
+https://g003-lin-it-cmaf-prd-ak.pcdn07.cssott02.com/nowitlin1/Content/CMAF_CTR_H1/Live/channel(skysportarena)/master_2hr-aac.mpd
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TENNIS",11:00 Live
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=ef34ae91b4f2415e8439b2ad105e7488:243248d8de1ff8c7c587ee2057317523
+https://mag03.tvx.prd.tv.odido.nl/wh7f454c46tw75168188_-627298088/PLTV/86/224/3221241590/3221241590.mpd
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TENNIS",11:00 Live
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=b5c04cfb6da84104ba5bbe51cd065b12:d96561be4819d3ed4e5f4f54015baaca
+https://mag01.tvx.prd.tv.odido.nl/wh7f454c46tw523693457_1808344289/PLTV/86/224/3221241652/3221241652.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="FORMULA 1",13:30 Prove Libere (1)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=111897d510ac0fed0d5d050ef54b5bd6:7da85f724587b9d8a85095653421ee10
@@ -61,10 +79,6 @@ https://g003-lin-it-cmaf-prd-cf.pcdn07.cssott02.com/nowitlin1/Content/CMAF_CTR_H
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=111897d510ac0fed0d5d050ef54b5bd6:7da85f724587b9d8a85095653421ee10
 https://g003-lin-it-cmaf-prd-cf.pcdn07.cssott02.com/nowitlin1/Content/CMAF_CTR_H1/Live/channel(skysportf1)/master_2hr-aac.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="MOTOMONDIALE",10:45 MotoGP - Prove Libere (1)
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=1118a7ba746ae114cee71040247fc26b:d67e3a575afe81ab04733890537e8ab9
-https://g003-lin-it-cmaf-prd-ak.pcdn07.cssott02.com/nowitlin1/Content/CMAF_CTR_H1/Live/channel(skysportmotogp)/master_2hr-aac.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="MOTOMONDIALE",15:00 MotoGP - Pre Qualifiche
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=1118a7ba746ae114cee71040247fc26b:d67e3a575afe81ab04733890537e8ab9
