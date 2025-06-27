@@ -159,8 +159,5 @@
 #EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 16 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 16 FHD
 #EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 17 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 17 FHD
 #EXTINF:-1 tvg-id="" tvg-name="Sky Primafila 18 FHD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Sky Primafila FHD",Sky Primafila 18 FHD
-#EXTINF:-1 tvg-name="Daddylive" group-title="Eventi Sportivi" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-uno-it.png",Daddylive
-http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fexample.com.m3u8
-#EXTINF:-1 tvg-id="womensboulderfinalworldcupinnsbruck" tvg-name="Climbing | Women's Boulder | Final World Cup | Innsbruck (19:30)" tvg-logo="https://i.pinimg.com/originals/e5/3d/86/e53d8678d08e388434ca91b57575a466.png" group-title="Eventi Sportivi",Climbing | Women's Boulder | Final World Cup | Innsbruck (19:30)
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Eventi Sportivi",ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
