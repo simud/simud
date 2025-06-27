@@ -1,16 +1,24 @@
 import os
 import sys
+from dotenv import load_dotenv
+
+# Determina il percorso della directory dello script
+script_dir = os.path.dirname(__file__)
+
+# Carica le variabili d'ambiente dal file .env nella directory dello script
+dotenv_path = os.path.join(script_dir, ".env")
+load_dotenv(dotenv_path=dotenv_path)
 
 # Determina il percorso di output
-if 'GITHUB_ACTIONS' in os.environ:
-    # In GitHub Actions, salva nella directory di lavoro corrente
-    output_path = os.path.join(os.getcwd(), "top1.m3u8")
-else:
-    # Localmente, salva sul Desktop
-    output_path = os.path.join(os.path.expanduser("~"), "Desktop", "top1.m3u8")
+# Salva il file M3U nella directory di lavoro corrente (dove lo script viene eseguito)
+output_path = os.path.join(os.getcwd(), "calcio_playlist.m3u8")
+
+# Non sono più necessarie MFP e PSW, poiché non usiamo il proxy
+# MFP = os.getenv("MFP")
+# PSW = os.getenv("PSW")
 
 base_url = "https://calcionew.newkso.ru/calcio/"
-logo_url = "https://i.postimg.cc/NFGs2Ptq/photo-2025-03-12-12-36-48.png"
+logo_url = "https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg"
 
 # Lista dei canali fornita
 channels_raw = [
@@ -65,6 +73,34 @@ extra_channels = [
     ("Sky Sport F1", "calcioXskysportf1/mono.m3u8")
 ]
 
+# Funzione per determinare il group-title basandosi sul nome del canale
+def determine_group_title(channel_name):
+    """
+    Determina il group-title basandosi sul nome del canale secondo le regole specificate:
+    1. Se contiene "sport" -> "Sport;Calcio TOP1"
+    2. Se contiene parole chiave specifiche -> "Sky;Calcio TOP1"
+    3. Default -> "Sport;Calcio TOP1"
+    """
+    # Parole chiave che identificano canali "Sky;Calcio TOP1"
+    sky_keywords = [
+        'serie', 'comedy', 'cinema', 'arte', 'atlantic', 'crime',
+        'documentaries', 'investigation', 'nature', 'sky uno', 'Sky Uno', 'skyuno'
+    ]
+
+    channel_name_lower = channel_name.lower()
+
+    # Controlla se contiene "sport" - priorità massima
+    if 'sport' in channel_name_lower:
+        return "Sport;Calcio TOP1"
+
+    # Controlla se contiene una delle parole chiave per "Sky;Calcio TOP1"
+    for keyword in sky_keywords:
+        if keyword.lower() in channel_name_lower:
+            return "Sky;Calcio TOP1"
+
+    # Default per tutto il resto
+    return "Sport;Calcio TOP1"
+
 # Funzione per pulire e formattare il nome del canale
 def format_channel_name(raw_name):
     name = raw_name.rstrip("/")
@@ -81,7 +117,7 @@ def format_channel_name(raw_name):
         "formula1": "Formula 1", "history": "History", "juve": "Juventus", "laliga": "LaLiga",
         "ligue1": "Ligue 1", "pisa": "Pisa", "porto": "Porto", "portugal": "Portugal",
         "saler": "Salernitana", "samp": "Sampdoria", "sass": "Sassuolo", "serie": "Serie A",
-        "serie1": "Serie A 1", "seriesi": "Sky Serie", "sky258": "Sky 258", "sky259": "Sky 259",
+        "serie1": "SerieA 1", "seriesi": "Sky Serie", "sky258": "Sky 258", "sky259": "Sky 259",
         "skyarte": "Sky Arte", "skyatlantic": "Sky Atlantic", "skycinemacollection": "Sky Cinema Collection",
         "skycinemacomedy": "Sky Cinema Comedy", "skycinemadrama": "Sky Cinema Drama",
         "skycinemadue": "Sky Cinema Due", "skycinemafamily": "Sky Cinema Family",
@@ -102,6 +138,7 @@ def format_channel_name(raw_name):
 channels = []
 for raw_name in channels_raw:
     clean_name = format_channel_name(raw_name)
+    # URL diretto senza proxy
     url = f"{base_url}{raw_name}mono.m3u8"
     channels.append((clean_name, url))
 
@@ -116,18 +153,29 @@ channels.sort(key=lambda x: x[0].lower())
 # Crea il contenuto della playlist M3U8
 m3u8_content = "#EXTM3U\n\n"
 for channel_name, channel_url in channels:
-    m3u8_content += f'#EXTINF:-1 tvg-id="{channel_name}" tvg-name="{channel_name}" tvg-logo="{logo_url}" group-title="Italy HD",{channel_name}\n'
-    m3u8_content += f"{channel_url}\n\n"
+    # Modifica per tvg-id: minuscolo + .it
+    tvg_id_formatted = f"{channel_name.lower()}.it"
+    # Modifica per il nome visualizzato del canale: aggiungi (CT1)
+    display_name_formatted = f"{channel_name} (CT1)"
 
-# Aggiungi il canale finale
-m3u8_content += f'#EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="{logo_url}" group-title="Italy HD",ADMIN\n'
-m3u8_content += "https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4\n"
+    # Determina il group-title usando le nuove regole
+    group_title = determine_group_title(channel_name)
+
+    # Debug: stampa l'assegnazione per verifica
+    print(f"Canale: {channel_name} -> Group-title: {group_title}")
+
+    m3u8_content += f'#EXTINF:-1 tvg-id="{tvg_id_formatted}" tvg-name="{channel_name}" tvg-logo="{logo_url}" group-title="{group_title}",{display_name_formatted}\n'
+    m3u8_content += f'#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru\n'
+    m3u8_content += f'#EXTVLCOPT:http-origin=https://calcionew.newkso.ru\n'
+    m3u8_content += f'#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1\n'
+    m3u8_content += f"{channel_url}\n\n"
 
 # Salva il file
 try:
     with open(output_path, "w", encoding="utf-8") as f:
         f.write(m3u8_content)
-    print(f"Playlist salvata con successo in: {output_path}")
+    print(f"\nPlaylist salvata con successo in: {output_path}")
+    print(f"Totale canali processati: {len(channels)}")
 except Exception as e:
     print(f"Errore durante il salvataggio del file: {e}")
     sys.exit(1)
