@@ -1,1 +1,890 @@
+#EXTM3U
+
+#EXTINF:-1 tvg-id="bari.it" tvg-name="Bari" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Bari (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/Bari/mono.m3u8
+
+#EXTINF:-1 tvg-id="brescia.it" tvg-name="Brescia" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Brescia (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/brescia/mono.m3u8
+
+#EXTINF:-1 tvg-id="bundesliga.it" tvg-name="Bundesliga" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Bundesliga (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/bundes/mono.m3u8
+
+#EXTINF:-1 tvg-id="catanzaro.it" tvg-name="Catanzaro" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Catanzaro (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/catan/mono.m3u8
+
+#EXTINF:-1 tvg-id="cesena.it" tvg-name="Cesena" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Cesena (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/cesena/mono.m3u8
+
+#EXTINF:-1 tvg-id="comedy central.it" tvg-name="Comedy Central" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sky;Calcio TOP1",Comedy Central (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX1comedycentral/mono.m3u8
+
+#EXTINF:-1 tvg-id="comedy central.it" tvg-name="Comedy Central" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sky;Calcio TOP1",Comedy Central (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX2comedycentral/mono.m3u8
+
+#EXTINF:-1 tvg-id="comedy central.it" tvg-name="Comedy Central" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sky;Calcio TOP1",Comedy Central (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioXcomedycentral/mono.m3u8
+
+#EXTINF:-1 tvg-id="dazn 1.it" tvg-name="DAZN 1" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",DAZN 1 (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/Dazn1/mono.m3u8
+
+#EXTINF:-1 tvg-id="eurosport 1.it" tvg-name="Eurosport 1" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Eurosport 1 (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX1eurosport1/mono.m3u8
+
+#EXTINF:-1 tvg-id="eurosport 1.it" tvg-name="Eurosport 1" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Eurosport 1 (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX2eurosport1/mono.m3u8
+
+#EXTINF:-1 tvg-id="eurosport 1.it" tvg-name="Eurosport 1" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Eurosport 1 (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioXeurosport1/mono.m3u8
+
+#EXTINF:-1 tvg-id="eurosport 2.it" tvg-name="Eurosport 2" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Eurosport 2 (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX1eurosport2/mono.m3u8
+
+#EXTINF:-1 tvg-id="eurosport 2.it" tvg-name="Eurosport 2" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Eurosport 2 (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX2eurosport2/mono.m3u8
+
+#EXTINF:-1 tvg-id="eurosport 2.it" tvg-name="Eurosport 2" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Eurosport 2 (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioXeurosport2/mono.m3u8
+
+#EXTINF:-1 tvg-id="formula 1.it" tvg-name="Formula 1" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Formula 1 (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX1formula1/mono.m3u8
+
+#EXTINF:-1 tvg-id="formula 1.it" tvg-name="Formula 1" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Formula 1 (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX2formula/mono.m3u8
+
+#EXTINF:-1 tvg-id="formula 1.it" tvg-name="Formula 1" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Formula 1 (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX2formula1/mono.m3u8
+
+#EXTINF:-1 tvg-id="formula 1.it" tvg-name="Formula 1" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Formula 1 (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioXformula1/mono.m3u8
+
+#EXTINF:-1 tvg-id="history.it" tvg-name="History" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",History (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX1history/mono.m3u8
+
+#EXTINF:-1 tvg-id="history.it" tvg-name="History" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",History (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX2history/mono.m3u8
+
+#EXTINF:-1 tvg-id="history.it" tvg-name="History" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",History (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioXhistory/mono.m3u8
+
+#EXTINF:-1 tvg-id="inter.it" tvg-name="Inter" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Inter (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/Inter/mono.m3u8
+
+#EXTINF:-1 tvg-id="juventus.it" tvg-name="Juventus" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Juventus (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/juve/mono.m3u8
+
+#EXTINF:-1 tvg-id="laliga.it" tvg-name="LaLiga" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",LaLiga (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX2laliga/mono.m3u8
+
+#EXTINF:-1 tvg-id="ligue 1.it" tvg-name="Ligue 1" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Ligue 1 (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/ligue1/mono.m3u8
+
+#EXTINF:-1 tvg-id="milan.it" tvg-name="Milan" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Milan (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/Milan/mono.m3u8
+
+#EXTINF:-1 tvg-id="pisa.it" tvg-name="Pisa" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Pisa (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/pisa/mono.m3u8
+
+#EXTINF:-1 tvg-id="porto.it" tvg-name="Porto" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Porto (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX2porto/mono.m3u8
+
+#EXTINF:-1 tvg-id="portugal.it" tvg-name="Portugal" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Portugal (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX2portugal/mono.m3u8
+
+#EXTINF:-1 tvg-id="rai sport.it" tvg-name="Rai Sport" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Rai Sport (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/RaiSport/mono.m3u8
+
+#EXTINF:-1 tvg-id="salernitana.it" tvg-name="Salernitana" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Salernitana (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/saler/mono.m3u8
+
+#EXTINF:-1 tvg-id="sampdoria.it" tvg-name="Sampdoria" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Sampdoria (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/samp/mono.m3u8
+
+#EXTINF:-1 tvg-id="sassuolo.it" tvg-name="Sassuolo" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Sassuolo (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/sass/mono.m3u8
+
+#EXTINF:-1 tvg-id="serie a.it" tvg-name="Serie A" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sky;Calcio TOP1",Serie A (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX2serie/mono.m3u8
+
+#EXTINF:-1 tvg-id="seriea 1.it" tvg-name="SerieA 1" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sky;Calcio TOP1",SerieA 1 (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX2serie1/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky 258.it" tvg-name="Sky 258" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Sky 258 (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX1sky258/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky 258.it" tvg-name="Sky 258" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Sky 258 (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX2sky258/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky 258.it" tvg-name="Sky 258" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Sky 258 (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioXsky258/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky 259.it" tvg-name="Sky 259" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Sky 259 (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX1sky259/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky 259.it" tvg-name="Sky 259" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Sky 259 (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX2sky259/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky 259.it" tvg-name="Sky 259" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Sky 259 (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioXsky259/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky arte.it" tvg-name="Sky Arte" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sky;Calcio TOP1",Sky Arte (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX2skyarte/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky arte.it" tvg-name="Sky Arte" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sky;Calcio TOP1",Sky Arte (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioXskyarte/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky atlantic.it" tvg-name="Sky Atlantic" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sky;Calcio TOP1",Sky Atlantic (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX1skyatlantic/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky atlantic.it" tvg-name="Sky Atlantic" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sky;Calcio TOP1",Sky Atlantic (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX2skyatlantic/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky atlantic.it" tvg-name="Sky Atlantic" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sky;Calcio TOP1",Sky Atlantic (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioXskyatlantic/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky cinema action.it" tvg-name="Sky Cinema Action" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sky;Calcio TOP1",Sky Cinema Action (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX1ac/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky cinema action.it" tvg-name="Sky Cinema Action" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sky;Calcio TOP1",Sky Cinema Action (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX2ac/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky cinema action.it" tvg-name="Sky Cinema Action" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sky;Calcio TOP1",Sky Cinema Action (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioXac/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky cinema collection.it" tvg-name="Sky Cinema Collection" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sky;Calcio TOP1",Sky Cinema Collection (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX1skycinemacollection/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky cinema collection.it" tvg-name="Sky Cinema Collection" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sky;Calcio TOP1",Sky Cinema Collection (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX2skycinemacollection/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky cinema collection.it" tvg-name="Sky Cinema Collection" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sky;Calcio TOP1",Sky Cinema Collection (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioXskycinemacollection/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky cinema comedy.it" tvg-name="Sky Cinema Comedy" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sky;Calcio TOP1",Sky Cinema Comedy (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX1skycinemacomedy/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky cinema comedy.it" tvg-name="Sky Cinema Comedy" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sky;Calcio TOP1",Sky Cinema Comedy (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX2skycinemacomedy/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky cinema comedy.it" tvg-name="Sky Cinema Comedy" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sky;Calcio TOP1",Sky Cinema Comedy (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioXskycinemacomedy/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky cinema drama.it" tvg-name="Sky Cinema Drama" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sky;Calcio TOP1",Sky Cinema Drama (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX1skycinemadrama/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky cinema drama.it" tvg-name="Sky Cinema Drama" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sky;Calcio TOP1",Sky Cinema Drama (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX2skycinemadrama/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky cinema drama.it" tvg-name="Sky Cinema Drama" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sky;Calcio TOP1",Sky Cinema Drama (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioXskycinemadrama/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky cinema due.it" tvg-name="Sky Cinema Due" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sky;Calcio TOP1",Sky Cinema Due (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX1skycinemadue/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky cinema due.it" tvg-name="Sky Cinema Due" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sky;Calcio TOP1",Sky Cinema Due (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX2skycinemadue/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky cinema due.it" tvg-name="Sky Cinema Due" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sky;Calcio TOP1",Sky Cinema Due (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioXskycinemadue/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky cinema family.it" tvg-name="Sky Cinema Family" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sky;Calcio TOP1",Sky Cinema Family (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX1skycinemafamily/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky cinema family.it" tvg-name="Sky Cinema Family" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sky;Calcio TOP1",Sky Cinema Family (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX2skycinemafamily/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky cinema family.it" tvg-name="Sky Cinema Family" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sky;Calcio TOP1",Sky Cinema Family (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioXskycinemafamily/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky cinema romance.it" tvg-name="Sky Cinema Romance" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sky;Calcio TOP1",Sky Cinema Romance (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX1skycinemaromance/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky cinema romance.it" tvg-name="Sky Cinema Romance" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sky;Calcio TOP1",Sky Cinema Romance (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX2skycinemaromance/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky cinema romance.it" tvg-name="Sky Cinema Romance" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sky;Calcio TOP1",Sky Cinema Romance (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioXskycinemaromance/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky cinema suspense.it" tvg-name="Sky Cinema Suspense" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sky;Calcio TOP1",Sky Cinema Suspense (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX1skycinemasuspence/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky cinema suspense.it" tvg-name="Sky Cinema Suspense" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sky;Calcio TOP1",Sky Cinema Suspense (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX2skycinemasuspence/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky cinema suspense.it" tvg-name="Sky Cinema Suspense" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sky;Calcio TOP1",Sky Cinema Suspense (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioXskycinemasuspence/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky cinema uno.it" tvg-name="Sky Cinema Uno" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sky;Calcio TOP1",Sky Cinema Uno (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX1skycinemauno/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky cinema uno.it" tvg-name="Sky Cinema Uno" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sky;Calcio TOP1",Sky Cinema Uno (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX2skycinemauno/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky cinema uno.it" tvg-name="Sky Cinema Uno" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sky;Calcio TOP1",Sky Cinema Uno (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioXskycinemauno/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky crime.it" tvg-name="Sky Crime" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sky;Calcio TOP1",Sky Crime (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX1skycrime/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky crime.it" tvg-name="Sky Crime" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sky;Calcio TOP1",Sky Crime (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX2skycrime/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky crime.it" tvg-name="Sky Crime" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sky;Calcio TOP1",Sky Crime (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioXskycrime/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky documentaries.it" tvg-name="Sky Documentaries" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sky;Calcio TOP1",Sky Documentaries (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX1skydocumentaries/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky documentaries.it" tvg-name="Sky Documentaries" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sky;Calcio TOP1",Sky Documentaries (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX2skydocumentaries/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky documentaries.it" tvg-name="Sky Documentaries" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sky;Calcio TOP1",Sky Documentaries (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioXskydocumentaries/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky investigation.it" tvg-name="Sky Investigation" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sky;Calcio TOP1",Sky Investigation (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX1skyinvestigation/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky investigation.it" tvg-name="Sky Investigation" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sky;Calcio TOP1",Sky Investigation (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX2skyinvestigation/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky investigation.it" tvg-name="Sky Investigation" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sky;Calcio TOP1",Sky Investigation (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioXskyinvestigation/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky nature.it" tvg-name="Sky Nature" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sky;Calcio TOP1",Sky Nature (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX1skynature/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky nature.it" tvg-name="Sky Nature" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sky;Calcio TOP1",Sky Nature (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX2skynature/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky nature.it" tvg-name="Sky Nature" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sky;Calcio TOP1",Sky Nature (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioXskynature/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky serie.it" tvg-name="Sky Serie" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sky;Calcio TOP1",Sky Serie (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX1seriesi/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky serie.it" tvg-name="Sky Serie" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sky;Calcio TOP1",Sky Serie (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX1skyserie/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky serie.it" tvg-name="Sky Serie" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sky;Calcio TOP1",Sky Serie (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX2seriesi/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky serie.it" tvg-name="Sky Serie" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sky;Calcio TOP1",Sky Serie (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX2skyserie/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky serie.it" tvg-name="Sky Serie" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sky;Calcio TOP1",Sky Serie (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioXseriesi/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky serie.it" tvg-name="Sky Serie" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sky;Calcio TOP1",Sky Serie (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioXskyserie/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky sport 24.it" tvg-name="Sky Sport 24" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Sky Sport 24 (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX1skysport24/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky sport 24.it" tvg-name="Sky Sport 24" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Sky Sport 24 (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX2skysport24/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky sport 24.it" tvg-name="Sky Sport 24" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Sky Sport 24 (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioXskysport24/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky sport 251.it" tvg-name="Sky Sport 251" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Sky Sport 251 (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX1skysport251/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky sport 251.it" tvg-name="Sky Sport 251" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Sky Sport 251 (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX2skysport251/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky sport 251.it" tvg-name="Sky Sport 251" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Sky Sport 251 (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioXskysport251/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky sport 252.it" tvg-name="Sky Sport 252" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Sky Sport 252 (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX1skysport252/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky sport 252.it" tvg-name="Sky Sport 252" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Sky Sport 252 (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX2skysport252/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky sport 252.it" tvg-name="Sky Sport 252" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Sky Sport 252 (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioXskysport252/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky sport 253.it" tvg-name="Sky Sport 253" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Sky Sport 253 (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX1skysport253/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky sport 253.it" tvg-name="Sky Sport 253" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Sky Sport 253 (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX2skysport253/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky sport 253.it" tvg-name="Sky Sport 253" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Sky Sport 253 (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioXskysport253/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky sport 254.it" tvg-name="Sky Sport 254" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Sky Sport 254 (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX1skysport254/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky sport 254.it" tvg-name="Sky Sport 254" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Sky Sport 254 (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX2skysport254/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky sport 254.it" tvg-name="Sky Sport 254" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Sky Sport 254 (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioXskysport254/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky sport 255.it" tvg-name="Sky Sport 255" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Sky Sport 255 (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX1skysport255/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky sport 255.it" tvg-name="Sky Sport 255" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Sky Sport 255 (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX2skysport255/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky sport 255.it" tvg-name="Sky Sport 255" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Sky Sport 255 (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioXskysport255/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky sport 256.it" tvg-name="Sky Sport 256" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Sky Sport 256 (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX2skysport256/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky sport 256.it" tvg-name="Sky Sport 256" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Sky Sport 256 (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioXskysport256/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky sport 257.it" tvg-name="Sky Sport 257" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Sky Sport 257 (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX1skysport257/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky sport 257.it" tvg-name="Sky Sport 257" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Sky Sport 257 (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX2skysport257/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky sport 257.it" tvg-name="Sky Sport 257" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Sky Sport 257 (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioXskysport257/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky sport arena.it" tvg-name="Sky Sport Arena" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Sky Sport Arena (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX1skysportarena/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky sport arena.it" tvg-name="Sky Sport Arena" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Sky Sport Arena (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX2skysportarena/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky sport arena.it" tvg-name="Sky Sport Arena" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Sky Sport Arena (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioXskysportarena/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky sport calcio.it" tvg-name="Sky Sport Calcio" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Sky Sport Calcio (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX1skysportcalcio/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky sport calcio.it" tvg-name="Sky Sport Calcio" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Sky Sport Calcio (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX2skysportcalcio/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky sport calcio.it" tvg-name="Sky Sport Calcio" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Sky Sport Calcio (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioXskysportcalcio/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky sport f1.it" tvg-name="Sky Sport F1" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Sky Sport F1 (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioXskysportf1/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky sport golf.it" tvg-name="Sky Sport Golf" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Sky Sport Golf (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX1skysportgolf/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky sport golf.it" tvg-name="Sky Sport Golf" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Sky Sport Golf (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX2skysportgolf/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky sport golf.it" tvg-name="Sky Sport Golf" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Sky Sport Golf (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioXskysportgolf/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky sport max.it" tvg-name="Sky Sport Max" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Sky Sport Max (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX1skysportmax/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky sport max.it" tvg-name="Sky Sport Max" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Sky Sport Max (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX2skysportmax/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky sport max.it" tvg-name="Sky Sport Max" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Sky Sport Max (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioXskysportmax/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky sport motogp.it" tvg-name="Sky Sport MotoGP" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Sky Sport MotoGP (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX1skysportmotogp/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky sport motogp.it" tvg-name="Sky Sport MotoGP" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Sky Sport MotoGP (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX2skysportmotogp/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky sport motogp.it" tvg-name="Sky Sport MotoGP" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Sky Sport MotoGP (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioXskysportmotogp/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky sport nba.it" tvg-name="Sky Sport NBA" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Sky Sport NBA (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX1skysportnba/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky sport nba.it" tvg-name="Sky Sport NBA" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Sky Sport NBA (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX2skysportnba/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky sport nba.it" tvg-name="Sky Sport NBA" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Sky Sport NBA (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioXskysportnba/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky sport tennis.it" tvg-name="Sky Sport Tennis" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Sky Sport Tennis (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX1skysporttennis/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky sport tennis.it" tvg-name="Sky Sport Tennis" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Sky Sport Tennis (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX2skysporttennis/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky sport tennis.it" tvg-name="Sky Sport Tennis" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Sky Sport Tennis (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioXskysporttennis/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky sport uno.it" tvg-name="Sky Sport Uno" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Sky Sport Uno (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX1skysportuno/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky sport uno.it" tvg-name="Sky Sport Uno" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Sky Sport Uno (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX2skysportuno/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky sport uno.it" tvg-name="Sky Sport Uno" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Sky Sport Uno (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioXskysportuno/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky uno.it" tvg-name="Sky Uno" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sky;Calcio TOP1",Sky Uno (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX1skyuno/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky uno.it" tvg-name="Sky Uno" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sky;Calcio TOP1",Sky Uno (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX2skyuno/mono.m3u8
+
+#EXTINF:-1 tvg-id="sky uno.it" tvg-name="Sky Uno" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sky;Calcio TOP1",Sky Uno (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioXskyuno/mono.m3u8
+
+#EXTINF:-1 tvg-id="solo calcio.it" tvg-name="Solo Calcio" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Solo Calcio (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX2solocalcio/mono.m3u8
+
+#EXTINF:-1 tvg-id="spezia.it" tvg-name="Spezia" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Spezia (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/spezia/mono.m3u8
+
+#EXTINF:-1 tvg-id="sportitalia.it" tvg-name="Sportitalia" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Sportitalia (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX2sportitalia/mono.m3u8
+
+#EXTINF:-1 tvg-id="zona b.it" tvg-name="Zona B" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Zona B (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX2zonab/mono.m3u8
+
+#EXTINF:-1 tvg-id="zona dazn.it" tvg-name="Zona DAZN" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Zona DAZN (CT1)
+#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
+#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://calcionew.newkso.ru/calcio/calcioX2zona/mono.m3u8
 
