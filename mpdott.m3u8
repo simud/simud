@@ -403,11 +403,6 @@ https://g003-lin-it-cmaf-prd-ak.pcdn07.cssott02.com/nowitlin1/Content/CMAF_CTR_S
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=1115cc41a0daf57a22c1c81bd139b559:31347f9bbc90713e972249b54ec882b2
 https://g003-lin-it-cmaf-prd-ak.pcdn07.cssott02.com/nowitlin1/Content/CMAF_CTR_S1/Live/channel(boomerang)/master_2hr-aac.mpd
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/mZ6gwjBg/kings-league.png" group-title="Kings League", controcalcio__
-#EXTVLCOPT:http-referrer=https://www.twitch.tv/controcalcio__
-#EXTVLCOPT:http-origin=https://www.twitch.tv/controcalcio__
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://use12.playlist.ttvnw.net/v1/playlist/CtQESeHsnIu5AE4J7NJQebR6-aCyv3DAWbtG2vap5gjmCrOkdl4eRuCH_70vnrrv3FxxFjIhtHgXopKHsiiBg_qrZDnrzwE_HimKSWgIuc-HLZOGk_j2L0A3tguL49xK84_CE9ussDcWNk4UWjhfBfxf54OYYYV9CvwwSTwRk5yvBqMrRR8rU-ZHBRd75KFZx6g17FRRqxYjiV2Bc3tYVf_dTSN52SG6rWmQJBQlri27O6h6iCStq0wzs00BIGMvPdJqATS4_FaScTM482n5qeClQN20TL6jJkUf7ViggRNCHNL-tWW-13JKYwOa65F74LKALXbY1nQAl7wjjrDhAos9M5H8SkyCU12q6U67CImingCCl336wFbD0c2-1Y-PpmhflLBorvRu_p2ixti4Mm-M6K1pI9IXXe0in3SIeFS-Ju-d1pOYETk2C5G1RUHSsacOTLp5UgL1IIBRaUG6GuNLb2hl6fVzmh74fyaWEYZK2UtloH2wCyATBa5_YP4zeT_BQl3EJWap_LLbHZ7sPJAQgyky_HewqYRobWm2k0eRfWyC3Iz36MZ0AQoxjPGFQ4ii4aHMTI4jGL4CjjTYe5GIaVWNmW8rbNrcOmso9q7GlwQ0X25CwhdIRf5eDIkx8SMm1_-74DuFW5j371pg_3i3lxI2NnsnMaNs-irJMPc1FBiQuyA6WtqE4VnC0XuIMD-Ifb2JmWv-YHgIu-vCeIA0pMHYSR7I9O1bcJocbRCMig0oZ2VCH7c9KxONW5JzJ0kcen0AEzv7YTTzrxkaqcbuyl0T6kUaDAdLRTOwJ1xPOAfVUCABKgl1cy1lYXN0LTIwzgw.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Kings League", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 #EXTM3U url-tvg="https://raw.githubusercontent.com/nzo66/TV/refs/heads/main/epg.xml"
