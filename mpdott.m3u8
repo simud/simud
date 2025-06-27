@@ -59,14 +59,6 @@ https://mag03.tvx.prd.tv.odido.nl/wh7f454c46tw75168188_-627298088/PLTV/86/224/32
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=b5c04cfb6da84104ba5bbe51cd065b12:d96561be4819d3ed4e5f4f54015baaca
 https://mag01.tvx.prd.tv.odido.nl/wh7f454c46tw523693457_1808344289/PLTV/86/224/3221241652/3221241652.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="FORMULA 1",13:30 Prove Libere (1)
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=111897d510ac0fed0d5d050ef54b5bd6:7da85f724587b9d8a85095653421ee10
-https://g003-lin-it-cmaf-prd-cf.pcdn07.cssott02.com/nowitlin1/Content/CMAF_CTR_H1/Live/channel(skysportf1)/master_2hr-aac.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="FORMULA 1",17:00 Prove Libere (2)
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=111897d510ac0fed0d5d050ef54b5bd6:7da85f724587b9d8a85095653421ee10
-https://g003-lin-it-cmaf-prd-cf.pcdn07.cssott02.com/nowitlin1/Content/CMAF_CTR_H1/Live/channel(skysportf1)/master_2hr-aac.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="FORMULA 1",12:30 Prove Libere (3)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=111897d510ac0fed0d5d050ef54b5bd6:7da85f724587b9d8a85095653421ee10
@@ -79,10 +71,6 @@ https://g003-lin-it-cmaf-prd-cf.pcdn07.cssott02.com/nowitlin1/Content/CMAF_CTR_H
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=111897d510ac0fed0d5d050ef54b5bd6:7da85f724587b9d8a85095653421ee10
 https://g003-lin-it-cmaf-prd-cf.pcdn07.cssott02.com/nowitlin1/Content/CMAF_CTR_H1/Live/channel(skysportf1)/master_2hr-aac.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="MOTOMONDIALE",15:00 MotoGP - Pre Qualifiche
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=1118a7ba746ae114cee71040247fc26b:d67e3a575afe81ab04733890537e8ab9
-https://g003-lin-it-cmaf-prd-ak.pcdn07.cssott02.com/nowitlin1/Content/CMAF_CTR_H1/Live/channel(skysportmotogp)/master_2hr-aac.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="MOTOMONDIALE",10:10 MotoGP - Prove Libere (2)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=1118a7ba746ae114cee71040247fc26b:d67e3a575afe81ab04733890537e8ab9
@@ -107,12 +95,6 @@ https://g003-lin-it-cmaf-prd-ak.pcdn07.cssott02.com/nowitlin1/Content/CMAF_CTR_H
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=1118a7ba746ae114cee71040247fc26b:d67e3a575afe81ab04733890537e8ab9
 https://g003-lin-it-cmaf-prd-ak.pcdn07.cssott02.com/nowitlin1/Content/CMAF_CTR_H1/Live/channel(skysportmotogp)/master_2hr-aac.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="EXTRA",Live
-https://di-kzbhv8pw.vo.lswcdn.net/sportitalia/sihd/chunklist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="EXTRA",Live
-https://di-kzbhv8pw.vo.lswcdn.net/sportitalia/sisolocalcio/chunklist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="EXTRA",Live
-https://di-kzbhv8pw.vo.lswcdn.net/sportitalia/silive24/chunklist.m3u8
 #EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/perma/live1.png", Sport 24Diretta sempre attiva
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
@@ -425,7 +407,7 @@ https://g003-lin-it-cmaf-prd-ak.pcdn07.cssott02.com/nowitlin1/Content/CMAF_CTR_S
 #EXTVLCOPT:http-referrer=https://www.twitch.tv/controcalcio__
 #EXTVLCOPT:http-origin=https://www.twitch.tv/controcalcio__
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://use23.playlist.ttvnw.net/v1/playlist/CsMErK3p-eep0ZSXH1gI8dAT9u0jn5siKA_7YRDA9hTQ_JTNHob06q9d91Z6COQfjAh2Dx6uYU5aU1K5OFdB5OwMyy3HlZMdj6yHljDmgzxz40ZRYDAj_eiJ8pGWZzCsG4HrE5ju4vnlv_XHZbYfR5JCRsWE-Dv0EeI1ZIBlDXCObZSnyd_D3xiaxuQGarpd6a8xnKnrJjLCJUXgn9tQl26axizvVHYoSgcSvKqMVZ_xD6z4WnyqjVYsTe5OzKWfexcYTEavw-9quaujesHH29ZxkPZkdDyNGPlvnHdB_Eee-lh2EyouGDjAVizNL-B_MF1svE5hOEb5PAVWV8oiF_xK7y4VdRHOWU_B9otBGr11UbDnLga1HVP4P2dMhoVH5Ch6_YfrJdXig9rdVAF-P3A-Pur1CSR6_PsBFirBrOrrZ7W7jvWRzIAuyBqwgZsPE-oEanbxZtjxxmX8RAtYVz43D1u4BeawSXlUot4nwazUb_43oNidJnSL2jBYqfjfb6scZ4F7wbxWYEe0lR57Yo1S1VD850RreG_WIHfUK-QRvIDPVWnNJMzImrF4b8pHleTcJlfcgo_OuP8OS-pMzJVLmFhM49X7hWw_wf0jYgx4igiVDJ8qADEYzKDfP04s5c9jw8Gu7a7u4pXctwtWJRkZUM9r0ejV8UxDBD9pK08jNguO0hwB8wm7bwBCiwLc8IOnd6_33HPUYP6IPiQTntyzkSwBPTcEgL4Q23zDT43CZqaQCmLDrKApA-MS971_C1k9Id_xGgzosbCE4_4kVVZl5P8gASoJdXMtZWFzdC0yMM0M.m3u8
+https://use22.playlist.ttvnw.net/v1/playlist/Cs4ENcatGVBGau_SBC3F5S6bm2lhntFAZ6yBjSHyLCoAV5-NWmcUPvkiuUXjhFTzJNBy2v8nqzpwOWFltpNa0wk8-Zv3jHH5I08BKqABpCGXlTEi0avuTGh5_lIYFTNDWOG8I5n_WCotYjJq83UkVF6qeMQ3FkdFU7RJjoRg_gwlSrB3QZHiT3XX4PiPiDeyNnn-fHb0EjB2F0pNx6_NqpJY0jqkSpC-gT_52UOu1ZNMpNkxxoDpxzyffw_PP6f8H2gl0FK8osWhe5Zh48DE50xPL-cW-wWD2nV1NpVCnMgEO6Xp-OPYCycoONGEpxaV0XkZNqw-7ggQM0ZhhhRJy-awksIuNxBI-I_9B_Aa1ajOlYV0QZKTxzWS6vRP-ZqpkdAeBt26Av3-VvM98sWGFFmGpAH0mupJytAjhj6XS2LNXPbtDaEC3ahh5-1KiHq0FNUjNXppmnUy_gdEUmOEeT4n98Qg6xqDdDHMCEpXw5Li6oMiHjacpMuTvnsp6rzDizWjBNs-JeVcQ2RYAcKvD9QTKng5OOb6SIuLnA05Z9k4nTcuEB8OPhV60qsdGegOHW4h63w4AyNoJFKFlVoYWS32Hjek837RmQaUoyPTbV1FtlwA8gSCo2pewnIR23G_Bz8KyprVivaVB1IUM0pdPjl7dahwMAhnr5DHGyvN5YhfBGuqw7A2God-Jfoe0fq7_lF_ReCZ-t59XrPWLl-lDMpeDc5sAmvZ1kkC0NvpKzsAPJyxs-lGXsMmT_mtmbAucTml6vNIiQD2rBG55FD1SToaDHv6IU8YMrta3DTQ7SABKgl1cy1lYXN0LTIwzgw.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Kings League", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 #EXTM3U url-tvg="https://raw.githubusercontent.com/nzo66/TV/refs/heads/main/epg.xml"
