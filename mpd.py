@@ -5,9 +5,10 @@ def concatenate_m3u8():
     urls = [
         "https://raw.githubusercontent.com/simud/simud/refs/heads/main/thisnot.m3u8",
         "https://raw.githubusercontent.com/simud/simud/refs/heads/main/sportstreaming_playlist.m3u8",
+        "https://raw.githubusercontent.com/simud/simud/refs/heads/main/mpdfunzionanti.m3u8",
         "https://raw.githubusercontent.com/simud/simud/refs/heads/main/twitch_streams.m3u8",
+        "https://nzo66-tvproxy.hf.space/proxy?url=https://raw.githubusercontent.com/nzo66/TV/refs/heads/main/lista.m3u",
         "https://raw.githubusercontent.com/simud/simud/refs/heads/main/hat.m3u8",
-        "https://raw.githubusercontent.com/simud/simud/refs/heads/main/simudtrials.m3u8",
         "https://raw.githubusercontent.com/Brenders/Pluto-TV-Italia-M3U/refs/heads/main/PlutoItaly.m3u"
     ]
     
