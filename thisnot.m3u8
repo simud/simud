@@ -59,14 +59,6 @@ https://mag03.tvx.prd.tv.odido.nl/wh7f454c46tw75168188_-627298088/PLTV/86/224/32
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=b5c04cfb6da84104ba5bbe51cd065b12:d96561be4819d3ed4e5f4f54015baaca
 https://mag01.tvx.prd.tv.odido.nl/wh7f454c46tw523693457_1808344289/PLTV/86/224/3221241652/3221241652.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="FORMULA 1",13:30 Prove Libere (1) 
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=111897d510ac0fed0d5d050ef54b5bd6:7da85f724587b9d8a85095653421ee10
-https://g003-lin-it-cmaf-prd-cf.pcdn07.cssott02.com/nowitlin1/Content/CMAF_CTR_H1/Live/channel(skysportf1)/master_2hr-aac.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="FORMULA 1",17:00 Prove Libere (2) 
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=111897d510ac0fed0d5d050ef54b5bd6:7da85f724587b9d8a85095653421ee10
-https://g003-lin-it-cmaf-prd-cf.pcdn07.cssott02.com/nowitlin1/Content/CMAF_CTR_H1/Live/channel(skysportf1)/master_2hr-aac.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="FORMULA 1",12:30 Prove Libere (3) 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=111897d510ac0fed0d5d050ef54b5bd6:7da85f724587b9d8a85095653421ee10
@@ -79,10 +71,6 @@ https://g003-lin-it-cmaf-prd-cf.pcdn07.cssott02.com/nowitlin1/Content/CMAF_CTR_H
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=111897d510ac0fed0d5d050ef54b5bd6:7da85f724587b9d8a85095653421ee10
 https://g003-lin-it-cmaf-prd-cf.pcdn07.cssott02.com/nowitlin1/Content/CMAF_CTR_H1/Live/channel(skysportf1)/master_2hr-aac.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="MOTOMONDIALE",15:00 MotoGP - Pre Qualifiche 
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=1118a7ba746ae114cee71040247fc26b:d67e3a575afe81ab04733890537e8ab9
-https://g003-lin-it-cmaf-prd-ak.pcdn07.cssott02.com/nowitlin1/Content/CMAF_CTR_H1/Live/channel(skysportmotogp)/master_2hr-aac.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="MOTOMONDIALE",10:10 MotoGP - Prove Libere (2) 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=1118a7ba746ae114cee71040247fc26b:d67e3a575afe81ab04733890537e8ab9
@@ -107,9 +95,3 @@ https://g003-lin-it-cmaf-prd-ak.pcdn07.cssott02.com/nowitlin1/Content/CMAF_CTR_H
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=1118a7ba746ae114cee71040247fc26b:d67e3a575afe81ab04733890537e8ab9
 https://g003-lin-it-cmaf-prd-ak.pcdn07.cssott02.com/nowitlin1/Content/CMAF_CTR_H1/Live/channel(skysportmotogp)/master_2hr-aac.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="EXTRA",Live 
-https://di-kzbhv8pw.vo.lswcdn.net/sportitalia/sihd/chunklist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="EXTRA",Live 
-https://di-kzbhv8pw.vo.lswcdn.net/sportitalia/sisolocalcio/chunklist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="EXTRA",Live 
-https://di-kzbhv8pw.vo.lswcdn.net/sportitalia/silive24/chunklist.m3u8
