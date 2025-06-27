@@ -5,7 +5,7 @@ from github import Github
 from github import GithubException
 
 # URL della playlist
-url = "https://raw.githubusercontent.com/nzo66/TV/refs/heads/main/lista.m3u"
+url = "https://nzo66-tvproxy.hf.space/proxy?url=https://raw.githubusercontent.com/nzo66/TV/refs/heads/main/lista.m3u"
 
 # Gruppi desiderati
 gruppi_desiderati = ["Bambini", "Sport", "Film & Serie TV", "Documentari", "Eventi Live"]
