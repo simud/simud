@@ -3,3 +3,7 @@
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=111897d510ac0fed0d5d050ef54b5bd6:7da85f724587b9d8a85095653421ee10
 https://g003-lin-it-cmaf-prd-cf.pcdn07.cssott02.com/nowitlin1/Content/CMAF_CTR_H1/Live/channel(skysportf1)/master_2hr-aac.mpd
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Altro",live5
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=b2ac62177a11407290722302e1e3a32c:51a4c173aa6cdf1f169b57602fee1c44
+https://timlivetu0.cb.ticdn.it/Content/DASH/Live/channel(italia1)/manifest.mpd
