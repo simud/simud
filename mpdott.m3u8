@@ -403,6 +403,11 @@ https://g003-lin-it-cmaf-prd-ak.pcdn07.cssott02.com/nowitlin1/Content/CMAF_CTR_S
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=1115cc41a0daf57a22c1c81bd139b559:31347f9bbc90713e972249b54ec882b2
 https://g003-lin-it-cmaf-prd-ak.pcdn07.cssott02.com/nowitlin1/Content/CMAF_CTR_S1/Live/channel(boomerang)/master_2hr-aac.mpd
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/mZ6gwjBg/kings-league.png" group-title="Kings League", controcalcio__
+#EXTVLCOPT:http-referrer=https://www.twitch.tv/controcalcio__
+#EXTVLCOPT:http-origin=https://www.twitch.tv/controcalcio__
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://use23.playlist.ttvnw.net/v1/playlist/CtIEOIl8awWj-9U6eHaTS062ud8IIZqTxLm1HafNUb0FyGWsV8hBXqNxmnN-Ykk6CJKHA7hMxpNK7k5sQ2UtdJ9LxxwD5JCGLtsPJdY6rJF86H8UepEmVat9yV16-BF4NwSmXDmS7I2DqCZD1W_4otlUXWKO1G_htKUK_-EwCcXdlgGhA8NryAAMbLfjgqMYEJM1YObPZkBBz6YV7u6unpz8LUcqLWr3LYyjmxErIB5Xfiw324lf1ifJm4te2rnCnh72j__kyuocUquMgjzGA4dYnd6MwKbO9z8NgMGJA5Nme_kuPyxe7_9IVqf4zPV6367cr1bT5rjf2HGwz5KCp0PuHANDw0I1WMwfwBBUFFRq45P66tuaVghDp7fZRidMgAjfIXYlqT9Ri070n48QdQdEU03ysChwvICYT2d8qk_5gGa2HmKS4X5Dtwb5yrWZHUwms38io7FsaEOtfnlg_rpITtbMYku3dDfcdgMn9-TCyY4Pxomxmfjqa0SVB-YHrpm6XSu0cgWzG_8DOHoKtqRJ4r8jqm2H_fFrBKzThU8GpIcZY3IroUXJaTGgAGRbDDjYpqFSZuWVd5wEZMh-YLR_yCFqTss4pxwh9gTxB1K1NE6PWMSAvogK40aGod0eB5ZE8qWNKFc61Egn9VOcJ5L0HKJ1KtvCg9Y522NQ1Xi5vGe6fp0RC5PnYyyNdJo17V9yK6isxhRlNPId6KtErXBXhJOuAodjkc6wPqiTVlyhAf5JXPF-2U3w10HoTW6ypiTyEx69tvj5k1ncUyo0SABJ1GTqGgx0NW_YJfgt0kag1d0gASoJdXMtd2VzdC0yMM8M.m3u8
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Kings League", ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
 #EXTM3U url-tvg="https://raw.githubusercontent.com/nzo66/TV/refs/heads/main/epg.xml"
@@ -630,12 +635,12 @@ http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F1768
 #EXTVLCOPT:http-user-agent=VAVOO/2.6
 #EXTVLCOPT:http-referer=https://vavoo.to/
 #EXTVLCOPT:http-origin=https://vavoo.to
-http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F633342961%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
+http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F663536394%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
 #EXTINF:-1 tvg-id="italia.1.it" tvg-name="ITALIA 1" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/italia1-it.png" group-title="Mediaset",ITALIA 1 (2)
 #EXTVLCOPT:http-user-agent=VAVOO/2.6
 #EXTVLCOPT:http-referer=https://vavoo.to/
 #EXTVLCOPT:http-origin=https://vavoo.to
-http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F663536394%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
+http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F633342961%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
 #EXTINF:-1 tvg-id="italia.1.it" tvg-name="ITALIA 1" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/italia1-it.png" group-title="Mediaset",ITALIA 1 (D)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referer=https://forcedtoplay.xyz/
@@ -695,22 +700,22 @@ http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fnew.newkso.ru%2Fnfs%2F
 #EXTVLCOPT:http-user-agent=VAVOO/2.6
 #EXTVLCOPT:http-referer=https://vavoo.to/
 #EXTVLCOPT:http-origin=https://vavoo.to
-http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F1376440573%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
+http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F2911178456%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
 #EXTINF:-1 tvg-id="dazn.2.it.it" tvg-name="DAZN2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d6/Dazn-logo.png" group-title="Sport",DAZN2 (2)
 #EXTVLCOPT:http-user-agent=VAVOO/2.6
 #EXTVLCOPT:http-referer=https://vavoo.to/
 #EXTVLCOPT:http-origin=https://vavoo.to
-http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F2911178456%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
+http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F1376440573%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
 #EXTINF:-1 tvg-id="eurosport.1.it" tvg-name="EUROSPORT 1" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/eurosport-1-es.png" group-title="Sport",EUROSPORT 1
 #EXTVLCOPT:http-user-agent=VAVOO/2.6
 #EXTVLCOPT:http-referer=https://vavoo.to/
 #EXTVLCOPT:http-origin=https://vavoo.to
-http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F3481346857%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
+http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F3448075317%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
 #EXTINF:-1 tvg-id="eurosport.1.it" tvg-name="EUROSPORT 1" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/eurosport-1-es.png" group-title="Sport",EUROSPORT 1 (2)
 #EXTVLCOPT:http-user-agent=VAVOO/2.6
 #EXTVLCOPT:http-referer=https://vavoo.to/
 #EXTVLCOPT:http-origin=https://vavoo.to
-http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F3448075317%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
+http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F3481346857%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
 #EXTINF:-1 tvg-id="eurosport.1.it" tvg-name="EUROSPORT 1" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/eurosport-1-es.png" group-title="Sport",EUROSPORT 1 (D)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referer=https://forcedtoplay.xyz/
@@ -810,12 +815,12 @@ http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fnew.newkso.ru%2Fwind%2
 #EXTVLCOPT:http-user-agent=VAVOO/2.6
 #EXTVLCOPT:http-referer=https://vavoo.to/
 #EXTVLCOPT:http-origin=https://vavoo.to
-http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F2555960713%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
+http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F3007400791%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
 #EXTINF:-1 tvg-id="sky.sport.arena.it" tvg-name="SKY SPORT ARENA" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-arena-it.png" group-title="Sport",SKY SPORT ARENA (2)
 #EXTVLCOPT:http-user-agent=VAVOO/2.6
 #EXTVLCOPT:http-referer=https://vavoo.to/
 #EXTVLCOPT:http-origin=https://vavoo.to
-http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F3007400791%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
+http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F2555960713%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
 #EXTINF:-1 tvg-id="sky.sport.arena.it" tvg-name="SKY SPORT ARENA" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-arena-it.png" group-title="Sport",SKY SPORT ARENA (D)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referer=https://forcedtoplay.xyz/
@@ -980,12 +985,12 @@ http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F2198
 #EXTVLCOPT:http-user-agent=VAVOO/2.6
 #EXTVLCOPT:http-referer=https://vavoo.to/
 #EXTVLCOPT:http-origin=https://vavoo.to
-http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F3213195143%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
+http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F3009377513%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
 #EXTINF:-1 tvg-id="supertennis.it" tvg-name="SUPER TENNIS" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/super-tennis-it.png" group-title="Sport",SUPER TENNIS (2)
 #EXTVLCOPT:http-user-agent=VAVOO/2.6
 #EXTVLCOPT:http-referer=https://vavoo.to/
 #EXTVLCOPT:http-origin=https://vavoo.to
-http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F3009377513%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
+http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F3213195143%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
 #EXTINF:-1 tvg-id="" tvg-name="TENNIS CHANNEL" tvg-logo="https://images.tennis.com/image/upload/t_16-9_768/v1620828532/tenniscom-prd/assets/Fallback/Tennis_Fallback_v6_f5tjzv.jpg" group-title="Sport",TENNIS CHANNEL
 #EXTVLCOPT:http-user-agent=VAVOO/2.6
 #EXTVLCOPT:http-referer=https://vavoo.to/
@@ -1070,12 +1075,12 @@ http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F8609
 #EXTVLCOPT:http-user-agent=VAVOO/2.6
 #EXTVLCOPT:http-referer=https://vavoo.to/
 #EXTVLCOPT:http-origin=https://vavoo.to
-http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F1482866609%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
+http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F1421393119%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
 #EXTINF:-1 tvg-id="sky.atlantic.it" tvg-name="SKY ATLANTIC" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-atlantic-it.png" group-title="Film & Serie TV",SKY ATLANTIC (2)
 #EXTVLCOPT:http-user-agent=VAVOO/2.6
 #EXTVLCOPT:http-referer=https://vavoo.to/
 #EXTVLCOPT:http-origin=https://vavoo.to
-http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F1421393119%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
+http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F1482866609%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
 #EXTINF:-1 tvg-id="sky.cinema.action.it" tvg-name="SKY CINEMA ACTION" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-action-it.png" group-title="Film & Serie TV",SKY CINEMA ACTION
 #EXTVLCOPT:http-user-agent=VAVOO/2.6
 #EXTVLCOPT:http-referer=https://vavoo.to/
@@ -1110,12 +1115,12 @@ http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fnew.newkso.ru%2Fwind%2
 #EXTVLCOPT:http-user-agent=VAVOO/2.6
 #EXTVLCOPT:http-referer=https://vavoo.to/
 #EXTVLCOPT:http-origin=https://vavoo.to
-http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F3131104474%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
+http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F500203271%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
 #EXTINF:-1 tvg-id="sky.cinema.comedy.it" tvg-name="SKY CINEMA COMEDY" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-comedy-it.png" group-title="Film & Serie TV",SKY CINEMA COMEDY (2)
 #EXTVLCOPT:http-user-agent=VAVOO/2.6
 #EXTVLCOPT:http-referer=https://vavoo.to/
 #EXTVLCOPT:http-origin=https://vavoo.to
-http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F500203271%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
+http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F3131104474%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
 #EXTINF:-1 tvg-id="sky.cinema.drama.it" tvg-name="SKY CINEMA DRAMA" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-drama-it.png" group-title="Film & Serie TV",SKY CINEMA DRAMA
 #EXTVLCOPT:http-user-agent=VAVOO/2.6
 #EXTVLCOPT:http-referer=https://vavoo.to/
@@ -1150,12 +1155,12 @@ http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fnew.newkso.ru%2Fwind%2
 #EXTVLCOPT:http-user-agent=VAVOO/2.6
 #EXTVLCOPT:http-referer=https://vavoo.to/
 #EXTVLCOPT:http-origin=https://vavoo.to
-http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F3216516117%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
+http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F415795144%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
 #EXTINF:-1 tvg-id="sky.cinema.family.it" tvg-name="SKY CINEMA FAMILY" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-family-it.png" group-title="Film & Serie TV",SKY CINEMA FAMILY (2)
 #EXTVLCOPT:http-user-agent=VAVOO/2.6
 #EXTVLCOPT:http-referer=https://vavoo.to/
 #EXTVLCOPT:http-origin=https://vavoo.to
-http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F415795144%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
+http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F3216516117%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
 #EXTINF:-1 tvg-id="sky.cinema.family.it" tvg-name="SKY CINEMA FAMILY" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-family-it.png" group-title="Film & Serie TV",SKY CINEMA FAMILY (D)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referer=https://forcedtoplay.xyz/
@@ -1265,32 +1270,32 @@ http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F3470
 #EXTVLCOPT:http-user-agent=VAVOO/2.6
 #EXTVLCOPT:http-referer=https://vavoo.to/
 #EXTVLCOPT:http-origin=https://vavoo.to
-http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F877200714%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
+http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F525374356%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
 #EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 2" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Film & Serie TV",SKY PRIMAFILA 2 (2)
 #EXTVLCOPT:http-user-agent=VAVOO/2.6
 #EXTVLCOPT:http-referer=https://vavoo.to/
 #EXTVLCOPT:http-origin=https://vavoo.to
-http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F525374356%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
+http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F877200714%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
 #EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 3" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Film & Serie TV",SKY PRIMAFILA 3
 #EXTVLCOPT:http-user-agent=VAVOO/2.6
 #EXTVLCOPT:http-referer=https://vavoo.to/
 #EXTVLCOPT:http-origin=https://vavoo.to
-http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F153693434%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
+http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F573618724%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
 #EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 3" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Film & Serie TV",SKY PRIMAFILA 3 (2)
 #EXTVLCOPT:http-user-agent=VAVOO/2.6
 #EXTVLCOPT:http-referer=https://vavoo.to/
 #EXTVLCOPT:http-origin=https://vavoo.to
-http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F573618724%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
+http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F153693434%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
 #EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 4" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Film & Serie TV",SKY PRIMAFILA 4
 #EXTVLCOPT:http-user-agent=VAVOO/2.6
 #EXTVLCOPT:http-referer=https://vavoo.to/
 #EXTVLCOPT:http-origin=https://vavoo.to
-http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F3137990890%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
+http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F2416993844%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
 #EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 4" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Film & Serie TV",SKY PRIMAFILA 4 (2)
 #EXTVLCOPT:http-user-agent=VAVOO/2.6
 #EXTVLCOPT:http-referer=https://vavoo.to/
 #EXTVLCOPT:http-origin=https://vavoo.to
-http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F2416993844%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
+http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F3137990890%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
 #EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 5" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Film & Serie TV",SKY PRIMAFILA 5
 #EXTVLCOPT:http-user-agent=VAVOO/2.6
 #EXTVLCOPT:http-referer=https://vavoo.to/
@@ -1305,12 +1310,12 @@ http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F2255
 #EXTVLCOPT:http-user-agent=VAVOO/2.6
 #EXTVLCOPT:http-referer=https://vavoo.to/
 #EXTVLCOPT:http-origin=https://vavoo.to
-http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F3939513684%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
+http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F3251217290%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
 #EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 6" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Film & Serie TV",SKY PRIMAFILA 6 (2)
 #EXTVLCOPT:http-user-agent=VAVOO/2.6
 #EXTVLCOPT:http-referer=https://vavoo.to/
 #EXTVLCOPT:http-origin=https://vavoo.to
-http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F3251217290%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
+http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F3939513684%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
 #EXTINF:-1 tvg-id="" tvg-name="SKY PRIMAFILA 7" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Film & Serie TV",SKY PRIMAFILA 7
 #EXTVLCOPT:http-user-agent=VAVOO/2.6
 #EXTVLCOPT:http-referer=https://vavoo.to/
@@ -1355,12 +1360,12 @@ http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fnew.newkso.ru%2Fwind%2
 #EXTVLCOPT:http-user-agent=VAVOO/2.6
 #EXTVLCOPT:http-referer=https://vavoo.to/
 #EXTVLCOPT:http-origin=https://vavoo.to
-http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F3420407456%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
+http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F269503091%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
 #EXTINF:-1 tvg-id="top.crime.it" tvg-name="TOP CRIME" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/top-crime-it.png" group-title="Film & Serie TV",TOP CRIME (2)
 #EXTVLCOPT:http-user-agent=VAVOO/2.6
 #EXTVLCOPT:http-referer=https://vavoo.to/
 #EXTVLCOPT:http-origin=https://vavoo.to
-http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F269503091%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
+http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F3420407456%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
 #EXTINF:-1 tvg-id="euronews.it" tvg-name="EURONEWS" tvg-logo="https://play-lh.googleusercontent.com/Mi8GAQIp3x94VcvbxZNsK-CTNhHy1zmo51pmME5KkkK4WgN4aQhM1FlNgLZUMD4VAXhL" group-title="News",EURONEWS
 #EXTVLCOPT:http-user-agent=VAVOO/2.6
 #EXTVLCOPT:http-referer=https://vavoo.to/
@@ -1440,17 +1445,17 @@ http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F1744
 #EXTVLCOPT:http-user-agent=VAVOO/2.6
 #EXTVLCOPT:http-referer=https://vavoo.to/
 #EXTVLCOPT:http-origin=https://vavoo.to
-http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F2178717282%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
+http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F1987220436%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
 #EXTINF:-1 tvg-id="cartoonito.it" tvg-name="CARTOONITO" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/cartoonito-it.png" group-title="Bambini",CARTOONITO (2)
 #EXTVLCOPT:http-user-agent=VAVOO/2.6
 #EXTVLCOPT:http-referer=https://vavoo.to/
 #EXTVLCOPT:http-origin=https://vavoo.to
-http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F1987220436%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
+http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F1907000512%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
 #EXTINF:-1 tvg-id="cartoonito.it" tvg-name="CARTOONITO" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/cartoonito-it.png" group-title="Bambini",CARTOONITO (3)
 #EXTVLCOPT:http-user-agent=VAVOO/2.6
 #EXTVLCOPT:http-referer=https://vavoo.to/
 #EXTVLCOPT:http-origin=https://vavoo.to
-http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F1907000512%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
+http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F2178717282%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
 #EXTINF:-1 tvg-id="" tvg-name="DISCOVERY K2" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/k2-it.png" group-title="Bambini",DISCOVERY K2
 #EXTVLCOPT:http-user-agent=VAVOO/2.6
 #EXTVLCOPT:http-referer=https://vavoo.to/
@@ -1485,12 +1490,12 @@ http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F3039
 #EXTVLCOPT:http-user-agent=VAVOO/2.6
 #EXTVLCOPT:http-referer=https://vavoo.to/
 #EXTVLCOPT:http-origin=https://vavoo.to
-http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F3550030443%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
+http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F2900362153%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
 #EXTINF:-1 tvg-id="super!.it.it" tvg-name="SUPER!" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Super%21_logo_2021.svg/1024px-Super%21_logo_2021.svg.png" group-title="Bambini",SUPER! (2)
 #EXTVLCOPT:http-user-agent=VAVOO/2.6
 #EXTVLCOPT:http-referer=https://vavoo.to/
 #EXTVLCOPT:http-origin=https://vavoo.to
-http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F2900362153%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
+http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F3550030443%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
 #EXTINF:-1 tvg-id="" tvg-name="ARTE NETWORK" tvg-logo="https://www.arte.tv/sites/corporate/wp-content/themes/arte-entreprise/img/arte_logo.png" group-title="Documentari",ARTE NETWORK
 #EXTVLCOPT:http-user-agent=VAVOO/2.6
 #EXTVLCOPT:http-referer=https://vavoo.to/
@@ -1550,12 +1555,12 @@ http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F1735
 #EXTVLCOPT:http-user-agent=VAVOO/2.6
 #EXTVLCOPT:http-referer=https://vavoo.to/
 #EXTVLCOPT:http-origin=https://vavoo.to
-http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F3428501495%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
+http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F3229664409%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
 #EXTINF:-1 tvg-id="" tvg-name="NAT GEO WILD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/national-geographic-wild-it.png" group-title="Documentari",NAT GEO WILD (2)
 #EXTVLCOPT:http-user-agent=VAVOO/2.6
 #EXTVLCOPT:http-referer=https://vavoo.to/
 #EXTVLCOPT:http-origin=https://vavoo.to
-http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F3229664409%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
+http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F3428501495%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
 #EXTINF:-1 tvg-id="sky.arte.it" tvg-name="SKY ARTE" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-arte-it.png" group-title="Documentari",SKY ARTE
 #EXTVLCOPT:http-user-agent=VAVOO/2.6
 #EXTVLCOPT:http-referer=https://vavoo.to/
@@ -1600,12 +1605,12 @@ http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F1585
 #EXTVLCOPT:http-user-agent=VAVOO/2.6
 #EXTVLCOPT:http-referer=https://vavoo.to/
 #EXTVLCOPT:http-origin=https://vavoo.to
-http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F3802167244%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
+http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F963607327%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
 #EXTINF:-1 tvg-id="deejay.tv.it" tvg-name="DEEJAY TV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/deejay-tv-it.png" group-title="Musica",DEEJAY TV (2)
 #EXTVLCOPT:http-user-agent=VAVOO/2.6
 #EXTVLCOPT:http-referer=https://vavoo.to/
 #EXTVLCOPT:http-origin=https://vavoo.to
-http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F963607327%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
+http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F3802167244%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
 #EXTINF:-1 tvg-id="" tvg-name="EURO INDIE MUSIC CHART TV" tvg-logo="https://m.media-amazon.com/images/I/61Wa4RqJVJL.png" group-title="Musica",EURO INDIE MUSIC CHART TV
 #EXTVLCOPT:http-user-agent=VAVOO/2.6
 #EXTVLCOPT:http-referer=https://vavoo.to/
@@ -1820,12 +1825,12 @@ http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F9966
 #EXTVLCOPT:http-user-agent=VAVOO/2.6
 #EXTVLCOPT:http-referer=https://vavoo.to/
 #EXTVLCOPT:http-origin=https://vavoo.to
-http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F3107500995%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
+http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F2749478718%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
 #EXTINF:-1 tvg-id="" tvg-name="CANALE 8" tvg-logo="https://upload.wikimedia.org/wikipedia/it/thumb/6/6d/TV8_Logo_2016.svg/1200px-TV8_Logo_2016.svg.png" group-title="Altro",CANALE 8 (2)
 #EXTVLCOPT:http-user-agent=VAVOO/2.6
 #EXTVLCOPT:http-referer=https://vavoo.to/
 #EXTVLCOPT:http-origin=https://vavoo.to
-http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F2749478718%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
+http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F3107500995%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
 #EXTINF:-1 tvg-id="" tvg-name="CARINA TV" tvg-logo="https://radiocarina.it/wp-content/uploads/2024/01/RadioCarina-Vers.2.png" group-title="Altro",CARINA TV
 #EXTVLCOPT:http-user-agent=VAVOO/2.6
 #EXTVLCOPT:http-referer=https://vavoo.to/
@@ -2055,22 +2060,22 @@ http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F3832
 #EXTVLCOPT:http-user-agent=VAVOO/2.6
 #EXTVLCOPT:http-referer=https://vavoo.to/
 #EXTVLCOPT:http-origin=https://vavoo.to
-http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F84139639%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
+http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F1425667375%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
 #EXTINF:-1 tvg-id="la.5.it" tvg-name="LA 5" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/la5-it.png" group-title="Altro",LA 5 (2)
 #EXTVLCOPT:http-user-agent=VAVOO/2.6
 #EXTVLCOPT:http-referer=https://vavoo.to/
 #EXTVLCOPT:http-origin=https://vavoo.to
-http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F1425667375%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
+http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F84139639%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
 #EXTINF:-1 tvg-id="la7.hd.it" tvg-name="LA 7" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/la7-it.png" group-title="Altro",LA 7
 #EXTVLCOPT:http-user-agent=VAVOO/2.6
 #EXTVLCOPT:http-referer=https://vavoo.to/
 #EXTVLCOPT:http-origin=https://vavoo.to
-http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F775530063%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
+http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F2143522071%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
 #EXTINF:-1 tvg-id="la7.hd.it" tvg-name="LA 7" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/la7-it.png" group-title="Altro",LA 7 (2)
 #EXTVLCOPT:http-user-agent=VAVOO/2.6
 #EXTVLCOPT:http-referer=https://vavoo.to/
 #EXTVLCOPT:http-origin=https://vavoo.to
-http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F2143522071%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
+http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F775530063%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
 #EXTINF:-1 tvg-id="la7d.it" tvg-name="LA 7 D" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/la7d-it.png" group-title="Altro",LA 7 D
 #EXTVLCOPT:http-user-agent=VAVOO/2.6
 #EXTVLCOPT:http-referer=https://vavoo.to/
@@ -2115,12 +2120,12 @@ http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F3648
 #EXTVLCOPT:http-user-agent=VAVOO/2.6
 #EXTVLCOPT:http-referer=https://vavoo.to/
 #EXTVLCOPT:http-origin=https://vavoo.to
-http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F3889279895%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
+http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F3758728323%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
 #EXTINF:-1 tvg-id="motor.trend.it" tvg-name="MOTORTREND" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Motor_Trend_logo.svg/2560px-Motor_Trend_logo.svg.png" group-title="Altro",MOTORTREND (2)
 #EXTVLCOPT:http-user-agent=VAVOO/2.6
 #EXTVLCOPT:http-referer=https://vavoo.to/
 #EXTVLCOPT:http-origin=https://vavoo.to
-http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F3758728323%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
+http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F3889279895%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
 #EXTINF:-1 tvg-id="" tvg-name="ONDA NOVARA TV" tvg-logo="https://gag-fondazionedeagostini.s3.amazonaws.com/wp-content/uploads/2023/03/logo-Onda-Novara-TV-Ufficiale-1.png" group-title="Altro",ONDA NOVARA TV
 #EXTVLCOPT:http-user-agent=VAVOO/2.6
 #EXTVLCOPT:http-referer=https://vavoo.to/
@@ -2225,12 +2230,12 @@ http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F3075
 #EXTVLCOPT:http-user-agent=VAVOO/2.6
 #EXTVLCOPT:http-referer=https://vavoo.to/
 #EXTVLCOPT:http-origin=https://vavoo.to
-http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F2235732004%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
+http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F4198218214%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
 #EXTINF:-1 tvg-id="rete.4.it" tvg-name="RETE 4" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rete4-it.png" group-title="Altro",RETE 4 (2)
 #EXTVLCOPT:http-user-agent=VAVOO/2.6
 #EXTVLCOPT:http-referer=https://vavoo.to/
 #EXTVLCOPT:http-origin=https://vavoo.to
-http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F4198218214%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
+http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F2235732004%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
 #EXTINF:-1 tvg-id="" tvg-name="RETE ORO" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkE5wuUMIVAtANMfpSL4T5bIO73owXBhpvEg&s" group-title="Altro",RETE ORO
 #EXTVLCOPT:http-user-agent=VAVOO/2.6
 #EXTVLCOPT:http-referer=https://vavoo.to/
@@ -2270,12 +2275,12 @@ http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F2455
 #EXTVLCOPT:http-user-agent=VAVOO/2.6
 #EXTVLCOPT:http-referer=https://vavoo.to/
 #EXTVLCOPT:http-origin=https://vavoo.to
-http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F3475299702%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
+http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F3590183307%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
 #EXTINF:-1 tvg-id="" tvg-name="RSI LA 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/RSI_La_2_2012.svg/1200px-RSI_La_2_2012.svg.png" group-title="Altro",RSI LA 2 (2)
 #EXTVLCOPT:http-user-agent=VAVOO/2.6
 #EXTVLCOPT:http-referer=https://vavoo.to/
 #EXTVLCOPT:http-origin=https://vavoo.to
-http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F3590183307%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
+http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F3475299702%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
 #EXTINF:-1 tvg-id="" tvg-name="RTC TELECALABRIA" tvg-logo="https://play-lh.googleusercontent.com/7PzluYVAEVOCNzGYGkewkKI3PA0PkCKAc9KUZGfYzAbZnQLnlPAE5iQBMZEUi7ZKwJc" group-title="Altro",RTC TELECALABRIA
 #EXTVLCOPT:http-user-agent=VAVOO/2.6
 #EXTVLCOPT:http-referer=https://vavoo.to/
@@ -2320,12 +2325,12 @@ http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F2002
 #EXTVLCOPT:http-user-agent=VAVOO/2.6
 #EXTVLCOPT:http-referer=https://vavoo.to/
 #EXTVLCOPT:http-origin=https://vavoo.to
-http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F322024849%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
+http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F2130523218%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
 #EXTINF:-1 tvg-id="sky.uno.it" tvg-name="SKY UNO" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-uno-it.png" group-title="Altro",SKY UNO (2)
 #EXTVLCOPT:http-user-agent=VAVOO/2.6
 #EXTVLCOPT:http-referer=https://vavoo.to/
 #EXTVLCOPT:http-origin=https://vavoo.to
-http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F2130523218%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
+http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F322024849%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
 #EXTINF:-1 tvg-id="sky.uno.it" tvg-name="SKY UNO" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-uno-it.png" group-title="Altro",SKY UNO (D)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referer=https://forcedtoplay.xyz/
@@ -2565,12 +2570,12 @@ http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F2706
 #EXTVLCOPT:http-user-agent=VAVOO/2.6
 #EXTVLCOPT:http-referer=https://vavoo.to/
 #EXTVLCOPT:http-origin=https://vavoo.to
-http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F2202937518%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
+http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F3845119578%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
 #EXTINF:-1 tvg-id="" tvg-name="TV QUI" tvg-logo="https://www.tvdream.net/img/tvqui-modena-cover.jpg" group-title="Altro",TV QUI (2)
 #EXTVLCOPT:http-user-agent=VAVOO/2.6
 #EXTVLCOPT:http-referer=https://vavoo.to/
 #EXTVLCOPT:http-origin=https://vavoo.to
-http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F3845119578%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
+http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F2202937518%2Findex.m3u8%26h_User-Agent=VAVOO/2.6%26h_Referer=https%253A//vavoo.to/
 #EXTINF:-1 tvg-id="" tvg-name="TV YES" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/italy/tv-yes-it.png?raw=true" group-title="Altro",TV YES
 #EXTVLCOPT:http-user-agent=VAVOO/2.6
 #EXTVLCOPT:http-referer=https://vavoo.to/
@@ -2668,26 +2673,6 @@ http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fexample.com.m3u8
 #EXTVLCOPT:http-referer=https://forcedtoplay.xyz/
 #EXTVLCOPT:http-origin=https://forcedtoplay.xyz
 http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fnew.newkso.ru%2Fddy6%2Fpremium882%2Fmono.m3u8%26h_User-Agent=Mozilla/5.0%2520%2528iPhone%253B%2520CPU%2520iPhone%2520OS%252017_7%2520like%2520Mac%2520OS%2520X%2529%2520AppleWebKit/605.1.15%2520%2528KHTML%26h_Referer=https%253A//forcedtoplay.xyz/
-#EXTINF:-1 tvg-id="formula1msccruisesaustriangppractice3" tvg-name="Motorsport | Formula 1 : MSC Cruises Austrian GP - Practice 3 (12:30)" tvg-logo="https://logospng.org/download/formula-1/formula-1-4096.png" group-title="Eventi Live",Motorsport | Formula 1 : MSC Cruises Austrian GP - Practice 3 (12:30)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fnew.newkso.ru%2Fnfs%2Fpremium577%2Fmono.m3u8%26h_User-Agent=Mozilla/5.0%2520%2528iPhone%253B%2520CPU%2520iPhone%2520OS%252017_7%2520like%2520Mac%2520OS%2520X%2529%2520AppleWebKit/605.1.15%2520%2528KHTML%26h_Referer=https%253A//forcedtoplay.xyz/
-#EXTINF:-1 tvg-id="moto3dutchgrandprixqualifying" tvg-name="Motorsport | Moto3 : Dutch Grand Prix Qualifying (13:30)" tvg-logo="https://www.thesportsdb.com/images/media/league/badge/ksxcfb1568976756.png" group-title="Eventi Live",Motorsport | Moto3 : Dutch Grand Prix Qualifying (13:30)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fnew.newkso.ru%2Fnfs%2Fpremium575%2Fmono.m3u8%26h_User-Agent=Mozilla/5.0%2520%2528iPhone%253B%2520CPU%2520iPhone%2520OS%252017_7%2520like%2520Mac%2520OS%2520X%2529%2520AppleWebKit/605.1.15%2520%2528KHTML%26h_Referer=https%253A//forcedtoplay.xyz/
-#EXTINF:-1 tvg-id="moto2dutchgrandprixqualifying" tvg-name="Motorsport | Moto2 : Dutch Grand Prix Qualifying (13:40)" tvg-logo="https://www.thesportsdb.com/images/media/league/badge/yqvtrq1432309315.png" group-title="Eventi Live",Motorsport | Moto2 : Dutch Grand Prix Qualifying (13:40)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fnew.newkso.ru%2Fnfs%2Fpremium575%2Fmono.m3u8%26h_User-Agent=Mozilla/5.0%2520%2528iPhone%253B%2520CPU%2520iPhone%2520OS%252017_7%2520like%2520Mac%2520OS%2520X%2529%2520AppleWebKit/605.1.15%2520%2528KHTML%26h_Referer=https%253A//forcedtoplay.xyz/
-#EXTINF:-1 tvg-id="formula2msccruisesaustriangpsprintracespielberg" tvg-name="Motorsport | Formula 2 : MSC Cruises Austrian GP Sprint Race - Spielberg (14:15)" tvg-logo="https://assets.antenaplay.ro/2024/02/28/YW9VML2K4hpFUKMHme97.png" group-title="Eventi Live",Motorsport | Formula 2 : MSC Cruises Austrian GP Sprint Race - Spielberg (14:15)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fnew.newkso.ru%2Fnfs%2Fpremium577%2Fmono.m3u8%26h_User-Agent=Mozilla/5.0%2520%2528iPhone%253B%2520CPU%2520iPhone%2520OS%252017_7%2520like%2520Mac%2520OS%2520X%2529%2520AppleWebKit/605.1.15%2520%2528KHTML%26h_Referer=https%253A//forcedtoplay.xyz/
 #EXTINF:-1 tvg-id="motogpdutchgrandprixsprintrace" tvg-name="Motorsport | MotoGP : Dutch Grand Prix Sprint Race (14:45)" tvg-logo="https://cdn.freebiesupply.com/logos/large/2x/moto-gp-1-logo-png-transparent.png" group-title="Eventi Live",Motorsport | MotoGP : Dutch Grand Prix Sprint Race (14:45)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referer=https://forcedtoplay.xyz/
@@ -2698,11 +2683,6 @@ http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fnew.newkso.ru%2Fnfs%2F
 #EXTVLCOPT:http-referer=https://forcedtoplay.xyz/
 #EXTVLCOPT:http-origin=https://forcedtoplay.xyz
 http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fnew.newkso.ru%2Fnfs%2Fpremium577%2Fmono.m3u8%26h_User-Agent=Mozilla/5.0%2520%2528iPhone%253B%2520CPU%2520iPhone%2520OS%252017_7%2520like%2520Mac%2520OS%2520X%2529%2520AppleWebKit/605.1.15%2520%2528KHTML%26h_Referer=https%253A//forcedtoplay.xyz/
-#EXTINF:-1 tvg-id="frenchnationalroadchampionshipswomensroadracelesherbiers115km" tvg-name="Cycling | French National Road Championships Women's Road Race | Les Herbiers (115km) (13:00)" tvg-logo="http://www.bing.com/sa/simg/facebook_sharing_5.png" group-title="Eventi Live",Cycling | French National Road Championships Women's Road Race | Les Herbiers (115km) (13:00)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referer=https://forcedtoplay.xyz/
-#EXTVLCOPT:http-origin=https://forcedtoplay.xyz
-http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fnew.newkso.ru%2Fwind%2Fpremium878%2Fmono.m3u8%26h_User-Agent=Mozilla/5.0%2520%2528iPhone%253B%2520CPU%2520iPhone%2520OS%252017_7%2520like%2520Mac%2520OS%2520X%2529%2520AppleWebKit/605.1.15%2520%2528KHTML%26h_Referer=https%253A//forcedtoplay.xyz/
 #EXTINF:-1 tvg-id="frenchnationalroadchampionshipswomensroadracelesherbiers115km" tvg-name="Cycling | French National Road Championships Women's Road Race | Les Herbiers (115km) (16:30)" tvg-logo="http://www.bing.com/sa/simg/facebook_sharing_5.png" group-title="Eventi Live",Cycling | French National Road Championships Women's Road Race | Les Herbiers (115km) (16:30)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referer=https://forcedtoplay.xyz/
