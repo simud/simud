@@ -162,7 +162,5 @@
 #EXTINF:-1 tvg-name="Daddylive" group-title="Eventi Sportivi" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-uno-it.png",Daddylive
 http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fexample.com.m3u8
 #EXTINF:-1 tvg-id="fifaclubworldcupflamengovsbayernmünchen" tvg-name="Soccer | Fifa Club World Cup : Flamengo Vs Bayern München (22:00)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Flamengo_vs_Bayern München.png" group-title="Eventi Sportivi",Soccer | Fifa Club World Cup : Flamengo Vs Bayern München (22:00)
-#EXTINF:-1 tvg-id="europeanchampionshipwfinalspainwvsbelgiumw" tvg-name="Basketball | European Championship (w) Final : Spain W Vs Belgium W (19:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Spain W_vs_Belgium W.png" group-title="Eventi Sportivi",Basketball | European Championship (w) Final : Spain W Vs Belgium W (19:30)
-#EXTINF:-1 tvg-id="worldcupinnsbruckmenswomensleadfinal" tvg-name="Climbing | World Cup | Innsbruck Men's & Women's Lead | Final (19:15)" tvg-logo="https://png.pngtree.com/png-clipart/20221023/original/pngtree-icc-men-t20-world-cup-logo-2022-png-image_8715560.png" group-title="Eventi Sportivi",Climbing | World Cup | Innsbruck Men's & Women's Lead | Final (19:15)
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Eventi Sportivi",ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
