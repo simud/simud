@@ -1,6 +1,7 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="rai sport.it" tvg-name="Rai Sport" tvg-logo="https://www.igizmo.it/wp-content/uploads/2024/05/skystream-3.jpg" group-title="Sport;Calcio TOP1",Rai Sport (CT1)
-#EXTVLCOPT:http-referrer=https://calcionew.newkso.ru
-#EXTVLCOPT:http-origin=https://calcionew.newkso.ru
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-http://nzo66-tvproxy.hf.space/proxy/m3u?url=https://calcionew.newkso.ru/calcio/RaiSport/mono.m3u8
+
+#EXTINF:-1 tvg-id="rai1.it" tvg-name="RAI 1" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-1-it.png" group-title="Rai",RAI 1
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referer=https://vavoo.to/
+#EXTVLCOPT:http-origin=https://vavoo.to
+http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fplay%2F1225653759%2Findex.m3u8
