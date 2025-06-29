@@ -54,8 +54,8 @@ https://sportzonline.si/channels/hd/hd2.php
 https://sportzonline.si/channels/hd/hd7.php
 #EXTINF:-1 tvg-name="14:00 Austrian F1 Grand Prix" tvg-language="UNKNOWN" group-title="DOMENICA",14:00 Austrian F1 Grand Prix
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://sportzonline.si/
-#EXTVLCOPT:http-origin=https://sportzonline.si/
+#EXTVLCOPT:http-referrer=https://sportzonline.ci/
+#EXTVLCOPT:http-origin=https://sportzonline.ci/
 https://sportzonline.si/channels/bra/br4.php
 #EXTINF:-1 tvg-name="16:30 Levski Sofia x Montana" tvg-language="UNKNOWN" group-title="DOMENICA",16:30 Levski Sofia x Montana
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
