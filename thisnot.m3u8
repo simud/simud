@@ -1,24 +1,8 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="MOTOMONDIALE",12:15 Moto2 - Gara 
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=1118a7ba746ae114cee71040247fc26b:d67e3a575afe81ab04733890537e8ab9
-https://g003-lin-it-cmaf-prd-ak.pcdn07.cssott02.com/nowitlin1/Content/CMAF_CTR_H1/Live/channel(skysportmotogp)/master_2hr-aac.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="MOTOMONDIALE",14:00 MotoGP - Gara 
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=1118a7ba746ae114cee71040247fc26b:d67e3a575afe81ab04733890537e8ab9
-https://g003-lin-it-cmaf-prd-ak.pcdn07.cssott02.com/nowitlin1/Content/CMAF_CTR_H1/Live/channel(skysportmotogp)/master_2hr-aac.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="FORMULA 1",15:00 Gara 
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=111897d510ac0fed0d5d050ef54b5bd6:7da85f724587b9d8a85095653421ee10
-https://g003-lin-it-cmaf-prd-cf.pcdn07.cssott02.com/nowitlin1/Content/CMAF_CTR_H1/Live/channel(skysportf1)/master_2hr-aac.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",18:00 PSG - Inter Miami 
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=eaea45512d137def15b209a089cafd14:8d42db746ed0c4df61729b0d68d42bd7
-https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/rkhugudynd/out/v1/f7763e695c3b469594ed89fa163ebf0c/cenc-sd.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",18:00 PSG - Inter Miami 
-https://cachehsi2b.netplus.ch/live/eds/channel5/browser-dash/channel5.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",22:00 Flamengo - Bayern Monaco 
-https://live03-col.msf.cdn.mediaset.net/live/ch-i1/i1-clr.isml/manifest_hr.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=00f9f3c0783536b8ee91704e23b78016:bfd04d6f544c9cc4d35cb13ab6778587
+https://live03p-seg.msf.cdn.mediaset.net/live/ch-i1/i1-dash-widevine.isml/manifest.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",22:00 Flamengo - Bayern Monaco 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=eaea45512d137def15b209a089cafd14:8d42db746ed0c4df61729b0d68d42bd7
@@ -28,7 +12,9 @@ https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/rkhugudy
 #KODIPROP:inputstream.adaptive.license_key=eaea45512d137def15b209a089cafd14:8d42db746ed0c4df61729b0d68d42bd7
 https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/rkhugudynd/out/v1/f7763e695c3b469594ed89fa163ebf0c/cenc-sd.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",21:00 Inter - Fluminense 
-https://live03-col.msf.cdn.mediaset.net/live/ch-c5/c5-clr.isml/manifest_hr.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=00f9f3c0783536b8ce4a30a01a52e082:e926f7d45af4f7d154c990eae6a2d937
+https://live03p-seg.msf.cdn.mediaset.net/live/ch-c5/c5-dash-widevine.isml/manifest.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",03:00 Manchester City - Al Hilal 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=eaea45512d137def15b209a089cafd14:8d42db746ed0c4df61729b0d68d42bd7
@@ -40,7 +26,9 @@ https://cachehsi2b.netplus.ch/live/eds/channel5/browser-dash/channel5.mpd
 #KODIPROP:inputstream.adaptive.license_key=eaea45512d137def15b209a089cafd14:8d42db746ed0c4df61729b0d68d42bd7
 https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/rkhugudynd/out/v1/f7763e695c3b469594ed89fa163ebf0c/cenc-sd.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",21:00 Real Madrid - Juventus 
-https://live03-col.msf.cdn.mediaset.net/live/ch-c5/c5-clr.isml/manifest_hr.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=00f9f3c0783536b8ce4a30a01a52e082:e926f7d45af4f7d154c990eae6a2d937
+https://live03p-seg.msf.cdn.mediaset.net/live/ch-c5/c5-dash-widevine.isml/manifest.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",03:00 Borussia Dortmund - Monterrey 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=eaea45512d137def15b209a089cafd14:8d42db746ed0c4df61729b0d68d42bd7
@@ -49,19 +37,19 @@ https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/rkhugudy
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=540313f2e5eda2c17df277afc085f33c:3a2ac903e4299a7815111e256369d9d4
 https://p7s1-live-009-prod.akamaized.net/27a90190/t_009/sat1-de-hd/cenc-default.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TENNIS",11:00 Live 
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TENNIS",12:00 Live 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=111862d27c1073698d6ec5bbc328fc4c:777ec90fc3cdc6cec1b963ef14760ef1
 https://g003-lin-it-cmaf-prd-ak.pcdn07.cssott02.com/nowitlin1/Content/CMAF_CTR_H1/Live/channel(skysporttennis)/master_2hr-aac.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TENNIS",11:00 Live 
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TENNIS",12:00 Live 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=111894dfaecfc64acf114b026b1b06ff:d1a149879a17f13f2d58b7ade5d8a066
 https://g003-lin-it-cmaf-prd-ak.pcdn07.cssott02.com/nowitlin1/Content/CMAF_CTR_H1/Live/channel(skysportarena)/master_2hr-aac.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TENNIS",11:00 Live 
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TENNIS",12:00 Live 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=ef34ae91b4f2415e8439b2ad105e7488:243248d8de1ff8c7c587ee2057317523
 https://mag03.tvx.prd.tv.odido.nl/wh7f454c46tw75168188_-627298088/PLTV/86/224/3221241590/3221241590.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TENNIS",11:00 Live 
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TENNIS",12:00 Live 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=b5c04cfb6da84104ba5bbe51cd065b12:d96561be4819d3ed4e5f4f54015baaca
 https://mag01.tvx.prd.tv.odido.nl/wh7f454c46tw523693457_1808344289/PLTV/86/224/3221241652/3221241652.mpd
