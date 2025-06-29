@@ -6,12 +6,19 @@
   "url": "https://raw.githubusercontent.com/simud/simud/refs/heads/main/W3U/LiveTV.w3u",
   "groups": [
     {
-      "name": "Canali Vavoo + Daddy",
+      "name": "Canali Daddy Sport",
       "author": "Simud",
       "image": "https://www.gbnews.com/media-library/animated-gif-showing-playlist-on-an-ocean-blue-sky-glass-tv.gif?id=53569922&width=800&quality=90",
       "url": "https://nzo66-tvproxy.hf.space/proxy?url=https://raw.githubusercontent.com/nzo66/TV/refs/heads/main/lista.m3u",
       "import": true
     },
+    {
+      "name": "Canali Daddy Cinema+Intrattenimento",
+      "author": "Simud",
+      "image": "https://static.wixstatic.com/media/11e745_9470427ae0384dcb8bb8d2f9a39bac6e~mv2.gif",
+      "url": "https://www.dropbox.com/scl/fi/5md0zofs1dq7qu2ovyjtv/canalidaddy.w3u?rlkey=46jy9pp00ysmg6g6sc78co5ti&dl=1",
+      "import": true
+    }
     {
       "name": "Canali Twitch (Kings League)",
       "author": "Simud",
