@@ -11,10 +11,6 @@ headers = {
     "Referer": "https://www.sportstreaming.net/"
 }
 
-# Canale ADMIN da aggiungere alla fine
-ADMIN_CHANNEL = '''#EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Eventi", ADMIN
-https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4'''
-
 # Funzione per trovare i link alle pagine evento
 def find_event_pages():
     try:
@@ -131,10 +127,6 @@ def update_m3u_file(video_streams, m3u_file="sportstreaming_playlist.m3u8"):
             f.write(f"#EXTVLCOPT:http-user-agent={headers['User-Agent']}\n")
             f.write(f"#EXTVLCOPT:http-referrer={headers['Referer']}\n")
             f.write(f"{stream_url}\n")
-        
-        # Aggiungi il canale ADMIN alla fine
-        f.write("\n")  # Riga vuota per separazione
-        f.write(ADMIN_CHANNEL)
 
     print(f"File M3U8 aggiornato con successo: {file_path}")
 
@@ -148,7 +140,7 @@ if __name__ == "__main__":
         for event_url in event_pages:
             print(f"Analizzo: {event_url}")
             stream_url, element, channel_name = get_video_stream_and_description(event_url)
-            if stream_url:
+            if stream_url:  
                 video_streams.append((event_url, stream_url, element, channel_name))
             else:
                 print(f"Nessun flusso trovato per {event_url}")
