@@ -1,16 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",03:00 Borussia Dortmund - Monterrey 
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=4bbcff3289d457b4dd5dbdd21221de9a:c4906b9a9f8dda3c0725bddb8c497733
-https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/m7duvnk2bu/out/v1/d1ad69118b5647309b1eb7213affdb3d/cenc.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",03:00 Borussia Dortmund - Monterrey 
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=540313f2e5eda2c17df277afc085f33c:3a2ac903e4299a7815111e256369d9d4
-https://p7s1-live-009-prod.akamaized.net/27a90190/t_009/sat1-de-hd/cenc-default.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",18:00 Islanda - Finlandia 
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=d816287e21496989eae1312925a423c5:00da00f13180e7e6cd5ce87d1c974e8d
-https://live.rte.ie/live/a/vc12/vc12.isml/manifest.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",21:00 Svizzera - Norvegia 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=d816287e21496989eae1312925a423c5:00da00f13180e7e6cd5ce87d1c974e8d
