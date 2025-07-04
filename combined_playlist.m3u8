@@ -51,6 +51,8 @@ http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%
 http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F31075009959a8de9232b11
 #EXTINF:-1 tvg-id="" tvg-logo="https://radiocarina.it/wp-content/uploads/2024/01/RadioCarina-Vers.2.png" group-title="Altro",CARINA TV
 http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F1527236924d8d52d57c2e3
+#EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/46/Catfish%2C_the_TV_Show_Logo.PNG" group-title="Altro",CATFISH
+http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F23815838281e427554084f
 #EXTINF:-1 tvg-id="cielo.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/cielo-it.png" group-title="Altro",CIELO
 http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F27199536882db77bf0ce4c
 #EXTINF:-1 tvg-id="cielo.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/cielo-it.png" group-title="Altro",CIELO
@@ -329,8 +331,6 @@ http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%
 http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F27978570454e40f7218cf4
 #EXTINF:-1 tvg-id="trm.h24.it" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/italy/trm-h24-it.png?raw=true" group-title="Altro",TRM H24
 http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F2310699492314ea68def19
-#EXTINF:-1 tvg-id="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQpzqT0DLXv-md7VU-fTF5BeaEashocwHUdw&s" group-title="Altro",TT TELETUTTO
-http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F3709706813e7a46de6436d
 #EXTINF:-1 tvg-id="tv2000.it.it" tvg-logo="https://upload.wikimedia.org/wikipedia/it/0/0d/Logo_di_TV2000.png" group-title="Altro",TV 2000
 http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F1949044924a6c217960c23
 #EXTINF:-1 tvg-id="" tvg-logo="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/0013/3844/brand.gif?itok=54JkEUiu" group-title="Altro",TV 33
@@ -406,6 +406,8 @@ http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%
 http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F313448120145a6443975e1
 #EXTINF:-1 tvg-id="mediaset.extra.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/mediaset-extra-it.png" group-title="Mediaset",MEDIASET EXTRA
 http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F4774665319f73c392df0e
+#EXTINF:-1 tvg-id="" tvg-logo="https://play-lh.googleusercontent.com/2-Cl0plYUCxk8bnbeavm4ZOJ_S4Xuwmql_N3_E4OJyf7XK_YUvdNOWgzn8KD-Bur8w0" group-title="Mediaset",MEDIASET INFINITY+ 1
+http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F3599959739ed5ed2f1f0cd
 #EXTINF:-1 tvg-id="" tvg-logo="https://play-lh.googleusercontent.com/2-Cl0plYUCxk8bnbeavm4ZOJ_S4Xuwmql_N3_E4OJyf7XK_YUvdNOWgzn8KD-Bur8w0" group-title="Mediaset",MEDIASET INFINITY+ 2
 http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F2436070507988d651c6548
 #EXTINF:-1 tvg-id="" tvg-logo="https://play-lh.googleusercontent.com/2-Cl0plYUCxk8bnbeavm4ZOJ_S4Xuwmql_N3_E4OJyf7XK_YUvdNOWgzn8KD-Bur8w0" group-title="Mediaset",MEDIASET INFINITY+ 5
@@ -488,6 +490,8 @@ http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%
 http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F23176844530f9ee58ada3e
 #EXTINF:-1 tvg-id="eurosport.2.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/eurosport-2-es.png" group-title="Sport",EUROSPORT 2 (D)
 http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fthedaddy.click%2Fstream%2Fstream-879.php
+#EXTINF:-1 tvg-id="inter.tv.it" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/italy/inter-tv-it.png?raw=true" group-title="Sport",INTER TV
+http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F29737730766a27b9a63e21
 #EXTINF:-1 tvg-id="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/italy/lazio-style-channel-it.png?raw=true" group-title="Sport",LAZIO TV
 http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F2774026655397d6ec52fe5
 #EXTINF:-1 tvg-id="milan.tv.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/italy/milan-tv-it.png" group-title="Sport",MILAN TV
@@ -544,10 +548,6 @@ http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%
 http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F3897711086f5655aa4d5fb
 #EXTINF:-1 tvg-id="sky.sport.max.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-max-it.png" group-title="Sport",SKY SPORT MAX
 http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F206632691678b853b73adb
-#EXTINF:-1 tvg-id="sky.sport.motogp.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-motogp-it.png" group-title="Sport",SKY SPORT MOTO GP
-http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F30363168866e9eeb997936
-#EXTINF:-1 tvg-id="sky.sport.motogp.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/italy/hd/sky-sport-motogp-hd-it.png" group-title="Sport",SKY SPORT MOTOGP
-http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F2090703806f47d7eb551ce
 #EXTINF:-1 tvg-id="sky.sport.motogp.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/italy/hd/sky-sport-motogp-hd-it.png" group-title="Sport",SKY SPORT MOTOGP (D)
 http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fthedaddy.click%2Fstream%2Fstream-575.php
 #EXTINF:-1 tvg-id="sky.sport.nba.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-nba-it.png" group-title="Sport",SKY SPORT NBA
@@ -771,6 +771,8 @@ http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%
 http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F18766170987dd5e4939c9
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Film & Serie TV",SKY PRIMAFILA 15
 http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F911168573d54b185731b5
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Film & Serie TV",SKY PRIMAFILA 16
+http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F191150052585174f4ea582
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Film & Serie TV",SKY PRIMAFILA 17
 http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F1284441949890c3c5c3d9d
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Film & Serie TV",SKY PRIMAFILA 18
@@ -822,8 +824,6 @@ http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%
 http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F33760313550167605877f1
 #EXTINF:-1 tvg-id="sky.tg24.it" tvg-logo="https://play-lh.googleusercontent.com/0RJjBW8_r64dWLAbG7kUVrkESbBr9Ukx30pDI83e5_o1obv2MTC7KSpBAIhhXvJAkXE" group-title="News",SKY TG 24
 http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F3180571288b987548e3fe
-#EXTINF:-1 tvg-id="tgcom24.it" tvg-logo="https://yt3.hgoogleusercontent.com/ytc/AIdro_kVh4SupZFtHrALXp9dRWD9aahJOUfl8rhSF8VroefSLg=s900-c-k-c0x00ffffff-no-rj" group-title="News",TG COM 24
-http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F1785098768e3514b1dbecc
 #EXTINF:-1 tvg-id="tg.norba.24.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/italy/tg-norba-24-it.png" group-title="News",TG NORBA 24
 http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F33797298178cac7afa180a
 #EXTINF:-1 tvg-id="tg.norba.24.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/italy/tg-norba-24-it.png" group-title="News",TG NORBA 24
@@ -909,7 +909,7 @@ http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fthedaddy.click%2Fstrea
 http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fthedaddy.click%2Fstream%2Fstream-882.php
 #EXTINF:-1 tvg-id="fifaclubworldcupquarterfinal1fluminensevsalhilal" tvg-name="Soccer | FIFA Club World Cup Quarter Final 1 : Fluminense vs Al-Hilal (21:00)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Fluminense_vs_Al-Hilal.png" group-title="Eventi Live",Soccer | FIFA Club World Cup Quarter Final 1 : Fluminense vs Al-Hilal (21:00)
 http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fthedaddy.click%2Fstream%2Fstream-26.php
-#EXTINF:-1 tvg-id="2025wimbledonchampionshipsearlyroundcoverageday5" tvg-name="Tennis | 2025 Wimbledon Championships Early Round Coverage, Day 5 (20:00)" tvg-logo="https://www.edigitalagency.com.au/wp-content/uploads/wimbledon-logo-png-transparent-tennis-new-latest-750x750.png" group-title="Eventi Live",Tennis | 2025 Wimbledon Championships Early Round Coverage, Day 5 (20:00)
+#EXTINF:-1 tvg-id="2025wimbledonchampionshipsearlyroundcoverageday5" tvg-name="Tennis | 2025 Wimbledon Championships Early Round Coverage, Day 5 (20:00)" tvg-logo="https://blog.flicks.co.nz/wp-content/uploads/The-Championships-Wimbledon-Logo-2.png" group-title="Eventi Live",Tennis | 2025 Wimbledon Championships Early Round Coverage, Day 5 (20:00)
 http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fthedaddy.click%2Fstream%2Fstream-576.php
 #EXTINF:-1 tvg-id="2025wimbledonchampionshipsearlyroundcoverageday5" tvg-name="Tennis | 2025 Wimbledon Championships Early Round Coverage, Day 5 (20:00)" tvg-logo="https://www.edigitalagency.com.au/wp-content/uploads/wimbledon-logo-png-transparent-tennis-new-latest-750x750.png" group-title="Eventi Live",Tennis | 2025 Wimbledon Championships Early Round Coverage, Day 5 (20:00)
 http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fthedaddy.click%2Fstream%2Fstream-878.php
@@ -919,7 +919,7 @@ http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fthedaddy.click%2Fstrea
 http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fthedaddy.click%2Fstream%2Fstream-577.php
 #EXTINF:-1 tvg-id="formula3qatarairwaysbritishgppractice" tvg-name="Motorsport | Formula 3 : Qatar Airways British GP - Practice (10:00)" tvg-logo="https://images.seeklogo.com/logo-png/5/2/formula-3-euro-series-logo-png_seeklogo-56757.png" group-title="Eventi Live",Motorsport | Formula 3 : Qatar Airways British GP - Practice (10:00)
 http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fthedaddy.click%2Fstream%2Fstream-577.php
-#EXTINF:-1 tvg-id="formula1qatarairwaysbritishgppractice1" tvg-name="Motorsport | Formula 1 : Qatar Airways British GP - Practice 1 (13:30)" tvg-logo="https://logospng.org/download/formula-1/formula-1-2048.png" group-title="Eventi Live",Motorsport | Formula 1 : Qatar Airways British GP - Practice 1 (13:30)
+#EXTINF:-1 tvg-id="formula1qatarairwaysbritishgppractice1" tvg-name="Motorsport | Formula 1 : Qatar Airways British GP - Practice 1 (13:30)" tvg-logo="https://logospng.org/download/formula-1/formula-1-4096.png" group-title="Eventi Live",Motorsport | Formula 1 : Qatar Airways British GP - Practice 1 (13:30)
 http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fthedaddy.click%2Fstream%2Fstream-577.php
 #EXTINF:-1 tvg-id="formula3qatarairwaysbritishgpqualifying" tvg-name="Motorsport | Formula 3 : Qatar Airways British GP - Qualifying (15:00)" tvg-logo="https://images.seeklogo.com/logo-png/5/2/formula-3-euro-series-logo-png_seeklogo-56757.png" group-title="Eventi Live",Motorsport | Formula 3 : Qatar Airways British GP - Qualifying (15:00)
 http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fthedaddy.click%2Fstream%2Fstream-577.php
@@ -1185,16 +1185,6 @@ https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/65e5d9d2e
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/6690f892d51259000880d1c4/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
 #EXTINF:-1 tvg-chno="945" tvg-name="VH1+ Canzoni Italiane" tvg-logo="https://images.pluto.tv/channels/63724270c7c2360007b170e8/colorLogoPNG.png" tvg-id="63724270c7c2360007b170e8" group-title="Pluto TV Italia",VH1+ Canzoni Italiane
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/63724270c7c2360007b170e8/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/mZ6gwjBg/kings-league.png" group-title="Kings League", therealmarzaa
-#EXTVLCOPT:http-referrer=https://www.twitch.tv/therealmarzaa
-#EXTVLCOPT:http-origin=https://www.twitch.tv/therealmarzaa
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://use15.playlist.ttvnw.net/v1/playlist/CuwEfsHJuJPWNoLptfF9TDhZF6iuqyCDwC3jEB8vKxs7WapdEIh-Abx1exz-vnOgn6XF8dxPg6msXW_PdrH_Ou8NbXJVX3vivoOI6nFQ6TD0leFlA2FNPwEnoMwVCJfTqWhgTZCUfvIQZlxYs1DGqWlMaTJBJLFRR6yMkUIGQpTjD9iFst_CjLR4a2uYuQcgjSm2_VAhYiquCJeBZXbbUTfkIX14XT4CZVbN6OIHrI2xleXT8Pmhb3fS6Dr3XGP3cZY-EMKTwX44ZzoR3CFhhsaqY5si6hmkGb0jl_koQLj3MlFVExXT_S8814hxuqYWaLM8RC8UeFyJ95LVfg-80OA-X4dJVKVO0l9wg_72nfi0cmwSGKoHfmUYqXdI9v_gJYGphibi0A0aDYxwHHr8QDIlxmkSNRx5_J7xA3GJebpJWK6S68mqAOh3342iOwh03UtIFV6sAO80846_6TUmHC5gS8uwiP049kJ7RmOH00XpcgGP3AgASHRUUw0oMzK-ouWCMoiT4zOsrEclybIWukn4qZeCsCwwlKMs1phcsyqfGYyjKYAfOHeme7u2myA2laOCbsO3jqawQ0OUd-LDp04L5QUDyKXp8q8oZzPcgmeykid05L6s7a1qwQllm2FG-8Q-KbVMeG_IBdDdMfX0J-vr5UzsDKesIny-RFz9dT0OkPzV1fLbxJJCruPrigohziEtoH66JHD-z9I4nZqf3harzc6oD8xsJFOBDQp6ad4bohzc-YBf9EJr7FR0K8lTHpXhPrr3Zb3rh1X_QObBLE_TBgWizydk_xuZryRE5npgJs_6L5lcKhi1EUx-dNQaDHSBsFwtmRWW5nlkpiABKgl1cy1lYXN0LTIw1Aw.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/mZ6gwjBg/kings-league.png" group-title="Kings League", manuuxo
-#EXTVLCOPT:http-referrer=https://www.twitch.tv/manuuxo
-#EXTVLCOPT:http-origin=https://www.twitch.tv/manuuxo
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://use14.playlist.ttvnw.net/v1/playlist/CrwE-AZ3XhqNLNwOiVVJnMrEDk8yCNLEoSfLw7ySiMovKYZXHgUaBn-voEh3lpz3iBlxbAG_LRiZ2_Od7hvsNCpigEAhAKorBdQCDExyqKn5PPZpMutwPlEa_ZI3i-_W0bmePUHQ2Gz6CcgSBTGeD0dZapfz6393sq2rw-znunwMSEStMOBZyq_iEr-8KjhGUP-HOhLaBiqj-8wqBB_MvotG6Oa5MSOWFiA--FN5987ZNg1rEsX7KQHwRWHieUDDZekaM4JpZWNKvBfQxR_Be9bpzgtZRVxyyTyikO46s-XtV4olbqFaS62YANYiUYnD4vCgxY3EzAflYktZp5XnK4DYwL3PVH9uwyg2JEI9hUaLg_29brMM226nQGLO23Fp-TdkUsOOd3SH2FT-C2Y6RoZeCkFc7mqVKYgdgeJl_KibTxWTO9NDV-Lth0mBgM1c5Xyot1NLzVjrYHsv_48VoaGjgyguNjWJwrqeSqR2wGEfTSI2r304afSeTo68PgOChFE9iCfSbru2rsCe4gi3cpk3RD-jknTBv4cwzA7rTsNhg2E1bIvF7VOuA-2WwtL1_hw_05KyEESMLP7YTfymXP6prFswKX2htTcrD3xsZVovtI2R9pG1i9op2LZrMliUzHhjIRK44eULoouPKwU3GeWzvTskpadZITYliuCZCK7eefc3LkDycMcoxEzna0QpGz1p7rZD_mt948Gne20fnV5lwqwtJsmXu4_kXaYiBrBSf6KVj3DFOqGMyy3s7jUaDEB5mztOhggJTSPk8CABKgl1cy1lYXN0LTIw1Aw.m3u8
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/it.xml"
 #EXTINF:-1 tvg-chno="80" tvg-name="Pluto TV Christmas" tvg-logo="https://images.pluto.tv/channels/612e05b885183d0007958101/colorLogoPNG.png" tvg-id="612e05b885183d0007958101" group-title="Pluto TV Italia",Pluto TV Christmas
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/612e05b885183d0007958101/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
