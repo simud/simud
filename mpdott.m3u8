@@ -1,8 +1,4 @@
 #EXTM3U url-tvg="http://www.epgitalia.tv/gzip,http://epg-guide.com/it.gz,https://raw.github.com/matthuisman/i.mjh.nz/master/PlutoTV/us.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/PlutoTV/it.xml.gz,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-events-epg.xml,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-channels-epg.xml,https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/it.xml.gz"
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",18:00 Galles - Olanda
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=d816287e21496989eae1312925a423c5:00da00f13180e7e6cd5ce87d1c974e8d
-https://live.rte.ie/live/a/vc12/vc12.isml/manifest.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",21:00 Francia - Inghilterra
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=d816287e21496989eae1312925a423c5:00da00f13180e7e6cd5ce87d1c974e8d
@@ -23,10 +19,6 @@ https://live.rte.ie/live/a/vc12/vc12.isml/manifest.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=d816287e21496989eae1312925a423c5:00da00f13180e7e6cd5ce87d1c974e8d
 https://live.rte.ie/live/a/vc12/vc12.isml/manifest.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",18:00 PSG - Bayern Monaco
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=540313f2e5eda2c17df277afc085f33c:3a2ac903e4299a7815111e256369d9d4
-https://p7s1-live-009-prod.akamaized.net/27a90190/t_009/sat1-de-hd/cenc-default.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="CALCIO",22:00 Real Madrid - Borussia Dortmund
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=540313f2e5eda2c17df277afc085f33c:3a2ac903e4299a7815111e256369d9d4
@@ -63,14 +55,6 @@ https://g006-lin-it-cmaf-prd-cf.pcdn07.cssott02.com/nowitlin1/Content/CMAF_CTR_H
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=1118bc79025d7afe4aade4026f773831:c99b86dd3c6abc3d388bb73372077152
 https://g006-lin-it-cmaf-prd-cf.pcdn07.cssott02.com/nowitlin1/Content/CMAF_CTR_H1/Live/channel(skysport254)/master_2hr-all.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TENNIS",12:00 Wimbledon (Live 5)
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=11185f7f78307d91e36803f72663b517:d09f471173d6c7a82105abf216cd919c
-https://g006-lin-it-cmaf-prd-ak.pcdn07.cssott02.com/nowitlin1/Content/CMAF_CTR_H1/Live/channel(skysport255)/master_2hr-all.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TENNIS",12:00 Wimbledon (Live 6)
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=1118ffed75c4bff557566129f32bf4b3:1337caf53cedb8ca483b9a06fdce7611
-https://g006-lin-it-cmaf-prd-cf.pcdn07.cssott02.com/nowitlin1/Content/CMAF_CTR_H1/Live/channel(skysport256)/master_2hr-all.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="TENNIS",12:00 Live
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=ef34ae91b4f2415e8439b2ad105e7488:243248d8de1ff8c7c587ee2057317523
@@ -79,18 +63,18 @@ https://mag03.tvx.prd.tv.odido.nl/wh7f454c46tw75168188_-627298088/PLTV/86/224/32
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=b5c04cfb6da84104ba5bbe51cd065b12:d96561be4819d3ed4e5f4f54015baaca
 https://mag01.tvx.prd.tv.odido.nl/wh7f454c46tw523693457_1808344289/PLTV/86/224/3221241652/3221241652.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="FORMULA 1",12:30 Prove Libere (3)
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=111897d510ac0fed0d5d050ef54b5bd6:7da85f724587b9d8a85095653421ee10
-https://g003-lin-it-cmaf-prd-cf.pcdn07.cssott02.com/nowitlin1/Content/CMAF_CTR_H1/Live/channel(skysportf1)/master_2hr-aac.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="FORMULA 1",16:00 Qualifiche
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="FORMULA 1",16:00 Gara
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=111897d510ac0fed0d5d050ef54b5bd6:7da85f724587b9d8a85095653421ee10
 https://g003-lin-it-cmaf-prd-cf.pcdn07.cssott02.com/nowitlin1/Content/CMAF_CTR_H1/Live/channel(skysportf1)/master_2hr-aac.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="FORMULA 1",16:00 Gara
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=111897d510ac0fed0d5d050ef54b5bd6:7da85f724587b9d8a85095653421ee10
-https://g003-lin-it-cmaf-prd-cf.pcdn07.cssott02.com/nowitlin1/Content/CMAF_CTR_H1/Live/channel(skysportf1)/master_2hr-aac.mpd
+#KODIPROP:inputstream.adaptive.license_key=000b4b05b463b25ac9474c6b8de9242a:108e1dc2c98ce68de84cbfd1b1715c03
+https://linear201-de-dash1-prd-ak.cdn12.skycdp.com/032111-50/index.mpd
+#EXTINF:-1 tvg-id="tsn5.ca" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/7/7d/TSN5_logo.svg/1200px-TSN5_logo.svg.png" group-title="FORMULA 1",16:00 Gara
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=f4608dc9b6164cd7b96791af91cc334c:8d4bc6537629d3f7ad5aa4e75516f6da
+https://live-cito.9c9media.ca/5d56690552e77e26848799912ac055919f78d5e71725017868382/f/tsn5/manifest.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="CICLISMO",13:00 Live
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=46e559c2f9f645ce8d80c7fa20446bdb:597d214d66342ee042bccffeb165e750
@@ -123,7 +107,12 @@ https://xuione.sportstreaming.net/SportStreaming/SportStreaming/8.m3u8
 #EXTVLCOPT:http-referrer=https://www.twitch.tv/therealmarzaa
 #EXTVLCOPT:http-origin=https://www.twitch.tv/therealmarzaa
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://use14.playlist.ttvnw.net/v1/playlist/CtEEpF6rX3idGdzJ3yQJPEvMhyYpjlFMNB293GwQ6WlGh6HsGsvHUmjrWn0HvG5y1LWbOZWXRno4oRKoPnN3ZkO_Nf04B1tg3v7WQ9DU61WnkohXFna10H4EOR5Swsnnx9rknIm-TSJD-4z_Xmg4lKtNmwmPN8J9mTx1aaXksG0snQTUC1HLxMeAmbvH79zKi74usAxsqF0TczOh8L0dE0LKSLHfajvtPbfZIo0mGJCfTT7zVDLNrCn3Ta2D90yNK_upY8EIS_K8hE3qZAQFzpwrMgvCbd9ra-w_TPU4dhxwtw_Hy89Jjb7mxqUegpvmu-V6WnPsWhaFumH9baem-gGsKNWhwTq2Y2NBhu5Pp3sJq6NaRakiKJB8ElSi6aWp9rcw8ipXOBkm41oSbOo6ZXsVELqMwY5BCTTrxCuZdWFLZlX7KvhUqo-1LGcs-KmpDTGeq0Vzp4XNJhMWi-kWnz3Fh8v-LZKhlSt4-_NeV30sNWsNGg6zTYsYv-Azf7YlKylPRMPSmiUzV3LufRFNA5dk64FdchRStcZcWyhaW_86TrFPIsrjyKXaqoVJGWp8GIBRISdB1sDAlUQmwNPecIH-MtpBKizbnyO0FHNAZTCvBMijkdrU-0uRffBzgjwiT9t5vWnzgS1MGfaBK28UssZoIrPaEIGDMw4Qc74h6cC0wAW67SxTUNdpR3Vn5GZnT1Xd8I1H49zMNlqoX3DwwlxYjke4Omz2LR0OOm9RxmZh1u-BPaf81-1iv7-0sGw9SDAowoX_tbJ3yz0Uau10TX1TVskaDJLL49Bli75rTKhGPiABKgl1cy1lYXN0LTIw1Qw.m3u8
+https://use12.playlist.ttvnw.net/v1/playlist/CvkEeJt67r1SDE4x4Zoo4ojUmExn57xoKCTV6kB_OSQBeNWSENhc-LIc7830gaxpHGoX9fa_ger3LyvBhIaZS4IPhqK-juMPXyDFdbD3WAHK99v8dYVKTLEkHmp8LOGgXCGwJ6UKvq1Zg-KmLl4jZvvgdek0oHf2M9UDfBFteC15dDf-n38LpdmhIcczVzkW6OevrpQLBgLrdHCXcw6ezGq_0DJnMRi_dsdJSJTSj_dHX6KKNYanhZxrgoPiFD62mRoRgDCwtO65v4Ek4BcbrDGgBAaU8CFCFpJhZdESvJ445kk_ce5BwTLRmd85X_2b1s21xgi1F7tJLcwilRrgxaRHyGmNQBOn_0ZH_SwmbY6Cyz5yy3x3O3D_KI3nGj-Gc7xQmD2Xy7t8ukmKVioIAwwXytF-73kRLvPEHYHVSMG2OH1L7F7hrpKQqsWNOGN1-BXp4Qc3xwYcXz-7pe2E7u6loZD2rjEM99Vbwil4S5VC5lZ0pjXT717o6UigX6YMwXVtVV-UU0P-OGMXsL-WDna6Mjpv6XWATpXHllSSFFBmBq-gCiAH6YUlScJ9HlMNh48SQoS9pc0i7k-FddVgIneJjZpRkK16dlz4bQWnMB1_j4UqKCnSzHHYqbSitwUzXVEQQ_Yu_Rc-2Z0QzHnOAYQKZ0OPo_T7PJVpPAV8NUpDkgwvruDWdgqejUG9DrVOqLMItCgmYKxQ6Ne2k9KQH6Yv6LHFHrSwnj0KGVonAb0Id60-pQLNcZ3Svjh6UYR7b4YGhtpdCMrdK9y77f_2XCQdnBKCJUngmoBWCGCfoekhoViF3ZnDGKykD7KE1XxHe45PaxiFAolG-wQYGgyXBjOYbxwZlG5T9lYgASoJdXMtd2VzdC0yMNcM.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/mZ6gwjBg/kings-league.png" group-title="Kings League", manuuxo
+#EXTVLCOPT:http-referrer=https://www.twitch.tv/manuuxo
+#EXTVLCOPT:http-origin=https://www.twitch.tv/manuuxo
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://use11.playlist.ttvnw.net/v1/playlist/CskECq62SoWn-CHGNjD6QuM7evyXWO8cgKQyVyDK06RcOVHG3FuKYX1v6e4traNNCDUqnewLm45FP4p1rJ8cRRCGRs0ac3oh2ljx_LjOktAa0XrfaAB7NqMCgj9RBkIzO8HGnFW1Idia17Uukz0igV0KZtrF9crSsb2Kkf3cdBHa4I0O0ogvwihMBiWh_S2f-FJL6_BNHauXYAyxjhBM3h2gC-B64y830AGvCIqvtC2MhbOIJPt4EuPGyRGHMRyV5eqpNEJz_kGZZ27MxmrTG9sH1U5vlt2IZxtQBaEVV6tmXa4U-txSpqVpymxPG9mv9wJletVCUgU2ndsgCLioTL1rtyBYiXVYw5ZQYorSQPZQqFCz_N6cLhX-uhOj0Bq07xfvcnuIFfYKm5yoo-i9-aVo00CPDDAkq8HMNR9FQxs8DJBfurxYTlTPMRrikHXAO1dnY73_-sPTg9CpAStdFe6lNMMPuY-kdjpOzMnf-sIS0qxjJ7AzKevOVYQQjGwODDJ2SrPJjE-b74HCcCQtRRh3FrrmA078YwuURP3ciM32FsXih7HSqMOS-cs2WOr73ZHGwtrJjYFcW2t8S9td9AsrbFuCDPYa5AbnBZR46ovd1ITfpOpsurx76csIi-Z-CJSp1gtMYbPw0ySd0jbREzvoA_KdhkeT1BKjKHHdeDcEmRBoM6C_rRyEVX7bH2dtLtyVZ2buJuUtwE2POylRVJK7PLN8uAbYm2rCC-_n_X0WPQEFnT8zQfxLMVwbYnHEMGgP8qwAuef2y8MBGgzbfYPeuvrhxBqz-FwgASoJdXMtd2VzdC0yMNcM.m3u8
 #EXTINF:-1 tvg-id="Rai1.it" tvg-chno="1" tvg-logo="https://cdn.jsdelivr.net/gh/Tundrak/IPTV-Italia/logos/rai1.png" group-title="Rai (MPD)",Rai 1
 http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803&output=7&forceUserAgent=raiplayappletv
 #EXTINF:-1 tvg-id="Rai2.it" tvg-chno="2" tvg-logo="https://cdn.jsdelivr.net/gh/Tundrak/IPTV-Italia/logos/rai2.png" group-title="Rai (MPD)",Rai 2
