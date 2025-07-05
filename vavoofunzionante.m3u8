@@ -1,8 +1,6 @@
 #EXTM3U
 #EXTINF:-1 tvg-name="Daddylive" group-title="Eventi Sportivi" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-uno-it.png",Daddylive
 http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fexample.com.m3u8
-#EXTINF:-1 tvg-id="uefawomenseurowalesvsnetherlands" tvg-name="Soccer | Uefa Women's Euro : Wales Vs Netherlands (18:00)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Wales_vs_Netherlands.png" group-title="Eventi Sportivi",Soccer | Uefa Women's Euro : Wales Vs Netherlands (18:00)
-http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fthedaddy.click%2Fstream%2Fstream-882.php
 #EXTINF:-1 tvg-id="uefawomenseurofrancevsengland" tvg-name="Soccer | Uefa Women's Euro : France Vs England (21:00)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/France_vs_England.png" group-title="Eventi Sportivi",Soccer | Uefa Women's Euro : France Vs England (21:00)
 http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fthedaddy.click%2Fstream%2Fstream-1.php
 #EXTINF:-1 tvg-id="fifaclubworldcupquarterfinal4realmadridvsborussiadortmund" tvg-name="Soccer | Fifa Club World Cup Quarter Final 4 : Real Madrid Vs Borussia Dortmund (22:00)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Real Madrid_vs_Borussia Dortmund.png" group-title="Eventi Sportivi",Soccer | Fifa Club World Cup Quarter Final 4 : Real Madrid Vs Borussia Dortmund (22:00)
@@ -13,7 +11,7 @@ http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fthedaddy.click%2Fstrea
 http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fthedaddy.click%2Fstream%2Fstream-878.php
 #EXTINF:-1 tvg-id="2025wimbledonchampionshipsearlyroundcoverageday6" tvg-name="Tennis | 2025 Wimbledon Championships Early Round Coverage, Day 6 (20:00)" tvg-logo="https://www.edigitalagency.com.au/wp-content/uploads/wimbledon-logo-png-transparent-tennis-new-latest-750x750.png" group-title="Eventi Sportivi",Tennis | 2025 Wimbledon Championships Early Round Coverage,Tennis | 2025 Wimbledon Championships Early Round Coverage, Day 6 (20:00)
 http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fthedaddy.click%2Fstream%2Fstream-879.php
-#EXTINF:-1 tvg-id="jumpingmonacoglobalchampionstourevent8" tvg-name="Equestrian | Jumping | Monaco Global Champions Tour | Event 8 (20:00)" tvg-logo="https://static.vecteezy.com/system/resources/previews/015/674/977/original/athletic-man-jumping-png.png" group-title="Eventi Sportivi",Equestrian | Jumping | Monaco Global Champions Tour | Event 8 (20:00)
+#EXTINF:-1 tvg-id="jumpingmonacoglobalchampionstourevent8" tvg-name="Equestrian | Jumping | Monaco Global Champions Tour | Event 8 (20:00)" tvg-logo="https://wallpapers.com/images/hd/jumping-dolphins-png-msa11-zkozgrf5rwn8bq1z.png" group-title="Eventi Sportivi",Equestrian | Jumping | Monaco Global Champions Tour | Event 8 (20:00)
 http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fthedaddy.click%2Fstream%2Fstream-878.php
 #EXTINF:-1 tvg-id="ADMIN" tvg-name="ADMIN" tvg-logo="https://i.postimg.cc/4ysKkc1G/photo-2025-03-28-15-49-45.png" group-title="Eventi Sportivi",ADMIN
 https://static.vecteezy.com/system/resources/previews/033/861/932/mp4/gherkins-close-up-loop-free-video.mp4
