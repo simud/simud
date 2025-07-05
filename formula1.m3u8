@@ -1,6 +1,6 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="rsi la1" tvg-logo="https://il.rsi.ch/rsi-api/resize/image/v2/public/channel/WEBVISUAL/la1.png" group-title="Sky Sport FHD", RSI La1
+#EXTINF:-1 tvg-id="rsi la1" tvg-logo="https://il.rsi.ch/rsi-api/resize/image/v2/public/channel/WEBVISUAL/la1.png" group-title="FORMULA 1", RSI La1
 https://viamotionhsi.netplus.ch/live/eds/rsila1hd/browser-dash/rsila1hd.mpd
 
-#EXTINF:-1 tvg-id="rsi la2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/RSI_La_2_2012.svg/1200px-RSI_La_2_2012.svg.png" group-title="Sky Sport FHD", RSI La2
+#EXTINF:-1 tvg-id="rsi la2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/RSI_La_2_2012.svg/1200px-RSI_La_2_2012.svg.png" group-title="FORMULA 1", RSI La2
 https://viamotionhsi.netplus.ch/live/eds/rsila2hd/browser-dash/rsila2hd.mpd
