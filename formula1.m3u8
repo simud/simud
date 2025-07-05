@@ -1,3 +1,4 @@
+#EXTM3U
 #EXTINF:-1 tvg-id="rsi la1" tvg-logo="https://il.rsi.ch/rsi-api/resize/image/v2/public/channel/WEBVISUAL/la1.png" group-title="Sky Sport FHD", RSI La1
 https://viamotionhsi.netplus.ch/live/eds/rsila1hd/browser-dash/rsila1hd.mpd
 
