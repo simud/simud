@@ -474,6 +474,8 @@ http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%
 # SPORT
 #EXTINF:-1 tvg-id="aci.sport.tv.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/italy/aci-sport-tv-it.png" group-title="Sport",ACI SPORT TV
 http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F13516316035c18ca000fe1
+#EXTINF:-1 tvg-id="dazn.it" tvg-logo="" group-title="Sport",DAZN
+http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F2745635299ab0cc043a143
 #EXTINF:-1 tvg-id="dazn.1.it.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d6/Dazn-logo.png" group-title="Sport",DAZN 1
 http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F1376440573d46b3d682e20
 #EXTINF:-1 tvg-id="dazn.1.it.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d6/Dazn-logo.png" group-title="Sport",DAZN 1 (D)
@@ -522,8 +524,6 @@ http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fthedaddy.click%2Fstrea
 http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fthedaddy.click%2Fstream%2Fstream-875.php
 #EXTINF:-1 tvg-id="sky.sport..256.it" tvg-logo="" group-title="Sport",SKY SPORT 256 (D)
 http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fthedaddy.click%2Fstream%2Fstream-876.php
-#EXTINF:-1 tvg-id="sky.sport.arena.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-arena-it.png" group-title="Sport",SKY SPORT ARENA
-http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F3007400791d5bc640207c3
 #EXTINF:-1 tvg-id="sky.sport.arena.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-arena-it.png" group-title="Sport",SKY SPORT ARENA (D)
 http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fthedaddy.click%2Fstream%2Fstream-462.php
 #EXTINF:-1 tvg-id="sky.sport.calcio.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-calcio-it.png" group-title="Sport",SKY SPORT CALCIO
@@ -548,6 +548,10 @@ http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%
 http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F3897711086f5655aa4d5fb
 #EXTINF:-1 tvg-id="sky.sport.max.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-max-it.png" group-title="Sport",SKY SPORT MAX
 http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F206632691678b853b73adb
+#EXTINF:-1 tvg-id="sky.sport.motogp.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-motogp-it.png" group-title="Sport",SKY SPORT MOTO GP
+http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F30363168866e9eeb997936
+#EXTINF:-1 tvg-id="sky.sport.motogp.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/italy/hd/sky-sport-motogp-hd-it.png" group-title="Sport",SKY SPORT MOTOGP
+http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F2090703806f47d7eb551ce
 #EXTINF:-1 tvg-id="sky.sport.motogp.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/italy/hd/sky-sport-motogp-hd-it.png" group-title="Sport",SKY SPORT MOTOGP (D)
 http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fthedaddy.click%2Fstream%2Fstream-575.php
 #EXTINF:-1 tvg-id="sky.sport.nba.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-nba-it.png" group-title="Sport",SKY SPORT NBA
@@ -824,6 +828,8 @@ http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%
 http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F33760313550167605877f1
 #EXTINF:-1 tvg-id="sky.tg24.it" tvg-logo="https://play-lh.googleusercontent.com/0RJjBW8_r64dWLAbG7kUVrkESbBr9Ukx30pDI83e5_o1obv2MTC7KSpBAIhhXvJAkXE" group-title="News",SKY TG 24
 http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F3180571288b987548e3fe
+#EXTINF:-1 tvg-id="tgcom24.it" tvg-logo="https://yt3.hgoogleusercontent.com/ytc/AIdro_kVh4SupZFtHrALXp9dRWD9aahJOUfl8rhSF8VroefSLg=s900-c-k-c0x00ffffff-no-rj" group-title="News",TG COM 24
+http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F1785098768e3514b1dbecc
 #EXTINF:-1 tvg-id="tg.norba.24.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/italy/tg-norba-24-it.png" group-title="News",TG NORBA 24
 http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F33797298178cac7afa180a
 #EXTINF:-1 tvg-id="tg.norba.24.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/italy/tg-norba-24-it.png" group-title="News",TG NORBA 24
@@ -869,6 +875,8 @@ http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%
 http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F1803677691b051ba6d360f
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Rai_Italia_-_Logo_2017.svg/1024px-Rai_Italia_-_Logo_2017.svg.png" group-title="Rai",RAI ITALIA
 http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F374675593c812bca5a0f0
+#EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Rai_Italia_-_Logo_2017.svg/1024px-Rai_Italia_-_Logo_2017.svg.png" group-title="Rai",RAI ITALIA
+http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F2944572451ecdb3159250
 #EXTINF:-1 tvg-id="raimovie.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-movie-it.png" group-title="Rai",RAI MOVIE
 http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F2835672487db54f8727bf9
 #EXTINF:-1 tvg-id="raimovie.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-movie-it.png" group-title="Rai",RAI MOVIE
@@ -911,7 +919,7 @@ http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fthedaddy.click%2Fstrea
 http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fthedaddy.click%2Fstream%2Fstream-1.php
 #EXTINF:-1 tvg-id="fifaclubworldcupquarterfinal4realmadridvsborussiadortmund" tvg-name="Soccer | FIFA Club World Cup Quarter Final 4 : Real Madrid vs Borussia Dortmund (22:00)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Real Madrid_vs_Borussia Dortmund.png" group-title="Eventi Live",Soccer | FIFA Club World Cup Quarter Final 4 : Real Madrid vs Borussia Dortmund (22:00)
 http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fthedaddy.click%2Fstream%2Fstream-30.php
-#EXTINF:-1 tvg-id="2025wimbledonchampionshipsearlyroundcoverageday6" tvg-name="Tennis | 2025 Wimbledon Championships Early Round Coverage, Day 6 (20:00)" tvg-logo="https://blog.flicks.co.nz/wp-content/uploads/The-Championships-Wimbledon-Logo-2.png" group-title="Eventi Live",Tennis | 2025 Wimbledon Championships Early Round Coverage, Day 6 (20:00)
+#EXTINF:-1 tvg-id="2025wimbledonchampionshipsearlyroundcoverageday6" tvg-name="Tennis | 2025 Wimbledon Championships Early Round Coverage, Day 6 (20:00)" tvg-logo="https://www.edigitalagency.com.au/wp-content/uploads/wimbledon-logo-png-transparent-tennis-new-latest-750x750.png" group-title="Eventi Live",Tennis | 2025 Wimbledon Championships Early Round Coverage, Day 6 (20:00)
 http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fthedaddy.click%2Fstream%2Fstream-576.php
 #EXTINF:-1 tvg-id="2025wimbledonchampionshipsearlyroundcoverageday6" tvg-name="Tennis | 2025 Wimbledon Championships Early Round Coverage, Day 6 (20:00)" tvg-logo="https://www.edigitalagency.com.au/wp-content/uploads/wimbledon-logo-png-transparent-tennis-new-latest-750x750.png" group-title="Eventi Live",Tennis | 2025 Wimbledon Championships Early Round Coverage, Day 6 (20:00)
 http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fthedaddy.click%2Fstream%2Fstream-878.php
@@ -923,13 +931,13 @@ http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fthedaddy.click%2Fstrea
 http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fthedaddy.click%2Fstream%2Fstream-577.php
 #EXTINF:-1 tvg-id="formula2qatarairwaysbritishgpsprintrace" tvg-name="Motorsport | Formula 2 : Qatar Airways British GP - Sprint Race (14:15)" tvg-logo="https://assets.antenaplay.ro/2024/02/28/YW9VML2K4hpFUKMHme97.png" group-title="Eventi Live",Motorsport | Formula 2 : Qatar Airways British GP - Sprint Race (14:15)
 http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fthedaddy.click%2Fstream%2Fstream-577.php
-#EXTINF:-1 tvg-id="formula1qatarairwaysbritishgpqualifying" tvg-name="Motorsport | Formula 1 : Qatar Airways British GP - Qualifying (16:00)" tvg-logo="https://logospng.org/download/formula-1/formula-1-4096.png" group-title="Eventi Live",Motorsport | Formula 1 : Qatar Airways British GP - Qualifying (16:00)
+#EXTINF:-1 tvg-id="formula1qatarairwaysbritishgpqualifying" tvg-name="Motorsport | Formula 1 : Qatar Airways British GP - Qualifying (16:00)" tvg-logo="https://i0.wp.com/logodownload.org/wp-content/uploads/2016/11/formula-1-logo-0.png" group-title="Eventi Live",Motorsport | Formula 1 : Qatar Airways British GP - Qualifying (16:00)
 http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fthedaddy.click%2Fstream%2Fstream-577.php
 #EXTINF:-1 tvg-id="brusselsfreestylesemifinalsworldcupwomen" tvg-name="Cycling | Brussels | Freestyle | Semifinals World Cup | Women (15:45)" tvg-logo="https://diabeteswise.org/assets/default-site/freestyle-libre-2-device-image__FocusFillMaxWyIwLjAwIiwiMC4wMCIsODAwLDgwMF0.png" group-title="Eventi Live",Cycling | Brussels | Freestyle | Semifinals World Cup | Women (15:45)
 http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fthedaddy.click%2Fstream%2Fstream-879.php
-#EXTINF:-1 tvg-id="jumpingmonacoglobalchampionstourevent8" tvg-name="Equestrian | Jumping | Monaco Global Champions Tour | Event 8 (20:00)" tvg-logo="https://static.vecteezy.com/system/resources/previews/015/674/977/original/athletic-man-jumping-png.png" group-title="Eventi Live",Equestrian | Jumping | Monaco Global Champions Tour | Event 8 (20:00)
+#EXTINF:-1 tvg-id="jumpingmonacoglobalchampionstourevent8" tvg-name="Equestrian | Jumping | Monaco Global Champions Tour | Event 8 (20:00)" tvg-logo="https://wallpapers.com/images/hd/jumping-dolphins-png-msa11-zkozgrf5rwn8bq1z.png" group-title="Eventi Live",Equestrian | Jumping | Monaco Global Champions Tour | Event 8 (20:00)
 http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fthedaddy.click%2Fstream%2Fstream-878.php
-#EXTINF:-1 tvg-id="grandprixdivingmeetingbolzano2025finals2ndday" tvg-name="Water Sports | Grand Prix Diving Meeting Bolzano 2025-Finals 2nd day (16:00)" tvg-logo="https://liquipedia.net/commons/images/f/f4/Brawl_Stars_World_Finals_2024_allmode.png" group-title="Eventi Live",Water Sports | Grand Prix Diving Meeting Bolzano 2025-Finals 2nd day (16:00)
+#EXTINF:-1 tvg-id="grandprixdivingmeetingbolzano2025finals2ndday" tvg-name="Water Sports | Grand Prix Diving Meeting Bolzano 2025-Finals 2nd day (16:00)" tvg-logo="https://static.wixstatic.com/media/4f93e7_e3908e43d4704edfbeea0c1a080a4341~mv2.png/v1/crop/x_0,y_86,w_1501,h_1338/fill/w_139,h_124,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/BCBRA_Logo TransBackground.png" group-title="Eventi Live",Water Sports | Grand Prix Diving Meeting Bolzano 2025-Finals 2nd day (16:00)
 http://nzo66-tvproxy.hf.space/proxy/m3u?url=https%3A%2F%2Fthedaddy.click%2Fstream%2Fstream-882.php
 #EXTINF:-1 tvg-chno="80" tvg-name="Pluto TV Christmas" tvg-logo="https://images.pluto.tv/channels/612e05b885183d0007958101/colorLogoPNG.png" tvg-id="612e05b885183d0007958101" group-title="Pluto TV Italia",Pluto TV Christmas
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/612e05b885183d0007958101/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
