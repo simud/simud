@@ -1,21 +1,273 @@
 #EXTM3U
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/perma/live1.png", Sport 24Diretta sempre attiva
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live1.png", Rai 1Diretta sempre attiva
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
-https://xuione.sportstreaming.net/SportStreaming/SportStreaming/2.m3u8
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/perma/live2.png", Formula 1Diretta sempre attiva
+https://xuione.sportstreaming.net/SportStreaming/SportStreaming/1599.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live2.png", Rai 2Diretta sempre attiva
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
-https://xuione.sportstreaming.net/SportStreaming/SportStreaming/4.m3u8
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/perma/live3.png", Moto GPDiretta sempre attiva
+https://xuione.sportstreaming.net/SportStreaming/SportStreaming/1600.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live3.png", Rai 3Diretta sempre attiva
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
-https://xuione.sportstreaming.net/SportStreaming/SportStreaming/5.m3u8
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/perma/live4.png", NBADiretta sempre attiva
+https://xuione.sportstreaming.net/SportStreaming/SportStreaming/1601.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live4.png", Rete 4Diretta sempre attiva
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
-https://xuione.sportstreaming.net/SportStreaming/SportStreaming/9.m3u8
-#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/perma/live5.png", TennisDiretta sempre attiva
+https://xuione.sportstreaming.net/SportStreaming/SportStreaming/1602.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live5.png", Canale 5Diretta sempre attiva
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
-https://xuione.sportstreaming.net/SportStreaming/SportStreaming/8.m3u8
+https://xuione.sportstreaming.net/SportStreaming/SportStreaming/1603.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live6.png", Italia 1Diretta sempre attiva
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://xuione.sportstreaming.net/SportStreaming/SportStreaming/1604.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live8.png", Sky Sport 24Diretta sempre attiva
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://xuione.sportstreaming.net/SportStreaming/SportStreaming/1619.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live9.png", Sky Sport Formula 1Diretta sempre attiva
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://xuione.sportstreaming.net/SportStreaming/SportStreaming/1620.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live10.png", Sky Sport Moto GPDiretta sempre attiva
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://xuione.sportstreaming.net/SportStreaming/SportStreaming/1621.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live11.png", Sky Sport BasketDiretta sempre attiva
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://xuione.sportstreaming.net/SportStreaming/SportStreaming/1622.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live12.png", Sky Sport TennisDiretta sempre attiva
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://xuione.sportstreaming.net/SportStreaming/SportStreaming/1623.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live13.png", Sky Sport GolfDiretta sempre attiva
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://xuione.sportstreaming.net/SportStreaming/SportStreaming/1666.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live14.png", Sky Sport UnoDiretta sempre attiva
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://xuione.sportstreaming.net/SportStreaming/SportStreaming/1606.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live15.png", Sky Sport MaxDiretta sempre attiva
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://xuione.sportstreaming.net/SportStreaming/SportStreaming/1607.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live16.png", Sky Sport ArenaDiretta sempre attiva
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://xuione.sportstreaming.net/SportStreaming/SportStreaming/1608.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live17.png", Sky Sport CalcioDiretta sempre attiva
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://xuione.sportstreaming.net/SportStreaming/SportStreaming/1609.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live18.png", Sky Sport 251Diretta sempre attiva
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://xuione.sportstreaming.net/SportStreaming/SportStreaming/1610.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live19.png", Sky Sport 252Diretta sempre attiva
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://xuione.sportstreaming.net/SportStreaming/SportStreaming/1611.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live20.png", Sky Sport 253Diretta sempre attiva
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://xuione.sportstreaming.net/SportStreaming/SportStreaming/1612.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live21.png", Sky Sport 254Diretta sempre attiva
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://xuione.sportstreaming.net/SportStreaming/SportStreaming/1613.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live22.png", Sky Sport 255Diretta sempre attiva
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://xuione.sportstreaming.net/SportStreaming/SportStreaming/1614.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live23.png", Sky Sport 256Diretta sempre attiva
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://xuione.sportstreaming.net/SportStreaming/SportStreaming/1615.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live24.png", Sky Sport 257Diretta sempre attiva
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://xuione.sportstreaming.net/SportStreaming/SportStreaming/1616.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live25.png", Sky Sport 258Diretta sempre attiva
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://xuione.sportstreaming.net/SportStreaming/SportStreaming/1617.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live26.png", Sky Sport 259Diretta sempre attiva
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://xuione.sportstreaming.net/SportStreaming/SportStreaming/1618.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live7.png", Amazon Prime EventiDiretta sempre attiva
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://xuione.sportstreaming.net/SportStreaming/SportStreaming/1605.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live27.png", DAZN Zona Serie ADiretta sempre attiva
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://xuione.sportstreaming.net/SportStreaming/SportStreaming/1624.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live28.png", DAZN AtalantaDiretta sempre attiva
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://xuione.sportstreaming.net/SportStreaming/SportStreaming/1625.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live29.png", DAZN BolognaDiretta sempre attiva
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://xuione.sportstreaming.net/SportStreaming/SportStreaming/1626.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live30.png", DAZN CagliariDiretta sempre attiva
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://xuione.sportstreaming.net/SportStreaming/SportStreaming/1627.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live31.png", DAZN ComoDiretta sempre attiva
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://xuione.sportstreaming.net/SportStreaming/SportStreaming/1628.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live32.png", DAZN FiorentinaDiretta sempre attiva
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://xuione.sportstreaming.net/SportStreaming/SportStreaming/1630.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live33.png", DAZN GenoaDiretta sempre attiva
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://xuione.sportstreaming.net/SportStreaming/SportStreaming/1631.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live34.png", DAZN Hellas VeronaDiretta sempre attiva
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://xuione.sportstreaming.net/SportStreaming/SportStreaming/1632.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live35.png", DAZN InterDiretta sempre attiva
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://xuione.sportstreaming.net/SportStreaming/SportStreaming/1633.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live36.png", DAZN JuvenusDiretta sempre attiva
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://xuione.sportstreaming.net/SportStreaming/SportStreaming/1634.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live37.png", DAZN LazioDiretta sempre attiva
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://xuione.sportstreaming.net/SportStreaming/SportStreaming/1635.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live38.png", DAZN LecceDiretta sempre attiva
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://xuione.sportstreaming.net/SportStreaming/SportStreaming/1636.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live39.png", DAZN MilanDiretta sempre attiva
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://xuione.sportstreaming.net/SportStreaming/SportStreaming/1637.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live40.png", DAZN NapoliDiretta sempre attiva
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://xuione.sportstreaming.net/SportStreaming/SportStreaming/1639.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live41.png", DAZN ParmaDiretta sempre attiva
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://xuione.sportstreaming.net/SportStreaming/SportStreaming/1640.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live42.png", DAZN RomaDiretta sempre attiva
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://xuione.sportstreaming.net/SportStreaming/SportStreaming/1641.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live43.png", DAZN TorinoDiretta sempre attiva
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://xuione.sportstreaming.net/SportStreaming/SportStreaming/1642.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live44.png", DAZN UdineseDiretta sempre attiva
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://xuione.sportstreaming.net/SportStreaming/SportStreaming/1643.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live45.png", DAZN CremoneseDiretta sempre attiva
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://xuione.sportstreaming.net/SportStreaming/SportStreaming/1653.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live46.png", DAZN PisaDiretta sempre attiva
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://xuione.sportstreaming.net/SportStreaming/SportStreaming/1659.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live47.png", DAZN SassuoloDiretta sempre attiva
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://xuione.sportstreaming.net/SportStreaming/SportStreaming/1663.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live48.png", DAZN Zona Serie BDiretta sempre attiva
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://xuione.sportstreaming.net/SportStreaming/SportStreaming/1645.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live49.png", DAZN EmpoliDiretta sempre attiva
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://xuione.sportstreaming.net/SportStreaming/SportStreaming/1629.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live50.png", DAZN MonzaDiretta sempre attiva
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://xuione.sportstreaming.net/SportStreaming/SportStreaming/1638.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live51.png", DAZN VeneziaDiretta sempre attiva
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://xuione.sportstreaming.net/SportStreaming/SportStreaming/1644.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live52.png", DAZN BariDiretta sempre attiva
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://xuione.sportstreaming.net/SportStreaming/SportStreaming/1646.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live53.png", DAZN PescaraDiretta sempre attiva
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://xuione.sportstreaming.net/SportStreaming/SportStreaming/1647.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live54.png", DAZN CarrareseDiretta sempre attiva
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://xuione.sportstreaming.net/SportStreaming/SportStreaming/1648.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live55.png", DAZN CatanzaroDiretta sempre attiva
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://xuione.sportstreaming.net/SportStreaming/SportStreaming/1649.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live56.png", DAZN CesenaDiretta sempre attiva
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://xuione.sportstreaming.net/SportStreaming/SportStreaming/1650.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live57.png", DAZN Virtus EntellaDiretta sempre attiva
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://xuione.sportstreaming.net/SportStreaming/SportStreaming/1651.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live58.png", DAZN AvellinoDiretta sempre attiva
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://xuione.sportstreaming.net/SportStreaming/SportStreaming/1652.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live59.png", DAZN FrosinoneDiretta sempre attiva
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://xuione.sportstreaming.net/SportStreaming/SportStreaming/1654.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live60.png", DAZN Juve StabiaDiretta sempre attiva
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://xuione.sportstreaming.net/SportStreaming/SportStreaming/1655.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live61.png", DAZN MantovaDiretta sempre attiva
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://xuione.sportstreaming.net/SportStreaming/SportStreaming/1656.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live62.png", DAZN ModenaDiretta sempre attiva
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://xuione.sportstreaming.net/SportStreaming/SportStreaming/1657.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live63.png", DAZN PalermoDiretta sempre attiva
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://xuione.sportstreaming.net/SportStreaming/SportStreaming/1658.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live64.png", DAZN ReggianaDiretta sempre attiva
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://xuione.sportstreaming.net/SportStreaming/SportStreaming/1660.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live65.png", DAZN SampdoriaDiretta sempre attiva
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://xuione.sportstreaming.net/SportStreaming/SportStreaming/1661.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live66.png", DAZN PadovaDiretta sempre attiva
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://xuione.sportstreaming.net/SportStreaming/SportStreaming/1662.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live67.png", DAZN SpeziaDiretta sempre attiva
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://xuione.sportstreaming.net/SportStreaming/SportStreaming/1664.m3u8
+#EXTINF:-1 group-title="Eventi" tvg-logo="https://sportstreaming.net/assets/img/live/standard/live68.png", DAZN SudtirolDiretta sempre attiva
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://www.sportstreaming.net/
+https://xuione.sportstreaming.net/SportStreaming/SportStreaming/1665.m3u8
